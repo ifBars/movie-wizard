@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 
+export type CatalogViewData = ReturnType<typeof useCatalogViewData>;
+
 export function useCatalogViewData(library: MovieLibrary, search: string) {
   const topPicks = useMemo(() => library.recommendations.map((recommendation) => recommendation.movie), [library.recommendations]);
 
