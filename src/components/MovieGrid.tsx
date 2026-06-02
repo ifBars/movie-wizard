@@ -1,0 +1,55 @@
+import { BookmarkSimple } from "@phosphor-icons/react";
+import { motion, useReducedMotion } from "framer-motion";
+import { MoviePosterCard } from "@/components/MoviePosterCard";
+import { SectionHeader } from "@/components/SectionHeader";
+import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import { fadeScale, fadeSlide, softSpring } from "@/lib/motion";
+import type { Movie } from "@/types";
+import type { ReactNode } from "react";
+
+type MovieGridProps = {
+  title: string;
+  subtitle: string;
+  movies: Movie[];
+  library: MovieLibrary;
+  onOpenMovie: (movieId: string) => void;
+  onMovieIntent?: () => void;
+  headerAction?: ReactNode;
+};
+
+export function MovieGrid({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, headerAction }: MovieGridProps) {
+  const shouldReduceMotion = useReducedMotion();
+
+  if (movies.length === 0) {
+    return (
+      <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
+        <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
+        <motion.div className="empty-catalog" layout {...fadeScale(shouldReduceMotion)}>
+          <BookmarkSimple />
+          <h3>No movies found</h3>
+          <p>Try a different title, actor, director, genre, or release year.</p>
+        </motion.div>
+      </motion.section>
+    );
+  }
+
+  return (
+    <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
+      <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
+      <motion.div className="movie-grid" layout transition={softSpring}>
+        {movies.map((movie) => (
+          <MoviePosterCard
+            key={movie.id}
+            movie={movie}
+            state={library.states[movie.id]}
+            onRate={library.rateMovie}
+            onToggleWatched={library.toggleWatched}
+            onToggleWatchlist={library.toggleWatchlist}
+            onOpen={onOpenMovie}
+            onPreviewIntent={onMovieIntent}
+          />
+        ))}
+      </motion.div>
+    </motion.section>
+  );
+}

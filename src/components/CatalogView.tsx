@@ -1,8 +1,13 @@
+import { ListBullets, SquaresFour } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useState } from "react";
+import type { PointerEvent } from "react";
+import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import type { ViewId } from "@/lib/navigation";
 import { fadeSlide, pageFade } from "@/lib/motion";
+import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
 type CatalogViewProps = {
@@ -87,16 +92,26 @@ function DiscoverRows({
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: () => void;
 }) {
+  const [searchLayout, setSearchLayout] = useState<"grid" | "row">("grid");
+
   if (search) {
+    const headerAction = <SearchResultsLayoutToggle layout={searchLayout} onLayoutChange={setSearchLayout} />;
+    const sharedProps = {
+      title: "search results",
+      subtitle: `${filteredCatalog.length} matches in the local catalog`,
+      movies: filteredCatalog,
+      library,
+      onOpenMovie,
+      onMovieIntent: onPreloadMovieDetails,
+      headerAction,
+    };
+
+    if (searchLayout === "row") {
+      return <MovieRow {...sharedProps} />;
+    }
+
     return (
-      <MovieRow
-        title="search results"
-        subtitle={`${filteredCatalog.length} matches in the local catalog`}
-        movies={filteredCatalog}
-        library={library}
-        onOpenMovie={onOpenMovie}
-        onMovieIntent={onPreloadMovieDetails}
-      />
+      <MovieGrid {...sharedProps} />
     );
   }
 
@@ -120,6 +135,49 @@ function DiscoverRows({
       />
       <PrivacyNote />
     </>
+  );
+}
+
+function SearchResultsLayoutToggle({
+  layout,
+  onLayoutChange,
+}: {
+  layout: "grid" | "row";
+  onLayoutChange: (layout: "grid" | "row") => void;
+}) {
+  const shouldReduceMotion = useReducedMotion();
+
+  function handlePointerDown(event: PointerEvent<HTMLButtonElement>, nextLayout: "grid" | "row") {
+    if (event.pointerType === "touch" || event.pointerType === "pen") {
+      onLayoutChange(nextLayout);
+    }
+  }
+
+  return (
+    <div className="view-toggle search-results-view-toggle" role="group" aria-label="Search results layout">
+      <motion.button
+        type="button"
+        className={cn(layout === "grid" && "is-selected")}
+        aria-pressed={layout === "grid"}
+        onPointerDown={(event) => handlePointerDown(event, "grid")}
+        onClick={() => onLayoutChange("grid")}
+        whileTap={shouldReduceMotion ? undefined : { scale: 0.94 }}
+      >
+        <SquaresFour weight="bold" />
+        <span>Grid</span>
+      </motion.button>
+      <motion.button
+        type="button"
+        className={cn(layout === "row" && "is-selected")}
+        aria-pressed={layout === "row"}
+        onPointerDown={(event) => handlePointerDown(event, "row")}
+        onClick={() => onLayoutChange("row")}
+        whileTap={shouldReduceMotion ? undefined : { scale: 0.94 }}
+      >
+        <ListBullets weight="bold" />
+        <span>Row</span>
+      </motion.button>
+    </div>
   );
 }
 

@@ -7,6 +7,7 @@ import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { fadeScale, fadeSlide, quickSpring, softSpring } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
+import type { ReactNode } from "react";
 
 type MovieRowProps = {
   title: string;
@@ -15,9 +16,10 @@ type MovieRowProps = {
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
   onMovieIntent?: () => void;
+  headerAction?: ReactNode;
 };
 
-export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovieIntent }: MovieRowProps) {
+export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, headerAction }: MovieRowProps) {
   const shouldReduceMotion = useReducedMotion();
   const {
     canScrollLeft,
@@ -39,7 +41,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
   if (movies.length === 0) {
     return (
       <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
-        <SectionHeader title={title} subtitle={subtitle} />
+        <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
         <motion.div className="empty-catalog" layout {...fadeScale(shouldReduceMotion)}>
           <BookmarkSimple />
           <h3>No movies here yet</h3>
@@ -51,7 +53,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
 
   return (
     <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
-      <SectionHeader title={title} subtitle={subtitle} />
+      <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
       <div className="movie-row-frame">
         <AnimatePresence initial={false}>
           {canScrollLeft ? (
