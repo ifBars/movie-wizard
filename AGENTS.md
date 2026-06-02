@@ -20,6 +20,12 @@ Movie Wizard is a static React + Tailwind app for rating watched movies, trackin
 - If another agent's work overlaps with your task, preserve their changes and adapt around them. Ask the user only when the overlap makes the requested work unsafe or impossible.
 - When reporting results, mention any pre-existing or parallel changes you noticed but intentionally left untouched.
 
+## CodeGraph
+
+- This repository has been initialized for CodeGraph. Use CodeGraph tools for codebase orientation, symbol lookup, call tracing, dependency impact checks, and architecture questions before falling back to broad text searches.
+- Prefer `codegraph_context` for feature-area orientation, `codegraph_search` for known symbols, `codegraph_trace` for flow questions, and `codegraph_impact` before changing shared code.
+- After editing files, remember the CodeGraph index may lag briefly; if CodeGraph reports pending or stale files, read those files directly before making decisions from their contents.
+
 ## Architecture
 
 - Keep user data in browser-local storage for now.
