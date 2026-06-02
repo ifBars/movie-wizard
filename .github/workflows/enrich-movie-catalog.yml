@@ -6,11 +6,11 @@ on:
       limit:
         description: "Maximum new records to add"
         required: false
-        default: "250"
+        default: "1000"
       pages:
         description: "TMDb list/discover pages to inspect"
         required: false
-        default: "20"
+        default: "15"
   schedule:
     - cron: "23 9 * * *"
 
