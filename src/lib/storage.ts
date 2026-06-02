@@ -21,6 +21,11 @@ type StoredSettings = {
   settings: LibrarySettings;
 };
 
+export type ImportedLibrary = {
+  movies: MovieStateMap;
+  settings: LibrarySettings;
+};
+
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
@@ -86,6 +91,17 @@ function parseStoredSettings(value: unknown): LibrarySettings {
   };
 }
 
+function parseExportedLibrary(value: unknown): ImportedLibrary | null {
+  if (!isRecord(value) || value.app !== "movie-wizard" || value.version !== 1) {
+    return null;
+  }
+
+  return {
+    movies: parseMovieStateMap(value.movies),
+    settings: parseStoredSettings({ version: 1, settings: value.settings }),
+  };
+}
+
 export function loadMovieState(): MovieStateMap {
   if (typeof window === "undefined") {
     return {};
@@ -136,6 +152,14 @@ export function saveLibrarySettings(settings: LibrarySettings) {
   };
 
   window.localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(payload));
+}
+
+export function importMovieState(rawJson: string): ImportedLibrary | null {
+  try {
+    return parseExportedLibrary(JSON.parse(rawJson));
+  } catch {
+    return null;
+  }
 }
 
 export function exportMovieState(movies: MovieStateMap, settings: LibrarySettings) {

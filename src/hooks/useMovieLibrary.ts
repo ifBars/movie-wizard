@@ -3,7 +3,14 @@ import { useMountEffect } from "@/hooks/useExternalSyncEffect";
 import { filterCatalogMovies, getCatalogFilterCounts } from "@/lib/catalogFilters";
 import { loadMovieCatalog } from "@/lib/catalogRepository";
 import { buildTasteProfile, getRecommendations } from "@/lib/recommendations";
-import { exportMovieState, loadLibrarySettings, loadMovieState, saveLibrarySettings, saveMovieState } from "@/lib/storage";
+import {
+  exportMovieState,
+  importMovieState,
+  loadLibrarySettings,
+  loadMovieState,
+  saveLibrarySettings,
+  saveMovieState,
+} from "@/lib/storage";
 import type { LibrarySettings } from "@/types";
 import type { Movie, MovieStateMap, Rating, UserMovieState } from "@/types";
 
@@ -203,6 +210,21 @@ export function useMovieLibrary() {
 
   const exportLibrary = useCallback(() => exportMovieState(states, settings), [settings, states]);
 
+  const importLibrary = useCallback((rawJson: string) => {
+    const importedLibrary = importMovieState(rawJson);
+
+    if (!importedLibrary) {
+      return false;
+    }
+
+    saveMovieState(importedLibrary.movies);
+    saveLibrarySettings(importedLibrary.settings);
+    setStates(importedLibrary.movies);
+    setSettings(importedLibrary.settings);
+
+    return true;
+  }, []);
+
   return useMemo(
     () => ({
       movies,
@@ -227,10 +249,12 @@ export function useMovieLibrary() {
       setMinimumRecommendationYear,
       setShowAdultMovies,
       exportLibrary,
+      importLibrary,
     }),
     [
       catalogError,
       exportLibrary,
+      importLibrary,
       filterCounts.hiddenAdultMovieCount,
       filterCounts.hiddenLanguageMovieCount,
       isCatalogLoading,

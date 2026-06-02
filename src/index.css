@@ -1481,6 +1481,25 @@ input:focus-visible {
   background: color-mix(in srgb, var(--brand-orange) 10%, transparent);
 }
 
+.settings-import-control {
+  display: grid;
+  justify-items: end;
+  gap: 0.45rem;
+}
+
+.settings-import-status {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.settings-import-status--error {
+  color: var(--brand-orange);
+}
+
 .settings-year-input input {
   width: 8.6rem;
   min-height: 2.45rem;

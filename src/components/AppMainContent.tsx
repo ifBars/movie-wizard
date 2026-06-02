@@ -132,6 +132,7 @@ function AppPage({
         <Suspense fallback={<CatalogLoadingState title="Loading settings" subtitle="Preparing your local data controls." />}>
           <LazySettingsPanel
             onExport={library.exportLibrary}
+            onImport={library.importLibrary}
             onReset={library.resetLibrary}
             ratedCount={library.ratedMovies.length}
             watchlistCount={library.watchlistMovies.length}

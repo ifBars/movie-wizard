@@ -13,11 +13,13 @@ import {
   SlidersHorizontal,
   Sun,
   Trash,
+  UploadSimple,
   Warning,
 } from "@phosphor-icons/react";
 import type { Icon } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
-import type { ReactNode } from "react";
+import { useRef, useState } from "react";
+import type { ChangeEvent, ReactNode } from "react";
 import type { ThemeMode } from "@/hooks/useThemeMode";
 import { supportedLanguages } from "@/lib/languagePreferences";
 import { fadeSlide, quickSpring, softSpring } from "@/lib/motion";
@@ -28,6 +30,7 @@ const tmdbLogoUrl =
 
 type SettingsPanelProps = {
   onExport: () => string;
+  onImport: (rawJson: string) => boolean;
   onReset: () => void;
   ratedCount: number;
   watchlistCount: number;
@@ -70,6 +73,7 @@ function SettingsRow({ children, description, icon: IconComponent, title, tone =
 
 export function SettingsPanel({
   onExport,
+  onImport,
   onReset,
   ratedCount,
   watchlistCount,
@@ -87,6 +91,8 @@ export function SettingsPanel({
   onThemeModeChange,
 }: SettingsPanelProps) {
   const shouldReduceMotion = useReducedMotion();
+  const importInputRef = useRef<HTMLInputElement>(null);
+  const [importStatus, setImportStatus] = useState<"idle" | "success" | "error">("idle");
   const hiddenTitleCount = hiddenAdultMovieCount + hiddenLanguageMovieCount;
   const selectedLanguageLabels = supportedLanguages
     .filter((language) => languageCodes.includes(language.code))
@@ -102,6 +108,26 @@ export function SettingsPanel({
     anchor.download = `movie-wizard-export-${new Date().toISOString().slice(0, 10)}.json`;
     anchor.click();
     URL.revokeObjectURL(url);
+  }
+
+  function handleImportClick() {
+    importInputRef.current?.click();
+  }
+
+  async function handleImportFile(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.currentTarget.files?.[0];
+    event.currentTarget.value = "";
+
+    if (!file) {
+      return;
+    }
+
+    try {
+      const didImport = onImport(await file.text());
+      setImportStatus(didImport ? "success" : "error");
+    } catch {
+      setImportStatus("error");
+    }
   }
 
   function handleReset() {
@@ -198,6 +224,36 @@ export function SettingsPanel({
                 <DownloadSimple weight="bold" />
                 Export backup
               </motion.button>
+            </SettingsRow>
+            <SettingsRow
+              icon={UploadSimple}
+              title="Import backup"
+              description="Restore ratings, watchlist picks, watched flags, and preferences from an exported JSON file."
+            >
+              <div className="settings-import-control">
+                <input
+                  ref={importInputRef}
+                  className="sr-only"
+                  type="file"
+                  accept="application/json,.json"
+                  onChange={handleImportFile}
+                />
+                <motion.button
+                  type="button"
+                  className="settings-action"
+                  onClick={handleImportClick}
+                  whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
+                  transition={quickSpring}
+                >
+                  <UploadSimple weight="bold" />
+                  Import backup
+                </motion.button>
+                {importStatus !== "idle" ? (
+                  <p className={cn("settings-import-status", importStatus === "error" && "settings-import-status--error")} aria-live="polite">
+                    {importStatus === "success" ? "Backup imported." : "Choose a valid Movie Wizard export."}
+                  </p>
+                ) : null}
+              </div>
             </SettingsRow>
             <SettingsRow
               icon={Trash}
