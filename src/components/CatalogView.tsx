@@ -83,7 +83,7 @@ function WatchlistMovies({
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: () => void;
 }) {
-  const [layout, setLayout] = useState<CatalogLayout>("row");
+  const [layout, setLayout] = useState<CatalogLayout>("grid");
   const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="Watchlist layout" />;
   const sharedProps = {
     title: "watchlist",
