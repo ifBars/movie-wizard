@@ -214,6 +214,11 @@ input:focus-visible {
   padding: 0 0.85rem;
 }
 
+.search-box:focus-within {
+  border-color: rgb(255 255 255 / 0.38);
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 0.12);
+}
+
 .search-box svg {
   width: 1.25rem;
   height: 1.25rem;
@@ -226,6 +231,7 @@ input:focus-visible {
   background: transparent;
   color: white;
   font-size: 1rem;
+  outline: none;
 }
 
 .search-box input::placeholder {
