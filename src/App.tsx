@@ -1,24 +1,42 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { Suspense, useEffect, useLayoutEffect, useMemo, useState } from "react";
+import { matchPath, Navigate, useLocation, useNavigate } from "react-router";
 import { AppHeader } from "@/components/AppHeader";
 import { CatalogLoadingState } from "@/components/CatalogLoadingState";
 import { CatalogView } from "@/components/CatalogView";
 import { useCatalogViewData } from "@/hooks/useCatalogViewData";
 import { useMovieLibrary } from "@/hooks/useMovieLibrary";
 import { useThemeMode } from "@/hooks/useThemeMode";
-import { type ViewId } from "@/lib/navigation";
+import { movieDetailPath, type ViewId, viewFromPath, viewPath } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import { LazyMovieDetailsPage, LazySettingsPanel, preloadMovieDetailsPage, preloadSettingsPanel } from "@/routes/lazyRoutes";
 
-function getInitialMovieId() {
-  return window.location.hash.startsWith("#movie/") ? decodeURIComponent(window.location.hash.slice("#movie/".length)) : null;
+function getRouteState(pathname: string) {
+  const movieMatch = matchPath("/movie/:movieId", pathname);
+
+  if (movieMatch?.params.movieId) {
+    return {
+      activeView: "discover" as ViewId,
+      isKnownRoute: true,
+      selectedMovieId: movieMatch.params.movieId,
+    };
+  }
+
+  const activeView = viewFromPath(pathname);
+
+  return {
+    activeView,
+    isKnownRoute: pathname === viewPath(activeView),
+    selectedMovieId: null,
+  };
 }
 
 function App() {
-  const [activeView, setActiveView] = useState<ViewId>("discover");
   const [search, setSearch] = useState("");
-  const [selectedMovieId, setSelectedMovieId] = useState<string | null>(() => getInitialMovieId());
+  const location = useLocation();
+  const navigate = useNavigate();
+  const { activeView, isKnownRoute, selectedMovieId } = useMemo(() => getRouteState(location.pathname), [location.pathname]);
   const { themeMode, toggleTheme } = useThemeMode();
   const shouldReduceMotion = useReducedMotion();
   const library = useMovieLibrary();
@@ -51,10 +69,14 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (selectedMovie) {
-      window.scrollTo({ top: 0 });
+    if (activeView === "settings") {
+      preloadSettingsPanel();
     }
-  }, [selectedMovie]);
+  }, [activeView]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [location.pathname]);
 
   useEffect(() => {
     if (!library.isCatalogLoading && !library.catalogError) {
@@ -64,25 +86,22 @@ function App() {
 
   function openMovie(movieId: string) {
     preloadMovieDetailsPage();
-    setSelectedMovieId(movieId);
-    window.history.replaceState(null, "", `#movie/${encodeURIComponent(movieId)}`);
+    navigate(movieDetailPath(movieId));
     window.scrollTo({ top: 0 });
   }
 
   function closeMovie() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    setSelectedMovieId(null);
-    window.history.replaceState(null, "", window.location.pathname + window.location.search);
-  }
-
-  function navigateToView(view: ViewId) {
-    if (view === "settings") {
-      preloadSettingsPanel();
+    if (window.history.state?.idx > 0) {
+      navigate(-1);
+      return;
     }
 
-    closeMovie();
-    setActiveView(view);
-    window.scrollTo({ top: 0 });
+    navigate(viewPath("discover"), { replace: true });
+  }
+
+  if (!isKnownRoute) {
+    return <Navigate to={viewPath("discover")} replace />;
   }
 
   return (
@@ -98,7 +117,6 @@ function App() {
         watchlistCount={library.watchlistMovies.length}
         catalogCount={library.movies.length}
         onSearchChange={setSearch}
-        onNavigate={navigateToView}
         onToggleTheme={toggleTheme}
       />
 

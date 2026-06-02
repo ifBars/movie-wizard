@@ -11,9 +11,10 @@ import {
 } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router";
 import { BrandLogo } from "@/components/BrandLogo";
 import { ProfileSummary } from "@/components/ProfileSummary";
-import { views, type ViewId } from "@/lib/navigation";
+import { views, type ViewId, viewPath } from "@/lib/navigation";
 import { fadeScale, quickSpring, smoothEase } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { TasteProfile } from "@/types";
@@ -29,7 +30,6 @@ type AppHeaderProps = {
   watchlistCount: number;
   catalogCount: number;
   onSearchChange: (value: string) => void;
-  onNavigate: (view: ViewId) => void;
   onToggleTheme: () => void;
 };
 
@@ -44,7 +44,6 @@ export function AppHeader({
   watchlistCount,
   catalogCount,
   onSearchChange,
-  onNavigate,
   onToggleTheme,
 }: AppHeaderProps) {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
@@ -93,8 +92,7 @@ export function AppHeader({
     };
   }, [isTasteProfileOpen, isUserMenuOpen]);
 
-  function navigateFromMenu(view: ViewId) {
-    onNavigate(view);
+  function closeMenusAfterNavigation() {
     setIsUserMenuOpen(false);
     setIsTasteProfileOpen(false);
   }
@@ -106,24 +104,23 @@ export function AppHeader({
       animate={{ opacity: 1, y: topbarY }}
       transition={{ duration: 0.28, ease: smoothEase }}
     >
-      <a className="wordmark" href="#top" aria-label="Movie Wizard home">
+      <Link className="wordmark" to="/" aria-label="Movie Wizard home">
         <BrandLogo variant="mark" />
-      </a>
+      </Link>
 
       <nav className="main-nav" aria-label="Primary navigation">
         {views.map((view) => (
-          <motion.button
+          <motion.span
             key={view.id}
-            type="button"
-            className={cn(!isDetailView && activeView === view.id && "is-active")}
             layout
             whileHover={shouldReduceMotion ? undefined : { y: -1 }}
             whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
             transition={quickSpring}
-            onClick={() => onNavigate(view.id)}
           >
-            {view.label}
-          </motion.button>
+            <NavLink to={view.path} className={({ isActive }) => cn(!isDetailView && isActive && activeView === view.id && "is-active")}>
+              {view.label}
+            </NavLink>
+          </motion.span>
         ))}
       </nav>
 
@@ -234,20 +231,20 @@ export function AppHeader({
                 {...fadeScale(shouldReduceMotion)}
                 style={{ originX: 1, originY: 0 }}
               >
-                <button type="button" role="menuitem" onClick={() => navigateFromMenu("watchlist")}>
+                <Link role="menuitem" to={viewPath("watchlist")} onClick={closeMenusAfterNavigation}>
                   <BookmarkSimple />
                   <span>Watchlist</span>
                   <strong>{watchlistCount}</strong>
-                </button>
-                <button type="button" role="menuitem" onClick={() => navigateFromMenu("history")}>
+                </Link>
+                <Link role="menuitem" to={viewPath("history")} onClick={closeMenusAfterNavigation}>
                   <ClockCounterClockwise />
                   <span>History</span>
                   <strong>{ratedCount}</strong>
-                </button>
-                <button type="button" role="menuitem" onClick={() => navigateFromMenu("settings")}>
+                </Link>
+                <Link role="menuitem" to={viewPath("settings")} onClick={closeMenusAfterNavigation}>
                   <GearSix />
                   <span>Settings</span>
-                </button>
+                </Link>
               </motion.div>
             ) : null}
           </AnimatePresence>
