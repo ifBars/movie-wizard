@@ -126,7 +126,7 @@ export function SettingsPanel({
     onLanguageCodesChange(nextLanguageCodes);
   }
 
-  function handleMinimumRecommendationYearChange(value: string) {
+  function commitMinimumRecommendationYear(value: string) {
     if (value.trim() === "") {
       onMinimumRecommendationYearChange(null);
       return;
@@ -235,8 +235,14 @@ export function SettingsPanel({
                   min="1"
                   inputMode="numeric"
                   placeholder="Any year"
-                  value={minimumRecommendationYear ?? ""}
-                  onChange={(event) => handleMinimumRecommendationYearChange(event.currentTarget.value)}
+                  defaultValue={minimumRecommendationYear ?? ""}
+                  onBlur={(event) => commitMinimumRecommendationYear(event.currentTarget.value)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter") {
+                      event.preventDefault();
+                      commitMinimumRecommendationYear(event.currentTarget.value);
+                    }
+                  }}
                 />
               </label>
             </SettingsRow>
