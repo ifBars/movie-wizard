@@ -384,6 +384,11 @@ input:focus-visible {
   min-width: 0;
 }
 
+.catalog-view-panel {
+  width: 100%;
+  min-width: 0;
+}
+
 .movie-section {
   margin-bottom: 1.6rem;
   padding-bottom: 1.55rem;

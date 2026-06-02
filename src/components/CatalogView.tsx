@@ -2,7 +2,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import type { ViewId } from "@/lib/navigation";
-import { fadeSlide, softSpring } from "@/lib/motion";
+import { fadeSlide, pageFade } from "@/lib/motion";
 import type { Movie } from "@/types";
 
 type CatalogViewProps = {
@@ -31,9 +31,9 @@ export function CatalogView({
 
   return (
     <div className="catalog-motion-grid">
-      <motion.section className="catalog-main" layout transition={softSpring}>
-        <AnimatePresence initial={false}>
-          <motion.div key={`${activeView}-${trimmedSearch ? "search" : "default"}`} {...fadeSlide(shouldReduceMotion, 10)}>
+      <section className="catalog-main">
+        <AnimatePresence mode="popLayout" initial={false}>
+          <motion.div key={`${activeView}-${trimmedSearch ? "search" : "default"}`} className="catalog-view-panel" {...pageFade(shouldReduceMotion)}>
             {activeView === "discover" ? (
               <DiscoverRows
                 search={trimmedSearch}
@@ -65,7 +65,7 @@ export function CatalogView({
             )}
           </motion.div>
         </AnimatePresence>
-      </motion.section>
+      </section>
     </div>
   );
 }
