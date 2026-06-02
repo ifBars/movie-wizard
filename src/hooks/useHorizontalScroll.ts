@@ -13,6 +13,7 @@ type DragState = {
 };
 
 type HorizontalScrollOptions = {
+  edgeTolerance?: number;
   itemCount: number;
   pageSize?: number;
   shouldReduceMotion?: boolean | null;
@@ -41,6 +42,7 @@ const defaultDragState: DragState = {
 };
 
 export function useHorizontalScroll({
+  edgeTolerance = 1,
   itemCount,
   pageSize = 0.78,
   shouldReduceMotion,
@@ -58,15 +60,15 @@ export function useHorizontalScroll({
     }
 
     const maxScrollLeft = row.scrollWidth - row.clientWidth;
-    const canScrollLeft = row.scrollLeft > 1;
-    const canScrollRight = row.scrollLeft < maxScrollLeft - 1;
+    const canScrollLeft = row.scrollLeft > edgeTolerance;
+    const canScrollRight = row.scrollLeft < maxScrollLeft - edgeTolerance;
 
     setScrollState((current) =>
       current.canScrollLeft === canScrollLeft && current.canScrollRight === canScrollRight
         ? current
         : { canScrollLeft, canScrollRight },
     );
-  }, []);
+  }, [edgeTolerance]);
 
   useExternalLayoutSyncEffect(() => {
     updateScrollState();

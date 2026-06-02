@@ -7,9 +7,7 @@ import {
   CaretRight,
   CheckCircle,
   FilmSlate,
-  GearSix,
   GlobeHemisphereWest,
-  IdentificationBadge,
   Prohibit,
   Star,
   WarningCircle,
@@ -18,7 +16,7 @@ import {
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useMemo, useState } from "react";
 import type { PointerEvent, ReactNode } from "react";
-import { MoviePosterCard } from "@/components/MoviePosterCard";
+import { MovieImagePoster } from "@/components/MovieImagePoster";
 import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import { fadeSlide, quickSpring, softSpring } from "@/lib/motion";
 import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
@@ -79,6 +77,7 @@ export function MovieDetailsPage({
     ref: similarRowRef,
     scrollByPage,
   } = useHorizontalScroll({
+    edgeTolerance: 8,
     itemCount: similarMovies.length,
     shouldReduceMotion,
   });
@@ -176,7 +175,7 @@ export function MovieDetailsPage({
         </div>
       </section>
 
-      <motion.section className="detail-panel detail-panel--details" layout transition={softSpring} {...fadeSlide(shouldReduceMotion, 12)}>
+      <motion.section className="detail-panel detail-panel--details" layout {...fadeSlide(shouldReduceMotion, 12)}>
         <div className="detail-panel-tabs" role="tablist" aria-label="Movie detail sections">
           <button
             type="button"
@@ -274,16 +273,7 @@ export function MovieDetailsPage({
                         onClickCapture={onClickCapture}
                       >
                         {similarMovies.map((similarMovie) => (
-                          <MoviePosterCard
-                            key={similarMovie.id}
-                            movie={similarMovie}
-                            state={states[similarMovie.id]}
-                            onRate={onRate}
-                            onToggleIgnored={onToggleIgnored}
-                            onToggleWatched={onToggleWatched}
-                            onToggleWatchlist={onToggleWatchlist}
-                            onOpen={onOpenMovie}
-                          />
+                          <MovieImagePoster key={similarMovie.id} movie={similarMovie} onOpen={onOpenMovie} />
                         ))}
                       </motion.div>
                       <AnimatePresence initial={false}>
@@ -370,26 +360,119 @@ export function MovieDetailsPage({
           ) : null}
         </AnimatePresence>
       </motion.section>
+    </motion.section>
+  );
+}
 
-function DetailSectionHeader({ title, subtitle }: { title: string; subtitle: string }) {
-  const shouldReduceMotion = useReducedMotion();
-
+function DetailRatingControl({
+  displayedRating,
+  movie,
+  onPointerLeave,
+  onPreviewRating,
+  onRate,
+  onSetPreviewRating,
+  shouldReduceMotion,
+}: {
+  displayedRating: Rating | 0;
+  movie: Movie;
+  onPointerLeave: () => void;
+  onPreviewRating: (event: PointerEvent<HTMLDivElement>) => void;
+  onRate: (movieId: string, rating: Rating) => void;
+  onSetPreviewRating: (rating: Rating | null) => void;
+  shouldReduceMotion: boolean | null;
+}) {
   return (
-    <motion.div className="section-header" layout="position" transition={softSpring}>
-      <div>
-        <h1>{title}</h1>
-        <p>{subtitle}</p>
+    <motion.div className="detail-rating-block" layout="position" transition={softSpring}>
+      <span>Rate this movie</span>
+      <div className="detail-rating-inline" aria-label={`Rate ${movie.title}`} onPointerLeave={onPointerLeave}>
+        <div className="detail-rating-stars" onPointerMove={onPreviewRating}>
+          {starRatings.map((rating) => (
+            <motion.button
+              key={rating}
+              type="button"
+              onClick={() => onRate(movie.id, rating)}
+              onFocus={() => onSetPreviewRating(rating)}
+              onBlur={() => onSetPreviewRating(null)}
+              aria-label={`Rate ${rating} stars`}
+              className={cn(rating <= displayedRating && "is-filled", displayedRating === rating && "is-preview-target")}
+              whileHover={shouldReduceMotion ? undefined : { y: -1, scale: 1.12 }}
+              whileTap={shouldReduceMotion ? undefined : { scale: 0.82 }}
+              animate={
+                displayedRating === rating && !shouldReduceMotion
+                  ? { scale: [1, 1.2, 1], rotate: [0, -8, 0] }
+                  : { scale: 1, rotate: 0 }
+              }
+              transition={{ duration: 0.18 }}
+            >
+              <Star weight={rating <= displayedRating ? "fill" : "regular"} />
+            </motion.button>
+          ))}
+        </div>
       </div>
-      <motion.button
-        type="button"
-        aria-label={`${title} settings`}
-        whileHover={shouldReduceMotion ? undefined : { rotate: 12 }}
-        whileTap={shouldReduceMotion ? undefined : { scale: 0.92 }}
-        transition={quickSpring}
-      >
-        <GearSix weight="fill" />
-      </motion.button>
     </motion.div>
+  );
+}
+
+function DetailSourceRail({
+  movie,
+  parentsGuideUrl,
+  sourceRatings,
+  onOpenParentsGuide,
+}: {
+  movie: Movie;
+  parentsGuideUrl?: string;
+  sourceRatings: Array<{ label: string; value: string; meta?: string }>;
+  onOpenParentsGuide: () => void;
+}) {
+  return (
+    <>
+      <section className="detail-rail-panel">
+        <h2>Source ratings</h2>
+        <div className="detail-rating-summary">
+          {sourceRatings.length > 0 ? (
+            sourceRatings.map((rating) => (
+              <div key={rating.label}>
+                <span>{rating.label}</span>
+                <strong>
+                  <Star weight="fill" />
+                  {rating.value}
+                </strong>
+                {rating.meta ? <p>{rating.meta}</p> : null}
+              </div>
+            ))
+          ) : (
+            <p>No source ratings are listed yet.</p>
+          )}
+        </div>
+      </section>
+
+      <section className="detail-rail-panel detail-rail-panel--guide">
+        <div className="detail-mini-heading">
+          <UsersThree weight="fill" />
+          <span>IMDb Parents Guide</span>
+        </div>
+        <p>Check content categories like violence, profanity, alcohol, nudity, and frightening scenes.</p>
+        <div className="detail-rail-actions">
+          <button type="button" onClick={onOpenParentsGuide}>Preview tab</button>
+          {parentsGuideUrl ? (
+            <a href={parentsGuideUrl} target="_blank" rel="noreferrer">
+              Open guide
+              <ArrowSquareOut weight="bold" />
+            </a>
+          ) : null}
+        </div>
+      </section>
+
+      <section className="detail-rail-panel detail-rail-panel--source">
+        <h2>About this data</h2>
+        <p>Movie data and images are provided by TMDB. IMDb links open externally.</p>
+        <div className="detail-source-logos" aria-label="Data providers">
+          <span>TMDB</span>
+          <span>IMDb</span>
+        </div>
+        {movie.imdbId ? <p className="detail-source-id">{movie.imdbId}</p> : null}
+      </section>
+    </>
   );
 }
 
@@ -402,18 +485,14 @@ function DetailList({ label, values }: { label: string; values: string[] }) {
   );
 }
 
-function DetailCastList({ values }: { values: string[] }) {
+function DetailPeopleList({ label, values }: { label: string; values: string[] }) {
   return (
-    <section className="detail-cast-board" aria-label="Cast">
-      <div className="detail-mini-heading">
-        <UsersThree weight="fill" />
-        <span>Cast</span>
-      </div>
+    <section className="detail-people-list" aria-label={label}>
+      <h3>{label}</h3>
       {values.length > 0 ? (
-        <div className="detail-cast-grid">
+        <div className="detail-people-grid">
           {values.map((name) => (
-            <div key={name} className="detail-cast-chip">
-              <span>{initialsForName(name)}</span>
+            <div key={name}>
               <strong>{name}</strong>
             </div>
           ))}
@@ -445,15 +524,6 @@ function DetailCrewList({ credits }: { credits: Array<{ name: string; job: strin
   );
 }
 
-function initialsForName(name: string) {
-  return name
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase())
-    .join("");
-}
-
 function DetailFact({ icon, label, value }: { icon: ReactNode; label: string; value: string }) {
   return (
     <div className="detail-fact">
@@ -474,13 +544,30 @@ function getCrewCredits(movie: Movie) {
   return movie.directors.map((name) => ({ name, job: "Director" }));
 }
 
-function getSourceRatings(movie: Movie) {
-  return [
-    movie.source?.tmdbVoteAverage ? { label: "TMDB", value: `${movie.source.tmdbVoteAverage.toFixed(1)}/10` } : undefined,
-    movie.source?.tmdbVoteCount ? { label: "TMDB votes", value: movie.source.tmdbVoteCount.toLocaleString() } : undefined,
-    movie.source?.omdbImdbRating ? { label: "IMDb", value: `${movie.source.omdbImdbRating.toFixed(1)}/10` } : undefined,
-    movie.source?.omdbMetascore ? { label: "Metascore", value: String(movie.source.omdbMetascore) } : undefined,
-  ].filter((rating): rating is { label: string; value: string } => Boolean(rating));
+function getSourceRatings(movie: Movie): Array<{ label: string; value: string; meta?: string }> {
+  const ratings: Array<{ label: string; value: string; meta?: string }> = [];
+
+  if (movie.source?.tmdbVoteAverage) {
+    ratings.push({
+      label: "TMDB",
+      value: `${movie.source.tmdbVoteAverage.toFixed(1)}/10`,
+      meta: movie.source.tmdbVoteCount ? `${movie.source.tmdbVoteCount.toLocaleString()} votes` : undefined,
+    });
+  }
+
+  if (movie.source?.omdbImdbRating) {
+    ratings.push({
+      label: "IMDb",
+      value: `${movie.source.omdbImdbRating.toFixed(1)}/10`,
+      meta: movie.source.omdbImdbVotes ? `${movie.source.omdbImdbVotes.toLocaleString()} votes` : undefined,
+    });
+  }
+
+  if (movie.source?.omdbMetascore) {
+    ratings.push({ label: "Metascore", value: String(movie.source.omdbMetascore), meta: "critic score" });
+  }
+
+  return ratings;
 }
 
 function formatReleaseDate(value?: string) {
