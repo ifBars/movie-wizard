@@ -1,6 +1,5 @@
 export const views = [
   { id: "discover", label: "Discover", path: "/" },
-  { id: "rated", label: "Rated", path: "/rated" },
   { id: "watchlist", label: "Watchlist", path: "/watchlist" },
   { id: "history", label: "History", path: "/history" },
 ] as const;
@@ -11,6 +10,7 @@ export const settingsPath = "/settings";
 
 const viewByPath = new Map<string, ViewId>([
   ...views.map((view) => [view.path, view.id] as const),
+  ["/rated", "history"],
   [settingsPath, "settings"],
 ]);
 

@@ -1,11 +1,17 @@
 export type Rating = 0.5 | 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5;
 
+export type MovieCrewCredit = {
+  name: string;
+  job: string;
+};
+
 export type Movie = {
   id: string;
   tmdbId?: number;
   imdbId?: string;
   title: string;
   originalTitle?: string;
+  originalLanguage: string;
   year: number;
   releaseDate?: string;
   runtimeMinutes: number;
@@ -13,6 +19,7 @@ export type Movie = {
   tags: string[];
   directors: string[];
   cast: string[];
+  crew?: MovieCrewCredit[];
   synopsis: string;
   posterPath?: string;
   backdropPath?: string;
@@ -31,6 +38,32 @@ export type Movie = {
   };
 };
 
+export type CatalogIndexMovie = Omit<Movie, "source" | "synopsis"> & {
+  synopsisPreview: string;
+};
+
+export type MovieDetails = Pick<Movie, "id" | "crew" | "source" | "synopsis">;
+
+export type CatalogIndexPayload = {
+  version: 1;
+  generatedAt: string;
+  movies: CatalogIndexMovie[];
+};
+
+export type MovieDetailsPayload = {
+  version: 1;
+  generatedAt: string;
+  movies: Record<string, MovieDetails>;
+};
+
+export type CatalogManifestPayload = {
+  version: 1;
+  generatedAt: string;
+  movieCount: number;
+  indexFields: Array<keyof CatalogIndexMovie>;
+  detailFields: Array<keyof MovieDetails>;
+};
+
 export type UserMovieState = {
   movieId: string;
   watched: boolean;
@@ -41,6 +74,11 @@ export type UserMovieState = {
 };
 
 export type MovieStateMap = Record<string, UserMovieState>;
+
+export type LibrarySettings = {
+  languageCodes: string[];
+  showAdultMovies: boolean;
+};
 
 export type TasteProfile = {
   ratedCount: number;

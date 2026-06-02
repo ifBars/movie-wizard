@@ -57,6 +57,7 @@ export function MovieGrid({
             movie={movie}
             state={library.states[movie.id]}
             onRate={library.rateMovie}
+            onToggleIgnored={library.toggleIgnored}
             onToggleWatched={library.toggleWatched}
             onToggleWatchlist={library.toggleWatchlist}
             onOpen={onOpenMovie}

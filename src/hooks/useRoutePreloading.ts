@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { ViewId } from "@/lib/navigation";
 import { preloadMovieDetailsPage, preloadSettingsPanel } from "@/routes/lazyRoutes";
 
@@ -9,13 +9,13 @@ type RoutePreloadingOptions = {
 };
 
 export function useRoutePreloading({ activeView, catalogError, isCatalogLoading }: RoutePreloadingOptions) {
-  useEffect(() => {
+  useExternalSyncEffect(() => {
     if (activeView === "settings") {
       preloadSettingsPanel();
     }
   }, [activeView]);
 
-  useEffect(() => {
+  useExternalSyncEffect(() => {
     if (!isCatalogLoading && !catalogError) {
       preloadMovieDetailsPage();
     }

@@ -10,10 +10,11 @@ import {
   UserCircle,
 } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { BrandLogo } from "@/components/BrandLogo";
 import { ProfileSummary } from "@/components/ProfileSummary";
+import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import { views, type ViewId, viewPath } from "@/lib/navigation";
 import { fadeScale, quickSpring, smoothEase } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -26,7 +27,7 @@ type AppHeaderProps = {
   ratingLabel: string;
   themeMode: "light" | "dark";
   profile: TasteProfile;
-  ratedCount: number;
+  historyCount: number;
   watchlistCount: number;
   catalogCount: number;
   onSearchChange: (value: string) => void;
@@ -40,7 +41,7 @@ export function AppHeader({
   ratingLabel,
   themeMode,
   profile,
-  ratedCount,
+  historyCount,
   watchlistCount,
   catalogCount,
   onSearchChange,
@@ -52,7 +53,7 @@ export function AppHeader({
   const shouldReduceMotion = useReducedMotion();
   const topbarY = isHiddenOnScroll ? "-101%" : "0%";
 
-  useEffect(() => {
+  useExternalSyncEffect(() => {
     const compactHeaderQuery = window.matchMedia("(max-width: 740px)");
     let lastScrollY = window.scrollY;
 
@@ -239,7 +240,7 @@ export function AppHeader({
                 <Link role="menuitem" to={viewPath("history")} onClick={closeMenusAfterNavigation}>
                   <ClockCounterClockwise />
                   <span>History</span>
-                  <strong>{ratedCount}</strong>
+                  <strong>{historyCount}</strong>
                 </Link>
                 <Link role="menuitem" to={viewPath("settings")} onClick={closeMenusAfterNavigation}>
                   <GearSix />

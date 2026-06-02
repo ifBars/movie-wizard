@@ -1,5 +1,6 @@
-import { useCallback, useLayoutEffect, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import type { MouseEvent, PointerEvent, RefObject } from "react";
+import { useExternalLayoutSyncEffect } from "@/hooks/useExternalSyncEffect";
 
 type ScrollDirection = "left" | "right";
 
@@ -67,7 +68,7 @@ export function useHorizontalScroll({
     );
   }, []);
 
-  useLayoutEffect(() => {
+  useExternalLayoutSyncEffect(() => {
     updateScrollState();
 
     const row = rowRef.current;

@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 
-type ThemeMode = "light" | "dark";
+export type ThemeMode = "light" | "dark";
 
 const THEME_STORAGE_KEY = "movie-wizard:theme";
 
@@ -37,6 +37,12 @@ export function useThemeMode() {
     return initial;
   });
 
+  const setTheme = useCallback((mode: ThemeMode) => {
+    window.localStorage.setItem(THEME_STORAGE_KEY, mode);
+    applyTheme(mode);
+    setThemeMode(mode);
+  }, []);
+
   const toggleTheme = useCallback(() => {
     setThemeMode((current) => {
       const next = current === "light" ? "dark" : "light";
@@ -46,5 +52,5 @@ export function useThemeMode() {
     });
   }, []);
 
-  return { themeMode, toggleTheme };
+  return { themeMode, setThemeMode: setTheme, toggleTheme };
 }

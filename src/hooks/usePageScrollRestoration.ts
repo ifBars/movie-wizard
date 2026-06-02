@@ -1,7 +1,7 @@
-import { useEffect, useLayoutEffect } from "react";
+import { useExternalLayoutSyncEffect, useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 
 export function usePageScrollRestoration(pathname: string) {
-  useLayoutEffect(() => {
+  useExternalLayoutSyncEffect(() => {
     const previousScrollRestoration = window.history.scrollRestoration;
 
     if ("scrollRestoration" in window.history) {
@@ -17,7 +17,7 @@ export function usePageScrollRestoration(pathname: string) {
     };
   }, []);
 
-  useEffect(() => {
+  useExternalSyncEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [pathname]);
 }

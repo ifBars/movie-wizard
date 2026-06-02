@@ -40,6 +40,7 @@ Movie Wizard is a static React + Tailwind app for rating watched movies, trackin
   - `src/assets/design/movie-wizard-app-mockup.png`
   - `src/assets/design/movie-wizard-brand-kit.png`
   - `docs/brand/movie-wizard-brand-kit.md`
+- Save generated images, screenshots, and design artifacts under `.artifacts/` by default unless they are app-consumed assets that must live under `src/assets`.
 - The top nav/header should use the MW logo mark only, with no adjacent "Movie Wizard" text.
 - Use generated raster logo assets from `src/assets/brand`; do not redraw the logo as SVG.
 - Keep the app simple, minimal, and catalog-first, inspired by MovieLens behavior without cloning its old visual style.

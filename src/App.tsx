@@ -16,11 +16,11 @@ function App() {
   const deferredSearch = useDeferredValue(search);
   const { activeView, isKnownRoute, pathname, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
-  const { themeMode, toggleTheme } = useThemeMode();
+  const { themeMode, setThemeMode, toggleTheme } = useThemeMode();
   const library = useMovieLibrary();
   const selectedMovie = useMemo(
-    () => library.movies.find((movie) => movie.id === selectedMovieId),
-    [library.movies, selectedMovieId],
+    () => library.visibleMovies.find((movie) => movie.id === selectedMovieId),
+    [library.visibleMovies, selectedMovieId],
   );
 
   const catalogData = useCatalogViewData(library, deferredSearch);
@@ -38,6 +38,10 @@ function App() {
   });
 
   if (!isKnownRoute) {
+    return <Navigate to={viewPath(activeView)} replace />;
+  }
+
+  if (selectedMovieId && !selectedMovie && !library.isCatalogLoading) {
     return <Navigate to={viewPath("discover")} replace />;
   }
 
@@ -50,9 +54,9 @@ function App() {
         ratingLabel={averageRatingLabel}
         themeMode={themeMode}
         profile={library.profile}
-        ratedCount={library.ratedMovies.length}
+        historyCount={library.historyMovies.length}
         watchlistCount={library.watchlistMovies.length}
-        catalogCount={library.movies.length}
+        catalogCount={library.visibleMovies.length}
         onSearchChange={setSearch}
         onToggleTheme={toggleTheme}
       />
@@ -68,6 +72,8 @@ function App() {
         onOpenMovie={openMovie}
         search={deferredSearch}
         selectedMovie={selectedMovie}
+        themeMode={themeMode}
+        onThemeModeChange={setThemeMode}
       />
     </div>
   );

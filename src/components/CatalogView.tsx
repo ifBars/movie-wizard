@@ -2,22 +2,22 @@ import { ListBullets, SquaresFour } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import type { PointerEvent } from "react";
+import { DiscoverPage } from "@/components/DiscoverPage";
 import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import type { DiscoverSection } from "@/lib/discoverSections";
 import type { ViewId } from "@/lib/navigation";
-import { fadeSlide, pageFade } from "@/lib/motion";
+import { pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
-const initialSearchResultLimit = 72;
-const searchResultPageSize = 72;
+type CatalogLayout = "grid" | "row";
 
 type CatalogViewProps = {
   activeView: ViewId;
   search: string;
-  topPicks: Movie[];
-  recentReleases: Movie[];
+  discoverSections: DiscoverSection[];
   filteredCatalog: Movie[];
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
@@ -27,8 +27,7 @@ type CatalogViewProps = {
 export function CatalogView({
   activeView,
   search,
-  topPicks,
-  recentReleases,
+  discoverSections,
   filteredCatalog,
   library,
   onOpenMovie,
@@ -43,23 +42,20 @@ export function CatalogView({
         <AnimatePresence mode="popLayout" initial={false}>
           <motion.div key={`${activeView}-${trimmedSearch ? "search" : "default"}`} className="catalog-view-panel" {...pageFade(shouldReduceMotion)}>
             {activeView === "discover" ? (
-              <DiscoverRows
+              <DiscoverPage
                 search={trimmedSearch}
                 filteredCatalog={filteredCatalog}
-                topPicks={topPicks}
-                recentReleases={recentReleases}
+                discoverSections={discoverSections}
                 library={library}
                 onOpenMovie={onOpenMovie}
                 onPreloadMovieDetails={onPreloadMovieDetails}
               />
-            ) : activeView === "rated" || activeView === "history" ? (
-              <MovieRow
-                title="rated movies"
-                subtitle="Your watched history"
-                movies={library.ratedMovies}
+            ) : activeView === "history" ? (
+              <HistoryMovies
+                movies={library.historyMovies}
                 library={library}
                 onOpenMovie={onOpenMovie}
-                onMovieIntent={onPreloadMovieDetails}
+                onPreloadMovieDetails={onPreloadMovieDetails}
               />
             ) : (
               <MovieRow
@@ -78,134 +74,57 @@ export function CatalogView({
   );
 }
 
-function DiscoverRows({
-  search,
-  filteredCatalog,
-  topPicks,
-  recentReleases,
+function HistoryMovies({
+  movies,
   library,
   onOpenMovie,
   onPreloadMovieDetails,
 }: {
-  search: string;
-  filteredCatalog: Movie[];
-  topPicks: Movie[];
-  recentReleases: Movie[];
+  movies: Movie[];
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: () => void;
 }) {
-  const [searchLayout, setSearchLayout] = useState<"grid" | "row">("grid");
-
-  if (search) {
-    return (
-      <SearchResults
-        key={search}
-        filteredCatalog={filteredCatalog}
-        layout={searchLayout}
-        library={library}
-        onLayoutChange={setSearchLayout}
-        onOpenMovie={onOpenMovie}
-        onPreloadMovieDetails={onPreloadMovieDetails}
-      />
-    );
-  }
-
-  return (
-    <>
-      <MovieRow
-        title="top picks"
-        subtitle="Recommended for you"
-        movies={topPicks}
-        library={library}
-        onOpenMovie={onOpenMovie}
-        onMovieIntent={onPreloadMovieDetails}
-      />
-      <MovieRow
-        title="recent releases"
-        subtitle="New and noteworthy"
-        movies={recentReleases}
-        library={library}
-        onOpenMovie={onOpenMovie}
-        onMovieIntent={onPreloadMovieDetails}
-      />
-      <PrivacyNote />
-    </>
-  );
-}
-
-function SearchResults({
-  filteredCatalog,
-  layout,
-  library,
-  onLayoutChange,
-  onOpenMovie,
-  onPreloadMovieDetails,
-}: {
-  filteredCatalog: Movie[];
-  layout: "grid" | "row";
-  library: MovieLibrary;
-  onLayoutChange: (layout: "grid" | "row") => void;
-  onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
-}) {
-  const [resultLimit, setResultLimit] = useState(initialSearchResultLimit);
-  const shouldReduceMotion = useReducedMotion();
-  const visibleMovies = filteredCatalog.slice(0, resultLimit);
-  const hiddenCount = Math.max(0, filteredCatalog.length - visibleMovies.length);
-  const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
+  const [layout, setLayout] = useState<CatalogLayout>("grid");
+  const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="History layout" />;
   const subtitle =
-    hiddenCount > 0
-      ? `Showing ${visibleMovies.length} of ${filteredCatalog.length} matches`
-      : `${filteredCatalog.length} matches in the local catalog`;
+    movies.length === 1 ? "1 watched or rated movie" : `${movies.length} watched or rated movies`;
   const sharedProps = {
-    title: "search results",
+    title: "history",
     subtitle,
-    movies: visibleMovies,
+    movies,
     library,
     onOpenMovie,
     onMovieIntent: onPreloadMovieDetails,
     headerAction,
   };
 
-  return (
-    <>
-      {layout === "row" ? (
-        <MovieRow {...sharedProps} />
-      ) : (
-        <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
-      )}
-      {hiddenCount > 0 ? (
-        <motion.button
-          type="button"
-          className="search-results-more"
-          onClick={() => setResultLimit((currentLimit) => currentLimit + searchResultPageSize)}
-          whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
-        >
-          Show {Math.min(searchResultPageSize, hiddenCount)} more
-        </motion.button>
-      ) : null}
-    </>
+  return layout === "row" ? (
+    <MovieRow {...sharedProps} />
+  ) : (
+    <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
   );
 }
 
-function SearchResultsLayoutToggle({
+function MovieLayoutToggle({
   layout,
+  label,
   onLayoutChange,
 }: {
-  layout: "grid" | "row";
-  onLayoutChange: (layout: "grid" | "row") => void;
+  layout: CatalogLayout;
+  label: string;
+  onLayoutChange: (layout: CatalogLayout) => void;
 }) {
   const shouldReduceMotion = useReducedMotion();
 
-  function handlePointerDown(event: PointerEvent<HTMLButtonElement>, nextLayout: "grid" | "row") {
+  function handlePointerDown(event: PointerEvent<HTMLButtonElement>, nextLayout: CatalogLayout) {
     if (event.pointerType === "touch" || event.pointerType === "pen") {
       onLayoutChange(nextLayout);
     }
   }
 
   return (
-    <div className="view-toggle search-results-view-toggle" role="group" aria-label="Search results layout">
+    <div className="view-toggle search-results-view-toggle" role="group" aria-label={label}>
       <motion.button
         type="button"
         className={cn(layout === "grid" && "is-selected")}
@@ -229,15 +148,5 @@ function SearchResultsLayoutToggle({
         <span>Row</span>
       </motion.button>
     </div>
-  );
-}
-
-function PrivacyNote() {
-  const shouldReduceMotion = useReducedMotion();
-
-  return (
-    <motion.p className="privacy-note" {...fadeSlide(shouldReduceMotion, 6)}>
-      Your ratings stay private on this device. Movie data and images from TMDB. <button type="button">Learn more</button>
-    </motion.p>
   );
 }

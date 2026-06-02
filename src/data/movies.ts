@@ -4,6 +4,7 @@ export const movies: Movie[] = [
   {
     id: "arrival-2016",
     title: "Arrival",
+    originalLanguage: "en",
     year: 2016,
     runtimeMinutes: 116,
     genres: ["Science Fiction", "Drama"],
@@ -19,6 +20,7 @@ export const movies: Movie[] = [
   {
     id: "heat-1995",
     title: "Heat",
+    originalLanguage: "en",
     year: 1995,
     runtimeMinutes: 170,
     genres: ["Crime", "Drama", "Thriller"],
@@ -34,6 +36,7 @@ export const movies: Movie[] = [
   {
     id: "portrait-of-a-lady-on-fire-2019",
     title: "Portrait of a Lady on Fire",
+    originalLanguage: "en",
     year: 2019,
     runtimeMinutes: 122,
     genres: ["Romance", "Drama"],
@@ -49,6 +52,7 @@ export const movies: Movie[] = [
   {
     id: "the-nice-guys-2016",
     title: "The Nice Guys",
+    originalLanguage: "en",
     year: 2016,
     runtimeMinutes: 116,
     genres: ["Comedy", "Crime", "Mystery"],
@@ -64,6 +68,7 @@ export const movies: Movie[] = [
   {
     id: "ex-machina-2014",
     title: "Ex Machina",
+    originalLanguage: "en",
     year: 2014,
     runtimeMinutes: 108,
     genres: ["Science Fiction", "Thriller"],
@@ -79,6 +84,7 @@ export const movies: Movie[] = [
   {
     id: "master-and-commander-2003",
     title: "Master and Commander",
+    originalLanguage: "en",
     year: 2003,
     runtimeMinutes: 138,
     genres: ["Adventure", "Drama", "War"],
@@ -94,6 +100,7 @@ export const movies: Movie[] = [
   {
     id: "parasite-2019",
     title: "Parasite",
+    originalLanguage: "en",
     year: 2019,
     runtimeMinutes: 132,
     genres: ["Thriller", "Drama", "Comedy"],
@@ -109,6 +116,7 @@ export const movies: Movie[] = [
   {
     id: "the-wailing-2016",
     title: "The Wailing",
+    originalLanguage: "en",
     year: 2016,
     runtimeMinutes: 156,
     genres: ["Horror", "Mystery", "Thriller"],
@@ -124,6 +132,7 @@ export const movies: Movie[] = [
   {
     id: "thief-1981",
     title: "Thief",
+    originalLanguage: "en",
     year: 1981,
     runtimeMinutes: 123,
     genres: ["Crime", "Thriller", "Drama"],
@@ -139,6 +148,7 @@ export const movies: Movie[] = [
   {
     id: "coherence-2013",
     title: "Coherence",
+    originalLanguage: "en",
     year: 2013,
     runtimeMinutes: 89,
     genres: ["Science Fiction", "Mystery", "Thriller"],
@@ -154,6 +164,7 @@ export const movies: Movie[] = [
   {
     id: "midnight-run-1988",
     title: "Midnight Run",
+    originalLanguage: "en",
     year: 1988,
     runtimeMinutes: 126,
     genres: ["Comedy", "Action", "Crime"],
@@ -169,6 +180,7 @@ export const movies: Movie[] = [
   {
     id: "the-handmaiden-2016",
     title: "The Handmaiden",
+    originalLanguage: "en",
     year: 2016,
     runtimeMinutes: 145,
     genres: ["Thriller", "Romance", "Drama"],
@@ -184,6 +196,7 @@ export const movies: Movie[] = [
   {
     id: "upgrade-2018",
     title: "Upgrade",
+    originalLanguage: "en",
     year: 2018,
     runtimeMinutes: 100,
     genres: ["Action", "Science Fiction", "Thriller"],
@@ -199,6 +212,7 @@ export const movies: Movie[] = [
   {
     id: "burning-2018",
     title: "Burning",
+    originalLanguage: "en",
     year: 2018,
     runtimeMinutes: 148,
     genres: ["Mystery", "Drama", "Thriller"],
@@ -214,6 +228,7 @@ export const movies: Movie[] = [
   {
     id: "sicario-2015",
     title: "Sicario",
+    originalLanguage: "en",
     year: 2015,
     runtimeMinutes: 121,
     genres: ["Thriller", "Crime", "Action"],
@@ -229,6 +244,7 @@ export const movies: Movie[] = [
   {
     id: "after-hours-1985",
     title: "After Hours",
+    originalLanguage: "en",
     year: 1985,
     runtimeMinutes: 97,
     genres: ["Comedy", "Thriller"],
@@ -244,6 +260,7 @@ export const movies: Movie[] = [
   {
     id: "the-apartment-1960",
     title: "The Apartment",
+    originalLanguage: "en",
     year: 1960,
     runtimeMinutes: 125,
     genres: ["Comedy", "Drama", "Romance"],
@@ -259,6 +276,7 @@ export const movies: Movie[] = [
   {
     id: "edge-of-tomorrow-2014",
     title: "Edge of Tomorrow",
+    originalLanguage: "en",
     year: 2014,
     runtimeMinutes: 113,
     genres: ["Action", "Science Fiction"],

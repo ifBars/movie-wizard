@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { CatalogLoadingState } from "@/components/CatalogLoadingState";
 import { CatalogView } from "@/components/CatalogView";
 import type { CatalogViewData } from "@/hooks/useCatalogViewData";
+import type { ThemeMode } from "@/hooks/useThemeMode";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import type { ViewId } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
@@ -21,6 +22,8 @@ type AppMainContentProps = {
   onOpenMovie: (movieId: string) => void;
   search: string;
   selectedMovie?: Movie;
+  themeMode: ThemeMode;
+  onThemeModeChange: (themeMode: ThemeMode) => void;
 };
 
 export function AppMainContent({
@@ -32,8 +35,10 @@ export function AppMainContent({
   library,
   onCloseMovie,
   onOpenMovie,
+  onThemeModeChange,
   search,
   selectedMovie,
+  themeMode,
 }: AppMainContentProps) {
   const shouldReduceMotion = useReducedMotion();
 
@@ -55,9 +60,11 @@ export function AppMainContent({
             library={library}
             onCloseMovie={onCloseMovie}
             onOpenMovie={onOpenMovie}
+            onThemeModeChange={onThemeModeChange}
             search={search}
             selectedMovie={selectedMovie}
             shouldReduceMotion={shouldReduceMotion}
+            themeMode={themeMode}
           />
         </AnimatePresence>
       )}
@@ -76,9 +83,11 @@ function AppPage({
   library,
   onCloseMovie,
   onOpenMovie,
+  onThemeModeChange,
   search,
   selectedMovie,
   shouldReduceMotion,
+  themeMode,
 }: AppPageProps) {
   if (library.catalogError) {
     return (
@@ -94,12 +103,13 @@ function AppPage({
         <Suspense fallback={null}>
           <LazyMovieDetailsPage
             movie={selectedMovie}
-            movies={library.movies}
+            movies={library.visibleMovies}
             state={library.states[selectedMovie.id]}
             states={library.states}
             onBack={onCloseMovie}
             onOpenMovie={onOpenMovie}
             onRate={library.rateMovie}
+            onToggleIgnored={library.toggleIgnored}
             onToggleWatched={library.toggleWatched}
             onToggleWatchlist={library.toggleWatchlist}
           />
@@ -125,7 +135,16 @@ function AppPage({
             onReset={library.resetLibrary}
             ratedCount={library.ratedMovies.length}
             watchlistCount={library.watchlistMovies.length}
-            catalogCount={library.movies.length}
+            catalogCount={library.visibleMovies.length}
+            totalCatalogCount={library.movies.length}
+            hiddenAdultMovieCount={library.hiddenAdultMovieCount}
+            hiddenLanguageMovieCount={library.hiddenLanguageMovieCount}
+            languageCodes={library.settings.languageCodes}
+            showAdultMovies={library.settings.showAdultMovies}
+            themeMode={themeMode}
+            onLanguageCodesChange={library.setLanguageCodes}
+            onShowAdultMoviesChange={library.setShowAdultMovies}
+            onThemeModeChange={onThemeModeChange}
           />
         </Suspense>
       </motion.div>
@@ -137,8 +156,7 @@ function AppPage({
       <CatalogView
         activeView={activeView}
         search={search}
-        topPicks={catalogData.topPicks}
-        recentReleases={catalogData.recentReleases}
+        discoverSections={catalogData.discoverSections}
         filteredCatalog={catalogData.filteredCatalog}
         library={library}
         onOpenMovie={onOpenMovie}

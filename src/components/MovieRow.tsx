@@ -91,6 +91,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
               movie={movie}
               state={library.states[movie.id]}
               onRate={library.rateMovie}
+              onToggleIgnored={library.toggleIgnored}
               onToggleWatched={library.toggleWatched}
               onToggleWatchlist={library.toggleWatchlist}
               onOpen={onOpenMovie}

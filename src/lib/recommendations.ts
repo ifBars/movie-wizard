@@ -3,10 +3,32 @@ import type { Movie, MovieStateMap, Recommendation, TasteProfile } from "@/types
 type WeightedMap = Map<string, number>;
 
 const POSITIVE_BASELINE = 3.5;
+const MIN_POSITIVE_RATING = 4;
+const MAX_RECOMMENDATIONS = 48;
+
+type TasteModel = {
+  profile: TasteProfile;
+  genreWeights: WeightedMap;
+  tagWeights: WeightedMap;
+  directorWeights: WeightedMap;
+  castWeights: WeightedMap;
+  likedMovies: Movie[];
+};
+
+type RecommendationCandidate = Recommendation & {
+  diversityKeys: string[];
+};
 
 export function buildTasteProfile(movies: Movie[], states: MovieStateMap): TasteProfile {
+  return buildTasteModel(movies, states).profile;
+}
+
+function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
   const genreWeights: WeightedMap = new Map();
   const tagWeights: WeightedMap = new Map();
+  const directorWeights: WeightedMap = new Map();
+  const castWeights: WeightedMap = new Map();
+  const likedMovies: Movie[] = [];
   let ratingTotal = 0;
   let ratedCount = 0;
   let watchedCount = 0;
@@ -31,54 +53,72 @@ export function buildTasteProfile(movies: Movie[], states: MovieStateMap): Taste
 
     addWeights(genreWeights, movie.genres, weight * 1.5);
     addWeights(tagWeights, movie.tags, weight);
+    addWeights(directorWeights, movie.directors, weight * 1.25);
+    addWeights(castWeights, movie.cast, weight * 0.8);
+
+    if (state.rating >= MIN_POSITIVE_RATING) {
+      likedMovies.push(movie);
+    }
   }
 
   return {
-    ratedCount,
-    watchedCount,
-    averageRating: ratedCount > 0 ? ratingTotal / ratedCount : 0,
-    topGenres: topWeights(genreWeights, 4),
-    topTags: topWeights(tagWeights, 6),
+    profile: {
+      ratedCount,
+      watchedCount,
+      averageRating: ratedCount > 0 ? ratingTotal / ratedCount : 0,
+      topGenres: topWeights(genreWeights, 4),
+      topTags: topWeights(tagWeights, 6),
+    },
+    genreWeights,
+    tagWeights,
+    directorWeights,
+    castWeights,
+    likedMovies,
   };
 }
 
 export function getRecommendations(movies: Movie[], states: MovieStateMap): Recommendation[] {
-  const profile = buildTasteProfile(movies, states);
-  const likedMovies = movies.filter((movie) => {
-    const rating = states[movie.id]?.rating;
-    return rating !== null && rating !== undefined && rating >= 4;
-  });
+  const tasteModel = buildTasteModel(movies, states);
 
-  return movies
+  const candidates = movies
     .flatMap((movie) => {
       const state = states[movie.id];
       if (state?.ignored || state?.watched || state?.rating) {
         return [];
       }
 
-      const scored = scoreMovie(movie, profile, likedMovies);
+      const scored = scoreMovie(movie, tasteModel);
       return [scored];
     })
     .slice()
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 8);
+    .sort((a, b) => b.score - a.score);
+
+  return diversifyRecommendations(candidates, MAX_RECOMMENDATIONS).map(toRecommendation);
 }
 
-function scoreMovie(movie: Movie, profile: TasteProfile, likedMovies: Movie[]): Recommendation {
-  let score = movie.criticalScore * 0.22 + movie.popularity * 0.12;
+function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandidate {
+  const { likedMovies, profile } = tasteModel;
+  let score = movie.criticalScore * 0.18 + movie.popularity * 0.08;
   const reasons: string[] = [];
 
-  const genreScore = sumMatches(movie.genres, profile.topGenres);
+  const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights);
   if (genreScore > 0) {
-    score += genreScore * 18;
-    reasons.push(`leans into your ${movie.genres.find((genre) => hasName(profile.topGenres, genre))} streak`);
+    score += genreScore * 16;
+    reasons.push(`leans into your ${bestWeightedMatch(movie.genres, tasteModel.genreWeights)} streak`);
   }
 
-  const tagScore = sumMatches(movie.tags, profile.topTags);
+  const tagScore = sumMapMatches(movie.tags, tasteModel.tagWeights);
   if (tagScore > 0) {
-    score += tagScore * 12;
-    const matchedTags = movie.tags.filter((tag) => hasName(profile.topTags, tag)).slice(0, 2);
+    score += tagScore * 10;
+    const matchedTags = topMatchingValues(movie.tags, tasteModel.tagWeights, 2);
     reasons.push(`matches ${matchedTags.join(" and ")} taste signals`);
+  }
+
+  const creatorScore = sumMapMatches(movie.directors, tasteModel.directorWeights) + sumMapMatches(movie.cast, tasteModel.castWeights);
+  if (creatorScore > 0) {
+    score += creatorScore * 7;
+    const matchedCreators = [...topMatchingValues(movie.directors, tasteModel.directorWeights, 1), ...topMatchingValues(movie.cast, tasteModel.castWeights, 1)];
+    reasons.push(`keeps close to ${matchedCreators[0]} in your ratings`);
   }
 
   const relatedCreators = likedMovies.filter(
@@ -112,6 +152,7 @@ function scoreMovie(movie: Movie, profile: TasteProfile, likedMovies: Movie[]): 
     score: Math.min(99, Math.max(1, Math.round(score))),
     confidence: profile.ratedCount >= 8 ? "high" : profile.ratedCount >= 3 ? "medium" : "low",
     reasons: reasons.slice(0, 3),
+    diversityKeys: [movie.genres[0], movie.directors[0], movie.tags[0]].filter((value) => value !== undefined),
   };
 }
 
@@ -130,12 +171,68 @@ function topWeights(weights: WeightedMap, count: number) {
     .slice(0, count);
 }
 
-function sumMatches(values: string[], weights: Array<{ name: string; weight: number }>) {
-  return values.reduce((total, value) => total + (weights.find((item) => item.name === value)?.weight ?? 0), 0);
+function sumMapMatches(values: string[], weights: WeightedMap) {
+  return values.reduce((total, value) => total + Math.max(0, weights.get(value) ?? 0), 0);
 }
 
-function hasName(values: Array<{ name: string }>, name: string) {
-  return values.some((value) => value.name === name);
+function topMatchingValues(values: string[], weights: WeightedMap, count: number) {
+  return values
+    .map((value) => ({ value, weight: weights.get(value) ?? 0 }))
+    .filter((item) => item.weight > 0)
+    .sort((a, b) => b.weight - a.weight)
+    .slice(0, count)
+    .map((item) => item.value);
+}
+
+function bestWeightedMatch(values: string[], weights: WeightedMap) {
+  return topMatchingValues(values, weights, 1)[0] ?? values[0] ?? "movie";
+}
+
+function diversifyRecommendations(candidates: RecommendationCandidate[], count: number) {
+  const selected: RecommendationCandidate[] = [];
+  const keyUses = new Map<string, number>();
+
+  for (const candidate of candidates) {
+    if (selected.length >= count) {
+      break;
+    }
+
+    const hasDominantDuplicate = candidate.diversityKeys.some((key) => (keyUses.get(key) ?? 0) >= 2);
+    if (hasDominantDuplicate && selected.length < Math.min(count, 4)) {
+      continue;
+    }
+
+    selected.push(candidate);
+    for (const key of candidate.diversityKeys) {
+      keyUses.set(key, (keyUses.get(key) ?? 0) + 1);
+    }
+  }
+
+  if (selected.length >= count) {
+    return selected;
+  }
+
+  for (const candidate of candidates) {
+    if (selected.includes(candidate)) {
+      continue;
+    }
+
+    selected.push(candidate);
+    if (selected.length >= count) {
+      break;
+    }
+  }
+
+  return selected;
+}
+
+function toRecommendation(candidate: RecommendationCandidate): Recommendation {
+  return {
+    movie: candidate.movie,
+    score: candidate.score,
+    confidence: candidate.confidence,
+    reasons: candidate.reasons,
+  };
 }
 
 function intersects(a: string[], b: string[]) {

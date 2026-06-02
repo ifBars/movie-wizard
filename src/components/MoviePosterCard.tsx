@@ -1,12 +1,12 @@
-import { BookmarkSimple, CheckCircle, Star } from "@phosphor-icons/react";
+import { BookmarkSimple, CheckCircle, Prohibit, Star } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
-import { useState } from "react";
+import { memo, useState } from "react";
 import type { PointerEvent } from "react";
 import { fadeScale, quickSpring, softSpring } from "@/lib/motion";
+import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
 import type { Movie, Rating, UserMovieState } from "@/types";
 
-const ratings = [1, 2, 3, 4, 5] as const;
 const tmdbPosterBaseUrl = "https://image.tmdb.org/t/p/w500";
 
 type MoviePosterCardProps = {
@@ -17,11 +17,12 @@ type MoviePosterCardProps = {
   onOpen?: (movieId: string) => void;
   onPreviewIntent?: () => void;
   onRate: (movieId: string, rating: Rating) => void;
+  onToggleIgnored: (movieId: string) => void;
   onToggleWatched: (movieId: string) => void;
   onToggleWatchlist: (movieId: string) => void;
 };
 
-export function MoviePosterCard({
+export const MoviePosterCard = memo(function MoviePosterCard({
   animateOnMount = true,
   enableLayoutAnimation = true,
   movie,
@@ -29,6 +30,7 @@ export function MoviePosterCard({
   onOpen,
   onPreviewIntent,
   onRate,
+  onToggleIgnored,
   onToggleWatched,
   onToggleWatchlist,
 }: MoviePosterCardProps) {
@@ -40,15 +42,12 @@ export function MoviePosterCard({
 
   function previewRatingFromPointer(event: PointerEvent<HTMLDivElement>) {
     const rect = event.currentTarget.getBoundingClientRect();
-    const x = Math.min(Math.max(event.clientX - rect.left, 0), rect.width);
-    const nextRating = Math.min(5, Math.max(1, Math.ceil((x / rect.width) * 5))) as Rating;
-
-    setPreviewRating(nextRating);
+    setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
   }
 
   return (
     <motion.article
-      className={cn("movie-poster-card", onOpen && "movie-poster-card--clickable")}
+      className={cn("movie-poster-card", onOpen && "movie-poster-card--clickable", state?.ignored && "is-ignored")}
       layout={enableLayoutAnimation}
       {...(animateOnMount ? fadeScale(shouldReduceMotion) : {})}
       onMouseEnter={onPreviewIntent}
@@ -89,18 +88,32 @@ export function MoviePosterCard({
           )}
           <p>{movie.year}</p>
         </div>
-        <motion.button
-          type="button"
-          className={cn("mini-icon-button", state?.watchlist && "is-selected")}
-          onClick={() => onToggleWatchlist(movie.id)}
-          aria-label={state?.watchlist ? `Remove ${movie.title} from watchlist` : `Add ${movie.title} to watchlist`}
-          title={state?.watchlist ? "Remove from watchlist" : "Add to watchlist"}
-          whileTap={shouldReduceMotion ? undefined : { scale: 0.86 }}
-          animate={state?.watchlist && !shouldReduceMotion ? { scale: [1, 1.12, 1] } : { scale: 1 }}
-          transition={quickSpring}
-        >
-          <BookmarkSimple weight={state?.watchlist ? "fill" : "regular"} />
-        </motion.button>
+        <div className="poster-meta-actions">
+          <motion.button
+            type="button"
+            className={cn("mini-icon-button", state?.ignored && "is-muted-selected")}
+            onClick={() => onToggleIgnored(movie.id)}
+            aria-label={state?.ignored ? `Show interest in ${movie.title}` : `Mark ${movie.title} not interested`}
+            title={state?.ignored ? "Undo not interested" : "Not interested"}
+            whileTap={shouldReduceMotion ? undefined : { scale: 0.86 }}
+            animate={state?.ignored && !shouldReduceMotion ? { scale: [1, 1.12, 1] } : { scale: 1 }}
+            transition={quickSpring}
+          >
+            <Prohibit weight={state?.ignored ? "fill" : "regular"} />
+          </motion.button>
+          <motion.button
+            type="button"
+            className={cn("mini-icon-button", state?.watchlist && "is-selected")}
+            onClick={() => onToggleWatchlist(movie.id)}
+            aria-label={state?.watchlist ? `Remove ${movie.title} from watchlist` : `Add ${movie.title} to watchlist`}
+            title={state?.watchlist ? "Remove from watchlist" : "Add to watchlist"}
+            whileTap={shouldReduceMotion ? undefined : { scale: 0.86 }}
+            animate={state?.watchlist && !shouldReduceMotion ? { scale: [1, 1.12, 1] } : { scale: 1 }}
+            transition={quickSpring}
+          >
+            <BookmarkSimple weight={state?.watchlist ? "fill" : "regular"} />
+          </motion.button>
+        </div>
       </div>
 
       <div
@@ -109,7 +122,7 @@ export function MoviePosterCard({
         onPointerLeave={() => setPreviewRating(null)}
       >
         <div className="rating-stars" onPointerMove={previewRatingFromPointer}>
-          {ratings.map((rating) => (
+          {starRatings.map((rating) => (
             <motion.button
               key={rating}
               type="button"
@@ -146,4 +159,4 @@ export function MoviePosterCard({
       </div>
     </motion.article>
   );
-}
+});

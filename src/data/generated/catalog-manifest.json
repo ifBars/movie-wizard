@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-02T02:10:52.027Z",
+  "movieCount": 964,
+  "indexFields": [
+    "id",
+    "tmdbId",
+    "imdbId",
+    "title",
+    "originalTitle",
+    "originalLanguage",
+    "year",
+    "releaseDate",
+    "runtimeMinutes",
+    "genres",
+    "tags",
+    "directors",
+    "cast",
+    "posterPath",
+    "backdropPath",
+    "posterTone",
+    "popularity",
+    "criticalScore",
+    "plexFit",
+    "synopsisPreview"
+  ],
+  "detailFields": [
+    "id",
+    "source",
+    "synopsis"
+  ]
+}

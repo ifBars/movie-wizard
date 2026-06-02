@@ -1,9 +1,27 @@
-import { ArrowLeft, BookmarkSimple, CaretLeft, CaretRight, CheckCircle, FilmSlate, GearSix, Star } from "@phosphor-icons/react";
-import { motion, useReducedMotion } from "framer-motion";
-import { useMemo, useRef, useState } from "react";
-import type { PointerEvent } from "react";
+import {
+  ArrowLeft,
+  ArrowSquareOut,
+  BookmarkSimple,
+  CalendarBlank,
+  CaretLeft,
+  CaretRight,
+  CheckCircle,
+  FilmSlate,
+  GearSix,
+  GlobeHemisphereWest,
+  IdentificationBadge,
+  Prohibit,
+  Star,
+  WarningCircle,
+  UsersThree,
+} from "@phosphor-icons/react";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useMemo, useState } from "react";
+import type { PointerEvent, ReactNode } from "react";
 import { MoviePosterCard } from "@/components/MoviePosterCard";
+import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import { fadeSlide, quickSpring, softSpring } from "@/lib/motion";
+import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
 import type { Movie, MovieStateMap, Rating, UserMovieState } from "@/types";
 
@@ -15,12 +33,13 @@ type MovieDetailsPageProps = {
   onBack: () => void;
   onOpenMovie: (movieId: string) => void;
   onRate: (movieId: string, rating: Rating) => void;
+  onToggleIgnored: (movieId: string) => void;
   onToggleWatched: (movieId: string) => void;
   onToggleWatchlist: (movieId: string) => void;
 };
 
 const tmdbImageBaseUrl = "https://image.tmdb.org/t/p";
-const ratings = [1, 2, 3, 4, 5] as const;
+type DetailTab = "overview" | "credits" | "parents-guide";
 
 export function MovieDetailsPage({
   movie,
@@ -30,31 +49,43 @@ export function MovieDetailsPage({
   onBack,
   onOpenMovie,
   onRate,
+  onToggleIgnored,
   onToggleWatched,
   onToggleWatchlist,
 }: MovieDetailsPageProps) {
   const shouldReduceMotion = useReducedMotion();
   const posterUrl = movie.posterPath ? `${tmdbImageBaseUrl}/w500${movie.posterPath}` : undefined;
   const backdropUrl = movie.backdropPath ? `${tmdbImageBaseUrl}/w1280${movie.backdropPath}` : posterUrl;
-  const similarMovies = useMemo(() => getSimilarMovies(movie, movies), [movie, movies]);
+  const similarMovies = useMemo(() => getSimilarMovies(movie, movies, states), [movie, movies, states]);
+  const releaseDate = formatReleaseDate(movie.releaseDate);
+  const originalLanguage = formatLanguageName(movie.originalLanguage);
+  const parentsGuideUrl = movie.imdbId ? `https://www.imdb.com/title/${movie.imdbId}/parentalguide/` : undefined;
+  const crewCredits = getCrewCredits(movie);
+  const sourceRatings = getSourceRatings(movie);
   const ratingValue = state?.rating ?? 0;
   const [previewRating, setPreviewRating] = useState<Rating | null>(null);
+  const [activeTab, setActiveTab] = useState<DetailTab>("overview");
   const displayedRating = previewRating ?? ratingValue;
-  const similarRowRef = useRef<HTMLDivElement>(null);
-
-  function scrollSimilar(direction: "left" | "right") {
-    similarRowRef.current?.scrollBy({
-      left: direction === "left" ? -similarRowRef.current.clientWidth * 0.78 : similarRowRef.current.clientWidth * 0.78,
-      behavior: shouldReduceMotion ? "auto" : "smooth",
-    });
-  }
+  const {
+    canScrollLeft,
+    canScrollRight,
+    isDragging,
+    onClickCapture,
+    onPointerCancel,
+    onPointerDown,
+    onPointerMove,
+    onPointerUp,
+    onScroll,
+    ref: similarRowRef,
+    scrollByPage,
+  } = useHorizontalScroll({
+    itemCount: similarMovies.length,
+    shouldReduceMotion,
+  });
 
   function previewRatingFromPointer(event: PointerEvent<HTMLDivElement>) {
     const rect = event.currentTarget.getBoundingClientRect();
-    const x = Math.min(Math.max(event.clientX - rect.left, 0), rect.width);
-    const nextRating = Math.min(5, Math.max(1, Math.ceil((x / rect.width) * 5))) as Rating;
-
-    setPreviewRating(nextRating);
+    setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
   }
 
   return (
@@ -130,118 +161,215 @@ export function MovieDetailsPage({
               <CheckCircle weight={state?.watched ? "fill" : "regular"} />
               {state?.watched ? "Watched" : "Mark watched"}
             </motion.button>
-            <div
-              className={cn("detail-rating-inline", previewRating !== null && "is-previewing")}
-              aria-label={`Rate ${movie.title}`}
-              onPointerLeave={() => setPreviewRating(null)}
+            <motion.button
+              type="button"
+              className={cn("detail-action-button detail-action-button--muted", state?.ignored && "is-muted-selected")}
+              onClick={() => onToggleIgnored(movie.id)}
+              aria-label={state?.ignored ? `Undo not interested for ${movie.title}` : `Mark ${movie.title} not interested`}
+              whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
+              transition={quickSpring}
             >
-              <span>Rate</span>
-              <div className="detail-rating-stars" onPointerMove={previewRatingFromPointer}>
-                {ratings.map((rating) => (
-                  <motion.button
-                    key={rating}
-                    type="button"
-                    onClick={() => onRate(movie.id, rating as Rating)}
-                    onFocus={() => setPreviewRating(rating)}
-                    onBlur={() => setPreviewRating(null)}
-                    aria-label={`Rate ${rating} stars`}
-                    className={cn(rating <= displayedRating && "is-filled", previewRating === rating && "is-preview-target")}
-                    whileHover={shouldReduceMotion ? undefined : { y: -1, scale: 1.12 }}
-                    whileTap={shouldReduceMotion ? undefined : { scale: 0.82 }}
-                    animate={
-                      displayedRating === rating && !shouldReduceMotion
-                        ? { scale: [1, 1.2, 1], rotate: previewRating ? 0 : [0, -8, 0] }
-                        : { scale: 1, rotate: 0 }
-                    }
-                    transition={{ duration: 0.18 }}
-                  >
-                    <Star weight={rating <= displayedRating ? "fill" : "regular"} />
-                  </motion.button>
-                ))}
-              </div>
-              <strong>{previewRating ? `${previewRating}/5` : ratingValue ? `${ratingValue}/5` : "Not rated"}</strong>
-            </div>
+              <Prohibit weight={state?.ignored ? "fill" : "regular"} />
+              {state?.ignored ? "Undo not interested" : "Not interested"}
+            </motion.button>
           </div>
         </div>
       </section>
 
-      <motion.div className="movie-detail-content" layout transition={softSpring}>
-        <motion.section className="detail-panel detail-panel--details" layout {...fadeSlide(shouldReduceMotion, 12)}>
-          <div className="detail-panel-tabs" aria-label="Movie detail sections">
-            <span className="is-active">Details</span>
-            <span>Cast</span>
-            <span>Crew</span>
-          </div>
-          <div className="detail-panel-grid">
-            <div>
-              <h2>Overview</h2>
-              <p>{movie.synopsis}</p>
-            </div>
-            <div>
-              <DetailList label="Director" values={movie.directors} />
-              <DetailList label="Cast" values={movie.cast.slice(0, 5)} />
-            </div>
-          </div>
-        </motion.section>
+      <motion.section className="detail-panel detail-panel--details" layout transition={softSpring} {...fadeSlide(shouldReduceMotion, 12)}>
+        <div className="detail-panel-tabs" role="tablist" aria-label="Movie detail sections">
+          <button
+            type="button"
+            className={cn(activeTab === "overview" && "is-active")}
+            onClick={() => setActiveTab("overview")}
+            role="tab"
+            aria-selected={activeTab === "overview"}
+          >
+            Overview
+          </button>
+          <button
+            type="button"
+            className={cn(activeTab === "credits" && "is-active")}
+            onClick={() => setActiveTab("credits")}
+            role="tab"
+            aria-selected={activeTab === "credits"}
+          >
+            Credits
+          </button>
+          <button
+            type="button"
+            className={cn(activeTab === "parents-guide" && "is-active")}
+            onClick={() => setActiveTab("parents-guide")}
+            role="tab"
+            aria-selected={activeTab === "parents-guide"}
+          >
+            Parents guide
+          </button>
+        </div>
 
-        <motion.section className="detail-panel detail-panel--notes" layout {...fadeSlide(shouldReduceMotion, 16)}>
-          <h2>Catalog notes</h2>
-          <p>{movie.plexFit}</p>
-          <div className="detail-tags">
-            {movie.tags.slice(0, 8).map((tag) => (
-              <span key={tag}>{tag}</span>
-            ))}
-          </div>
-          <div className="detail-source-note">
-            <span>Source</span>
-            <p>Images and metadata provided by TMDB.</p>
-          </div>
-        </motion.section>
-      </motion.div>
+        <AnimatePresence mode="wait" initial={false}>
+          {activeTab === "overview" ? (
+            <motion.div key="overview" className="detail-tab-layout" role="tabpanel" {...fadeSlide(shouldReduceMotion, 8)}>
+              <div className="detail-overview-column">
+                <div className="detail-overview-head">
+                  <div>
+                    <h2>Storyline</h2>
+                    <p>{movie.synopsis}</p>
+                  </div>
+                  <DetailRatingControl
+                    displayedRating={displayedRating}
+                    movie={movie}
+                    onPointerLeave={() => setPreviewRating(null)}
+                    onPreviewRating={previewRatingFromPointer}
+                    onRate={onRate}
+                    onSetPreviewRating={setPreviewRating}
+                    shouldReduceMotion={shouldReduceMotion}
+                  />
+                </div>
 
-      {similarMovies.length > 0 ? (
-        <motion.section className="detail-similar-section" layout {...fadeSlide(shouldReduceMotion, 12)}>
-          <DetailSectionHeader title="similar picks" subtitle="Shared genres, tags, and catalog signals" />
-          <div className="movie-row-frame">
-            <motion.button
-              type="button"
-              className="row-edge row-edge--left"
-              onClick={() => scrollSimilar("left")}
-              aria-label="Scroll similar picks left"
-              whileTap={shouldReduceMotion ? undefined : { scale: 0.9 }}
-              transition={quickSpring}
-            >
-              <CaretLeft weight="bold" />
-            </motion.button>
-            <motion.div className="movie-row detail-similar-row" ref={similarRowRef} layout transition={softSpring}>
-              {similarMovies.map((similarMovie) => (
-                <MoviePosterCard
-                  key={similarMovie.id}
-                  movie={similarMovie}
-                  state={states[similarMovie.id]}
-                  onRate={onRate}
-                  onToggleWatched={onToggleWatched}
-                  onToggleWatchlist={onToggleWatchlist}
-                  onOpen={onOpenMovie}
+                <section className="detail-facts-strip" aria-label="Movie facts">
+                  <DetailFact icon={<FilmSlate weight="fill" />} label="Runtime" value={movie.runtimeMinutes ? `${movie.runtimeMinutes} min` : "Not listed"} />
+                  <DetailFact icon={<CalendarBlank weight="fill" />} label="Release" value={releaseDate ?? String(movie.year)} />
+                  <DetailFact icon={<GlobeHemisphereWest weight="fill" />} label="Original language" value={originalLanguage} />
+                </section>
+
+                <div className="detail-tags detail-tags--overview">
+                  {movie.genres.slice(0, 6).map((genre) => (
+                    <span key={genre}>{genre}</span>
+                  ))}
+                </div>
+
+                {similarMovies.length > 0 ? (
+                  <section className="detail-tab-similar">
+                    <h2>More like this</h2>
+                    <div className="movie-row-frame">
+                      <AnimatePresence initial={false}>
+                        {canScrollLeft ? (
+                          <motion.button
+                            key="left"
+                            type="button"
+                            className="row-edge row-edge--left"
+                            onClick={() => scrollByPage("left")}
+                            aria-label="Scroll similar picks left"
+                            initial={{ opacity: 0, scale: 0.92 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.92 }}
+                            whileTap={shouldReduceMotion ? undefined : { scale: 0.9 }}
+                            transition={quickSpring}
+                          >
+                            <CaretLeft weight="bold" />
+                          </motion.button>
+                        ) : null}
+                      </AnimatePresence>
+                      <motion.div
+                        className={cn("movie-row detail-similar-row", isDragging && "is-dragging")}
+                        ref={similarRowRef}
+                        layout
+                        transition={softSpring}
+                        onScroll={onScroll}
+                        onPointerDown={onPointerDown}
+                        onPointerMove={onPointerMove}
+                        onPointerUp={onPointerUp}
+                        onPointerCancel={onPointerCancel}
+                        onClickCapture={onClickCapture}
+                      >
+                        {similarMovies.map((similarMovie) => (
+                          <MoviePosterCard
+                            key={similarMovie.id}
+                            movie={similarMovie}
+                            state={states[similarMovie.id]}
+                            onRate={onRate}
+                            onToggleIgnored={onToggleIgnored}
+                            onToggleWatched={onToggleWatched}
+                            onToggleWatchlist={onToggleWatchlist}
+                            onOpen={onOpenMovie}
+                          />
+                        ))}
+                      </motion.div>
+                      <AnimatePresence initial={false}>
+                        {canScrollRight ? (
+                          <motion.button
+                            key="right"
+                            type="button"
+                            className="row-edge row-edge--right"
+                            onClick={() => scrollByPage("right")}
+                            aria-label="Scroll similar picks right"
+                            initial={{ opacity: 0, scale: 0.92 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.92 }}
+                            whileTap={shouldReduceMotion ? undefined : { scale: 0.9 }}
+                            transition={quickSpring}
+                          >
+                            <CaretRight weight="bold" />
+                          </motion.button>
+                        ) : null}
+                      </AnimatePresence>
+                    </div>
+                  </section>
+                ) : null}
+              </div>
+
+              <aside className="detail-info-rail" aria-label="Movie source information">
+                <DetailSourceRail
+                  movie={movie}
+                  parentsGuideUrl={parentsGuideUrl}
+                  sourceRatings={sourceRatings}
+                  onOpenParentsGuide={() => setActiveTab("parents-guide")}
                 />
-              ))}
+              </aside>
             </motion.div>
-            <motion.button
-              type="button"
-              className="row-edge row-edge--right"
-              onClick={() => scrollSimilar("right")}
-              aria-label="Scroll similar picks right"
-              whileTap={shouldReduceMotion ? undefined : { scale: 0.9 }}
-              transition={quickSpring}
-            >
-              <CaretRight weight="bold" />
-            </motion.button>
-          </div>
-        </motion.section>
-      ) : null}
-    </motion.section>
-  );
-}
+          ) : null}
+
+          {activeTab === "credits" ? (
+            <motion.div key="credits" className="detail-credits-tab" role="tabpanel" {...fadeSlide(shouldReduceMotion, 8)}>
+              <div className="detail-section-title">
+                <h2>Cast and crew</h2>
+                <p>{movie.title}</p>
+              </div>
+              <div className="detail-credit-groups">
+                <DetailList label="Director" values={movie.directors} />
+                <DetailPeopleList label="Top cast" values={movie.cast} />
+                <DetailCrewList credits={crewCredits} />
+              </div>
+            </motion.div>
+          ) : null}
+
+          {activeTab === "parents-guide" ? (
+            <motion.div key="parents-guide" className="detail-parents-tab" role="tabpanel" {...fadeSlide(shouldReduceMotion, 8)}>
+              <div className="detail-section-title">
+                <h2>IMDb Parents Guide</h2>
+                <p>{movie.imdbId ?? "IMDb ID unavailable"}</p>
+              </div>
+              <div className="detail-parents-layout">
+                <div className="detail-parent-preview">
+                  <WarningCircle weight="fill" />
+                  <h3>Content guide opens on IMDb</h3>
+                  <p>
+                    IMDb guide pages are challenge-protected and are not a reliable embedded surface for a browser-only
+                    local app.
+                  </p>
+                  {parentsGuideUrl ? (
+                    <a href={parentsGuideUrl} target="_blank" rel="noreferrer">
+                      Open IMDb Parents Guide
+                      <ArrowSquareOut weight="bold" />
+                    </a>
+                  ) : (
+                    <span>IMDb guide unavailable</span>
+                  )}
+                </div>
+                <div className="detail-parent-categories">
+                  {["Sex & Nudity", "Violence & Gore", "Profanity", "Alcohol, Drugs & Smoking", "Frightening & Intense Scenes"].map((category) => (
+                    <div key={category}>
+                      <span>{category}</span>
+                      <p>View category details on IMDb.</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          ) : null}
+        </AnimatePresence>
+      </motion.section>
 
 function DetailSectionHeader({ title, subtitle }: { title: string; subtitle: string }) {
   const shouldReduceMotion = useReducedMotion();
@@ -274,12 +402,114 @@ function DetailList({ label, values }: { label: string; values: string[] }) {
   );
 }
 
-function getSimilarMovies(movie: Movie, movies: Movie[]) {
+function DetailCastList({ values }: { values: string[] }) {
+  return (
+    <section className="detail-cast-board" aria-label="Cast">
+      <div className="detail-mini-heading">
+        <UsersThree weight="fill" />
+        <span>Cast</span>
+      </div>
+      {values.length > 0 ? (
+        <div className="detail-cast-grid">
+          {values.map((name) => (
+            <div key={name} className="detail-cast-chip">
+              <span>{initialsForName(name)}</span>
+              <strong>{name}</strong>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p>Not listed</p>
+      )}
+    </section>
+  );
+}
+
+function DetailCrewList({ credits }: { credits: Array<{ name: string; job: string }> }) {
+  return (
+    <div className="detail-list">
+      <span>Crew</span>
+      {credits.length > 0 ? (
+        <dl className="detail-crew-list">
+          {credits.map((credit) => (
+            <div key={`${credit.job}-${credit.name}`}>
+              <dt>{credit.job}</dt>
+              <dd>{credit.name}</dd>
+            </div>
+          ))}
+        </dl>
+      ) : (
+        <p>Not listed</p>
+      )}
+    </div>
+  );
+}
+
+function initialsForName(name: string) {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase())
+    .join("");
+}
+
+function DetailFact({ icon, label, value }: { icon: ReactNode; label: string; value: string }) {
+  return (
+    <div className="detail-fact">
+      {icon}
+      <div>
+        <span>{label}</span>
+        <strong>{value}</strong>
+      </div>
+    </div>
+  );
+}
+
+function getCrewCredits(movie: Movie) {
+  if (movie.crew && movie.crew.length > 0) {
+    return movie.crew;
+  }
+
+  return movie.directors.map((name) => ({ name, job: "Director" }));
+}
+
+function getSourceRatings(movie: Movie) {
+  return [
+    movie.source?.tmdbVoteAverage ? { label: "TMDB", value: `${movie.source.tmdbVoteAverage.toFixed(1)}/10` } : undefined,
+    movie.source?.tmdbVoteCount ? { label: "TMDB votes", value: movie.source.tmdbVoteCount.toLocaleString() } : undefined,
+    movie.source?.omdbImdbRating ? { label: "IMDb", value: `${movie.source.omdbImdbRating.toFixed(1)}/10` } : undefined,
+    movie.source?.omdbMetascore ? { label: "Metascore", value: String(movie.source.omdbMetascore) } : undefined,
+  ].filter((rating): rating is { label: string; value: string } => Boolean(rating));
+}
+
+function formatReleaseDate(value?: string) {
+  if (!value) {
+    return undefined;
+  }
+
+  const date = new Date(`${value}T00:00:00`);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", year: "numeric" }).format(date);
+}
+
+function formatLanguageName(value: string) {
+  try {
+    return new Intl.DisplayNames(undefined, { type: "language" }).of(value) ?? value.toUpperCase();
+  } catch {
+    return value.toUpperCase();
+  }
+}
+
+function getSimilarMovies(movie: Movie, movies: Movie[], states: MovieStateMap) {
   const genres = new Set(movie.genres);
   const tags = new Set(movie.tags);
 
   return movies
-    .filter((candidate) => candidate.id !== movie.id)
+    .filter((candidate) => candidate.id !== movie.id && !states[candidate.id]?.ignored)
     .map((candidate) => ({
       movie: candidate,
       score:

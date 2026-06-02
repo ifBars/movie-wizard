@@ -19,7 +19,27 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      "@typescript-eslint/consistent-type-assertions": ["error", { assertionStyle: "never" }],
+      "no-restricted-imports": [
+        "error",
+        {
+          paths: [
+            {
+              name: "react",
+              importNames: ["useEffect", "useLayoutEffect"],
+              message: "Use the explicit external-sync adapters in src/hooks/useExternalSyncEffect.ts.",
+            },
+          ],
+        },
+      ],
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+    },
+  },
+  {
+    files: ["src/hooks/useExternalSyncEffect.ts"],
+    rules: {
+      "react-hooks/exhaustive-deps": "off",
+      "no-restricted-imports": "off",
     },
   },
 );

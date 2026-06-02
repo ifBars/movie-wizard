@@ -21,6 +21,7 @@ type MovieRecord = {
   imdbId?: string;
   title: string;
   originalTitle?: string;
+  originalLanguage: string;
   year: number;
   releaseDate?: string;
   runtimeMinutes: number;
@@ -28,6 +29,7 @@ type MovieRecord = {
   tags: string[];
   directors: string[];
   cast: string[];
+  crew?: Array<{ name: string; job: string }>;
   synopsis: string;
   posterPath?: string;
   backdropPath?: string;
@@ -61,6 +63,7 @@ type TmdbMovieDetails = {
   imdb_id?: string | null;
   title: string;
   original_title?: string;
+  original_language?: string;
   release_date?: string;
   runtime?: number | null;
   genres?: Array<{ id: number; name: string }>;
@@ -136,7 +139,7 @@ const outputPath = path.join(rootDir, "src", "data", "generated", "movies.json")
 const metadataPath = path.join(rootDir, "src", "data", "generated", "metadata.json");
 const manifestPath = path.join(rootDir, "src", "data", "generated", "enrichment-manifest.json");
 const cacheDir = path.join(rootDir, ".movie-wizard-cache", "tmdb");
-const sourceFingerprint = "tmdb-v3:movie-details:credits,external_ids,keywords";
+const sourceFingerprint = "tmdb-v3:movie-details:credits,crew,external_ids,keywords";
 const requestKeysThisRun = new Set<string>();
 const runStats = {
   tmdbCacheHits: 0,
@@ -146,6 +149,10 @@ const runStats = {
   tmdbFailures: 0,
   refreshedRecordCount: 0,
 };
+
+function hasErrorCode(error: unknown, code: string) {
+  return error instanceof Error && "code" in error && error.code === code;
+}
 
 const genrePosterTones = new Map([
   ["Action", "from-orange-300 via-red-700 to-neutral-950"],
@@ -396,7 +403,7 @@ async function loadEnvFiles(files: string[]) {
         process.env[key] ??= value;
       }
     } catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
+      if (!hasErrorCode(error, "ENOENT")) {
         throw error;
       }
     }
@@ -404,7 +411,7 @@ async function loadEnvFiles(files: string[]) {
 }
 
 async function readJson<T>(filePath: string): Promise<T> {
-  return JSON.parse(await readFile(filePath, "utf8")) as T;
+  return JSON.parse(await readFile(filePath, "utf8"));
 }
 
 async function readExistingRecords(filePath: string) {
@@ -412,7 +419,7 @@ async function readExistingRecords(filePath: string) {
     const records = await readJson<MovieRecord[]>(filePath);
     return dedupeRecords(records.filter(isUsefulRecord));
   } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+    if (hasErrorCode(error, "ENOENT")) {
       return [];
     }
     throw error;
@@ -424,7 +431,7 @@ async function readManifest(existingRecords: MovieRecord[]) {
     const manifest = await readJson<EnrichmentManifest>(manifestPath);
     return normalizeManifest(manifest, existingRecords);
   } catch (error) {
-    if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
+    if (!hasErrorCode(error, "ENOENT")) {
       throw error;
     }
     return normalizeManifest(createManifest(), existingRecords);
@@ -593,6 +600,7 @@ function recordCompletenessScore(record: MovieRecord) {
     record.tags.length,
     record.directors.length,
     record.cast.length,
+    record.crew?.length ?? 0,
   ].reduce((total, value) => total + value, 0);
 }
 
@@ -679,7 +687,7 @@ async function readTmdbExport(filePath: string, limit: number) {
       break;
     }
 
-    const item = JSON.parse(line) as TmdbListItem;
+    const item: TmdbListItem = JSON.parse(line);
     if (isUsefulListItem(item)) {
       movies.push(item);
     }
@@ -721,6 +729,7 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
   const genres = unique((details.genres ?? []).map((genre) => genre.name));
   const directors = unique((details.credits?.crew ?? []).filter((person) => person.job === "Director").map((person) => person.name)).slice(0, 3);
   const cast = unique((details.credits?.cast ?? []).sort((a, b) => (a.order ?? 999) - (b.order ?? 999)).map((person) => person.name)).slice(0, 6);
+  const crew = notableCrew(details.credits?.crew ?? [], directors);
   const keywordTags = unique((details.keywords?.keywords ?? []).map((keyword) => keyword.name).filter(isTagLike)).slice(0, 8);
   const tags = unique([...(seed.tags ?? []), ...keywordTags]).slice(0, 10);
   const runtimeMinutes = details.runtime ?? parseRuntime(omdb?.Runtime) ?? 0;
@@ -732,6 +741,7 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
     imdbId: imdbId ?? undefined,
     title: details.title,
     originalTitle: details.original_title && details.original_title !== details.title ? details.original_title : undefined,
+    originalLanguage: details.original_language ?? "en",
     year,
     releaseDate: details.release_date || undefined,
     runtimeMinutes,
@@ -739,6 +749,7 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
     tags,
     directors: directors.length > 0 ? directors : splitPeople(omdb?.Director).slice(0, 3),
     cast: cast.length > 0 ? cast : splitPeople(omdb?.Actors).slice(0, 6),
+    crew,
     synopsis: details.overview || omdb?.Plot || "No synopsis is available yet.",
     posterPath: details.poster_path ?? undefined,
     backdropPath: details.backdrop_path ?? undefined,
@@ -826,7 +837,7 @@ async function tmdbFetch<T>(pathname: string, params: Record<string, string>, op
   }
 
   runStats.tmdbRequests += 1;
-  const data = (await response.json()) as T;
+  const data: T = await response.json();
   if (options.cacheMode === "read-write") {
     await writeTmdbCache(requestKey, data);
   }
@@ -843,9 +854,10 @@ function cacheKeyForUrl(url: URL) {
 
 async function readTmdbCache<T>(requestKey: string) {
   try {
-    return JSON.parse(await readFile(path.join(cacheDir, `${requestKey}.json`), "utf8")) as T;
+    const cachedData: T = JSON.parse(await readFile(path.join(cacheDir, `${requestKey}.json`), "utf8"));
+    return cachedData;
   } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+    if (hasErrorCode(error, "ENOENT")) {
       return undefined;
     }
     throw error;
@@ -868,7 +880,7 @@ async function fetchOmdb(imdbId: string, apiKey: string) {
     return undefined;
   }
 
-  const data = (await response.json()) as OmdbMovie;
+  const data: OmdbMovie = await response.json();
   return data.Response === "True" ? data : undefined;
 }
 
@@ -879,6 +891,7 @@ function recordFromSeed(seed: SeedMovie): MovieRecord {
     tmdbId: seed.tmdbId,
     imdbId: seed.imdbId,
     title: seed.title,
+    originalLanguage: "en",
     year,
     runtimeMinutes: 0,
     genres: [],
@@ -958,6 +971,55 @@ function splitPeople(value?: string) {
 
 function unique<T>(items: T[]) {
   return Array.from(new Set(items));
+}
+
+function notableCrew(crew: Array<{ name: string; job?: string }>, directors: string[]) {
+  const notableJobs = new Set([
+    "Director",
+    "Screenplay",
+    "Writer",
+    "Original Music Composer",
+    "Director of Photography",
+    "Editor",
+    "Producer",
+  ]);
+  const seen = new Set<string>();
+
+  return crew
+    .filter((person) => person.name && person.job && notableJobs.has(person.job))
+    .filter((person) => {
+      const key = `${person.name}:${person.job}`;
+      if (seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => crewJobRank(a.job ?? "", directors.includes(a.name)) - crewJobRank(b.job ?? "", directors.includes(b.name)))
+    .slice(0, 10)
+    .map((person) => ({ name: person.name, job: person.job ?? "Crew" }));
+}
+
+function crewJobRank(job: string, isDirector: boolean) {
+  if (isDirector || job === "Director") {
+    return 0;
+  }
+
+  switch (job) {
+    case "Screenplay":
+    case "Writer":
+      return 1;
+    case "Producer":
+      return 2;
+    case "Original Music Composer":
+      return 3;
+    case "Director of Photography":
+      return 4;
+    case "Editor":
+      return 5;
+    default:
+      return 9;
+  }
 }
 
 function isTagLike(value: string) {
