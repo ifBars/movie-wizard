@@ -99,6 +99,9 @@ type OmdbMovie = {
 type CliOptions = {
   limit: number;
   pages: number;
+  pageMode: "sequential" | "random";
+  pageMax: number;
+  discoverSort: "popularity" | "mixed";
   includeTmdbExport: boolean;
   includeOmdb: boolean;
   seedOnly: boolean;
@@ -357,6 +360,9 @@ async function main() {
   reporter.info("Starting enrichment", {
     limit: String(options.limit),
     pages: String(options.pages),
+    pageMode: options.pageMode,
+    pageMax: String(options.pageMax),
+    discoverSort: options.discoverSort,
     mode: options.seedOnly ? "seed-only" : "tmdb",
     cache: options.cacheMode,
     omdb: options.includeOmdb && Boolean(omdbApiKey) ? "enabled" : "disabled",
@@ -399,8 +405,9 @@ async function main() {
 
     if (options.includeTmdbExport) {
       reporter.phase("Reading recent TMDb daily export IDs");
-      const exportReadLimit = Math.min(20000, options.limit + existingRecords.length);
-      for (const movie of await fetchRecentTmdbExportIds(exportReadLimit)) {
+      const exportReadLimit = Math.min(20000, Math.max(options.limit, options.limit * 4));
+      const excludedExportKeys = new Set([...existingKeys, ...Array.from(candidates.keys()).map((key) => `tmdb:${key}`)]);
+      for (const movie of await fetchRecentTmdbExportIds(exportReadLimit, excludedExportKeys)) {
         candidates.set(movie.id, { tmdbId: movie.id, title: movie.title ?? `tmdb-${movie.id}` });
       }
       reporter.info(`Candidate pool after daily export IDs: ${candidates.size}`);
@@ -431,11 +438,12 @@ async function main() {
   }
 
   const newRecords: MovieRecord[] = [];
-  const values = Array.from(candidates.values())
-    .filter((seed) => shouldProcessCandidate(seed, existingKeys, manifest, options))
-    .slice(0, Math.max(options.limit * 2, options.limit));
+  const processableCandidates = Array.from(candidates.values()).filter((seed) => shouldProcessCandidate(seed, existingKeys, manifest, options));
+  const newCandidates = processableCandidates.filter((seed) => !isRefreshCandidate(seed, existingKeys)).slice(0, Math.max(options.limit * 2, options.limit));
+  const refreshCandidates = processableCandidates.filter((seed) => isRefreshCandidate(seed, existingKeys)).slice(0, options.refreshLimit);
+  const values = [...newCandidates, ...refreshCandidates];
   const targetExistingKeys = new Set(existingRecords.flatMap(recordKeys));
-  reporter.phase(`Enriching ${values.length} processable candidates`);
+  reporter.phase(`Enriching ${values.length} processable candidates (${newCandidates.length} new candidates, ${refreshCandidates.length} refresh candidates)`);
   reporter.progress(0, values.length, "Ready");
 
   for (const seed of values) {
@@ -459,7 +467,7 @@ async function main() {
 
     reporter.progress(runStats.processedCandidateCount, values.length, record ? record.title : seed.title);
 
-    if (newRecords.filter((record) => !hasKnownRecord(record, targetExistingKeys)).length >= options.limit) {
+    if (!refreshCandidate && newRecords.filter((record) => !hasKnownRecord(record, targetExistingKeys)).length >= options.limit) {
       break;
     }
   }
@@ -525,6 +533,9 @@ function parseArgs(args: string[]): CliOptions {
   const options: CliOptions = {
     limit: Number.isFinite(fallbackLimit) ? fallbackLimit : 250,
     pages: 3,
+    pageMode: "sequential",
+    pageMax: 500,
+    discoverSort: "popularity",
     includeTmdbExport: false,
     includeOmdb: false,
     seedOnly: false,
@@ -549,6 +560,21 @@ function parseArgs(args: string[]): CliOptions {
       index += 1;
     } else if (arg.startsWith("--pages=")) {
       options.pages = Number(arg.slice("--pages=".length));
+    } else if (arg === "--page-mode") {
+      options.pageMode = parsePageMode(args[index + 1] ?? options.pageMode);
+      index += 1;
+    } else if (arg.startsWith("--page-mode=")) {
+      options.pageMode = parsePageMode(arg.slice("--page-mode=".length));
+    } else if (arg === "--page-max") {
+      options.pageMax = Number(args[index + 1] ?? options.pageMax);
+      index += 1;
+    } else if (arg.startsWith("--page-max=")) {
+      options.pageMax = Number(arg.slice("--page-max=".length));
+    } else if (arg === "--discover-sort") {
+      options.discoverSort = parseDiscoverSort(args[index + 1] ?? options.discoverSort);
+      index += 1;
+    } else if (arg.startsWith("--discover-sort=")) {
+      options.discoverSort = parseDiscoverSort(arg.slice("--discover-sort=".length));
     } else if (arg === "--include-tmdb-export") {
       options.includeTmdbExport = true;
     } else if (arg === "--include-omdb") {
@@ -593,6 +619,7 @@ function parseArgs(args: string[]): CliOptions {
 
   options.limit = Math.max(1, Math.min(options.limit, 20000));
   options.pages = Math.max(1, Math.min(options.pages, 500));
+  options.pageMax = Math.max(options.pages, Math.min(options.pageMax, 500));
   options.staleDays = Math.max(1, Math.min(options.staleDays, 3650));
   options.retryDays = Math.max(1, Math.min(options.retryDays, 365));
   options.refreshLimit = Math.max(0, Math.min(options.refreshLimit, 20000));
@@ -604,6 +631,20 @@ function parseCacheMode(value: string): CliOptions["cacheMode"] {
     return value;
   }
   return "read-write";
+}
+
+function parsePageMode(value: string): CliOptions["pageMode"] {
+  if (value === "random") {
+    return value;
+  }
+  return "sequential";
+}
+
+function parseDiscoverSort(value: string): CliOptions["discoverSort"] {
+  if (value === "mixed") {
+    return value;
+  }
+  return "popularity";
 }
 
 function parseProgressMode(value: string): CliOptions["progress"] {
@@ -835,35 +876,61 @@ function recordCompletenessScore(record: MovieRecord) {
   ].reduce((total, value) => total + value, 0);
 }
 
+function pageSample(options: CliOptions) {
+  if (options.pageMode === "sequential") {
+    return Array.from({ length: options.pages }, (_, index) => index + 1);
+  }
+
+  const pages = new Set<number>();
+  while (pages.size < options.pages) {
+    pages.add(1 + Math.floor(Math.random() * options.pageMax));
+  }
+  return Array.from(pages).sort((a, b) => a - b);
+}
+
+function discoverParamsForPage(options: CliOptions, page: number) {
+  const baseParams = {
+    page: String(page),
+    language: "en-US",
+    include_adult: "false",
+    include_video: "false",
+  };
+
+  const sortOptions = [
+    { sort_by: "popularity.desc", "vote_count.gte": "100" },
+    { sort_by: "vote_count.desc", "vote_count.gte": "100" },
+    { sort_by: "revenue.desc", "vote_count.gte": "100" },
+    { sort_by: "vote_average.desc", "vote_count.gte": "500" },
+    { sort_by: "primary_release_date.desc", "vote_count.gte": "50" },
+  ];
+  const sortParams = options.discoverSort === "mixed" ? sortOptions[Math.floor(Math.random() * sortOptions.length)] : sortOptions[0];
+
+  return { ...baseParams, ...sortParams };
+}
+
 async function fetchTmdbList(pathname: string, pages: number, options: CliOptions, token?: string, apiKey?: string, reporter?: ProgressReporter) {
   const movies: TmdbListItem[] = [];
-  for (let page = 1; page <= pages; page += 1) {
+  const selectedPages = pageSample(options);
+  reporter?.info(`${pathname} selected pages: ${selectedPages.join(", ")}`);
+  for (let index = 0; index < selectedPages.length; index += 1) {
+    const page = selectedPages[index];
     const response = await tmdbFetch<{ results?: TmdbListItem[] }>(pathname, { page: String(page), language: "en-US" }, options, token, apiKey);
     movies.push(...(response.results ?? []));
-    reporter?.progress(page, pages, `${pathname} page ${page}`);
+    reporter?.progress(index + 1, pages, `${pathname} page ${page}`);
   }
   return movies;
 }
 
 async function fetchTmdbDiscover(pages: number, options: CliOptions, token?: string, apiKey?: string, reporter?: ProgressReporter) {
   const movies: TmdbListItem[] = [];
-  for (let page = 1; page <= pages; page += 1) {
-    const response = await tmdbFetch<{ results?: TmdbListItem[] }>(
-      "/discover/movie",
-      {
-        page: String(page),
-        language: "en-US",
-        include_adult: "false",
-        include_video: "false",
-        sort_by: "popularity.desc",
-        "vote_count.gte": "100",
-      },
-      options,
-      token,
-      apiKey,
-    );
+  const selectedPages = pageSample(options);
+  reporter?.info(`/discover/movie selected pages: ${selectedPages.join(", ")}`);
+  for (let index = 0; index < selectedPages.length; index += 1) {
+    const page = selectedPages[index];
+    const params = discoverParamsForPage(options, page);
+    const response = await tmdbFetch<{ results?: TmdbListItem[] }>("/discover/movie", params, options, token, apiKey);
     movies.push(...(response.results ?? []));
-    reporter?.progress(page, pages, `/discover/movie page ${page}`);
+    reporter?.progress(index + 1, pages, `/discover/movie page ${page} ${params.sort_by}`);
   }
   return movies;
 }
@@ -883,7 +950,7 @@ async function fetchChangedTmdbIds(options: CliOptions, token?: string, apiKey?:
   return movies.filter((movie) => !movie.adult);
 }
 
-async function fetchRecentTmdbExportIds(limit: number) {
+async function fetchRecentTmdbExportIds(limit: number, excludedKeys: Set<string>) {
   const today = new Date();
 
   for (let daysBack = 0; daysBack < 7; daysBack += 1) {
@@ -901,7 +968,7 @@ async function fetchRecentTmdbExportIds(limit: number) {
       }
 
       await writeFile(tempPath, Buffer.from(await response.arrayBuffer()));
-      return await readTmdbExport(tempPath, limit);
+      return await readTmdbExport(tempPath, limit, excludedKeys);
     } catch {
       continue;
     }
@@ -910,7 +977,7 @@ async function fetchRecentTmdbExportIds(limit: number) {
   return [];
 }
 
-async function readTmdbExport(filePath: string, limit: number) {
+async function readTmdbExport(filePath: string, limit: number, excludedKeys: Set<string>) {
   const movies: TmdbListItem[] = [];
   const stream = createReadStream(filePath).pipe(createGunzip());
   const lines = readline.createInterface({ input: stream, crlfDelay: Infinity });
@@ -921,8 +988,9 @@ async function readTmdbExport(filePath: string, limit: number) {
     }
 
     const item: TmdbListItem = JSON.parse(line);
-    if (isUsefulListItem(item)) {
+    if (isUsefulListItem(item) && !excludedKeys.has(`tmdb:${item.id}`)) {
       movies.push(item);
+      excludedKeys.add(`tmdb:${item.id}`);
     }
   }
 

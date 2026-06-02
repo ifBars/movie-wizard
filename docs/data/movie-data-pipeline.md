@@ -40,7 +40,15 @@ Generate enriched records from curated seeds plus TMDb popular, top-rated, and d
 bun run data:enrich -- --limit=250 --pages=3
 ```
 
+Sample random TMDb page windows instead of always reading page 1..N:
+
+```bash
+bun run data:enrich -- --limit=250 --pages=20 --page-mode=random --page-max=500 --discover-sort=mixed
+```
+
 Enrichment is incremental. If `src/data/generated/movies.json` already exists, the script keeps those records and treats `--limit` as the maximum number of new records to add during that run. Existing records are skipped by TMDb ID, IMDb ID, record ID, and seed title/year so reruns do not spend API calls re-enriching the same catalog entries.
+
+New-record discovery and refresh maintenance use separate budgets. The script chooses new candidates first, then appends refresh candidates up to `--refresh-limit`, so scheduled runs do not spend the new-record limit only refreshing movies already in the catalog. TMDb daily export discovery also scans past TMDb IDs that are already present before returning export candidates.
 
 The script also writes `src/data/generated/enrichment-manifest.json`. The manifest tracks successful TMDb enrichments, recent failures, retry cooldowns, and the current source fingerprint. Local reruns and scheduled runs use it to avoid redundant requests for fresh records.
 
@@ -69,6 +77,11 @@ Useful reliability flags:
 - `--cache=read-write`: default; reads cached responses and writes misses.
 - `--cache=read-only`: fails on cache misses, useful for offline rebuild checks.
 - `--cache=off`: bypasses the local response cache.
+- `--page-mode=sequential`: default; reads TMDb pages 1 through `--pages`.
+- `--page-mode=random`: samples unique TMDb pages from 1 through `--page-max`.
+- `--page-max=500`: caps the random page window. TMDb list/discover endpoints are capped at 500 pages.
+- `--discover-sort=popularity`: default; keeps discover sorted by popularity.
+- `--discover-sort=mixed`: randomly rotates discover pages through popularity, vote count, revenue, vote average, and recent-release sort lanes.
 - `--progress=auto`: default; uses a terminal progress bar locally and plain progress lines in CI.
 - `--progress=plain`: emits one-line progress updates that display cleanly in GitHub Actions logs.
 - `--progress=bar`: forces the local terminal progress bar.
@@ -95,8 +108,8 @@ The generated movie records preserve the app-facing `Movie` shape while adding o
 `.github/workflows/enrich-movie-catalog.yml` runs weekly and can also be started manually. It:
 
 1. Installs dependencies with Bun.
-2. Runs the TMDb enrichment script with daily export discovery, changed-record refresh, and stale-record refresh.
+2. Runs the TMDb enrichment script with randomized TMDb page windows, mixed discover sort lanes, daily export discovery, changed-record refresh, and stale-record refresh.
 3. Runs `bun run lint` and `bun run build`.
-4. Commits generated catalog changes only when `src/data/generated` changed.
+4. Commits generated catalog changes only when `src/data/generated` changed and at least one new record was added.
 
-The workflow forces `--progress=plain`, groups the enrichment log in GitHub Actions, and writes a markdown run summary to the Actions step summary when `GITHUB_STEP_SUMMARY` is available. Configure the repository secret `TMDB_READ_TOKEN` before enabling scheduled runs. Do not commit `.env.local` or API credentials.
+The workflow forces `--progress=plain`, groups the enrichment log in GitHub Actions, skips refresh-only commits, and writes a markdown run summary to the Actions step summary when `GITHUB_STEP_SUMMARY` is available. Configure the repository secret `TMDB_READ_TOKEN` before enabling scheduled runs. Do not commit `.env.local` or API credentials.

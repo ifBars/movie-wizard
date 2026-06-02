@@ -41,6 +41,9 @@ jobs:
           bun run data:enrich -- \
             --limit="${{ github.event.inputs.limit || '250' }}" \
             --pages="${{ github.event.inputs.pages || '20' }}" \
+            --page-mode=random \
+            --page-max=500 \
+            --discover-sort=mixed \
             --include-tmdb-export \
             --refresh-changes \
             --refresh-stale \
@@ -57,6 +60,12 @@ jobs:
         run: |
           if git diff --quiet -- src/data/generated; then
             echo "No generated catalog changes to commit."
+            exit 0
+          fi
+
+          NEW_RECORDS="$(bun -e 'const metadata = JSON.parse(await Bun.file("src/data/generated/metadata.json").text()); console.log(metadata.addedRecordCount ?? 0)')"
+          if [ "$NEW_RECORDS" = "0" ]; then
+            echo "Generated catalog changed, but no new records were added. Skipping refresh-only commit."
             exit 0
           fi
 
