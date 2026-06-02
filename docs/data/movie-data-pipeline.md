@@ -105,7 +105,7 @@ The generated movie records preserve the app-facing `Movie` shape while adding o
 
 ## Scheduled Enrichment
 
-`.github/workflows/enrich-movie-catalog.yml` runs weekly and can also be started manually. It:
+`.github/workflows/enrich-movie-catalog.yml` runs daily and can also be started manually. It:
 
 1. Installs dependencies with Bun.
 2. Runs the TMDb enrichment script with randomized TMDb page windows, mixed discover sort lanes, daily export discovery, changed-record refresh, and stale-record refresh.
@@ -113,3 +113,7 @@ The generated movie records preserve the app-facing `Movie` shape while adding o
 4. Commits generated catalog changes only when `src/data/generated` changed and at least one new record was added.
 
 The workflow forces `--progress=plain`, groups the enrichment log in GitHub Actions, skips refresh-only commits, and writes a markdown run summary to the Actions step summary when `GITHUB_STEP_SUMMARY` is available. Configure the repository secret `TMDB_READ_TOKEN` before enabling scheduled runs. Do not commit `.env.local` or API credentials.
+
+## GitHub Pages Deployment
+
+`.github/workflows/deploy-pages.yml` deploys the static Vite build to GitHub Pages on commits to `main` and manual runs. It also listens for successful `Enrich movie catalog` workflow completions, then checks out the latest `main` before building so scheduled catalog commits are published even though commits pushed with the default `GITHUB_TOKEN` do not start a second push-triggered Pages workflow.
