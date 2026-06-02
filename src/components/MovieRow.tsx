@@ -16,10 +16,11 @@ type MovieRowProps = {
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
   onMovieIntent?: () => void;
+  onReachEnd?: () => void;
   headerAction?: ReactNode;
 };
 
-export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, headerAction }: MovieRowProps) {
+export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, onReachEnd, headerAction }: MovieRowProps) {
   const shouldReduceMotion = useReducedMotion();
   const {
     canScrollLeft,
@@ -35,6 +36,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
     scrollByPage,
   } = useHorizontalScroll({
     itemCount: movies.length,
+    onReachEnd,
     shouldReduceMotion,
   });
 

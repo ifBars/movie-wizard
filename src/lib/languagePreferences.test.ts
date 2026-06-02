@@ -22,8 +22,16 @@ describe("language preferences", () => {
 
   test("allows additional selected languages through the catalog filter", () => {
     const hindiMovie = realCatalog.find((movie) => movie.originalLanguage === "hi");
-    const defaultSettings: LibrarySettings = { languageCodes: ["en"], showAdultMovies: false };
-    const expandedSettings: LibrarySettings = { languageCodes: ["en", "hi"], showAdultMovies: false };
+    const defaultSettings: LibrarySettings = {
+      languageCodes: ["en"],
+      showAdultMovies: false,
+      minimumRecommendationYear: null,
+    };
+    const expandedSettings: LibrarySettings = {
+      languageCodes: ["en", "hi"],
+      showAdultMovies: false,
+      minimumRecommendationYear: null,
+    };
 
     expect(hindiMovie).toBeDefined();
     expect(filterCatalogMovies(realCatalog, defaultSettings).some((movie) => movie.id === hindiMovie?.id)).toBe(false);

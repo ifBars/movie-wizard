@@ -67,7 +67,10 @@ export function useMovieLibrary() {
   const filterCounts = useMemo(() => getCatalogFilterCounts(movies, settings), [movies, settings]);
 
   const profile = useMemo(() => buildTasteProfile(visibleMovies, states), [states, visibleMovies]);
-  const recommendations = useMemo(() => getRecommendations(visibleMovies, states), [states, visibleMovies]);
+  const recommendations = useMemo(
+    () => getRecommendations(visibleMovies, states, { minimumMovieYear: settings.minimumRecommendationYear }),
+    [settings.minimumRecommendationYear, states, visibleMovies],
+  );
 
   const ratedMovies = useMemo(
     () =>
@@ -188,6 +191,16 @@ export function useMovieLibrary() {
     [settings, updateSettings],
   );
 
+  const setMinimumRecommendationYear = useCallback(
+    (minimumRecommendationYear: number | null) => {
+      updateSettings({
+        ...settings,
+        minimumRecommendationYear,
+      });
+    },
+    [settings, updateSettings],
+  );
+
   const exportLibrary = useCallback(() => exportMovieState(states, settings), [settings, states]);
 
   return useMemo(
@@ -211,6 +224,7 @@ export function useMovieLibrary() {
       toggleIgnored,
       resetLibrary,
       setLanguageCodes,
+      setMinimumRecommendationYear,
       setShowAdultMovies,
       exportLibrary,
     }),
@@ -228,6 +242,7 @@ export function useMovieLibrary() {
       recommendations,
       resetLibrary,
       setLanguageCodes,
+      setMinimumRecommendationYear,
       setShowAdultMovies,
       settings,
       states,

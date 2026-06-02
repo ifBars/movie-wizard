@@ -8,6 +8,7 @@ const SETTINGS_STORAGE_KEY = "movie-wizard:settings:v1";
 export const defaultLibrarySettings: LibrarySettings = {
   languageCodes: defaultLanguageCodes,
   showAdultMovies: false,
+  minimumRecommendationYear: null,
 };
 
 type StoredLibrary = {
@@ -68,12 +69,20 @@ function parseStoredSettings(value: unknown): LibrarySettings {
     return defaultLibrarySettings;
   }
 
+  const minimumRecommendationYear =
+    typeof value.settings.minimumRecommendationYear === "number" &&
+    Number.isInteger(value.settings.minimumRecommendationYear) &&
+    value.settings.minimumRecommendationYear > 0
+      ? value.settings.minimumRecommendationYear
+      : defaultLibrarySettings.minimumRecommendationYear;
+
   return {
     languageCodes: Array.isArray(value.settings.languageCodes)
       ? normalizeLanguageCodes(value.settings.languageCodes.filter((code) => typeof code === "string"))
       : defaultLibrarySettings.languageCodes,
     showAdultMovies:
       typeof value.settings.showAdultMovies === "boolean" ? value.settings.showAdultMovies : defaultLibrarySettings.showAdultMovies,
+    minimumRecommendationYear,
   };
 }
 

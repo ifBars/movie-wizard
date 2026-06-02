@@ -78,6 +78,7 @@ export type MovieStateMap = Record<string, UserMovieState>;
 export type LibrarySettings = {
   languageCodes: string[];
   showAdultMovies: boolean;
+  minimumRecommendationYear: number | null;
 };
 
 export type TasteProfile = {

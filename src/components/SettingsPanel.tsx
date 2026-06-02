@@ -1,4 +1,5 @@
 import {
+  CalendarBlank,
   CheckCircle,
   Database,
   DownloadSimple,
@@ -35,9 +36,11 @@ type SettingsPanelProps = {
   hiddenAdultMovieCount: number;
   hiddenLanguageMovieCount: number;
   languageCodes: string[];
+  minimumRecommendationYear: number | null;
   showAdultMovies: boolean;
   themeMode: ThemeMode;
   onLanguageCodesChange: (languageCodes: string[]) => void;
+  onMinimumRecommendationYearChange: (minimumRecommendationYear: number | null) => void;
   onShowAdultMoviesChange: (showAdultMovies: boolean) => void;
   onThemeModeChange: (themeMode: ThemeMode) => void;
 };
@@ -75,9 +78,11 @@ export function SettingsPanel({
   hiddenAdultMovieCount,
   hiddenLanguageMovieCount,
   languageCodes,
+  minimumRecommendationYear,
   showAdultMovies,
   themeMode,
   onLanguageCodesChange,
+  onMinimumRecommendationYearChange,
   onShowAdultMoviesChange,
   onThemeModeChange,
 }: SettingsPanelProps) {
@@ -119,6 +124,18 @@ export function SettingsPanel({
       : [...languageCodes, languageCode];
 
     onLanguageCodesChange(nextLanguageCodes);
+  }
+
+  function handleMinimumRecommendationYearChange(value: string) {
+    if (value.trim() === "") {
+      onMinimumRecommendationYearChange(null);
+      return;
+    }
+
+    const parsedYear = Number(value);
+    if (Number.isInteger(parsedYear) && parsedYear > 0) {
+      onMinimumRecommendationYearChange(parsedYear);
+    }
   }
 
   return (
@@ -206,6 +223,23 @@ export function SettingsPanel({
               <SlidersHorizontal weight="fill" />
               <h2>Recommendations</h2>
             </div>
+            <SettingsRow
+              icon={CalendarBlank}
+              title="Minimum movie year"
+              description="Only recommend movies released from this year onward. Leave blank for any year."
+            >
+              <label className="settings-year-input">
+                <span className="sr-only">Minimum movie year</span>
+                <input
+                  type="number"
+                  min="1"
+                  inputMode="numeric"
+                  placeholder="Any year"
+                  value={minimumRecommendationYear ?? ""}
+                  onChange={(event) => handleMinimumRecommendationYearChange(event.currentTarget.value)}
+                />
+              </label>
+            </SettingsRow>
             <SettingsRow
               icon={EyeSlash}
               title="Hide adult-tagged movies"

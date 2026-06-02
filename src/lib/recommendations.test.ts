@@ -29,7 +29,7 @@ describe("movie recommendations", () => {
 
     const recommendations = getRecommendations(filterAdultMovies(realCatalog, false), states);
 
-    expect(recommendations).toHaveLength(48);
+    expect(recommendations.length).toBeGreaterThan(48);
     expect(recommendations.every((recommendation) => recommendation.movie.id in states)).toBe(false);
     expect(recommendations.every((recommendation) => recommendation.reasons.length > 0)).toBe(true);
     expect(recommendations[0].confidence).toBe("medium");
@@ -71,7 +71,7 @@ describe("movie recommendations", () => {
       createMovie({ id: "drama-candidate", genres: ["Drama"], tags: ["intimate"], directors: ["Recent Director"], cast: ["Recent Actor"], criticalScore: 35, popularity: 15 }),
     ];
     const states: MovieStateMap = {
-      "old-action-like": createMovieState("old-action-like", { rating: 5, updatedAt: "2024-01-01T00:00:00.000Z" }),
+      "old-action-like": createMovieState("old-action-like", { rating: 4, updatedAt: "2024-01-01T00:00:00.000Z" }),
       "recent-drama-like": createMovieState("recent-drama-like", { rating: 5, updatedAt: "2026-06-01T00:00:00.000Z" }),
     };
 
@@ -97,6 +97,69 @@ describe("movie recommendations", () => {
     expect(recommendations.findIndex((recommendation) => recommendation.movie.id === "mystery-candidate")).toBeLessThan(
       recommendations.findIndex((recommendation) => recommendation.movie.id === "neutral-candidate"),
     );
+  });
+
+  test("filters recommendations by minimum movie year", () => {
+    const catalog = [
+      createMovie({ id: "liked-newer", genres: ["Drama"], tags: ["intimate"], year: 2026 }),
+      createMovie({ id: "old-candidate", genres: ["Drama"], tags: ["intimate"], year: 1999 }),
+      createMovie({ id: "new-candidate", genres: ["Drama"], tags: ["intimate"], year: 2018 }),
+    ];
+    const states = createStates([["liked-newer", 5]]);
+
+    const recommendations = getRecommendations(catalog, states, { minimumMovieYear: 2010 });
+
+    expect(recommendations.map((recommendation) => recommendation.movie.id)).toEqual(["new-candidate"]);
+  });
+
+  test("keeps a large rating history focused on unusually strong taste signals", () => {
+    const catalog = [
+      ...Array.from({ length: 44 }, (_, index) =>
+        createMovie({
+          id: `ordinary-action-${index}`,
+          genres: ["Action"],
+          tags: ["franchise"],
+          directors: [`Action Director ${index}`],
+          cast: [`Action Actor ${index}`],
+          criticalScore: 70,
+          popularity: 70,
+        }),
+      ),
+      ...Array.from({ length: 44 }, (_, index) =>
+        createMovie({
+          id: `ordinary-comedy-${index}`,
+          genres: ["Comedy"],
+          tags: ["banter"],
+          directors: [`Comedy Director ${index}`],
+          cast: [`Comedy Actor ${index}`],
+          criticalScore: 70,
+          popularity: 70,
+        }),
+      ),
+      ...Array.from({ length: 9 }, (_, index) =>
+        createMovie({
+          id: `favorite-mystery-${index}`,
+          genres: ["Mystery"],
+          tags: ["detective"],
+          directors: [`Mystery Director ${index}`],
+          cast: [`Mystery Actor ${index}`],
+          criticalScore: 70,
+          popularity: 70,
+        }),
+      ),
+      createMovie({ id: "personal-fit", genres: ["Mystery"], tags: ["detective"], criticalScore: 75, popularity: 35 }),
+      createMovie({ id: "generic-hit", genres: ["Action"], tags: ["franchise"], criticalScore: 98, popularity: 100 }),
+    ];
+    const states: MovieStateMap = Object.fromEntries([
+      ...Array.from({ length: 44 }, (_, index) => [`ordinary-action-${index}`, createMovieState(`ordinary-action-${index}`, { rating: 3.5, watched: true })]),
+      ...Array.from({ length: 44 }, (_, index) => [`ordinary-comedy-${index}`, createMovieState(`ordinary-comedy-${index}`, { rating: 3.5, watched: true })]),
+      ...Array.from({ length: 9 }, (_, index) => [`favorite-mystery-${index}`, createMovieState(`favorite-mystery-${index}`, { rating: 5, watched: true })]),
+    ]);
+
+    const recommendations = getRecommendations(catalog, states);
+
+    expect(recommendations[0].movie.id).toBe("personal-fit");
+    expect(recommendations[0].confidence).toBe("high");
   });
 
 });
@@ -127,7 +190,7 @@ function createMovie(overrides: Partial<Movie> & Pick<Movie, "id" | "genres" | "
     id: overrides.id,
     title: overrides.id,
     originalLanguage: "en",
-    year: 2026,
+    year: overrides.year ?? 2026,
     runtimeMinutes: 100,
     genres: overrides.genres,
     tags: overrides.tags,

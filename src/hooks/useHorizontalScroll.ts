@@ -15,6 +15,7 @@ type DragState = {
 type HorizontalScrollOptions = {
   edgeTolerance?: number;
   itemCount: number;
+  onReachEnd?: () => void;
   pageSize?: number;
   shouldReduceMotion?: boolean | null;
 };
@@ -44,11 +45,13 @@ const defaultDragState: DragState = {
 export function useHorizontalScroll({
   edgeTolerance = 1,
   itemCount,
+  onReachEnd,
   pageSize = 0.78,
   shouldReduceMotion,
 }: HorizontalScrollOptions): HorizontalScrollResult {
   const rowRef = useRef<HTMLDivElement>(null);
   const dragStateRef = useRef<DragState>({ ...defaultDragState });
+  const lastReachEndItemCountRef = useRef(-1);
   const [scrollState, setScrollState] = useState({ canScrollLeft: false, canScrollRight: false });
   const [isDragging, setIsDragging] = useState(false);
 
@@ -62,13 +65,19 @@ export function useHorizontalScroll({
     const maxScrollLeft = row.scrollWidth - row.clientWidth;
     const canScrollLeft = row.scrollLeft > edgeTolerance;
     const canScrollRight = row.scrollLeft < maxScrollLeft - edgeTolerance;
+    const isAtEnd = maxScrollLeft > edgeTolerance && !canScrollRight;
+
+    if (isAtEnd && onReachEnd && lastReachEndItemCountRef.current !== itemCount) {
+      lastReachEndItemCountRef.current = itemCount;
+      onReachEnd();
+    }
 
     setScrollState((current) =>
       current.canScrollLeft === canScrollLeft && current.canScrollRight === canScrollRight
         ? current
         : { canScrollLeft, canScrollRight },
     );
-  }, [edgeTolerance]);
+  }, [edgeTolerance, itemCount, onReachEnd]);
 
   useExternalLayoutSyncEffect(() => {
     updateScrollState();

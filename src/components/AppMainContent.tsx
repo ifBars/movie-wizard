@@ -140,9 +140,11 @@ function AppPage({
             hiddenAdultMovieCount={library.hiddenAdultMovieCount}
             hiddenLanguageMovieCount={library.hiddenLanguageMovieCount}
             languageCodes={library.settings.languageCodes}
+            minimumRecommendationYear={library.settings.minimumRecommendationYear}
             showAdultMovies={library.settings.showAdultMovies}
             themeMode={themeMode}
             onLanguageCodesChange={library.setLanguageCodes}
+            onMinimumRecommendationYearChange={library.setMinimumRecommendationYear}
             onShowAdultMoviesChange={library.setShowAdultMovies}
             onThemeModeChange={onThemeModeChange}
           />

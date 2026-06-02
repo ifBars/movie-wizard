@@ -67,6 +67,17 @@
   box-sizing: border-box;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -1468,6 +1479,27 @@ input:focus-visible {
 
 .settings-action--danger:hover {
   background: color-mix(in srgb, var(--brand-orange) 10%, transparent);
+}
+
+.settings-year-input input {
+  width: 8.6rem;
+  min-height: 2.45rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  color: var(--text-strong);
+  padding: 0 0.75rem;
+  font-size: 0.86rem;
+  font-weight: 850;
+}
+
+.settings-year-input input::placeholder {
+  color: var(--text-muted);
+}
+
+.settings-year-input input:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--brand-orange) 54%, transparent);
+  outline-offset: 2px;
 }
 
 .settings-language-block {
