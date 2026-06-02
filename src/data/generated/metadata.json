@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-02T00:10:45.239Z",
+  "recordCount": 654,
+  "addedRecordCount": 0,
+  "existingRecordCount": 654,
+  "refreshedRecordCount": 0,
+  "tmdbRequests": 0,
+  "tmdbCacheHits": 5,
+  "tmdbSkippedFresh": 58,
+  "tmdbSkippedRetryCooldown": 0,
+  "tmdbFailures": 0,
+  "sources": {
+    "curatedSeeds": 18,
+    "tmdb": true,
+    "tmdbDailyExport": true,
+    "omdb": false
+  }
+}

@@ -1,0 +1,66 @@
+name: Enrich movie catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum new records to add"
+        required: false
+        default: "250"
+      pages:
+        description: "TMDb list/discover pages to inspect"
+        required: false
+        default: "20"
+  schedule:
+    - cron: "23 9 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    name: Enrich static TMDb catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Enrich catalog
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          MOVIE_WIZARD_DATA_LIMIT: ${{ github.event.inputs.limit || '250' }}
+        run: |
+          bun run data:enrich -- \
+            --limit="${{ github.event.inputs.limit || '250' }}" \
+            --pages="${{ github.event.inputs.pages || '20' }}" \
+            --include-tmdb-export \
+            --refresh-changes \
+            --refresh-stale \
+            --stale-days=90 \
+            --refresh-limit=100
+
+      - name: Validate
+        run: |
+          bun run lint
+          bun run build
+
+      - name: Commit catalog changes
+        run: |
+          if git diff --quiet -- src/data/generated; then
+            echo "No generated catalog changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/generated
+          git commit -m "chore: enrich movie catalog"
+          git push

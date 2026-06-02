@@ -1,0 +1,12 @@
+node_modules
+dist
+.agents
+skills-lock.json
+.env
+.env.*
+!.env.example
+.movie-wizard-cache
+.artifacts
+.playwright-cli
+test-results
+tmp
