@@ -45,7 +45,8 @@ jobs:
             --refresh-changes \
             --refresh-stale \
             --stale-days=90 \
-            --refresh-limit=100
+            --refresh-limit=100 \
+            --progress=plain
 
       - name: Validate
         run: |

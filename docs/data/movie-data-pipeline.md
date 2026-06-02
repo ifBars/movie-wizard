@@ -46,6 +46,8 @@ The script also writes `src/data/generated/enrichment-manifest.json`. The manife
 
 Raw TMDb API responses are cached under `.movie-wizard-cache/tmdb` and are intentionally not committed. Use `--cache=read-only` to rebuild from local cached responses only, or `--cache=off` to force live API reads.
 
+The enrichment script prints phase-by-phase status, candidate counts, and per-candidate progress. It auto-selects a terminal progress bar for interactive TTY runs and plain timestamped progress lines for CI or redirected logs.
+
 Include the no-auth TMDb daily ID export as an extra discovery source:
 
 ```bash
@@ -67,6 +69,10 @@ Useful reliability flags:
 - `--cache=read-write`: default; reads cached responses and writes misses.
 - `--cache=read-only`: fails on cache misses, useful for offline rebuild checks.
 - `--cache=off`: bypasses the local response cache.
+- `--progress=auto`: default; uses a terminal progress bar locally and plain progress lines in CI.
+- `--progress=plain`: emits one-line progress updates that display cleanly in GitHub Actions logs.
+- `--progress=bar`: forces the local terminal progress bar.
+- `--no-progress`: suppresses progress output while keeping errors visible.
 
 Include OMDb for a local personal experiment:
 
@@ -93,4 +99,4 @@ The generated movie records preserve the app-facing `Movie` shape while adding o
 3. Runs `bun run lint` and `bun run build`.
 4. Commits generated catalog changes only when `src/data/generated` changed.
 
-Configure the repository secret `TMDB_READ_TOKEN` before enabling scheduled runs. Do not commit `.env.local` or API credentials.
+The workflow forces `--progress=plain`, groups the enrichment log in GitHub Actions, and writes a markdown run summary to the Actions step summary when `GITHUB_STEP_SUMMARY` is available. Configure the repository secret `TMDB_READ_TOKEN` before enabling scheduled runs. Do not commit `.env.local` or API credentials.

@@ -1,5 +1,5 @@
 import { createReadStream } from "node:fs";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { createGunzip } from "node:zlib";
@@ -108,7 +108,26 @@ type CliOptions = {
   retryDays: number;
   refreshLimit: number;
   cacheMode: "read-write" | "read-only" | "off";
+  progress: "auto" | "bar" | "plain" | "off";
 };
+
+type EnrichmentSummary = {
+  output: string;
+  records: number;
+  existing: number;
+  newRecords: number;
+  refreshed: number;
+  processed: number;
+  accepted: number;
+  rejected: number;
+  tmdbRequests: number;
+  tmdbCacheHits: number;
+  skippedFresh: number;
+  retryCooldownSkips: number;
+  failures: number;
+};
+
+type ProgressReporter = ReturnType<typeof createProgressReporter>;
 
 type EnrichmentManifest = {
   version: 1;
@@ -148,10 +167,156 @@ const runStats = {
   tmdbSkippedRetryCooldown: 0,
   tmdbFailures: 0,
   refreshedRecordCount: 0,
+  processedCandidateCount: 0,
+  acceptedRecordCount: 0,
+  rejectedRecordCount: 0,
 };
 
 function hasErrorCode(error: unknown, code: string) {
   return error instanceof Error && "code" in error && error.code === code;
+}
+
+function createProgressReporter(options: CliOptions) {
+  const isGitHubActions = process.env.GITHUB_ACTIONS === "true";
+  const isTty = Boolean(process.stdout.isTTY);
+  const mode = options.progress === "auto" ? (isGitHubActions || !isTty ? "plain" : "bar") : options.progress;
+  const startedAt = Date.now();
+  let lastProgressAt = 0;
+  let lastProgressPercent = -1;
+  let hasOpenBar = false;
+
+  const writeLine = (message: string) => {
+    if (mode === "off") {
+      return;
+    }
+
+    if (hasOpenBar) {
+      process.stdout.write("\n");
+      hasOpenBar = false;
+    }
+
+    console.log(message);
+  };
+
+  const elapsed = () => `${Math.round((Date.now() - startedAt) / 1000)}s`;
+
+  return {
+    group(label: string) {
+      if (mode === "off") {
+        return;
+      }
+
+      if (isGitHubActions) {
+        console.log(`::group::${escapeGitHubCommand(label)}`);
+        return;
+      }
+
+      writeLine(label);
+    },
+    endGroup() {
+      if (mode === "off") {
+        return;
+      }
+
+      if (hasOpenBar) {
+        process.stdout.write("\n");
+        hasOpenBar = false;
+      }
+
+      if (isGitHubActions) {
+        console.log("::endgroup::");
+      }
+    },
+    phase(label: string) {
+      writeLine(`[${elapsed()}] ${label}`);
+    },
+    info(message: string, details?: Record<string, string>) {
+      const suffix = details ? ` (${Object.entries(details).map(([key, value]) => `${key}: ${value}`).join(", ")})` : "";
+      writeLine(`[${elapsed()}] ${message}${suffix}`);
+    },
+    progress(current: number, total: number, label: string) {
+      if (mode === "off" || total === 0) {
+        return;
+      }
+
+      const percent = Math.floor((current / total) * 100);
+      const now = Date.now();
+      const shouldPrint = current === 0 || current >= total || percent !== lastProgressPercent || now - lastProgressAt >= 5000;
+
+      if (!shouldPrint) {
+        return;
+      }
+
+      lastProgressAt = now;
+      lastProgressPercent = percent;
+
+      if (mode === "bar") {
+        const width = 28;
+        const filled = Math.round((percent / 100) * width);
+        const bar = `${"#".repeat(filled)}${"-".repeat(width - filled)}`;
+        process.stdout.write(`\r[${bar}] ${percent}% ${current}/${total} ${truncate(label, 48)}`);
+        hasOpenBar = true;
+        return;
+      }
+
+      writeLine(`[${elapsed()}] Progress ${percent}% (${current}/${total}) - ${truncate(label, 72)}`);
+    },
+    finishProgress(current: number, total: number) {
+      if (mode === "bar" && hasOpenBar) {
+        const safeTotal = total === 0 ? current : total;
+        const percent = safeTotal === 0 ? 100 : Math.floor((current / safeTotal) * 100);
+        const width = 28;
+        const filled = Math.round((percent / 100) * width);
+        process.stdout.write(`\r[${"#".repeat(filled)}${"-".repeat(width - filled)}] ${percent}% ${current}/${safeTotal}\n`);
+        hasOpenBar = false;
+      }
+    },
+    async summary(summary: EnrichmentSummary) {
+      writeLine(
+        [
+          `Wrote ${summary.records} movies to ${summary.output}`,
+          `${summary.newRecords} new`,
+          `${summary.refreshed} refreshed`,
+          `${summary.existing} existing`,
+          `${summary.tmdbRequests} TMDb requests`,
+          `${summary.tmdbCacheHits} cache hits`,
+          `${summary.failures} failures`,
+        ].join(" | "),
+      );
+
+      if (isGitHubActions && summary.failures > 0) {
+        console.log(`::warning::${escapeGitHubCommand(`${summary.failures} TMDb enrichment requests failed; failed IDs were kept in the enrichment manifest for retry cooldowns.`)}`);
+      }
+
+      const stepSummaryPath = process.env.GITHUB_STEP_SUMMARY;
+      if (!stepSummaryPath) {
+        return;
+      }
+
+      await appendFile(
+        stepSummaryPath,
+        [
+          "## Movie catalog enrichment",
+          "",
+          `- Output: \`${summary.output}\``,
+          `- Records: ${summary.records} (${summary.newRecords} new, ${summary.refreshed} refreshed, ${summary.existing} existing)`,
+          `- Candidates: ${summary.processed} processed, ${summary.accepted} accepted, ${summary.rejected} rejected`,
+          `- TMDb: ${summary.tmdbRequests} live requests, ${summary.tmdbCacheHits} cache hits`,
+          `- Skips: ${summary.skippedFresh} fresh records, ${summary.retryCooldownSkips} retry cooldowns`,
+          `- Failures: ${summary.failures}`,
+          "",
+        ].join("\n"),
+      );
+    },
+  };
+}
+
+function escapeGitHubCommand(value: string) {
+  return value.replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A");
+}
+
+function truncate(value: string, maxLength: number) {
+  return value.length > maxLength ? `${value.slice(0, maxLength - 3)}...` : value;
 }
 
 const genrePosterTones = new Map([
@@ -177,6 +342,7 @@ async function main() {
   await loadEnvFiles([".env.local", ".env"]);
 
   const options = parseArgs(process.argv.slice(2));
+  const reporter = createProgressReporter(options);
   const tmdbToken = process.env.TMDB_READ_TOKEN;
   const tmdbApiKey = process.env.TMDB_API_KEY;
   const omdbApiKey = process.env.OMDB_API_KEY;
@@ -187,50 +353,72 @@ async function main() {
     );
   }
 
+  reporter.group("Movie catalog enrichment");
+  reporter.info("Starting enrichment", {
+    limit: String(options.limit),
+    pages: String(options.pages),
+    mode: options.seedOnly ? "seed-only" : "tmdb",
+    cache: options.cacheMode,
+    omdb: options.includeOmdb && Boolean(omdbApiKey) ? "enabled" : "disabled",
+  });
+
+  reporter.phase("Loading seeds and existing catalog");
   const seeds = await readJson<SeedMovie[]>(seedPath);
   const existingRecords = options.seedOnly ? [] : await readExistingRecords(outputPath);
   const manifest = options.seedOnly ? createManifest() : await readManifest(existingRecords);
   const existingKeys = new Set(existingRecords.flatMap(recordKeys));
   const candidates = new Map<number | string, SeedMovie>();
+  reporter.info(`Loaded ${seeds.length} curated seeds and ${existingRecords.length} existing generated records.`);
 
   for (const seed of seeds) {
     candidates.set(seed.tmdbId ?? seed.imdbId ?? seedKey(seed), seed);
   }
 
   if (!options.seedOnly) {
-    for (const movie of await fetchTmdbList("/movie/popular", options.pages, options, tmdbToken, tmdbApiKey)) {
+    reporter.phase(`Fetching TMDb popular pages (${options.pages})`);
+    for (const movie of await fetchTmdbList("/movie/popular", options.pages, options, tmdbToken, tmdbApiKey, reporter)) {
       if (isUsefulListItem(movie)) {
         candidates.set(movie.id, { tmdbId: movie.id, title: movie.title ?? `tmdb-${movie.id}`, year: parseYear(movie.release_date) });
       }
     }
+    reporter.info(`Candidate pool after popular titles: ${candidates.size}`);
 
-    for (const movie of await fetchTmdbList("/movie/top_rated", options.pages, options, tmdbToken, tmdbApiKey)) {
+    reporter.phase(`Fetching TMDb top-rated pages (${options.pages})`);
+    for (const movie of await fetchTmdbList("/movie/top_rated", options.pages, options, tmdbToken, tmdbApiKey, reporter)) {
       if (isUsefulListItem(movie)) {
         candidates.set(movie.id, { tmdbId: movie.id, title: movie.title ?? `tmdb-${movie.id}`, year: parseYear(movie.release_date) });
       }
     }
+    reporter.info(`Candidate pool after top-rated titles: ${candidates.size}`);
 
-    for (const movie of await fetchTmdbDiscover(options.pages, options, tmdbToken, tmdbApiKey)) {
+    reporter.phase(`Fetching TMDb discover pages (${options.pages})`);
+    for (const movie of await fetchTmdbDiscover(options.pages, options, tmdbToken, tmdbApiKey, reporter)) {
       candidates.set(movie.id, { tmdbId: movie.id, title: movie.title ?? `tmdb-${movie.id}`, year: parseYear(movie.release_date) });
     }
+    reporter.info(`Candidate pool after discover titles: ${candidates.size}`);
 
     if (options.includeTmdbExport) {
+      reporter.phase("Reading recent TMDb daily export IDs");
       const exportReadLimit = Math.min(20000, options.limit + existingRecords.length);
       for (const movie of await fetchRecentTmdbExportIds(exportReadLimit)) {
         candidates.set(movie.id, { tmdbId: movie.id, title: movie.title ?? `tmdb-${movie.id}` });
       }
+      reporter.info(`Candidate pool after daily export IDs: ${candidates.size}`);
     }
 
     if (options.refreshChanges) {
+      reporter.phase("Checking TMDb changed movie IDs");
       for (const movie of await fetchChangedTmdbIds(options, tmdbToken, tmdbApiKey)) {
         const existing = existingRecords.find((record) => record.tmdbId === movie.id);
         if (existing) {
           candidates.set(`refresh:${movie.id}`, { tmdbId: movie.id, title: existing.title, year: existing.year, refresh: true });
         }
       }
+      reporter.info(`Candidate pool after changed-record refresh checks: ${candidates.size}`);
     }
 
     if (options.refreshStale) {
+      reporter.phase(`Selecting stale records older than ${options.staleDays} days`);
       const staleRecords = existingRecords
         .filter((record) => record.tmdbId && shouldRefreshRecord(record, manifest, options.staleDays))
         .slice(0, options.refreshLimit);
@@ -238,6 +426,7 @@ async function main() {
       for (const record of staleRecords) {
         candidates.set(`refresh:${record.tmdbId}`, { tmdbId: record.tmdbId, title: record.title, year: record.year, refresh: true });
       }
+      reporter.info(`Queued ${staleRecords.length} stale refresh candidates.`);
     }
   }
 
@@ -245,13 +434,18 @@ async function main() {
   const values = Array.from(candidates.values())
     .filter((seed) => shouldProcessCandidate(seed, existingKeys, manifest, options))
     .slice(0, Math.max(options.limit * 2, options.limit));
+  const targetExistingKeys = new Set(existingRecords.flatMap(recordKeys));
+  reporter.phase(`Enriching ${values.length} processable candidates`);
+  reporter.progress(0, values.length, "Ready");
 
   for (const seed of values) {
+    runStats.processedCandidateCount += 1;
     const refreshCandidate = isRefreshCandidate(seed, existingKeys);
     const record = options.seedOnly ? recordFromSeed(seed) : await recordFromTmdb(seed, manifest, options, tmdbToken, tmdbApiKey, options.includeOmdb ? omdbApiKey : undefined);
 
     if (record && isUsefulRecord(record) && (refreshCandidate || !recordKeys(record).some((key) => existingKeys.has(key)))) {
       newRecords.push(record);
+      runStats.acceptedRecordCount += 1;
       for (const key of recordKeys(record)) {
         existingKeys.add(key);
       }
@@ -259,16 +453,22 @@ async function main() {
       if (refreshCandidate) {
         runStats.refreshedRecordCount += 1;
       }
+    } else {
+      runStats.rejectedRecordCount += 1;
     }
 
-    if (newRecords.filter((record) => !hasKnownRecord(record, new Set(existingRecords.flatMap(recordKeys)))).length >= options.limit) {
+    reporter.progress(runStats.processedCandidateCount, values.length, record ? record.title : seed.title);
+
+    if (newRecords.filter((record) => !hasKnownRecord(record, targetExistingKeys)).length >= options.limit) {
       break;
     }
   }
+  reporter.finishProgress(runStats.processedCandidateCount, values.length);
 
   const records = dedupeRecords([...existingRecords, ...newRecords]);
   records.sort((a, b) => b.popularity - a.popularity || b.criticalScore - a.criticalScore || a.title.localeCompare(b.title));
 
+  reporter.phase("Writing generated catalog files");
   await mkdir(path.dirname(outputPath), { recursive: true });
   await writeFile(outputPath, `${JSON.stringify(records, null, 2)}\n`);
   await writeFile(
@@ -280,6 +480,9 @@ async function main() {
         addedRecordCount: records.length - existingRecords.length,
         existingRecordCount: existingRecords.length,
         refreshedRecordCount: runStats.refreshedRecordCount,
+        processedCandidateCount: runStats.processedCandidateCount,
+        acceptedRecordCount: runStats.acceptedRecordCount,
+        rejectedRecordCount: runStats.rejectedRecordCount,
         tmdbRequests: runStats.tmdbRequests,
         tmdbCacheHits: runStats.tmdbCacheHits,
         tmdbSkippedFresh: runStats.tmdbSkippedFresh,
@@ -299,9 +502,22 @@ async function main() {
   manifest.generatedAt = new Date().toISOString();
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 
-  console.log(
-    `Wrote ${records.length} movies to ${path.relative(rootDir, outputPath)} (${records.length - existingRecords.length} new, ${runStats.refreshedRecordCount} refreshed, ${existingRecords.length} existing)`,
-  );
+  await reporter.summary({
+    output: path.relative(rootDir, outputPath),
+    records: records.length,
+    existing: existingRecords.length,
+    newRecords: records.length - existingRecords.length,
+    refreshed: runStats.refreshedRecordCount,
+    processed: runStats.processedCandidateCount,
+    accepted: runStats.acceptedRecordCount,
+    rejected: runStats.rejectedRecordCount,
+    tmdbRequests: runStats.tmdbRequests,
+    tmdbCacheHits: runStats.tmdbCacheHits,
+    skippedFresh: runStats.tmdbSkippedFresh,
+    retryCooldownSkips: runStats.tmdbSkippedRetryCooldown,
+    failures: runStats.tmdbFailures,
+  });
+  reporter.endGroup();
 }
 
 function parseArgs(args: string[]): CliOptions {
@@ -318,6 +534,7 @@ function parseArgs(args: string[]): CliOptions {
     retryDays: 7,
     refreshLimit: 100,
     cacheMode: "read-write",
+    progress: "auto",
   };
 
   for (let index = 0; index < args.length; index += 1) {
@@ -364,6 +581,13 @@ function parseArgs(args: string[]): CliOptions {
       index += 1;
     } else if (arg.startsWith("--cache=")) {
       options.cacheMode = parseCacheMode(arg.slice("--cache=".length));
+    } else if (arg === "--progress") {
+      options.progress = parseProgressMode(args[index + 1] ?? options.progress);
+      index += 1;
+    } else if (arg.startsWith("--progress=")) {
+      options.progress = parseProgressMode(arg.slice("--progress=".length));
+    } else if (arg === "--no-progress") {
+      options.progress = "off";
     }
   }
 
@@ -380,6 +604,13 @@ function parseCacheMode(value: string): CliOptions["cacheMode"] {
     return value;
   }
   return "read-write";
+}
+
+function parseProgressMode(value: string): CliOptions["progress"] {
+  if (value === "bar" || value === "plain" || value === "off") {
+    return value;
+  }
+  return "auto";
 }
 
 async function loadEnvFiles(files: string[]) {
@@ -604,16 +835,17 @@ function recordCompletenessScore(record: MovieRecord) {
   ].reduce((total, value) => total + value, 0);
 }
 
-async function fetchTmdbList(pathname: string, pages: number, options: CliOptions, token?: string, apiKey?: string) {
+async function fetchTmdbList(pathname: string, pages: number, options: CliOptions, token?: string, apiKey?: string, reporter?: ProgressReporter) {
   const movies: TmdbListItem[] = [];
   for (let page = 1; page <= pages; page += 1) {
     const response = await tmdbFetch<{ results?: TmdbListItem[] }>(pathname, { page: String(page), language: "en-US" }, options, token, apiKey);
     movies.push(...(response.results ?? []));
+    reporter?.progress(page, pages, `${pathname} page ${page}`);
   }
   return movies;
 }
 
-async function fetchTmdbDiscover(pages: number, options: CliOptions, token?: string, apiKey?: string) {
+async function fetchTmdbDiscover(pages: number, options: CliOptions, token?: string, apiKey?: string, reporter?: ProgressReporter) {
   const movies: TmdbListItem[] = [];
   for (let page = 1; page <= pages; page += 1) {
     const response = await tmdbFetch<{ results?: TmdbListItem[] }>(
@@ -631,6 +863,7 @@ async function fetchTmdbDiscover(pages: number, options: CliOptions, token?: str
       apiKey,
     );
     movies.push(...(response.results ?? []));
+    reporter?.progress(page, pages, `/discover/movie page ${page}`);
   }
   return movies;
 }
