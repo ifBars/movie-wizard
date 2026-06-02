@@ -12,6 +12,8 @@ const tmdbPosterBaseUrl = "https://image.tmdb.org/t/p/w500";
 type MoviePosterCardProps = {
   movie: Movie;
   state?: UserMovieState;
+  animateOnMount?: boolean;
+  enableLayoutAnimation?: boolean;
   onOpen?: (movieId: string) => void;
   onPreviewIntent?: () => void;
   onRate: (movieId: string, rating: Rating) => void;
@@ -20,6 +22,8 @@ type MoviePosterCardProps = {
 };
 
 export function MoviePosterCard({
+  animateOnMount = true,
+  enableLayoutAnimation = true,
   movie,
   state,
   onOpen,
@@ -45,8 +49,8 @@ export function MoviePosterCard({
   return (
     <motion.article
       className={cn("movie-poster-card", onOpen && "movie-poster-card--clickable")}
-      layout
-      {...fadeScale(shouldReduceMotion)}
+      layout={enableLayoutAnimation}
+      {...(animateOnMount ? fadeScale(shouldReduceMotion) : {})}
       onMouseEnter={onPreviewIntent}
       onFocusCapture={onPreviewIntent}
       whileHover={shouldReduceMotion ? undefined : { y: -4 }}
@@ -59,7 +63,7 @@ export function MoviePosterCard({
         disabled={!onOpen}
         aria-label={`Open ${movie.title} details`}
       >
-        <motion.div className="poster-art" layout>
+        <motion.div className="poster-art" layout={enableLayoutAnimation}>
           <div className={cn("poster-art__wash bg-gradient-to-br", movie.posterTone)} />
           {posterUrl ? <img className="poster-art__image" src={posterUrl} alt={`${movie.title} poster`} loading="lazy" /> : null}
           <div className={cn("poster-art__grain", posterUrl && "poster-art__grain--image")} />

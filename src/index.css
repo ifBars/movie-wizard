@@ -490,6 +490,27 @@ input:focus-visible {
   min-width: 0;
 }
 
+.search-results-more {
+  display: inline-flex;
+  min-height: 2.55rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--text-strong);
+  color: var(--surface);
+  padding: 0 1rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 4px 14px var(--shadow-soft);
+}
+
+.search-results-more:hover {
+  border-color: var(--brand-orange-2);
+  background: var(--brand-orange);
+}
+
 .view-toggle {
   display: inline-grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

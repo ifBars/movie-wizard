@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useDeferredValue, useMemo, useState } from "react";
 import { Navigate } from "react-router";
 import { AppHeader } from "@/components/AppHeader";
 import { AppMainContent } from "@/components/AppMainContent";
@@ -13,6 +13,7 @@ import { viewPath } from "@/lib/navigation";
 
 function App() {
   const [search, setSearch] = useState("");
+  const deferredSearch = useDeferredValue(search);
   const { activeView, isKnownRoute, pathname, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
   const { themeMode, toggleTheme } = useThemeMode();
@@ -22,7 +23,7 @@ function App() {
     [library.movies, selectedMovieId],
   );
 
-  const catalogData = useCatalogViewData(library, search);
+  const catalogData = useCatalogViewData(library, deferredSearch);
 
   const averageRatingLabel = library.profile.averageRating > 0 ? library.profile.averageRating.toFixed(1) : "0.0";
   const isResolvingDetail = Boolean(selectedMovieId && library.isCatalogLoading);
@@ -65,7 +66,7 @@ function App() {
         library={library}
         onCloseMovie={closeMovie}
         onOpenMovie={openMovie}
-        search={search}
+        search={deferredSearch}
         selectedMovie={selectedMovie}
       />
     </div>

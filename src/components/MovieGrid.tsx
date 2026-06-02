@@ -12,12 +12,24 @@ type MovieGridProps = {
   subtitle: string;
   movies: Movie[];
   library: MovieLibrary;
+  animateCardsOnMount?: boolean;
+  enableLayoutAnimation?: boolean;
   onOpenMovie: (movieId: string) => void;
   onMovieIntent?: () => void;
   headerAction?: ReactNode;
 };
 
-export function MovieGrid({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, headerAction }: MovieGridProps) {
+export function MovieGrid({
+  title,
+  subtitle,
+  movies,
+  library,
+  animateCardsOnMount = true,
+  enableLayoutAnimation = true,
+  onOpenMovie,
+  onMovieIntent,
+  headerAction,
+}: MovieGridProps) {
   const shouldReduceMotion = useReducedMotion();
 
   if (movies.length === 0) {
@@ -34,12 +46,14 @@ export function MovieGrid({ title, subtitle, movies, library, onOpenMovie, onMov
   }
 
   return (
-    <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
+    <motion.section className="movie-section" layout={enableLayoutAnimation} {...fadeSlide(shouldReduceMotion, 10)}>
       <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
-      <motion.div className="movie-grid" layout transition={softSpring}>
+      <motion.div className="movie-grid" layout={enableLayoutAnimation} transition={softSpring}>
         {movies.map((movie) => (
           <MoviePosterCard
             key={movie.id}
+            animateOnMount={animateCardsOnMount}
+            enableLayoutAnimation={enableLayoutAnimation}
             movie={movie}
             state={library.states[movie.id]}
             onRate={library.rateMovie}

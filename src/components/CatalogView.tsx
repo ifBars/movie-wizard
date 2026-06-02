@@ -10,6 +10,9 @@ import { fadeSlide, pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
+const initialSearchResultLimit = 72;
+const searchResultPageSize = 72;
+
 type CatalogViewProps = {
   activeView: ViewId;
   search: string;
@@ -95,23 +98,16 @@ function DiscoverRows({
   const [searchLayout, setSearchLayout] = useState<"grid" | "row">("grid");
 
   if (search) {
-    const headerAction = <SearchResultsLayoutToggle layout={searchLayout} onLayoutChange={setSearchLayout} />;
-    const sharedProps = {
-      title: "search results",
-      subtitle: `${filteredCatalog.length} matches in the local catalog`,
-      movies: filteredCatalog,
-      library,
-      onOpenMovie,
-      onMovieIntent: onPreloadMovieDetails,
-      headerAction,
-    };
-
-    if (searchLayout === "row") {
-      return <MovieRow {...sharedProps} />;
-    }
-
     return (
-      <MovieGrid {...sharedProps} />
+      <SearchResults
+        key={search}
+        filteredCatalog={filteredCatalog}
+        layout={searchLayout}
+        library={library}
+        onLayoutChange={setSearchLayout}
+        onOpenMovie={onOpenMovie}
+        onPreloadMovieDetails={onPreloadMovieDetails}
+      />
     );
   }
 
@@ -134,6 +130,61 @@ function DiscoverRows({
         onMovieIntent={onPreloadMovieDetails}
       />
       <PrivacyNote />
+    </>
+  );
+}
+
+function SearchResults({
+  filteredCatalog,
+  layout,
+  library,
+  onLayoutChange,
+  onOpenMovie,
+  onPreloadMovieDetails,
+}: {
+  filteredCatalog: Movie[];
+  layout: "grid" | "row";
+  library: MovieLibrary;
+  onLayoutChange: (layout: "grid" | "row") => void;
+  onOpenMovie: (movieId: string) => void;
+  onPreloadMovieDetails?: () => void;
+}) {
+  const [resultLimit, setResultLimit] = useState(initialSearchResultLimit);
+  const shouldReduceMotion = useReducedMotion();
+  const visibleMovies = filteredCatalog.slice(0, resultLimit);
+  const hiddenCount = Math.max(0, filteredCatalog.length - visibleMovies.length);
+  const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
+  const subtitle =
+    hiddenCount > 0
+      ? `Showing ${visibleMovies.length} of ${filteredCatalog.length} matches`
+      : `${filteredCatalog.length} matches in the local catalog`;
+  const sharedProps = {
+    title: "search results",
+    subtitle,
+    movies: visibleMovies,
+    library,
+    onOpenMovie,
+    onMovieIntent: onPreloadMovieDetails,
+    headerAction,
+  };
+
+  return (
+    <>
+      {layout === "row" ? (
+        <MovieRow {...sharedProps} />
+      ) : (
+        <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
+      )}
+      {hiddenCount > 0 ? (
+        <motion.button
+          type="button"
+          className="search-results-more"
+          onClick={() => setResultLimit((currentLimit) => currentLimit + searchResultPageSize)}
+          whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
+        >
+          Show {Math.min(searchResultPageSize, hiddenCount)} more
+        </motion.button>
+      ) : null}
     </>
   );
 }
