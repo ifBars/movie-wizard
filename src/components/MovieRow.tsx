@@ -73,7 +73,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
   }
 
   function beginDragScroll(event: PointerEvent<HTMLDivElement>) {
-    if (event.button !== 0 || rowRef.current?.scrollWidth === rowRef.current?.clientWidth) {
+    if (event.pointerType !== "mouse" || event.button !== 0 || rowRef.current?.scrollWidth === rowRef.current?.clientWidth) {
       return;
     }
 
