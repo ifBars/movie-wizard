@@ -10,7 +10,7 @@ import {
   UserCircle,
 } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrandLogo } from "@/components/BrandLogo";
 import { ProfileSummary } from "@/components/ProfileSummary";
 import { views, type ViewId } from "@/lib/navigation";
@@ -49,7 +49,49 @@ export function AppHeader({
 }: AppHeaderProps) {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const [isTasteProfileOpen, setIsTasteProfileOpen] = useState(false);
+  const [isHiddenOnScroll, setIsHiddenOnScroll] = useState(false);
   const shouldReduceMotion = useReducedMotion();
+  const topbarY = isHiddenOnScroll ? "-101%" : "0%";
+
+  useEffect(() => {
+    const compactHeaderQuery = window.matchMedia("(max-width: 740px)");
+    let lastScrollY = window.scrollY;
+
+    function updateHeaderVisibility() {
+      if (!compactHeaderQuery.matches || isUserMenuOpen || isTasteProfileOpen) {
+        setIsHiddenOnScroll(false);
+        lastScrollY = window.scrollY;
+        return;
+      }
+
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+
+      if (currentScrollY < 32) {
+        setIsHiddenOnScroll(false);
+      } else if (scrollDelta > 8) {
+        setIsHiddenOnScroll(true);
+      } else if (scrollDelta < -8) {
+        setIsHiddenOnScroll(false);
+      }
+
+      lastScrollY = currentScrollY;
+    }
+
+    function handleViewportChange() {
+      setIsHiddenOnScroll(false);
+      lastScrollY = window.scrollY;
+    }
+
+    updateHeaderVisibility();
+    window.addEventListener("scroll", updateHeaderVisibility, { passive: true });
+    compactHeaderQuery.addEventListener("change", handleViewportChange);
+
+    return () => {
+      window.removeEventListener("scroll", updateHeaderVisibility);
+      compactHeaderQuery.removeEventListener("change", handleViewportChange);
+    };
+  }, [isTasteProfileOpen, isUserMenuOpen]);
 
   function navigateFromMenu(view: ViewId) {
     onNavigate(view);
@@ -59,9 +101,9 @@ export function AppHeader({
 
   return (
     <motion.header
-      className="topbar"
+      className={cn("topbar", isHiddenOnScroll && "topbar--hidden")}
       initial={shouldReduceMotion ? false : { opacity: 0, y: -12 }}
-      animate={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: topbarY }}
       transition={{ duration: 0.28, ease: smoothEase }}
     >
       <a className="wordmark" href="#top" aria-label="Movie Wizard home">
