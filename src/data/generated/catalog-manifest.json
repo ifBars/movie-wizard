@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-02T02:10:52.027Z",
-  "movieCount": 964,
+  "generatedAt": "2026-06-02T05:07:33.992Z",
+  "movieCount": 2444,
   "indexFields": [
     "id",
     "tmdbId",
@@ -26,6 +26,7 @@
   ],
   "detailFields": [
     "id",
+    "crew",
     "source",
     "synopsis"
   ]

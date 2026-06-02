@@ -5,6 +5,8 @@ type WeightedMap = Map<string, number>;
 const POSITIVE_BASELINE = 3.5;
 const MIN_POSITIVE_RATING = 4;
 const MAX_RECOMMENDATIONS = 48;
+const WATCHLIST_INTENT_WEIGHT = 0.35;
+const WATCHLIST_CANDIDATE_BOOST = 7;
 
 type TasteModel = {
   profile: TasteProfile;
@@ -13,6 +15,7 @@ type TasteModel = {
   directorWeights: WeightedMap;
   castWeights: WeightedMap;
   likedMovies: Movie[];
+  watchlistedMovieIds: Set<string>;
 };
 
 type RecommendationCandidate = Recommendation & {
@@ -29,6 +32,8 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
   const directorWeights: WeightedMap = new Map();
   const castWeights: WeightedMap = new Map();
   const likedMovies: Movie[] = [];
+  const watchlistedMovieIds = new Set<string>();
+  const latestRatedAt = getLatestRatedAt(movies, states);
   let ratingTotal = 0;
   let ratedCount = 0;
   let watchedCount = 0;
@@ -43,13 +48,21 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
       watchedCount += 1;
     }
 
+    if (state.watchlist && !state.watched) {
+      watchlistedMovieIds.add(movie.id);
+      addWeights(genreWeights, movie.genres, WATCHLIST_INTENT_WEIGHT * 1.5);
+      addWeights(tagWeights, movie.tags, WATCHLIST_INTENT_WEIGHT);
+      addWeights(directorWeights, movie.directors, WATCHLIST_INTENT_WEIGHT * 1.25);
+      addWeights(castWeights, movie.cast, WATCHLIST_INTENT_WEIGHT * 0.8);
+    }
+
     if (state.rating === null || state.rating === undefined) {
       continue;
     }
 
     ratedCount += 1;
     ratingTotal += state.rating;
-    const weight = state.rating - POSITIVE_BASELINE;
+    const weight = (state.rating - POSITIVE_BASELINE) * getRecencyMultiplier(state.updatedAt, latestRatedAt);
 
     addWeights(genreWeights, movie.genres, weight * 1.5);
     addWeights(tagWeights, movie.tags, weight);
@@ -74,6 +87,7 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
     directorWeights,
     castWeights,
     likedMovies,
+    watchlistedMovieIds,
   };
 }
 
@@ -100,11 +114,21 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
   const { likedMovies, profile } = tasteModel;
   let score = movie.criticalScore * 0.18 + movie.popularity * 0.08;
   const reasons: string[] = [];
+  const penalties: string[] = [];
+  const isWatchlisted = tasteModel.watchlistedMovieIds.has(movie.id);
+
+  if (isWatchlisted) {
+    score += WATCHLIST_CANDIDATE_BOOST;
+    reasons.push("already waiting on your watchlist");
+  }
 
   const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights);
   if (genreScore > 0) {
     score += genreScore * 16;
     reasons.push(`leans into your ${bestWeightedMatch(movie.genres, tasteModel.genreWeights)} streak`);
+  } else if (genreScore < 0) {
+    score += genreScore * 10;
+    penalties.push(bestWeightedMatch(movie.genres, tasteModel.genreWeights, "negative"));
   }
 
   const tagScore = sumMapMatches(movie.tags, tasteModel.tagWeights);
@@ -112,6 +136,9 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     score += tagScore * 10;
     const matchedTags = topMatchingValues(movie.tags, tasteModel.tagWeights, 2);
     reasons.push(`matches ${matchedTags.join(" and ")} taste signals`);
+  } else if (tagScore < 0) {
+    score += tagScore * 7;
+    penalties.push(...topMatchingValues(movie.tags, tasteModel.tagWeights, 2, "negative"));
   }
 
   const creatorScore = sumMapMatches(movie.directors, tasteModel.directorWeights) + sumMapMatches(movie.cast, tasteModel.castWeights);
@@ -119,6 +146,8 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     score += creatorScore * 7;
     const matchedCreators = [...topMatchingValues(movie.directors, tasteModel.directorWeights, 1), ...topMatchingValues(movie.cast, tasteModel.castWeights, 1)];
     reasons.push(`keeps close to ${matchedCreators[0]} in your ratings`);
+  } else if (creatorScore < 0) {
+    score += creatorScore * 5;
   }
 
   const relatedCreators = likedMovies.filter(
@@ -147,6 +176,10 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     reasons.push("rate a few more movies to sharpen this pick");
   }
 
+  if (penalties.length > 0 && reasons.length < 3) {
+    reasons.push(`keeps distance from lower-rated ${penalties[0]} picks`);
+  }
+
   return {
     movie,
     score: Math.min(99, Math.max(1, Math.round(score))),
@@ -172,20 +205,20 @@ function topWeights(weights: WeightedMap, count: number) {
 }
 
 function sumMapMatches(values: string[], weights: WeightedMap) {
-  return values.reduce((total, value) => total + Math.max(0, weights.get(value) ?? 0), 0);
+  return values.reduce((total, value) => total + (weights.get(value) ?? 0), 0);
 }
 
-function topMatchingValues(values: string[], weights: WeightedMap, count: number) {
+function topMatchingValues(values: string[], weights: WeightedMap, count: number, direction: "positive" | "negative" = "positive") {
   return values
     .map((value) => ({ value, weight: weights.get(value) ?? 0 }))
-    .filter((item) => item.weight > 0)
-    .sort((a, b) => b.weight - a.weight)
+    .filter((item) => (direction === "positive" ? item.weight > 0 : item.weight < 0))
+    .sort((a, b) => (direction === "positive" ? b.weight - a.weight : a.weight - b.weight))
     .slice(0, count)
     .map((item) => item.value);
 }
 
-function bestWeightedMatch(values: string[], weights: WeightedMap) {
-  return topMatchingValues(values, weights, 1)[0] ?? values[0] ?? "movie";
+function bestWeightedMatch(values: string[], weights: WeightedMap, direction: "positive" | "negative" = "positive") {
+  return topMatchingValues(values, weights, 1, direction)[0] ?? values[0] ?? "movie";
 }
 
 function diversifyRecommendations(candidates: RecommendationCandidate[], count: number) {
@@ -238,4 +271,34 @@ function toRecommendation(candidate: RecommendationCandidate): Recommendation {
 function intersects(a: string[], b: string[]) {
   const bSet = new Set(b);
   return a.some((value) => bSet.has(value));
+}
+
+function getLatestRatedAt(movies: Movie[], states: MovieStateMap) {
+  return movies.reduce<number | null>((latest, movie) => {
+    const state = states[movie.id];
+    if (state?.rating === null || state?.rating === undefined) {
+      return latest;
+    }
+
+    const updatedAt = Date.parse(state.updatedAt);
+    if (Number.isNaN(updatedAt)) {
+      return latest;
+    }
+
+    return latest === null ? updatedAt : Math.max(latest, updatedAt);
+  }, null);
+}
+
+function getRecencyMultiplier(updatedAt: string, latestRatedAt: number | null) {
+  if (latestRatedAt === null) {
+    return 1;
+  }
+
+  const ratedAt = Date.parse(updatedAt);
+  if (Number.isNaN(ratedAt)) {
+    return 1;
+  }
+
+  const ageDays = Math.max(0, (latestRatedAt - ratedAt) / 86_400_000);
+  return Math.max(0.7, 1.25 - ageDays * 0.002);
 }

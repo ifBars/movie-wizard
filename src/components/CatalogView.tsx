@@ -60,7 +60,7 @@ export function CatalogView({
             ) : (
               <MovieRow
                 title="watchlist"
-                subtitle="Candidates for your Plex server"
+                subtitle="Saved movies to consider next"
                 movies={library.watchlistMovies}
                 library={library}
                 onOpenMovie={onOpenMovie}
