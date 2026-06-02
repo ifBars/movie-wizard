@@ -58,19 +58,47 @@ export function CatalogView({
                 onPreloadMovieDetails={onPreloadMovieDetails}
               />
             ) : (
-              <MovieRow
-                title="watchlist"
-                subtitle="Saved movies to consider next"
+              <WatchlistMovies
                 movies={library.watchlistMovies}
                 library={library}
                 onOpenMovie={onOpenMovie}
-                onMovieIntent={onPreloadMovieDetails}
+                onPreloadMovieDetails={onPreloadMovieDetails}
               />
             )}
           </motion.div>
         </AnimatePresence>
       </section>
     </div>
+  );
+}
+
+function WatchlistMovies({
+  movies,
+  library,
+  onOpenMovie,
+  onPreloadMovieDetails,
+}: {
+  movies: Movie[];
+  library: MovieLibrary;
+  onOpenMovie: (movieId: string) => void;
+  onPreloadMovieDetails?: () => void;
+}) {
+  const [layout, setLayout] = useState<CatalogLayout>("row");
+  const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="Watchlist layout" />;
+  const sharedProps = {
+    title: "watchlist",
+    subtitle: "Saved movies to consider next",
+    movies,
+    library,
+    onOpenMovie,
+    onMovieIntent: onPreloadMovieDetails,
+    headerAction,
+  };
+
+  return layout === "row" ? (
+    <MovieRow {...sharedProps} />
+  ) : (
+    <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
   );
 }
 
