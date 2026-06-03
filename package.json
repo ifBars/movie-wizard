@@ -11,6 +11,12 @@
     "data:payloads": "bun run scripts/movie-data/build-catalog-payloads.ts",
     "data:seed": "bun run scripts/movie-data/enrich-static-catalog.ts --seed-only",
     "lint": "eslint .",
+    "mobile:android": "cd mobile && bun run android",
+    "mobile:ios": "cd mobile && bun run ios",
+    "mobile:lint": "cd mobile && bun run lint",
+    "mobile:start": "cd mobile && bun run start",
+    "mobile:typecheck": "cd mobile && bun run typecheck",
+    "mobile:web": "cd mobile && bun run web",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

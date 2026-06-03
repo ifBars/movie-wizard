@@ -1,4 +1,5 @@
 import type { Movie, MovieStateMap, Recommendation } from "@/types";
+import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
 
 export type DiscoverSectionKey = "top-picks" | "recent-releases" | "comedy" | "nostalgic" | "highly-rated" | "quick-watches";
 
@@ -35,7 +36,7 @@ const nostalgicTags = new Set([
 
 export function buildDiscoverSections({ visibleMovies, states, recommendations }: DiscoverSectionInput): DiscoverSection[] {
   const candidates = watchableCandidates(visibleMovies, states);
-  const broadCandidates = candidates.length > 0 ? candidates : visibleMovies.filter((movie) => !states[movie.id]?.ignored);
+  const broadCandidates = candidates.length > 0 ? candidates : visibleMovies.filter((movie) => !states[movie.id]?.ignored && !states[movie.id]?.watchlist);
 
   const sections: DiscoverSection[] = [
     {
@@ -94,10 +95,7 @@ export function findDiscoverSection(sections: DiscoverSection[], key: string | n
 }
 
 function watchableCandidates(movies: Movie[], states: MovieStateMap) {
-  return movies.filter((movie) => {
-    const state = states[movie.id];
-    return !state?.ignored && !state?.watched && !state?.rating;
-  });
+  return movies.filter((movie) => isAvailableMovieCandidate(movie, states));
 }
 
 function byRecentRelease(movies: Movie[]) {

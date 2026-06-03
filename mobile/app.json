@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Movie Wizard",
+    "slug": "movie-wizard",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "moviewizard",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/brand/movie-wizard-icon.png",
+    "splash": {
+      "image": "./assets/brand/movie-wizard-logo-generated.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#292524"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.moviewizard.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/movie-wizard-icon.png",
+        "backgroundColor": "#292524"
+      },
+      "package": "app.moviewizard.mobile"
+    },
+    "plugins": ["expo-router", "expo-sqlite"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

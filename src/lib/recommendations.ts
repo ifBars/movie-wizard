@@ -1,4 +1,5 @@
 import type { Movie, MovieStateMap, Recommendation, TasteProfile } from "@/types";
+import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
 
 type WeightedMap = Map<string, WeightedSignal>;
 type WeightedSignal = {
@@ -11,7 +12,6 @@ const BASELINE_PRIOR_RATINGS = 4;
 const MIN_POSITIVE_RATING = 4;
 const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
-const WATCHLIST_CANDIDATE_BOOST = 7;
 const MAX_FEATURE_MATCHES = 3;
 const MAX_SOURCE_VOTE_COUNT = 10_000;
 
@@ -120,8 +120,7 @@ export function getRecommendations(movies: Movie[], states: MovieStateMap, optio
         return [];
       }
 
-      const state = states[movie.id];
-      if (state?.ignored || state?.watched || state?.rating) {
+      if (!isAvailableMovieCandidate(movie, states)) {
         return [];
       }
 
@@ -139,12 +138,6 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
   let score = getQualityScore(movie) * 0.2 + getPopularityScore(movie.popularity) * 0.07;
   const reasons: string[] = [];
   const penalties: string[] = [];
-  const isWatchlisted = tasteModel.watchlistedMovieIds.has(movie.id);
-
-  if (isWatchlisted) {
-    score += WATCHLIST_CANDIDATE_BOOST;
-    reasons.push("already waiting on your watchlist");
-  }
 
   const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights);
   if (genreScore > 0) {

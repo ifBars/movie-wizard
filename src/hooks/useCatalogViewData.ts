@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { buildDiscoverSections } from "@/lib/discoverSections";
+import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
 import { buildMovieSearchIndex, searchMovieIndex } from "@/lib/movieSearch";
 
 export type CatalogViewData = ReturnType<typeof useCatalogViewData>;
@@ -19,8 +20,8 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
   const searchIndex = useMemo(() => buildMovieSearchIndex(library.visibleMovies), [library.visibleMovies]);
 
   const filteredCatalog = useMemo(() => {
-    return searchMovieIndex(searchIndex, search);
-  }, [search, searchIndex]);
+    return searchMovieIndex(searchIndex, search).filter((movie) => isAvailableMovieCandidate(movie, library.states));
+  }, [library.states, search, searchIndex]);
 
   return {
     discoverSections,

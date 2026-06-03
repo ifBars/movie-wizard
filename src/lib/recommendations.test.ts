@@ -119,7 +119,7 @@ describe("movie recommendations", () => {
     expect(recommendations[0].movie.id).toBe("stable-consensus");
   });
 
-  test("treats watchlist entries as weak intent and boosts the saved candidate", () => {
+  test("treats watchlist entries as weak intent without recommending the saved candidate", () => {
     const catalog = [
       createMovie({ id: "watchlisted", genres: ["Mystery"], tags: ["detective"], criticalScore: 70, popularity: 40 }),
       createMovie({ id: "mystery-candidate", genres: ["Mystery"], tags: ["detective"], criticalScore: 70, popularity: 40 }),
@@ -131,8 +131,8 @@ describe("movie recommendations", () => {
 
     const recommendations = getRecommendations(catalog, states);
 
-    expect(recommendations[0].movie.id).toBe("watchlisted");
-    expect(recommendations[0].reasons).toContain("already waiting on your watchlist");
+    expect(recommendations.some((recommendation) => recommendation.movie.id === "watchlisted")).toBe(false);
+    expect(recommendations[0].movie.id).toBe("mystery-candidate");
     expect(recommendations.findIndex((recommendation) => recommendation.movie.id === "mystery-candidate")).toBeLessThan(
       recommendations.findIndex((recommendation) => recommendation.movie.id === "neutral-candidate"),
     );

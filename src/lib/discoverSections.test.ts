@@ -75,4 +75,31 @@ describe("discover sections", () => {
 
     expect(sections.flatMap((section) => section.movies).some((movie) => movie.id === ignoredMovie.id)).toBe(false);
   });
+
+  test("keeps watchlisted movies out of passive discover shelves", () => {
+    const watchlistedMovie = realCatalog.find((movie) => movie.genres.includes("Comedy"));
+
+    if (!watchlistedMovie) {
+      throw new Error("Expected the real catalog to include a comedy movie");
+    }
+
+    const states: MovieStateMap = {
+      [watchlistedMovie.id]: {
+        movieId: watchlistedMovie.id,
+        watched: false,
+        watchlist: true,
+        ignored: false,
+        rating: null,
+        updatedAt: "2026-06-01T00:00:00.000Z",
+      },
+    };
+
+    const sections = buildDiscoverSections({
+      visibleMovies: realCatalog,
+      states,
+      recommendations: getRecommendations(realCatalog, states),
+    });
+
+    expect(sections.flatMap((section) => section.movies).some((movie) => movie.id === watchlistedMovie.id)).toBe(false);
+  });
 });
