@@ -7,11 +7,13 @@ type WeightedSignal = {
 };
 
 const POSITIVE_BASELINE = 3.5;
+const BASELINE_PRIOR_RATINGS = 4;
 const MIN_POSITIVE_RATING = 4;
 const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
 const WATCHLIST_CANDIDATE_BOOST = 7;
 const MAX_FEATURE_MATCHES = 3;
+const MAX_SOURCE_VOTE_COUNT = 10_000;
 
 type TasteModel = {
   profile: TasteProfile;
@@ -24,6 +26,7 @@ type TasteModel = {
 };
 
 type RecommendationCandidate = Recommendation & {
+  rawScore: number;
   diversityKeys: string[];
 };
 
@@ -76,7 +79,7 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
   }
 
   const averageRating = ratedCount > 0 ? ratingTotal / ratedCount : 0;
-  const personalBaseline = ratedCount > 0 ? averageRating : POSITIVE_BASELINE;
+  const personalBaseline = getPersonalBaseline(ratingTotal, ratedCount);
 
   for (const { movie, rating, updatedAt } of ratedMovies) {
     const weight = (rating - personalBaseline) * getRecencyMultiplier(updatedAt, latestRatedAt);
@@ -126,14 +129,14 @@ export function getRecommendations(movies: Movie[], states: MovieStateMap, optio
       return [scored];
     })
     .slice()
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => b.rawScore - a.rawScore);
 
   return diversifyRecommendations(candidates, MAX_RECOMMENDATIONS).map(toRecommendation);
 }
 
 function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandidate {
   const { likedMovies, profile } = tasteModel;
-  let score = movie.criticalScore * 0.18 + movie.popularity * 0.08;
+  let score = getQualityScore(movie) * 0.2 + getPopularityScore(movie.popularity) * 0.07;
   const reasons: string[] = [];
   const penalties: string[] = [];
   const isWatchlisted = tasteModel.watchlistedMovieIds.has(movie.id);
@@ -201,9 +204,12 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     reasons.push(`keeps distance from lower-rated ${penalties[0]} picks`);
   }
 
+  const rawScore = Math.min(100, Math.max(1, score));
+
   return {
     movie,
-    score: Math.min(100, Math.max(1, Math.round(score))),
+    score: Math.round(rawScore),
+    rawScore,
     confidence: profile.ratedCount >= 8 ? "high" : profile.ratedCount >= 3 ? "medium" : "low",
     reasons: reasons.slice(0, 3),
     diversityKeys: [movie.genres[0], movie.directors[0], movie.tags[0]].filter((value) => value !== undefined),
@@ -218,6 +224,76 @@ function addWeights(target: WeightedMap, values: string[], weight: number, evide
       evidence: current.evidence + evidence,
     });
   }
+}
+
+function getPersonalBaseline(ratingTotal: number, ratedCount: number) {
+  if (ratedCount <= 0) {
+    return POSITIVE_BASELINE;
+  }
+
+  return (ratingTotal + POSITIVE_BASELINE * BASELINE_PRIOR_RATINGS) / (ratedCount + BASELINE_PRIOR_RATINGS);
+}
+
+function getQualityScore(movie: Movie) {
+  const source = movie.source;
+  const scores: Array<{ score: number; weight: number }> = [
+    { score: movie.criticalScore, weight: 1 },
+  ];
+
+  if (source?.tmdbVoteAverage !== undefined) {
+    scores.push({
+      score: source.tmdbVoteAverage * 10,
+      weight: 1.25 * getVoteConfidence(source.tmdbVoteCount),
+    });
+  }
+
+  if (source?.omdbImdbRating !== undefined) {
+    scores.push({
+      score: source.omdbImdbRating * 10,
+      weight: 1.1 * getVoteConfidence(source.omdbImdbVotes),
+    });
+  }
+
+  if (source?.omdbMetascore !== undefined) {
+    scores.push({
+      score: source.omdbMetascore,
+      weight: 0.9,
+    });
+  }
+
+  const weightedScore = scores.reduce(
+    (total, item) => ({
+      score: total.score + clampScore(item.score) * item.weight,
+      weight: total.weight + item.weight,
+    }),
+    { score: 0, weight: 0 },
+  );
+
+  return weightedScore.weight > 0 ? weightedScore.score / weightedScore.weight : clampScore(movie.criticalScore);
+}
+
+function getVoteConfidence(voteCount?: number) {
+  if (voteCount === undefined || !Number.isFinite(voteCount) || voteCount <= 0) {
+    return 0.2;
+  }
+
+  return Math.max(0.2, Math.min(1, Math.log10(voteCount + 1) / Math.log10(MAX_SOURCE_VOTE_COUNT + 1)));
+}
+
+function getPopularityScore(popularity: number) {
+  if (!Number.isFinite(popularity) || popularity <= 0) {
+    return 0;
+  }
+
+  return Math.min(100, Math.log1p(popularity) / Math.log1p(100) * 100);
+}
+
+function clampScore(score: number) {
+  if (!Number.isFinite(score)) {
+    return 0;
+  }
+
+  return Math.min(100, Math.max(0, score));
 }
 
 function topWeights(weights: WeightedMap, count: number) {

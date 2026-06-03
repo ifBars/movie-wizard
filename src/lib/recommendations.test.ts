@@ -80,6 +80,45 @@ describe("movie recommendations", () => {
     expect(recommendations[0].movie.id).toBe("drama-candidate");
   });
 
+  test("learns useful taste signals from a single strong rating", () => {
+    const catalog = [
+      createMovie({ id: "liked-space", genres: ["Science Fiction"], tags: ["space"], criticalScore: 60, popularity: 10 }),
+      createMovie({ id: "space-candidate", genres: ["Science Fiction"], tags: ["space"], criticalScore: 60, popularity: 10 }),
+      createMovie({ id: "generic-hit", genres: ["Action"], tags: ["franchise"], criticalScore: 90, popularity: 100 }),
+    ];
+    const states = createStates([["liked-space", 5]]);
+
+    const recommendations = getRecommendations(catalog, states);
+
+    expect(recommendations[0].movie.id).toBe("space-candidate");
+    expect(recommendations[0].reasons.some((reason) => reason.includes("Science Fiction") || reason.includes("space"))).toBe(true);
+  });
+
+  test("dampens public scores backed by tiny vote samples", () => {
+    const catalog = [
+      createMovie({
+        id: "low-evidence-hype",
+        genres: ["Drama"],
+        tags: ["festival"],
+        criticalScore: 70,
+        popularity: 50,
+        source: { tmdbVoteAverage: 10, tmdbVoteCount: 1 },
+      }),
+      createMovie({
+        id: "stable-consensus",
+        genres: ["Drama"],
+        tags: ["festival"],
+        criticalScore: 80,
+        popularity: 50,
+        source: { tmdbVoteAverage: 7.5, tmdbVoteCount: 10_000 },
+      }),
+    ];
+
+    const recommendations = getRecommendations(catalog, {});
+
+    expect(recommendations[0].movie.id).toBe("stable-consensus");
+  });
+
   test("treats watchlist entries as weak intent and boosts the saved candidate", () => {
     const catalog = [
       createMovie({ id: "watchlisted", genres: ["Mystery"], tags: ["detective"], criticalScore: 70, popularity: 40 }),
@@ -201,5 +240,6 @@ function createMovie(overrides: Partial<Movie> & Pick<Movie, "id" | "genres" | "
     popularity: overrides.popularity ?? 50,
     criticalScore: overrides.criticalScore ?? 75,
     plexFit: "",
+    source: overrides.source,
   };
 }
