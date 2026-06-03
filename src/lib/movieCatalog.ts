@@ -44,7 +44,8 @@ function isMovie(value: unknown): value is Movie {
     typeof value.posterTone === "string" &&
     typeof value.popularity === "number" &&
     typeof value.criticalScore === "number" &&
-    typeof value.plexFit === "string"
+    typeof value.plexFit === "string" &&
+    isOptionalString(value.trailerUrl)
   );
 }
 

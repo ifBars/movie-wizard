@@ -95,6 +95,7 @@ function isCatalogIndexField(field: string): field is CatalogManifestPayload["in
     case "popularity":
     case "criticalScore":
     case "plexFit":
+    case "trailerUrl":
     case "synopsisPreview":
       return true;
     default:

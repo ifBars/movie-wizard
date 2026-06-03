@@ -37,6 +37,7 @@ type MovieRecord = {
   popularity: number;
   criticalScore: number;
   plexFit: string;
+  trailerUrl?: string;
   source?: {
     tmdbUpdatedAt?: string;
     omdbUpdatedAt?: string;
@@ -56,6 +57,19 @@ type TmdbListItem = {
   vote_count?: number;
   adult?: boolean;
   video?: boolean;
+};
+
+type TmdbVideo = {
+  id: string;
+  iso_639_1?: string;
+  iso_3166_1?: string;
+  key: string;
+  name?: string;
+  site?: string;
+  size?: number;
+  type?: string;
+  official?: boolean;
+  published_at?: string;
 };
 
 type TmdbMovieDetails = {
@@ -82,6 +96,9 @@ type TmdbMovieDetails = {
   };
   external_ids?: {
     imdb_id?: string | null;
+  };
+  videos?: {
+    results?: TmdbVideo[];
   };
 };
 
@@ -161,7 +178,7 @@ const outputPath = path.join(rootDir, "src", "data", "generated", "movies.json")
 const metadataPath = path.join(rootDir, "src", "data", "generated", "metadata.json");
 const manifestPath = path.join(rootDir, "src", "data", "generated", "enrichment-manifest.json");
 const cacheDir = path.join(rootDir, ".movie-wizard-cache", "tmdb");
-const sourceFingerprint = "tmdb-v3:movie-details:credits,crew,external_ids,keywords";
+const sourceFingerprint = "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos";
 const requestKeysThisRun = new Set<string>();
 const runStats = {
   tmdbCacheHits: 0,
@@ -1008,7 +1025,7 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
   try {
     details = await tmdbFetch<TmdbMovieDetails>(
       `/movie/${tmdbId}`,
-      { language: "en-US", append_to_response: "credits,external_ids,keywords" },
+      { language: "en-US", append_to_response: "credits,external_ids,keywords,videos" },
       options,
       token,
       apiKey,
@@ -1058,6 +1075,7 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
     popularity: normalizePopularity(details.popularity),
     criticalScore,
     plexFit: seed.plexFit ?? fitLine(genres, runtimeMinutes, criticalScore),
+    trailerUrl: extractTrailerUrl(details.videos?.results ?? []),
     source: {
       tmdbUpdatedAt: fetchedAt,
       omdbUpdatedAt: omdb ? new Date().toISOString() : undefined,
@@ -1346,6 +1364,21 @@ function fitLine(genres: string[], runtimeMinutes: number, criticalScore: number
     return `A compact ${primaryGenre.toLowerCase()} option for easier weeknight discovery.`;
   }
   return `A useful ${primaryGenre.toLowerCase()} title for broadening the local catalog.`;
+}
+
+function extractTrailerUrl(videos: TmdbVideo[]): string | undefined {
+  const trailers = videos.filter(
+    (video) => video.site === "YouTube" && video.type === "Trailer" && video.key,
+  );
+
+  const official = trailers.find((video) => video.official);
+  const chosen = official ?? trailers[0];
+
+  if (chosen) {
+    return `https://www.youtube-nocookie.com/embed/${chosen.key}`;
+  }
+
+  return undefined;
 }
 
 function seedKey(seed: SeedMovie) {

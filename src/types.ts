@@ -27,6 +27,7 @@ export type Movie = {
   popularity: number;
   criticalScore: number;
   plexFit: string;
+  trailerUrl?: string;
   source?: {
     tmdbUpdatedAt?: string;
     omdbUpdatedAt?: string;

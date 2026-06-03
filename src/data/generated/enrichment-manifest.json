@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+  "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
   "tmdbIds": {
     "11": {
       "recordId": "star-wars-1977",
@@ -3376,8 +3376,8 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-06-02T10:57:44.520Z",
-      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+      "lastFetchedAt": "2026-06-03T08:59:38.471Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "8643": {
@@ -12826,8 +12826,8 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-06-02T10:57:44.556Z",
-      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+      "lastFetchedAt": "2026-06-03T08:59:38.660Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "662707": {
@@ -16156,5 +16156,5 @@
     }
   },
   "failedTmdbIds": {},
-  "generatedAt": "2026-06-02T10:57:56.532Z"
+  "generatedAt": "2026-06-03T08:59:38.835Z"
 }

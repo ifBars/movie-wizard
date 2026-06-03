@@ -1,0 +1,57 @@
+name: Backfill movie metadata
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum records to refresh per run"
+        required: false
+        default: "100"
+  schedule:
+    - cron: "0 */8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    name: Backfill stale TMDb metadata
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Backfill metadata
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: |
+          bun run scripts/movie-data/backfill-metadata.ts --limit=${{ github.event.inputs.limit || '100' }}
+
+      - name: Rebuild catalog payloads
+        run: bun run scripts/movie-data/build-catalog-payloads.ts
+
+      - name: Validate
+        run: |
+          bun run lint
+          bun run build
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- src/data/generated; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/generated
+          git commit -m "chore: backfill movie metadata"
+          git push

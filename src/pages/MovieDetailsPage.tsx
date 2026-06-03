@@ -226,6 +226,21 @@ export function MovieDetailsPage({
                   />
                 </div>
 
+                {movie.trailerUrl ? (
+                  <section className="detail-trailer" aria-label="Movie trailer">
+                    <h3>Trailer</h3>
+                    <div className="detail-trailer__frame">
+                      <iframe
+                        src={movie.trailerUrl}
+                        title={`${movie.title} trailer`}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+                    </div>
+                  </section>
+                ) : null}
+
                 <section className="detail-facts-strip" aria-label="Movie facts">
                   <DetailFact icon={<FilmSlate weight="fill" />} label="Runtime" value={movie.runtimeMinutes ? `${movie.runtimeMinutes} min` : "Not listed"} />
                   <DetailFact icon={<CalendarBlank weight="fill" />} label="Release" value={releaseDate ?? String(movie.year)} />

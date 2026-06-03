@@ -52,6 +52,7 @@ async function main() {
       "popularity",
       "criticalScore",
       "plexFit",
+      "trailerUrl",
       "synopsisPreview",
     ],
     detailFields: ["id", "crew", "source", "synopsis"],
@@ -84,6 +85,7 @@ function toCatalogIndexMovie(movie: Movie): CatalogIndexMovie {
     popularity: movie.popularity,
     criticalScore: movie.criticalScore,
     plexFit: movie.plexFit,
+    trailerUrl: movie.trailerUrl,
     synopsisPreview: createSynopsisPreview(movie.synopsis),
   };
 }

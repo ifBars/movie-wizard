@@ -27,6 +27,7 @@ export function hydrateCatalogMovie(indexMovie: CatalogIndexMovie, detailsPayloa
     popularity: indexMovie.popularity,
     criticalScore: indexMovie.criticalScore,
     plexFit: indexMovie.plexFit,
+    trailerUrl: indexMovie.trailerUrl,
     source: details.source,
     synopsis: details.synopsis,
   };
