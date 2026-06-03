@@ -17661,6 +17661,507 @@
       "status": "ok"
     }
   },
-  "failedTmdbIds": {},
+  "failedTmdbIds": {
+    "77": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.563Z"
+    },
+    "120": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.429Z"
+    },
+    "122": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.380Z"
+    },
+    "155": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.819Z"
+    },
+    "238": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.956Z"
+    },
+    "278": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.348Z"
+    },
+    "350": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.757Z"
+    },
+    "597": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.717Z"
+    },
+    "603": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.337Z"
+    },
+    "671": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.678Z"
+    },
+    "1579": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.482Z"
+    },
+    "11012": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.848Z"
+    },
+    "19995": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.530Z"
+    },
+    "24428": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.180Z"
+    },
+    "28322": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.272Z"
+    },
+    "39254": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.318Z"
+    },
+    "48650": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.913Z"
+    },
+    "62029": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.883Z"
+    },
+    "64641": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.526Z"
+    },
+    "78192": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.703Z"
+    },
+    "83533": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.680Z"
+    },
+    "157336": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.478Z"
+    },
+    "186745": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.987Z"
+    },
+    "235271": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.381Z"
+    },
+    "249397": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.815Z"
+    },
+    "299536": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.286Z"
+    },
+    "337167": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.597Z"
+    },
+    "405818": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.884Z"
+    },
+    "441168": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.245Z"
+    },
+    "460465": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.499Z"
+    },
+    "462183": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.639Z"
+    },
+    "533535": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.479Z"
+    },
+    "634649": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.317Z"
+    },
+    "687163": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.219Z"
+    },
+    "744275": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.117Z"
+    },
+    "755898": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.357Z"
+    },
+    "758308": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.952Z"
+    },
+    "840464": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.491Z"
+    },
+    "848116": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.420Z"
+    },
+    "911430": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.877Z"
+    },
+    "931285": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.691Z"
+    },
+    "936075": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.623Z"
+    },
+    "976912": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.537Z"
+    },
+    "980477": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.208Z"
+    },
+    "1002398": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.237Z"
+    },
+    "1007757": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.170Z"
+    },
+    "1010581": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.402Z"
+    },
+    "1083381": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.654Z"
+    },
+    "1084242": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.033Z"
+    },
+    "1110034": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.778Z"
+    },
+    "1116201": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.415Z"
+    },
+    "1157008": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.280Z"
+    },
+    "1159559": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.743Z"
+    },
+    "1171145": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.522Z"
+    },
+    "1196067": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.631Z"
+    },
+    "1198994": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.838Z"
+    },
+    "1207162": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.798Z"
+    },
+    "1226863": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.505Z"
+    },
+    "1228710": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.615Z"
+    },
+    "1233413": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.760Z"
+    },
+    "1239134": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.234Z"
+    },
+    "1242265": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.353Z"
+    },
+    "1242898": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.668Z"
+    },
+    "1246049": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.746Z"
+    },
+    "1265609": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.633Z"
+    },
+    "1266127": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.797Z"
+    },
+    "1290821": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.515Z"
+    },
+    "1291608": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.072Z"
+    },
+    "1292415": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.174Z"
+    },
+    "1292695": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.441Z"
+    },
+    "1297842": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.378Z"
+    },
+    "1301421": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.432Z"
+    },
+    "1304313": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.464Z"
+    },
+    "1311031": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.577Z"
+    },
+    "1314481": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.323Z"
+    },
+    "1318447": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.768Z"
+    },
+    "1325734": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.560Z"
+    },
+    "1327819": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.301Z"
+    },
+    "1330021": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.553Z"
+    },
+    "1339713": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.537Z"
+    },
+    "1367220": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.720Z"
+    },
+    "1368166": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.177Z"
+    },
+    "1368881": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.592Z"
+    },
+    "1375646": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.141Z"
+    },
+    "1380291": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.458Z"
+    },
+    "1383731": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.597Z"
+    },
+    "1390300": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.573Z"
+    },
+    "1419406": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.793Z"
+    },
+    "1426822": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:03.309Z"
+    },
+    "1439930": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:01.263Z"
+    },
+    "1470130": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:06.832Z"
+    },
+    "1472951": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.921Z"
+    },
+    "1523145": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.728Z"
+    },
+    "1582770": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:02.375Z"
+    },
+    "1613798": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.707Z"
+    },
+    "1628367": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.592Z"
+    },
+    "1630423": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.393Z"
+    },
+    "1632181": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.080Z"
+    },
+    "1639398": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:04.560Z"
+    },
+    "1662414": {
+      "lastTriedAt": "2026-06-03T17:37:01.071Z",
+      "reason": "Cannot access 'genrePosterTones' before initialization.",
+      "retryAfter": "2026-06-10T17:37:05.671Z"
+    }
+  },
   "generatedAt": "2026-06-03T11:07:15.883Z"
 }

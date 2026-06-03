@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T08:13:19.801Z",
-  "movieCount": 3151,
+  "generatedAt": "2026-06-03T17:37:06.937Z",
+  "movieCount": 3401,
   "indexFields": [
     "id",
     "tmdbId",
@@ -22,6 +22,7 @@
     "popularity",
     "criticalScore",
     "plexFit",
+    "trailerUrl",
     "synopsisPreview"
   ],
   "detailFields": [
