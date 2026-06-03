@@ -42,4 +42,11 @@ export default tseslint.config(
       "no-restricted-imports": "off",
     },
   },
+  {
+    files: ["**/*.test.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/consistent-type-assertions": "off",
+      "no-constant-binary-expression": "off",
+    },
+  },
 );
