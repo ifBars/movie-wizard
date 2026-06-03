@@ -36,17 +36,65 @@ describe("discover sections", () => {
     expect(nostalgic?.movies.some((movie) => movie.year <= 2005)).toBe(true);
   });
 
-  test("sorts recent releases newest first", () => {
+  test("ranks recent releases with the recommendation engine", () => {
     const sections = buildDiscoverSections({
       visibleMovies: realCatalog,
       states: emptyStates,
       recommendations: getRecommendations(realCatalog, emptyStates),
     });
     const recentReleases = findDiscoverSection(sections, "recent-releases");
-    const years = recentReleases?.movies.slice(0, 12).map((movie) => movie.year) ?? [];
+    const recentReleaseYear = new Date().getFullYear() - 5;
+    const expectedRecentReleaseIds = getRecommendations(realCatalog, emptyStates, {
+      candidateFilter: (movie) => movie.year >= recentReleaseYear,
+    }).map((recommendation) => recommendation.movie.id);
+    const recentReleaseIds = recentReleases?.movies.map((movie) => movie.id) ?? [];
 
-    expect(years.length).toBeGreaterThan(2);
-    expect(years).toEqual(years.slice().sort((a, b) => b - a));
+    expect(recentReleaseIds.length).toBeGreaterThan(2);
+    expect(recentReleaseIds.slice(0, 12)).toEqual(expectedRecentReleaseIds.slice(0, 12));
+  });
+
+  test("uses full-library taste signals when ranking category sections", () => {
+    const catalog = [
+      createMovie({
+        id: "liked-drama",
+        genres: ["Drama"],
+        tags: ["detective"],
+        directors: ["Taste Director"],
+        cast: ["Taste Lead"],
+        criticalScore: 75,
+        popularity: 30,
+      }),
+      createMovie({
+        id: "personal-comedy",
+        genres: ["Comedy"],
+        tags: ["detective"],
+        directors: ["Taste Director"],
+        cast: ["Taste Lead"],
+        criticalScore: 45,
+        popularity: 20,
+      }),
+      createMovie({
+        id: "generic-comedy",
+        genres: ["Comedy"],
+        tags: ["slapstick"],
+        directors: ["Other Director"],
+        cast: ["Other Lead"],
+        criticalScore: 99,
+        popularity: 100,
+      }),
+    ];
+    const states: MovieStateMap = {
+      "liked-drama": createMovieState("liked-drama", { rating: 5, watched: true }),
+    };
+
+    const sections = buildDiscoverSections({
+      visibleMovies: catalog,
+      states,
+      recommendations: getRecommendations(catalog, states),
+    });
+    const comedy = findDiscoverSection(sections, "comedy");
+
+    expect(comedy?.movies.map((movie) => movie.id)).toEqual(["personal-comedy", "generic-comedy"]);
   });
 
   test("keeps ignored movies out of passive discover shelves", () => {
@@ -103,3 +151,38 @@ describe("discover sections", () => {
     expect(sections.flatMap((section) => section.movies).some((movie) => movie.id === watchlistedMovie.id)).toBe(false);
   });
 });
+
+function createMovieState(
+  movieId: string,
+  overrides: Partial<MovieStateMap[string]> = {},
+): MovieStateMap[string] {
+  return {
+    movieId,
+    watched: false,
+    watchlist: false,
+    ignored: false,
+    rating: null,
+    updatedAt: "2026-06-01T00:00:00.000Z",
+    ...overrides,
+  };
+}
+
+function createMovie(overrides: Partial<Movie> & Pick<Movie, "id" | "genres" | "tags">): Movie {
+  return {
+    id: overrides.id,
+    title: overrides.id,
+    originalLanguage: "en",
+    year: overrides.year ?? 2026,
+    runtimeMinutes: overrides.runtimeMinutes ?? 100,
+    genres: overrides.genres,
+    tags: overrides.tags,
+    directors: overrides.directors ?? ["Director"],
+    cast: overrides.cast ?? ["Actor"],
+    synopsis: "",
+    posterTone: "stone",
+    popularity: overrides.popularity ?? 50,
+    criticalScore: overrides.criticalScore ?? 75,
+    plexFit: "",
+    source: overrides.source,
+  };
+}

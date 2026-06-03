@@ -32,6 +32,7 @@ type RecommendationCandidate = Recommendation & {
 
 type RecommendationOptions = {
   minimumMovieYear?: number | null;
+  candidateFilter?: (movie: Movie) => boolean;
 };
 
 export function buildTasteProfile(movies: Movie[], states: MovieStateMap): TasteProfile {
@@ -117,6 +118,10 @@ export function getRecommendations(movies: Movie[], states: MovieStateMap, optio
   const candidates = movies
     .flatMap((movie) => {
       if (options.minimumMovieYear !== null && options.minimumMovieYear !== undefined && movie.year < options.minimumMovieYear) {
+        return [];
+      }
+
+      if (options.candidateFilter !== undefined && !options.candidateFilter(movie)) {
         return [];
       }
 

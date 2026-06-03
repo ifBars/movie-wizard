@@ -192,7 +192,7 @@ function BackToDiscoverButton({ onClick }: { onClick: () => void }) {
   );
 }
 
-function SearchResults({
+export function SearchResults({
   filteredCatalog,
   layout,
   library,

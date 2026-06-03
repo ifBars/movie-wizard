@@ -41,11 +41,12 @@ export function AppMainContent({
   themeMode,
 }: AppMainContentProps) {
   const shouldReduceMotion = useReducedMotion();
+  const isSearchMode = search.trim().length > 0;
 
   return (
     <main
       id="top"
-      className={cn("page-grid", activeView === "settings" && "page-grid--settings", isDetailView && "page-grid--detail")}
+      className={cn("page-grid", activeView === "settings" && !isSearchMode && "page-grid--settings", isDetailView && "page-grid--detail")}
     >
       {isInitialCatalogLoading ? (
         <div className="page-motion-block">
@@ -122,6 +123,22 @@ function AppPage({
     return (
       <motion.div key="detail-loading" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
         <CatalogLoadingState title="Loading movie" subtitle="Opening your movie details." />
+      </motion.div>
+    );
+  }
+
+  if (search.trim()) {
+    return (
+      <motion.div key="catalog-search" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
+        <CatalogView
+          activeView={activeView}
+          search={search}
+          discoverSections={catalogData.discoverSections}
+          filteredCatalog={catalogData.filteredCatalog}
+          library={library}
+          onOpenMovie={onOpenMovie}
+          onPreloadMovieDetails={preloadMovieDetailsPage}
+        />
       </motion.div>
     );
   }

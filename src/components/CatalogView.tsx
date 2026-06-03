@@ -2,7 +2,7 @@ import { ListBullets, SquaresFour } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import type { PointerEvent } from "react";
-import { DiscoverPage } from "@/components/DiscoverPage";
+import { DiscoverPage, SearchResults } from "@/components/DiscoverPage";
 import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
@@ -35,13 +35,24 @@ export function CatalogView({
 }: CatalogViewProps) {
   const shouldReduceMotion = useReducedMotion();
   const trimmedSearch = search.trim();
+  const [searchLayout, setSearchLayout] = useState<CatalogLayout>("grid");
 
   return (
     <div className="catalog-motion-grid">
       <section className="catalog-main">
         <AnimatePresence mode="popLayout" initial={false}>
           <motion.div key={`${activeView}-${trimmedSearch ? "search" : "default"}`} className="catalog-view-panel" {...pageFade(shouldReduceMotion)}>
-            {activeView === "discover" ? (
+            {trimmedSearch ? (
+              <SearchResults
+                key={trimmedSearch}
+                filteredCatalog={filteredCatalog}
+                layout={searchLayout}
+                library={library}
+                onLayoutChange={setSearchLayout}
+                onOpenMovie={onOpenMovie}
+                onPreloadMovieDetails={onPreloadMovieDetails}
+              />
+            ) : activeView === "discover" ? (
               <DiscoverPage
                 search={trimmedSearch}
                 filteredCatalog={filteredCatalog}

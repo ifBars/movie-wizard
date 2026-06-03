@@ -13,8 +13,9 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
         visibleMovies: library.visibleMovies,
         states: library.states,
         recommendations: library.recommendations,
+        minimumRecommendationYear: library.settings.minimumRecommendationYear,
       }),
-    [library.recommendations, library.states, library.visibleMovies],
+    [library.recommendations, library.settings.minimumRecommendationYear, library.states, library.visibleMovies],
   );
 
   const searchIndex = useMemo(() => buildMovieSearchIndex(library.visibleMovies), [library.visibleMovies]);
