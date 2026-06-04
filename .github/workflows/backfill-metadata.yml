@@ -7,6 +7,10 @@ on:
         description: "Maximum records to refresh per run"
         required: false
         default: "100"
+      titles:
+        description: "Comma-separated list of movie titles to target (optional)"
+        required: false
+        default: ""
   schedule:
     - cron: "0 */8 * * *"
 
@@ -33,7 +37,11 @@ jobs:
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: |
-          bun run scripts/movie-data/backfill-metadata.ts --limit=${{ github.event.inputs.limit || '100' }}
+          ARGS="--limit=${{ github.event.inputs.limit || '100' }}"
+          if [ -n "${{ github.event.inputs.titles }}" ]; then
+            ARGS="$ARGS --titles=${{ github.event.inputs.titles }}"
+          fi
+          bun run scripts/movie-data/backfill-metadata.ts $ARGS
 
       - name: Rebuild catalog payloads
         run: bun run scripts/movie-data/build-catalog-payloads.ts

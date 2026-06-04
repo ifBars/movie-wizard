@@ -74,8 +74,7 @@ const metadataPath = path.join(rootDir, "src", "data", "generated", "metadata.js
 const sourceFingerprint = "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos";
 
 const limit = parseLimit(process.argv.slice(2));
-
-await main();
+const targetTitles = parseTargetTitles(process.argv.slice(2));
 
 async function main() {
   await loadEnvFiles([".env.local", ".env"]);
@@ -96,9 +95,15 @@ async function main() {
     manifest = { version: 1, sourceFingerprint, tmdbIds: {}, failedTmdbIds: {} };
   }
 
-  const candidates = movies
+  let candidates = movies
     .filter((movie) => shouldRefresh(movie, manifest))
     .sort((a, b) => b.popularity - a.popularity);
+
+  if (targetTitles.length > 0) {
+    const targetSet = new Set(targetTitles.map((t) => t.toLowerCase()));
+    candidates = candidates.filter((movie) => targetSet.has(movie.title.toLowerCase()));
+    console.log(`Targeting ${candidates.length} movies matching provided titles.`);
+  }
 
   const batch = candidates.slice(0, limit);
 
@@ -185,6 +190,10 @@ function shouldRefresh(movie: Movie, manifest: EnrichmentManifest): boolean {
   const failure = manifest.failedTmdbIds[String(movie.tmdbId)];
   if (failure && Date.parse(failure.retryAfter) > Date.now()) {
     return false;
+  }
+
+  if (hasMissingMetadata(movie)) {
+    return true;
   }
 
   const current = manifest.tmdbIds[String(movie.tmdbId)];
@@ -293,6 +302,56 @@ function parseLimit(args: string[]): number {
   }
 
   return 100;
+}
+
+function parseTargetTitles(args: string[]): string[] {
+  for (let index = 0; index < args.length; index += 1) {
+    if (args[index] === "--titles" && args[index + 1]) {
+      return args[index + 1].split(",").map((t) => t.trim()).filter(Boolean);
+    }
+
+    if (args[index].startsWith("--titles=")) {
+      return args[index].slice("--titles=".length).split(",").map((t) => t.trim()).filter(Boolean);
+    }
+  }
+
+  return [];
+}
+
+function hasMissingMetadata(movie: Movie): boolean {
+  if (!movie.posterPath) {
+    return true;
+  }
+
+  if (!movie.backdropPath) {
+    return true;
+  }
+
+  if (!movie.synopsis || movie.synopsis === "No synopsis is available yet.") {
+    return true;
+  }
+
+  if (movie.genres.length === 0) {
+    return true;
+  }
+
+  if (movie.runtimeMinutes === 0) {
+    return true;
+  }
+
+  if (movie.cast.length === 0) {
+    return true;
+  }
+
+  if (movie.directors.length === 0) {
+    return true;
+  }
+
+  if (!movie.crew || movie.crew.length === 0) {
+    return true;
+  }
+
+  return false;
 }
 
 async function loadEnvFiles(files: string[]) {
@@ -444,3 +503,5 @@ function parseYear(date?: string | null) {
   const year = Number(date.slice(0, 4));
   return Number.isFinite(year) ? year : undefined;
 }
+
+await main();
