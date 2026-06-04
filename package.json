@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "data:enrich": "bun run scripts/movie-data/enrich-static-catalog.ts",
     "data:languages": "bun run scripts/movie-data/backfill-catalog-languages.ts && bun run data:payloads",
+    "data:metadata:local": "bun run scripts/movie-data/backfill-local-metadata.ts",
     "data:payloads": "bun run scripts/movie-data/build-catalog-payloads.ts",
     "data:seed": "bun run scripts/movie-data/enrich-static-catalog.ts --seed-only",
     "lint": "eslint .",

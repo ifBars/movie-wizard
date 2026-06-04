@@ -356,8 +356,6 @@ const genrePosterTones = new Map([
   ["Western", "from-yellow-200 via-orange-700 to-stone-950"],
 ]);
 
-await main();
-
 async function main() {
   await loadEnvFiles([".env.local", ".env"]);
 
@@ -1394,3 +1392,5 @@ function slugify(value: string) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
+
+await main();

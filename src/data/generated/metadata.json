@@ -22,5 +22,14 @@
   "backfillUpdated": 1,
   "backfillFailures": 0,
   "backfillSkipped": 0,
-  "backfillRemaining": 2490
+  "backfillRemaining": 2490,
+  "localMetadataBackfillLastRun": "2026-06-04T04:18:46.409Z",
+  "localMetadataBackfillCandidates": 1128,
+  "localMetadataBackfillUpdated": 1125,
+  "localMetadataBackfillUnchanged": 3,
+  "localMetadataBackfillFailures": 0,
+  "localMetadataBackfillResolvedTmdbIds": 456,
+  "localMetadataBackfillTmdbRequests": 1578,
+  "localMetadataBackfillCacheHits": 6,
+  "localMetadataBackfillRemaining": 15
 }
