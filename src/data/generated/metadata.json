@@ -17,5 +17,10 @@
     "tmdb": true,
     "tmdbDailyExport": true,
     "omdb": false
-  }
+  },
+  "backfillLastRun": "2026-06-06T16:21:48.884Z",
+  "backfillUpdated": 100,
+  "backfillFailures": 0,
+  "backfillSkipped": 0,
+  "backfillRemaining": 2150
 }
