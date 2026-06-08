@@ -33770,11 +33770,11 @@
       },
       {
         "name": "Gints Zilbalodis",
-        "job": "Producer"
+        "job": "Original Music Composer"
       },
       {
         "name": "Gints Zilbalodis",
-        "job": "Original Music Composer"
+        "job": "Producer"
       },
       {
         "name": "Gints Zilbalodis",
@@ -33793,11 +33793,11 @@
         "job": "Screenplay"
       },
       {
-        "name": "Ron Dyens",
+        "name": "Matīss Kaža",
         "job": "Producer"
       },
       {
-        "name": "Matīss Kaža",
+        "name": "Ron Dyens",
         "job": "Producer"
       },
       {
@@ -33814,9 +33814,9 @@
     "plexFit": "A compact adventure option for easier weeknight discovery.",
     "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
     "source": {
-      "tmdbUpdatedAt": "2026-06-07T16:27:29.381Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 2836
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.615Z",
+      "tmdbVoteAverage": 8.083,
+      "tmdbVoteCount": 2837
     }
   },
   {
@@ -93249,7 +93249,7 @@
     "plexFit": "A useful horror title for broadening the local catalog.",
     "trailerUrl": "https://www.youtube-nocookie.com/embed/LmLc9HhkXkM",
     "source": {
-      "tmdbUpdatedAt": "2026-06-07T16:27:29.431Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.662Z",
       "tmdbVoteAverage": 6.29,
       "tmdbVoteCount": 31
     }
@@ -111625,9 +111625,12 @@
   },
   {
     "id": "6-underground-2019",
+    "tmdbId": 509967,
+    "imdbId": "tt8106534",
     "title": "6 Underground",
     "originalLanguage": "en",
     "year": 2019,
+    "releaseDate": "2019-12-10",
     "runtimeMinutes": 128,
     "genres": [
       "Action",
@@ -111700,21 +111703,18 @@
       }
     ],
     "synopsis": "After faking his death, a tech billionaire recruits a team of international operatives for a bold and bloody mission to take down a brutal dictator.",
+    "posterPath": "/lnWkyG3LLgbbrIEeyl5mK5VRFe4.jpg",
+    "backdropPath": "/eFw5YSorHidsajLTayo1noueIxI.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 8,
     "criticalScore": 63,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/XcIuFTrLS6g",
     "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.717Z",
       "tmdbVoteAverage": 6.334,
-      "omdbImdbRating": 6,
-      "tmdbUpdatedAt": "2026-06-04T04:18:16.803Z",
-      "tmdbVoteCount": 5173
-    },
-    "tmdbId": 509967,
-    "imdbId": "tt8106534",
-    "releaseDate": "2019-12-10",
-    "posterPath": "/lnWkyG3LLgbbrIEeyl5mK5VRFe4.jpg",
-    "backdropPath": "/eFw5YSorHidsajLTayo1noueIxI.jpg"
+      "tmdbVoteCount": 5178
+    }
   },
   {
     "id": "annie-2014",
@@ -111765,19 +111765,11 @@
         "job": "Screenplay"
       },
       {
-        "name": "JAŸ-Z",
-        "job": "Producer"
-      },
-      {
         "name": "Will Smith",
         "job": "Producer"
       },
       {
-        "name": "Tyran Smith",
-        "job": "Producer"
-      },
-      {
-        "name": "Caleeb Pinkett",
+        "name": "JAŸ-Z",
         "job": "Producer"
       },
       {
@@ -111789,6 +111781,14 @@
         "job": "Producer"
       },
       {
+        "name": "Tyran Smith",
+        "job": "Producer"
+      },
+      {
+        "name": "Caleeb Pinkett",
+        "job": "Producer"
+      },
+      {
         "name": "Greg Kurstin",
         "job": "Original Music Composer"
       }
@@ -111797,13 +111797,14 @@
     "posterPath": "/aKAM9V0izx4VhsdyAdBvAB26UCZ.jpg",
     "backdropPath": "/j3snmrxqxT60FrH1Z8i54fGnHZJ.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 63,
     "plexFit": "A useful comedy title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/nasLuiP-1E0",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:44.763Z",
-      "tmdbVoteAverage": 6.25,
-      "tmdbVoteCount": 1357
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.800Z",
+      "tmdbVoteAverage": 6.251,
+      "tmdbVoteCount": 1358
     }
   },
   {
@@ -111892,9 +111893,12 @@
   },
   {
     "id": "click-2006",
+    "tmdbId": 9339,
+    "imdbId": "tt0389860",
     "title": "Click",
     "originalLanguage": "en",
     "year": 2006,
+    "releaseDate": "2006-06-23",
     "runtimeMinutes": 107,
     "genres": [
       "Comedy",
@@ -111930,19 +111934,19 @@
         "job": "Director"
       },
       {
-        "name": "Mark O'Keefe",
-        "job": "Writer"
-      },
-      {
         "name": "Steve Koren",
         "job": "Writer"
       },
       {
-        "name": "Adam Sandler",
-        "job": "Producer"
+        "name": "Mark O'Keefe",
+        "job": "Writer"
       },
       {
         "name": "Jack Giarraputo",
+        "job": "Producer"
+      },
+      {
+        "name": "Steve Koren",
         "job": "Producer"
       },
       {
@@ -111950,11 +111954,11 @@
         "job": "Producer"
       },
       {
-        "name": "Steve Koren",
+        "name": "Mark O'Keefe",
         "job": "Producer"
       },
       {
-        "name": "Mark O'Keefe",
+        "name": "Adam Sandler",
         "job": "Producer"
       },
       {
@@ -111967,21 +111971,18 @@
       }
     ],
     "synopsis": "A married workaholic, Michael Newman doesn't have time for his wife and children, not if he's to impress his ungrateful boss and earn a well-deserved promotion. So when he meets Morty, a loopy sales clerk, he gets the answer to his prayers: a magical remote that allows him to bypass life's little distractions with increasingly hysterical results.",
+    "posterPath": "/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+    "backdropPath": "/w7OBGj9YEA4DcpUnPU9OM6NufJJ.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 63,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/APUqyhgtCfk",
     "source": {
-      "tmdbVoteAverage": 6.307,
-      "omdbImdbRating": 6.6,
-      "tmdbUpdatedAt": "2026-06-04T04:18:16.098Z",
-      "tmdbVoteCount": 7561
-    },
-    "tmdbId": 9339,
-    "imdbId": "tt0389860",
-    "releaseDate": "2006-06-23",
-    "posterPath": "/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
-    "backdropPath": "/w7OBGj9YEA4DcpUnPU9OM6NufJJ.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.845Z",
+      "tmdbVoteAverage": 6.306,
+      "tmdbVoteCount": 7566
+    }
   },
   {
     "id": "knowing-2009",
@@ -112206,11 +112207,11 @@
     "crew": [
       {
         "name": "John Cameron Mitchell",
-        "job": "Director"
+        "job": "Screenplay"
       },
       {
         "name": "John Cameron Mitchell",
-        "job": "Screenplay"
+        "job": "Director"
       },
       {
         "name": "John Cameron Mitchell",
@@ -112241,13 +112242,14 @@
     "posterPath": "/s8QBrWgpZpYrySSyTQ0xbFLPKrS.jpg",
     "backdropPath": "/a9VOWosINcLNJQb3hNZAqEShVTM.jpg",
     "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 63,
     "plexFit": "A compact romance option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/txkMNU6wnak",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:45.490Z",
-      "tmdbVoteAverage": 6.259,
-      "tmdbVoteCount": 584
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.889Z",
+      "tmdbVoteAverage": 6.264,
+      "tmdbVoteCount": 586
     }
   },
   {
@@ -112342,9 +112344,12 @@
   },
   {
     "id": "the-bfg-2016",
+    "tmdbId": 267935,
+    "imdbId": "tt3691740",
     "title": "The BFG",
     "originalLanguage": "en",
     "year": 2016,
+    "releaseDate": "2016-06-01",
     "runtimeMinutes": 117,
     "genres": [
       "Adventure",
@@ -112409,21 +112414,18 @@
       }
     ],
     "synopsis": "An orphan little girl befriends a benevolent giant who takes her to Giant Country, where they attempt to stop the man-eating giants that are invading the human world.",
+    "posterPath": "/w17Mc2x2olB5CtewznUFxgpvne0.jpg",
+    "backdropPath": "/tOTtJelsPKX0bvSdvDVL2ou3cGS.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
     "popularity": 7,
     "criticalScore": 63,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/Y6ZbRD1T7uI",
     "source": {
-      "tmdbVoteAverage": 6.29,
-      "omdbImdbRating": 5.7,
-      "tmdbUpdatedAt": "2026-06-04T04:18:09.115Z",
-      "tmdbVoteCount": 3625
-    },
-    "tmdbId": 267935,
-    "imdbId": "tt3691740",
-    "releaseDate": "2016-06-01",
-    "posterPath": "/w17Mc2x2olB5CtewznUFxgpvne0.jpg",
-    "backdropPath": "/tOTtJelsPKX0bvSdvDVL2ou3cGS.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.939Z",
+      "tmdbVoteAverage": 6.292,
+      "tmdbVoteCount": 3628
+    }
   },
   {
     "id": "american-wedding-2003",
@@ -112658,11 +112660,11 @@
     "posterPath": "/6muPGyLRhu7tiGnLt5msDqBVknR.jpg",
     "backdropPath": "/1ug5vAtWFZdak94BnzZ1m2mb7h5.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 10,
     "criticalScore": 62,
     "plexFit": "A compact drama option for easier weeknight discovery.",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:38.797Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:31.988Z",
       "tmdbVoteAverage": 6.2,
       "tmdbVoteCount": 12
     }
@@ -112744,9 +112746,12 @@
   },
   {
     "id": "shallow-hal-2001",
+    "tmdbId": 9889,
+    "imdbId": "tt0256380",
     "title": "Shallow Hal",
     "originalLanguage": "en",
     "year": 2001,
+    "releaseDate": "2001-11-01",
     "runtimeMinutes": 114,
     "genres": [
       "Comedy",
@@ -112821,21 +112826,18 @@
       }
     ],
     "synopsis": "After taking his dying father's advice, Hal dates only the embodiments of female physical perfection. But that all changes after Hal has an unexpected run-in with self-help guru Tony Robbins. Intrigued by Hal's shallowness, Robbins hypnotizes him into seeing the beauty that exists even in the least physically appealing women. Hal soon falls for Rosemary, but he doesn't realize that his gorgeous girlfriend is actually a 300-pound-not-so-hottie.",
+    "posterPath": "/q4lZrHWTWuybb6pzMucj1c0ngCW.jpg",
+    "backdropPath": "/7QkEgz9pEnS9AYzQmu465LMSwh0.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
     "popularity": 7,
     "criticalScore": 62,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/YGaqlO9bClk",
     "source": {
-      "tmdbVoteAverage": 6.175,
-      "omdbImdbRating": 4.5,
-      "tmdbUpdatedAt": "2026-06-04T04:18:17.481Z",
-      "tmdbVoteCount": 3157
-    },
-    "tmdbId": 9889,
-    "imdbId": "tt0256380",
-    "releaseDate": "2001-11-01",
-    "posterPath": "/q4lZrHWTWuybb6pzMucj1c0ngCW.jpg",
-    "backdropPath": "/7QkEgz9pEnS9AYzQmu465LMSwh0.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.035Z",
+      "tmdbVoteAverage": 6.174,
+      "tmdbVoteCount": 3160
+    }
   },
   {
     "id": "american-pie-presents-girls-rules-2020",
@@ -112878,15 +112880,15 @@
         "job": "Director"
       },
       {
-        "name": "David H. Steinberg",
-        "job": "Writer"
-      },
-      {
         "name": "Blayne Weaver",
         "job": "Writer"
       },
       {
-        "name": "Joseph P. Genier",
+        "name": "David H. Steinberg",
+        "job": "Writer"
+      },
+      {
+        "name": "Karen Gorodetzky",
         "job": "Producer"
       },
       {
@@ -112894,7 +112896,7 @@
         "job": "Producer"
       },
       {
-        "name": "Karen Gorodetzky",
+        "name": "Joseph P. Genier",
         "job": "Producer"
       },
       {
@@ -112914,13 +112916,14 @@
     "posterPath": "/xqvX5A24dbIWaeYsMTxxKX5qOfz.jpg",
     "backdropPath": "/75ooojtgiKYm5LcCczbCexioZze.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 61,
     "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/fGjfQjIKWkw",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:45.400Z",
-      "tmdbVoteAverage": 6.113,
-      "tmdbVoteCount": 714
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.081Z",
+      "tmdbVoteAverage": 6.107,
+      "tmdbVoteCount": 717
     }
   },
   {
@@ -112997,12 +113000,13 @@
     "posterPath": "/8KhDbFg9STRlvrOLvaQ7PjOo7XT.jpg",
     "backdropPath": "/z6ueaizIb3vH3l1l4xSr2bET2Am.jpg",
     "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 7,
+    "popularity": 5,
     "criticalScore": 61,
     "plexFit": "A compact crime option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/fdF699_b2wI",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:44.695Z",
-      "tmdbVoteAverage": 6.095,
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.175Z",
+      "tmdbVoteAverage": 6.1,
       "tmdbVoteCount": 930
     }
   },
@@ -113163,8 +113167,9 @@
     "popularity": 7,
     "criticalScore": 61,
     "plexFit": "A compact action option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/AwseLsrAFKs",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:45.418Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.222Z",
       "tmdbVoteAverage": 6.074,
       "tmdbVoteCount": 68
     }
@@ -113249,13 +113254,14 @@
     "posterPath": "/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg",
     "backdropPath": "/jKulL2hdp5S7dVbpoItAtdCyzXI.jpg",
     "posterTone": "from-red-300 via-stone-800 to-black",
-    "popularity": 7,
+    "popularity": 5,
     "criticalScore": 61,
     "plexFit": "A compact horror option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/kymDzCgPwj0",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.656Z",
-      "tmdbVoteAverage": 6.081,
-      "tmdbVoteCount": 690
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.295Z",
+      "tmdbVoteAverage": 6.092,
+      "tmdbVoteCount": 692
     }
   },
   {
@@ -113435,9 +113441,12 @@
   },
   {
     "id": "scooby-doo-2002",
+    "tmdbId": 9637,
+    "imdbId": "tt0267913",
     "title": "Scooby-Doo",
     "originalLanguage": "en",
     "year": 2002,
+    "releaseDate": "2002-06-14",
     "runtimeMinutes": 87,
     "genres": [
       "Mystery",
@@ -113498,21 +113507,18 @@
       }
     ],
     "synopsis": "When the Mystery Inc. gang is invited to Spooky Island, a popular amusement park, they soon discover that the attractions aren't the only things that are spooky. Strange things are happening, and it's up to Scooby, Shaggy, Fred, Daphne, and Velma to uncover the truth behind the mysterious happenings.",
+    "posterPath": "/mTAiBJGg8mqEfnYHHbi37ZoRSZm.jpg",
+    "backdropPath": "/1RAxtBxslR4OZCZC1vxIRUxjR7a.jpg",
     "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 61,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/lh6v23z6iek",
     "source": {
-      "omdbImdbRating": 5.4,
-      "tmdbUpdatedAt": "2026-06-04T04:18:14.481Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.341Z",
       "tmdbVoteAverage": 6.1,
-      "tmdbVoteCount": 4781
-    },
-    "tmdbId": 9637,
-    "imdbId": "tt0267913",
-    "releaseDate": "2002-06-14",
-    "posterPath": "/mTAiBJGg8mqEfnYHHbi37ZoRSZm.jpg",
-    "backdropPath": "/1RAxtBxslR4OZCZC1vxIRUxjR7a.jpg"
+      "tmdbVoteCount": 4783
+    }
   },
   {
     "id": "teenage-mutant-ninja-turtles-out-of-the-shadows-2016",
@@ -113563,15 +113569,15 @@
         "job": "Writer"
       },
       {
-        "name": "Brad Fuller",
-        "job": "Producer"
-      },
-      {
         "name": "Michael Bay",
         "job": "Producer"
       },
       {
         "name": "Andrew Form",
+        "job": "Producer"
+      },
+      {
+        "name": "Brad Fuller",
         "job": "Producer"
       },
       {
@@ -113598,10 +113604,11 @@
     "popularity": 7,
     "criticalScore": 61,
     "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/ubursnjg8NA",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.397Z",
-      "tmdbVoteAverage": 6.053,
-      "tmdbVoteCount": 3792
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.395Z",
+      "tmdbVoteAverage": 6.056,
+      "tmdbVoteCount": 3799
     }
   },
   {
@@ -113768,10 +113775,11 @@
     "popularity": 7,
     "criticalScore": 60,
     "plexFit": "A useful adventure title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/GTznf1x4khc",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:44.644Z",
-      "tmdbVoteAverage": 6,
-      "tmdbVoteCount": 3884
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.464Z",
+      "tmdbVoteAverage": 5.999,
+      "tmdbVoteCount": 3889
     }
   },
   {
@@ -113839,13 +113847,14 @@
     "posterPath": "/uh8bwvgGXeUKzdL4oSul9zxyTcd.jpg",
     "backdropPath": "/4QBI1pdjr2hH1fgC8NqwZZnWNso.jpg",
     "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 60,
     "plexFit": "A compact romance option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/zAE6YFikffs",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:37.680Z",
-      "tmdbVoteAverage": 6,
-      "tmdbVoteCount": 4575
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.505Z",
+      "tmdbVoteAverage": 6.014,
+      "tmdbVoteCount": 4580
     }
   },
   {
@@ -113904,11 +113913,11 @@
     "posterPath": "/dgL3SEyEGJl33PyUs2ADh82Dd3m.jpg",
     "backdropPath": "/w3BKakhGKTyNs1G0mZsCj2HoRmD.jpg",
     "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 60,
     "plexFit": "A useful mystery title for broadening the local catalog.",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:45.531Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.555Z",
       "tmdbVoteAverage": 6,
       "tmdbVoteCount": 43
     }
@@ -114067,13 +114076,14 @@
     "posterPath": "/dDrtuWUKhgUGp12kgUWuP0NpTdF.jpg",
     "backdropPath": "/dF6GNQ0TnZkr1t4wBt36Xc0Pccd.jpg",
     "posterTone": "from-red-300 via-stone-800 to-black",
-    "popularity": 7,
+    "popularity": 5,
     "criticalScore": 60,
     "plexFit": "A compact horror option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/R0ShE0EbcCA",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:39.470Z",
-      "tmdbVoteAverage": 5.959,
-      "tmdbVoteCount": 3941
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.646Z",
+      "tmdbVoteAverage": 5.963,
+      "tmdbVoteCount": 3946
     }
   },
   {
@@ -114212,20 +114222,24 @@
     "posterPath": "/9z3hdYnDdfWGKD55kdDmshDojeP.jpg",
     "backdropPath": "/cQpSKsSjoQYnDmqTlYl0gV3qnif.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 8,
     "criticalScore": 60,
     "plexFit": "A compact action option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/mFSqz_gfSUw",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:39.836Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.698Z",
       "tmdbVoteAverage": 6.022,
       "tmdbVoteCount": 225
     }
   },
   {
     "id": "scream-3-2000",
+    "tmdbId": 4234,
+    "imdbId": "tt0134084",
     "title": "Scream 3",
     "originalLanguage": "en",
     "year": 2000,
+    "releaseDate": "2000-02-04",
     "runtimeMinutes": 116,
     "genres": [
       "Horror",
@@ -114268,11 +114282,11 @@
         "job": "Producer"
       },
       {
-        "name": "Kevin Williamson",
+        "name": "Cathy Konrad",
         "job": "Producer"
       },
       {
-        "name": "Cathy Konrad",
+        "name": "Kevin Williamson",
         "job": "Producer"
       },
       {
@@ -114289,21 +114303,18 @@
       }
     ],
     "synopsis": "As bodies begin dropping around the Hollywood set of STAB 3, the third film based on the gruesome Woodsboro killings, Sidney and other survivors are once again terrorized by another Ghostface killer.",
+    "posterPath": "/qpH8ToZVlFD1bakL04LkEKodyDI.jpg",
+    "backdropPath": "/AbFWty0o5nKGo4iLJaGRgqFtC8W.jpg",
     "posterTone": "from-red-300 via-stone-800 to-black",
     "popularity": 7,
     "criticalScore": 60,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/Gx24Z9O0MuY",
     "source": {
-      "tmdbVoteAverage": 6,
-      "omdbImdbRating": 3.8,
-      "tmdbUpdatedAt": "2026-06-04T04:18:19.382Z",
-      "tmdbVoteCount": 4047
-    },
-    "tmdbId": 4234,
-    "imdbId": "tt0134084",
-    "releaseDate": "2000-02-04",
-    "posterPath": "/qpH8ToZVlFD1bakL04LkEKodyDI.jpg",
-    "backdropPath": "/AbFWty0o5nKGo4iLJaGRgqFtC8W.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.741Z",
+      "tmdbVoteAverage": 6.011,
+      "tmdbVoteCount": 4056
+    }
   },
   {
     "id": "total-recall-2012",
@@ -114382,13 +114393,14 @@
     "posterPath": "/hVUxVVzZ0WvvPIpKwsMPMDOQyqi.jpg",
     "backdropPath": "/uBHeAB2Ug9ELBzkMyls8CUjzn4i.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 60,
     "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/wbE6Wkzuydc",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:25.286Z",
-      "tmdbVoteAverage": 6.03,
-      "tmdbVoteCount": 5870
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.804Z",
+      "tmdbVoteAverage": 6.032,
+      "tmdbVoteCount": 5875
     }
   },
   {
@@ -114416,8 +114428,8 @@
       "crash landing"
     ],
     "directors": [
-      "Scott Beck",
-      "Bryan Woods"
+      "Bryan Woods",
+      "Scott Beck"
     ],
     "cast": [
       "Adam Driver",
@@ -114428,27 +114440,27 @@
     ],
     "crew": [
       {
-        "name": "Scott Beck",
-        "job": "Director"
+        "name": "Bryan Woods",
+        "job": "Writer"
       },
       {
         "name": "Bryan Woods",
         "job": "Director"
       },
       {
-        "name": "Scott Beck",
-        "job": "Writer"
-      },
-      {
-        "name": "Scott Beck",
+        "name": "Bryan Woods",
         "job": "Producer"
       },
       {
-        "name": "Bryan Woods",
+        "name": "Scott Beck",
         "job": "Writer"
       },
       {
-        "name": "Bryan Woods",
+        "name": "Scott Beck",
+        "job": "Director"
+      },
+      {
+        "name": "Scott Beck",
         "job": "Producer"
       },
       {
@@ -114456,11 +114468,11 @@
         "job": "Producer"
       },
       {
-        "name": "Deborah Liebling",
+        "name": "Zainab Azizi",
         "job": "Producer"
       },
       {
-        "name": "Zainab Azizi",
+        "name": "Deborah Liebling",
         "job": "Producer"
       },
       {
@@ -114472,13 +114484,14 @@
     "posterPath": "/rzRb63TldOKdKydCvWJM8B6EkPM.jpg",
     "backdropPath": "/eSVu1FvGPy86TDo4hQbpuHx55DJ.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 8,
     "criticalScore": 59,
     "plexFit": "A compact action option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/M6YfhX83Cj8",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.098Z",
-      "tmdbVoteAverage": 5.94,
-      "tmdbVoteCount": 2843
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.847Z",
+      "tmdbVoteAverage": 5.939,
+      "tmdbVoteCount": 2848
     }
   },
   {
@@ -114553,11 +114566,12 @@
     "posterPath": "/1GI9mC21UyZCcghL1TU3sAOhJsL.jpg",
     "backdropPath": "/snQDUyU7Hw4Kea4ZRtxMws4xG8j.jpg",
     "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 7,
+    "popularity": 5,
     "criticalScore": 59,
     "plexFit": "A compact crime option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/sLAE-IzXVkE",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.172Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.888Z",
       "tmdbVoteAverage": 5.913,
       "tmdbVoteCount": 23
     }
@@ -114799,13 +114813,14 @@
     "posterPath": "/b2VgUoXR9iAtAf8nA0mvdTr7cOt.jpg",
     "backdropPath": "/5R4kLw5lxeiwX5hZfspK3YLg6wp.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 9,
     "criticalScore": 59,
     "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/AG6kMQuTyX0",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.031Z",
-      "tmdbVoteAverage": 5.929,
-      "tmdbVoteCount": 1658
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.932Z",
+      "tmdbVoteAverage": 5.934,
+      "tmdbVoteCount": 1663
     }
   },
   {
@@ -114872,9 +114887,12 @@
   },
   {
     "id": "men-in-black-international-2019",
+    "tmdbId": 479455,
+    "imdbId": "tt2283336",
     "title": "Men in Black: International",
     "originalLanguage": "en",
     "year": 2019,
+    "releaseDate": "2019-06-12",
     "runtimeMinutes": 115,
     "genres": [
       "Comedy",
@@ -114948,27 +114966,27 @@
       }
     ],
     "synopsis": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization.",
+    "posterPath": "/dPrUPFcgLfNbmDL8V69vcrTyEfb.jpg",
+    "backdropPath": "/uK9uFbAwQ1s2JHKkJ5l0obPTcXI.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
     "popularity": 7,
     "criticalScore": 59,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/F3lJwV7ZIIk",
     "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:32.996Z",
       "tmdbVoteAverage": 5.899,
-      "omdbImdbRating": 6.6,
-      "tmdbUpdatedAt": "2026-06-04T04:18:18.352Z",
-      "tmdbVoteCount": 5352
-    },
-    "tmdbId": 479455,
-    "imdbId": "tt2283336",
-    "releaseDate": "2019-06-12",
-    "posterPath": "/dPrUPFcgLfNbmDL8V69vcrTyEfb.jpg",
-    "backdropPath": "/uK9uFbAwQ1s2JHKkJ5l0obPTcXI.jpg"
+      "tmdbVoteCount": 5355
+    }
   },
   {
     "id": "fantastic-four-2005",
+    "tmdbId": 9738,
+    "imdbId": "tt0120667",
     "title": "Fantastic Four",
     "originalLanguage": "en",
     "year": 2005,
+    "releaseDate": "2005-06-29",
     "runtimeMinutes": 106,
     "genres": [
       "Action",
@@ -115012,7 +115030,7 @@
         "job": "Writer"
       },
       {
-        "name": "Avi Arad",
+        "name": "Ralph Winter",
         "job": "Producer"
       },
       {
@@ -115020,7 +115038,7 @@
         "job": "Producer"
       },
       {
-        "name": "Ralph Winter",
+        "name": "Avi Arad",
         "job": "Producer"
       },
       {
@@ -115037,21 +115055,18 @@
       }
     ],
     "synopsis": "During a space voyage, four scientists are altered by cosmic rays: Reed Richards gains the ability to stretch his body; Sue Storm can become invisible; Johnny Storm controls fire; and Ben Grimm is turned into a super-strong … thing. Together, these \"Fantastic Four\" must now thwart the evil plans of Dr. Doom and save the world from certain destruction.",
+    "posterPath": "/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg",
+    "backdropPath": "/2cDXXLirYsoP6rk9B8yrvNHbbFy.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 8,
     "criticalScore": 58,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/QIx2jkXYu34",
     "source": {
-      "tmdbVoteAverage": 5.809,
-      "omdbImdbRating": 4.5,
-      "tmdbUpdatedAt": "2026-06-04T04:18:20.685Z",
-      "tmdbVoteCount": 9985
-    },
-    "tmdbId": 9738,
-    "imdbId": "tt0120667",
-    "releaseDate": "2005-06-29",
-    "posterPath": "/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg",
-    "backdropPath": "/2cDXXLirYsoP6rk9B8yrvNHbbFy.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.076Z",
+      "tmdbVoteAverage": 5.8,
+      "tmdbVoteCount": 9993
+    }
   },
   {
     "id": "k-pops-2026",
@@ -115287,13 +115302,14 @@
     "posterPath": "/b9n2R3xZWQ8MVZgndQoV34stS0h.jpg",
     "backdropPath": "/hYY4k0346KtwskCrgmC4C4HGSnj.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 58,
     "plexFit": "A compact fantasy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/8jEWLCZA7R8",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:38.721Z",
-      "tmdbVoteAverage": 5.765,
-      "tmdbVoteCount": 4502
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.133Z",
+      "tmdbVoteAverage": 5.766,
+      "tmdbVoteCount": 4504
     }
   },
   {
@@ -115377,10 +115393,11 @@
     "popularity": 7,
     "criticalScore": 57,
     "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/2vAo4rJPqQ4",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:27.318Z",
-      "tmdbVoteAverage": 5.7,
-      "tmdbVoteCount": 5756
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.187Z",
+      "tmdbVoteAverage": 5.651,
+      "tmdbVoteCount": 5762
     }
   },
   {
@@ -115463,20 +115480,24 @@
     "posterPath": "/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
     "backdropPath": "/jzzpCJWkVZZwAxzzLmtYN0MBWFd.jpg",
     "posterTone": "from-red-300 via-stone-800 to-black",
-    "popularity": 7,
+    "popularity": 5,
     "criticalScore": 56,
     "plexFit": "A compact horror option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/hpEy0iOixb4",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.695Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.233Z",
       "tmdbVoteAverage": 5.648,
-      "tmdbVoteCount": 374
+      "tmdbVoteCount": 381
     }
   },
   {
     "id": "batman-forever-1995",
+    "tmdbId": 414,
+    "imdbId": "tt0112462",
     "title": "Batman Forever",
     "originalLanguage": "en",
     "year": 1995,
+    "releaseDate": "1995-06-16",
     "runtimeMinutes": 121,
     "genres": [
       "Action",
@@ -115549,21 +115570,18 @@
       }
     ],
     "synopsis": "Batman faces off against two foes: the schizophrenic, horribly scarred former District Attorney Harvey Dent, aka Two-Face, and the Riddler, a disgruntled ex-Wayne Enterprises inventor seeking revenge against his former employer by unleashing his brain-sucking weapon on Gotham City's residents. As the caped crusader also copes with tortured memories of his parents' murder, he has a new romance, with psychologist Chase Meridian.",
+    "posterPath": "/i0fJS8M5UKoETjjJ0zwUiKaR8tr.jpg",
+    "backdropPath": "/snlu32RmjldF9b068UURJg8sQtn.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 7,
+    "popularity": 6,
     "criticalScore": 55,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/suOgRZflPtk",
     "source": {
-      "tmdbVoteAverage": 5.456,
-      "omdbImdbRating": 3.3,
-      "tmdbUpdatedAt": "2026-06-04T04:18:20.550Z",
-      "tmdbVoteCount": 5581
-    },
-    "tmdbId": 414,
-    "imdbId": "tt0112462",
-    "releaseDate": "1995-06-16",
-    "posterPath": "/i0fJS8M5UKoETjjJ0zwUiKaR8tr.jpg",
-    "backdropPath": "/snlu32RmjldF9b068UURJg8sQtn.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.286Z",
+      "tmdbVoteAverage": 5.457,
+      "tmdbVoteCount": 5588
+    }
   },
   {
     "id": "hive-2026",
@@ -115916,11 +115934,11 @@
     "crew": [
       {
         "name": "Noémie Saglio",
-        "job": "Screenplay"
+        "job": "Director"
       },
       {
         "name": "Noémie Saglio",
-        "job": "Director"
+        "job": "Screenplay"
       },
       {
         "name": "Laurent Turner",
@@ -115947,11 +115965,11 @@
     "posterPath": "/lXK0ORuAgYq54CH7UjWjX9UnNk8.jpg",
     "backdropPath": "/fu9PqKZvAAawuGdchsISzjaSbm3.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 7,
+    "popularity": 4,
     "criticalScore": 51,
     "plexFit": "A compact comedy option for easier weeknight discovery.",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:38.352Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.331Z",
       "tmdbVoteAverage": 5.097,
       "tmdbVoteCount": 36
     }
@@ -116288,10 +116306,11 @@
     "popularity": 6,
     "criticalScore": 87,
     "plexFit": "A high-signal animation pick for the recommendation shelf.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/3xNH23QkNpk",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:46.910Z",
-      "tmdbVoteAverage": 8.684,
-      "tmdbVoteCount": 204
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.376Z",
+      "tmdbVoteAverage": 8.697,
+      "tmdbVoteCount": 206
     }
   },
   {
@@ -116418,13 +116437,14 @@
     "posterPath": "/wZDLyFkI9YtBg1lSL4G9RUtCYIg.jpg",
     "backdropPath": "/b3RGeMU6IdVFvKitGtXtUh2iuZN.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 83,
+    "popularity": 4,
+    "criticalScore": 85,
     "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/eLgAL70FzLE",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:46.618Z",
-      "tmdbVoteAverage": 8.333,
-      "tmdbVoteCount": 48
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.418Z",
+      "tmdbVoteAverage": 8.453,
+      "tmdbVoteCount": 53
     }
   },
   {
@@ -116473,9 +116493,10 @@
     "popularity": 6,
     "criticalScore": 83,
     "plexFit": "A compact music option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/g_6FoBgps9Y",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:29.470Z",
-      "tmdbVoteAverage": 8.325,
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.462Z",
+      "tmdbVoteAverage": 8.3,
       "tmdbVoteCount": 432
     }
   },
@@ -116484,6 +116505,7 @@
     "tmdbId": 901,
     "imdbId": "tt0021749",
     "title": "City Lights",
+    "originalLanguage": "en",
     "year": 1931,
     "releaseDate": "1931-02-06",
     "runtimeMinutes": 87,
@@ -116513,19 +116535,6 @@
       "Al Ernest Garcia",
       "Hank Mann"
     ],
-    "synopsis": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
-    "posterPath": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
-    "backdropPath": "/qhKMAWxuu4TXCJCWVMqfveqanMP.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 83,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.397Z",
-      "tmdbVoteAverage": 8.3,
-      "tmdbVoteCount": 2456
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Charlie Chaplin",
@@ -116567,13 +116576,27 @@
         "name": "Willard Nico",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
+    "posterPath": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
+    "backdropPath": "/qhKMAWxuu4TXCJCWVMqfveqanMP.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 83,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/7vl7F8S4cpQ",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.504Z",
+      "tmdbVoteAverage": 8.251,
+      "tmdbVoteCount": 2457
+    }
   },
   {
     "id": "modern-times-1936",
     "tmdbId": 3082,
     "imdbId": "tt0027977",
     "title": "Modern Times",
+    "originalLanguage": "en",
     "year": 1936,
     "releaseDate": "1936-02-05",
     "runtimeMinutes": 87,
@@ -116603,23 +116626,10 @@
       "Chester Conklin",
       "Hank Mann"
     ],
-    "synopsis": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time...",
-    "posterPath": "/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
-    "backdropPath": "/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 83,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.543Z",
-      "tmdbVoteAverage": 8.279,
-      "tmdbVoteCount": 4082
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Charlie Chaplin",
-        "job": "Director"
+        "job": "Producer"
       },
       {
         "name": "Charlie Chaplin",
@@ -116627,7 +116637,7 @@
       },
       {
         "name": "Charlie Chaplin",
-        "job": "Producer"
+        "job": "Director"
       },
       {
         "name": "Charlie Chaplin",
@@ -116653,13 +116663,27 @@
         "name": "Willard Nico",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time...",
+    "posterPath": "/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+    "backdropPath": "/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 7,
+    "criticalScore": 83,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/NNznUyDmSFc",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.558Z",
+      "tmdbVoteAverage": 8.279,
+      "tmdbVoteCount": 4086
+    }
   },
   {
     "id": "once-upon-a-studio-2023",
     "tmdbId": 1139087,
     "imdbId": "tt28035641",
     "title": "Once Upon a Studio",
+    "originalLanguage": "en",
     "year": 2023,
     "releaseDate": "2023-09-24",
     "runtimeMinutes": 9,
@@ -116677,8 +116701,8 @@
       "cgi-live action hybrid"
     ],
     "directors": [
-      "Dan Abraham",
-      "Trent Correy"
+      "Trent Correy",
+      "Dan Abraham"
     ],
     "cast": [
       "Chris Diamantopoulos",
@@ -116688,42 +116712,29 @@
       "Jim Cummings",
       "Auliʻi Cravalho"
     ],
-    "synopsis": "Created for Disney's 100th anniversary, the short features Mickey Mouse corralling a gallery of legendary Disney characters for a group photo.",
-    "posterPath": "/aiy3G1cYWV3LgKZHY6a3jL8bjYL.jpg",
-    "backdropPath": "/hUeSuUxNyQivx2wrRvGoyZiZDUu.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 83,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:38.119Z",
-      "tmdbVoteAverage": 8.264,
-      "tmdbVoteCount": 433
-    },
-    "originalLanguage": "en",
     "crew": [
       {
-        "name": "Dan Abraham",
-        "job": "Writer"
-      },
-      {
         "name": "Trent Correy",
         "job": "Writer"
       },
       {
         "name": "Dan Abraham",
-        "job": "Director"
+        "job": "Writer"
       },
       {
         "name": "Trent Correy",
         "job": "Director"
       },
       {
-        "name": "Yvett Merino",
-        "job": "Producer"
+        "name": "Dan Abraham",
+        "job": "Director"
       },
       {
         "name": "Bradford Simonsen",
+        "job": "Producer"
+      },
+      {
+        "name": "Yvett Merino",
         "job": "Producer"
       },
       {
@@ -116742,7 +116753,20 @@
         "name": "John Hasbrook",
         "job": "Director of Photography"
       }
-    ]
+    ],
+    "synopsis": "Created for Disney's 100th anniversary, the short features Mickey Mouse corralling a gallery of legendary Disney characters for a group photo.",
+    "posterPath": "/aiy3G1cYWV3LgKZHY6a3jL8bjYL.jpg",
+    "backdropPath": "/8KJMOKyl9rpgb9ELEwhfBMIaTHw.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 5,
+    "criticalScore": 83,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/JuQrVla3TTk",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.605Z",
+      "tmdbVoteAverage": 8.3,
+      "tmdbVoteCount": 433
+    }
   },
   {
     "id": "paths-of-glory-1957",
@@ -117008,6 +117032,7 @@
     "tmdbId": 9702,
     "imdbId": "tt0106469",
     "title": "Bound by Honor",
+    "originalLanguage": "en",
     "year": 1993,
     "releaseDate": "1993-02-05",
     "runtimeMinutes": 190,
@@ -117037,19 +117062,6 @@
       "Victor Rivers",
       "Delroy Lindo"
     ],
-    "synopsis": "Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on half-brothers Paco and Cruz, and their bi-racial cousin Miklo. It opens in 1972, as the three are members of an East L.A. gang known as the \"Vatos Locos\", and the story focuses on how a violent crime and the influence of narcotics alter their lives. Miklo is incarcerated and sent to San Quentin, where he makes a \"home\" for himself. Cruz becomes an exceptional artist, but a heroin addiction overcomes him with tragic results. Paco becomes a cop and an enemy to his \"carnal\", Miklo.",
-    "posterPath": "/gvP6R6juhe2IpCG7QGDgjyUvm0g.jpg",
-    "backdropPath": "/9xjUZjuYyehv2qnqMH0oR9nSTft.jpg",
-    "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful crime title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.329Z",
-      "tmdbVoteAverage": 8.16,
-      "tmdbVoteCount": 1538
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Taylor Hackford",
@@ -117087,7 +117099,20 @@
         "name": "Fredric Steinkamp",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on half-brothers Paco and Cruz, and their bi-racial cousin Miklo. It opens in 1972, as the three are members of an East L.A. gang known as the \"Vatos Locos\", and the story focuses on how a violent crime and the influence of narcotics alter their lives. Miklo is incarcerated and sent to San Quentin, where he makes a \"home\" for himself. Cruz becomes an exceptional artist, but a heroin addiction overcomes him with tragic results. Paco becomes a cop and an enemy to his \"carnal\", Miklo.",
+    "posterPath": "/gvP6R6juhe2IpCG7QGDgjyUvm0g.jpg",
+    "backdropPath": "/9xjUZjuYyehv2qnqMH0oR9nSTft.jpg",
+    "posterTone": "from-cyan-300 via-blue-800 to-black",
+    "popularity": 6,
+    "criticalScore": 82,
+    "plexFit": "A useful crime title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/NMj89zgI8Yc",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.649Z",
+      "tmdbVoteAverage": 8.162,
+      "tmdbVoteCount": 1540
+    }
   },
   {
     "id": "come-and-see-1985",
@@ -117095,6 +117120,7 @@
     "imdbId": "tt0091251",
     "title": "Come and See",
     "originalTitle": "Иди и смотри",
+    "originalLanguage": "ru",
     "year": 1985,
     "releaseDate": "1985-10-17",
     "runtimeMinutes": 142,
@@ -117123,19 +117149,6 @@
       "Jüri Lumiste",
       "Viktors Lorencs"
     ],
-    "synopsis": "The invasion of a village in Belarus by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family's wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.",
-    "posterPath": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
-    "backdropPath": "/3Na31ta8vDuKOgQuPLdSZLs8bCB.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.424Z",
-      "tmdbVoteAverage": 8.211,
-      "tmdbVoteCount": 1844
-    },
-    "originalLanguage": "ru",
     "crew": [
       {
         "name": "Elem Klimov",
@@ -117165,7 +117178,20 @@
         "name": "Valeriya Belova",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "The invasion of a village in Belarus by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family's wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.",
+    "posterPath": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+    "backdropPath": "/3Na31ta8vDuKOgQuPLdSZLs8bCB.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 7,
+    "criticalScore": 82,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/UHaSQU-4wss",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.699Z",
+      "tmdbVoteAverage": 8.2,
+      "tmdbVoteCount": 1849
+    }
   },
   {
     "id": "evangelion-3-0-1-0-thrice-upon-a-time-2021",
@@ -117173,6 +117199,7 @@
     "imdbId": "tt2458948",
     "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
     "originalTitle": "シン・エヴァンゲリオン劇場版:||",
+    "originalLanguage": "ja",
     "year": 2021,
     "releaseDate": "2021-03-08",
     "runtimeMinutes": 155,
@@ -117205,19 +117232,6 @@
       "Kotono Mitsuishi",
       "Yuriko Yamaguchi"
     ],
-    "synopsis": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
-    "posterPath": "/md5wZRRj8biHrGtyitgBZo7674t.jpg",
-    "backdropPath": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful animation title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.459Z",
-      "tmdbVoteAverage": 8.2,
-      "tmdbVoteCount": 946
-    },
-    "originalLanguage": "ja",
     "crew": [
       {
         "name": "Kazuya Tsurumaki",
@@ -117255,7 +117269,20 @@
         "name": "Emi Tsujita",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+    "posterPath": "/md5wZRRj8biHrGtyitgBZo7674t.jpg",
+    "backdropPath": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 5,
+    "criticalScore": 82,
+    "plexFit": "A useful animation title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/Vjl9ApttZE8",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.742Z",
+      "tmdbVoteAverage": 8.202,
+      "tmdbVoteCount": 947
+    }
   },
   {
     "id": "i-want-to-eat-your-pancreas-2018",
@@ -117263,6 +117290,7 @@
     "imdbId": "tt7236034",
     "title": "I Want to Eat Your Pancreas",
     "originalTitle": "君の膵臓をたべたい",
+    "originalLanguage": "ja",
     "year": 2018,
     "releaseDate": "2018-09-01",
     "runtimeMinutes": 108,
@@ -117292,19 +117320,6 @@
       "Jun Fukushima",
       "Atsuko Tanaka"
     ],
-    "synopsis": "After his classmate and crush is diagnosed with a pancreatic disease, an average high schooler sets out to make the most of her final days.",
-    "posterPath": "/qpV8kvRfAntV7D4aOOsLIz7OdPc.jpg",
-    "backdropPath": "/YLyORLsYIjC0d1TFBSpJKk7piP.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful animation title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.569Z",
-      "tmdbVoteAverage": 8.227,
-      "tmdbVoteCount": 1778
-    },
-    "originalLanguage": "ja",
     "crew": [
       {
         "name": "Shinichiro Ushijima",
@@ -117334,13 +117349,27 @@
         "name": "Yumi Jinguji",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "After his classmate and crush is diagnosed with a pancreatic disease, an average high schooler sets out to make the most of her final days.",
+    "posterPath": "/qpV8kvRfAntV7D4aOOsLIz7OdPc.jpg",
+    "backdropPath": "/YLyORLsYIjC0d1TFBSpJKk7piP.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 7,
+    "criticalScore": 82,
+    "plexFit": "A useful animation title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/MONVPR1dnRQ",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.790Z",
+      "tmdbVoteAverage": 8.225,
+      "tmdbVoteCount": 1780
+    }
   },
   {
     "id": "klaus-2019",
     "tmdbId": 508965,
     "imdbId": "tt4729430",
     "title": "Klaus",
+    "originalLanguage": "en",
     "year": 2019,
     "releaseDate": "2019-11-08",
     "runtimeMinutes": 97,
@@ -117370,19 +117399,6 @@
       "Norm Macdonald",
       "Will Sasso"
     ],
-    "synopsis": "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it.",
-    "posterPath": "/q125RHUDgR4gjwh1QkfYuJLYkL.jpg",
-    "backdropPath": "/cYQvXNPZLow73lhspVQ7CYlT3Mi.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:38.343Z",
-      "tmdbVoteAverage": 8.223,
-      "tmdbVoteCount": 4673
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Sergio Pablos",
@@ -117390,26 +117406,26 @@
       },
       {
         "name": "Sergio Pablos",
-        "job": "Director"
-      },
-      {
-        "name": "Sergio Pablos",
         "job": "Producer"
       },
       {
-        "name": "Zach Lewis",
-        "job": "Screenplay"
+        "name": "Sergio Pablos",
+        "job": "Director"
       },
       {
         "name": "Jim Mahoney",
         "job": "Screenplay"
       },
       {
-        "name": "Mercedes Gamero",
+        "name": "Zach Lewis",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Gustavo Ferrada",
         "job": "Producer"
       },
       {
-        "name": "Mikel Lejarza",
+        "name": "Mercedes Gamero",
         "job": "Producer"
       },
       {
@@ -117417,20 +117433,34 @@
         "job": "Producer"
       },
       {
-        "name": "Micah Dahlberg",
+        "name": "Mikel Lejarza",
         "job": "Producer"
       },
       {
         "name": "Tanguy Olivier",
         "job": "Producer"
       }
-    ]
+    ],
+    "synopsis": "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it.",
+    "posterPath": "/q125RHUDgR4gjwh1QkfYuJLYkL.jpg",
+    "backdropPath": "/cYQvXNPZLow73lhspVQ7CYlT3Mi.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 6,
+    "criticalScore": 82,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/taE3PwurhYM",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.835Z",
+      "tmdbVoteAverage": 8.222,
+      "tmdbVoteCount": 4677
+    }
   },
   {
     "id": "the-apartment-1960",
     "tmdbId": 284,
     "imdbId": "tt0053604",
     "title": "The Apartment",
+    "originalLanguage": "en",
     "year": 1960,
     "releaseDate": "1960-06-21",
     "runtimeMinutes": 126,
@@ -117462,19 +117492,6 @@
       "Jack Kruschen",
       "David Lewis"
     ],
-    "synopsis": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
-    "posterPath": "/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
-    "backdropPath": "/2L8U8rUyWeFTb6n1egTNeJsEsvj.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A classic that broadens the library without feeling homework-like.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:40.335Z",
-      "tmdbVoteAverage": 8.2,
-      "tmdbVoteCount": 2652
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Billy Wilder",
@@ -117504,7 +117521,20 @@
         "name": "Daniel Mandell",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+    "posterPath": "/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+    "backdropPath": "/2L8U8rUyWeFTb6n1egTNeJsEsvj.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 82,
+    "plexFit": "A classic that broadens the library without feeling homework-like.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/ekDkUUPSWuY",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.884Z",
+      "tmdbVoteAverage": 8.192,
+      "tmdbVoteCount": 2660
+    }
   },
   {
     "id": "the-legend-of-1900-1998",
@@ -117512,6 +117542,7 @@
     "imdbId": "tt0120731",
     "title": "The Legend of 1900",
     "originalTitle": "La leggenda del pianista sull'oceano",
+    "originalLanguage": "it",
     "year": 1998,
     "releaseDate": "1998-10-28",
     "runtimeMinutes": 170,
@@ -117539,19 +117570,6 @@
       "Gabriele Lavia",
       "Clarence Williams III"
     ],
-    "synopsis": "Musician Max Tooney goes to sell his prized Conn trumpet to a music shop, where he plays the instrument one last time. The shopkeeper recognises the song as one on a record matrix he found and asks who the piece is by. Tooney tells the story of an infant found abandoned in the first class dining room of the four-stacker ocean-liner SS Virginian on 1 January 1900. Danny Boodman, a coal-man from the boiler room, names the boy Danny Boodman T. D. Lemon 1900, after himself, the fruit crate the boy was found in, and the year, and raises him as his own.",
-    "posterPath": "/iOcbJ5pxokOPDRgieVDbsFMrCc6.jpg",
-    "backdropPath": "/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:35.412Z",
-      "tmdbVoteAverage": 8.241,
-      "tmdbVoteCount": 2448
-    },
-    "originalLanguage": "it",
     "crew": [
       {
         "name": "Giuseppe Tornatore",
@@ -117585,13 +117603,27 @@
         "name": "Massimo Quaglia",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Musician Max Tooney goes to sell his prized Conn trumpet to a music shop, where he plays the instrument one last time. The shopkeeper recognises the song as one on a record matrix he found and asks who the piece is by. Tooney tells the story of an infant found abandoned in the first class dining room of the four-stacker ocean-liner SS Virginian on 1 January 1900. Danny Boodman, a coal-man from the boiler room, names the boy Danny Boodman T. D. Lemon 1900, after himself, the fruit crate the boy was found in, and the year, and raises him as his own.",
+    "posterPath": "/iOcbJ5pxokOPDRgieVDbsFMrCc6.jpg",
+    "backdropPath": "/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 82,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/jqhbOiF9-8g",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.939Z",
+      "tmdbVoteAverage": 8.2,
+      "tmdbVoteCount": 2449
+    }
   },
   {
     "id": "witness-for-the-prosecution-1957",
     "tmdbId": 37257,
     "imdbId": "tt0051201",
     "title": "Witness for the Prosecution",
+    "originalLanguage": "en",
     "year": 1957,
     "releaseDate": "1957-12-17",
     "runtimeMinutes": 116,
@@ -117621,27 +117653,14 @@
       "John Williams",
       "Henry Daniell"
     ],
-    "synopsis": "An ailing barrister is thrust back into the courtroom in what becomes one of the most unusual and eventful murder cases of the lawyer's career when he finds himself defending a man being tried for the murder of a socialite.",
-    "posterPath": "/bCj4EfuehAlgBwVd3diyWyhuuau.jpg",
-    "backdropPath": "/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 82,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:39.250Z",
-      "tmdbVoteAverage": 8.204,
-      "tmdbVoteCount": 1694
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Billy Wilder",
-        "job": "Director"
+        "job": "Screenplay"
       },
       {
         "name": "Billy Wilder",
-        "job": "Screenplay"
+        "job": "Director"
       },
       {
         "name": "Harry Kurnitz",
@@ -117663,7 +117682,20 @@
         "name": "Daniel Mandell",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "An ailing barrister is thrust back into the courtroom in what becomes one of the most unusual and eventful murder cases of the lawyer's career when he finds himself defending a man being tried for the murder of a socialite.",
+    "posterPath": "/bCj4EfuehAlgBwVd3diyWyhuuau.jpg",
+    "backdropPath": "/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 7,
+    "criticalScore": 82,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/CgjVcXRDU0I",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:33.981Z",
+      "tmdbVoteAverage": 8.2,
+      "tmdbVoteCount": 1699
+    }
   },
   {
     "id": "better-days-2019",
@@ -117755,6 +117787,7 @@
     "imdbId": "tt8267604",
     "title": "Capernaum",
     "originalTitle": "کفرناحوم",
+    "originalLanguage": "ar",
     "year": 2018,
     "releaseDate": "2018-09-20",
     "runtimeMinutes": 126,
@@ -117782,19 +117815,6 @@
       "Fadi Kamel Yousef",
       "Cedra Izzam"
     ],
-    "synopsis": "After running away from his negligent parents, committing a violent crime and being sentenced to five years in jail, a hardened, streetwise 12-year-old Lebanese boy sues his parents in protest of the life they have given him.",
-    "posterPath": "/mFnfTVADj8yOxwzprYOmTPselk8.jpg",
-    "backdropPath": "/sEW8q9al73rtow257dXAusD9yS7.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.384Z",
-      "tmdbVoteAverage": 8.142,
-      "tmdbVoteCount": 1974
-    },
-    "originalLanguage": "ar",
     "crew": [
       {
         "name": "Nadine Labaki",
@@ -117836,13 +117856,27 @@
         "name": "Christopher Aoun",
         "job": "Director of Photography"
       }
-    ]
+    ],
+    "synopsis": "After running away from his negligent parents, committing a violent crime and being sentenced to five years in jail, a hardened, streetwise 12-year-old Lebanese boy sues his parents in protest of the life they have given him.",
+    "posterPath": "/mFnfTVADj8yOxwzprYOmTPselk8.jpg",
+    "backdropPath": "/sEW8q9al73rtow257dXAusD9yS7.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 6,
+    "criticalScore": 81,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/maf0AbL3uEw",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.045Z",
+      "tmdbVoteAverage": 8.143,
+      "tmdbVoteCount": 1976
+    }
   },
   {
     "id": "das-boot-1981",
     "tmdbId": 387,
     "imdbId": "tt0082096",
     "title": "Das Boot",
+    "originalLanguage": "de",
     "year": 1981,
     "releaseDate": "1981-09-17",
     "runtimeMinutes": 150,
@@ -117872,27 +117906,14 @@
       "Martin Semmelrogge",
       "Bernd Tauber"
     ],
-    "synopsis": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
-    "posterPath": "/u8FhQPncOAkwcei2OI9orPWhV6K.jpg",
-    "backdropPath": "/zGgIlpKE2xP18bhCGsnn79vh80j.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.418Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 2514
-    },
-    "originalLanguage": "de",
     "crew": [
       {
         "name": "Wolfgang Petersen",
-        "job": "Director"
+        "job": "Screenplay"
       },
       {
         "name": "Wolfgang Petersen",
-        "job": "Screenplay"
+        "job": "Director"
       },
       {
         "name": "Dean Riesner",
@@ -117903,11 +117924,11 @@
         "job": "Producer"
       },
       {
-        "name": "Michael Bittins",
+        "name": "Ortwin Freyermuth",
         "job": "Producer"
       },
       {
-        "name": "Ortwin Freyermuth",
+        "name": "Michael Bittins",
         "job": "Producer"
       },
       {
@@ -117922,13 +117943,27 @@
         "name": "Hannes Nikel",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+    "posterPath": "/u8FhQPncOAkwcei2OI9orPWhV6K.jpg",
+    "backdropPath": "/zGgIlpKE2xP18bhCGsnn79vh80j.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 7,
+    "criticalScore": 81,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/r37MmBuFoc0",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.098Z",
+      "tmdbVoteAverage": 8.078,
+      "tmdbVoteCount": 2517
+    }
   },
   {
     "id": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964",
     "tmdbId": 935,
     "imdbId": "tt0057012",
     "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "originalLanguage": "en",
     "year": 1964,
     "releaseDate": "1964-01-29",
     "runtimeMinutes": 95,
@@ -117957,23 +117992,10 @@
       "Slim Pickens",
       "Peter Bull"
     ],
-    "synopsis": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
-    "posterPath": "/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg",
-    "backdropPath": "/7i0L2ee4Iy0aXV6vR5u1ZmblOrx.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.504Z",
-      "tmdbVoteAverage": 8.119,
-      "tmdbVoteCount": 6151
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Stanley Kubrick",
-        "job": "Screenplay"
+        "job": "Director"
       },
       {
         "name": "Stanley Kubrick",
@@ -117981,7 +118003,7 @@
       },
       {
         "name": "Stanley Kubrick",
-        "job": "Director"
+        "job": "Screenplay"
       },
       {
         "name": "Terry Southern",
@@ -118007,7 +118029,20 @@
         "name": "Anthony Harvey",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
+    "posterPath": "/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg",
+    "backdropPath": "/7i0L2ee4Iy0aXV6vR5u1ZmblOrx.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 6,
+    "criticalScore": 81,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/XjLsIWZdWmc",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.149Z",
+      "tmdbVoteAverage": 8.1,
+      "tmdbVoteCount": 6155
+    }
   },
   {
     "id": "how-to-make-millions-before-grandma-dies-2024",
@@ -118015,6 +118050,7 @@
     "imdbId": "tt31392609",
     "title": "How to Make Millions Before Grandma Dies",
     "originalTitle": "หลานม่า",
+    "originalLanguage": "th",
     "year": 2024,
     "releaseDate": "2024-04-04",
     "runtimeMinutes": 126,
@@ -118042,19 +118078,6 @@
       "Pongsatorn Jongwilas",
       "Tontawan Tantivejakul"
     ],
-    "synopsis": "M, a university dropout low on money and luck, volunteers to take care of his terminally ill grandmother, in the hope of pocketing an inheritance.",
-    "posterPath": "/9Xa0Grd2jq2lM2gqcoTB4F9TjMd.jpg",
-    "backdropPath": "/3kvS6Ws5usxSk1wIbKZ7YPug2V2.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.528Z",
-      "tmdbVoteAverage": 8.104,
-      "tmdbVoteCount": 396
-    },
-    "originalLanguage": "th",
     "crew": [
       {
         "name": "Pat Boonnitipat",
@@ -118088,13 +118111,27 @@
         "name": "Thammarat Sumetsupachok",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "M, a university dropout low on money and luck, volunteers to take care of his terminally ill grandmother, in the hope of pocketing an inheritance.",
+    "posterPath": "/9Xa0Grd2jq2lM2gqcoTB4F9TjMd.jpg",
+    "backdropPath": "/3kvS6Ws5usxSk1wIbKZ7YPug2V2.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 4,
+    "criticalScore": 81,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/HrVX_nHNIUA",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.230Z",
+      "tmdbVoteAverage": 8.106,
+      "tmdbVoteCount": 397
+    }
   },
   {
     "id": "la-haine-1995",
     "tmdbId": 406,
     "imdbId": "tt0113247",
     "title": "La Haine",
+    "originalLanguage": "fr",
     "year": 1995,
     "releaseDate": "1995-05-31",
     "runtimeMinutes": 98,
@@ -118122,19 +118159,6 @@
       "Solo",
       "Joseph Momo"
     ],
-    "synopsis": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
-    "posterPath": "/8rgPyWjYZhsphSSxbXguMnhN7H0.jpg",
-    "backdropPath": "/k61xLJgPo7ScxHLLiBzTM9IDaB7.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A compact drama option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.623Z",
-      "tmdbVoteAverage": 8.085,
-      "tmdbVoteCount": 4554
-    },
-    "originalLanguage": "fr",
     "crew": [
       {
         "name": "Mathieu Kassovitz",
@@ -118160,13 +118184,27 @@
         "name": "Scott Stevenson",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
+    "posterPath": "/8rgPyWjYZhsphSSxbXguMnhN7H0.jpg",
+    "backdropPath": "/k61xLJgPo7ScxHLLiBzTM9IDaB7.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 6,
+    "criticalScore": 81,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/FKwcXt3JIaU",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.274Z",
+      "tmdbVoteAverage": 8.086,
+      "tmdbVoteCount": 4561
+    }
   },
   {
     "id": "paris-texas-1984",
     "tmdbId": 655,
     "imdbId": "tt0087884",
     "title": "Paris, Texas",
+    "originalLanguage": "en",
     "year": 1984,
     "releaseDate": "1984-07-16",
     "runtimeMinutes": 145,
@@ -118194,19 +118232,6 @@
       "Aurore Clément",
       "Bernhard Wicki"
     ],
-    "synopsis": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
-    "posterPath": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
-    "backdropPath": "/fWrq3u16gaBJ6nYNWcR3XaOhQPq.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:39.324Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 2217
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Wim Wenders",
@@ -118244,13 +118269,27 @@
         "name": "Peter Przygodda",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
+    "posterPath": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
+    "backdropPath": "/fWrq3u16gaBJ6nYNWcR3XaOhQPq.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 81,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/Nmvte2r7Z8c",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.352Z",
+      "tmdbVoteAverage": 8.092,
+      "tmdbVoteCount": 2219
+    }
   },
   {
     "id": "singin-in-the-rain-1952",
     "tmdbId": 872,
     "imdbId": "tt0045152",
     "title": "Singin' in the Rain",
+    "originalLanguage": "en",
     "year": 1952,
     "releaseDate": "1952-04-10",
     "runtimeMinutes": 103,
@@ -118280,19 +118319,6 @@
       "Millard Mitchell",
       "Cyd Charisse"
     ],
-    "synopsis": "In 1927 Hollywood, a silent film star falls for a chorus girl just as he and his paranoid screen partner struggle to make the difficult transition to talking pictures.",
-    "posterPath": "/w03EiJVHP8Un77boQeE7hg9DVdU.jpg",
-    "backdropPath": "/6qOyw4yfzbzTp5YsCX26C28Do0S.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.508Z",
-      "tmdbVoteAverage": 8.13,
-      "tmdbVoteCount": 3505
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Stanley Donen",
@@ -118322,13 +118348,27 @@
         "name": "Adrienne Fazan",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "In 1927 Hollywood, a silent film star falls for a chorus girl just as he and his paranoid screen partner struggle to make the difficult transition to talking pictures.",
+    "posterPath": "/w03EiJVHP8Un77boQeE7hg9DVdU.jpg",
+    "backdropPath": "/6qOyw4yfzbzTp5YsCX26C28Do0S.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 81,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/lSE8sl2-PZg",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.401Z",
+      "tmdbVoteAverage": 8.13,
+      "tmdbVoteCount": 3507
+    }
   },
   {
     "id": "some-like-it-hot-1959",
     "tmdbId": 239,
     "imdbId": "tt0053291",
     "title": "Some Like It Hot",
+    "originalLanguage": "en",
     "year": 1959,
     "releaseDate": "1959-03-19",
     "runtimeMinutes": 123,
@@ -118358,19 +118398,6 @@
       "Pat O'Brien",
       "Joe E. Brown"
     ],
-    "synopsis": "In Prohibition-era Chicago, musicians Joe and Jerry witness a mob hit, and flee the state in an all-female band disguised as Josephine and Daphne, but further complications set in.",
-    "posterPath": "/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
-    "backdropPath": "/5zTwAcnI3zCJ0mucPPnoBtkSWEV.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful comedy title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.623Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 3871
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Billy Wilder",
@@ -118400,7 +118427,20 @@
         "name": "Arthur P. Schmidt",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "In Prohibition-era Chicago, musicians Joe and Jerry witness a mob hit, and flee the state in an all-female band disguised as Josephine and Daphne, but further complications set in.",
+    "posterPath": "/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
+    "backdropPath": "/5zTwAcnI3zCJ0mucPPnoBtkSWEV.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 7,
+    "criticalScore": 81,
+    "plexFit": "A useful comedy title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/97TYs2YXbJw",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.450Z",
+      "tmdbVoteAverage": 8.08,
+      "tmdbVoteCount": 3877
+    }
   },
   {
     "id": "stalker-1979",
@@ -118408,6 +118448,7 @@
     "imdbId": "tt0079944",
     "title": "Stalker",
     "originalTitle": "Сталкер",
+    "originalLanguage": "ru",
     "year": 1979,
     "releaseDate": "1979-05-25",
     "runtimeMinutes": 162,
@@ -118436,19 +118477,6 @@
       "Natalya Abramova",
       "Faime Jurno"
     ],
-    "synopsis": "Near a gray and unnamed city is the Zone, a place guarded by barbed wire and soldiers, and where the normal laws of physics are victim to frequent anomalies. A stalker guides two men into the Zone, specifically to an area in which deep-seated desires are granted.",
-    "posterPath": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
-    "backdropPath": "/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg",
-    "posterTone": "from-teal-300 via-slate-700 to-black",
-    "popularity": 6,
-    "criticalScore": 81,
-    "plexFit": "A useful science fiction title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.650Z",
-      "tmdbVoteAverage": 8.095,
-      "tmdbVoteCount": 2501
-    },
-    "originalLanguage": "ru",
     "crew": [
       {
         "name": "Andrei Tarkovsky",
@@ -118486,7 +118514,20 @@
         "name": "Lyudmila Feiginova",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Near a gray and unnamed city is the Zone, a place guarded by barbed wire and soldiers, and where the normal laws of physics are victim to frequent anomalies. A stalker guides two men into the Zone, specifically to an area in which deep-seated desires are granted.",
+    "posterPath": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
+    "backdropPath": "/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg",
+    "posterTone": "from-teal-300 via-slate-700 to-black",
+    "popularity": 5,
+    "criticalScore": 81,
+    "plexFit": "A useful science fiction title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/JCuwthnCRpg",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.519Z",
+      "tmdbVoteAverage": 8.1,
+      "tmdbVoteCount": 2504
+    }
   },
   {
     "id": "the-hunt-2012",
@@ -118666,6 +118707,7 @@
     "imdbId": "tt7160070",
     "title": "Along with the Gods: The Two Worlds",
     "originalTitle": "신과함께-죄와 벌",
+    "originalLanguage": "ko",
     "year": 2017,
     "releaseDate": "2017-12-20",
     "runtimeMinutes": 139,
@@ -118697,19 +118739,6 @@
       "Lee Jung-jae",
       "Kim Dong-wook"
     ],
-    "synopsis": "Having died unexpectedly, firefighter Ja-hong is taken to the afterlife by 3 afterlife guardians. Only when he passes 7 trials over 49 days and proves he was innocent in human life, he’s able to reincarnate, and his 3 afterlife guardians are by his side to defend him in trial.",
-    "posterPath": "/gJSvIsI6oQfFim0PGyuuiCYfqKs.jpg",
-    "backdropPath": "/wyv2Y9vXYJwJzF6cNVuVwVOsOUj.jpg",
-    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 80,
-    "plexFit": "A useful action title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.153Z",
-      "tmdbVoteAverage": 8.039,
-      "tmdbVoteCount": 1187
-    },
-    "originalLanguage": "ko",
     "crew": [
       {
         "name": "Kim Yong-hwa",
@@ -118747,13 +118776,27 @@
         "name": "Kim Hye-jin",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Having died unexpectedly, firefighter Ja-hong is taken to the afterlife by 3 afterlife guardians. Only when he passes 7 trials over 49 days and proves he was innocent in human life, he’s able to reincarnate, and his 3 afterlife guardians are by his side to defend him in trial.",
+    "posterPath": "/gJSvIsI6oQfFim0PGyuuiCYfqKs.jpg",
+    "backdropPath": "/wyv2Y9vXYJwJzF6cNVuVwVOsOUj.jpg",
+    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+    "popularity": 6,
+    "criticalScore": 80,
+    "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/dyh_OY1DgqU",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.565Z",
+      "tmdbVoteAverage": 8.04,
+      "tmdbVoteCount": 1188
+    }
   },
   {
     "id": "believe-me-the-abduction-of-lisa-mcvey-2018",
     "tmdbId": 550776,
     "imdbId": "tt9072202",
     "title": "Believe Me: The Abduction of Lisa McVey",
+    "originalLanguage": "en",
     "year": 2018,
     "releaseDate": "2018-09-30",
     "runtimeMinutes": 87,
@@ -118783,19 +118826,6 @@
       "Chris Owens",
       "Bruno Verdoni"
     ],
-    "synopsis": "On the night she plans on taking her own life, 17-year-old 'Lisa McVey' is kidnapped and finds herself fighting to stay alive and is raped. She manages to talk her attacker into releasing her, but when she returns home, no one believes her story except for one detective, who suspects she was abducted by a serial killer. Based on horrifying true events.",
-    "posterPath": "/qbJEzCzEKDHPZDiRvSSBiYEKaAH.jpg",
-    "backdropPath": "/gPW90IPq6Go8hlT0n7Es3cFl7ly.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 80,
-    "plexFit": "A compact drama option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:38.225Z",
-      "tmdbVoteAverage": 8.026,
-      "tmdbVoteCount": 687
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Jim Donovan",
@@ -118813,7 +118843,19 @@
         "name": "Lisa Grootenboer",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "On the night she plans on taking her own life, 17-year-old 'Lisa McVey' is kidnapped and finds herself fighting to stay alive and is raped. She manages to talk her attacker into releasing her, but when she returns home, no one believes her story except for one detective, who suspects she was abducted by a serial killer. Based on horrifying true events.",
+    "posterPath": "/qbJEzCzEKDHPZDiRvSSBiYEKaAH.jpg",
+    "backdropPath": "/gPW90IPq6Go8hlT0n7Es3cFl7ly.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 80,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.615Z",
+      "tmdbVoteAverage": 8,
+      "tmdbVoteCount": 687
+    }
   },
   {
     "id": "citizen-kane-1941",
@@ -119153,6 +119195,7 @@
     "tmdbId": 1064486,
     "imdbId": "tt23770030",
     "title": "Memoir of a Snail",
+    "originalLanguage": "en",
     "year": 2024,
     "releaseDate": "2024-10-17",
     "runtimeMinutes": 94,
@@ -119182,20 +119225,11 @@
       "Dominique Pinon",
       "Tony Armstrong"
     ],
-    "synopsis": "Forcibly separated from her twin brother when they are orphaned, a melancholic misfit learns how to find confidence within herself amid the clutter of misfortunes and everyday life.",
-    "posterPath": "/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
-    "backdropPath": "/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 80,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.221Z",
-      "tmdbVoteAverage": 8.032,
-      "tmdbVoteCount": 777
-    },
-    "originalLanguage": "en",
     "crew": [
+      {
+        "name": "Adam Elliot",
+        "job": "Producer"
+      },
       {
         "name": "Adam Elliot",
         "job": "Writer"
@@ -119203,10 +119237,6 @@
       {
         "name": "Adam Elliot",
         "job": "Director"
-      },
-      {
-        "name": "Adam Elliot",
-        "job": "Producer"
       },
       {
         "name": "Liz Kearney",
@@ -119224,13 +119254,27 @@
         "name": "Bill Murphy",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Forcibly separated from her twin brother when they are orphaned, a melancholic misfit learns how to find confidence within herself amid the clutter of misfortunes and everyday life.",
+    "posterPath": "/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
+    "backdropPath": "/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 5,
+    "criticalScore": 80,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/q47QUYb0hjc",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.662Z",
+      "tmdbVoteAverage": 8,
+      "tmdbVoteCount": 778
+    }
   },
   {
     "id": "the-deer-hunter-1978",
     "tmdbId": 11778,
     "imdbId": "tt0077416",
     "title": "The Deer Hunter",
+    "originalLanguage": "en",
     "year": 1978,
     "releaseDate": "1978-12-08",
     "runtimeMinutes": 183,
@@ -119259,19 +119303,6 @@
       "Meryl Streep",
       "George Dzundza"
     ],
-    "synopsis": "Three steelworkers enlist in the army and are sent to Vietnam, one leaving behind a rushed marriage, the others a shared love. What they encounter during the war changes their lives forever.",
-    "posterPath": "/bbGtogDZOg09bm42KIpCXUXICkh.jpg",
-    "backdropPath": "/a5zBQfXmLk3qqRYF7AioWpiAxk2.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 80,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.466Z",
-      "tmdbVoteAverage": 7.973,
-      "tmdbVoteCount": 4242
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Michael Cimino",
@@ -119286,7 +119317,7 @@
         "job": "Screenplay"
       },
       {
-        "name": "Barry Spikings",
+        "name": "Michael Deeley",
         "job": "Producer"
       },
       {
@@ -119294,7 +119325,7 @@
         "job": "Producer"
       },
       {
-        "name": "Michael Deeley",
+        "name": "Barry Spikings",
         "job": "Producer"
       },
       {
@@ -119309,13 +119340,27 @@
         "name": "Peter Zinner",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Three steelworkers enlist in the army and are sent to Vietnam, one leaving behind a rushed marriage, the others a shared love. What they encounter during the war changes their lives forever.",
+    "posterPath": "/bbGtogDZOg09bm42KIpCXUXICkh.jpg",
+    "backdropPath": "/a5zBQfXmLk3qqRYF7AioWpiAxk2.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 80,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/g7q1SjVdsNk",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.709Z",
+      "tmdbVoteAverage": 7.974,
+      "tmdbVoteCount": 4248
+    }
   },
   {
     "id": "the-sting-1973",
     "tmdbId": 9277,
     "imdbId": "tt0070735",
     "title": "The Sting",
+    "originalLanguage": "en",
     "year": 1973,
     "releaseDate": "1973-12-25",
     "runtimeMinutes": 129,
@@ -119345,19 +119390,6 @@
       "Ray Walston",
       "Eileen Brennan"
     ],
-    "synopsis": "A novice con man teams up with an acknowledged master to avenge the murder of a mutual friend by pulling off the ultimate big con and swindling a fortune from a big-time mobster.",
-    "posterPath": "/ckmYng37zey8INYf6d10cVgIG93.jpg",
-    "backdropPath": "/1r9lH3DaSWKGyvZaoo6BF5STOk5.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 80,
-    "plexFit": "A useful comedy title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:38.276Z",
-      "tmdbVoteAverage": 8.014,
-      "tmdbVoteCount": 2979
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "George Roy Hill",
@@ -119368,11 +119400,11 @@
         "job": "Writer"
       },
       {
-        "name": "Julia Phillips",
+        "name": "Tony Bill",
         "job": "Producer"
       },
       {
-        "name": "Tony Bill",
+        "name": "Julia Phillips",
         "job": "Producer"
       },
       {
@@ -119395,7 +119427,20 @@
         "name": "William Reynolds",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A novice con man teams up with an acknowledged master to avenge the murder of a mutual friend by pulling off the ultimate big con and swindling a fortune from a big-time mobster.",
+    "posterPath": "/ckmYng37zey8INYf6d10cVgIG93.jpg",
+    "backdropPath": "/1r9lH3DaSWKGyvZaoo6BF5STOk5.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 80,
+    "plexFit": "A useful comedy title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/_nAIb_J9T5M",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.758Z",
+      "tmdbVoteAverage": 8.015,
+      "tmdbVoteCount": 2983
+    }
   },
   {
     "id": "12-years-a-slave-2013",
@@ -119492,6 +119537,7 @@
     "tmdbId": 152532,
     "imdbId": "tt0790636",
     "title": "Dallas Buyers Club",
+    "originalLanguage": "en",
     "year": 2013,
     "releaseDate": "2013-11-01",
     "runtimeMinutes": 117,
@@ -119520,19 +119566,6 @@
       "Steve Zahn",
       "Michael O'Neill"
     ],
-    "synopsis": "Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.",
-    "posterPath": "/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg",
-    "backdropPath": "/sbVKj98cq0FztCukzu47bu0H8o7.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 79,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:39.497Z",
-      "tmdbVoteAverage": 7.913,
-      "tmdbVoteCount": 9087
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Jean-Marc Vallée",
@@ -119551,11 +119584,11 @@
         "job": "Writer"
       },
       {
-        "name": "Robbie Brenner",
+        "name": "Rachel Winter",
         "job": "Producer"
       },
       {
-        "name": "Rachel Winter",
+        "name": "Robbie Brenner",
         "job": "Producer"
       },
       {
@@ -119566,7 +119599,20 @@
         "name": "Martin Pensa",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.",
+    "posterPath": "/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg",
+    "backdropPath": "/sbVKj98cq0FztCukzu47bu0H8o7.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 4,
+    "criticalScore": 79,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/KDvPcBeOn8E",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.802Z",
+      "tmdbVoteAverage": 7.913,
+      "tmdbVoteCount": 9090
+    }
   },
   {
     "id": "dragon-ball-super-super-hero-2022",
@@ -119574,6 +119620,7 @@
     "imdbId": "tt14614892",
     "title": "Dragon Ball Super: Super Hero",
     "originalTitle": "ドラゴンボール超 スーパーヒーロー",
+    "originalLanguage": "ja",
     "year": 2022,
     "releaseDate": "2022-06-11",
     "runtimeMinutes": 100,
@@ -119603,19 +119650,6 @@
       "Mamoru Miyano",
       "Miyu Irino"
     ],
-    "synopsis": "The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.",
-    "posterPath": "/pi0iZOEHeA3ih4p1IwAG4x2DZNH.jpg",
-    "backdropPath": "/uR0FopHrAjDlG5q6PZB07a1JOva.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
-    "criticalScore": 79,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:36.417Z",
-      "tmdbVoteAverage": 7.886,
-      "tmdbVoteCount": 3027
-    },
-    "originalLanguage": "ja",
     "crew": [
       {
         "name": "Tetsuro Kodama",
@@ -119637,13 +119671,27 @@
         "name": "Yuri Tamura",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.",
+    "posterPath": "/pi0iZOEHeA3ih4p1IwAG4x2DZNH.jpg",
+    "backdropPath": "/uR0FopHrAjDlG5q6PZB07a1JOva.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 6,
+    "criticalScore": 79,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/6_fXQSobiHs",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.853Z",
+      "tmdbVoteAverage": 7.9,
+      "tmdbVoteCount": 3029
+    }
   },
   {
     "id": "el-infierno-2010",
     "tmdbId": 52629,
     "imdbId": "tt1692190",
     "title": "El Infierno",
+    "originalLanguage": "es",
     "year": 2010,
     "releaseDate": "2010-09-03",
     "runtimeMinutes": 148,
@@ -119675,19 +119723,6 @@
       "Elizabeth Cervantes",
       "Jorge Zárate"
     ],
-    "synopsis": "After being deported back to Mexico, a man has no choice but to join the vicious drug cartel that has corrupted his hometown in order to survive.",
-    "posterPath": "/ar8BpJ5xAzTIw9bqD9Sra6TjBvw.jpg",
-    "backdropPath": "/bQObbnj0TY2Q1c55w78m1AN6VNX.jpg",
-    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 6,
-    "criticalScore": 79,
-    "plexFit": "A useful action title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.493Z",
-      "tmdbVoteAverage": 7.877,
-      "tmdbVoteCount": 775
-    },
-    "originalLanguage": "es",
     "crew": [
       {
         "name": "Luis Estrada",
@@ -119713,13 +119748,27 @@
         "name": "Mariana Rodríguez",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "After being deported back to Mexico, a man has no choice but to join the vicious drug cartel that has corrupted his hometown in order to survive.",
+    "posterPath": "/ar8BpJ5xAzTIw9bqD9Sra6TjBvw.jpg",
+    "backdropPath": "/bQObbnj0TY2Q1c55w78m1AN6VNX.jpg",
+    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+    "popularity": 6,
+    "criticalScore": 79,
+    "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/n4jQnRkj-gU",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:34.897Z",
+      "tmdbVoteAverage": 7.883,
+      "tmdbVoteCount": 777
+    }
   },
   {
     "id": "on-the-waterfront-1954",
     "tmdbId": 654,
     "imdbId": "tt0047296",
     "title": "On the Waterfront",
+    "originalLanguage": "en",
     "year": 1954,
     "releaseDate": "1954-06-22",
     "runtimeMinutes": 108,
@@ -119749,19 +119798,6 @@
       "Rod Steiger",
       "Pat Henning"
     ],
-    "synopsis": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
-    "posterPath": "/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg",
-    "backdropPath": "/amGiUn4YUuphqmpN8yyuuwDhRPa.jpg",
-    "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 6,
-    "criticalScore": 79,
-    "plexFit": "A useful crime title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.204Z",
-      "tmdbVoteAverage": 7.862,
-      "tmdbVoteCount": 1781
-    },
-    "originalLanguage": "en",
     "crew": [
       {
         "name": "Elia Kazan",
@@ -119787,7 +119823,20 @@
         "name": "Gene Milford",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
+    "posterPath": "/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg",
+    "backdropPath": "/amGiUn4YUuphqmpN8yyuuwDhRPa.jpg",
+    "posterTone": "from-cyan-300 via-blue-800 to-black",
+    "popularity": 4,
+    "criticalScore": 79,
+    "plexFit": "A useful crime title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/boekTHsOIY8",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.235Z",
+      "tmdbVoteAverage": 7.861,
+      "tmdbVoteCount": 1783
+    }
   },
   {
     "id": "big-fish-2003",
@@ -119865,10 +119914,11 @@
     "popularity": 6,
     "criticalScore": 78,
     "plexFit": "A useful adventure title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/T6M-jwyz28U",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:53.287Z",
-      "tmdbVoteAverage": 7.757,
-      "tmdbVoteCount": 7764
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.287Z",
+      "tmdbVoteAverage": 7.758,
+      "tmdbVoteCount": 7772
     }
   },
   {
@@ -119952,13 +120002,14 @@
     "posterPath": "/g6D7mjQtndu768cusGmoEQY9fTB.jpg",
     "backdropPath": "/tqlCsB6AFjQ9dpAOHkd3sEdFS13.jpg",
     "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 78,
     "plexFit": "A useful crime title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/nYBHVf108J0",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:10.812Z",
-      "tmdbVoteAverage": 7.827,
-      "tmdbVoteCount": 3468
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.358Z",
+      "tmdbVoteAverage": 7.8,
+      "tmdbVoteCount": 3470
     }
   },
   {
@@ -119998,22 +120049,22 @@
     "crew": [
       {
         "name": "Sean Penn",
-        "job": "Director"
-      },
-      {
-        "name": "Sean Penn",
         "job": "Screenplay"
       },
       {
         "name": "Sean Penn",
-        "job": "Producer"
+        "job": "Director"
       },
       {
-        "name": "Art Linson",
+        "name": "Sean Penn",
         "job": "Producer"
       },
       {
         "name": "Bill Pohlad",
+        "job": "Producer"
+      },
+      {
+        "name": "Art Linson",
         "job": "Producer"
       },
       {
@@ -120036,10 +120087,11 @@
     "popularity": 6,
     "criticalScore": 78,
     "plexFit": "A useful adventure title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/g7ArZ7VD-QQ",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:29.754Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.407Z",
       "tmdbVoteAverage": 7.796,
-      "tmdbVoteCount": 10135
+      "tmdbVoteCount": 10143
     }
   },
   {
@@ -120091,7 +120143,7 @@
         "job": "Screenplay"
       },
       {
-        "name": "Scott Rudin",
+        "name": "Jeremy Dawson",
         "job": "Producer"
       },
       {
@@ -120099,7 +120151,7 @@
         "job": "Producer"
       },
       {
-        "name": "Jeremy Dawson",
+        "name": "Scott Rudin",
         "job": "Producer"
       },
       {
@@ -120111,11 +120163,11 @@
         "job": "Director of Photography"
       },
       {
-        "name": "Ralph Foster",
+        "name": "Edward Bursch",
         "job": "Editor"
       },
       {
-        "name": "Edward Bursch",
+        "name": "Ralph Foster",
         "job": "Editor"
       }
     ],
@@ -120126,10 +120178,11 @@
     "popularity": 6,
     "criticalScore": 78,
     "plexFit": "A compact adventure option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/dt__kig8PVU",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:00.615Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.467Z",
       "tmdbVoteAverage": 7.848,
-      "tmdbVoteCount": 5414
+      "tmdbVoteCount": 5419
     }
   },
   {
@@ -120170,26 +120223,26 @@
     "crew": [
       {
         "name": "Curtis Hanson",
+        "job": "Director"
+      },
+      {
+        "name": "Curtis Hanson",
         "job": "Screenplay"
       },
       {
         "name": "Curtis Hanson",
         "job": "Producer"
-      },
-      {
-        "name": "Curtis Hanson",
-        "job": "Director"
       },
       {
         "name": "Brian Helgeland",
         "job": "Screenplay"
       },
       {
-        "name": "Arnon Milchan",
+        "name": "Michael G. Nathanson",
         "job": "Producer"
       },
       {
-        "name": "Michael G. Nathanson",
+        "name": "Arnon Milchan",
         "job": "Producer"
       },
       {
@@ -120209,13 +120262,14 @@
     "posterPath": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
     "backdropPath": "/hUn13Hom8OWMYpR1ay0diwswwdP.jpg",
     "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 6,
+    "popularity": 7,
     "criticalScore": 78,
     "plexFit": "A useful crime title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/QeIoelqDzsA",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:27.010Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.509Z",
       "tmdbVoteAverage": 7.802,
-      "tmdbVoteCount": 5540
+      "tmdbVoteCount": 5548
     }
   },
   {
@@ -120290,10 +120344,11 @@
     "popularity": 6,
     "criticalScore": 78,
     "plexFit": "A compact romance option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/dOMTh9Jd81w",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:19.211Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.556Z",
       "tmdbVoteAverage": 7.81,
-      "tmdbVoteCount": 6501
+      "tmdbVoteCount": 6504
     }
   },
   {
@@ -120374,13 +120429,14 @@
     "posterPath": "/8mIvSvnVBApfORL9N6S38Q7wD6A.jpg",
     "backdropPath": "/pFalq14lacs2oO7Q6YKiNqz5uAC.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 78,
     "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/3LRyNwYg1f8",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:26.306Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.599Z",
       "tmdbVoteAverage": 7.801,
-      "tmdbVoteCount": 3715
+      "tmdbVoteCount": 3718
     }
   },
   {
@@ -120453,10 +120509,11 @@
     "popularity": 6,
     "criticalScore": 78,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/wwmctS4nldM",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:59.099Z",
-      "tmdbVoteAverage": 7.752,
-      "tmdbVoteCount": 7099
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.644Z",
+      "tmdbVoteAverage": 7.753,
+      "tmdbVoteCount": 7103
     }
   },
   {
@@ -120540,12 +120597,13 @@
     "backdropPath": "/euoXeFAOt9o7yAWA9zGZk7DdZWZ.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
     "popularity": 6,
-    "criticalScore": 78,
+    "criticalScore": 77,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/dWSSjaIGdDI",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:58.705Z",
-      "tmdbVoteAverage": 7.752,
-      "tmdbVoteCount": 803
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.689Z",
+      "tmdbVoteAverage": 7.749,
+      "tmdbVoteCount": 821
     }
   },
   {
@@ -120621,13 +120679,14 @@
     "posterPath": "/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
     "backdropPath": "/qszuXKhzYR24oRpsmh7eZaPbvL8.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 78,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/pwLKIcB0zDw",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:15.370Z",
-      "tmdbVoteAverage": 7.819,
-      "tmdbVoteCount": 4368
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.747Z",
+      "tmdbVoteAverage": 7.8,
+      "tmdbVoteCount": 4369
     }
   },
   {
@@ -120667,22 +120726,22 @@
     "crew": [
       {
         "name": "Tom McCarthy",
-        "job": "Writer"
+        "job": "Director"
       },
       {
         "name": "Tom McCarthy",
-        "job": "Director"
+        "job": "Writer"
       },
       {
         "name": "Josh Singer",
         "job": "Writer"
       },
       {
-        "name": "Steve Golin",
+        "name": "Michael Sugar",
         "job": "Producer"
       },
       {
-        "name": "Michael Sugar",
+        "name": "Steve Golin",
         "job": "Producer"
       },
       {
@@ -120710,13 +120769,14 @@
     "posterPath": "/8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
     "backdropPath": "/8FbbcmwmpGd7brfiC7f7lWFNGdi.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 4,
     "criticalScore": 78,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/WgnrwwiIDlI",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:16.935Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.796Z",
       "tmdbVoteAverage": 7.814,
-      "tmdbVoteCount": 8794
+      "tmdbVoteCount": 8797
     }
   },
   {
@@ -120937,23 +120997,15 @@
         "job": "Writer"
       },
       {
-        "name": "Christina Chang",
+        "name": "Charlie Parisi",
         "job": "Writer"
       },
       {
-        "name": "Alex Chiu",
+        "name": "Lauren Sassen",
         "job": "Writer"
       },
       {
-        "name": "Manny Hernandez",
-        "job": "Writer"
-      },
-      {
-        "name": "Yvonne Hsuan Ho",
-        "job": "Writer"
-      },
-      {
-        "name": "Quinne Larsen",
+        "name": "Sarah Sobole",
         "job": "Writer"
       },
       {
@@ -120963,19 +121015,28 @@
       {
         "name": "Sooyeon Lee",
         "job": "Writer"
+      },
+      {
+        "name": "Christina Chang",
+        "job": "Writer"
+      },
+      {
+        "name": "Quinne Larsen",
+        "job": "Writer"
       }
     ],
     "synopsis": "When Grizz, Panda, and Ice Bear's love of food trucks and viral videos get out of hand, the brothers are now chased away from their home and embark on a trip to Canada, where they can live in peace.",
     "posterPath": "/khtIr0Gxtz52T10RRQZ42o1a5Ry.jpg",
     "backdropPath": "/pO1SnM5a1fEsYrFaVZW78Wb0zRJ.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
+    "popularity": 7,
     "criticalScore": 78,
     "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/0ZNsLy2IwcY",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:08.644Z",
-      "tmdbVoteAverage": 7.828,
-      "tmdbVoteCount": 853
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.845Z",
+      "tmdbVoteAverage": 7.83,
+      "tmdbVoteCount": 854
     }
   },
   {
@@ -121022,11 +121083,11 @@
         "job": "Writer"
       },
       {
-        "name": "Aron Warner",
+        "name": "Chris Bremble",
         "job": "Producer"
       },
       {
-        "name": "Chris Bremble",
+        "name": "Aron Warner",
         "job": "Producer"
       },
       {
@@ -121046,13 +121107,14 @@
     "posterPath": "/lnPf6hzANL6pVQTxUlsNYSuhT5l.jpg",
     "backdropPath": "/4kIRrW1AlHP5Idne8CPHeQt8nR5.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 78,
     "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/uWIRyU5fuzU",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:20:06.569Z",
-      "tmdbVoteAverage": 7.832,
-      "tmdbVoteCount": 1477
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.886Z",
+      "tmdbVoteAverage": 7.83,
+      "tmdbVoteCount": 1480
     }
   },
   {
@@ -121222,10 +121284,11 @@
     "popularity": 6,
     "criticalScore": 77,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/HXMqX9s67kY",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:21:09.917Z",
-      "tmdbVoteAverage": 7.7,
-      "tmdbVoteCount": 9301
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.952Z",
+      "tmdbVoteAverage": 7.733,
+      "tmdbVoteCount": 9307
     }
   },
   {
@@ -121310,20 +121373,24 @@
     "posterPath": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
     "backdropPath": "/lYfHa1AtkUMtplrKx7SRLHpwonW.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 6,
+    "popularity": 4,
     "criticalScore": 76,
     "plexFit": "A compact adventure option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/I8P7RzqOU_M",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:42.492Z",
-      "tmdbVoteAverage": 7.59,
-      "tmdbVoteCount": 1613
+      "tmdbUpdatedAt": "2026-06-08T00:29:35.998Z",
+      "tmdbVoteAverage": 7.6,
+      "tmdbVoteCount": 1614
     }
   },
   {
     "id": "manchester-by-the-sea-2016",
+    "tmdbId": 334541,
+    "imdbId": "tt4034228",
     "title": "Manchester by the Sea",
     "originalLanguage": "en",
     "year": 2016,
+    "releaseDate": "2016-11-17",
     "runtimeMinutes": 138,
     "genres": [
       "Drama"
@@ -121394,21 +121461,18 @@
       }
     ],
     "synopsis": "After his older brother passes away, Lee Chandler is forced to return home to care for his 16-year-old nephew. There he is compelled to deal with a tragic past that separated him from his family and the community where he was born and raised.",
+    "posterPath": "/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+    "backdropPath": "/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
     "popularity": 6,
     "criticalScore": 76,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/NxQmuJnrjxg",
     "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.063Z",
       "tmdbVoteAverage": 7.6,
-      "omdbImdbRating": 7.8,
-      "tmdbUpdatedAt": "2026-06-04T04:17:58.752Z",
-      "tmdbVoteCount": 6412
-    },
-    "tmdbId": 334541,
-    "imdbId": "tt4034228",
-    "releaseDate": "2016-11-17",
-    "posterPath": "/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
-    "backdropPath": "/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg"
+      "tmdbVoteCount": 6413
+    }
   },
   {
     "id": "moon-2009",
@@ -121490,13 +121554,14 @@
     "posterPath": "/35IU0Mq0zFsN1mYwDGts5mKc77n.jpg",
     "backdropPath": "/mvUAo9ACgmLpS4Ofc2IwD4n7WCt.jpg",
     "posterTone": "from-teal-300 via-slate-700 to-black",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 76,
     "plexFit": "A compact science fiction option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/xV5udqNpP94",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:39.701Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.113Z",
       "tmdbVoteAverage": 7.565,
-      "tmdbVoteCount": 6285
+      "tmdbVoteCount": 6288
     }
   },
   {
@@ -121628,18 +121693,18 @@
     "crew": [
       {
         "name": "Dan Scanlon",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Dan Scanlon",
         "job": "Director"
       },
       {
-        "name": "Jason Headley",
+        "name": "Dan Scanlon",
         "job": "Screenplay"
       },
       {
         "name": "Keith Bunin",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Jason Headley",
         "job": "Screenplay"
       },
       {
@@ -121655,11 +121720,11 @@
         "job": "Original Music Composer"
       },
       {
-        "name": "Sharon Calahan",
+        "name": "Adam Habib",
         "job": "Director of Photography"
       },
       {
-        "name": "Adam Habib",
+        "name": "Sharon Calahan",
         "job": "Director of Photography"
       },
       {
@@ -121671,13 +121736,14 @@
     "posterPath": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
     "backdropPath": "/bcT8CaBIj086WVD7K529h78eujb.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 76,
     "plexFit": "A compact animated fantasy option for emotional family viewing.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/HxKXiQvyG_o",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T05:07:26.085Z",
-      "tmdbVoteAverage": 7.639,
-      "tmdbVoteCount": 6566
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.163Z",
+      "tmdbVoteAverage": 7.6,
+      "tmdbVoteCount": 6572
     }
   },
   {
@@ -122018,13 +122084,14 @@
     "posterPath": "/5zmvEofdIlgXrQl9A7e5IOzlnFU.jpg",
     "backdropPath": "/yt9FIS2Osm97M7w4dLFkBu7YxW8.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 6,
+    "popularity": 9,
     "criticalScore": 76,
     "plexFit": "A useful war title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/nqFn_pM5QxU",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:32.987Z",
-      "tmdbVoteAverage": 7.597,
-      "tmdbVoteCount": 1022
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.212Z",
+      "tmdbVoteAverage": 7.6,
+      "tmdbVoteCount": 1024
     }
   },
   {
@@ -122264,12 +122331,13 @@
     "posterPath": "/rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
     "backdropPath": "/H40nWdJngUc6gtytMAbElm9HOu.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/2T2pyqrr8UM",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:29.505Z",
-      "tmdbVoteAverage": 7.5,
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.255Z",
+      "tmdbVoteAverage": 7.547,
       "tmdbVoteCount": 4157
     }
   },
@@ -122355,21 +122423,24 @@
     "posterPath": "/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
     "backdropPath": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 6,
-    "criticalScore": 75,
+    "popularity": 5,
+    "criticalScore": 76,
     "plexFit": "A compact adventure option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/j7Tpaj-Iet8",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:42.458Z",
-      "tmdbVoteAverage": 7.5,
-      "tmdbVoteCount": 217
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.301Z",
+      "tmdbVoteAverage": 7.566,
+      "tmdbVoteCount": 221
     }
   },
   {
     "id": "barbie-as-the-princess-and-the-pauper-2004",
+    "tmdbId": 15165,
+    "imdbId": "tt0426955",
     "title": "Barbie as The Princess & the Pauper",
-    "originalTitle": "Barbie as the Princess and the Pauper",
     "originalLanguage": "en",
     "year": 2004,
+    "releaseDate": "2004-09-28",
     "runtimeMinutes": 86,
     "genres": [
       "Animation",
@@ -122405,19 +122476,19 @@
         "job": "Director"
       },
       {
-        "name": "Cliff Ruby",
-        "job": "Writer"
-      },
-      {
         "name": "Elana Lesser",
         "job": "Writer"
       },
       {
-        "name": "Jesyca C. Durchin",
-        "job": "Producer"
+        "name": "Cliff Ruby",
+        "job": "Writer"
       },
       {
         "name": "Jennifer Twiner McCarron",
+        "job": "Producer"
+      },
+      {
+        "name": "Jesyca C. Durchin",
         "job": "Producer"
       },
       {
@@ -122434,21 +122505,18 @@
       }
     ],
     "synopsis": "In her first animated musical featuring seven original songs, Barbie comes to life in this modern re-telling of a classic tale of mistaken identity and the power of friendship. Based on the story by Mark Twain.",
+    "posterPath": "/xHYsUwUe4MaNc6mbNBGTkqZSnPk.jpg",
+    "backdropPath": "/lNKYhboQSVlIKe3ugwb0mG1tidc.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/UBqSe6lgCto",
     "source": {
-      "omdbImdbRating": 7.7,
-      "tmdbUpdatedAt": "2026-06-04T04:18:03.528Z",
-      "tmdbVoteAverage": 7.5,
-      "tmdbVoteCount": 1535
-    },
-    "tmdbId": 15165,
-    "imdbId": "tt0426955",
-    "releaseDate": "2004-09-28",
-    "posterPath": "/xHYsUwUe4MaNc6mbNBGTkqZSnPk.jpg",
-    "backdropPath": "/lNKYhboQSVlIKe3ugwb0mG1tidc.jpg"
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.345Z",
+      "tmdbVoteAverage": 7.48,
+      "tmdbVoteCount": 1536
+    }
   },
   {
     "id": "barbie-princess-charm-school-2011",
@@ -122496,11 +122564,11 @@
         "job": "Writer"
       },
       {
-        "name": "Shawn McCorkindale",
+        "name": "Shelley Tabbut",
         "job": "Producer"
       },
       {
-        "name": "Shelley Tabbut",
+        "name": "Shawn McCorkindale",
         "job": "Producer"
       },
       {
@@ -122516,13 +122584,14 @@
     "posterPath": "/lI2jPbssax6XX5vDqB9mTJHGzfH.jpg",
     "backdropPath": "/pR51tWHlUWUEnPUc5my9anqcDto.jpg",
     "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "A compact family option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/FjN4Fh9bOVg",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:47.575Z",
-      "tmdbVoteAverage": 7.543,
-      "tmdbVoteCount": 869
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.384Z",
+      "tmdbVoteAverage": 7.548,
+      "tmdbVoteCount": 871
     }
   },
   {
@@ -122603,10 +122672,11 @@
     "popularity": 6,
     "criticalScore": 75,
     "plexFit": "A tense true-story thriller with strong mainstream appeal.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/TzU3UJuV80w",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T05:07:26.767Z",
-      "tmdbVoteAverage": 7.539,
-      "tmdbVoteCount": 7487
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.431Z",
+      "tmdbVoteAverage": 7.5,
+      "tmdbVoteCount": 7490
     }
   },
   {
@@ -122654,15 +122724,15 @@
         "job": "Screenplay"
       },
       {
-        "name": "Louis DiGiaimo",
-        "job": "Producer"
-      },
-      {
         "name": "Mark Johnson",
         "job": "Producer"
       },
       {
         "name": "Gail Mutrux",
+        "job": "Producer"
+      },
+      {
+        "name": "Louis DiGiaimo",
         "job": "Producer"
       },
       {
@@ -122686,13 +122756,14 @@
     "posterPath": "/xtKLvpOfARi1XVm8u2FTdhY5Piq.jpg",
     "backdropPath": "/7aWpb0sfGteTomS9DP5NWDeD7DL.jpg",
     "posterTone": "from-cyan-300 via-blue-800 to-black",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "A useful crime title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/TDWkpydv51k",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:30.091Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.479Z",
       "tmdbVoteAverage": 7.541,
-      "tmdbVoteCount": 4865
+      "tmdbVoteCount": 4869
     }
   },
   {
@@ -122750,11 +122821,11 @@
         "job": "Producer"
       },
       {
-        "name": "Stephen Edwards",
+        "name": "Joseph Koo",
         "job": "Original Music Composer"
       },
       {
-        "name": "Joseph Koo",
+        "name": "Stephen Edwards",
         "job": "Original Music Composer"
       },
       {
@@ -122770,13 +122841,14 @@
     "posterPath": "/Aqa1Yuog2OFrduwSffxZc2w4Tnk.jpg",
     "backdropPath": "/2XMjBxdICJWVmBMlbge2JySz7X9.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 6,
+    "popularity": 8,
     "criticalScore": 75,
     "plexFit": "A compact action option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/zfZXiw-lgMs",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:40.589Z",
-      "tmdbVoteAverage": 7.477,
-      "tmdbVoteCount": 608
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.528Z",
+      "tmdbVoteAverage": 7.48,
+      "tmdbVoteCount": 610
     }
   },
   {
@@ -122944,11 +123016,11 @@
         "job": "Director of Photography"
       },
       {
-        "name": "Mark Everson",
+        "name": "Jonathan Amos",
         "job": "Editor"
       },
       {
-        "name": "Jonathan Amos",
+        "name": "Mark Everson",
         "job": "Editor"
       }
     ],
@@ -122959,10 +123031,11 @@
     "popularity": 6,
     "criticalScore": 75,
     "plexFit": "A high-confidence family comedy that works across age groups.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/07Um1PY_P4o",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T05:07:24.704Z",
-      "tmdbVoteAverage": 7.478,
-      "tmdbVoteCount": 2788
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.572Z",
+      "tmdbVoteAverage": 7.479,
+      "tmdbVoteCount": 2793
     }
   },
   {
@@ -123228,9 +123301,7 @@
     "releaseDate": "1960-10-12",
     "runtimeMinutes": 127,
     "genres": [
-      "Western",
-      "Action",
-      "Adventure"
+      "Western"
     ],
     "tags": [
       "friendship",
@@ -123291,13 +123362,14 @@
     "posterPath": "/e5ToxOyJwuZD4VOfI0qEn5uIjeJ.jpg",
     "backdropPath": "/2aC3284N1p86o6S4Uyj9AaryYeR.jpg",
     "posterTone": "from-yellow-200 via-orange-700 to-stone-950",
-    "popularity": 6,
+    "popularity": 7,
     "criticalScore": 75,
     "plexFit": "A useful western title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/F11chOCFTi8",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:38.021Z",
-      "tmdbVoteAverage": 7.506,
-      "tmdbVoteCount": 1984
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.617Z",
+      "tmdbVoteAverage": 7.5,
+      "tmdbVoteCount": 1988
     }
   },
   {
@@ -123373,11 +123445,11 @@
     "posterPath": "/j267YqLvKAHeyykTflxzpgVgviQ.jpg",
     "backdropPath": "/hr3MP43lWatnNKtmsYutFUYrLQl.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "A useful drama title for broadening the local catalog.",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:29.540Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.660Z",
       "tmdbVoteAverage": 7.452,
       "tmdbVoteCount": 305
     }
@@ -123530,13 +123602,14 @@
     "posterPath": "/vmpsZkrs4Uvkp9r1atL8B3frA63.jpg",
     "backdropPath": "/aAL7kV0l3yZtbCFs7J8m4gXldqR.jpg",
     "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 75,
     "plexFit": "A compact family option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/2WKPKnggJqk",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T10:57:46.749Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.702Z",
       "tmdbVoteAverage": 7.5,
-      "tmdbVoteCount": 3950
+      "tmdbVoteCount": 3951
     }
   },
   {
@@ -123609,10 +123682,11 @@
     "popularity": 6,
     "criticalScore": 74,
     "plexFit": "A useful family title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/_MPJs0vD_oQ",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:39.875Z",
-      "tmdbVoteAverage": 7.37,
-      "tmdbVoteCount": 3772
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.748Z",
+      "tmdbVoteAverage": 7.371,
+      "tmdbVoteCount": 3776
     }
   },
   {
@@ -123621,6 +123695,7 @@
     "imdbId": "tt7282468",
     "title": "Burning",
     "originalTitle": "버닝",
+    "originalLanguage": "ko",
     "year": 2018,
     "releaseDate": "2018-05-17",
     "runtimeMinutes": 148,
@@ -123652,19 +123727,6 @@
       "Choe Seung-ho",
       "Moon Sung-keun"
     ],
-    "synopsis": "Deliveryman Jong-su is out on a job when he runs into Hae-mi, a girl who once lived in his neighborhood. She asks if he'd mind looking after her cat while she's away on a trip to Africa. On her return, she introduces to Jong-su an enigmatic young man named Ben, who she met during her trip. One day Ben tells Jong-su about his most unusual hobby.",
-    "posterPath": "/kXiF80o74fE9gf3Utf9moAI7ar0.jpg",
-    "backdropPath": "/qQEt2FqF8McryFBNX30dyDJKiEK.jpg",
-    "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
-    "popularity": 6,
-    "criticalScore": 74,
-    "plexFit": "A patient mystery for viewers who like unresolved tension.",
-    "source": {
-      "tmdbUpdatedAt": "2026-06-04T04:18:37.387Z",
-      "tmdbVoteAverage": 7.375,
-      "tmdbVoteCount": 1818
-    },
-    "originalLanguage": "ko",
     "crew": [
       {
         "name": "Lee Chang-dong",
@@ -123698,7 +123760,20 @@
         "name": "Kim Da-won",
         "job": "Editor"
       }
-    ]
+    ],
+    "synopsis": "Deliveryman Jong-su is out on a job when he runs into Hae-mi, a girl who once lived in his neighborhood. She asks if he'd mind looking after her cat while she's away on a trip to Africa. On her return, she introduces to Jong-su an enigmatic young man named Ben, who she met during her trip. One day Ben tells Jong-su about his most unusual hobby.",
+    "posterPath": "/kXiF80o74fE9gf3Utf9moAI7ar0.jpg",
+    "backdropPath": "/qQEt2FqF8McryFBNX30dyDJKiEK.jpg",
+    "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
+    "popularity": 6,
+    "criticalScore": 74,
+    "plexFit": "A patient mystery for viewers who like unresolved tension.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/irBLY-Ev9vo",
+    "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.802Z",
+      "tmdbVoteAverage": 7.375,
+      "tmdbVoteCount": 1819
+    }
   },
   {
     "id": "duel-1971",
@@ -123842,10 +123917,11 @@
     "popularity": 6,
     "criticalScore": 74,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/5unqnd-CGz4",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:41.415Z",
-      "tmdbVoteAverage": 7.421,
-      "tmdbVoteCount": 1839
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.849Z",
+      "tmdbVoteAverage": 7.4,
+      "tmdbVoteCount": 1840
     }
   },
   {
@@ -123994,12 +124070,13 @@
     "posterPath": "/7NVgVX663tdareijAiv0eLiLn6d.jpg",
     "backdropPath": "/ca0a79cbCGWJdan3SEBKkQBSwKi.jpg",
     "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 74,
     "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/cj2uhyfVNmQ",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:42:28.321Z",
-      "tmdbVoteAverage": 7.429,
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.919Z",
+      "tmdbVoteAverage": 7.4,
       "tmdbVoteCount": 906
     }
   },
@@ -124263,20 +124340,24 @@
     "posterPath": "/q9MCjc4CMXju59slJEzYEtr7F3W.jpg",
     "backdropPath": "/j0bK5l5Wo4XvUUrKp1FckLvbse9.jpg",
     "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 6,
+    "popularity": 5,
     "criticalScore": 73,
     "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/4at78Tm57JI",
     "source": {
-      "tmdbUpdatedAt": "2026-06-02T04:39:42.695Z",
+      "tmdbUpdatedAt": "2026-06-08T00:29:36.968Z",
       "tmdbVoteAverage": 7.3,
-      "tmdbVoteCount": 472
+      "tmdbVoteCount": 474
     }
   },
   {
     "id": "labyrinth-1986",
+    "tmdbId": 13597,
+    "imdbId": "tt0091369",
     "title": "Labyrinth",
     "originalLanguage": "en",
     "year": 1986,
+    "releaseDate": "1986-06-27",
     "runtimeMinutes": 101,
     "genres": [
       "Adventure",
@@ -124333,21 +124414,18 @@
       }
     ],
     "synopsis": "Frustrated with babysitting on yet another weekend night, Sarah, a teenager with an active imagination, summons the Goblins to take her baby stepbrother away. When little Toby actually disappears, Sarah must follow him into a fantastical world to rescue him from the Goblin King. Guarding his castle is the labyrinth itself, a twisted maze of deception, populated with outrageous characters and unknown dangers.",
+    "posterPath": "/hbSdA1DmNA9IlfVoqJkIWYF2oYm.jpg",
+    "backdropPath": "/mGkleIuPO2flRyvP8yBcUykSQsp.jpg",
     "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
     "popularity": 6,
     "criticalScore": 73,
     "plexFit": "Imported from your local Plex movie library.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/8bJy0GF2RZ0",
     "source": {
+      "tmdbUpdatedAt": "2026-06-08T00:29:37.521Z",
       "tmdbVoteAverage": 7.284,
-      "omdbImdbRating": 8.6,
-      "tmdbUpdatedAt": "2026-06-04T04:18:01.291Z",
-      "tmdbVoteCount": 2742
-    },
-    "tmdbId": 13597,
-    "imdbId": "tt0091369",
-    "releaseDate": "1986-06-27",
-    "posterPath": "/hbSdA1DmNA9IlfVoqJkIWYF2oYm.jpg",
-    "backdropPath": "/mGkleIuPO2flRyvP8yBcUykSQsp.jpg"
+      "tmdbVoteCount": 2744
+    }
   },
   {
     "id": "love-and-monsters-2020",
