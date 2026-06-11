@@ -12,7 +12,6 @@ Required:
 
 Optional:
 
-- `OMDB_API_KEY`: OMDb API key. Keep this disabled for the public generated catalog unless you have separate permission from OMDb. Their terms restrict use to personal, non-commercial purposes and prohibit creating an index of Contributions without authorization.
 - `TMDB_API_KEY`: legacy TMDb v3 API key. The script supports it, but prefer `TMDB_READ_TOKEN`.
 
 Do not expose these keys to the Vite app. Keep them in `.env.local` for local runs and, later, GitHub Actions secrets.
@@ -22,8 +21,6 @@ Do not expose these keys to the Vite app. Keep them in `.env.local` for local ru
 - Curated seeds: `src/data/curated/movies.seed.json` keeps hand-picked titles and local recommendation tags.
 - TMDb API: primary source for posters, backdrops, overview, runtime, genres, popularity, vote data, credits, keywords, and external IDs.
 - TMDb daily exports: optional no-auth discovery list for valid TMDb IDs. The export is not a full metadata source.
-- OMDb API: not part of the default catalog pipeline. It can be useful for local personal experiments by IMDb ID, but should stay out of public generated data unless separately authorized.
-
 IMDb public TSV datasets are intentionally not wired in yet. They can be useful later for rating/vote-count cross-checks, but their terms are more restrictive and they do not provide posters or descriptions.
 
 ## Commands
@@ -86,14 +83,6 @@ Useful reliability flags:
 - `--progress=plain`: emits one-line progress updates that display cleanly in GitHub Actions logs.
 - `--progress=bar`: forces the local terminal progress bar.
 - `--no-progress`: suppresses progress output while keeping errors visible.
-
-Include OMDb for a local personal experiment:
-
-```bash
-bun run data:enrich -- --limit=250 --include-omdb
-```
-
-Do not use `--include-omdb` for public app data without confirming rights.
 
 ## Outputs
 

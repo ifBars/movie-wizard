@@ -427,7 +427,7 @@ export function SettingsPanel({
             <a className="tmdb-attribution" href="https://www.themoviedb.org" target="_blank" rel="noreferrer">
               <img src={tmdbLogoUrl} alt="The Movie Database (TMDB)" />
             </a>
-            <p>This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</p>
+            <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
           </motion.section>
 
           <motion.section className="settings-rail-card settings-rail-card--warning" layout {...fadeSlide(shouldReduceMotion, 20)}>

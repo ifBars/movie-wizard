@@ -30,12 +30,8 @@ export type Movie = {
   trailerUrl?: string;
   source?: {
     tmdbUpdatedAt?: string;
-    omdbUpdatedAt?: string;
     tmdbVoteAverage?: number;
     tmdbVoteCount?: number;
-    omdbImdbRating?: number;
-    omdbImdbVotes?: number;
-    omdbMetascore?: number;
   };
 };
 

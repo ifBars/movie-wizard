@@ -245,20 +245,6 @@ function getQualityScore(movie: Movie) {
     });
   }
 
-  if (source?.omdbImdbRating !== undefined) {
-    scores.push({
-      score: source.omdbImdbRating * 10,
-      weight: 1.1 * getVoteConfidence(source.omdbImdbVotes),
-    });
-  }
-
-  if (source?.omdbMetascore !== undefined) {
-    scores.push({
-      score: source.omdbMetascore,
-      weight: 0.9,
-    });
-  }
-
   const weightedScore = scores.reduce(
     (total, item) => ({
       score: total.score + clampScore(item.score) * item.weight,

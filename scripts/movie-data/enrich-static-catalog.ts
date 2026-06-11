@@ -40,12 +40,8 @@ type MovieRecord = {
   trailerUrl?: string;
   source?: {
     tmdbUpdatedAt?: string;
-    omdbUpdatedAt?: string;
     tmdbVoteAverage?: number;
     tmdbVoteCount?: number;
-    omdbImdbRating?: number;
-    omdbImdbVotes?: number;
-    omdbMetascore?: number;
   };
 };
 
@@ -102,17 +98,6 @@ type TmdbMovieDetails = {
   };
 };
 
-type OmdbMovie = {
-  Response: "True" | "False";
-  imdbRating?: string;
-  imdbVotes?: string;
-  Metascore?: string;
-  Plot?: string;
-  Director?: string;
-  Actors?: string;
-  Runtime?: string;
-};
-
 type CliOptions = {
   limit: number;
   pages: number;
@@ -120,7 +105,6 @@ type CliOptions = {
   pageMax: number;
   discoverSort: "popularity" | "mixed";
   includeTmdbExport: boolean;
-  includeOmdb: boolean;
   seedOnly: boolean;
   refreshStale: boolean;
   refreshChanges: boolean;
@@ -363,7 +347,6 @@ async function main() {
   const reporter = createProgressReporter(options);
   const tmdbToken = process.env.TMDB_READ_TOKEN;
   const tmdbApiKey = process.env.TMDB_API_KEY;
-  const omdbApiKey = process.env.OMDB_API_KEY;
 
   if (!tmdbToken && !tmdbApiKey && !options.seedOnly) {
     throw new Error(
@@ -380,7 +363,6 @@ async function main() {
     discoverSort: options.discoverSort,
     mode: options.seedOnly ? "seed-only" : "tmdb",
     cache: options.cacheMode,
-    omdb: options.includeOmdb && Boolean(omdbApiKey) ? "enabled" : "disabled",
   });
 
   reporter.phase("Loading seeds and existing catalog");
@@ -464,7 +446,7 @@ async function main() {
   for (const seed of values) {
     runStats.processedCandidateCount += 1;
     const refreshCandidate = isRefreshCandidate(seed, existingKeys);
-    const record = options.seedOnly ? recordFromSeed(seed) : await recordFromTmdb(seed, manifest, options, tmdbToken, tmdbApiKey, options.includeOmdb ? omdbApiKey : undefined);
+    const record = options.seedOnly ? recordFromSeed(seed) : await recordFromTmdb(seed, manifest, options, tmdbToken, tmdbApiKey);
 
     if (record && isUsefulRecord(record) && (refreshCandidate || !recordKeys(record).some((key) => existingKeys.has(key)))) {
       newRecords.push(record);
@@ -488,7 +470,7 @@ async function main() {
   }
   reporter.finishProgress(runStats.processedCandidateCount, values.length);
 
-  const records = dedupeRecords([...existingRecords, ...newRecords]);
+  const records = dedupeRecords([...existingRecords, ...newRecords]).map(stripUnsupportedSourceData);
   records.sort((a, b) => b.popularity - a.popularity || b.criticalScore - a.criticalScore || a.title.localeCompare(b.title));
 
   reporter.phase("Writing generated catalog files");
@@ -515,7 +497,6 @@ async function main() {
           curatedSeeds: seeds.length,
           tmdb: !options.seedOnly,
           tmdbDailyExport: options.includeTmdbExport,
-          omdb: options.includeOmdb && Boolean(omdbApiKey),
         },
       },
       null,
@@ -552,7 +533,6 @@ function parseArgs(args: string[]): CliOptions {
     pageMax: 500,
     discoverSort: "popularity",
     includeTmdbExport: false,
-    includeOmdb: false,
     seedOnly: false,
     refreshStale: false,
     refreshChanges: false,
@@ -592,10 +572,6 @@ function parseArgs(args: string[]): CliOptions {
       options.discoverSort = parseDiscoverSort(arg.slice("--discover-sort=".length));
     } else if (arg === "--include-tmdb-export") {
       options.includeTmdbExport = true;
-    } else if (arg === "--include-omdb") {
-      options.includeOmdb = true;
-    } else if (arg === "--no-omdb") {
-      options.includeOmdb = false;
     } else if (arg === "--seed-only") {
       options.seedOnly = true;
     } else if (arg === "--refresh-stale") {
@@ -871,7 +847,24 @@ function preferRecord(current: MovieRecord, candidate: MovieRecord) {
 }
 
 function sourceUpdatedAt(record: MovieRecord) {
-  return Date.parse(record.source?.tmdbUpdatedAt ?? record.source?.omdbUpdatedAt ?? "") || 0;
+  return Date.parse(record.source?.tmdbUpdatedAt ?? "") || 0;
+}
+
+function stripUnsupportedSourceData(record: MovieRecord): MovieRecord {
+  if (!record.source) {
+    return record;
+  }
+
+  const { tmdbUpdatedAt, tmdbVoteAverage, tmdbVoteCount } = record.source;
+
+  return {
+    ...record,
+    source: {
+      tmdbUpdatedAt,
+      tmdbVoteAverage,
+      tmdbVoteCount,
+    },
+  };
 }
 
 function recordCompletenessScore(record: MovieRecord) {
@@ -1012,7 +1005,7 @@ async function readTmdbExport(filePath: string, limit: number, excludedKeys: Set
   return movies;
 }
 
-async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, options: CliOptions, token?: string, apiKey?: string, omdbApiKey?: string): Promise<MovieRecord | null> {
+async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, options: CliOptions, token?: string, apiKey?: string): Promise<MovieRecord | null> {
   const tmdbId = seed.tmdbId ?? (await findTmdbId(seed, options, token, apiKey));
   if (!tmdbId) {
     return recordFromSeed(seed);
@@ -1040,7 +1033,6 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
 
   delete manifest.failedTmdbIds[String(tmdbId)];
   const imdbId = details.external_ids?.imdb_id ?? details.imdb_id ?? seed.imdbId;
-  const omdb = imdbId && omdbApiKey ? await fetchOmdb(imdbId, omdbApiKey) : undefined;
   const year = parseYear(details.release_date) ?? seed.year ?? 0;
   const genres = unique((details.genres ?? []).map((genre) => genre.name));
   const directors = unique((details.credits?.crew ?? []).filter((person) => person.job === "Director").map((person) => person.name)).slice(0, 3);
@@ -1048,8 +1040,8 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
   const crew = notableCrew(details.credits?.crew ?? [], directors);
   const keywordTags = unique((details.keywords?.keywords ?? []).map((keyword) => keyword.name).filter(isTagLike)).slice(0, 8);
   const tags = unique([...(seed.tags ?? []), ...keywordTags]).slice(0, 10);
-  const runtimeMinutes = details.runtime ?? parseRuntime(omdb?.Runtime) ?? 0;
-  const criticalScore = bestScore(details.vote_average, omdb);
+  const runtimeMinutes = details.runtime ?? 0;
+  const criticalScore = bestScore(details.vote_average);
 
   const record = {
     id: slugify(`${details.title}-${year || tmdbId}`),
@@ -1063,10 +1055,10 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
     runtimeMinutes,
     genres,
     tags,
-    directors: directors.length > 0 ? directors : splitPeople(omdb?.Director).slice(0, 3),
-    cast: cast.length > 0 ? cast : splitPeople(omdb?.Actors).slice(0, 6),
+    directors,
+    cast,
     crew,
-    synopsis: details.overview || omdb?.Plot || "No synopsis is available yet.",
+    synopsis: details.overview || "No synopsis is available yet.",
     posterPath: details.poster_path ?? undefined,
     backdropPath: details.backdrop_path ?? undefined,
     posterTone: toneForGenres(genres),
@@ -1076,12 +1068,8 @@ async function recordFromTmdb(seed: SeedMovie, manifest: EnrichmentManifest, opt
     trailerUrl: extractTrailerUrl(details.videos?.results ?? []),
     source: {
       tmdbUpdatedAt: fetchedAt,
-      omdbUpdatedAt: omdb ? new Date().toISOString() : undefined,
       tmdbVoteAverage: details.vote_average,
       tmdbVoteCount: details.vote_count,
-      omdbImdbRating: numberOrUndefined(omdb?.imdbRating),
-      omdbImdbVotes: parseVotes(omdb?.imdbVotes),
-      omdbMetascore: numberOrUndefined(omdb?.Metascore),
     },
   };
 
@@ -1186,21 +1174,6 @@ async function writeTmdbCache(requestKey: string, data: unknown) {
   await writeFile(path.join(cacheDir, `${requestKey}.json`), `${JSON.stringify(data)}\n`);
 }
 
-async function fetchOmdb(imdbId: string, apiKey: string) {
-  const url = new URL("https://www.omdbapi.com/");
-  url.searchParams.set("apikey", apiKey);
-  url.searchParams.set("i", imdbId);
-  url.searchParams.set("plot", "short");
-
-  const response = await fetch(url);
-  if (!response.ok) {
-    return undefined;
-  }
-
-  const data: OmdbMovie = await response.json();
-  return data.Response === "True" ? data : undefined;
-}
-
 function recordFromSeed(seed: SeedMovie): MovieRecord {
   const year = seed.year ?? 0;
   return {
@@ -1239,30 +1212,7 @@ function parseYear(date?: string | null) {
   return Number.isFinite(year) ? year : undefined;
 }
 
-function parseRuntime(value?: string) {
-  const match = value?.match(/(\d+)/);
-  return match ? Number(match[1]) : undefined;
-}
-
-function parseVotes(value?: string) {
-  if (!value || value === "N/A") {
-    return undefined;
-  }
-  const votes = Number(value.replaceAll(",", ""));
-  return Number.isFinite(votes) ? votes : undefined;
-}
-
-function bestScore(tmdbVoteAverage?: number, omdb?: OmdbMovie) {
-  const metascore = numberOrUndefined(omdb?.Metascore);
-  if (metascore) {
-    return Math.round(metascore);
-  }
-
-  const imdbRating = numberOrUndefined(omdb?.imdbRating);
-  if (imdbRating) {
-    return Math.round(imdbRating * 10);
-  }
-
+function bestScore(tmdbVoteAverage?: number) {
   return Math.round((tmdbVoteAverage ?? 0) * 10);
 }
 
@@ -1271,19 +1221,6 @@ function normalizePopularity(value?: number) {
     return 1;
   }
   return Math.max(1, Math.min(100, Math.round(value)));
-}
-
-function numberOrUndefined(value?: string | number) {
-  if (value === undefined || value === "N/A") {
-    return undefined;
-  }
-
-  const number = typeof value === "number" ? value : Number(value);
-  return Number.isFinite(number) ? number : undefined;
-}
-
-function splitPeople(value?: string) {
-  return value && value !== "N/A" ? value.split(",").map((item) => item.trim()).filter(Boolean) : [];
 }
 
 function unique<T>(items: T[]) {

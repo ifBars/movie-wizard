@@ -480,7 +480,7 @@ function DetailSourceRail({
 
       <section className="detail-rail-panel detail-rail-panel--source">
         <h2>About this data</h2>
-        <p>Movie data and images are provided by TMDB. IMDb links open externally.</p>
+        <p>This product uses the TMDB API but is not endorsed or certified by TMDB. IMDb links open externally.</p>
         <div className="detail-source-logos" aria-label="Data providers">
           <span>TMDB</span>
           <span>IMDb</span>
@@ -568,18 +568,6 @@ function getSourceRatings(movie: Movie): Array<{ label: string; value: string; m
       value: `${movie.source.tmdbVoteAverage.toFixed(1)}/10`,
       meta: movie.source.tmdbVoteCount ? `${movie.source.tmdbVoteCount.toLocaleString()} votes` : undefined,
     });
-  }
-
-  if (movie.source?.omdbImdbRating) {
-    ratings.push({
-      label: "IMDb",
-      value: `${movie.source.omdbImdbRating.toFixed(1)}/10`,
-      meta: movie.source.omdbImdbVotes ? `${movie.source.omdbImdbVotes.toLocaleString()} votes` : undefined,
-    });
-  }
-
-  if (movie.source?.omdbMetascore) {
-    ratings.push({ label: "Metascore", value: String(movie.source.omdbMetascore), meta: "critic score" });
   }
 
   return ratings;

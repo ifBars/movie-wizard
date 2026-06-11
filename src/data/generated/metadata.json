@@ -15,8 +15,7 @@
   "sources": {
     "curatedSeeds": 34,
     "tmdb": true,
-    "tmdbDailyExport": true,
-    "omdb": false
+    "tmdbDailyExport": true
   },
   "backfillLastRun": "2026-06-11T00:32:15.456Z",
   "backfillUpdated": 100,
