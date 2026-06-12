@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-12T00:32:13.914Z",
+  "generatedAt": "2026-06-12T09:19:31.654Z",
   "movies": {
     "swapped-2026": {
       "id": "swapped-2026",
@@ -20468,15 +20468,15 @@
       "crew": [
         {
           "name": "Gints Zilbalodis",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gints Zilbalodis",
           "job": "Director"
         },
         {
           "name": "Gints Zilbalodis",
           "job": "Producer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Original Music Composer"
         },
         {
           "name": "Gints Zilbalodis",
@@ -20508,7 +20508,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:07.956Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:25.822Z",
         "tmdbVoteAverage": 8.085,
         "tmdbVoteCount": 2845
       },
@@ -52596,7 +52596,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:08.005Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:25.859Z",
         "tmdbVoteAverage": 6.29,
         "tmdbVoteCount": 31
       },
@@ -91291,7 +91291,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:08.051Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:25.895Z",
         "tmdbVoteAverage": 6,
         "tmdbVoteCount": 15
       },
@@ -94477,7 +94477,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:08.100Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:25.935Z",
         "tmdbVoteAverage": 8.426,
         "tmdbVoteCount": 312
       },
@@ -102055,7 +102055,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:08.149Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:25.994Z",
         "tmdbVoteAverage": 7.302,
         "tmdbVoteCount": 43
       },
@@ -138323,7 +138323,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-12T00:32:08.735Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.025Z",
         "tmdbVoteAverage": 7.305,
         "tmdbVoteCount": 177
       },
@@ -149587,19 +149587,19 @@
       "id": "the-addams-family-2-2021",
       "crew": [
         {
-          "name": "Greg Tiernan",
-          "job": "Director"
-        },
-        {
           "name": "Conrad Vernon",
           "job": "Director"
         },
         {
-          "name": "Ben Queen",
-          "job": "Writer"
+          "name": "Greg Tiernan",
+          "job": "Director"
         },
         {
           "name": "Susanna Fogel",
+          "job": "Writer"
+        },
+        {
+          "name": "Ben Queen",
           "job": "Writer"
         },
         {
@@ -149619,18 +149619,18 @@
           "job": "Producer"
         },
         {
-          "name": "Jeff Danna",
+          "name": "Mychael Danna",
           "job": "Original Music Composer"
         },
         {
-          "name": "Mychael Danna",
+          "name": "Jeff Danna",
           "job": "Original Music Composer"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:18.930Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.062Z",
         "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 1408
+        "tmdbVoteCount": 1411
       },
       "synopsis": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters."
     },
@@ -149667,9 +149667,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:55.542Z",
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 471
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.124Z",
+        "tmdbVoteAverage": 6.954,
+        "tmdbVoteCount": 475
       },
       "synopsis": "A group of dated appliances, finding themselves stranded in a summer home that their family had just sold, decide to seek out their eight year old 'master'."
     },
@@ -149706,9 +149706,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:21.378Z",
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 1525
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.163Z",
+        "tmdbVoteAverage": 6.857,
+        "tmdbVoteCount": 1530
       },
       "synopsis": "Former pool hustler \"Fast Eddie\" Felson decides he wants to return to the game by taking a pupil. He meets talented but green Vincent Lauria and proposes a partnership. As they tour pool halls, Eddie teaches Vincent the tricks of scamming, but he eventually grows frustrated with Vincent's showboat antics, leading to an argument and a falling-out. Eddie takes up playing again and soon crosses paths with Vincent as an opponent."
     },
@@ -149779,10 +149779,6 @@
           "job": "Producer"
         },
         {
-          "name": "Lloyd Phillips",
-          "job": "Producer"
-        },
-        {
           "name": "Jerry Goldsmith",
           "job": "Original Music Composer"
         },
@@ -149796,9 +149792,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:20.717Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.202Z",
         "tmdbVoteAverage": 6.858,
-        "tmdbVoteCount": 1316
+        "tmdbVoteCount": 1319
       },
       "synopsis": "The plane carrying wealthy Charles Morse crashes down in the Alaskan wilderness. Together with the two other passengers, photographer Robert and assistant Stephen, Charles devises a plan to help them reach civilization. However, his biggest obstacle might not be the elements, or even the Kodiak bear stalking them -- it could be Robert, whom Charles suspects is having an affair with his wife and would not mind seeing him dead."
     },
@@ -150042,9 +150038,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:20.521Z",
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 2024
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.245Z",
+        "tmdbVoteAverage": 6.859,
+        "tmdbVoteCount": 2025
       },
       "synopsis": "It’s the summer before Elle heads to college, and she has a secret decision to make. Elle has been accepted into Harvard, where boyfriend Noah is matriculating, and also Berkeley, where her BFF Lee is headed and has to decide if she should stay or not."
     },
@@ -150119,18 +150115,18 @@
           "job": "Editor"
         },
         {
-          "name": "Michael Magill",
+          "name": "Walter Murch",
           "job": "Editor"
         },
         {
-          "name": "Walter Murch",
+          "name": "Michael Magill",
           "job": "Editor"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:36.683Z",
-        "tmdbVoteAverage": 6.876,
-        "tmdbVoteCount": 516
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.284Z",
+        "tmdbVoteAverage": 6.868,
+        "tmdbVoteCount": 517
       },
       "synopsis": "Successful surgeon Tomas leaves Prague for an operation, meets a young photographer named Tereza, and brings her back with him. Tereza is surprised to learn that Tomas is already having an affair with the bohemian Sabina, but when the Soviet invasion occurs, all three flee to Switzerland. Sabina begins an affair, Tom continues womanizing, and Tereza, disgusted, returns to Czechoslovakia. Realizing his mistake, Tomas decides to chase after her."
     },
@@ -150171,9 +150167,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:19.098Z",
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 763
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.322Z",
+        "tmdbVoteAverage": 6.921,
+        "tmdbVoteCount": 765
       },
       "synopsis": "Honed from childhood into a merciless killing machine by a criminal organization, assassin Sook-hee is recruited with the promise of freedom after ten years of service. However, secrets from her past destroy everything she’s worked for and now she embarks on a roaring rampage of revenge."
     },
@@ -150312,7 +150308,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-10T00:30:14.880Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.354Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 16
       },
@@ -150471,6 +150467,10 @@
           "job": "Screenplay"
         },
         {
+          "name": "Erwin Stoff",
+          "job": "Producer"
+        },
+        {
           "name": "Jonah Smith",
           "job": "Producer"
         },
@@ -150487,10 +150487,6 @@
           "job": "Producer"
         },
         {
-          "name": "Erwin Stoff",
-          "job": "Producer"
-        },
-        {
           "name": "Graham Reynolds",
           "job": "Original Music Composer"
         },
@@ -150504,9 +150500,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:14.332Z",
-        "tmdbVoteAverage": 6.802,
-        "tmdbVoteCount": 1948
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.385Z",
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 1951
       },
       "synopsis": "An undercover cop in a not-too-distant future becomes involved with a dangerous new drug and begins to lose his own identity as a result."
     },
@@ -150657,9 +150653,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:31.142Z",
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 2098
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.423Z",
+        "tmdbVoteAverage": 6.848,
+        "tmdbVoteCount": 2101
       },
       "synopsis": "Bill and Ted are high school buddies starting a band. They are also about to fail their history class—which means Ted would be sent to military school—but receive help from Rufus, a traveller from a future where their band is the foundation for a perfect society. With the use of Rufus' time machine, Bill and Ted travel to various points in history, returning with important figures to help them complete their final history presentation."
     },
@@ -150786,9 +150782,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:45.542Z",
-        "tmdbVoteAverage": 6.75,
-        "tmdbVoteCount": 1541
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.456Z",
+        "tmdbVoteAverage": 6.749,
+        "tmdbVoteCount": 1549
       },
       "synopsis": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian."
     },
@@ -150923,9 +150919,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:20.422Z",
-        "tmdbVoteAverage": 6.838,
-        "tmdbVoteCount": 4288
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.488Z",
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 4290
       },
       "synopsis": "While Sergeant John Tyree is home on two weeks leave from Germany, he meets Savannah after he dives into the ocean to retrieve Savannah's purse that had fallen off a pier. John eventually falls in love with Savannah, who promises to write to him until he returns from overseas."
     },
@@ -151142,9 +151138,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:21.597Z",
-        "tmdbVoteAverage": 6.773,
-        "tmdbVoteCount": 1299
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.527Z",
+        "tmdbVoteAverage": 6.778,
+        "tmdbVoteCount": 1302
       },
       "synopsis": "A young free-spirited Irish woman from an affluent Protestant family spontaneously befriends a street-smart commoner cheated by her family’s hostile land takeovers. They escape to America, ready to take advantage of the 19th century Oklahoma land rush."
     },
@@ -151279,9 +151275,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.622Z",
-        "tmdbVoteAverage": 6.806,
-        "tmdbVoteCount": 2777
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.559Z",
+        "tmdbVoteAverage": 6.808,
+        "tmdbVoteCount": 2780
       },
       "synopsis": "Hayley’s a smart, charming teenage girl. Jeff’s a handsome, smooth fashion photographer. An Internet chat, a coffee shop meet-up, an impromptu fashion shoot back at Jeff’s place. Jeff thinks it’s his lucky night. He’s in for a surprise."
     },
@@ -151341,9 +151337,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:51.146Z",
-        "tmdbVoteAverage": 6.762,
-        "tmdbVoteCount": 754
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.599Z",
+        "tmdbVoteAverage": 6.766,
+        "tmdbVoteCount": 757
       },
       "synopsis": "The magical kingdom of Lucis is home to the world’s last remaining Crystal, and the menacing empire of Niflheim is determined to steal it. King Regis of Lucis commands an elite force of soldiers called the Kingsglaive. Wielding their king’s magic, they fight to protect Lucis. As the overwhelming military might of the empire bears down, King Regis is faced with an impossible ultimatum – to marry his son, Prince Noctis to Princess Lunafreya of Tenebrae, captive of Niflheim, and surrender his lands to Niflheim rule.  Although the king concedes, it becomes clear that the empire will stop at nothing to achieve their devious goals, with only the Kingsglaive standing between them and world domination."
     },
@@ -151392,9 +151388,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:05.761Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.650Z",
         "tmdbVoteAverage": 6.805,
-        "tmdbVoteCount": 485
+        "tmdbVoteCount": 486
       },
       "synopsis": "Matt Ryder is convinced to drive his estranged and dying father Benjamin Ryder cross country to deliver four old rolls of Kodachrome film to the last lab in the world that can develop them before it shuts down for good. Along with Ben's nurse Zooey, the three navigate a world changing from analogue to digital while trying to put the past behind them."
     },
@@ -151521,9 +151517,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.731Z",
-        "tmdbVoteAverage": 6.768,
-        "tmdbVoteCount": 28
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.684Z",
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 29
       },
       "synopsis": "Laila is a free-spirited girl from a conservative family who firmly believes in living for the present. Qais, a spoilt brat, falls head over heels in love with her. Their families, however, are warring over property, which leads to self-destruction, pain and bleeding hearts."
     },
@@ -151770,11 +151766,11 @@
           "job": "Producer"
         },
         {
-          "name": "Ben Cosgrove",
+          "name": "Todd Wagner",
           "job": "Producer"
         },
         {
-          "name": "Todd Wagner",
+          "name": "Ben Cosgrove",
           "job": "Producer"
         },
         {
@@ -151791,9 +151787,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:36.627Z",
-        "tmdbVoteAverage": 6.766,
-        "tmdbVoteCount": 516
+        "tmdbUpdatedAt": "2026-06-12T09:19:26.980Z",
+        "tmdbVoteAverage": 6.767,
+        "tmdbVoteCount": 517
       },
       "synopsis": "A young autistic woman runs away from her caregiver in order to boldly go and deliver her 500-page Star Trek script to a writing competition in Hollywood. On an adventure full of laughter and tears, Wendy follows the guiding spirit of Mr. Spock on her journey into the unknown."
     },
@@ -151834,9 +151830,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:51.215Z",
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 854
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.634Z",
+        "tmdbVoteAverage": 6.848,
+        "tmdbVoteCount": 855
       },
       "synopsis": "During the times of King Arthur, Kayley is a brave girl who dreams of following her late father as a Knight of the Round Table. The evil Ruber wants to invade Camelot and take the throne of King Arthur, and Kayley has to stop him."
     },
@@ -151877,9 +151873,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:09.501Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.670Z",
         "tmdbVoteAverage": 6.764,
-        "tmdbVoteCount": 1525
+        "tmdbVoteCount": 1530
       },
       "synopsis": "The Double Deuce is the meanest, loudest and rowdiest bar south of the Mason-Dixon Line, and Dalton has been hired to clean it up. He might not look like much, but the Ph.D.-educated bouncer proves he's more than capable – busting the heads of troublemakers and turning the roadhouse into a jumping hot spot. But Dalton's romance with the gorgeous Dr. Clay puts him on the bad side of cutthroat local big shot Brad Wesley."
     },
@@ -151928,9 +151924,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:43.295Z",
-        "tmdbVoteAverage": 6.779,
-        "tmdbVoteCount": 1756
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.706Z",
+        "tmdbVoteAverage": 6.782,
+        "tmdbVoteCount": 1760
       },
       "synopsis": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success – which propels him into a macabre universe."
     },
@@ -152052,19 +152048,19 @@
           "job": "Producer"
         },
         {
-          "name": "Nat Faxon",
-          "job": "Screenplay"
-        },
-        {
           "name": "Jim Rash",
           "job": "Screenplay"
         },
         {
-          "name": "Jim Burke",
-          "job": "Producer"
+          "name": "Nat Faxon",
+          "job": "Screenplay"
         },
         {
           "name": "Jim Taylor",
+          "job": "Producer"
+        },
+        {
+          "name": "Jim Burke",
           "job": "Producer"
         },
         {
@@ -152081,9 +152077,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:01.390Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.742Z",
         "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 3068
+        "tmdbVoteCount": 3069
       },
       "synopsis": "With his wife Elizabeth on life support after a boating accident, Hawaiian land baron Matt King takes his daughters on a trip from Oahu to Kauai to confront a young real estate broker, who was having an affair with Elizabeth before her misfortune."
     },
@@ -152202,9 +152198,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:12.829Z",
-        "tmdbVoteAverage": 6.759,
-        "tmdbVoteCount": 4473
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.780Z",
+        "tmdbVoteAverage": 6.76,
+        "tmdbVoteCount": 4475
       },
       "synopsis": "Bianca's universe turns upside down when she learns that her high school refers to her as a ‘DUFF' (Designated Ugly Fat Friend). Hoping to erase that label, she enlists the help of a charming jock and her favorite teacher. Together they'll face the school's mean girl and remind everyone that we are all someone's DUFF… and that's totally fine."
     },
@@ -152370,9 +152366,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:15.216Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.820Z",
         "tmdbVoteAverage": 6.822,
-        "tmdbVoteCount": 2444
+        "tmdbVoteCount": 2448
       },
       "synopsis": "A writer stumbles upon a long-hidden secret when he agrees to help former British Prime Minister Adam Lang complete his memoirs on a remote island after the politician's assistant drowns in a mysterious accident."
     },
@@ -152404,11 +152400,11 @@
           "job": "Producer"
         },
         {
-          "name": "Kim Woo-taek",
+          "name": "Mo Hong-jin",
           "job": "Producer"
         },
         {
-          "name": "Mo Hong-jin",
+          "name": "Kim Woo-taek",
           "job": "Producer"
         },
         {
@@ -152421,7 +152417,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:10.326Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.856Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 189
       },
@@ -152514,18 +152510,18 @@
           "job": "Director of Photography"
         },
         {
-          "name": "Peter Honess",
+          "name": "David Rennie",
           "job": "Editor"
         },
         {
-          "name": "David Rennie",
+          "name": "Peter Honess",
           "job": "Editor"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:21.645Z",
-        "tmdbVoteAverage": 6.773,
-        "tmdbVoteCount": 1118
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.892Z",
+        "tmdbVoteAverage": 6.774,
+        "tmdbVoteCount": 1126
       },
       "synopsis": "Powerful businessman Russ Duritz is self-absorbed and immersed in his work. But by the magic of the moon, he meets Rusty, a chubby, charming 8-year-old version of himself who can't believe he could turn out so badly – with no life and no dog. With Rusty's help, Russ is able to reconcile the person he used to dream of being with the man he's actually become."
     },
@@ -152613,7 +152609,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:38.479Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.926Z",
         "tmdbVoteAverage": 6.814,
         "tmdbVoteCount": 488
       },
@@ -152631,7 +152627,7 @@
           "job": "Screenplay"
         },
         {
-          "name": "Jessica Bendinger",
+          "name": "Michelle Chydzik Sowa",
           "job": "Producer"
         },
         {
@@ -152639,11 +152635,11 @@
           "job": "Producer"
         },
         {
-          "name": "Paul Brooks",
+          "name": "Jessica Bendinger",
           "job": "Producer"
         },
         {
-          "name": "Michelle Chydzik Sowa",
+          "name": "Paul Brooks",
           "job": "Producer"
         },
         {
@@ -152660,9 +152656,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:15.168Z",
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 1257
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.960Z",
+        "tmdbVoteAverage": 6.815,
+        "tmdbVoteCount": 1259
       },
       "synopsis": "With the wedding of her younger sister fast approaching, Kat Ellis faces the undesirable prospect of traveling alone to London for the ceremony. While this is bad enough, Jeffrey, the man who left her as they moved closer to marriage, happens to be the groom's best man. Determined to show everyone -- most of all Jeffrey -- that her romantic life is as full and thrilling as ever, Kat hires a charming male escort as her date."
     },
@@ -152699,9 +152695,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:21.615Z",
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 1914
+        "tmdbUpdatedAt": "2026-06-12T09:19:27.998Z",
+        "tmdbVoteAverage": 6.774,
+        "tmdbVoteCount": 1923
       },
       "synopsis": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought."
     },
@@ -152793,9 +152789,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:15.082Z",
-        "tmdbVoteAverage": 6.78,
-        "tmdbVoteCount": 1521
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.045Z",
+        "tmdbVoteAverage": 6.782,
+        "tmdbVoteCount": 1525
       },
       "synopsis": "Marlo, a mother of three, including a newborn, is gifted a night nanny by her brother. Hesitant at first, she quickly forms a bond with the thoughtful, surprising, and sometimes challenging nanny named Tully."
     },
@@ -153016,9 +153012,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:56.274Z",
-        "tmdbVoteAverage": 6.706,
-        "tmdbVoteCount": 795
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.085Z",
+        "tmdbVoteAverage": 6.708,
+        "tmdbVoteCount": 797
       },
       "synopsis": "In a soon to be demolished block of apartments, the residents resist the criminal methods used to force them to leave so a greedy tycoon can build his new skyscraper. When tiny mechanical aliens land for a recharge, they decide to stay and help out."
     },
@@ -153133,7 +153129,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:53.261Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.116Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 17
       },
@@ -153258,9 +153254,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:50.278Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 1802
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.155Z",
+        "tmdbVoteAverage": 6.676,
+        "tmdbVoteCount": 1806
       },
       "synopsis": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth."
     },
@@ -153328,9 +153324,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.639Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.192Z",
         "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 1264
+        "tmdbVoteCount": 1267
       },
       "synopsis": "Television made him famous, but his biggest hits happened off screen. Television producer by day, CIA assassin by night, Chuck Barris was recruited by the CIA at the height of his TV career and trained to become a covert operative. Or so Barris said."
     },
@@ -153425,9 +153421,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:00.135Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.255Z",
         "tmdbVoteAverage": 6.682,
-        "tmdbVoteCount": 808
+        "tmdbVoteCount": 812
       },
       "synopsis": "Vlogger Keith Gill sinks his life savings into GameStop stock and posts about it. When social media starts blowing up, so do his life and the lives of everyone following him. As a stock tip becomes a movement, everyone gets rich—until the billionaires fight back, and both sides find their worlds turned upside down."
     },
@@ -153443,11 +153439,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Sally Field",
+          "name": "Kevin McCormick",
           "job": "Producer"
         },
         {
-          "name": "Kevin McCormick",
+          "name": "Sally Field",
           "job": "Producer"
         },
         {
@@ -153468,8 +153464,8 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:38.204Z",
-        "tmdbVoteAverage": 6.709,
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.289Z",
+        "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 489
       },
       "synopsis": "After she discovers that her boyfriend has betrayed her, Hilary O'Neil is looking for a new start and a new job. She begins to work as a private nurse for a young man suffering from blood cancer. Slowly, they fall in love, but they always know their love cannot last because he is destined to die."
@@ -153570,9 +153566,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:43.394Z",
-        "tmdbVoteAverage": 6.689,
-        "tmdbVoteCount": 2645
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.333Z",
+        "tmdbVoteAverage": 6.692,
+        "tmdbVoteCount": 2656
       },
       "synopsis": "After a series of brutal slayings, a teen and her friends take on an evil force that's plagued their notorious town for centuries."
     },
@@ -153791,12 +153787,12 @@
       "id": "lilo-stitch-2-stitch-has-a-glitch-2005",
       "crew": [
         {
-          "name": "Michael LaBash",
+          "name": "Tony Leondis",
           "job": "Director"
         },
         {
-          "name": "Tony Leondis",
-          "job": "Director"
+          "name": "Michael LaBash",
+          "job": "Writer"
         },
         {
           "name": "Tony Leondis",
@@ -153804,14 +153800,14 @@
         },
         {
           "name": "Michael LaBash",
+          "job": "Director"
+        },
+        {
+          "name": "Alexa Junge",
           "job": "Writer"
         },
         {
           "name": "Eddie Guzelian",
-          "job": "Writer"
-        },
-        {
-          "name": "Alexa Junge",
           "job": "Writer"
         },
         {
@@ -153828,9 +153824,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:17.310Z",
-        "tmdbVoteAverage": 6.691,
-        "tmdbVoteCount": 1625
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.364Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 1627
       },
       "synopsis": "Now, we find the rowdy extraterrestrial getting used to life with his new ʻohana. However, a malfunction in the ultimate creation of Dr. Jumba soon emerges, which reinstates his destructive programming and threatens to both ruin his friendship with Lilo and to short him out for good!"
     },
@@ -153897,6 +153893,10 @@
           "job": "Screenplay"
         },
         {
+          "name": "Evan Goldberg",
+          "job": "Producer"
+        },
+        {
           "name": "Seth Rogen",
           "job": "Producer"
         },
@@ -153913,10 +153913,6 @@
           "job": "Producer"
         },
         {
-          "name": "Evan Goldberg",
-          "job": "Producer"
-        },
-        {
           "name": "A.J. Dix",
           "job": "Producer"
         },
@@ -153926,9 +153922,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:04.335Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 2887
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.407Z",
+        "tmdbVoteAverage": 6.706,
+        "tmdbVoteCount": 2889
       },
       "synopsis": "Journalist Fred Flarsky reunites with his childhood crush, Charlotte Field, now one of the most influential women in the world. As she prepares to make a run for the Presidency, Charlotte hires Fred as her speechwriter — much to the dismay of her trusted advisers."
     },
@@ -153944,15 +153940,15 @@
           "job": "Screenplay"
         },
         {
-          "name": "Scott Rudin",
-          "job": "Producer"
-        },
-        {
           "name": "Robert De Niro",
           "job": "Producer"
         },
         {
           "name": "Jane Rosenthal",
+          "job": "Producer"
+        },
+        {
+          "name": "Scott Rudin",
           "job": "Producer"
         },
         {
@@ -153969,9 +153965,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:56.287Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.441Z",
         "tmdbVoteAverage": 6.714,
-        "tmdbVoteCount": 631
+        "tmdbVoteCount": 632
       },
       "synopsis": "A leukemia patient attempts to end a 20-year feud with her sister to get her bone marrow."
     },
@@ -154123,19 +154119,19 @@
           "job": "Writer"
         },
         {
-          "name": "Fred Berger",
-          "job": "Producer"
-        },
-        {
           "name": "Oscar Isaac",
           "job": "Producer"
         },
         {
-          "name": "Brian Kavanaugh-Jones",
+          "name": "Fred Berger",
           "job": "Producer"
         },
         {
           "name": "Jason Spire",
+          "job": "Producer"
+        },
+        {
+          "name": "Brian Kavanaugh-Jones",
           "job": "Producer"
         },
         {
@@ -154152,7 +154148,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:09.744Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.483Z",
         "tmdbVoteAverage": 6.681,
         "tmdbVoteCount": 1097
       },
@@ -154297,7 +154293,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.688Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.518Z",
         "tmdbVoteAverage": 6.747,
         "tmdbVoteCount": 1480
       },
@@ -154539,9 +154535,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.780Z",
-        "tmdbVoteAverage": 6.673,
-        "tmdbVoteCount": 364
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.560Z",
+        "tmdbVoteAverage": 6.674,
+        "tmdbVoteCount": 365
       },
       "synopsis": "At 11:30pm on October 11, 1975, a ferocious troupe of young comedians and writers changed television forever. This is the story of what happened behind the scenes in the 90 minutes leading up to the first broadcast of Saturday Night Live."
     },
@@ -154590,7 +154586,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:54.254Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.619Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 362
       },
@@ -154692,9 +154688,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:36.268Z",
-        "tmdbVoteAverage": 6.663,
-        "tmdbVoteCount": 541
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.656Z",
+        "tmdbVoteAverage": 6.655,
+        "tmdbVoteCount": 547
       },
       "synopsis": "In 1985, while working as a coal merchant to support his family, Bill Furlong discovers disturbing secrets kept by the local convent and uncovers truths of his own; forcing him to confront his past and the complicit silence of a small Irish town controlled by the Catholic Church."
     },
@@ -154927,9 +154923,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:15.003Z",
-        "tmdbVoteAverage": 6.732,
-        "tmdbVoteCount": 386
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.695Z",
+        "tmdbVoteAverage": 6.738,
+        "tmdbVoteCount": 387
       },
       "synopsis": "Rose Morgan, who still lives with her mother, is a professor of Romantic Literature who desperately longs for passion in her life. Gregory Larkin, a mathematics professor, has been burned by passionate relationships and longs for a sexless union based on friendship and respect."
     },
@@ -155009,9 +155005,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:33.060Z",
-        "tmdbVoteAverage": 6.699,
-        "tmdbVoteCount": 1073
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.745Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 1075
       },
       "synopsis": "Maverick old-guard coach Jimmy McGinty is hired in the wake of a players' strike to help the Washington Sentinels advance to the playoffs. But that impossible dream hinges on whether his replacements can hunker down and do the job. So, McGinty dusts off his secret dossier of ex-players who never got a chance (or screwed up the one they were given) and knits together a bad-dream team of guys who just may give the Sentinels their title shot."
     },
@@ -155322,9 +155318,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:14.092Z",
-        "tmdbVoteAverage": 6.655,
-        "tmdbVoteCount": 596
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.783Z",
+        "tmdbVoteAverage": 6.661,
+        "tmdbVoteCount": 597
       },
       "synopsis": "Uncle Drew recruits a squad of older basketball players to return to the court to compete in a tournament."
     },
@@ -155369,9 +155365,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:55.592Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.821Z",
         "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 2073
+        "tmdbVoteCount": 2076
       },
       "synopsis": "Medical-school dropout Wallace has been repeatedly burned by bad relationships. So while everyone around him, including his roommate Allan, seems to be finding the perfect partner, Wallace decides to put his love life on hold. It is then that he meets Chantry, an animator who lives with her longtime boyfriend Ben. Wallace and Chantry form an instant connection, striking up a close friendship. Still, there is no denying the chemistry between them, leading the pair to wonder, what if the love of your life is actually your best friend?"
     },
@@ -155465,11 +155461,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Nicole King",
+          "name": "Ben Everard",
           "job": "Producer"
         },
         {
-          "name": "Ben Everard",
+          "name": "Jennifer Garner",
           "job": "Producer"
         },
         {
@@ -155477,11 +155473,11 @@
           "job": "Producer"
         },
         {
-          "name": "Daniel Rappaport",
+          "name": "Nicole King",
           "job": "Producer"
         },
         {
-          "name": "Jennifer Garner",
+          "name": "Daniel Rappaport",
           "job": "Producer"
         },
         {
@@ -155498,9 +155494,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:15.176Z",
-        "tmdbVoteAverage": 6.681,
-        "tmdbVoteCount": 1295
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.855Z",
+        "tmdbVoteAverage": 6.678,
+        "tmdbVoteCount": 1296
       },
       "synopsis": "A mom and dad who usually say no decide to say yes to their kids' wildest requests — with a few ground rules — on a whirlwind day of fun and adventure."
     },
@@ -155541,7 +155537,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:12.350Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.892Z",
         "tmdbVoteAverage": 6.744,
         "tmdbVoteCount": 712
       },
@@ -155737,9 +155733,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:08.604Z",
-        "tmdbVoteAverage": 6.584,
-        "tmdbVoteCount": 978
+        "tmdbUpdatedAt": "2026-06-12T09:19:28.931Z",
+        "tmdbVoteAverage": 6.587,
+        "tmdbVoteCount": 980
       },
       "synopsis": "Jamaican singer-songwriter Bob Marley overcomes adversity to become the most famous reggae musician in the world."
     },
@@ -156101,7 +156097,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:47.573Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.511Z",
         "tmdbVoteAverage": 6.616,
         "tmdbVoteCount": 229
       },
@@ -156140,7 +156136,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:10.260Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.561Z",
         "tmdbVoteAverage": 6.64,
         "tmdbVoteCount": 1473
       },
@@ -156163,7 +156159,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.751Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.598Z",
         "tmdbVoteAverage": 6.63,
         "tmdbVoteCount": 100
       },
@@ -156232,15 +156228,15 @@
           "job": "Writer"
         },
         {
+          "name": "Miles Millar",
+          "job": "Producer"
+        },
+        {
           "name": "Billy Ray Cyrus",
           "job": "Producer"
         },
         {
           "name": "Alfred Gough",
-          "job": "Producer"
-        },
-        {
-          "name": "Miles Millar",
           "job": "Producer"
         },
         {
@@ -156257,9 +156253,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:30.984Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.631Z",
         "tmdbVoteAverage": 6.59,
-        "tmdbVoteCount": 2105
+        "tmdbVoteCount": 2106
       },
       "synopsis": "When Miley Stewart (aka pop-star Hannah Montana) gets too caught up in the superstar celebrity lifestyle, her dad decides it's time for a total change of scenery. But sweet niblets! Miley must trade in all the glitz and glamour of Hollywood for some ol' blue jeans on the family farm in Tennessee, and question if she can be both Miley Stewart and Hannah Montana."
     },
@@ -156616,7 +156612,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.590Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.669Z",
         "tmdbVoteAverage": 6.581,
         "tmdbVoteCount": 254
       },
@@ -156881,11 +156877,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Sean Robins",
+          "name": "Todd Garner",
           "job": "Producer"
         },
         {
-          "name": "Todd Garner",
+          "name": "Sean Robins",
           "job": "Producer"
         },
         {
@@ -156902,9 +156898,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:16.453Z",
-        "tmdbVoteAverage": 6.587,
-        "tmdbVoteCount": 756
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.708Z",
+        "tmdbVoteAverage": 6.581,
+        "tmdbVoteCount": 757
       },
       "synopsis": "A crew of rugged firefighters meet their match when attempting to rescue three rambunctious kids."
     },
@@ -156980,9 +156976,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:31.312Z",
-        "tmdbVoteAverage": 6.594,
-        "tmdbVoteCount": 691
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.750Z",
+        "tmdbVoteAverage": 6.587,
+        "tmdbVoteCount": 693
       },
       "synopsis": "The story of the Tuskegee Airmen, the first African-American pilots to fly in a combat squadron during World War II."
     },
@@ -157054,9 +157050,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:51.063Z",
-        "tmdbVoteAverage": 6.609,
-        "tmdbVoteCount": 686
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.783Z",
+        "tmdbVoteAverage": 6.611,
+        "tmdbVoteCount": 687
       },
       "synopsis": "Seen-it-all New York detective Frank Keller is unsettled - he has done twenty years on the force and could retire, and he hasn't come to terms with his wife leaving him for a colleague. Joining up with an officer from another part of town to investigate a series of murders linked by the lonely hearts columns he finds he is getting seriously and possibly dangerously involved with Helen, one of the main suspects."
     },
@@ -157116,9 +157112,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:49.162Z",
-        "tmdbVoteAverage": 6.641,
-        "tmdbVoteCount": 191
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.818Z",
+        "tmdbVoteAverage": 6.673,
+        "tmdbVoteCount": 194
       },
       "synopsis": "Hiding out with his son Taylor on the Mexican coast, Nero hopes to put his violent Special Forces career behind him. But after Nero’s home is attacked and Taylor is abducted, the mysterious Mzamo orders Nero to slaughter the members of three rival crime syndicates. If he fails, Taylor will die. Now, with bullets flying and bodies dropping as Nero completes his mission, he races to find Mzamo’s hideout and seek revenge."
     },
@@ -157307,9 +157303,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:49.103Z",
-        "tmdbVoteAverage": 6.595,
-        "tmdbVoteCount": 1287
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.850Z",
+        "tmdbVoteAverage": 6.593,
+        "tmdbVoteCount": 1289
       },
       "synopsis": "A man vows to bring justice to those responsible for his wife's death while protecting the only family he has left, his daughter."
     },
@@ -157372,15 +157368,15 @@
           "job": "Director"
         },
         {
-          "name": "Gregory Bernstein",
-          "job": "Screenplay"
-        },
-        {
           "name": "James D. Solomon",
           "job": "Screenplay"
         },
         {
-          "name": "Robert Stone",
+          "name": "Gregory Bernstein",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Brian Peter Falk",
           "job": "Producer"
         },
         {
@@ -157388,7 +157384,7 @@
           "job": "Producer"
         },
         {
-          "name": "Brian Peter Falk",
+          "name": "Robert Stone",
           "job": "Producer"
         },
         {
@@ -157405,9 +157401,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:54.168Z",
-        "tmdbVoteAverage": 6.562,
-        "tmdbVoteCount": 497
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.885Z",
+        "tmdbVoteAverage": 6.561,
+        "tmdbVoteCount": 498
       },
       "synopsis": "Mary Surratt is the lone female charged as a co-conspirator in the assassination trial of Abraham Lincoln. As the whole nation turns against her, she is forced to rely on her reluctant lawyer to uncover the truth and save her life."
     },
@@ -157530,7 +157526,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:36.551Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.945Z",
         "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 539
       },
@@ -157600,9 +157596,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-06T10:06:37.576Z",
-        "tmdbVoteAverage": 6.6,
-        "tmdbVoteCount": 30
+        "tmdbUpdatedAt": "2026-06-12T09:19:29.981Z",
+        "tmdbVoteAverage": 6.641,
+        "tmdbVoteCount": 32
       },
       "synopsis": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion quickly turns into a debate about societal and personal conflicts, threatening to tear the club apart."
     },
@@ -158261,8 +158257,8 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:51.180Z",
-        "tmdbVoteAverage": 6.596,
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.018Z",
+        "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 773
       },
       "synopsis": "Woody Woodpecker enters a turf war with a big city lawyer wanting to tear down his home in an effort to build a house to flip."
@@ -158361,11 +158357,11 @@
           "job": "Director of Photography"
         },
         {
-          "name": "Manfred Wong Man-Chun",
+          "name": "Chau Ting",
           "job": "Writer"
         },
         {
-          "name": "Chau Ting",
+          "name": "Manfred Wong Man-Chun",
           "job": "Writer"
         },
         {
@@ -158378,7 +158374,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.747Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.054Z",
         "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 55
       },
@@ -158451,7 +158447,7 @@
           "job": "Writer"
         },
         {
-          "name": "Randall Emmett",
+          "name": "Jim Van Wyck",
           "job": "Producer"
         },
         {
@@ -158463,7 +158459,7 @@
           "job": "Producer"
         },
         {
-          "name": "Jim Van Wyck",
+          "name": "Randall Emmett",
           "job": "Producer"
         },
         {
@@ -158480,9 +158476,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:31.121Z",
-        "tmdbVoteAverage": 6.456,
-        "tmdbVoteCount": 2099
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.132Z",
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 2104
       },
       "synopsis": "An aging cop is assigned the ordinary task of escorting a fast-talking witness from police custody to a courthouse, but they find themselves running the gauntlet as other forces try to prevent them from getting there."
     },
@@ -158655,7 +158651,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:12.224Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.194Z",
         "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 21
       },
@@ -158741,9 +158737,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.620Z",
-        "tmdbVoteAverage": 6.544,
-        "tmdbVoteCount": 1642
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.239Z",
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 1643
       },
       "synopsis": "A Texas congressman sets a series of events in motion when he conspires with a CIA operative to aid Afghan mujahideen rebels fighting the Soviets."
     },
@@ -158759,11 +158755,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Kosuke Oshida",
+          "name": "Keisuke Sanpei",
           "job": "Producer"
         },
         {
-          "name": "Keisuke Sanpei",
+          "name": "Kosuke Oshida",
           "job": "Producer"
         },
         {
@@ -158780,7 +158776,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:47.216Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.276Z",
         "tmdbVoteAverage": 6.498,
         "tmdbVoteCount": 257
       },
@@ -158970,9 +158966,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:51.344Z",
-        "tmdbVoteAverage": 6.5,
-        "tmdbVoteCount": 591
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.310Z",
+        "tmdbVoteAverage": 6.531,
+        "tmdbVoteCount": 593
       },
       "synopsis": "A Super Namekian named Slug comes to invade Earth. But the Z Warriors do their best to stop Slug and his gang."
     },
@@ -159054,15 +159050,15 @@
           "job": "Screenplay"
         },
         {
-          "name": "Carol Baum",
-          "job": "Producer"
-        },
-        {
           "name": "Nancy Meyers",
           "job": "Producer"
         },
         {
           "name": "Howard Rosenman",
+          "job": "Producer"
+        },
+        {
+          "name": "Carol Baum",
           "job": "Producer"
         },
         {
@@ -159079,9 +159075,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:22.395Z",
-        "tmdbVoteAverage": 6.5,
-        "tmdbVoteCount": 1490
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.347Z",
+        "tmdbVoteAverage": 6.478,
+        "tmdbVoteCount": 1495
       },
       "synopsis": "George Banks is an ordinary, middle-class man whose 22 year-old daughter Annie has decided to marry a man from an upper-class family, but George can't think of what life would be like without his daughter. His wife tries to make him happy for Annie, but when the wedding takes place at their home and a foreign wedding planner takes over the ceremony, he becomes slightly insane."
     },
@@ -159122,9 +159118,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:12.149Z",
-        "tmdbVoteAverage": 6.517,
-        "tmdbVoteCount": 1059
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.387Z",
+        "tmdbVoteAverage": 6.52,
+        "tmdbVoteCount": 1060
       },
       "synopsis": "Bertram Pincus, a cranky, people-hating Manhattan dentist, develops the unwelcome ability to see dead people. Really annoying dead people. Even worse, they all want something from him, particularly Frank Herlihy, a smooth-talking ghost, who pesters him into a romantic scheme involving his widow Gwen. They are soon entangled in a hilarious predicament between the now and the hereafter!"
     },
@@ -159173,9 +159169,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:09.618Z",
-        "tmdbVoteAverage": 6.487,
-        "tmdbVoteCount": 231
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.436Z",
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 232
       },
       "synopsis": "When a job goes horribly wrong, an ex-cop and family man who moonlights as a mob henchman has one night to get his family out of the city."
     },
@@ -159466,9 +159462,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:55.762Z",
-        "tmdbVoteAverage": 6.539,
-        "tmdbVoteCount": 607
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.472Z",
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 608
       },
       "synopsis": "Lilo, Stitch, Jumba, and Pleakley have finally caught all of Jumba's genetic experiments and found the one true place where each of them belongs. Stitch, Jumba and Pleakley are offered positions in the Galactic Alliance, turning them down so they can stay on Earth with Lilo, but Lilo realizes her alien friends have places where they belong – and it's finally time to say \"aloha\"."
     },
@@ -159570,11 +159566,11 @@
           "job": "Writer"
         },
         {
-          "name": "Lorenzo Mieli",
+          "name": "Juan de Dios Larraín",
           "job": "Producer"
         },
         {
-          "name": "Juan de Dios Larraín",
+          "name": "Lorenzo Mieli",
           "job": "Producer"
         },
         {
@@ -159599,9 +159595,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:39:48.576Z",
-        "tmdbVoteAverage": 6.455,
-        "tmdbVoteCount": 466
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.506Z",
+        "tmdbVoteAverage": 6.464,
+        "tmdbVoteCount": 468
       },
       "synopsis": "Maria Callas, the world's greatest opera singer, lives the last days of her life in 1970s Paris, as she confronts her identity and life."
     },
@@ -159887,19 +159883,19 @@
           "job": "Writer"
         },
         {
-          "name": "Paul Reubens",
-          "job": "Writer"
-        },
-        {
           "name": "Michael Varhol",
           "job": "Writer"
         },
         {
-          "name": "Robert Shapiro",
-          "job": "Producer"
+          "name": "Paul Reubens",
+          "job": "Writer"
         },
         {
           "name": "Richard Gilbert Abramson",
+          "job": "Producer"
+        },
+        {
+          "name": "Robert Shapiro",
           "job": "Producer"
         },
         {
@@ -159916,9 +159912,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:22.339Z",
-        "tmdbVoteAverage": 6.478,
-        "tmdbVoteCount": 847
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.550Z",
+        "tmdbVoteAverage": 6.48,
+        "tmdbVoteCount": 848
       },
       "synopsis": "The eccentric and childish Pee-wee Herman embarks on a big adventure when his beloved bicycle is stolen. Armed with information from a fortune-teller and a relentless obsession with his prized possession, Pee-wee encounters a host of odd characters and bizarre situations as he treks across the country to recover his bike."
     },
@@ -160040,7 +160036,19 @@
           "job": "Writer"
         },
         {
+          "name": "Takemoto Mori",
+          "job": "Producer"
+        },
+        {
           "name": "Choji Yoshikawa",
+          "job": "Producer"
+        },
+        {
+          "name": "Shukichi Kanda",
+          "job": "Producer"
+        },
+        {
+          "name": "Toshiaki Okuno",
           "job": "Producer"
         },
         {
@@ -160052,24 +160060,12 @@
           "job": "Producer"
         },
         {
-          "name": "Takemoto Mori",
-          "job": "Producer"
-        },
-        {
-          "name": "Toshiaki Okuno",
-          "job": "Producer"
-        },
-        {
-          "name": "Shukichi Kanda",
-          "job": "Producer"
-        },
-        {
           "name": "Shinji Miyazaki",
           "job": "Original Music Composer"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:14.553Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.584Z",
         "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 223
       },
@@ -160143,9 +160139,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:12.260Z",
-        "tmdbVoteAverage": 6.519,
-        "tmdbVoteCount": 1951
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.635Z",
+        "tmdbVoteAverage": 6.516,
+        "tmdbVoteCount": 1954
       },
       "synopsis": "Nicolas Bannister, a rugged and solitary veteran living in a near-future Miami flooded by rising seas, is an expert in a dangerous occupation: he offers clients the chance to relive any memory they desire. His life changes when he meets a mysterious young woman named Mae. What begins as a simple matter of lost and found becomes a passionate love affair. But when a different client's memories implicate Mae in a series of violent crimes, Bannister must delve through the dark world of the past to uncover the truth about the woman he fell for."
     },
@@ -160208,7 +160204,7 @@
           "job": "Screenplay"
         },
         {
-          "name": "Neal H. Moritz",
+          "name": "Stephen Levinson",
           "job": "Producer"
         },
         {
@@ -160216,7 +160212,7 @@
           "job": "Producer"
         },
         {
-          "name": "Stephen Levinson",
+          "name": "Neal H. Moritz",
           "job": "Producer"
         },
         {
@@ -160233,9 +160229,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:19.688Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.682Z",
         "tmdbVoteAverage": 6.514,
-        "tmdbVoteCount": 2511
+        "tmdbVoteCount": 2515
       },
       "synopsis": "Spenser, a former Boston patrolman who just got out from prison, teams up with Hawk, an aspiring fighter, to unravel the truth behind the death of two police officers."
     },
@@ -160319,9 +160315,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:35.789Z",
-        "tmdbVoteAverage": 6.459,
-        "tmdbVoteCount": 562
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.723Z",
+        "tmdbVoteAverage": 6.46,
+        "tmdbVoteCount": 565
       },
       "synopsis": "When the bizarre mass suicide of 54 high school girls throwing themselves in front of a subway train appears to instigate a string of suicides around the country, Detective Kuroda strives to find the answer, which isn't as simple as he had hoped."
     },
@@ -160393,9 +160389,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:22.203Z",
-        "tmdbVoteAverage": 6.479,
-        "tmdbVoteCount": 501
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.760Z",
+        "tmdbVoteAverage": 6.478,
+        "tmdbVoteCount": 502
       },
       "synopsis": "When Keira Woods' daughter mysteriously vanishes in the cellar of their new house in the country, she soon discovers there is an ancient and powerful entity controlling their home that she will have to face or risk losing her family's souls forever."
     },
@@ -160440,9 +160436,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:34.445Z",
-        "tmdbVoteAverage": 6.538,
-        "tmdbVoteCount": 382
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.797Z",
+        "tmdbVoteAverage": 6.537,
+        "tmdbVoteCount": 383
       },
       "synopsis": "As World War II rages, the elite Sixth Ranger Battalion is given a mission of heroic proportions: push 30 miles behind enemy lines and liberate over 500 American prisoners of war."
     },
@@ -160651,9 +160647,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:13.715Z",
-        "tmdbVoteAverage": 6.507,
-        "tmdbVoteCount": 559
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.833Z",
+        "tmdbVoteAverage": 6.512,
+        "tmdbVoteCount": 561
       },
       "synopsis": "The angel Gabriel comes to Earth to collect a soul which will end the stalemated war in Heaven. However, it is hidden inside of a Native American girl and only a former priest and a schoolteacher can stop him."
     },
@@ -160694,9 +160690,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.816Z",
-        "tmdbVoteAverage": 6.452,
-        "tmdbVoteCount": 955
+        "tmdbUpdatedAt": "2026-06-12T09:19:30.871Z",
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 959
       },
       "synopsis": "Gail and Tom Hartman are struggling to stay together and decide to take a white-water rafting holiday adventure in Montana for their son Roarke's 10th birthday, only to meet up with a pair of mysterious men whose desperation grows, turning their vacation into a nightmare."
     },
@@ -160716,15 +160712,15 @@
           "job": "Screenplay"
         },
         {
+          "name": "Charles Gordon",
+          "job": "Producer"
+        },
+        {
           "name": "Lloyd Levin",
           "job": "Producer"
         },
         {
           "name": "Lawrence Gordon",
-          "job": "Producer"
-        },
-        {
-          "name": "Charles Gordon",
           "job": "Producer"
         },
         {
@@ -160741,8 +160737,8 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:22.186Z",
-        "tmdbVoteAverage": 6.48,
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.200Z",
+        "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 1040
       },
       "synopsis": "A stunt pilot comes across a prototype jetpack that gives him the ability to fly. However, evil forces of the world also want this jetpack at any cost."
@@ -160839,9 +160835,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:07.429Z",
-        "tmdbVoteAverage": 6.522,
-        "tmdbVoteCount": 2297
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.257Z",
+        "tmdbVoteAverage": 6.525,
+        "tmdbVoteCount": 2302
       },
       "synopsis": "On Christmas Eve, divorced dad Scott Calvin and his son discover Santa Claus has fallen off their roof. When Scott takes the reins of the magical sleigh, he finds he is now the new Santa, and must convince a world of disbelievers, including himself."
     },
@@ -160896,11 +160892,11 @@
           "job": "Director"
         },
         {
-          "name": "Tsang Kan-Cheong",
+          "name": "Sze-To Cheuk-Hon",
           "job": "Screenplay"
         },
         {
-          "name": "Sze-To Cheuk-Hon",
+          "name": "Tsang Kan-Cheong",
           "job": "Screenplay"
         },
         {
@@ -160929,9 +160925,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T04:42:22.039Z",
-        "tmdbVoteAverage": 6.5,
-        "tmdbVoteCount": 310
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.296Z",
+        "tmdbVoteAverage": 6.492,
+        "tmdbVoteCount": 311
       },
       "synopsis": "The Sorcerer and the White Snake is an ancient Chinese fable about a woman demon who falls in love with a mortal is brought to life through the latest advances in CGI and action techniques."
     },
@@ -161199,7 +161195,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:20.435Z",
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.336Z",
         "tmdbVoteAverage": 6.453,
         "tmdbVoteCount": 200
       },
@@ -161268,11 +161264,11 @@
           "job": "Director of Photography"
         },
         {
-          "name": "Manfred Wong Man-Chun",
+          "name": "Sharon Hui",
           "job": "Writer"
         },
         {
-          "name": "Sharon Hui",
+          "name": "Manfred Wong Man-Chun",
           "job": "Writer"
         },
         {
@@ -161289,8 +161285,8 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:52.763Z",
-        "tmdbVoteAverage": 6.525,
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.370Z",
+        "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 59
       },
       "synopsis": "Chicken is back in exile. Hung Hing, a triad, is trying to ally with Chicken's new group, the Taiwanese triad San Luen. A contest is on in Hong Kong. The winner will head the Causeway Bay branch."
@@ -161586,9 +161582,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:21.987Z",
-        "tmdbVoteAverage": 6.372,
-        "tmdbVoteCount": 270
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.407Z",
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 273
       },
       "synopsis": "This remake of the beloved classic follows the raucous exploits of a blended family of 12, the Bakers, as they navigate a hectic home life while simultaneously managing their family business."
     },
@@ -162008,9 +162004,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-02T10:57:50.997Z",
-        "tmdbVoteAverage": 6.393,
-        "tmdbVoteCount": 634
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.444Z",
+        "tmdbVoteAverage": 6.392,
+        "tmdbVoteCount": 637
       },
       "synopsis": "When a sprite named Crysta shrinks a human boy, Zak, down to her size, he vows to help the magical fairy folk stop a greedy logging company from destroying their home: the pristine rainforest known as FernGully. Zak and his new friends fight to defend FernGully from lumberjacks — and the vengeful spirit they accidentally unleash after chopping down a magic tree."
     },
@@ -162104,11 +162100,11 @@
           "job": "Writer"
         },
         {
-          "name": "Raphael Margules",
+          "name": "J.D. Lifshitz",
           "job": "Producer"
         },
         {
-          "name": "J.D. Lifshitz",
+          "name": "Raphael Margules",
           "job": "Producer"
         },
         {
@@ -162133,9 +162129,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-06-04T04:18:02.320Z",
-        "tmdbVoteAverage": 6.371,
-        "tmdbVoteCount": 283
+        "tmdbUpdatedAt": "2026-06-12T09:19:31.478Z",
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 286
       },
       "synopsis": "Suburban dad Craig falls hard for his charismatic new neighbor Austin, and his attempts to make an adult male friend threatens to ruin both of their lives."
     },
