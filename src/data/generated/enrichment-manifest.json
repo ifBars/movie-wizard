@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-06-13T10:16:59.490Z",
+  "generatedAt": "2026-06-14T10:31:18.247Z",
   "tmdbIds": {
     "3": {
       "recordId": "shadows-in-paradise-1986",
@@ -537,6 +537,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "177": {
+      "recordId": "the-fisher-king-1991",
+      "lastFetchedAt": "2026-06-14T10:31:12.881Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "184": {
       "recordId": "jackie-brown-1997",
       "lastFetchedAt": "2026-06-13T10:16:40.433Z",
@@ -594,6 +600,12 @@
     "199": {
       "recordId": "star-trek-first-contact-1996",
       "lastFetchedAt": "2026-06-07T10:16:24.897Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "200": {
+      "recordId": "star-trek-insurrection-1998",
+      "lastFetchedAt": "2026-06-14T10:31:12.188Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -660,6 +672,12 @@
     "223": {
       "recordId": "rebecca-1940",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "226": {
+      "recordId": "boys-don-t-cry-1999",
+      "lastFetchedAt": "2026-06-14T10:31:13.896Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -750,6 +768,12 @@
     "246": {
       "recordId": "zatoichi-2003",
       "lastFetchedAt": "2026-06-09T10:36:30.535Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "251": {
+      "recordId": "ghost-1990",
+      "lastFetchedAt": "2026-06-14T10:31:06.661Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -870,6 +894,12 @@
     "297": {
       "recordId": "meet-joe-black-1998",
       "lastFetchedAt": "2026-06-07T00:27:17.229Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "299": {
+      "recordId": "ocean-s-eleven-1960",
+      "lastFetchedAt": "2026-06-14T10:31:10.006Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -1659,6 +1689,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "626": {
+      "recordId": "un-chien-andalou-1929",
+      "lastFetchedAt": "2026-06-14T10:31:16.105Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "627": {
       "recordId": "trainspotting-1996",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
@@ -1716,6 +1752,12 @@
     "638": {
       "recordId": "lost-highway-1997",
       "lastFetchedAt": "2026-06-10T10:44:38.868Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "639": {
+      "recordId": "when-harry-met-sally-1989",
+      "lastFetchedAt": "2026-06-14T10:31:08.138Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -1807,6 +1849,18 @@
       "recordId": "la-jetee-1962",
       "lastFetchedAt": "2026-06-04T04:18:46.409Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords:no-videos",
+      "status": "ok"
+    },
+    "663": {
+      "recordId": "saw-iv-2007",
+      "lastFetchedAt": "2026-06-14T10:31:07.647Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "664": {
+      "recordId": "twister-1996",
+      "lastFetchedAt": "2026-06-14T10:31:06.882Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "665": {
@@ -2079,6 +2133,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "776": {
+      "recordId": "the-rules-of-the-game-1939",
+      "lastFetchedAt": "2026-06-14T10:31:15.524Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "777": {
       "recordId": "grand-illusion-1937",
       "lastFetchedAt": "2026-06-02T04:19:56.828Z",
@@ -2118,6 +2178,12 @@
     "793": {
       "recordId": "blue-velvet-1986",
       "lastFetchedAt": "2026-06-05T10:39:45.551Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "795": {
+      "recordId": "city-of-angels-1998",
+      "lastFetchedAt": "2026-06-14T10:31:08.176Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -2376,6 +2442,12 @@
     "859": {
       "recordId": "dangerous-liaisons-1988",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "860": {
+      "recordId": "wargames-1983",
+      "lastFetchedAt": "2026-06-14T10:31:16.598Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -2829,6 +2901,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1088": {
+      "recordId": "whale-rider-2003",
+      "lastFetchedAt": "2026-06-14T10:31:17.251Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1089": {
       "recordId": "point-break-1991",
       "lastFetchedAt": "2026-06-06T10:06:33.416Z",
@@ -3213,6 +3291,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
       "status": "ok"
     },
+    "1567": {
+      "recordId": "i-stand-alone-1999",
+      "lastFetchedAt": "2026-06-14T10:31:15.962Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1573": {
       "recordId": "die-hard-2-1990",
       "lastFetchedAt": "2026-06-07T08:59:55.574Z",
@@ -3420,6 +3504,12 @@
     "1688": {
       "recordId": "conquest-of-the-planet-of-the-apes-1972",
       "lastFetchedAt": "2026-06-05T10:39:39.401Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1689": {
+      "recordId": "little-buddha-1993",
+      "lastFetchedAt": "2026-06-14T10:31:13.452Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -4425,6 +4515,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "3009": {
+      "recordId": "the-trial-1962",
+      "lastFetchedAt": "2026-06-14T10:31:16.216Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "3019": {
       "recordId": "dr-jekyll-and-mr-hyde-1931",
       "lastFetchedAt": "2026-06-12T10:50:49.749Z",
@@ -4497,6 +4593,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "3079": {
+      "recordId": "the-curse-of-frankenstein-1957",
+      "lastFetchedAt": "2026-06-14T10:31:17.760Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "3082": {
       "recordId": "modern-times-1936",
       "lastFetchedAt": "2026-06-08T00:29:31.479Z",
@@ -4566,6 +4668,12 @@
     "3175": {
       "recordId": "barry-lyndon-1975",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "3176": {
+      "recordId": "battle-royale-2000",
+      "lastFetchedAt": "2026-06-14T10:31:07.185Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -4917,6 +5025,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "4566": {
+      "recordId": "michael-clayton-2007",
+      "lastFetchedAt": "2026-06-14T10:31:17.722Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "4584": {
       "recordId": "sense-and-sensibility-1995",
       "lastFetchedAt": "2026-06-08T00:29:31.479Z",
@@ -4980,6 +5094,12 @@
     "4858": {
       "recordId": "the-invasion-2007",
       "lastFetchedAt": "2026-06-04T10:37:53.847Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "4886": {
+      "recordId": "and-then-there-were-none-1945",
+      "lastFetchedAt": "2026-06-14T10:31:17.441Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -5121,6 +5241,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "5255": {
+      "recordId": "the-polar-express-2004",
+      "lastFetchedAt": "2026-06-14T10:31:08.325Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "5289": {
       "recordId": "chaos-2005",
       "lastFetchedAt": "2026-06-08T11:06:25.551Z",
@@ -5196,6 +5322,12 @@
     "5683": {
       "recordId": "pee-wee-s-big-adventure-1985",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "5689": {
+      "recordId": "the-blue-lagoon-1980",
+      "lastFetchedAt": "2026-06-14T10:31:07.367Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -5385,6 +5517,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "6278": {
+      "recordId": "reign-of-fire-2002",
+      "lastFetchedAt": "2026-06-14T10:31:09.583Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "6279": {
       "recordId": "sister-act-2-back-in-the-habit-1993",
       "lastFetchedAt": "2026-06-10T09:08:43.040Z",
@@ -5541,9 +5679,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "6973": {
+      "recordId": "in-the-valley-of-elah-2007",
+      "lastFetchedAt": "2026-06-14T10:31:17.884Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "6977": {
       "recordId": "no-country-for-old-men-2007",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "7007": {
+      "recordId": "rising-sun-1993",
+      "lastFetchedAt": "2026-06-14T10:31:11.505Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -5682,6 +5832,12 @@
     "7457": {
       "recordId": "alpha-dog-2006",
       "lastFetchedAt": "2026-06-07T10:16:29.258Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "7459": {
+      "recordId": "speed-racer-2008",
+      "lastFetchedAt": "2026-06-14T10:31:07.308Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -5841,9 +5997,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "8055": {
+      "recordId": "the-reader-2008",
+      "lastFetchedAt": "2026-06-14T10:31:07.450Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "8065": {
       "recordId": "21-2008",
       "lastFetchedAt": "2026-06-08T09:30:33.345Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "8078": {
+      "recordId": "alien-resurrection-1997",
+      "lastFetchedAt": "2026-06-14T10:31:06.921Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -5862,6 +6030,12 @@
     "8130": {
       "recordId": "desperately-seeking-susan-1985",
       "lastFetchedAt": "2026-06-14T00:28:46.620Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "8193": {
+      "recordId": "napoleon-dynamite-2004",
+      "lastFetchedAt": "2026-06-14T10:31:18.047Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -6053,7 +6227,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-06-13T10:16:33.829Z",
+      "lastFetchedAt": "2026-06-14T10:31:06.376Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -6132,6 +6306,12 @@
     "8740": {
       "recordId": "the-vanishing-1988",
       "lastFetchedAt": "2026-06-03T11:07:15.398Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "8741": {
+      "recordId": "the-thin-red-line-1998",
+      "lastFetchedAt": "2026-06-14T10:31:09.660Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -6321,6 +6501,24 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "9028": {
+      "recordId": "the-great-silence-1968",
+      "lastFetchedAt": "2026-06-14T10:31:15.761Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9029": {
+      "recordId": "what-happens-in-vegas-2008",
+      "lastFetchedAt": "2026-06-14T10:31:10.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9035": {
+      "recordId": "slither-2006",
+      "lastFetchedAt": "2026-06-14T10:31:08.377Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "9036": {
       "recordId": "eight-below-2006",
       "lastFetchedAt": "2026-06-04T10:38:04.145Z",
@@ -6351,6 +6549,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "9050": {
+      "recordId": "a-chinese-ghost-story-ii-1990",
+      "lastFetchedAt": "2026-06-14T10:31:13.328Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "9056": {
       "recordId": "police-story-1985",
       "lastFetchedAt": "2026-06-03T11:07:01.899Z",
@@ -6378,6 +6582,12 @@
     "9079": {
       "recordId": "dying-young-1991",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9081": {
+      "recordId": "waking-life-2001",
+      "lastFetchedAt": "2026-06-14T10:31:15.912Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -6567,6 +6777,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "9350": {
+      "recordId": "cliffhanger-1993",
+      "lastFetchedAt": "2026-06-14T10:31:08.099Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "9352": {
       "recordId": "eurotrip-2004",
       "lastFetchedAt": "2026-06-07T16:27:29.274Z",
@@ -6618,6 +6834,12 @@
     "9373": {
       "recordId": "the-texas-chainsaw-massacre-2003",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9374": {
+      "recordId": "death-becomes-her-1992",
+      "lastFetchedAt": "2026-06-14T10:31:08.672Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -6852,6 +7074,12 @@
     "9488": {
       "recordId": "spy-kids-2-the-island-of-lost-dreams-2002",
       "lastFetchedAt": "2026-06-06T10:06:40.537Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9489": {
+      "recordId": "you-ve-got-mail-1998",
+      "lastFetchedAt": "2026-06-14T10:31:09.309Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7125,6 +7353,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "9662": {
+      "recordId": "the-triplets-of-belleville-2003",
+      "lastFetchedAt": "2026-06-14T10:31:16.386Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "9663": {
       "recordId": "starman-1984",
       "lastFetchedAt": "2026-06-10T00:30:13.559Z",
@@ -7140,6 +7374,12 @@
     "9669": {
       "recordId": "ring-2-1999",
       "lastFetchedAt": "2026-06-13T00:32:10.498Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9671": {
+      "recordId": "crocodile-dundee-1986",
+      "lastFetchedAt": "2026-06-14T10:31:08.823Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7164,6 +7404,18 @@
     "9683": {
       "recordId": "bubble-boy-2001",
       "lastFetchedAt": "2026-06-08T11:06:22.746Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9684": {
+      "recordId": "sweet-and-lowdown-1999",
+      "lastFetchedAt": "2026-06-14T10:31:18.003Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9687": {
+      "recordId": "keeping-mum-2005",
+      "lastFetchedAt": "2026-06-14T10:31:14.298Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7242,6 +7494,12 @@
     "9760": {
       "recordId": "epic-movie-2007",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9762": {
+      "recordId": "step-up-2006",
+      "lastFetchedAt": "2026-06-14T10:31:08.452Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7368,6 +7626,12 @@
     "9820": {
       "recordId": "the-parent-trap-1998",
       "lastFetchedAt": "2026-06-05T09:06:47.931Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "9821": {
+      "recordId": "the-mighty-1998",
+      "lastFetchedAt": "2026-06-14T10:31:14.338Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7557,6 +7821,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "9964": {
+      "recordId": "bad-taste-1987",
+      "lastFetchedAt": "2026-06-14T10:31:12.729Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "9968": {
       "recordId": "the-big-white-2005",
       "lastFetchedAt": "2026-06-10T10:44:27.829Z",
@@ -7638,6 +7908,12 @@
     "10014": {
       "recordId": "a-nightmare-on-elm-street-part-2-freddy-s-revenge-1985",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10015": {
+      "recordId": "heartbreak-ridge-1986",
+      "lastFetchedAt": "2026-06-14T10:31:10.632Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -7815,6 +8091,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10139": {
+      "recordId": "milk-2008",
+      "lastFetchedAt": "2026-06-14T10:31:15.163Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10140": {
       "recordId": "the-chronicles-of-narnia-the-voyage-of-the-dawn-treader-2010",
       "lastFetchedAt": "2026-06-04T10:37:52.275Z",
@@ -7836,6 +8118,12 @@
     "10144": {
       "recordId": "the-little-mermaid-1989",
       "lastFetchedAt": "2026-06-05T09:06:47.931Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10145": {
+      "recordId": "the-forgotten-2004",
+      "lastFetchedAt": "2026-06-14T10:31:10.305Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8055,6 +8343,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10283": {
+      "recordId": "friday-the-13th-part-viii-jason-takes-manhattan-1989",
+      "lastFetchedAt": "2026-06-14T10:31:10.484Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10294": {
       "recordId": "vacancy-2007",
       "lastFetchedAt": "2026-06-05T10:39:42.400Z",
@@ -8112,6 +8406,12 @@
     "10328": {
       "recordId": "cocoon-1985",
       "lastFetchedAt": "2026-06-08T11:06:26.243Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10339": {
+      "recordId": "moby-dick-1956",
+      "lastFetchedAt": "2026-06-14T10:31:16.546Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8187,6 +8487,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10395": {
+      "recordId": "wolf-1994",
+      "lastFetchedAt": "2026-06-14T10:31:12.232Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10397": {
       "recordId": "angela-s-ashes-1999",
       "lastFetchedAt": "2026-06-07T10:16:33.893Z",
@@ -8214,6 +8520,12 @@
     "10404": {
       "recordId": "raise-the-red-lantern-1991",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10406": {
+      "recordId": "encino-man-1992",
+      "lastFetchedAt": "2026-06-14T10:31:14.413Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8319,6 +8631,18 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10501": {
+      "recordId": "the-road-to-el-dorado-2000",
+      "lastFetchedAt": "2026-06-14T10:31:07.570Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10514": {
+      "recordId": "the-andromeda-strain-1971",
+      "lastFetchedAt": "2026-06-14T10:31:17.216Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10515": {
       "recordId": "castle-in-the-sky-1986",
       "lastFetchedAt": "2026-06-07T08:59:55.574Z",
@@ -8364,6 +8688,12 @@
     "10537": {
       "recordId": "the-doors-1991",
       "lastFetchedAt": "2026-06-05T10:39:34.960Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10538": {
+      "recordId": "passenger-57-1992",
+      "lastFetchedAt": "2026-06-14T10:31:10.899Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8571,6 +8901,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10673": {
+      "recordId": "wall-street-1987",
+      "lastFetchedAt": "2026-06-14T10:31:10.227Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10674": {
       "recordId": "mulan-1998",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
@@ -8628,6 +8964,12 @@
     "10712": {
       "recordId": "far-from-heaven-2002",
       "lastFetchedAt": "2026-06-05T10:39:45.437Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10715": {
+      "recordId": "looney-tunes-back-in-action-2003",
+      "lastFetchedAt": "2026-06-14T10:31:09.439Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8727,6 +9069,18 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10780": {
+      "recordId": "overboard-1987",
+      "lastFetchedAt": "2026-06-14T10:31:17.476Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10781": {
+      "recordId": "the-texas-chainsaw-massacre-the-beginning-2006",
+      "lastFetchedAt": "2026-06-14T10:31:09.392Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10787": {
       "recordId": "the-invisible-man-1933",
       "lastFetchedAt": "2026-06-11T17:10:31.484Z",
@@ -8766,6 +9120,12 @@
     "10835": {
       "recordId": "the-killer-1989",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10836": {
+      "recordId": "dagon-2001",
+      "lastFetchedAt": "2026-06-14T10:31:11.469Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8844,6 +9204,12 @@
     "10876": {
       "recordId": "quills-2000",
       "lastFetchedAt": "2026-06-09T16:51:33.704Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10877": {
+      "recordId": "exit-wounds-2001",
+      "lastFetchedAt": "2026-06-14T10:31:11.333Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -8931,6 +9297,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "10974": {
+      "recordId": "armour-of-god-1986",
+      "lastFetchedAt": "2026-06-14T10:31:08.285Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "10985": {
       "recordId": "the-new-guy-2002",
       "lastFetchedAt": "2026-06-06T10:06:35.861Z",
@@ -8940,6 +9312,12 @@
     "10987": {
       "recordId": "halloween-the-curse-of-michael-myers-1995",
       "lastFetchedAt": "2026-06-13T00:32:10.498Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "10991": {
+      "recordId": "pokemon-3-the-movie-2000",
+      "lastFetchedAt": "2026-06-14T10:31:11.276Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -9363,6 +9741,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11236": {
+      "recordId": "the-secret-garden-1993",
+      "lastFetchedAt": "2026-06-14T10:31:10.774Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11238": {
       "recordId": "aladdin-and-the-king-of-thieves-1996",
       "lastFetchedAt": "2026-06-04T10:38:05.456Z",
@@ -9378,6 +9762,12 @@
     "11253": {
       "recordId": "hellboy-ii-the-golden-army-2008",
       "lastFetchedAt": "2026-06-07T16:27:29.274Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "11257": {
+      "recordId": "a-room-with-a-view-1986",
+      "lastFetchedAt": "2026-06-14T10:31:13.199Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -9543,6 +9933,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11416": {
+      "recordId": "the-mission-1986",
+      "lastFetchedAt": "2026-06-14T10:31:10.940Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11418": {
       "recordId": "national-lampoon-s-european-vacation-1985",
       "lastFetchedAt": "2026-06-06T10:06:46.739Z",
@@ -9615,9 +10011,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11459": {
+      "recordId": "sky-high-2005",
+      "lastFetchedAt": "2026-06-14T10:31:09.863Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11470": {
       "recordId": "jason-x-2001",
       "lastFetchedAt": "2026-06-08T11:06:21.764Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "11474": {
+      "recordId": "the-warriors-1979",
+      "lastFetchedAt": "2026-06-14T10:31:08.752Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -9666,6 +10074,12 @@
     "11517": {
       "recordId": "money-train-1995",
       "lastFetchedAt": "2026-06-06T10:06:39.676Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "11520": {
+      "recordId": "grumpy-old-men-1993",
+      "lastFetchedAt": "2026-06-14T10:31:12.113Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -9813,6 +10227,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11636": {
+      "recordId": "new-police-story-2004",
+      "lastFetchedAt": "2026-06-14T10:31:09.823Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11637": {
       "recordId": "are-we-there-yet-2005",
       "lastFetchedAt": "2026-06-13T00:32:10.498Z",
@@ -9822,6 +10242,12 @@
     "11645": {
       "recordId": "ran-1985",
       "lastFetchedAt": "2026-06-08T17:02:56.880Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "11646": {
+      "recordId": "gallipoli-1981",
+      "lastFetchedAt": "2026-06-14T10:31:16.881Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -9888,6 +10314,12 @@
     "11688": {
       "recordId": "the-emperor-s-new-groove-2000",
       "lastFetchedAt": "2026-06-05T16:46:26.081Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "11690": {
+      "recordId": "bloodsport-1988",
+      "lastFetchedAt": "2026-06-14T10:31:16.914Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -10089,6 +10521,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11852": {
+      "recordId": "the-hot-chick-2002",
+      "lastFetchedAt": "2026-06-14T10:31:06.975Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11854": {
       "recordId": "kuch-kuch-hota-hai-1998",
       "lastFetchedAt": "2026-06-13T10:16:43.807Z",
@@ -10263,6 +10701,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "11977": {
+      "recordId": "caddyshack-1980",
+      "lastFetchedAt": "2026-06-14T10:31:10.397Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "11980": {
       "recordId": "the-prophecy-1995",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
@@ -10383,6 +10827,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "12160": {
+      "recordId": "wyatt-earp-1994",
+      "lastFetchedAt": "2026-06-14T10:31:17.675Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "12162": {
       "recordId": "the-hurt-locker-2008",
       "lastFetchedAt": "2026-06-09T00:24:11.127Z",
@@ -10392,6 +10842,12 @@
     "12163": {
       "recordId": "the-wrestler-2008",
       "lastFetchedAt": "2026-06-09T16:51:33.704Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "12169": {
+      "recordId": "the-first-day-of-the-rest-of-your-life-2008",
+      "lastFetchedAt": "2026-06-14T10:31:15.800Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -10593,6 +11049,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "12545": {
+      "recordId": "jesus-christ-superstar-1973",
+      "lastFetchedAt": "2026-06-14T10:31:13.608Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "12548": {
       "recordId": "i-vitelloni-1953",
       "lastFetchedAt": "2026-06-08T11:06:30.310Z",
@@ -10731,9 +11193,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "12924": {
+      "recordId": "the-place-promised-in-our-early-days-2004",
+      "lastFetchedAt": "2026-06-14T10:31:14.895Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "13002": {
       "recordId": "barbie-in-the-12-dancing-princesses-2006",
       "lastFetchedAt": "2026-06-04T10:37:56.035Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "13008": {
+      "recordId": "an-american-crime-2007",
+      "lastFetchedAt": "2026-06-14T10:31:13.689Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -10959,6 +11433,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "13382": {
+      "recordId": "rudolph-the-red-nosed-reindeer-1964",
+      "lastFetchedAt": "2026-06-14T10:31:16.351Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "13387": {
       "recordId": "transporter-3-2008",
       "lastFetchedAt": "2026-06-11T10:58:53.078Z",
@@ -11121,6 +11601,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "13680": {
+      "recordId": "the-game-plan-2007",
+      "lastFetchedAt": "2026-06-14T10:31:10.134Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "13682": {
       "recordId": "pooh-s-heffalump-movie-2005",
       "lastFetchedAt": "2026-06-09T10:36:37.369Z",
@@ -11211,6 +11697,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "13938": {
+      "recordId": "the-last-dragon-1985",
+      "lastFetchedAt": "2026-06-14T10:31:14.130Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "13945": {
       "recordId": "the-sword-and-the-sorcerer-1982",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
@@ -11250,6 +11742,12 @@
     "14069": {
       "recordId": "the-girl-who-leapt-through-time-2006",
       "lastFetchedAt": "2026-06-08T17:02:56.880Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "14092": {
+      "recordId": "ghost-in-the-shell-2-0-2008",
+      "lastFetchedAt": "2026-06-14T10:31:16.183Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11331,9 +11829,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "14223": {
+      "recordId": "wind-chill-2007",
+      "lastFetchedAt": "2026-06-14T10:31:14.854Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "14249": {
       "recordId": "revenge-1990",
       "lastFetchedAt": "2026-06-04T10:38:03.439Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "14257": {
+      "recordId": "delusions-of-grandeur-1971",
+      "lastFetchedAt": "2026-06-14T10:31:16.145Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11421,9 +11931,27 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "14462": {
+      "recordId": "the-manchurian-candidate-2004",
+      "lastFetchedAt": "2026-06-14T10:31:11.739Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "14469": {
       "recordId": "bullet-1996",
       "lastFetchedAt": "2026-06-05T10:39:36.421Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "14506": {
+      "recordId": "the-adventures-of-baron-munchausen-1988",
+      "lastFetchedAt": "2026-06-14T10:31:12.301Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "14510": {
+      "recordId": "from-beyond-1986",
+      "lastFetchedAt": "2026-06-14T10:31:14.374Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11577,6 +12105,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "14807": {
+      "recordId": "the-long-good-friday-1980",
+      "lastFetchedAt": "2026-06-14T10:31:10.739Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "14811": {
       "recordId": "fiddler-on-the-roof-1971",
       "lastFetchedAt": "2026-06-11T17:10:31.484Z",
@@ -11592,6 +12126,12 @@
     "14836": {
       "recordId": "coraline-2009",
       "lastFetchedAt": "2026-06-11T09:24:27.025Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "14863": {
+      "recordId": "anaconda-3-offspring-2008",
+      "lastFetchedAt": "2026-06-14T10:31:12.924Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11706,6 +12246,12 @@
     "15165": {
       "recordId": "barbie-as-the-princess-and-the-pauper-2004",
       "lastFetchedAt": "2026-06-08T00:29:31.479Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "15189": {
+      "recordId": "hotel-for-dogs-2009",
+      "lastFetchedAt": "2026-06-14T10:31:12.592Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11877,6 +12423,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "15775": {
+      "recordId": "if-only-2004",
+      "lastFetchedAt": "2026-06-14T10:31:10.554Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "15789": {
       "recordId": "a-goofy-movie-1995",
       "lastFetchedAt": "2026-06-09T16:51:33.704Z",
@@ -11898,6 +12450,12 @@
     "15859": {
       "recordId": "a-moment-to-remember-2004",
       "lastFetchedAt": "2026-06-13T09:00:13.975Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "15860": {
+      "recordId": "dragon-tiger-gate-2006",
+      "lastFetchedAt": "2026-06-14T10:31:14.974Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -11949,6 +12507,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "16140": {
+      "recordId": "death-note-the-last-name-2006",
+      "lastFetchedAt": "2026-06-14T10:31:16.746Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "16153": {
       "recordId": "alice-doesn-t-live-here-anymore-1974",
       "lastFetchedAt": "2026-06-12T10:50:51.668Z",
@@ -11976,6 +12540,12 @@
     "16198": {
       "recordId": "my-neighbors-the-yamadas-1999",
       "lastFetchedAt": "2026-06-12T10:50:51.543Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "16211": {
+      "recordId": "the-sons-of-katie-elder-1965",
+      "lastFetchedAt": "2026-06-14T10:31:17.004Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12063,6 +12633,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "16372": {
+      "recordId": "the-innocents-1961",
+      "lastFetchedAt": "2026-06-14T10:31:15.857Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "16407": {
       "recordId": "dragon-lord-1982",
       "lastFetchedAt": "2026-06-06T10:06:45.151Z",
@@ -12129,6 +12705,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "16780": {
+      "recordId": "the-return-of-the-texas-chainsaw-massacre-1995",
+      "lastFetchedAt": "2026-06-14T10:31:10.810Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "16804": {
       "recordId": "departures-2008",
       "lastFetchedAt": "2026-06-13T09:00:13.975Z",
@@ -12162,6 +12744,12 @@
     "16869": {
       "recordId": "inglourious-basterds-2009",
       "lastFetchedAt": "2026-06-04T16:59:57.313Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "16871": {
+      "recordId": "drag-me-to-hell-2009",
+      "lastFetchedAt": "2026-06-14T10:31:09.700Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12303,6 +12891,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "17681": {
+      "recordId": "scooby-doo-and-the-witch-s-ghost-1999",
+      "lastFetchedAt": "2026-06-14T10:31:13.933Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "17740": {
       "recordId": "powder-blue-2009",
       "lastFetchedAt": "2026-06-12T16:56:15.951Z",
@@ -12333,6 +12927,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "17915": {
+      "recordId": "dance-with-me-1998",
+      "lastFetchedAt": "2026-06-14T10:31:13.094Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "17927": {
       "recordId": "fired-up-2009",
       "lastFetchedAt": "2026-06-10T09:08:43.040Z",
@@ -12342,6 +12942,12 @@
     "17979": {
       "recordId": "a-christmas-carol-2009",
       "lastFetchedAt": "2026-06-08T09:30:33.345Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "17993": {
+      "recordId": "henry-and-june-1990",
+      "lastFetchedAt": "2026-06-14T10:31:11.196Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12390,6 +12996,12 @@
     "18240": {
       "recordId": "the-proposal-2009",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "18305": {
+      "recordId": "a-better-tomorrow-ii-1987",
+      "lastFetchedAt": "2026-06-14T10:31:16.505Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12468,6 +13080,12 @@
     "18667": {
       "recordId": "swordsman-iii-the-east-is-red-1993",
       "lastFetchedAt": "2026-06-10T09:08:43.040Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "18670": {
+      "recordId": "legend-of-the-red-dragon-1994",
+      "lastFetchedAt": "2026-06-14T10:31:07.140Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12558,6 +13176,12 @@
     "18947": {
       "recordId": "the-boat-that-rocked-2009",
       "lastFetchedAt": "2026-06-11T10:59:02.308Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "19086": {
+      "recordId": "delta-force-2-the-colombian-connection-1990",
+      "lastFetchedAt": "2026-06-14T10:31:14.931Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12735,6 +13359,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "20017": {
+      "recordId": "wrong-move-1975",
+      "lastFetchedAt": "2026-06-14T10:31:10.265Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "20043": {
       "recordId": "royal-space-force-the-wings-of-honneamise-1987",
       "lastFetchedAt": "2026-06-03T11:07:11.425Z",
@@ -12756,6 +13386,12 @@
     "20126": {
       "recordId": "deep-red-1975",
       "lastFetchedAt": "2026-06-12T10:50:47.354Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "20223": {
+      "recordId": "charm-school-2007",
+      "lastFetchedAt": "2026-06-14T10:31:13.567Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -12870,6 +13506,12 @@
     "20762": {
       "recordId": "the-substitute-1996",
       "lastFetchedAt": "2026-06-05T10:39:33.789Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "20770": {
+      "recordId": "but-i-m-a-cheerleader-2000",
+      "lastFetchedAt": "2026-06-14T10:31:10.354Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -13026,6 +13668,18 @@
     "21647": {
       "recordId": "sex-is-zero-2-2007",
       "lastFetchedAt": "2026-06-12T10:50:41.520Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "21707": {
+      "recordId": "my-wife-is-a-gangster-2001",
+      "lastFetchedAt": "2026-06-14T10:31:14.781Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "21712": {
+      "recordId": "mind-game-2004",
+      "lastFetchedAt": "2026-06-14T10:31:15.595Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -13485,6 +14139,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "24778": {
+      "recordId": "hydra-2009",
+      "lastFetchedAt": "2026-06-14T10:31:12.802Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "24795": {
       "recordId": "angels-in-the-outfield-1994",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
@@ -13578,6 +14238,12 @@
     "25468": {
       "recordId": "my-dinner-with-andre-1981",
       "lastFetchedAt": "2026-06-11T10:59:00.900Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "25493": {
+      "recordId": "the-breastford-wives-2007",
+      "lastFetchedAt": "2026-06-14T10:31:11.015Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -14109,6 +14775,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "30197": {
+      "recordId": "the-producers-1968",
+      "lastFetchedAt": "2026-06-14T10:31:16.704Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "30421": {
       "recordId": "a-chinese-ghost-story-1987",
       "lastFetchedAt": "2026-06-07T10:16:33.626Z",
@@ -14157,6 +14829,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "30890": {
+      "recordId": "radio-days-1987",
+      "lastFetchedAt": "2026-06-14T10:31:16.964Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "30943": {
       "recordId": "the-deep-end-of-the-ocean-1999",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
@@ -14196,6 +14874,12 @@
     "31216": {
       "recordId": "i-can-t-think-straight-2008",
       "lastFetchedAt": "2026-06-09T10:36:40.059Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "31352": {
+      "recordId": "doraemon-nobita-and-the-legend-of-the-sun-king-2000",
+      "lastFetchedAt": "2026-06-14T10:31:14.630Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -14388,6 +15072,12 @@
     "33875": {
       "recordId": "pokemon-heroes-2002",
       "lastFetchedAt": "2026-06-08T11:06:26.327Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "33909": {
+      "recordId": "wall-street-money-never-sleeps-2010",
+      "lastFetchedAt": "2026-06-14T10:31:14.010Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -15021,6 +15711,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "39340": {
+      "recordId": "behind-convent-walls-1978",
+      "lastFetchedAt": "2026-06-14T10:31:14.459Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "39356": {
       "recordId": "boy-2010",
       "lastFetchedAt": "2026-06-13T16:27:06.395Z",
@@ -15054,6 +15750,12 @@
     "39787": {
       "recordId": "jacknife-1989",
       "lastFetchedAt": "2026-06-13T10:16:48.103Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "39857": {
+      "recordId": "the-untold-story-1993",
+      "lastFetchedAt": "2026-06-14T10:31:07.412Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -15150,6 +15852,12 @@
     "41171": {
       "recordId": "noel-2004",
       "lastFetchedAt": "2026-06-03T11:07:11.953Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "41210": {
+      "recordId": "the-switch-2010",
+      "lastFetchedAt": "2026-06-14T10:31:13.786Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -15345,9 +16053,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "43641": {
+      "recordId": "superman-shazam-the-return-of-black-adam-2010",
+      "lastFetchedAt": "2026-06-14T10:31:17.175Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "43742": {
       "recordId": "love-affair-1994",
       "lastFetchedAt": "2026-06-03T11:07:14.387Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "43904": {
+      "recordId": "l-atalante-1934",
+      "lastFetchedAt": "2026-06-14T10:31:15.562Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -15540,6 +16260,12 @@
     "45612": {
       "recordId": "source-code-2011",
       "lastFetchedAt": "2026-06-07T10:16:33.784Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "45657": {
+      "recordId": "the-ward-2010",
+      "lastFetchedAt": "2026-06-14T10:31:12.077Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -16107,6 +16833,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "52520": {
+      "recordId": "underworld-awakening-2012",
+      "lastFetchedAt": "2026-06-14T10:31:08.243Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "52629": {
       "recordId": "el-infierno-2010",
       "lastFetchedAt": "2026-06-08T00:29:31.479Z",
@@ -16254,6 +16986,12 @@
     "55960": {
       "recordId": "toto-peppino-and-the-hussy-1956",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "56020": {
+      "recordId": "radiofreccia-1998",
+      "lastFetchedAt": "2026-06-14T10:31:17.331Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -16737,6 +17475,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "64690": {
+      "recordId": "drive-2011",
+      "lastFetchedAt": "2026-06-14T10:31:06.698Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "64847": {
       "recordId": "belladonna-of-sadness-1973",
       "lastFetchedAt": "2026-06-07T10:16:31.960Z",
@@ -16767,9 +17511,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "65881": {
+      "recordId": "battlefield-heroes-2011",
+      "lastFetchedAt": "2026-06-14T10:31:14.257Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "66105": {
       "recordId": "saint-seiya-legend-of-crimson-youth-1988",
       "lastFetchedAt": "2026-06-12T10:50:45.119Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "66161": {
+      "recordId": "handsome-siblings-1992",
+      "lastFetchedAt": "2026-06-14T10:31:15.069Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -16788,6 +17544,12 @@
     "67345": {
       "recordId": "mr-vampire-saga-4-1988",
       "lastFetchedAt": "2026-06-04T10:38:07.212Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "67346": {
+      "recordId": "magic-cop-1990",
+      "lastFetchedAt": "2026-06-14T10:31:13.166Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17016,6 +17778,12 @@
     "72190": {
       "recordId": "world-war-z-2013",
       "lastFetchedAt": "2026-06-04T09:15:55.232Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "72197": {
+      "recordId": "the-pirates-in-an-adventure-with-scientists-2012",
+      "lastFetchedAt": "2026-06-14T10:31:12.268Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17259,6 +18027,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "76487": {
+      "recordId": "the-devil-inside-2012",
+      "lastFetchedAt": "2026-06-14T10:31:12.372Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "76492": {
       "recordId": "hotel-transylvania-2012",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
@@ -17343,6 +18117,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "77429": {
+      "recordId": "chechu-y-familia-1992",
+      "lastFetchedAt": "2026-06-14T10:31:06.834Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "77495": {
       "recordId": "sleep-tight-2011",
       "lastFetchedAt": "2026-06-12T00:32:07.840Z",
@@ -17382,6 +18162,12 @@
     "77950": {
       "recordId": "turbo-2013",
       "lastFetchedAt": "2026-06-08T09:30:33.345Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "77951": {
+      "recordId": "walking-with-dinosaurs-2013",
+      "lastFetchedAt": "2026-06-14T10:31:11.952Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17535,9 +18321,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "81831": {
+      "recordId": "the-boom-1963",
+      "lastFetchedAt": "2026-06-14T10:31:12.524Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "81836": {
       "recordId": "to-rome-with-love-2012",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "82023": {
+      "recordId": "hotel-desire-2011",
+      "lastFetchedAt": "2026-06-14T10:31:08.025Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17556,6 +18354,12 @@
     "82505": {
       "recordId": "house-at-the-end-of-the-street-2012",
       "lastFetchedAt": "2026-06-04T10:38:04.469Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "82507": {
+      "recordId": "sinister-2012",
+      "lastFetchedAt": "2026-06-14T10:31:06.556Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17793,6 +18597,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "86767": {
+      "recordId": "the-first-time-1969",
+      "lastFetchedAt": "2026-06-14T10:31:09.526Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "86828": {
       "recordId": "absolutely-anything-2015",
       "lastFetchedAt": "2026-06-04T10:38:01.464Z",
@@ -17802,6 +18612,12 @@
     "86829": {
       "recordId": "inside-llewyn-davis-2013",
       "lastFetchedAt": "2026-06-08T11:06:25.508Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "86834": {
+      "recordId": "noah-2014",
+      "lastFetchedAt": "2026-06-14T10:31:08.638Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -17877,6 +18693,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "90021": {
+      "recordId": "story-of-one-crime-1963",
+      "lastFetchedAt": "2026-06-14T10:31:12.694Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "90104": {
       "recordId": "cecilia-1983",
       "lastFetchedAt": "2026-06-13T10:16:37.267Z",
@@ -17928,6 +18750,12 @@
     "92321": {
       "recordId": "hotarubi-no-mori-e-2011",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "92986": {
+      "recordId": "jack-vosmyorkin-american-1988",
+      "lastFetchedAt": "2026-06-14T10:31:11.908Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18030,6 +18858,12 @@
     "98357": {
       "recordId": "broken-city-2013",
       "lastFetchedAt": "2026-06-10T09:08:43.040Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "98548": {
+      "recordId": "people-like-us-2012",
+      "lastFetchedAt": "2026-06-14T10:31:17.587Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18315,6 +19149,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "110143": {
+      "recordId": "craving-desire-1993",
+      "lastFetchedAt": "2026-06-14T10:31:06.629Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "110416": {
       "recordId": "song-of-the-sea-2014",
       "lastFetchedAt": "2026-06-10T17:00:28.634Z",
@@ -18330,6 +19170,12 @@
     "111083": {
       "recordId": "the-body-2012",
       "lastFetchedAt": "2026-06-13T10:16:44.962Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "111190": {
+      "recordId": "adoration-2013",
+      "lastFetchedAt": "2026-06-14T10:31:07.708Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18354,6 +19200,12 @@
     "113094": {
       "recordId": "ultraman-tiga-the-final-odyssey-2000",
       "lastFetchedAt": "2026-06-08T11:06:30.082Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "113594": {
+      "recordId": "a-turtle-s-tale-2-sammy-s-escape-from-paradise-2012",
+      "lastFetchedAt": "2026-06-14T10:31:12.154Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18495,6 +19347,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "121875": {
+      "recordId": "in-the-house-2012",
+      "lastFetchedAt": "2026-06-14T10:31:08.720Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "121936": {
       "recordId": "happiness-never-comes-alone-2012",
       "lastFetchedAt": "2026-06-02T04:42:23.696Z",
@@ -18567,6 +19425,18 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "125509": {
+      "recordId": "wrong-turn-5-bloodlines-2012",
+      "lastFetchedAt": "2026-06-14T10:31:06.786Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "126314": {
+      "recordId": "final-cut-ladies-and-gentlemen-2012",
+      "lastFetchedAt": "2026-06-14T10:31:15.347Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "126319": {
       "recordId": "ernest-and-celestine-2012",
       "lastFetchedAt": "2026-06-13T16:27:06.395Z",
@@ -18600,6 +19470,12 @@
     "127501": {
       "recordId": "barfi-2012",
       "lastFetchedAt": "2026-06-13T10:16:51.738Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "127517": {
+      "recordId": "disconnect-2013",
+      "lastFetchedAt": "2026-06-14T10:31:16.633Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18675,6 +19551,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "132169": {
+      "recordId": "mr-vampire-1992-1992",
+      "lastFetchedAt": "2026-06-14T10:31:13.530Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "132232": {
       "recordId": "mama-2013",
       "lastFetchedAt": "2026-06-06T10:06:35.368Z",
@@ -18702,6 +19584,12 @@
     "133919": {
       "recordId": "scenes-from-a-marriage-1974",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "133977": {
+      "recordId": "liar-game-reborn-2012",
+      "lastFetchedAt": "2026-06-14T10:31:06.595Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -18813,6 +19701,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "139341": {
+      "recordId": "mysteries-1978",
+      "lastFetchedAt": "2026-06-14T10:31:14.218Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "140300": {
       "recordId": "kung-fu-panda-3-2016",
       "lastFetchedAt": "2026-06-06T00:26:53.867Z",
@@ -18846,6 +19740,12 @@
     "142093": {
       "recordId": "the-intimate-2005",
       "lastFetchedAt": "2026-06-09T09:03:10.714Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "143667": {
+      "recordId": "rope-hell-1978",
+      "lastFetchedAt": "2026-06-14T10:31:07.016Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -19131,6 +20031,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "160270": {
+      "recordId": "an-affair-1998",
+      "lastFetchedAt": "2026-06-14T10:31:12.468Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "160588": {
       "recordId": "blue-jasmine-2013",
       "lastFetchedAt": "2026-06-13T10:16:54.833Z",
@@ -19141,6 +20047,12 @@
       "recordId": "tel-chi-el-telun-1999",
       "lastFetchedAt": "2026-06-04T04:18:46.409Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords:no-videos",
+      "status": "ok"
+    },
+    "161699": {
+      "recordId": "doraemon-nobita-s-great-adventure-in-the-world-of-magic-1984",
+      "lastFetchedAt": "2026-06-14T10:31:15.021Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "161715": {
@@ -19455,6 +20367,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
       "status": "ok"
     },
+    "188927": {
+      "recordId": "star-trek-beyond-2016",
+      "lastFetchedAt": "2026-06-14T10:31:08.528Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "190859": {
       "recordId": "american-sniper-2014",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
@@ -19500,6 +20418,12 @@
     "193823": {
       "recordId": "help-help-1912",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "195589": {
+      "recordId": "neighbors-2014",
+      "lastFetchedAt": "2026-06-14T10:31:09.252Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -19735,6 +20659,12 @@
       "recordId": "the-french-minister-2013",
       "lastFetchedAt": "2026-06-02T04:42:25.460Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+      "status": "ok"
+    },
+    "209379": {
+      "recordId": "knight-rider-2008",
+      "lastFetchedAt": "2026-06-14T10:31:11.078Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "210577": {
@@ -20175,6 +21105,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "243938": {
+      "recordId": "hot-tub-time-machine-2-2015",
+      "lastFetchedAt": "2026-06-14T10:31:14.560Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "244063": {
       "recordId": "boys-2014",
       "lastFetchedAt": "2026-06-07T10:16:29.452Z",
@@ -20190,6 +21126,12 @@
     "244458": {
       "recordId": "the-voices-2014",
       "lastFetchedAt": "2026-06-08T11:06:28.304Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "244506": {
+      "recordId": "camp-x-ray-2014",
+      "lastFetchedAt": "2026-06-14T10:31:14.747Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -20301,6 +21243,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "250574": {
+      "recordId": "creep-2014",
+      "lastFetchedAt": "2026-06-14T10:31:10.041Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "250734": {
       "recordId": "far-from-the-madding-crowd-2015",
       "lastFetchedAt": "2026-06-11T10:58:55.233Z",
@@ -20325,9 +21273,27 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "253046": {
+      "recordId": "jailbait-2014",
+      "lastFetchedAt": "2026-06-14T10:31:14.819Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "253161": {
       "recordId": "madame-bovary-2015",
       "lastFetchedAt": "2026-06-03T11:07:13.895Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "253331": {
+      "recordId": "black-or-white-2015",
+      "lastFetchedAt": "2026-06-14T10:31:17.552Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "253412": {
+      "recordId": "everest-2015",
+      "lastFetchedAt": "2026-06-14T10:31:08.603Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -20442,6 +21408,12 @@
     "257440": {
       "recordId": "term-life-2016",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "257445": {
+      "recordId": "goosebumps-2015",
+      "lastFetchedAt": "2026-06-14T10:31:08.785Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -20697,6 +21669,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "268920": {
+      "recordId": "hot-pursuit-2015",
+      "lastFetchedAt": "2026-06-14T10:31:14.597Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "269149": {
       "recordId": "zootopia-2016",
       "lastFetchedAt": "2026-06-11T09:24:27.025Z",
@@ -20742,6 +21720,12 @@
     "271110": {
       "recordId": "captain-america-civil-war-2016",
       "lastFetchedAt": "2026-06-04T09:15:55.232Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "271714": {
+      "recordId": "love-and-mercy-2015",
+      "lastFetchedAt": "2026-06-14T10:31:16.849Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -21012,6 +21996,12 @@
     "286565": {
       "recordId": "paper-towns-2015",
       "lastFetchedAt": "2026-06-14T00:28:46.620Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "286567": {
+      "recordId": "max-steel-2016",
+      "lastFetchedAt": "2026-06-14T10:31:14.704Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -21543,6 +22533,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "304941": {
+      "recordId": "boonie-bears-homeward-journey-2013",
+      "lastFetchedAt": "2026-06-14T10:31:12.341Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "307081": {
       "recordId": "southpaw-2015",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
@@ -21945,6 +22941,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "330141": {
+      "recordId": "cosmic-sex-2015",
+      "lastFetchedAt": "2026-06-14T10:31:10.976Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "330457": {
       "recordId": "frozen-ii-2019",
       "lastFetchedAt": "2026-06-05T09:06:47.931Z",
@@ -22164,6 +23166,12 @@
     "335988": {
       "recordId": "transformers-the-last-knight-2017",
       "lastFetchedAt": "2026-06-06T16:21:48.884Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "336000": {
+      "recordId": "the-glass-castle-2017",
+      "lastFetchedAt": "2026-06-14T10:31:13.970Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -22413,6 +23421,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "342878": {
+      "recordId": "one-wild-moment-2015",
+      "lastFetchedAt": "2026-06-14T10:31:10.438Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "343611": {
       "recordId": "jack-reacher-never-go-back-2016",
       "lastFetchedAt": "2026-06-06T00:26:53.867Z",
@@ -22458,6 +23472,12 @@
     "345735": {
       "recordId": "robbery-2016",
       "lastFetchedAt": "2026-06-06T10:06:38.459Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "345887": {
+      "recordId": "the-equalizer-2-2018",
+      "lastFetchedAt": "2026-06-14T10:31:06.737Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -22584,6 +23604,12 @@
     "347688": {
       "recordId": "scooby-doo-and-kiss-rock-and-roll-mystery-2015",
       "lastFetchedAt": "2026-06-10T17:00:28.634Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "347866": {
+      "recordId": "hot-summer-nights-2018",
+      "lastFetchedAt": "2026-06-14T10:31:11.700Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -22779,6 +23805,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "357096": {
+      "recordId": "i-spit-on-your-grave-iii-vengeance-is-mine-2015",
+      "lastFetchedAt": "2026-06-14T10:31:07.892Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "357953": {
       "recordId": "return-1975",
       "lastFetchedAt": "2026-06-04T04:18:46.409Z",
@@ -22789,6 +23821,12 @@
       "recordId": "don-t-be-bad-2015",
       "lastFetchedAt": "2026-06-02T04:20:44.276Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+      "status": "ok"
+    },
+    "359344": {
+      "recordId": "rage-2016",
+      "lastFetchedAt": "2026-06-14T10:31:13.130Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "359364": {
@@ -23301,6 +24339,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "387820": {
+      "recordId": "strange-hair-salon-2015",
+      "lastFetchedAt": "2026-06-14T10:31:09.489Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "387847": {
       "recordId": "my-friend-s-older-sister-2016",
       "lastFetchedAt": "2026-06-07T10:16:22.686Z",
@@ -23388,6 +24432,12 @@
     "393850": {
       "recordId": "senza-vergogna-1986",
       "lastFetchedAt": "2026-06-11T10:58:51.519Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "394117": {
+      "recordId": "the-florida-project-2017",
+      "lastFetchedAt": "2026-06-14T10:31:07.791Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -23529,6 +24579,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "399121": {
+      "recordId": "an-officer-and-a-spy-2019",
+      "lastFetchedAt": "2026-06-14T10:31:16.804Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "399170": {
       "recordId": "logan-lucky-2017",
       "lastFetchedAt": "2026-06-09T00:24:11.127Z",
@@ -23592,6 +24648,12 @@
     "400155": {
       "recordId": "hotel-transylvania-3-summer-vacation-2018",
       "lastFetchedAt": "2026-06-07T00:27:17.229Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "400160": {
+      "recordId": "the-spongebob-movie-sponge-on-the-run-2020",
+      "lastFetchedAt": "2026-06-14T10:31:16.067Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -23775,6 +24837,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "407375": {
+      "recordId": "sniper-ghost-shooter-2016",
+      "lastFetchedAt": "2026-06-14T10:31:13.413Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "407436": {
       "recordId": "mowgli-legend-of-the-jungle-2018",
       "lastFetchedAt": "2026-06-09T00:24:11.127Z",
@@ -23832,6 +24900,12 @@
     "410119": {
       "recordId": "yu-pui-tsuen-ii-1987",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "411003": {
+      "recordId": "lumiere-2016",
+      "lastFetchedAt": "2026-06-14T10:31:13.373Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -24171,6 +25245,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "426338": {
+      "recordId": "holy-camp-2017",
+      "lastFetchedAt": "2026-06-14T10:31:17.843Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "426563": {
       "recordId": "holmes-and-watson-2018",
       "lastFetchedAt": "2026-06-11T10:58:57.756Z",
@@ -24216,6 +25296,12 @@
     "428399": {
       "recordId": "cold-skin-2017",
       "lastFetchedAt": "2026-06-10T10:44:35.242Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "428449": {
+      "recordId": "a-ghost-story-2017",
+      "lastFetchedAt": "2026-06-14T10:31:16.667Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -24501,6 +25587,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "438740": {
+      "recordId": "salyut-7-2017",
+      "lastFetchedAt": "2026-06-14T10:31:17.142Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "438799": {
       "recordId": "overlord-2018",
       "lastFetchedAt": "2026-06-04T10:37:55.844Z",
@@ -24741,6 +25833,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "449927": {
+      "recordId": "chasing-the-dragon-2017",
+      "lastFetchedAt": "2026-06-14T10:31:10.689Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "449992": {
       "recordId": "the-night-comes-for-us-2018",
       "lastFetchedAt": "2026-06-09T00:24:11.127Z",
@@ -24768,6 +25866,12 @@
     "451156": {
       "recordId": "infidelity-in-suburbia-2017",
       "lastFetchedAt": "2026-06-13T10:16:35.170Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "451480": {
+      "recordId": "the-guernsey-literary-and-potato-peel-pie-society-2018",
+      "lastFetchedAt": "2026-06-14T10:31:16.302Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -24855,6 +25959,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "454294": {
+      "recordId": "the-kid-who-would-be-king-2019",
+      "lastFetchedAt": "2026-06-14T10:31:12.033Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "454433": {
       "recordId": "magic-camp-2020",
       "lastFetchedAt": "2026-06-04T10:38:10.869Z",
@@ -24918,6 +26028,12 @@
     "455714": {
       "recordId": "bad-genius-2017",
       "lastFetchedAt": "2026-06-13T09:00:13.975Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "455839": {
+      "recordId": "time-trap-2017",
+      "lastFetchedAt": "2026-06-14T10:31:10.846Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -25089,6 +26205,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "461126": {
+      "recordId": "rangasthalam-2018",
+      "lastFetchedAt": "2026-06-14T10:31:13.025Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "461615": {
       "recordId": "mfkz-2018",
       "lastFetchedAt": "2026-06-02T04:42:17.371Z",
@@ -25170,6 +26292,12 @@
     "466272": {
       "recordId": "once-upon-a-time-in-hollywood-2019",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "466420": {
+      "recordId": "killers-of-the-flower-moon-2023",
+      "lastFetchedAt": "2026-06-14T10:31:16.017Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -25296,6 +26424,12 @@
     "475557": {
       "recordId": "joker-2019",
       "lastFetchedAt": "2026-06-04T16:59:57.313Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "475888": {
+      "recordId": "tell-it-to-the-bees-2019",
+      "lastFetchedAt": "2026-06-14T10:31:15.722Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -25617,6 +26751,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "496348": {
+      "recordId": "ghoomketu-2020",
+      "lastFetchedAt": "2026-06-14T10:31:13.290Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "497582": {
       "recordId": "enola-holmes-2020",
       "lastFetchedAt": "2026-06-11T10:59:02.135Z",
@@ -25701,6 +26841,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "502422": {
+      "recordId": "thunder-road-2018",
+      "lastFetchedAt": "2026-06-14T10:31:17.962Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "502682": {
       "recordId": "book-club-2018",
       "lastFetchedAt": "2026-06-09T10:36:34.599Z",
@@ -25752,6 +26898,12 @@
     "504903": {
       "recordId": "adultery-alumni-association-2018",
       "lastFetchedAt": "2026-06-10T00:30:13.559Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "505026": {
+      "recordId": "death-on-the-nile-2022",
+      "lastFetchedAt": "2026-06-14T10:31:08.066Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -26235,6 +27387,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "524369": {
+      "recordId": "the-many-saints-of-newark-2021",
+      "lastFetchedAt": "2026-06-14T10:31:11.873Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "524434": {
       "recordId": "eternals-2021",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
@@ -26409,9 +27567,21 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "531499": {
+      "recordId": "the-tax-collector-2020",
+      "lastFetchedAt": "2026-06-14T10:31:13.860Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "531593": {
       "recordId": "reprisal-2018",
       "lastFetchedAt": "2026-06-08T11:06:26.259Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "531876": {
+      "recordId": "the-outpost-2020",
+      "lastFetchedAt": "2026-06-14T10:31:07.928Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -26571,6 +27741,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "539517": {
+      "recordId": "constantine-city-of-demons-the-movie-2018",
+      "lastFetchedAt": "2026-06-14T10:31:11.996Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "539745": {
       "recordId": "animal-farm-2026",
       "lastFetchedAt": "2026-06-11T09:24:27.025Z",
@@ -26610,6 +27786,12 @@
     "544401": {
       "recordId": "cherry-2021",
       "lastFetchedAt": "2026-06-08T11:06:24.691Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "544510": {
+      "recordId": "cyrano-my-love-2018",
+      "lastFetchedAt": "2026-06-14T10:31:15.642Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -26823,6 +28005,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "558915": {
+      "recordId": "the-color-purple-2023",
+      "lastFetchedAt": "2026-06-14T10:31:11.153Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "559969": {
       "recordId": "el-camino-a-breaking-bad-movie-2019",
       "lastFetchedAt": "2026-06-12T10:50:39.288Z",
@@ -26874,6 +28062,12 @@
     "566525": {
       "recordId": "shang-chi-and-the-legend-of-the-ten-rings-2021",
       "lastFetchedAt": "2026-06-05T09:06:47.931Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "567189": {
+      "recordId": "tom-clancy-s-without-remorse-2021",
+      "lastFetchedAt": "2026-06-14T10:31:07.966Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27063,6 +28257,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "575113": {
+      "recordId": "modalita-aereo-2019",
+      "lastFetchedAt": "2026-06-14T10:31:15.235Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "575264": {
       "recordId": "mission-impossible-dead-reckoning-part-one-2023",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
@@ -27123,6 +28323,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "578189": {
+      "recordId": "black-and-blue-2019",
+      "lastFetchedAt": "2026-06-14T10:31:17.922Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "579047": {
       "recordId": "reminiscence-2021",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
@@ -27135,6 +28341,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
       "status": "ok"
     },
+    "579741": {
+      "recordId": "words-bubble-up-like-soda-pop-2021",
+      "lastFetchedAt": "2026-06-14T10:31:15.444Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "579974": {
       "recordId": "rrr-2022",
       "lastFetchedAt": "2026-06-05T09:06:47.931Z",
@@ -27144,6 +28356,12 @@
     "581032": {
       "recordId": "news-of-the-world-2020",
       "lastFetchedAt": "2026-06-13T16:27:06.395Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "581389": {
+      "recordId": "space-sweepers-2021",
+      "lastFetchedAt": "2026-06-14T10:31:17.298Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27168,6 +28386,12 @@
     "581600": {
       "recordId": "spenser-confidential-2020",
       "lastFetchedAt": "2026-06-12T09:19:25.702Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "581726": {
+      "recordId": "infinite-2021",
+      "lastFetchedAt": "2026-06-14T10:31:07.607Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27228,6 +28452,12 @@
     "585216": {
       "recordId": "escape-room-tournament-of-champions-2021",
       "lastFetchedAt": "2026-06-08T11:06:24.542Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "585244": {
+      "recordId": "i-still-believe-2020",
+      "lastFetchedAt": "2026-06-14T10:31:13.742Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27342,6 +28572,12 @@
     "591274": {
       "recordId": "fear-street-1978-2021",
       "lastFetchedAt": "2026-06-09T10:36:32.181Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "591278": {
+      "recordId": "game-of-thrones-the-last-watch-2019",
+      "lastFetchedAt": "2026-06-14T10:31:13.236Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27465,6 +28701,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "599925": {
+      "recordId": "shershaah-2021",
+      "lastFetchedAt": "2026-06-14T10:31:07.850Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "600354": {
       "recordId": "the-father-2020",
       "lastFetchedAt": "2026-06-08T17:02:56.880Z",
@@ -27573,6 +28815,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "606402": {
+      "recordId": "yaksha-ruthless-operations-2022",
+      "lastFetchedAt": "2026-06-14T10:31:11.586Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "606403": {
       "recordId": "special-delivery-2022",
       "lastFetchedAt": "2026-06-06T10:06:44.404Z",
@@ -27582,6 +28830,12 @@
     "606523": {
       "recordId": "night-in-paradise-2020",
       "lastFetchedAt": "2026-06-04T10:38:09.886Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "606679": {
+      "recordId": "the-high-note-2020",
+      "lastFetchedAt": "2026-06-14T10:31:14.521Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27645,6 +28899,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "611213": {
+      "recordId": "the-prom-2020",
+      "lastFetchedAt": "2026-06-14T10:31:09.788Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "611395": {
       "recordId": "double-world-2020",
       "lastFetchedAt": "2026-06-08T11:06:28.406Z",
@@ -27702,6 +28962,12 @@
     "613911": {
       "recordId": "bliss-2021",
       "lastFetchedAt": "2026-06-13T00:32:10.498Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "614409": {
+      "recordId": "to-all-the-boys-always-and-forever-2021",
+      "lastFetchedAt": "2026-06-14T10:31:12.764Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -27975,6 +29241,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "628519": {
+      "recordId": "la-corneta-de-mi-general-1989",
+      "lastFetchedAt": "2026-06-14T10:31:13.490Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "628847": {
       "recordId": "trap-house-2025",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
@@ -28074,6 +29346,12 @@
     "632727": {
       "recordId": "texas-chainsaw-massacre-2022",
       "lastFetchedAt": "2026-06-06T10:06:39.450Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "632856": {
+      "recordId": "spirited-2022",
+      "lastFetchedAt": "2026-06-14T10:31:12.661Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -28248,6 +29526,12 @@
     "644495": {
       "recordId": "house-of-gucci-2021",
       "lastFetchedAt": "2026-06-11T10:58:54.866Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "644583": {
+      "recordId": "the-mauritanian-2021",
+      "lastFetchedAt": "2026-06-14T10:31:16.466Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -28445,7 +29729,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-06-13T10:16:34.107Z",
+      "lastFetchedAt": "2026-06-14T10:31:06.511Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -28533,6 +29817,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "666750": {
+      "recordId": "dragonheart-vengeance-2021",
+      "lastFetchedAt": "2026-06-14T10:31:12.839Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "667216": {
       "recordId": "infinity-pool-2023",
       "lastFetchedAt": "2026-06-13T10:16:43.715Z",
@@ -28578,6 +29868,12 @@
     "669671": {
       "recordId": "night-teeth-2021",
       "lastFetchedAt": "2026-06-12T16:56:15.951Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "670266": {
+      "recordId": "tremors-shrieker-island-2020",
+      "lastFetchedAt": "2026-06-14T10:31:11.395Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -28947,6 +30243,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "723640": {
+      "recordId": "my-love-2021",
+      "lastFetchedAt": "2026-06-14T10:31:11.115Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "724089": {
       "recordId": "gabriel-s-inferno-part-ii-2020",
       "lastFetchedAt": "2026-06-10T17:00:28.634Z",
@@ -29313,6 +30615,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "760883": {
+      "recordId": "blood-red-sky-2021",
+      "lastFetchedAt": "2026-06-14T10:31:17.808Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "760926": {
       "recordId": "gold-2022",
       "lastFetchedAt": "2026-06-03T11:07:11.913Z",
@@ -29367,6 +30675,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "763165": {
+      "recordId": "the-burial-2023",
+      "lastFetchedAt": "2026-06-14T10:31:11.662Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "763215": {
       "recordId": "damsel-2024",
       "lastFetchedAt": "2026-06-13T10:16:54.003Z",
@@ -29379,6 +30693,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "763329": {
+      "recordId": "red-rocket-2021",
+      "lastFetchedAt": "2026-06-14T10:31:17.515Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "763788": {
       "recordId": "dangerous-2021",
       "lastFetchedAt": "2026-06-10T09:08:43.040Z",
@@ -29388,6 +30708,12 @@
     "765119": {
       "recordId": "the-bubble-2022",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "765172": {
+      "recordId": "rise-of-the-teenage-mutant-ninja-turtles-the-movie-2022",
+      "lastFetchedAt": "2026-06-14T10:31:12.423Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -29424,6 +30750,12 @@
     "770254": {
       "recordId": "back-to-the-outback-2021",
       "lastFetchedAt": "2026-06-06T10:06:41.102Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "771077": {
+      "recordId": "rise-2022",
+      "lastFetchedAt": "2026-06-14T10:31:16.431Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -29787,6 +31119,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "807356": {
+      "recordId": "watcher-2022",
+      "lastFetchedAt": "2026-06-14T10:31:10.188Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "809140": {
       "recordId": "father-stu-2022",
       "lastFetchedAt": "2026-06-09T16:51:33.704Z",
@@ -29940,6 +31278,12 @@
     "824744": {
       "recordId": "shiddat-2021",
       "lastFetchedAt": "2026-06-03T11:07:03.241Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "829280": {
+      "recordId": "enola-holmes-2-2022",
+      "lastFetchedAt": "2026-06-14T10:31:16.253Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -30135,6 +31479,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "846716": {
+      "recordId": "the-hand-2004",
+      "lastFetchedAt": "2026-06-14T10:31:15.197Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "846778": {
       "recordId": "margaux-2022",
       "lastFetchedAt": "2026-06-04T10:38:14.593Z",
@@ -30162,6 +31512,12 @@
     "850439": {
       "recordId": "the-damned-2025",
       "lastFetchedAt": "2026-06-08T11:06:25.643Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "850871": {
+      "recordId": "sayen-2023",
+      "lastFetchedAt": "2026-06-14T10:31:14.668Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -30501,6 +31857,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "897338": {
+      "recordId": "the-bad-seed-returns-2022",
+      "lastFetchedAt": "2026-06-14T10:31:14.047Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "898704": {
       "recordId": "desert-warrior-2026",
       "lastFetchedAt": "2026-06-04T09:15:55.232Z",
@@ -30645,6 +32007,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "921655": {
+      "recordId": "rescued-by-ruby-2022",
+      "lastFetchedAt": "2026-06-14T10:31:15.490Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "921785": {
       "recordId": "mixed-by-erry-2023",
       "lastFetchedAt": "2026-06-02T04:42:17.330Z",
@@ -30744,6 +32112,12 @@
     "934433": {
       "recordId": "scream-vi-2023",
       "lastFetchedAt": "2026-06-06T08:50:26.531Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "934632": {
+      "recordId": "rebel-moon-part-two-the-scargiver-2024",
+      "lastFetchedAt": "2026-06-14T10:31:09.751Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -31071,6 +32445,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "974931": {
+      "recordId": "totally-killer-2023",
+      "lastFetchedAt": "2026-06-14T10:31:18.080Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "975335": {
       "recordId": "magellan-2025",
       "lastFetchedAt": "2026-06-12T10:50:42.370Z",
@@ -31092,6 +32472,12 @@
     "976573": {
       "recordId": "elemental-2023",
       "lastFetchedAt": "2026-06-05T00:28:24.607Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "976576": {
+      "recordId": "emmanuelle-2024",
+      "lastFetchedAt": "2026-06-14T10:31:07.266Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -31137,6 +32523,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "980285": {
+      "recordId": "dangerous-waters-2023",
+      "lastFetchedAt": "2026-06-14T10:31:11.812Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "980477": {
       "recordId": "ne-zha-2-2025",
       "lastFetchedAt": "2026-06-11T00:32:15.456Z",
@@ -31170,6 +32562,12 @@
     "984249": {
       "recordId": "ruthless-2023",
       "lastFetchedAt": "2026-06-06T10:06:45.957Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "984324": {
+      "recordId": "the-wages-of-fear-2024",
+      "lastFetchedAt": "2026-06-14T10:31:11.547Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -31485,6 +32883,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1014590": {
+      "recordId": "upgraded-2024",
+      "lastFetchedAt": "2026-06-14T10:31:07.055Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1014840": {
       "recordId": "bula-2022",
       "lastFetchedAt": "2026-06-10T17:00:28.634Z",
@@ -31719,6 +33123,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1036561": {
+      "recordId": "shadow-master-2022",
+      "lastFetchedAt": "2026-06-14T10:31:14.086Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1037348": {
       "recordId": "my-happy-marriage-2023",
       "lastFetchedAt": "2026-06-11T10:58:59.492Z",
@@ -31806,6 +33216,12 @@
     "1051891": {
       "recordId": "thelma-2024",
       "lastFetchedAt": "2026-06-10T00:30:13.559Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1051896": {
+      "recordId": "arcadian-2024",
+      "lastFetchedAt": "2026-06-14T10:31:07.095Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -32163,6 +33579,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1093995": {
+      "recordId": "chief-of-station-2024",
+      "lastFetchedAt": "2026-06-14T10:31:10.517Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1094556": {
       "recordId": "the-thundermans-return-2024",
       "lastFetchedAt": "2026-06-06T10:06:45.698Z",
@@ -32287,6 +33709,12 @@
       "recordId": "kali-avenging-angel-2024",
       "lastFetchedAt": "2026-06-02T04:42:27.400Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords",
+      "status": "ok"
+    },
+    "1108566": {
+      "recordId": "killer-heat-2024",
+      "lastFetchedAt": "2026-06-14T10:31:11.435Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
     "1109940": {
@@ -32541,6 +33969,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1141182": {
+      "recordId": "die-alone-2024",
+      "lastFetchedAt": "2026-06-14T10:31:12.984Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1142921": {
       "recordId": "tere-ishk-mein-2025",
       "lastFetchedAt": "2026-06-05T16:46:26.081Z",
@@ -32607,6 +34041,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1147400": {
+      "recordId": "miraculous-world-paris-tales-of-shadybug-and-claw-noir-2023",
+      "lastFetchedAt": "2026-06-14T10:31:09.972Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1147416": {
       "recordId": "miraculous-world-london-at-the-edge-of-time-2024",
       "lastFetchedAt": "2026-06-04T10:37:51.473Z",
@@ -32622,6 +34062,12 @@
     "1149167": {
       "recordId": "high-rollers-2025",
       "lastFetchedAt": "2026-06-05T10:39:32.686Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1149504": {
+      "recordId": "honey-don-t-2025",
+      "lastFetchedAt": "2026-06-14T10:31:11.233Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -32730,6 +34176,12 @@
     "1160360": {
       "recordId": "if-i-had-legs-i-d-kick-you-2025",
       "lastFetchedAt": "2026-06-09T10:36:30.960Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1164355": {
+      "recordId": "lembayung-2024",
+      "lastFetchedAt": "2026-06-14T10:31:09.624Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -33120,6 +34572,12 @@
     "1214509": {
       "recordId": "in-a-violent-nature-2024",
       "lastFetchedAt": "2026-06-13T10:16:39.045Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1214835": {
+      "recordId": "de-de-pyaar-de-2-2025",
+      "lastFetchedAt": "2026-06-14T10:31:07.743Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -33579,6 +35037,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1245119": {
+      "recordId": "the-yellow-tie-2025",
+      "lastFetchedAt": "2026-06-14T10:31:07.222Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1246049": {
       "recordId": "dracula-2025",
       "lastFetchedAt": "2026-06-11T00:32:15.456Z",
@@ -33630,6 +35094,12 @@
     "1252382": {
       "recordId": "tyler-perry-s-finding-joy-2025",
       "lastFetchedAt": "2026-06-13T00:32:10.498Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1253000": {
+      "recordId": "deathstalker-2025",
+      "lastFetchedAt": "2026-06-14T10:31:08.493Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -33732,6 +35202,12 @@
     "1266781": {
       "recordId": "natacha-almost-air-hostess-2025",
       "lastFetchedAt": "2026-06-08T00:29:31.479Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1266798": {
+      "recordId": "dog-51-2025",
+      "lastFetchedAt": "2026-06-14T10:31:07.505Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -34134,6 +35610,12 @@
     "1307373": {
       "recordId": "wasteman-2026",
       "lastFetchedAt": "2026-06-12T00:32:07.840Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1308757": {
+      "recordId": "dead-sea-2024",
+      "lastFetchedAt": "2026-06-14T10:31:13.062Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -34803,6 +36285,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1426964": {
+      "recordId": "state-of-fear-2026",
+      "lastFetchedAt": "2026-06-14T10:31:08.415Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1427838": {
       "recordId": "the-holy-grill-2026",
       "lastFetchedAt": "2026-06-14T09:02:32.593Z",
@@ -34836,6 +36324,12 @@
     "1432596": {
       "recordId": "palestine-36-2025",
       "lastFetchedAt": "2026-06-05T10:39:41.261Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1433339": {
+      "recordId": "three-goodbyes-2025",
+      "lastFetchedAt": "2026-06-14T10:31:11.627Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -35088,6 +36582,12 @@
     "1511417": {
       "recordId": "bahubali-the-epic-2025",
       "lastFetchedAt": "2026-06-04T16:59:57.313Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1511789": {
+      "recordId": "captain-hook-the-cursed-tides-2025",
+      "lastFetchedAt": "2026-06-14T10:31:09.915Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
