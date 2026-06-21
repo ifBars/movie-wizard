@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from "react";
 import { useMountEffect } from "@/hooks/useExternalSyncEffect";
 import { filterCatalogMovies, getCatalogFilterCounts } from "@/lib/catalogFilters";
 import { loadMovieCatalog } from "@/lib/catalogRepository";
-import { buildTasteProfile, getRecommendations } from "@/lib/recommendations";
+import { buildTasteSnapshot } from "@/lib/recommendations";
 import {
   exportMovieState,
   importMovieState,
@@ -73,11 +73,14 @@ export function useMovieLibrary() {
   const visibleMovies = useMemo(() => filterCatalogMovies(movies, settings), [movies, settings]);
   const filterCounts = useMemo(() => getCatalogFilterCounts(movies, settings), [movies, settings]);
 
-  const profile = useMemo(() => buildTasteProfile(visibleMovies, states), [states, visibleMovies]);
-  const recommendations = useMemo(
-    () => getRecommendations(visibleMovies, states, { minimumMovieYear: settings.minimumRecommendationYear }),
+  const tasteSnapshot = useMemo(
+    () =>
+      buildTasteSnapshot(visibleMovies, states, {
+        minimumMovieYear: settings.minimumRecommendationYear,
+      }),
     [settings.minimumRecommendationYear, states, visibleMovies],
   );
+  const { profile, recommendations } = tasteSnapshot;
 
   const ratedMovies = useMemo(
     () =>

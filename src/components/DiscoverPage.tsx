@@ -13,10 +13,10 @@ import { fadeSlide } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
-const initialSearchResultLimit = 72;
-const searchResultPageSize = 72;
-const initialCategoryResultLimit = 96;
-const categoryResultPageSize = 96;
+const initialSearchResultLimit = 48;
+const searchResultPageSize = 48;
+const initialCategoryResultLimit = 48;
+const categoryResultPageSize = 48;
 const topPicksRowChunkSize = 14;
 
 type DiscoverPageProps = {

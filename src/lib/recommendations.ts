@@ -35,8 +35,28 @@ type RecommendationOptions = {
   candidateFilter?: (movie: Movie) => boolean;
 };
 
+export type RecommendationSelector = (options?: RecommendationOptions) => Recommendation[];
+
+export type TasteSnapshot = {
+  profile: TasteProfile;
+  recommendations: Recommendation[];
+};
+
 export function buildTasteProfile(movies: Movie[], states: MovieStateMap): TasteProfile {
   return buildTasteModel(movies, states).profile;
+}
+
+export function buildTasteSnapshot(
+  movies: Movie[],
+  states: MovieStateMap,
+  recommendationOptions: RecommendationOptions = {},
+): TasteSnapshot {
+  const tasteModel = buildTasteModel(movies, states);
+
+  return {
+    profile: tasteModel.profile,
+    recommendations: getRecommendationsForTasteModel(movies, states, tasteModel, recommendationOptions),
+  };
 }
 
 function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
@@ -113,8 +133,21 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
 }
 
 export function getRecommendations(movies: Movie[], states: MovieStateMap, options: RecommendationOptions = {}): Recommendation[] {
+  return createRecommendationSelector(movies, states)(options);
+}
+
+export function createRecommendationSelector(movies: Movie[], states: MovieStateMap): RecommendationSelector {
   const tasteModel = buildTasteModel(movies, states);
 
+  return (options: RecommendationOptions = {}) => getRecommendationsForTasteModel(movies, states, tasteModel, options);
+}
+
+function getRecommendationsForTasteModel(
+  movies: Movie[],
+  states: MovieStateMap,
+  tasteModel: TasteModel,
+  options: RecommendationOptions,
+) {
   const candidates = movies
     .flatMap((movie) => {
       if (options.minimumMovieYear !== null && options.minimumMovieYear !== undefined && movie.year < options.minimumMovieYear) {

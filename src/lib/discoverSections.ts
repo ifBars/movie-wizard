@@ -1,5 +1,5 @@
 import type { Movie, MovieStateMap, Recommendation } from "@/types";
-import { getRecommendations } from "@/lib/recommendations";
+import { createRecommendationSelector } from "@/lib/recommendations";
 
 export type DiscoverSectionKey = "top-picks" | "recent-releases" | "comedy" | "nostalgic" | "highly-rated" | "quick-watches";
 
@@ -36,8 +36,9 @@ const nostalgicTags = new Set([
 ]);
 
 export function buildDiscoverSections({ visibleMovies, states, recommendations, minimumRecommendationYear }: DiscoverSectionInput): DiscoverSection[] {
+  const selectRecommendations = createRecommendationSelector(visibleMovies, states);
   const recommendSectionMovies = (candidateFilter: (movie: Movie) => boolean) =>
-    getRecommendations(visibleMovies, states, {
+    selectRecommendations({
       minimumMovieYear: minimumRecommendationYear,
       candidateFilter,
     }).map((recommendation) => recommendation.movie);
