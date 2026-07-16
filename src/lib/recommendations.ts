@@ -14,6 +14,7 @@ const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
 const MAX_FEATURE_MATCHES = 3;
 const MAX_SOURCE_VOTE_COUNT = 10_000;
+const MIN_RELATED_SIGNAL = 0.08;
 
 type TasteModel = {
   profile: TasteProfile;
@@ -182,7 +183,7 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     score += genreScore * 18;
     reasons.push(`leans into your ${bestWeightedMatch(movie.genres, tasteModel.genreWeights)} streak`);
   } else if (genreScore < 0) {
-    score += genreScore * 12;
+    score += genreScore * 18;
     penalties.push(bestWeightedMatch(movie.genres, tasteModel.genreWeights, "negative"));
   }
 
@@ -192,7 +193,7 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     const matchedTags = topMatchingValues(movie.tags, tasteModel.tagWeights, 2);
     reasons.push(`matches ${matchedTags.join(" and ")} taste signals`);
   } else if (tagScore < 0) {
-    score += tagScore * 9;
+    score += tagScore * 14;
     penalties.push(...topMatchingValues(movie.tags, tasteModel.tagWeights, 2, "negative"));
   }
 
@@ -202,23 +203,25 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     const matchedCreators = [...topMatchingValues(movie.directors, tasteModel.directorWeights, 1), ...topMatchingValues(movie.cast, tasteModel.castWeights, 1)];
     reasons.push(`keeps close to ${matchedCreators[0]} in your ratings`);
   } else if (creatorScore < 0) {
-    score += creatorScore * 6;
+    score += creatorScore * 9;
   }
 
   const relatedCreators = likedMovies.filter(
     (liked) =>
       intersects(liked.directors, movie.directors) ||
       intersects(liked.cast, movie.cast) ||
-      intersects(liked.tags, movie.tags),
+      hasPositiveSharedSignal(liked.tags, movie.tags, tasteModel.tagWeights) ||
+      hasPositiveSharedSignal(liked.genres, movie.genres, tasteModel.genreWeights),
   );
 
-  if (relatedCreators.length > 0) {
+  if (relatedCreators.length > 0 && genreScore + tagScore > 0) {
     score += Math.min(18, relatedCreators.length * 6);
     reasons.push(`shares creative DNA with ${relatedCreators[0].title}`);
   }
 
   if (movie.runtimeMinutes <= 115) {
-    score += 5;
+    const runtimeBonus = profile.ratedCount >= 3 && genreScore + tagScore < 0 ? 2 : 5;
+    score += runtimeBonus;
     reasons.push("easy runtime for a weeknight watch");
   }
 
@@ -398,6 +401,11 @@ function toRecommendation(candidate: RecommendationCandidate): Recommendation {
     confidence: candidate.confidence,
     reasons: candidate.reasons,
   };
+}
+
+function hasPositiveSharedSignal(a: string[], b: string[], weights: WeightedMap) {
+  const bSet = new Set(b);
+  return a.some((value) => bSet.has(value) && signalStrength(weights.get(value)) > MIN_RELATED_SIGNAL);
 }
 
 function intersects(a: string[], b: string[]) {
