@@ -201,6 +201,35 @@ describe("movie recommendations", () => {
     expect(recommendations[0].confidence).toBe("high");
   });
 
+  test("keeps lower-rated family animation signals from crowding out stronger rated tastes", () => {
+    const catalog = [
+      createMovie({ id: "liked-thriller-1", genres: ["Thriller", "Mystery"], tags: ["detective", "tense"], criticalScore: 78, popularity: 45 }),
+      createMovie({ id: "liked-thriller-2", genres: ["Thriller", "Crime"], tags: ["detective", "conspiracy"], criticalScore: 78, popularity: 45 }),
+      createMovie({ id: "disliked-kids-1", genres: ["Animation", "Family", "Adventure"], tags: ["talking animals", "kids"], criticalScore: 94, popularity: 100 }),
+      createMovie({ id: "disliked-kids-2", genres: ["Animation", "Family", "Comedy"], tags: ["kids", "cute"], criticalScore: 94, popularity: 100 }),
+      createMovie({ id: "thriller-candidate", genres: ["Thriller", "Mystery"], tags: ["detective", "tense"], criticalScore: 72, popularity: 35 }),
+      createMovie({ id: "kids-candidate", genres: ["Animation", "Family", "Adventure"], tags: ["talking animals", "kids"], criticalScore: 99, popularity: 100 }),
+    ];
+    const states = createStates([
+      ["liked-thriller-1", 5],
+      ["liked-thriller-2", 4.5],
+      ["disliked-kids-1", 2],
+      ["disliked-kids-2", 2.5],
+    ]);
+
+    const profile = buildTasteProfile(catalog, states);
+    const recommendations = getRecommendations(catalog, states);
+
+    expect(profile.topGenres.map((genre) => genre.name)).toContain("Thriller");
+    expect(profile.topGenres.map((genre) => genre.name)).not.toContain("Animation");
+    expect(profile.topTags.map((tag) => tag.name)).toContain("detective");
+    expect(profile.topTags.map((tag) => tag.name)).not.toContain("kids");
+    expect(recommendations[0].movie.id).toBe("thriller-candidate");
+    expect(recommendations.findIndex((recommendation) => recommendation.movie.id === "thriller-candidate")).toBeLessThan(
+      recommendations.findIndex((recommendation) => recommendation.movie.id === "kids-candidate"),
+    );
+  });
+
 });
 
 function createStates(ratings: Array<[string, Rating]>): MovieStateMap {
