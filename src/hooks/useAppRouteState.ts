@@ -9,5 +9,6 @@ export function useAppRouteState() {
   return {
     ...routeState,
     pathname: location.pathname,
+    locationKey: location.key,
   };
 }

@@ -1,7 +1,8 @@
 import { BookmarkSimple, CheckCircle, Prohibit, Star } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { memo, useState } from "react";
-import type { PointerEvent } from "react";
+import type { MouseEvent, PointerEvent } from "react";
+import { movieDetailPath } from "@/lib/navigation";
 import { fadeScale, quickSpring, softSpring } from "@/lib/motion";
 import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
@@ -40,6 +41,15 @@ export const MoviePosterCard = memo(function MoviePosterCard({
   const ratingValue = state?.rating ?? 0;
   const displayedRating = previewRating ?? ratingValue;
 
+  function handleOpenClick(event: MouseEvent<HTMLAnchorElement>) {
+    if (!onOpen || event.defaultPrevented || event.button !== 0 || event.metaKey || event.altKey || event.ctrlKey || event.shiftKey) {
+      return;
+    }
+
+    event.preventDefault();
+    onOpen(movie.id);
+  }
+
   function previewRatingFromPointer(event: PointerEvent<HTMLDivElement>) {
     const rect = event.currentTarget.getBoundingClientRect();
     setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
@@ -55,11 +65,10 @@ export const MoviePosterCard = memo(function MoviePosterCard({
       whileHover={shouldReduceMotion ? undefined : { y: -4 }}
       transition={softSpring}
     >
-      <button
-        type="button"
+      <a
         className="poster-open-button poster-open-button--art"
-        onClick={() => onOpen?.(movie.id)}
-        disabled={!onOpen}
+        href={movieDetailPath(movie.id)}
+        onClick={handleOpenClick}
         aria-label={`Open ${movie.title} details`}
       >
         <motion.div className="poster-art" layout={enableLayoutAnimation}>
@@ -73,15 +82,15 @@ export const MoviePosterCard = memo(function MoviePosterCard({
             </div>
           ) : null}
         </motion.div>
-      </button>
+      </a>
 
       <div className="poster-meta">
         <div className="min-w-0">
           {onOpen ? (
             <h3>
-              <button type="button" className="poster-open-button poster-open-button--title" onClick={() => onOpen(movie.id)}>
+              <a className="poster-open-button poster-open-button--title" href={movieDetailPath(movie.id)} onClick={handleOpenClick}>
                 {movie.title}
-              </button>
+              </a>
             </h3>
           ) : (
             <h3>{movie.title}</h3>

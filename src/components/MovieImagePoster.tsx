@@ -1,4 +1,6 @@
 import { motion, useReducedMotion } from "framer-motion";
+import type { MouseEvent } from "react";
+import { movieDetailPath } from "@/lib/navigation";
 import { fadeScale, softSpring } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
@@ -14,6 +16,15 @@ export function MovieImagePoster({ movie, onOpen }: MovieImagePosterProps) {
   const shouldReduceMotion = useReducedMotion();
   const posterUrl = movie.posterPath ? `${tmdbPosterBaseUrl}${movie.posterPath}` : undefined;
 
+  function handleOpenClick(event: MouseEvent<HTMLAnchorElement>) {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.altKey || event.ctrlKey || event.shiftKey) {
+      return;
+    }
+
+    event.preventDefault();
+    onOpen(movie.id);
+  }
+
   return (
     <motion.article
       className="movie-image-poster"
@@ -22,7 +33,7 @@ export function MovieImagePoster({ movie, onOpen }: MovieImagePosterProps) {
       whileHover={shouldReduceMotion ? undefined : { y: -3 }}
       transition={softSpring}
     >
-      <button type="button" onClick={() => onOpen(movie.id)} aria-label={`Open ${movie.title} details`}>
+      <a href={movieDetailPath(movie.id)} onClick={handleOpenClick} aria-label={`Open ${movie.title} details`}>
         <div className="poster-art">
           <div className={cn("poster-art__wash bg-gradient-to-br", movie.posterTone)} />
           {posterUrl ? <img className="poster-art__image" src={posterUrl} alt={`${movie.title} poster`} loading="lazy" /> : null}
@@ -34,7 +45,7 @@ export function MovieImagePoster({ movie, onOpen }: MovieImagePosterProps) {
             </div>
           ) : null}
         </div>
-      </button>
+      </a>
     </motion.article>
   );
 }

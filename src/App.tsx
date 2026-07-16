@@ -1,5 +1,5 @@
-import { useDeferredValue, useMemo, useState } from "react";
-import { Navigate } from "react-router";
+import { useCallback, useDeferredValue, useMemo } from "react";
+import { Navigate, useSearchParams } from "react-router";
 import { AppHeader } from "@/components/AppHeader";
 import { AppMainContent } from "@/components/AppMainContent";
 import { useAppRouteState } from "@/hooks/useAppRouteState";
@@ -12,9 +12,10 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 import { viewPath } from "@/lib/navigation";
 
 function App() {
-  const [search, setSearch] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const search = searchParams.get("q") ?? "";
   const deferredSearch = useDeferredValue(search);
-  const { activeView, isKnownRoute, pathname, selectedMovieId } = useAppRouteState();
+  const { activeView, isKnownRoute, locationKey, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
   const { themeMode, setThemeMode, toggleTheme } = useThemeMode();
   const library = useMovieLibrary();
@@ -25,12 +26,34 @@ function App() {
 
   const catalogData = useCatalogViewData(library, deferredSearch);
 
+  const handleSearchChange = useCallback(
+    (nextSearch: string) => {
+      setSearchParams(
+        (currentParams) => {
+          const nextParams = new URLSearchParams(currentParams);
+          const normalizedSearch = nextSearch.trim();
+
+          if (normalizedSearch) {
+            nextParams.set("q", nextSearch);
+            nextParams.delete("category");
+          } else {
+            nextParams.delete("q");
+          }
+
+          return nextParams;
+        },
+        { replace: true },
+      );
+    },
+    [setSearchParams],
+  );
+
   const averageRatingLabel = library.profile.averageRating > 0 ? library.profile.averageRating.toFixed(1) : "0.0";
   const isResolvingDetail = Boolean(selectedMovieId && library.isCatalogLoading);
   const isDetailView = Boolean(selectedMovie) || isResolvingDetail;
   const isInitialCatalogLoading = library.isCatalogLoading && activeView !== "settings" && !selectedMovie && !isResolvingDetail;
 
-  usePageScrollRestoration(pathname);
+  usePageScrollRestoration(locationKey);
   useRoutePreloading({
     activeView,
     catalogError: library.catalogError,
@@ -57,7 +80,7 @@ function App() {
         historyCount={library.historyMovies.length}
         watchlistCount={library.watchlistMovies.length}
         catalogCount={library.visibleMovies.length}
-        onSearchChange={setSearch}
+        onSearchChange={handleSearchChange}
         onToggleTheme={toggleTheme}
       />
 
