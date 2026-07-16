@@ -10,14 +10,11 @@ export function useMovieNavigation() {
     (movieId: string) => {
       preloadMovieDetailsPage();
       navigate(movieDetailPath(movieId));
-      window.scrollTo({ top: 0 });
     },
     [navigate],
   );
 
   const closeMovie = useCallback(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-
     if (window.history.state?.idx > 0) {
       navigate(-1);
       return;
