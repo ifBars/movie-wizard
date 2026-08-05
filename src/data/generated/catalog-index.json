@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-05T00:21:56.541Z",
+  "generatedAt": "2026-08-05T10:23:31.753Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -4260,6 +4260,50 @@
       "plexFit": "A useful romance title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/A3ZbjkDxYUs",
       "synopsisPreview": "Nick and Noah are both embarking on life-changing adventures that are threatening to pull them apart—Nick in business with his father and Noah starting a fresh chapter at Oxford University. Now living separate lives, and..."
+    },
+    {
+      "id": "thunderbolts-2025",
+      "tmdbId": 986056,
+      "imdbId": "tt20969586",
+      "title": "Thunderbolts*",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-04-30",
+      "runtimeMinutes": 127,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "tags": [
+        "new york city",
+        "superhero",
+        "anti hero",
+        "villain",
+        "based on comic",
+        "super power",
+        "mental health",
+        "aftercreditsstinger"
+      ],
+      "directors": [
+        "Jake Schreier"
+      ],
+      "cast": [
+        "Florence Pugh",
+        "Sebastian Stan",
+        "Julia Louis-Dreyfus",
+        "Lewis Pullman",
+        "David Harbour",
+        "Wyatt Russell"
+      ],
+      "posterPath": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+      "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 50,
+      "criticalScore": 73,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/7rs_HhSA7XY",
+      "synopsisPreview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts."
     },
     {
       "id": "i-am-legend-alternate-ending-2007",
@@ -15649,50 +15693,6 @@
       "synopsisPreview": "McCall believes he has put his mysterious past behind him and dedicated himself to beginning a new, quiet life. But when he meets Teri, a young girl under the control of ultra-violent Russian gangsters, he can’t stand id..."
     },
     {
-      "id": "thunderbolts-2025",
-      "tmdbId": 986056,
-      "imdbId": "tt20969586",
-      "title": "Thunderbolts*",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-04-30",
-      "runtimeMinutes": 127,
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "tags": [
-        "new york city",
-        "superhero",
-        "villain",
-        "based on comic",
-        "super power",
-        "mental health",
-        "aftercreditsstinger",
-        "duringcreditsstinger"
-      ],
-      "directors": [
-        "Jake Schreier"
-      ],
-      "cast": [
-        "Florence Pugh",
-        "Sebastian Stan",
-        "Julia Louis-Dreyfus",
-        "Lewis Pullman",
-        "David Harbour",
-        "Wyatt Russell"
-      ],
-      "posterPath": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
-      "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-      "popularity": 19,
-      "criticalScore": 73,
-      "plexFit": "A useful action title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/7rs_HhSA7XY",
-      "synopsisPreview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts."
-    },
-    {
       "id": "greenland-2020",
       "tmdbId": 524047,
       "imdbId": "tt7737786",
@@ -22812,7 +22812,7 @@
       "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
       "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
       "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-      "popularity": 15,
+      "popularity": 14,
       "criticalScore": 70,
       "plexFit": "A useful romance title for broadening the local catalog.",
       "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life."
@@ -28717,7 +28717,7 @@
       "posterPath": "/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
       "backdropPath": "/c3hLMqh2QqJd7m1ar6rxw9eio35.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 13,
+      "popularity": 11,
       "criticalScore": 65,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/9k9SYlMy9qs",
@@ -74197,6 +74197,48 @@
       "synopsisPreview": "After a personal tragedy, Sarah joins her friends on a caving expedition in the Appalachian Mountains. But when a rockfall traps them deep underground, their adventure turns into a nightmare. As they search for a way out..."
     },
     {
+      "id": "the-field-1990",
+      "tmdbId": 31651,
+      "imdbId": "tt0099566",
+      "title": "The Field",
+      "originalLanguage": "en",
+      "year": 1990,
+      "releaseDate": "1990-09-21",
+      "runtimeMinutes": 110,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [
+        "sheep",
+        "cliff",
+        "ireland",
+        "cattle",
+        "farmland",
+        "farmer",
+        "1930s",
+        "land dispute"
+      ],
+      "directors": [
+        "Jim Sheridan"
+      ],
+      "cast": [
+        "Richard Harris",
+        "John Hurt",
+        "Sean Bean",
+        "Frances Tomelty",
+        "Brenda Fricker",
+        "Ruth McCabe"
+      ],
+      "posterPath": "/ppF5pUheNoL0EPuGRIEnHz1ewp7.jpg",
+      "backdropPath": "/j8ajhpIpX2mR3SEfc6kSsdZefGR.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 7,
+      "criticalScore": 70,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/fP1OGWznR68",
+      "synopsisPreview": "\"Bull\" McCabe's family has farmed a field for generations, sacrificing much in the name of the land. When the widow who owns the field decides to sell it in a public auction, McCabe knows that he must own it. While no lo..."
+    },
+    {
       "id": "titan-the-oceangate-disaster-2025",
       "tmdbId": 1426306,
       "imdbId": "tt35628853",
@@ -75782,6 +75824,43 @@
       "plexFit": "A useful action title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/99BLnkAlC1M",
       "synopsisPreview": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back."
+    },
+    {
+      "id": "sniper-the-last-stand-2025",
+      "tmdbId": 1410082,
+      "imdbId": "tt34910018",
+      "title": "Sniper: The Last Stand",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-01-21",
+      "runtimeMinutes": 99,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "tags": [
+        "sniper",
+        "sequel"
+      ],
+      "directors": [
+        "Danishka Esterhazy"
+      ],
+      "cast": [
+        "Chad Michael Collins",
+        "Ryan Robbins",
+        "Sharon Taylor",
+        "Manuel Rodriguez-Saenz",
+        "Vusi Kunene",
+        "Sizo Mahlangu"
+      ],
+      "posterPath": "/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg",
+      "backdropPath": "/ybSA7fUbYHw8VeRiSJ7tgKJnYWZ.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 7,
+      "criticalScore": 68,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/YSwYhvG0Hy4",
+      "synopsisPreview": "To stop an arms dealer from unleashing a deadly superweapon, Ace sniper Brandon Beckett and Agent Zero are deployed to Costa Verde to lead a group of elite soldiers against an unrelenting militia. Taking an untested snip..."
     },
     {
       "id": "spy-2015",
@@ -78965,6 +79044,47 @@
       "plexFit": "Imported from your local Plex movie library.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/QfFasuouxQI",
       "synopsisPreview": "An international heist crew, led by Cyrus Whitaker, race to lift $500 million in gold from a passenger plane at 40,000 feet."
+    },
+    {
+      "id": "lurker-2025",
+      "tmdbId": 1264573,
+      "imdbId": "tt13651462",
+      "title": "Lurker",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-08-22",
+      "runtimeMinutes": 100,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [
+        "pop star",
+        "affectation",
+        "los angeles, california",
+        "fear of rejection",
+        "ambiguous",
+        "baffled"
+      ],
+      "directors": [
+        "Alex Russell"
+      ],
+      "cast": [
+        "Théodore Pellerin",
+        "Archie Madekwe",
+        "Havana Rose Liu",
+        "Sunny Suljic",
+        "Daniel Zolghadri",
+        "Zack Fox"
+      ],
+      "posterPath": "/3rbY3fjXQpt4sQLQvKD7CT6oJsS.jpg",
+      "backdropPath": "/u4JsyMpp6mtAYbg0t3GIaCgPrRy.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 7,
+      "criticalScore": 64,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/TohwFNb7AHI",
+      "synopsisPreview": "When a twenty-something retail clerk encounters a rising pop star, he takes the opportunity to edge his way into the in-crowd. But as the line between friend and fan blurs beyond recognition, access and proximity become..."
     },
     {
       "id": "pizza-movie-2026",
@@ -82857,6 +82977,41 @@
       "synopsisPreview": "400 years into the future, disease has wiped out the majority of the world's population, except one walled city, Bregna, ruled by a congress of scientists. When Æon Flux, the top operative in the underground 'Monican' re..."
     },
     {
+      "id": "control-freak-2025",
+      "tmdbId": 1286663,
+      "imdbId": "tt30789086",
+      "title": "Control Freak",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-03-12",
+      "runtimeMinutes": 104,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "parasite"
+      ],
+      "directors": [
+        "Shal Ngo"
+      ],
+      "cast": [
+        "Kelly Marie Tran",
+        "Miles Robbins",
+        "Kieu Chinh",
+        "Toan Le",
+        "Callie Johnson",
+        "Sabrina Davi"
+      ],
+      "posterPath": "/qcOksMzsmPPA41c3DkCD47sElDU.jpg",
+      "backdropPath": "/AflLdFIPKGQFVWhDSyedLo6aAR6.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 7,
+      "criticalScore": 56,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ZxJ-raCdP6w",
+      "synopsisPreview": "A motivational speaker, plagued by an uncontrollable itch on her head, becomes infected with a parasitic demon from her homeland."
+    },
+    {
       "id": "shogun-s-joy-of-torture-1968",
       "tmdbId": 99099,
       "imdbId": "tt0059816",
@@ -84637,7 +84792,7 @@
       "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
       "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 6,
+      "popularity": 7,
       "criticalScore": 84,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life."
@@ -84753,7 +84908,7 @@
       "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
       "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 6,
+      "popularity": 5,
       "criticalScore": 83,
       "plexFit": "A useful animation title for broadening the local catalog.",
       "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig..."
@@ -86092,7 +86247,7 @@
       "posterPath": "/tcypmwT43pt5jWiUyy2BomyPD1Y.jpg",
       "backdropPath": "/pS7VXwb1sNk79F5GzgtEP5YzEHE.jpg",
       "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 6,
+      "popularity": 5,
       "criticalScore": 78,
       "plexFit": "A useful history title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/J6MRNchmZkY",
@@ -89890,7 +90045,7 @@
       "posterPath": "/ipK5DmAILow5LA3DWKQ5IF8p5vr.jpg",
       "backdropPath": "/4r3gVa2YPPCdPw5kfPdNN5d407z.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 6,
+      "popularity": 5,
       "criticalScore": 73,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "synopsisPreview": "For two decades, the victims of the Six-Day War have been fighting in Kisangani for the recognition of this bloody conflict and demanding compensation. Tired of unsuccessful pleas, they have finally decided to voice thei..."
@@ -94885,6 +95040,45 @@
       "synopsisPreview": "The creators of Wallace & Gromit bring you an exciting and original story about a group of chickens determined to fly the coop–even if they can’t fly! It’s hardly poultry in motion when Rocky attempts to teach Ginger and..."
     },
     {
+      "id": "compostelle-2026",
+      "tmdbId": 1404604,
+      "imdbId": "tt39814688",
+      "title": "Compostelle",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "runtimeMinutes": 113,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "tags": [
+        "pilgrimage",
+        "saint-jacques-de-compostelle",
+        "pèlerinage",
+        "camino de santiago",
+        "santiago de compostela"
+      ],
+      "directors": [
+        "Yann Samuell"
+      ],
+      "cast": [
+        "Alexandra Lamy",
+        "Julien Le Berre",
+        "Eric Métayer",
+        "Mélanie Doutey",
+        "Cyril Gueï",
+        "Malik Amraoui"
+      ],
+      "posterPath": "/4FaoBpDtzhZk9R907epSN5WCelq.jpg",
+      "backdropPath": "/lW9uSLT4t7trf1rG0nnOj14AoXT.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 68,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "Fred and Adam have nothing in common. Yet, they will meet while walking the Way of St. James as a form of spiritual path."
+    },
+    {
       "id": "death-proof-2007",
       "tmdbId": 1991,
       "imdbId": "tt1028528",
@@ -98751,6 +98945,50 @@
       "synopsisPreview": "On August 12, 1967, in Montana's Glacier National Park, the unthinkable happened: that same night, nine miles apart, there were not one—but two—fatal grizzly bear attacks."
     },
     {
+      "id": "high-school-musical-3-senior-year-2008",
+      "tmdbId": 11887,
+      "imdbId": "tt0962726",
+      "title": "High School Musical 3: Senior Year",
+      "originalLanguage": "en",
+      "year": 2008,
+      "releaseDate": "2008-10-11",
+      "runtimeMinutes": 112,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "tags": [
+        "high school",
+        "musical",
+        "basketball",
+        "sequel",
+        "coming of age",
+        "high school student",
+        "duringcreditsstinger",
+        "grand"
+      ],
+      "directors": [
+        "Kenny Ortega"
+      ],
+      "cast": [
+        "Zac Efron",
+        "Vanessa Hudgens",
+        "Ashley French",
+        "Lucas Grabeel",
+        "Corbin Bleu",
+        "Monique Coleman"
+      ],
+      "posterPath": "/aq2o1wT0crBOTxof36O6KTyjpgE.jpg",
+      "backdropPath": "/spyZFUG0lR6FEbvMn3YBcxT8vdx.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 65,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/1S8RTKL5cW8",
+      "synopsisPreview": "As seniors in high school, Troy and Gabriella struggle with the idea of being separated from one another as college approaches. Along with the rest of the Wildcats, they stage a spring musical to address their experience..."
+    },
+    {
       "id": "ladder-49-2004",
       "tmdbId": 11128,
       "imdbId": "tt0349710",
@@ -101356,7 +101594,7 @@
       "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
       "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
       "posterTone": "from-cyan-300 via-blue-800 to-black",
-      "popularity": 6,
+      "popularity": 5,
       "criticalScore": 63,
       "plexFit": "A useful crime title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
@@ -103173,6 +103411,48 @@
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/fGjfQjIKWkw",
       "synopsisPreview": "It's Senior year at East Great Falls. Annie, Kayla, Michelle, and Stephanie decide to harness their girl power and band together to get what they want their last year of high school."
+    },
+    {
+      "id": "bad-trip-2021",
+      "tmdbId": 578908,
+      "imdbId": "tt9684220",
+      "title": "Bad Trip",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-03-25",
+      "runtimeMinutes": 87,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "gorilla",
+        "stunt",
+        "road trip",
+        "hidden camera",
+        "anthology",
+        "prank",
+        "drug trip",
+        "drunk"
+      ],
+      "directors": [
+        "Kitao Sakurai"
+      ],
+      "cast": [
+        "Eric André",
+        "Lil Rel Howery",
+        "Tiffany Haddish",
+        "Michaela Conlin",
+        "Gerald Espinoza",
+        "Kaleila Johnson"
+      ],
+      "posterPath": "/A1Gy5HX3DKGaNW1Ay30NTIVJqJ6.jpg",
+      "backdropPath": "/5yuYhNfUXrd28vYpFANgAKKDLIJ.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 61,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/OsXyNcckpwM",
+      "synopsisPreview": "In this hidden-camera prank comedy, two best friends bond on a wild road trip to New York as they pull real people into their raunchy, raucous antics."
     },
     {
       "id": "bosomy-mom-2020",
@@ -105390,6 +105670,40 @@
       "plexFit": "A compact horror option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/uOV-xMYQ7sk",
       "synopsisPreview": "In 1970s Los Angeles, the legendary ghost La Llorona is stalking the night -- and the children. Ignoring the eerie warning of a troubled mother, a social worker and her own kids are drawn into a frightening supernatural..."
+    },
+    {
+      "id": "the-eyes-of-others-2026",
+      "tmdbId": 1341422,
+      "imdbId": "tt34625288",
+      "title": "The Eyes of Others",
+      "originalTitle": "Gli occhi degli altri",
+      "originalLanguage": "it",
+      "year": 2026,
+      "releaseDate": "2026-03-19",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Andrea De Sica"
+      ],
+      "cast": [
+        "Filippo Timi",
+        "Jasmine Trinca",
+        "Matteo Olivetti",
+        "Anna Ferzetti",
+        "Vincenzo Crea",
+        "Rita Abela"
+      ],
+      "posterPath": "/lAxrqKEMbasiHj6C5Dfv5FKQTAD.jpg",
+      "backdropPath": "/eoZGgOb3zbTZXKPbOx5cS6DZYwV.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 57,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "In the untamed beauty of the island owned by an extraordinarily wealthy Marquis, Elena's arrival marks the beginning of a passionate love affair. Complicity and transgression, sex and power, in a film inspired by 1960s I..."
     },
     {
       "id": "7-dogs-2026",
@@ -118076,7 +118390,7 @@
         "Jessica Dimmock"
       ],
       "cast": [],
-      "posterPath": "/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+      "posterPath": "/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
       "backdropPath": "/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
       "popularity": 5,
@@ -118723,6 +119037,47 @@
       "synopsisPreview": "Josselin Beaumont, a French secret agent, is tasked with assassinating Njala, the president for life of Malawi in Africa. A shift in French policy means that assassinating Njala is no longer an option. But instead of rec..."
     },
     {
+      "id": "the-robot-chicken-star-wars-2007",
+      "tmdbId": 42979,
+      "imdbId": "tt1020990",
+      "title": "The Robot Chicken: Star Wars",
+      "originalLanguage": "en",
+      "year": 2007,
+      "releaseDate": "2007-07-17",
+      "runtimeMinutes": 23,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Science Fiction",
+        "Action",
+        "TV Movie",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "based on tv series"
+      ],
+      "directors": [
+        "Seth Green"
+      ],
+      "cast": [
+        "Seth Green",
+        "Abraham Benrubi",
+        "Keith Ferguson",
+        "Candace Bailey",
+        "Bob Bergen",
+        "Ahmed Best"
+      ],
+      "posterPath": "/h44WN4mVJ6wEpJgLaaNoFjv0NAo.jpg",
+      "backdropPath": "/l3OSKCM0oBOGuioC2jeaeeV8m4I.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 5,
+      "criticalScore": 72,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/JSIJLAnTPUQ",
+      "synopsisPreview": "A series of 30 sketches, following the hilarious antics of various characters from a galaxy, far, far away."
+    },
+    {
       "id": "the-shadow-strays-2024",
       "tmdbId": 1151949,
       "imdbId": "tt28349451",
@@ -119269,6 +119624,51 @@
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/vYSoVcuFxNg",
       "synopsisPreview": "At the Comédie-Française, there is one golden rule: the play is never canceled. Unfortunately for Nina, everything else is—just three hours before the premiere of her first staging. An actor is stuck on a train, tensions..."
+    },
+    {
+      "id": "crows-zero-2007",
+      "tmdbId": 14943,
+      "imdbId": "tt1016290",
+      "title": "Crows Zero",
+      "originalTitle": "クローズZERO",
+      "originalLanguage": "ja",
+      "year": 2007,
+      "releaseDate": "2007-10-26",
+      "runtimeMinutes": 130,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "tags": [
+        "martial arts",
+        "japan",
+        "smoking",
+        "delinquent",
+        "yakuza",
+        "mafia",
+        "gang",
+        "based on manga"
+      ],
+      "directors": [
+        "Takashi Miike"
+      ],
+      "cast": [
+        "Shun Oguri",
+        "Kyosuke Yabe",
+        "Meisa Kuroki",
+        "Takayuki Yamada",
+        "Kenichi Endo",
+        "Goro Kishitani"
+      ],
+      "posterPath": "/so1E9wUAXJi9hqGRNPgoVQd7HaX.jpg",
+      "backdropPath": "/43FpZytJjlReDAPrByR77i81mnr.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 71,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/TOQleOskvmI",
+      "synopsisPreview": "The students of Suzuran High compete for the King of School title. An ex-graduate yakuza is sent to kill the son of a criminal group, but he can't make himself do it as he reminds him of his youth."
     },
     {
       "id": "detective-conan-crossroad-in-the-ancient-capital-2003",
@@ -129123,7 +129523,7 @@
       ],
       "posterPath": "/cSzgPbfI69vFd5jAke9PdTd6wHx.jpg",
       "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 5,
+      "popularity": 4,
       "criticalScore": 66,
       "plexFit": "A compact catalog option for easier weeknight discovery.",
       "synopsisPreview": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success."
@@ -138024,6 +138424,42 @@
       "synopsisPreview": "A comedy that follows the chaos that ensues when a meteor hits the Earth carrying alien life forms that give new meaning to the term \"survival of the fittest.\" David Duchovny, Orlando Jones, Seann William Scott, and Juli..."
     },
     {
+      "id": "femmes-fatales-1976",
+      "tmdbId": 63481,
+      "imdbId": "tt0074524",
+      "title": "Femmes Fatales",
+      "originalTitle": "Calmos",
+      "originalLanguage": "fr",
+      "year": 1976,
+      "releaseDate": "1976-02-11",
+      "runtimeMinutes": 81,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "surrealism",
+        "gynecologist"
+      ],
+      "directors": [
+        "Bertrand Blier"
+      ],
+      "cast": [
+        "Jean-Pierre Marielle",
+        "Jean Rochefort",
+        "Brigitte Fossey",
+        "Bernard Blier",
+        "Claude Piéplu",
+        "Gérard Jugnot"
+      ],
+      "posterPath": "/bOnd2yApKBVyjxchUjN1hG5E0kV.jpg",
+      "backdropPath": "/uDyynmrQV72gIifcIZ8Q9MrGPRk.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 61,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "Two men, fortyish, worn out by their wives, abandon everything to go and live in the back of beyond. There they meet a truculent priest, a boozer, Émile who recalls them to life's simple pleasures. Calm is what they want..."
+    },
+    {
       "id": "freddy-vs-jason-2003",
       "tmdbId": 6466,
       "imdbId": "tt0329101",
@@ -143927,6 +144363,46 @@
       "plexFit": "A compact fantasy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/jouaan70m4c",
       "synopsisPreview": "Milton is a hardened felon who has broken out of Hell, intent on finding the vicious cult who brutally murdered his daughter and kidnapped her baby. He joins forces with a sexy, tough-as-nails waitress, who's also seekin..."
+    },
+    {
+      "id": "heat-of-desire-1981",
+      "tmdbId": 241792,
+      "imdbId": "tt0080899",
+      "title": "Heat of Desire",
+      "originalTitle": "Plein sud",
+      "originalLanguage": "fr",
+      "year": 1981,
+      "releaseDate": "1981-04-29",
+      "runtimeMinutes": 86,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [
+        "hotel",
+        "infidelity",
+        "barcelona, spain",
+        "seduction",
+        "money"
+      ],
+      "directors": [
+        "Luc Béraud"
+      ],
+      "cast": [
+        "Patrick Dewaere",
+        "Clio Goldsmith",
+        "Jeanne Moreau",
+        "Guy Marchand",
+        "Pierre Dux",
+        "José Luis López Vázquez"
+      ],
+      "posterPath": "/k5VmISCMQPnymn38k2iwLrSqUH0.jpg",
+      "backdropPath": "/1oUIbZyK7bUNvbi84oY1l0icuJy.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 55,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "In France in the near future, revolt and chaos erupt. A right-wing politician, Philippe Muphand, is set to take control when his lady friend Caroline walks out, announcing she will take up with the first fool she sees. T..."
     },
     {
       "id": "highest-2-lowest-2025",
@@ -169277,6 +169753,49 @@
       "synopsisPreview": "1989 is an important year in the political history of Hungary. However, Petya and his friends couldn't care less. They are about to graduate high school. The only important things to them are the parties, girls, making s..."
     },
     {
+      "id": "my-father-s-dragon-2022",
+      "tmdbId": 560052,
+      "imdbId": "tt9288748",
+      "title": "My Father's Dragon",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 99,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "tags": [
+        "island",
+        "young boy",
+        "dragon",
+        "based on children's book",
+        "hand drawn animation"
+      ],
+      "directors": [
+        "Nora Twomey"
+      ],
+      "cast": [
+        "Jacob Tremblay",
+        "Golshifteh Farahani",
+        "Gaten Matarazzo",
+        "Dianne Wiest",
+        "Rita Moreno",
+        "Chris O'Dowd"
+      ],
+      "posterPath": "/6hgEe1w0An5fKi3ZqIUBwOyIN2y.jpg",
+      "backdropPath": "/gJESrIalQkXe7bh9ckyQvgCSlhq.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0giW36Fb69c",
+      "synopsisPreview": "Struggling to cope after a move to the city with his mother, Elmer runs away in search of Wild Island and a young dragon who waits to be rescued. Elmer’s adventures introduce him to ferocious beasts, a mysterious island..."
+    },
+    {
       "id": "my-neighbors-the-yamadas-1999",
       "tmdbId": 16198,
       "imdbId": "tt0206013",
@@ -174444,6 +174963,47 @@
       "synopsisPreview": "Due to a genetic disorder, handsome librarian Henry DeTamble involuntarily zips through time, appearing at various moments in the life of his true love, the beautiful artist Clare Abshire."
     },
     {
+      "id": "tom-and-jerry-shiver-me-whiskers-2006",
+      "tmdbId": 60293,
+      "imdbId": "tt0808508",
+      "title": "Tom and Jerry: Shiver Me Whiskers",
+      "originalLanguage": "en",
+      "year": 2006,
+      "releaseDate": "2006-08-21",
+      "runtimeMinutes": 74,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "tags": [
+        "treasure",
+        "cartoon",
+        "anthropomorphism",
+        "pirate",
+        "animals"
+      ],
+      "directors": [
+        "Scott Jeralds"
+      ],
+      "cast": [
+        "William Hanna",
+        "Mark Hamill",
+        "Kathy Najimy",
+        "Charles Nelson Reilly",
+        "Kevin Michael Richardson",
+        "Wallace Shawn"
+      ],
+      "posterPath": "/8kJT2PQXBdLvT7jimzgxQFWXPBK.jpg",
+      "backdropPath": "/7tOpXxoPavzvkPz92JpnWl0uHet.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 69,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "Dueling cat-and-mouse team Tom and Jerry hit the high seas on a hunt for buried treasure in this pirate adventure. The tale begins when crew member Tom sets sail with an infamous pirate and finds a treasure map along wit..."
+    },
+    {
       "id": "two-prosecutors-2025",
       "tmdbId": 1257406,
       "imdbId": "tt35521200",
@@ -177114,41 +177674,6 @@
       "plexFit": "A useful fantasy title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/XeISaoQDh2g",
       "synopsisPreview": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success – which propels him into a macabre universe."
-    },
-    {
-      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-      "tmdbId": 961651,
-      "imdbId": "tt20425026",
-      "title": "Spider-Man: All Roads Lead to No Way Home",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-05-03",
-      "runtimeMinutes": 30,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "short film",
-        "superhero",
-        "film production"
-      ],
-      "directors": [],
-      "cast": [
-        "Tom Holland",
-        "Andrew Garfield",
-        "Tobey Maguire",
-        "Willem Dafoe",
-        "Alfred Molina",
-        "Jamie Foxx"
-      ],
-      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
-      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 68,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
-      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts."
     },
     {
       "id": "taps-1981",
@@ -198178,6 +198703,49 @@
       "synopsisPreview": "Manhattanite Ashley is known to many as the luckiest woman around. After a chance encounter with a down-and-out young man, however, she realizes that she's swapped her fortune for his."
     },
     {
+      "id": "kimi-2022",
+      "tmdbId": 800510,
+      "imdbId": "tt14128670",
+      "title": "Kimi",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-02-10",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Crime"
+      ],
+      "tags": [
+        "seattle, washington",
+        "agoraphobia",
+        "mental illness",
+        "virus",
+        "covid-19",
+        "empathetic",
+        "excited"
+      ],
+      "directors": [
+        "Steven Soderbergh"
+      ],
+      "cast": [
+        "Zoë Kravitz",
+        "Byron Bowers",
+        "Jaime Camil",
+        "Erika Christensen",
+        "Derek DelGaudio",
+        "Robin Givens"
+      ],
+      "posterPath": "/okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg",
+      "backdropPath": "/mruT954ve6P1zquaRs6XG0hA5k9.jpg",
+      "posterTone": "from-amber-200 via-stone-700 to-black",
+      "popularity": 4,
+      "criticalScore": 62,
+      "plexFit": "A compact thriller option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/67S8ru4K4x4",
+      "synopsisPreview": "A tech worker with agoraphobia discovers recorded evidence of a violent crime but is met with resistance when she tries to report it. Seeking justice, she must do the thing she fears the most: leave her apartment."
+    },
+    {
       "id": "knight-and-day-2010",
       "tmdbId": 37834,
       "imdbId": "tt1013743",
@@ -202167,7 +202735,7 @@
       ],
       "posterPath": "/rM3qaofQyVpeNRj0fQQzm3EovAL.jpg",
       "posterTone": "from-cyan-300 via-blue-800 to-black",
-      "popularity": 4,
+      "popularity": 3,
       "criticalScore": 60,
       "plexFit": "A compact crime option for easier weeknight discovery.",
       "synopsisPreview": "Three men plan a jewelry heist abroad the Andalusia express train."
@@ -204330,6 +204898,44 @@
       "plexFit": "A useful crime title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/46qKHq7REI4",
       "synopsisPreview": "Angela Bennett is a freelance computer systems analyst who tracks down software viruses. At night she hooks up to the internet and chats to others 'surfing the net'. While de-bugging a new high-tech game for a cyber frie..."
+    },
+    {
+      "id": "the-parenting-2025",
+      "tmdbId": 850920,
+      "imdbId": "tt14041896",
+      "title": "The Parenting",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-03-12",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "tags": [
+        "poltergeist",
+        "gay theme",
+        "gay couple"
+      ],
+      "directors": [
+        "Craig Johnson"
+      ],
+      "cast": [
+        "Brandon Flynn",
+        "Nik Dodani",
+        "Brian Cox",
+        "Edie Falco",
+        "Lisa Kudrow",
+        "Dean Norris"
+      ],
+      "posterPath": "/5lMu14IMuHo0hKYCwCIogt7IioX.jpg",
+      "backdropPath": "/h4peDpoepEmErFwBeoIE4yZ1pvJ.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 4,
+      "criticalScore": 60,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/fn-hc0yf3MY",
+      "synopsisPreview": "Boyfriends Josh and Rohan plan a weekend getaway to introduce their parents, only to discover that their rental is home to an ancient demon."
     },
     {
       "id": "the-surrender-2025",
@@ -210918,6 +211524,40 @@
       "synopsisPreview": "Jon and Garfield visit the United Kingdom, where a case of mistaken cat identity finds Garfield ruling over a castle. His reign is soon jeopardized by the nefarious Lord Dargis, who has designs on the estate."
     },
     {
+      "id": "good-boys-2005",
+      "tmdbId": 41646,
+      "imdbId": "tt0462726",
+      "title": "Good Boys",
+      "originalTitle": "ילדים טובים",
+      "originalLanguage": "he",
+      "year": 2005,
+      "releaseDate": "2005-01-01",
+      "runtimeMinutes": 75,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Yair Hochner"
+      ],
+      "cast": [
+        "Tomer Ilan",
+        "Daniel Efrat",
+        "Yuval Raz",
+        "Nili Tserruya",
+        "Ori Urian",
+        "Gila Goldstein"
+      ],
+      "posterPath": "/3jM6ojonYH412ce9PRtmH5Mh2TC.jpg",
+      "backdropPath": "/p7V8B2MiBRdFOrai7wSSIR4chwJ.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 56,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "Movie follows two young gay hustlers through interwoven stories during a night in Tel Aviv."
+    },
+    {
       "id": "hole-in-law-2020",
       "tmdbId": 724109,
       "imdbId": "tt12944128",
@@ -212418,6 +213058,51 @@
       "plexFit": "A useful romance title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/IE3bItXIwNI",
       "synopsisPreview": "A married couple having troubles in bed, finding their sexual satisfaction outside their marriage."
+    },
+    {
+      "id": "freejack-1992",
+      "tmdbId": 9278,
+      "imdbId": "tt0104299",
+      "title": "Freejack",
+      "originalLanguage": "en",
+      "year": 1992,
+      "releaseDate": "1992-01-17",
+      "runtimeMinutes": 110,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "tags": [
+        "future",
+        "bounty hunter",
+        "based on novel or book",
+        "chase",
+        "immortality",
+        "dystopia",
+        "post-apocalyptic future",
+        "time travel"
+      ],
+      "directors": [
+        "Geoff Murphy"
+      ],
+      "cast": [
+        "Emilio Estevez",
+        "Mick Jagger",
+        "Rene Russo",
+        "Anthony Hopkins",
+        "Jonathan Banks",
+        "David Johansen"
+      ],
+      "posterPath": "/lSN8lIX90Az0t1qvIXC4MlCvd9a.jpg",
+      "backdropPath": "/8FlHUvNOSANeo8Y8adBNJanEib.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 4,
+      "criticalScore": 55,
+      "plexFit": "A useful science fiction title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/CIU819AyIVM",
+      "synopsisPreview": "Time-traveling bounty hunters find a doomed race-car driver in the past and bring him to 2009 New York, where his mind will be replaced with that of a terminally ill billionaire."
     },
     {
       "id": "hacked-2020",
@@ -215838,6 +216523,46 @@
       "synopsisPreview": "Jean-Étienne Fougerole is an intellectual bohemian who released his new novel \"In Open Arms\" and calling the wealthiest people to welcome home the families in need. While he promotes his book during a televised debate, h..."
     },
     {
+      "id": "cabin-by-the-lake-2000",
+      "tmdbId": 30780,
+      "imdbId": "tt0199389",
+      "title": "Cabin by the Lake",
+      "originalLanguage": "en",
+      "year": 2000,
+      "releaseDate": "2000-02-01",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Horror",
+        "TV Movie"
+      ],
+      "tags": [
+        "kidnapping",
+        "fear of water",
+        "serial killer",
+        "underwater",
+        "dungeon",
+        "post modernism"
+      ],
+      "directors": [
+        "Leong Po-Chih"
+      ],
+      "cast": [
+        "Judd Nelson",
+        "Hedy Burress",
+        "Susan Gibney",
+        "Bernie Coulson",
+        "Colleen Wheeler",
+        "Daniella Evangelista"
+      ],
+      "posterPath": "/dttOEOJ76BHhUR4858e2RBcYdNy.jpg",
+      "backdropPath": "/pLfPw6E4iUSX8eQemx19zIMS1jg.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 4,
+      "criticalScore": 51,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "synopsisPreview": "A screenwriter does research for his new script by actually kidnapping and drowning young girls. He then places them in his \"garden\" of other dead girls coming back daily to check on them. One girl narrowly escapes and t..."
+    },
+    {
       "id": "daddy-darling-1970",
       "tmdbId": 144625,
       "imdbId": "tt0062847",
@@ -215874,6 +216599,40 @@
       "criticalScore": 51,
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "synopsisPreview": "A young Danish girl seduces everything in sight after daddy refuses her naughty come-ons. She'll have a lesbian affair with her teacher, pretend that her teenage boyfriend is dear old dad and finally get to her stepmothe..."
+    },
+    {
+      "id": "deus-2022",
+      "tmdbId": 604571,
+      "imdbId": "tt8980128",
+      "title": "Deus",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Steve Stone"
+      ],
+      "cast": [
+        "Claudia Black",
+        "David O'Hara",
+        "Phil Davis",
+        "Lisa Eichhorn",
+        "Charlie MacGechan",
+        "Sophia Pettit"
+      ],
+      "posterPath": "/zq9iHZTVNOXFT4SIzjpA7gfwsyZ.jpg",
+      "backdropPath": "/3ylmB3cENHUGF5mePdmhe54Di9d.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 4,
+      "criticalScore": 51,
+      "plexFit": "A compact science fiction option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0qNgJIH4jWw",
+      "synopsisPreview": "A mysterious black sphere is discovered in the orbit of Mars. The Achilles is sent to investigate. After the bedraggled six-person crew wake from eight months hibernation, the Sphere is transmitting a single word in ever..."
     },
     {
       "id": "elektra-2005",
@@ -216390,6 +217149,47 @@
       "synopsisPreview": "Lord Gregory Hutton takes his beautiful young wife Eleanore on a business trip to the Far East for their honeymoon. They stay at the house of Lin, a young local owner of a silk farm and fashion factory whose father only..."
     },
     {
+      "id": "the-sand-2015",
+      "tmdbId": 347847,
+      "imdbId": "tt3399484",
+      "title": "The Sand",
+      "originalLanguage": "en",
+      "year": 2015,
+      "releaseDate": "2015-08-28",
+      "runtimeMinutes": 84,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "beach",
+        "sand",
+        "alien",
+        "stranded",
+        "eaten alive"
+      ],
+      "directors": [
+        "Isaac Gabaeff"
+      ],
+      "cast": [
+        "Brooke Serene Butler",
+        "Cleo Berry",
+        "Cynthia Murell",
+        "Dean Geyer",
+        "Meagan Holder",
+        "Mitchel Musso"
+      ],
+      "posterPath": "/AiahhUWOvxUhH0QAj1hb5NDcWj9.jpg",
+      "backdropPath": "/rtGXMbAGDBUVvSui8i4ZqlWwQzF.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 4,
+      "criticalScore": 51,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/C4EhbML94Jk",
+      "synopsisPreview": "After an all-night graduation beach party, a group of hung-over students wakes up under the blazing sun to find their numbers somewhat depleted. An enormous alien creature has burrowed down deep and anyone foolish enough..."
+    },
+    {
       "id": "affair-2014",
       "tmdbId": 288418,
       "imdbId": "tt7350424",
@@ -216819,6 +217619,44 @@
       "criticalScore": 50,
       "plexFit": "A compact fantasy option for easier weeknight discovery.",
       "synopsisPreview": "A long-empty farmstead holds secret worlds, accidentally unlocked by an amateur photographer and his wife."
+    },
+    {
+      "id": "the-green-inferno-1988",
+      "tmdbId": 90164,
+      "imdbId": "tt0161849",
+      "title": "The Green Inferno",
+      "originalTitle": "Paradiso Infernale",
+      "originalLanguage": "it",
+      "year": 1988,
+      "releaseDate": "1988-05-01",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "tags": [
+        "treasure hunt",
+        "jungle"
+      ],
+      "directors": [
+        "Antonio Climati"
+      ],
+      "cast": [
+        "Pio Maria Federici",
+        "May Deseligny",
+        "Marco Merlo",
+        "Fabrizio Merlo",
+        "Bruno Corazzari",
+        "Jessica Quintero"
+      ],
+      "posterPath": "/bTJV5ppzpNIATunEsX1H5VFQyu0.jpg",
+      "backdropPath": "/ozeJcSRdfunE7vLET8DKzOTRiLj.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 4,
+      "criticalScore": 50,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ATiud3fvOn0",
+      "synopsisPreview": "Four friends head into the jungle to locate a lost professor but instead face off against treasure hunters who are torturing and killing natives."
     },
     {
       "id": "the-man-eater-1999",
@@ -217824,6 +218662,39 @@
       "synopsisPreview": "A man named Farmer sets out to rescue his kidnapped wife and avenge the death of his son – two acts committed by the Krugs, a race of animal-warriors who are controlled by the evil Gallian."
     },
     {
+      "id": "skin-walker-2019",
+      "tmdbId": 634550,
+      "imdbId": "tt8348022",
+      "title": "Skin Walker",
+      "originalLanguage": "en",
+      "year": 2019,
+      "releaseDate": "2019-11-11",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Christian Neuman"
+      ],
+      "cast": [
+        "Amber Anderson",
+        "Udo Kier",
+        "Jefferson Hall",
+        "Luc Schiltz",
+        "Luc Feit",
+        "Sophie Mousel"
+      ],
+      "posterPath": "/Aqbr6U2tvQvvSIEQjoKJNKeOok0.jpg",
+      "backdropPath": "/zj2ht8vSssgXZxGHIVScu33T9Bj.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 4,
+      "criticalScore": 48,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "synopsisPreview": "When her grandmother is brutally murdered, Regine, a fragile young woman must return to the countryside she has struggled to escape in order to engage with the family guilt she’s tried to shut out of her life - and to co..."
+    },
+    {
       "id": "tasmanian-devils-2013",
       "tmdbId": 160697,
       "imdbId": "tt2180543",
@@ -218200,6 +219071,46 @@
       "plexFit": "A compact horror option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/qWEMhZS-f8U",
       "synopsisPreview": "Two families go camping illegally in a forest, and set up their tents near a beautiful pond, far away from the daily hubbub. However, they soon discover that the pond contains a mysterious force, which will not allow the..."
+    },
+    {
+      "id": "halloween-resurrection-2002",
+      "tmdbId": 11442,
+      "imdbId": "tt0220506",
+      "title": "Halloween: Resurrection",
+      "originalLanguage": "en",
+      "year": 2002,
+      "releaseDate": "2002-07-01",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "sibling relationship",
+        "innocence",
+        "sequel",
+        "boogeyman",
+        "serial killer",
+        "holiday horror"
+      ],
+      "directors": [
+        "Rick Rosenthal"
+      ],
+      "cast": [
+        "Bianca Kajlich",
+        "Busta Rhymes",
+        "Brad Loree",
+        "Sean Patrick Thomas",
+        "Ryan Merriman",
+        "Daisy McCrackin"
+      ],
+      "posterPath": "/1mlKwbNzJCGzqe4i0ZEJtUUL290.jpg",
+      "backdropPath": "/jnSB3v76tGte9lzHS1XLGu75oaT.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 4,
+      "criticalScore": 46,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/FyvbHlMcuyA",
+      "synopsisPreview": "Reality programmers at DangerTainment select a group of thrill-seeking teenagers to spend one night in the childhood home of serial killer Michael Myers. Their planned live broadcast turns deadly when Michael decides to..."
     },
     {
       "id": "jason-goes-to-hell-the-final-friday-1993",
@@ -225205,7 +226116,7 @@
       "posterPath": "/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg",
       "backdropPath": "/9B4hHMsnjxo8NnTcKIfg3cjJzMi.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 78,
       "plexFit": "A compact animation option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/0ylr70WNAe8",
@@ -227290,7 +228201,7 @@
       "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
       "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
       "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
+      "popularity": 4,
       "criticalScore": 77,
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "synopsisPreview": "No synopsis is available yet."
@@ -229257,7 +230168,7 @@
       "posterPath": "/PODwO3sxLAMU9NyffIdYOzxYVW.jpg",
       "backdropPath": "/raTby3MY67GCHiF1S0VSwq01fds.jpg",
       "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 76,
       "plexFit": "A useful family title for broadening the local catalog.",
       "synopsisPreview": "14-year-old Sun has written and successfully published a story based on an incredible story told by her late grandfather about a wild child called Hadara, who is saved by a group of ostriches when he becomes separated fr..."
@@ -231286,7 +232197,7 @@
       "posterPath": "/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
       "backdropPath": "/13CqQIOwZ0dkAxgzL7W4VcJLDAg.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 75,
       "plexFit": "A compact family option for easier weeknight discovery.",
       "synopsisPreview": "When an overconfident teen alien gets behind the controls of a spaceship, he must attempt to abduct a slumbering farmer under the watchful eye of a critical instructor. But abducting humans requires precision and a gentl..."
@@ -238707,6 +239618,48 @@
       "synopsisPreview": "Mia Hall, a talented young cellist, thought the most difficult decision she would ever have to make would be whether to pursue her musical dreams at prestigious Juilliard or follow her heart to be with the love of her li..."
     },
     {
+      "id": "jack-jack-attack-2005",
+      "tmdbId": 13932,
+      "imdbId": "tt0455565",
+      "title": "Jack-Jack Attack",
+      "originalLanguage": "en",
+      "year": 2005,
+      "releaseDate": "2005-03-15",
+      "runtimeMinutes": 5,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "hero",
+        "fire",
+        "baby",
+        "superhero",
+        "classical music",
+        "transformation",
+        "cartoon",
+        "babysitter"
+      ],
+      "directors": [
+        "Brad Bird"
+      ],
+      "cast": [
+        "Bret Parker",
+        "Bud Luckey",
+        "Eli Fucile",
+        "Jason Lee"
+      ],
+      "posterPath": "/uKMYT8aAJS9LA8IM1juMqbXTtqU.jpg",
+      "backdropPath": "/hdssoS48F2dMxOCcr2nVNCr5F7t.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 3,
+      "criticalScore": 73,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/D9JkGNhwxb0",
+      "synopsisPreview": "The Parrs' baby Jack-Jack is thought to be normal, not having any super-powers like his parents or siblings. But when an outsider is hired to watch him, Jack-Jack shows his true potential."
+    },
+    {
       "id": "justice-league-vs-teen-titans-2016",
       "tmdbId": 379291,
       "imdbId": "tt5091548",
@@ -240141,6 +241094,43 @@
       "plexFit": "A compact action option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/YdQ_7mhfqNw",
       "synopsisPreview": "Everyone abuses and humiliates a downtrodden orphan until he befriends an old man, who turns out to be the last master of the snake fist fighting style. Jackie becomes the old man's student and finds himself in battle wi..."
+    },
+    {
+      "id": "snoopy-presents-it-s-the-small-things-charlie-brown-2022",
+      "tmdbId": 949580,
+      "imdbId": "tt19316654",
+      "title": "Snoopy Presents: It's the Small Things, Charlie Brown",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-14",
+      "runtimeMinutes": 38,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "musical",
+        "dog"
+      ],
+      "directors": [
+        "Raymond S. Persi"
+      ],
+      "cast": [
+        "Tyler James Nathan",
+        "Terry McGurrin",
+        "Hattie Kragten",
+        "Rob Tinkler",
+        "Lexi Perri",
+        "Isabella Leo"
+      ],
+      "posterPath": "/iEJGBnZa9PnCXSTrcQGEqK9Y9yr.jpg",
+      "backdropPath": "/msTBoaPEe9bE40cclJJRR76Ldla.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 73,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0-2VQe7JcuE",
+      "synopsisPreview": "Charlie Brown is determined to win the big baseball game. But things turn into a fiasco right before the matchup, when Sally bonds with a little flower on the pitcher's mound and vows to protect it at all costs."
     },
     {
       "id": "spirit-untamed-2021",
@@ -251381,6 +252371,47 @@
       "synopsisPreview": "In post-war France, Jan Bojarski, a young Polish refugee, became the greatest counterfeiter of all time, the \"Cézanne of counterfeit money\". For more than fifteen years, this man led a double life, unbeknownst to his fam..."
     },
     {
+      "id": "the-tale-2018",
+      "tmdbId": 369523,
+      "imdbId": "tt4015500",
+      "title": "The Tale",
+      "originalLanguage": "en",
+      "year": 2018,
+      "releaseDate": "2018-01-20",
+      "runtimeMinutes": 115,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "tags": [
+        "investigation",
+        "based on true story",
+        "memory",
+        "childhood sexual abuse",
+        "woman director",
+        "survive"
+      ],
+      "directors": [
+        "Jennifer Fox"
+      ],
+      "cast": [
+        "Laura Dern",
+        "Isabelle Nélisse",
+        "Elizabeth Debicki",
+        "Jason Ritter",
+        "Frances Conroy",
+        "John Heard"
+      ],
+      "posterPath": "/aguq47xq3qhN807rSyz4lJyhAkX.jpg",
+      "backdropPath": "/bMJ0h7EiLxtUq8Bd6KeZeQkV9Dn.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 71,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/tXpYsr3AL4U",
+      "synopsisPreview": "An investigation into one woman’s memory as she‘s forced to re-examine her first sexual relationship and the stories we tell ourselves in order to survive."
+    },
+    {
       "id": "the-thief-and-the-cobbler-1993",
       "tmdbId": 26672,
       "imdbId": "tt0112389",
@@ -254647,6 +255678,49 @@
       "plexFit": "A useful comedy title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/zDoOdd00nHM",
       "synopsisPreview": "A phobic con artist and his protege are on the verge of pulling off a lucrative swindle when the con artist's teenage daughter arrives unexpectedly."
+    },
+    {
+      "id": "me-and-you-and-everyone-we-know-2005",
+      "tmdbId": 1382,
+      "imdbId": "tt0415978",
+      "title": "Me and You and Everyone We Know",
+      "originalLanguage": "en",
+      "year": 2005,
+      "releaseDate": "2005-05-12",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "sibling relationship",
+        "playground",
+        "sex talk",
+        "art gallery",
+        "separation",
+        "self mutilation",
+        "shoe salesman",
+        "chat session"
+      ],
+      "directors": [
+        "Miranda July"
+      ],
+      "cast": [
+        "Miranda July",
+        "John Hawkes",
+        "Brandon Ratcliff",
+        "Miles Thompson",
+        "Carlie Westerman",
+        "Brad William Henke"
+      ],
+      "posterPath": "/hrj9VsInHnqSDBhEc2FvY0qd79F.jpg",
+      "backdropPath": "/j3moxxL3MBkJhp0imy4v1QxALwi.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 70,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/t87QILBZd_I",
+      "synopsisPreview": "Single dad Richard meets Christine, a starving artist who moonlights as a cabbie. They awkwardly attempt to start a romance, but Richard’s divorce has left him emotionally damaged. Meanwhile, Richard’s sons—one a teenage..."
     },
     {
       "id": "much-ado-about-nothing-1993",
@@ -259293,6 +260367,51 @@
       "synopsisPreview": "Set in 1890, this is the story of a Pony Express courier who travels to Arabia to compete with his horse, Hidalgo, in a dangerous race for a massive contest prize, in an adventure that sends the pair around the world..."
     },
     {
+      "id": "hostile-territory-2022",
+      "tmdbId": 766431,
+      "imdbId": "tt8859236",
+      "title": "Hostile Territory",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-22",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Western",
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "tags": [
+        "civil war",
+        "orphanage",
+        "train",
+        "orphan",
+        "post war",
+        "18th century",
+        "post civil war",
+        "19th century"
+      ],
+      "directors": [
+        "Brian Presley"
+      ],
+      "cast": [
+        "Brian Presley",
+        "Matt McCoy",
+        "Brad Leland",
+        "Brea Bee",
+        "Lew Temple",
+        "Craig Tate"
+      ],
+      "posterPath": "/pSgLSxoAG1Dt91dUSwnaKETmseW.jpg",
+      "backdropPath": "/dTF2nIQ25fFDUgd8YBOZXMIbxHf.jpg",
+      "posterTone": "from-yellow-200 via-orange-700 to-stone-950",
+      "popularity": 3,
+      "criticalScore": 69,
+      "plexFit": "A compact western option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Ebpye4wRQII",
+      "synopsisPreview": "Former P.O.W. Jack Calgrove moves Heaven and Earth to be reunited with his children following the Civil War. After returning home, Jack discovers that his wife has tragically died and his children, presumed to be orphans..."
+    },
+    {
       "id": "house-of-wax-1953",
       "tmdbId": 18573,
       "imdbId": "tt0045888",
@@ -259680,6 +260799,41 @@
       "plexFit": "Imported from your local Plex movie library.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/ZNSeUYw95NY",
       "synopsisPreview": "After a disastrous first date for caterer Holly and network sports director Messer, all they have in common is a dislike for each other and their love for their goddaughter Sophie. But when they suddenly become all Sophi..."
+    },
+    {
+      "id": "love-today-2022",
+      "tmdbId": 1032627,
+      "imdbId": "tt22488728",
+      "title": "Love Today",
+      "originalTitle": "லவ் டுடே",
+      "originalLanguage": "ta",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 154,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Pradeep Ranganathan"
+      ],
+      "cast": [
+        "Pradeep Ranganathan",
+        "Ivana",
+        "Akshaya Udhayakumar",
+        "Raveena Ravi",
+        "Radhika Sarathkumar",
+        "Prathana Nathan"
+      ],
+      "posterPath": "/iRfIti4RhDFZ11UyCmz5Mk5wtGI.jpg",
+      "backdropPath": "/tLYTWKiSHoR0yVz8ScrQDa1Youu.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 69,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Xjw4ZbCIYS0",
+      "synopsisPreview": "A young couple is made to exchange their phones for a day. What follows is a hilarious and emotional sequence of events that puts their lives in misery."
     },
     {
       "id": "lupin-the-third-vs-detective-conan-the-movie-2013",
@@ -260645,6 +261799,51 @@
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/c80vGyzA0LI",
       "synopsisPreview": "After a workplace shooting in New Orleans, a trial against the gun manufacturer pits lawyer Wendell Rohr against shady jury consultant Rankin Fitch, who uses illegal means to stack the jury with people sympathetic to the..."
+    },
+    {
+      "id": "scarygirl-2023",
+      "tmdbId": 502345,
+      "imdbId": "tt4556264",
+      "title": "Scarygirl",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "tags": [
+        "octopus",
+        "animals",
+        "healing power",
+        "tentacles",
+        "father daughter relationship",
+        "loss of child",
+        "sacred tree",
+        "talking animal"
+      ],
+      "directors": [
+        "Ricard Cussó"
+      ],
+      "cast": [
+        "Jillian Nguyen",
+        "Remy Hii",
+        "Sam Neill",
+        "Rob Collins",
+        "Tim Minchin",
+        "Anna Torv"
+      ],
+      "posterPath": "/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg",
+      "backdropPath": "/hglZzptsgCdC62kT436nL7cXDca.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 69,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/l3Zbh_GPNCM",
+      "synopsisPreview": "As her world is shrouded in darkness, a young girl must overcome her fears and travel to a mysterious city of light, save her father from a dangerous scientist and prevent the destruction of her planet."
     },
     {
       "id": "set-it-up-2018",
@@ -263069,6 +264268,48 @@
       "synopsisPreview": "During an ordinary day in Hundred Acre Wood, Winnie the Pooh sets out to find some honey. Misinterpreting a note from Christopher Robin, Owl convinces Pooh, Tigger, Rabbit, Piglet, Kanga, Roo, and Eeyore that their young..."
     },
     {
+      "id": "you-can-count-on-me-2000",
+      "tmdbId": 14295,
+      "imdbId": "tt0203230",
+      "title": "You Can Count on Me",
+      "originalLanguage": "en",
+      "year": 2000,
+      "releaseDate": "2000-03-03",
+      "runtimeMinutes": 111,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [
+        "sibling relationship",
+        "drifter",
+        "single mother",
+        "new york state",
+        "uncle nephew relationship",
+        "catskills",
+        "bank employee",
+        "orphan siblings"
+      ],
+      "directors": [
+        "Kenneth Lonergan"
+      ],
+      "cast": [
+        "Laura Linney",
+        "Mark Ruffalo",
+        "Matthew Broderick",
+        "Jon Tenney",
+        "Rory Culkin",
+        "J. Smith-Cameron"
+      ],
+      "posterPath": "/7mGFmij1FZD5eUnNwvUjmpqrDl6.jpg",
+      "backdropPath": "/hardcwpNmv4soWzTZWWD6OhzsSX.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 69,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/55MVAFsS7iM",
+      "synopsisPreview": "A single mother's life is thrown into turmoil after her struggling, rarely-seen younger brother returns to town."
+    },
+    {
       "id": "11-14-2004",
       "tmdbId": 9282,
       "imdbId": "tt0331811",
@@ -263283,7 +264524,7 @@
       "posterPath": "/6TbmALbiJNDsEGAmse0Yzp4PDjF.jpg",
       "backdropPath": "/mJq1t1RlRse7r3JgQs5napkYOhQ.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 68,
       "plexFit": "A useful animation title for broadening the local catalog.",
       "synopsisPreview": "Alesha Popovich has to catch Tugarin Zmey and bring back the stolen money with the help of a talking Horse (which talks all the time and has an opinion on everything), a wise granny, a donkey and a beauty Lyubava."
@@ -267061,6 +268302,41 @@
       "plexFit": "A useful western title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/wkEs3dkqJHw",
       "synopsisPreview": "After a cavalry group is massacred by the Cheyenne, only two survivors remain: Honus, a naive private devoted to his duty, and Cresta, a young woman who had lived with the Cheyenne two years and whose sympathies lie more..."
+    },
+    {
+      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+      "tmdbId": 961651,
+      "imdbId": "tt20425026",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-05-03",
+      "runtimeMinutes": 30,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "short film",
+        "superhero",
+        "film production"
+      ],
+      "directors": [],
+      "cast": [
+        "Tom Holland",
+        "Andrew Garfield",
+        "Tobey Maguire",
+        "Willem Dafoe",
+        "Alfred Molina",
+        "Jamie Foxx"
+      ],
+      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 68,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
+      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts."
     },
     {
       "id": "state-of-play-2009",
@@ -271054,6 +272330,42 @@
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/3Q3dHN9uWTY",
       "synopsisPreview": "Harvard graduate James Averill serves as the sheriff of prosperous Jackson County, Wyoming, standing at the center of a conflict between impoverished immigrants and affluent cattle farmers. Politically connected ranchers..."
+    },
+    {
+      "id": "heist-88-2023",
+      "tmdbId": 1170944,
+      "imdbId": "tt7718100",
+      "title": "Heist 88",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-10-01",
+      "runtimeMinutes": 83,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "tags": [
+        "bank robbery",
+        "criminal mastermind"
+      ],
+      "directors": [
+        "Menhaj Huda"
+      ],
+      "cast": [
+        "Courtney B. Vance",
+        "Keesha Sharp",
+        "Keith David",
+        "Xavier Clyde",
+        "Bentley Green",
+        "Nican Robinson"
+      ],
+      "posterPath": "/4ueFteb6V38fnSWTN4jIbLOlMlM.jpg",
+      "backdropPath": "/u6JGnIabQslWMzX03hb3weEbvx0.jpg",
+      "posterTone": "from-cyan-300 via-blue-800 to-black",
+      "popularity": 3,
+      "criticalScore": 67,
+      "plexFit": "A compact crime option for easier weeknight discovery.",
+      "synopsisPreview": "A criminal mastermind recruits a group of young bank employees to steal 80 million dollars in one of the largest bank heist in US history."
     },
     {
       "id": "helter-skelter-2012",
@@ -289760,6 +291072,43 @@
       "synopsisPreview": "In 1949, composer Roman Strauss is executed for the murder of his wife. In 1990s Los Angeles, a detective comes across a mute amnesiac woman who is somehow linked to the Strauss murder."
     },
     {
+      "id": "dear-zoe-2022",
+      "tmdbId": 646473,
+      "imdbId": "tt1657865",
+      "title": "Dear Zoe",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [
+        "based on novel or book",
+        "coming of age",
+        "9/11"
+      ],
+      "directors": [
+        "Gren Wells"
+      ],
+      "cast": [
+        "Sadie Sink",
+        "Theo Rossi",
+        "Kweku Collins",
+        "Vivien Lyra Blair",
+        "Mckenzie Noel Rusiewicz",
+        "Tanyell Waivers"
+      ],
+      "posterPath": "/rqAhYRbOjgPSVzxKYXV9t6gm5fi.jpg",
+      "backdropPath": "/dGnnnlUM1wjlDT5KGimglSpTc2n.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 64,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/x_p_VF4Jy4w",
+      "synopsisPreview": "Tess enlists her biological father – a lovable slacker from the wrong side of the tracks – and the charming juvenile delinquent next door to help her come to grips with the death of her little sister."
+    },
+    {
       "id": "derailed-2005",
       "tmdbId": 8999,
       "imdbId": "tt0398017",
@@ -292009,6 +293358,42 @@
       "plexFit": "A compact fantasy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/nY2mLc7ZWX4",
       "synopsisPreview": "While at the royal ball with Cinderella, Little Red Riding Hood finds herself in the middle of a mystery. Can she solve the case before midnight strikes?"
+    },
+    {
+      "id": "peligrosa-tentacion-ii-2015",
+      "tmdbId": 815776,
+      "imdbId": "tt8598326",
+      "title": "Peligrosa tentación II",
+      "originalLanguage": "es",
+      "year": 2015,
+      "releaseDate": "2015-12-31",
+      "runtimeMinutes": 95,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "tags": [
+        "assassination",
+        "lesbian relationship"
+      ],
+      "directors": [
+        "Enrique Murillo"
+      ],
+      "cast": [
+        "Leonardo Daniel",
+        "Alan Ciangherotti",
+        "Guillermo Quintanilla",
+        "Amellali Santana",
+        "Carlos Puente",
+        "Jorge Aldama"
+      ],
+      "posterPath": "/gPMjXXL5auJiElhMn0xxJu9mzFo.jpg",
+      "backdropPath": "/6GUyL4nCdpXw4Q0tebLfVbRA3DA.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 64,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "A murder investigation begins to reveal a hidden world. The participants of a lesbian party become the possible perpetrators of the crime."
     },
     {
       "id": "pokemon-the-movie-kyurem-vs-the-sword-of-justice-2012",
@@ -300494,6 +301879,51 @@
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/BZulYPti89M",
       "synopsisPreview": "When famed photographer Christina Eames dies unexpectedly, she leaves her estranged daughter, Mae, hurt, angry and full of questions. When Mae finds a photograph tucked away in a safe-deposit box, she soon finds herself..."
+    },
+    {
+      "id": "the-raven-1963",
+      "tmdbId": 29056,
+      "imdbId": "tt0057449",
+      "title": "The Raven",
+      "originalLanguage": "en",
+      "year": 1963,
+      "releaseDate": "1963-01-25",
+      "runtimeMinutes": 86,
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Fantasy",
+        "Drama"
+      ],
+      "tags": [
+        "magic",
+        "castle",
+        "sorcery",
+        "parody",
+        "sorcerer",
+        "duel",
+        "based on song, poem or rhyme",
+        "horse carriage"
+      ],
+      "directors": [
+        "Roger Corman"
+      ],
+      "cast": [
+        "Vincent Price",
+        "Peter Lorre",
+        "Boris Karloff",
+        "Hazel Court",
+        "Olive Sturgess",
+        "Jack Nicholson"
+      ],
+      "posterPath": "/tt7m22ki1raa0NrvesawJgsQ4Jn.jpg",
+      "backdropPath": "/y4DdIOaqH2PD9zpvx2IqzSvGiBw.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 63,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Evw20AXS3kg",
+      "synopsisPreview": "A magician who has been turned into a raven turns to a former sorcerer for help."
     },
     {
       "id": "the-residence-2025",
@@ -325784,7 +327214,7 @@
       "posterPath": "/ArY7LlpNDBTLQ3wRKBQbfebVnw4.jpg",
       "backdropPath": "/hNUa8C0aezg6zMCTikG09pdGJdK.jpg",
       "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 58,
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/oPRiVRaCVmk",
@@ -329173,6 +330603,49 @@
       "plexFit": "A compact action option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/NA8LYE7afBM",
       "synopsisPreview": "The legendary Power Rangers must stop the evil space pirate Divatox from releasing the powerful Maligore from his volcanic imprisonment on the island of Muranthias, where only the kindly wizard Lerigot has the key to rel..."
+    },
+    {
+      "id": "unwelcome-2023",
+      "tmdbId": 758769,
+      "imdbId": "tt12447796",
+      "title": "Unwelcome",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-01-27",
+      "runtimeMinutes": 104,
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "tags": [
+        "country house",
+        "forest",
+        "murder",
+        "inheritance",
+        "ireland",
+        "dog",
+        "decapitated head",
+        "stabbed in the back"
+      ],
+      "directors": [
+        "Jon Wright"
+      ],
+      "cast": [
+        "Hannah John-Kamen",
+        "Douglas Booth",
+        "Jamie Lee O'Donnell",
+        "Chris Walley",
+        "Kristian Nairn",
+        "Colm Meaney"
+      ],
+      "posterPath": "/88bGObx8YKLQDOOhcrBHHzXpiAv.jpg",
+      "backdropPath": "/mXBth6deOA3XLU6HKwoNor9UivP.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 3,
+      "criticalScore": 58,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Ei-eolHMSeg",
+      "synopsisPreview": "Londoners Maya and Jamie escape their urban nightmare to the tranquility of rural Ireland only to discover malevolent, murderous goblins lurking in the gnarled, ancient wood at the foot of their new garden. When heavily..."
     },
     {
       "id": "vice-versa-1988",
@@ -337680,6 +339153,41 @@
       "synopsisPreview": "An adolescent lion is accidentally shipped from the New York Zoo to Africa. Now running free, his zoo pals must put aside their differences to help bring him back."
     },
     {
+      "id": "titanic-666-2022",
+      "tmdbId": 945657,
+      "imdbId": "tt18394428",
+      "title": "Titanic 666",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-15",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Nick Lyon"
+      ],
+      "cast": [
+        "Keesha Sharp",
+        "Jamie Bamber",
+        "Lydia Hearst",
+        "AnnaLynne McCord",
+        "Joseph Gatt",
+        "Jhey Castles"
+      ],
+      "posterPath": "/EX0ITg5YqDgFHjujpTNhEPaJSL.jpg",
+      "backdropPath": "/5DCIRgOrCTayoCGggVn1kyqs1Vh.jpg",
+      "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
+      "popularity": 3,
+      "criticalScore": 55,
+      "plexFit": "A compact mystery option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/uervktH6Ahs",
+      "synopsisPreview": "After a mammoth cruise ship sails over the site of the Titanic’s disaster, dark and deadly events start to occur on board. As the ship’s captain investigates the tragic occurrences, it becomes clear that the passengers a..."
+    },
+    {
       "id": "tremors-5-bloodlines-2015",
       "tmdbId": 339530,
       "imdbId": "tt4180514",
@@ -338474,6 +339982,48 @@
       "criticalScore": 54,
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "synopsisPreview": "A delinquent transfer student calling himself Ryu the Rapist and his pet pig ravages his way through the female student body of a high school. He soon sets his sights on the popular class president and track star who is..."
+    },
+    {
+      "id": "exorcist-the-beginning-2004",
+      "tmdbId": 11026,
+      "imdbId": "tt0204313",
+      "title": "Exorcist: The Beginning",
+      "originalLanguage": "en",
+      "year": 2004,
+      "releaseDate": "2004-08-20",
+      "runtimeMinutes": 114,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "based on novel or book",
+        "nazi",
+        "africa",
+        "vatican (holy see)",
+        "religion and supernatural",
+        "exorcism",
+        "possession",
+        "prequel"
+      ],
+      "directors": [
+        "Renny Harlin"
+      ],
+      "cast": [
+        "Stellan Skarsgård",
+        "Izabella Scorupco",
+        "James D'Arcy",
+        "Julian Wadham",
+        "Remy Sweeney",
+        "Andrew French"
+      ],
+      "posterPath": "/4b7Mhc4HZN7XzMMLukaQ9C0x1Dx.jpg",
+      "backdropPath": "/A2kXYkGGdeLU20YHPM9qs6GX9nN.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 3,
+      "criticalScore": 54,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/eHJEMIYNFFY",
+      "synopsisPreview": "Years before Father Merrin helped save Regan MacNeil’s soul, he first encounters the demon Pazuzu in East Africa."
     },
     {
       "id": "fear-street-prom-queen-2025",
@@ -339572,6 +341122,45 @@
       "synopsisPreview": "Bud Clay races motorcycles in the 250cc Formula II class of road racing. After a race in New Hampshire, he has five days to get to his next race in California. During his road trip, he is haunted by memories of the last..."
     },
     {
+      "id": "the-cold-light-of-day-2012",
+      "tmdbId": 77948,
+      "imdbId": "tt1366365",
+      "title": "The Cold Light of Day",
+      "originalLanguage": "en",
+      "year": 2012,
+      "releaseDate": "2012-04-04",
+      "runtimeMinutes": 93,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Mystery"
+      ],
+      "tags": [
+        "government",
+        "espionage",
+        "kidnapping"
+      ],
+      "directors": [
+        "Mabrouk El Mechri"
+      ],
+      "cast": [
+        "Henry Cavill",
+        "Bruce Willis",
+        "Sigourney Weaver",
+        "Verónica Echegui",
+        "Joseph Mawle",
+        "Caroline Goodall"
+      ],
+      "posterPath": "/jLmKMhibZjHUYtsHQLIa5UBwqcc.jpg",
+      "backdropPath": "/tkj4i4TQP6TijYxqUq6duPZUW2R.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 54,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/qxJpe8d2dBQ",
+      "synopsisPreview": "After his family is kidnapped during their sailing trip in Spain, a young Wall Street trader is confronted by the people responsible: intelligence agents looking to recover a mysterious briefcase."
+    },
+    {
       "id": "the-dead-don-t-die-2019",
       "tmdbId": 535581,
       "imdbId": "tt8695030",
@@ -339613,6 +341202,49 @@
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/CeWfxvHmNTI",
       "synopsisPreview": "In the sleepy town of Centerville, the lives of a number of interconnected characters are disrupted by the undead."
+    },
+    {
+      "id": "the-estate-2022",
+      "tmdbId": 910858,
+      "imdbId": "tt16302202",
+      "title": "The Estate",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 96,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "dark comedy",
+        "aunt niece relationship",
+        "moral conflict",
+        "terminal illness",
+        "inheritance",
+        "family",
+        "will",
+        "family conflict"
+      ],
+      "directors": [
+        "Dean Craig"
+      ],
+      "cast": [
+        "Toni Collette",
+        "Anna Faris",
+        "David Duchovny",
+        "Rosemarie DeWitt",
+        "Kathleen Turner",
+        "Ron Livingston"
+      ],
+      "posterPath": "/mYgS4djsVj61kzEpX43LklGUfgK.jpg",
+      "backdropPath": "/2Lx15Nv0fCmbsPJeJ8RAzIWxRda.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 54,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/DqTEVmed0Bc",
+      "synopsisPreview": "Down-on-her-luck divorcee Macey and her fickle sister Savanna attempt to win over their terminally ill, difficult-to-please Aunt Hilda in hopes of becoming the beneficiaries of her wealthy estate, only to find the rest o..."
     },
     {
       "id": "the-grudge-2019",
@@ -341644,6 +343276,50 @@
       "synopsisPreview": "Having lost her mother in the 1999 earthquake, Bilge and her family go on a vacation to the south. On the way to their rented house, she sees a series of visions. Things get worse when a small earthquake occurs, bringing..."
     },
     {
+      "id": "the-minute-you-wake-up-dead-2022",
+      "tmdbId": 934641,
+      "imdbId": "tt11833408",
+      "title": "The Minute You Wake Up Dead",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "tags": [
+        "biting",
+        "frantic",
+        "grim",
+        "dramatic",
+        "suspenseful",
+        "tense",
+        "sinister",
+        "antagonistic"
+      ],
+      "directors": [
+        "Michael Mailer"
+      ],
+      "cast": [
+        "Cole Hauser",
+        "Jaimie Alexander",
+        "Morgan Freeman",
+        "Darren Mann",
+        "Andrew Stevens",
+        "Kenneth Farmer"
+      ],
+      "posterPath": "/pUPwTbnAqfm95BZjNBnMMf39ChT.jpg",
+      "backdropPath": "/kg1nZdetR4cmosDieXJ2D2zhmj0.jpg",
+      "posterTone": "from-amber-200 via-stone-700 to-black",
+      "popularity": 3,
+      "criticalScore": 53,
+      "plexFit": "A compact thriller option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Pc4keE4fXv4",
+      "synopsisPreview": "A stockbroker in a small southern town gets embroiled in an insurance scam with a next-door neighbor that leads to multiple murders when a host of other people want in on the plot. Sheriff Thurmond Fowler, the by-the-boo..."
+    },
+    {
       "id": "the-musketeer-2001",
       "tmdbId": 11370,
       "imdbId": "tt0246544",
@@ -341816,6 +343492,47 @@
       "plexFit": "A useful fantasy title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/d_vxkIm9z8k",
       "synopsisPreview": "Leslie Zevo is a fun-loving inventor who must save his late father's toy factory from his evil uncle, Leland, a war-mongering general who rules the operation with an iron fist and builds weapons disguised as toys."
+    },
+    {
+      "id": "welcome-home-2018",
+      "tmdbId": 525460,
+      "imdbId": "tt6829180",
+      "title": "Welcome Home",
+      "originalLanguage": "en",
+      "year": 2018,
+      "releaseDate": "2018-11-16",
+      "runtimeMinutes": 98,
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "tags": [
+        "infidelity",
+        "italy",
+        "vacation",
+        "murder",
+        "unfaithfulness",
+        "surveillance"
+      ],
+      "directors": [
+        "George Ratliff"
+      ],
+      "cast": [
+        "Aaron Paul",
+        "Emily Ratajkowski",
+        "Riccardo Scamarcio",
+        "Katy Louise Saunders",
+        "Alice Bellagamba",
+        "Francesco Acquaroli"
+      ],
+      "posterPath": "/fMhJQoMitAh0pN0fLlD7iUGcBp0.jpg",
+      "backdropPath": "/1hrexCNSKU8SZ2rgl2UvBvcqs1M.jpg",
+      "posterTone": "from-amber-200 via-stone-700 to-black",
+      "popularity": 3,
+      "criticalScore": 53,
+      "plexFit": "A compact thriller option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ui4sIL-Zhak",
+      "synopsisPreview": "A couple try to repair their damaged union in an Italian vacation paradise. Then they discover the owner's intentions."
     },
     {
       "id": "whore-1991",
@@ -342354,6 +344071,50 @@
       "plexFit": "Imported from your local Plex movie library.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/3JnxaZunOAo",
       "synopsisPreview": "The ongoing war between the canine and feline species is put on hold when they join forces to thwart a rogue cat spy with her own sinister plans for conquest."
+    },
+    {
+      "id": "choose-or-die-2022",
+      "tmdbId": 838484,
+      "imdbId": "tt11514780",
+      "title": "Choose or Die",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-15",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "tags": [
+        "computer",
+        "video game",
+        "cleaning lady",
+        "prize",
+        "tech noir",
+        "quest",
+        "1980s",
+        "cursed"
+      ],
+      "directors": [
+        "Toby Meakins"
+      ],
+      "cast": [
+        "Iola Evans",
+        "Asa Butterfield",
+        "Robert Englund",
+        "Angela Griffin",
+        "Ryan Gage",
+        "Eddie Marsan"
+      ],
+      "posterPath": "/jEYE5BPFd5FuPa1judcjpW6xqKp.jpg",
+      "backdropPath": "/isxWigGBWpXtc2xOxybiYWxHzWm.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 3,
+      "criticalScore": 52,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/7vUQYzZ_UZc",
+      "synopsisPreview": "In pursuit of an unclaimed $125,000 prize, a broke college dropout decides to play an obscure, 1980s survival computer game. But the game curses her, and she’s faced with dangerous choices and reality-warping challenges...."
     },
     {
       "id": "crossroads-2002",
@@ -343630,7 +345391,7 @@
       "posterPath": "/uZyfiuarubcg01di8OQc19VooEf.jpg",
       "backdropPath": "/rgZ2utOosDnAK540hSE5FUG4p6F.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 51,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "synopsisPreview": "No synopsis is available yet."
@@ -344317,6 +346078,43 @@
       "plexFit": "A compact music option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/GXvZv9RW6Ng",
       "synopsisPreview": "Street dancer Thomas Uncles is from the wrong side of the tracks, but his bond with the beautiful Megan White might help the duo realize their dreams as they enter in the mother of all dance battles."
+    },
+    {
+      "id": "fire-birds-1990",
+      "tmdbId": 6470,
+      "imdbId": "tt0099575",
+      "title": "Fire Birds",
+      "originalLanguage": "en",
+      "year": 1990,
+      "releaseDate": "1990-05-25",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "flying",
+        "drugs"
+      ],
+      "directors": [
+        "David Green"
+      ],
+      "cast": [
+        "Nicolas Cage",
+        "Tommy Lee Jones",
+        "Sean Young",
+        "Bryan Kestner",
+        "Dale Dye",
+        "Illana Diamant"
+      ],
+      "posterPath": "/h13JcHslasj8fVLRb4NN0QWZlub.jpg",
+      "backdropPath": "/xhZq2hvIMCDNlVOP7sEiqxPFKfs.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 50,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/eclSe15AeMU",
+      "synopsisPreview": "A joint task force operation between the Drug Enforcement Administration and the U.S. Army has been formed to dismantle one of the largest drug cartels operating in South America. Multiple attempts to assault the cartel'..."
     },
     {
       "id": "girl-6-1996",
@@ -345900,6 +347698,42 @@
       "synopsisPreview": "A shady FBI agent recruits a courier to deliver a mysterious package to a vengeful master criminal who has recently resurfaced with a diabolical plan."
     },
     {
+      "id": "the-humanity-bureau-2017",
+      "tmdbId": 456048,
+      "imdbId": "tt6143568",
+      "title": "The Humanity Bureau",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-07-11",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "tags": [
+        "dystopia"
+      ],
+      "directors": [
+        "Rob W. King"
+      ],
+      "cast": [
+        "Nicolas Cage",
+        "Sarah Lind",
+        "Jakob Davies",
+        "Hugh Dillon",
+        "Vicellous Shannon",
+        "Jett Klyne"
+      ],
+      "posterPath": "/2qf4wJoaYAXwY0Lov4OfBhSGbTQ.jpg",
+      "backdropPath": "/jHd6jANcVYpA7uUGSyJf2nSMULw.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 3,
+      "criticalScore": 48,
+      "plexFit": "A compact science fiction option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/QSxewWTynZE",
+      "synopsisPreview": "In 2030 the world is in a permanent state of economic recession and facing serious environmental problems as a result of global warming."
+    },
+    {
       "id": "the-informers-2008",
       "tmdbId": 17436,
       "imdbId": "tt0865554",
@@ -346626,7 +348460,7 @@
       "posterPath": "/rn62qKiMB2Mg9QwFUbzZycwkoWN.jpg",
       "backdropPath": "/fkxEFStDdKHoSlsR0G7xZlW2JQF.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
+      "popularity": 2,
       "criticalScore": 46,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "synopsisPreview": "A stationary camera looks west across Niagara Falls from the United States' side (the Niagara River rushes toward the falls from right to left). Virtually overlooking the falls and surrounded by the swift current not far..."
@@ -359290,6 +361124,43 @@
       "synopsisPreview": "Tommy Riley has moved with his dad to Chicago from a 'nice place'. He keeps to himself, goes to school. However, after a street fight, he's noticed and quickly falls into the world of illegal underground boxing — where p..."
     },
     {
+      "id": "good-night-oppy-2022",
+      "tmdbId": 972545,
+      "imdbId": "tt14179942",
+      "title": "Good Night Oppy",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 105,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "planet mars",
+        "nasa",
+        "space exploration"
+      ],
+      "directors": [
+        "Ryan White"
+      ],
+      "cast": [
+        "Angela Bassett",
+        "Steve Squyres",
+        "Jennifer Trosper",
+        "Rob Manning",
+        "Kobie Boykins",
+        "Ashitey Trebi-Ollennu"
+      ],
+      "posterPath": "/7DTWN79hsN5AZEhW8w4SOquSI4D.jpg",
+      "backdropPath": "/bfYDeFDmoweRdmTt0ifHPOMgNXV.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 76,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/W4t58Yruhds",
+      "synopsisPreview": "The inspirational true story of Opportunity, a rover that was sent to Mars for a 90-day mission but ended up surviving for 15 years. Follow Opportunity’s groundbreaking journey on Mars and the remarkable bond forged betw..."
+    },
+    {
       "id": "guess-who-s-coming-to-dinner-1967",
       "tmdbId": 1879,
       "imdbId": "tt0061735",
@@ -362207,6 +364078,48 @@
       "plexFit": "A compact animation option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/gurSJeRYEPM",
       "synopsisPreview": "Minna, a young girl, misuses her newfound ability to create and control other people’s dreams to teach her bothersome stepsister a lesson. When her stepsister can no longer wake up, Minna has to enter the dream world to..."
+    },
+    {
+      "id": "exit-through-the-gift-shop-2010",
+      "tmdbId": 39452,
+      "imdbId": "tt1587707",
+      "title": "Exit Through the Gift Shop",
+      "originalLanguage": "en",
+      "year": 2010,
+      "releaseDate": "2010-03-05",
+      "runtimeMinutes": 86,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "painting",
+        "graffiti",
+        "fraud",
+        "cousin",
+        "street artist",
+        "prank",
+        "eccentric",
+        "fame"
+      ],
+      "directors": [
+        "Banksy"
+      ],
+      "cast": [
+        "Rhys Ifans",
+        "Thierry Guetta",
+        "Banksy",
+        "Shepard Fairey",
+        "INVADER",
+        "Debora Guetta"
+      ],
+      "posterPath": "/ruM5ehUQlHC1Kx3SF18d6klfrAx.jpg",
+      "backdropPath": "/yGtoR1fi3e2xU7N91cb2DKJjtyL.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 75,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/oHJBdDSTbLw",
+      "synopsisPreview": "Banksy is a graffiti artist with a global reputation whose work can be seen on walls from post-hurricane New Orleans to the separation barrier on the Palestinian West Bank. Fiercely guarding his anonymity to avoid prosec..."
     },
     {
       "id": "fatherhood-2021",
@@ -368548,6 +370461,43 @@
       "criticalScore": 74,
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "synopsisPreview": "The adventures of two friends, one a chicken vendor in a market and the other a policeman. They have love affairs and capture criminals."
+    },
+    {
+      "id": "love-reset-2023",
+      "tmdbId": 1052433,
+      "imdbId": "tt29031019",
+      "title": "Love Reset",
+      "originalTitle": "30일",
+      "originalLanguage": "ko",
+      "year": 2023,
+      "releaseDate": "2023-10-03",
+      "runtimeMinutes": 119,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "tags": [
+        "amnesia"
+      ],
+      "directors": [
+        "Nam Dae-joong"
+      ],
+      "cast": [
+        "Kang Ha-neul",
+        "Jung So-min",
+        "Cho Min-soo",
+        "Im Cheol-hyung",
+        "Hwang Se-in",
+        "Lee Sang-jin"
+      ],
+      "posterPath": "/ihOMYU3KNEIynH145qlhsfZIwlc.jpg",
+      "backdropPath": "/tiKNQUipxfKQQXuUFnBprXtL7kM.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 2,
+      "criticalScore": 74,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/H8KsoY8q8tM",
+      "synopsisPreview": "A married couple who received a divorce settlement lose their memories in an accident. With amnesia, they fall in love again, so their families try to restore their memories to finalize the divorce."
     },
     {
       "id": "memoir-of-a-murderer-2017",
@@ -377338,6 +379288,50 @@
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/8xynf8cKeWw",
       "synopsisPreview": "When schoolboy  Wang Bao discovers a magical gourd that can instantly grant his every wish, the awkward child suddenly becomes a hero amongst his curious classmates. When the gourd proves more of a burden than a blessing..."
+    },
+    {
+      "id": "the-thief-of-bagdad-1924",
+      "tmdbId": 28963,
+      "imdbId": "tt0015400",
+      "title": "The Thief of Bagdad",
+      "originalLanguage": "en",
+      "year": 1924,
+      "releaseDate": "1924-03-18",
+      "runtimeMinutes": 149,
+      "genres": [
+        "Romance",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "princess",
+        "treasure",
+        "magic",
+        "palace",
+        "flying carpet",
+        "rope",
+        "thief",
+        "suitor"
+      ],
+      "directors": [
+        "Raoul Walsh"
+      ],
+      "cast": [
+        "Douglas Fairbanks",
+        "Snitz Edwards",
+        "Charles Belcher",
+        "Julanne Johnston",
+        "Sôjin Kamiyama",
+        "Anna May Wong"
+      ],
+      "posterPath": "/8t4CJ591N2FATf2yUiQNQk9p0tB.jpg",
+      "backdropPath": "/cuMvdjZVYKeCLBtWFc2FDiNAsUR.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 2,
+      "criticalScore": 73,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/msVH7dZkB8o",
+      "synopsisPreview": "A recalcitrant thief vies with a duplicitous Mongol ruler for the hand of a beautiful princess."
     },
     {
       "id": "the-tiger-s-apprentice-2024",
@@ -387263,6 +389257,42 @@
       "synopsisPreview": "Shy outcast Kokoro has been avoiding school for weeks when she discovers a portal in her bedroom mirror. She reaches through and finds herself transported to an enchanting castle where she is joined by six other students..."
     },
     {
+      "id": "m-2023",
+      "tmdbId": 829361,
+      "imdbId": "tt11076026",
+      "title": "M",
+      "originalLanguage": "mk",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 96,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Adventure",
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Vardan Tozija"
+      ],
+      "cast": [
+        "Matej Sivakov",
+        "Saško Kocev",
+        "Aleksandar Ničovski",
+        "Kamka Tocinovski",
+        "Bojana Gregorić Vejzović",
+        "Verica Nedeska"
+      ],
+      "posterPath": "/rESIobLEipch59C8Qr0tRXufHYX.jpg",
+      "backdropPath": "/cJJEPBwyjEZ9dEUyHwEY2Sio7SJ.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 2,
+      "criticalScore": 71,
+      "plexFit": "A compact science fiction option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ZyvzIGFVfpI",
+      "synopsisPreview": "Deep in a secluded forest, Marko lives in isolation under the watchful eye of his overprotective father, who is determined to keep his young son safe from the Evil Ones. Deeply lonely, and increasingly curious about the..."
+    },
+    {
       "id": "macbeth-1971",
       "tmdbId": 11316,
       "imdbId": "tt0067372",
@@ -395585,7 +397615,7 @@
       "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
       "backdropPath": "/cxJsU3BfJ7NkKae5gWqJkmu3aCO.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
+      "popularity": 1,
       "criticalScore": 70,
       "plexFit": "A compact animation option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/gV-NRwLV2qU",
@@ -397756,6 +399786,46 @@
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/HoelUhjVXas",
       "synopsisPreview": "Lisbon, Portugal, 2010. Pilar, a pious woman devoted to social causes, maintains a peculiar relationship with her neighbor Aurora, a temperamental old woman obsessed with gambling who lives tormented by a mysterious past..."
+    },
+    {
+      "id": "teddy-s-christmas-2022",
+      "tmdbId": 1020969,
+      "imdbId": "tt21054736",
+      "title": "Teddy's Christmas",
+      "originalTitle": "Teddybjørnens Jul",
+      "originalLanguage": "no",
+      "year": 2022,
+      "releaseDate": "2022-11-05",
+      "runtimeMinutes": 76,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "teddy bear",
+        "woman director",
+        "christmas"
+      ],
+      "directors": [
+        "Andrea Eckerbom"
+      ],
+      "cast": [
+        "Marte Klerck-Nilssen",
+        "John Brungot",
+        "Vegard Strand Eide",
+        "Mariann Hole",
+        "Jan Gunnar Røise",
+        "Lene Kongsvik Johansen"
+      ],
+      "posterPath": "/jEf96axaZhZQEu9ORVtEujBTG9p.jpg",
+      "backdropPath": "/8FWC4tDWB1p006vwiubhai4a8iS.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/8k0zitO8g-c",
+      "synopsisPreview": "While visiting a Christmas market in her Norwegian town, eight year old Mariann spots a talking teddy bear at a carnival game booth. However, when someone else wins it, she embarks on a quest to find the adorable bear th..."
     },
     {
       "id": "the-absent-one-2014",
@@ -400193,6 +402263,47 @@
       "plexFit": "A compact family option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/aRVEm-yrm-k",
       "synopsisPreview": "When an alien with amazing powers crash-lands near Mossy Bottom Farm, Shaun the Sheep goes on a mission to shepherd the intergalactic visitor home before a sinister organization can capture her."
+    },
+    {
+      "id": "all-hands-on-deck-2021",
+      "tmdbId": 665753,
+      "imdbId": "tt11068166",
+      "title": "All Hands on Deck!",
+      "originalTitle": "À l'abordage",
+      "originalLanguage": "fr",
+      "year": 2021,
+      "releaseDate": "2021-07-08",
+      "runtimeMinutes": 95,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "holiday",
+        "camping",
+        "southern france",
+        "campsite",
+        "male friendship",
+        "road movie"
+      ],
+      "directors": [
+        "Guillaume Brac"
+      ],
+      "cast": [
+        "Éric Nantchouang",
+        "Salif Cissé",
+        "Édouard Sulpice",
+        "Asma Messaoudene",
+        "Ana Blagojević",
+        "Lucie Gallo"
+      ],
+      "posterPath": "/ymwEpKb4XnVdhdhDfKmR6EScxhu.jpg",
+      "backdropPath": "/rWU56S1f4DtI40kms8psS4g2wUb.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/qTYrwOI6QQU",
+      "synopsisPreview": "An unlikely oddball trio bond during an impromptu trip to the French countryside on a foolhardy romantic mission."
     },
     {
       "id": "alphaville-1965",
@@ -405050,6 +407161,49 @@
       "synopsisPreview": "After his best friend is killed in a shark attack, Quinn, a lovable yet tenacious seal assembles a SEAL TEAM to fight back against a gang of sharks overtaking the neighborhood. But this merry band of international seals..."
     },
     {
+      "id": "shadowlands-1993",
+      "tmdbId": 10445,
+      "imdbId": "tt0108101",
+      "title": "Shadowlands",
+      "originalLanguage": "en",
+      "year": 1993,
+      "releaseDate": "1993-12-25",
+      "runtimeMinutes": 131,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [
+        "stroke of fate",
+        "england",
+        "brother",
+        "christianity",
+        "literature",
+        "bachelor",
+        "marriage",
+        "based on play or musical"
+      ],
+      "directors": [
+        "Richard Attenborough"
+      ],
+      "cast": [
+        "Anthony Hopkins",
+        "Debra Winger",
+        "Edward Hardwicke",
+        "John Wood",
+        "Michael Denison",
+        "Peter Firth"
+      ],
+      "posterPath": "/5jTWY1M2O4Zhid4rLOpftzazRGn.jpg",
+      "backdropPath": "/nna1FWMle9WUd0lg3qJWog1NBbe.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 69,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/-zfkmfRX4X4",
+      "synopsisPreview": "C.S. Lewis, a world-renowned writer and professor, leads a passionless life until he meets spirited poet Joy Gresham."
+    },
+    {
       "id": "shaolin-2011",
       "tmdbId": 55292,
       "imdbId": "tt1533749",
@@ -405092,6 +407246,50 @@
       "plexFit": "A useful action title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/HUF8_EhO6vU",
       "synopsisPreview": "China is plunged into strife as feuding warlords try to expand their power by warring over neighboring lands. Fuelled by his success on the battlefield, young and arrogant Hao Jie sneers at Shaolin's masters when he beat..."
+    },
+    {
+      "id": "shithouse-2020",
+      "tmdbId": 637053,
+      "imdbId": "tt11618536",
+      "title": "Shithouse",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-10-16",
+      "runtimeMinutes": 102,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "tags": [
+        "california",
+        "roommates",
+        "college",
+        "turtle",
+        "coming of age",
+        "stuffed animal",
+        "leaving home",
+        "homesick"
+      ],
+      "directors": [
+        "Cooper Raiff"
+      ],
+      "cast": [
+        "Cooper Raiff",
+        "Dylan Gelula",
+        "Amy Landecker",
+        "Logan Miller",
+        "Olivia Scott Welch",
+        "Abby Quinn"
+      ],
+      "posterPath": "/lyOajZgP8Iy3JdVgvaiBv9K5OMH.jpg",
+      "backdropPath": "/4KajfHWJ190Qm6J1NR2qxFNntPb.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/PkA7m1DbeH8",
+      "synopsisPreview": "Lonely college freshman Alex has closed himself off from his peers, who all appear to have this whole \"college thing\" figured out. But everything changes one night when Alex takes a leap and attends a party at Shithouse..."
     },
     {
       "id": "silkwood-1983",
@@ -407838,6 +410036,44 @@
       "plexFit": "A compact horror option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/2zyGQuEkDT8",
       "synopsisPreview": "In the Iranian ghost-town Bad City, a place that reeks of death and loneliness, the townspeople are unaware they are being stalked by a lonesome vampire."
+    },
+    {
+      "id": "a-pigeon-sat-on-a-branch-reflecting-on-existence-2014",
+      "tmdbId": 110390,
+      "imdbId": "tt1883180",
+      "title": "A Pigeon Sat on a Branch Reflecting on Existence",
+      "originalTitle": "En duva satt på en gren och funderade på tillvaron",
+      "originalLanguage": "sv",
+      "year": 2014,
+      "releaseDate": "2014-10-24",
+      "runtimeMinutes": 101,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Fantasy"
+      ],
+      "tags": [
+        "anarchic comedy"
+      ],
+      "directors": [
+        "Roy Andersson"
+      ],
+      "cast": [
+        "Holger Andersson",
+        "Nisse Vestblom",
+        "Viktor Gyllenberg",
+        "Lotti Törnros",
+        "Jonas Gerholm",
+        "Ola Stensson"
+      ],
+      "posterPath": "/h2uRIr0fNpZbTGH5youi7MDRL2T.jpg",
+      "backdropPath": "/gNBrmb0zabXmRY1IKVgcBXSo2F0.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 68,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iy8PWgf8lvg",
+      "synopsisPreview": "An absurdist, surrealistic and shocking pitch-black comedy, which moves freely from nightmare to fantasy to hilariously deadpan humour as it muses on man’s perpetual inhumanity to man."
     },
     {
       "id": "a-private-war-2018",
@@ -412319,6 +414555,51 @@
       "plexFit": "A useful history title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/Hr_PNoCZXg4",
       "synopsisPreview": "The story recounts the early life of Genghis Khan, a slave who went on to conquer half the world in the 11th century."
+    },
+    {
+      "id": "monster-high-2-2023",
+      "tmdbId": 1039960,
+      "imdbId": "tt23026954",
+      "title": "Monster High 2",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Fantasy",
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "high school",
+        "monster",
+        "musical",
+        "sequel",
+        "based on toy",
+        "werewolf",
+        "jekyll and hyde",
+        "frankenstein"
+      ],
+      "directors": [
+        "Todd Holland"
+      ],
+      "cast": [
+        "Miia Harris",
+        "Nayah Damasen",
+        "Ceci Balagot",
+        "Case Walker",
+        "Justin Derickson",
+        "Salena Qureshi"
+      ],
+      "posterPath": "/9RaCErx1ofEBiUsifGFaA6F6rKt.jpg",
+      "backdropPath": "/1CbExVP0bgrTshP7DvnDdwqryYL.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 2,
+      "criticalScore": 68,
+      "plexFit": "A compact fantasy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Mz_VxktIEaA",
+      "synopsisPreview": "As they enter sophomore year at Monster High, Clawdeen Wolf, Draculaura and Frankie Stein face new students, new powers, and an even bigger threat that could not only tear their friendship apart but could change the worl..."
     },
     {
       "id": "monster-high-the-movie-2022",
@@ -429099,6 +431380,41 @@
       "synopsisPreview": "A book-smart teenager joins his school's wrestling team as a way to reunite his surviving family members, who split apart after the death of his father, a college wrestling legend, 10 years ago."
     },
     {
+      "id": "love-classified-2022",
+      "tmdbId": 939575,
+      "imdbId": "tt17506016",
+      "title": "Love, Classified",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-16",
+      "runtimeMinutes": 84,
+      "genres": [
+        "TV Movie",
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "tags": [],
+      "directors": [
+        "Stacey N. Harding"
+      ],
+      "cast": [
+        "Melora Hardin",
+        "Katherine McNamara",
+        "Max Lloyd-Jones",
+        "Arienne Mandi",
+        "Matthew Kevin Anderson",
+        "Baraka Rahmani"
+      ],
+      "posterPath": "/h6oA5yWqcCyZ0q5358059jz5f8b.jpg",
+      "backdropPath": "/ohfwSmfTAdYStqMEeZ4i05f9yPC.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 66,
+      "plexFit": "A compact tv movie option for easier weeknight discovery.",
+      "synopsisPreview": "Romance novelist Emilia is a whirlwind who blows back into the lives of her adult children, Taylor and Zach, under the pretense of a book signing arranged by her hometown's local book shop. As Emilia tries to reconnect,..."
+    },
+    {
       "id": "loving-annabelle-2007",
       "tmdbId": 19344,
       "imdbId": "tt0323120",
@@ -429139,6 +431455,49 @@
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/AEzcWmymuEk",
       "synopsisPreview": "Annabelle is the wise-beyond-her-years newcomer to an exclusive Catholic girls school. Having been expelled from her first two schools she's bound to stir some trouble. Sparks fly though when sexual chemistry appears bet..."
+    },
+    {
+      "id": "m-butterfly-1993",
+      "tmdbId": 1413,
+      "imdbId": "tt0107468",
+      "title": "M. Butterfly",
+      "originalLanguage": "en",
+      "year": 1993,
+      "releaseDate": "1993-10-01",
+      "runtimeMinutes": 101,
+      "genres": [
+        "Romance",
+        "Drama",
+        "History"
+      ],
+      "tags": [
+        "china",
+        "based on true story",
+        "opera singer",
+        "1960s",
+        "secret",
+        "based on real person",
+        "based on real events"
+      ],
+      "directors": [
+        "David Cronenberg"
+      ],
+      "cast": [
+        "Jeremy Irons",
+        "John Lone",
+        "Barbara Sukowa",
+        "Annabel Leventon",
+        "Shizuko Hoshi",
+        "Ian Richardson"
+      ],
+      "posterPath": "/vfutnJ9sgpAtNuPemksd26gd5dC.jpg",
+      "backdropPath": "/7cqxSTOUe0olgvjXxRs8XedFjOr.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 2,
+      "criticalScore": 66,
+      "plexFit": "A compact romance option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/fgANS15AN4I",
+      "synopsisPreview": "In 1960s China, French diplomat Rene Gallimard falls in love with opera singer Song Liling – but Song is not at all who Gallimard thinks."
     },
     {
       "id": "ma-rainey-s-black-bottom-2020",
@@ -435162,6 +437521,46 @@
       "synopsisPreview": "On the Arabian Peninsula in the 1930s, two warring leaders come face to face. The victorious Nesib, Emir of Hobeika, lays down his peace terms to rival Amar, Sultan of Salmaah. The two men agree that neither can lay clai..."
     },
     {
+      "id": "blame-2017",
+      "tmdbId": 409421,
+      "imdbId": "tt6574146",
+      "title": "BLAME!",
+      "originalTitle": "ブラム",
+      "originalLanguage": "ja",
+      "year": 2017,
+      "releaseDate": "2017-05-20",
+      "runtimeMinutes": 106,
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction",
+        "Animation"
+      ],
+      "tags": [
+        "adult animation",
+        "anime"
+      ],
+      "directors": [
+        "Hiroyuki Seshita"
+      ],
+      "cast": [
+        "Takahiro Sakurai",
+        "Kana Hanazawa",
+        "Sora Amamiya",
+        "Mamoru Miyano",
+        "Aya Suzaki",
+        "Nobunaga Shimazaki"
+      ],
+      "posterPath": "/7eoRQY7VUMawwBnuD6uwN4szc8k.jpg",
+      "backdropPath": "/9orgGrjh0Jivz0zZLn1Ufj4NRZP.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/hwy806RC2-Q",
+      "synopsisPreview": "In the distant technological future, civilization has reached its ultimate Net-based form. An \"infection\" in the past caused the automated systems to spiral out of order, resulting in a multi-leveled city structure that..."
+    },
+    {
       "id": "blind-fury-1989",
       "tmdbId": 19124,
       "imdbId": "tt0096945",
@@ -437639,6 +440038,49 @@
       "synopsisPreview": "Having cleared his name, genius mechanic Lino has only one goal in mind: getting revenge on the corrupt cops who killed his brother and his mentor."
     },
     {
+      "id": "lost-in-the-night-2023",
+      "tmdbId": 605542,
+      "imdbId": "tt27307501",
+      "title": "Lost in the Night",
+      "originalTitle": "Perdidos en la noche",
+      "originalLanguage": "es",
+      "year": 2023,
+      "releaseDate": "2023-10-04",
+      "runtimeMinutes": 123,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "tags": [
+        "hispanic",
+        "erotic thriller",
+        "twisted",
+        "dark",
+        "violence",
+        "horror-adjacent"
+      ],
+      "directors": [
+        "Amat Escalante"
+      ],
+      "cast": [
+        "Juan Daniel Garcia Treviño",
+        "Ester Expósito",
+        "Bárbara Mori",
+        "Fernando Bonilla",
+        "Maria Fernanda Osio",
+        "Jero Medina"
+      ],
+      "posterPath": "/gB2itwKca8jKk0SAkWV3NUkzmYu.jpg",
+      "backdropPath": "/kiiOR9TPAMogSCgW2YEkzOIJozS.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/WqrFLiSd15o",
+      "synopsisPreview": "A young man from a small mining town embroils himself with a wealthy family with a dubious past."
+    },
+    {
       "id": "louder-than-bombs-2015",
       "tmdbId": 157827,
       "imdbId": "tt2217859",
@@ -438620,6 +441062,38 @@
       "synopsisPreview": "A white blood cell policeman, with the help of a cold pill, must stop a deadly virus from destroying the human they live in, Frank."
     },
     {
+      "id": "overdose-2022",
+      "tmdbId": 896485,
+      "imdbId": "tt15713012",
+      "title": "Overdose",
+      "originalLanguage": "fr",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 119,
+      "genres": [
+        "Action"
+      ],
+      "tags": [],
+      "directors": [
+        "Olivier Marchal"
+      ],
+      "cast": [
+        "Sofia Essaïdi",
+        "Assaad Bouab",
+        "Alberto Ammann",
+        "Nicolas Cazalé",
+        "Nassim Lyes",
+        "Naïma Rodric"
+      ],
+      "posterPath": "/gZRUmFMTAduMyMdjdETd8zn9RFK.jpg",
+      "backdropPath": "/y4XBYLldCLuNLVeObTndfAaUrc3.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "synopsisPreview": "Captain Sara Bellaiche, from Toulouse Judiciary Police branch, is investigating a go-fast linked to the murder of two teenagers, an investigation led by Richard Cross, from the Paris Criminal Brigade. Forced to collabora..."
+    },
+    {
       "id": "paradise-2023",
       "tmdbId": 1140066,
       "imdbId": "tt21308888",
@@ -439470,6 +441944,40 @@
       "plexFit": "A useful action title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/EJTsQLUmvvQ",
       "synopsisPreview": "Two detectives observe an escaped convict's ex-girlfriend, but complications set in when one of them falls for her."
+    },
+    {
+      "id": "staring-at-strangers-2022",
+      "tmdbId": 939899,
+      "imdbId": "tt13867056",
+      "title": "Staring at Strangers",
+      "originalTitle": "No mires a los ojos",
+      "originalLanguage": "es",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 107,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Félix Viscarret"
+      ],
+      "cast": [
+        "Paco León",
+        "Leonor Watling",
+        "Àlex Brendemühl",
+        "María Romanillos",
+        "Juan Diego Botto",
+        "Susana Abaitua"
+      ],
+      "posterPath": "/ozgB7njLoj0xRb1VtVCTrNH3FEw.jpg",
+      "backdropPath": "/6XSDikVyntm4dHAacilTbWg8KvV.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "Carpenter Sergio runs away and hides in a closet after his boss fired him. When the closet arrives at its buyer's house, he decides to stay there, hiding in his new home living with an unknown family."
     },
     {
       "id": "storytelling-2001",
@@ -448111,6 +450619,49 @@
       "synopsisPreview": "Desperate to avoid his family’s judgment about his perpetual single status, Peter convinces his best friend Nick to join him for the holidays and pretend that they’re now in a relationship. But when Peter’s mother sets h..."
     },
     {
+      "id": "soft-and-quiet-2022",
+      "tmdbId": 934131,
+      "imdbId": "tt14557188",
+      "title": "Soft & Quiet",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [
+        "rape",
+        "sexual violence",
+        "racism",
+        "former best friend",
+        "hate group",
+        "real time",
+        "woman director",
+        "psychological horror"
+      ],
+      "directors": [
+        "Beth de Araújo"
+      ],
+      "cast": [
+        "Stefanie Estes",
+        "Olivia Luccardi",
+        "Eleanore Pienta",
+        "Dana Millican",
+        "Melissa Paulo",
+        "Jon Beavers"
+      ],
+      "posterPath": "/atNLWJm8KO44xeVGxG4LAByr5tm.jpg",
+      "backdropPath": "/aAK25IGWGCk33c2rO2eYcek9rIB.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 2,
+      "criticalScore": 64,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/MM2t50unJkA",
+      "synopsisPreview": "Taking place in real time, elementary school teacher Emily organizes a mixer of like-minded women, but an altercation between a woman from Emily’s past and the group leads to a volatile chain of events."
+    },
+    {
       "id": "someone-great-2019",
       "tmdbId": 515248,
       "imdbId": "tt8075260",
@@ -454406,6 +456957,46 @@
       "synopsisPreview": "A Harvard professor is lured back into the courtroom after twenty-five years to take the case of a young black man condemned to death for the horrific murder of a child."
     },
     {
+      "id": "khufiya-2023",
+      "tmdbId": 878926,
+      "imdbId": "tt15433600",
+      "title": "Khufiya",
+      "originalTitle": "ख़ुफ़िया",
+      "originalLanguage": "hi",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 158,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Mystery"
+      ],
+      "tags": [
+        "based on novel or book",
+        "based on true story",
+        "spy thriller"
+      ],
+      "directors": [
+        "Vishal Bhardwaj"
+      ],
+      "cast": [
+        "Tabu",
+        "Ali Fazal",
+        "Wamiqa Gabbi",
+        "Ashish Vidhyarthi",
+        "Atul Kulkarni",
+        "Navnindra Behl"
+      ],
+      "posterPath": "/bbHUuTEo2DsYLoXCjkL8kB0oPhy.jpg",
+      "backdropPath": "/9Ijxw19fKxMr6bKEyfK3gQ9lVU1.jpg",
+      "posterTone": "from-cyan-300 via-blue-800 to-black",
+      "popularity": 2,
+      "criticalScore": 63,
+      "plexFit": "A useful crime title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ByojhBwG_-E",
+      "synopsisPreview": "When a mole in an intelligence unit leads to the murder of an undercover spy, a hardened agent relentlessly pursues him to avenge the death."
+    },
+    {
       "id": "killer-s-kiss-1955",
       "tmdbId": 10056,
       "imdbId": "tt0048254",
@@ -458013,6 +460604,43 @@
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/1QRHFazHpuc",
       "synopsisPreview": "After suffering a personal tragedy, and desperate for justice, Jacob Kanon, a veteran New York City police detective, embarks on the search for a twisted killer who is leaving a bloody trail of elaborate murders across E..."
+    },
+    {
+      "id": "the-president-s-wife-2023",
+      "tmdbId": 961084,
+      "imdbId": "tt19858184",
+      "title": "The President's Wife",
+      "originalTitle": "Bernadette",
+      "originalLanguage": "fr",
+      "year": 2023,
+      "releaseDate": "2023-10-04",
+      "runtimeMinutes": 94,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "amused"
+      ],
+      "directors": [
+        "Léa Domenach"
+      ],
+      "cast": [
+        "Catherine Deneuve",
+        "Denis Podalydès",
+        "Michel Vuillermoz",
+        "Sara Giraudeau",
+        "Laurent Stocker",
+        "François Vincentelli"
+      ],
+      "posterPath": "/pS2X3RvvBRllM4lxtWW1m3MjbW9.jpg",
+      "backdropPath": "/h7l5Kt46llTSNd77g7sEUB2ZtLz.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 63,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ZZet5WQlNd0",
+      "synopsisPreview": "When she arrived at the Elysée Palace, Bernadette Chirac expected to finally get the place she deserved, she who had always worked in the shadow of her husband to make him president. Put aside because she was considered..."
     },
     {
       "id": "the-raven-2012",
@@ -473630,6 +476258,48 @@
       "synopsisPreview": "A young refugee travels from Russia to America in search of her lost father and falls in love with a gypsy horseman."
     },
     {
+      "id": "the-match-2021",
+      "tmdbId": 840283,
+      "imdbId": "tt6639482",
+      "title": "The Match",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-07-10",
+      "runtimeMinutes": 119,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "tags": [
+        "prisoner",
+        "nazi",
+        "world war ii",
+        "football (soccer)",
+        "death camp"
+      ],
+      "directors": [
+        "Dominik Sedlar",
+        "Jakov Sedlar"
+      ],
+      "cast": [
+        "Franco Nero",
+        "Caspar Phillipson",
+        "Filip Tallhamn",
+        "Andrej Dojkić",
+        "Viktor Kulhanek",
+        "Armand Assante"
+      ],
+      "posterPath": "/uMMcBauzPqcMPKXUdoqB2O0dkAm.jpg",
+      "backdropPath": "/4G5SIWPjpJ8zMolW89Om75I9JTp.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 61,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/XuUelAAR6nA",
+      "synopsisPreview": "Inspired by true events from the spring of 1944 when the Nazis organized a football match between a team of camp inmates and an elite Nazi team on Adolf Hitler's birthday. A match the prisoners are determined to win, no..."
+    },
+    {
       "id": "the-mirror-crack-d-1980",
       "tmdbId": 6028,
       "imdbId": "tt0081163",
@@ -476209,6 +478879,39 @@
       "plexFit": "A useful comedy title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/-mw-Rhm8OIw",
       "synopsisPreview": "A dysfunctional family gathers together for their first Christmas since the death of their matriarch."
+    },
+    {
+      "id": "american-dreamer-2022",
+      "tmdbId": 931461,
+      "imdbId": "tt13884444",
+      "title": "American Dreamer",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 106,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Paul Dektor"
+      ],
+      "cast": [
+        "Peter Dinklage",
+        "Shirley MacLaine",
+        "Kimberly Quinn",
+        "Danny Pudi",
+        "Matt Dillon",
+        "Danny Glover"
+      ],
+      "posterPath": "/9bUsa318eCnztKZlcG86s8xk9Rk.jpg",
+      "backdropPath": "/aqOKuH8zLYxM9uDLb9makn7x6LI.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 60,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ip1M_fjL2Bo",
+      "synopsisPreview": "In this winsome comedy, an entitled Economics professor pursues a tactic to buy an ailing widow’s mansion for nothing, but he quickly realizes that his seemingly foolproof strategy won’t be as easy as he thought."
     },
     {
       "id": "american-ninja-1985",
@@ -481645,6 +484348,43 @@
       "synopsisPreview": "As Israel is rocked by a series of terrorist bombings, a US senator's daughter is killed in one bloody explosion. Now, ex-Mossad agent Etan must lead an elite, covert team of agents and mercenaries to find the man respon..."
     },
     {
+      "id": "the-exorcism-of-carmen-farias-2021",
+      "tmdbId": 675024,
+      "imdbId": "tt10097362",
+      "title": "The Exorcism of Carmen Farias",
+      "originalTitle": "El Exorcismo de Carmen Farías",
+      "originalLanguage": "es",
+      "year": 2021,
+      "releaseDate": "2021-05-05",
+      "runtimeMinutes": 93,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "exorcism",
+        "haunted house",
+        "ghost"
+      ],
+      "directors": [
+        "Rodrigo Fiallega"
+      ],
+      "cast": [
+        "Camila Sodi",
+        "Juan Pablo Castañeda",
+        "María del Carmen Farias",
+        "Juan Carlos Colombo",
+        "Lucy Paez",
+        "Ana Silvia Garza"
+      ],
+      "posterPath": "/uoTPjx07dxTrC1g3dYeaS2WNVGL.jpg",
+      "backdropPath": "/zm2kMjiz0u6qdn2XKbEbQkDiltN.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 2,
+      "criticalScore": 60,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "synopsisPreview": "Carmen, a brave journalist, discovers soon after her mother's death that she has inherited her grandma's house. She decides to move there without knowing it hides dark secrets."
+    },
+    {
       "id": "the-f-k-it-list-2020",
       "tmdbId": 598133,
       "imdbId": "tt8145202",
@@ -483328,6 +486068,39 @@
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/U5jQU0gsuaE",
       "synopsisPreview": "The Griswold family hits the road again for a typically ill-fated vacation, this time to the glitzy mecca of slots and showgirls—Las Vegas."
+    },
+    {
+      "id": "veneciafrenia-2022",
+      "tmdbId": 756681,
+      "imdbId": "tt12412166",
+      "title": "Veneciafrenia",
+      "originalLanguage": "es",
+      "year": 2022,
+      "releaseDate": "2022-04-22",
+      "runtimeMinutes": 100,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Álex de la Iglesia"
+      ],
+      "cast": [
+        "Ingrid García Jonsson",
+        "Silvia Alonso",
+        "Goize Blanco",
+        "Nicolás Illoro",
+        "Alberto Bang",
+        "Enrico Lo Verso"
+      ],
+      "posterPath": "/90ZsEVSiZZABzO8bh1OcqguomIn.jpg",
+      "backdropPath": "/sHgzLcGV1SLTxXZxy5JWM6A3nTQ.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 2,
+      "criticalScore": 60,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/_MVMEIh-7ew",
+      "synopsisPreview": "When a group of young Spanish tourists travel to Venice for a bachelorette party, they are met by angry locals who are not keen on foreigners and soon they find themselves fighting for their lives."
     },
     {
       "id": "vidocq-2001",
@@ -486407,6 +489180,40 @@
       "synopsisPreview": "It’s 2006, YouTube is in its infancy, and internet porn is still behind a paywall. Taking the stage name Brent Corrigan, a fresh-faced, wannabe adult video performer is molded into a star by Stephen, a closeted gay porn..."
     },
     {
+      "id": "last-summer-2021",
+      "tmdbId": 785537,
+      "imdbId": "tt13067004",
+      "title": "Last Summer",
+      "originalTitle": "Geçen Yaz",
+      "originalLanguage": "tr",
+      "year": 2021,
+      "releaseDate": "2021-07-09",
+      "runtimeMinutes": 101,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "tags": [],
+      "directors": [
+        "Ozan Açıktan"
+      ],
+      "cast": [
+        "Ece Çeşmioğlu",
+        "Fatih Berk Şahin",
+        "Halit Özgür Sarı",
+        "Aslıhan Malbora",
+        "Süreyya Güzel",
+        "Kubilay Tunçer"
+      ],
+      "posterPath": "/AvWrbe0FxXKjytWaOzMGXaFzoz4.jpg",
+      "backdropPath": "/e0lVsZrD6CPX8pt0QIDK7HDoRpy.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 2,
+      "criticalScore": 59,
+      "plexFit": "A compact romance option for easier weeknight discovery.",
+      "synopsisPreview": "During summer vacation in a beachside town, 16-year-old Deniz seeks the affection of his childhood crush and navigates a love triangle."
+    },
+    {
       "id": "latency-2024",
       "tmdbId": 1042657,
       "imdbId": "tt23146644",
@@ -487132,6 +489939,49 @@
       "plexFit": "A useful comedy title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/AjnLKuWLw5g",
       "synopsisPreview": "When Aryong, the daughter of a triad boss from Hong Kong is accused of killing the boss of a competing triad, she goes into hiding in Korea. Upon arriving, she is guided by a nimble but loyal Gi-chul and his motley crew,..."
+    },
+    {
+      "id": "naomi-and-ely-s-no-kiss-list-2015",
+      "tmdbId": 306952,
+      "imdbId": "tt3282858",
+      "title": "Naomi and Ely's No Kiss List",
+      "originalLanguage": "en",
+      "year": 2015,
+      "releaseDate": "2015-09-18",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "tags": [
+        "based on novel or book",
+        "cheating",
+        "bisexuality",
+        "lgbt",
+        "young love",
+        "woman director",
+        "based on young adult novel",
+        "gay theme"
+      ],
+      "directors": [
+        "Kristin Hanggi"
+      ],
+      "cast": [
+        "Victoria Justice",
+        "Pierson Fodé",
+        "Matthew Daddario",
+        "Ryan Ward",
+        "Griffin Newman",
+        "Monique Coleman"
+      ],
+      "posterPath": "/n8DH0vkVIaJthWowgdkeacmUUs3.jpg",
+      "backdropPath": "/6kOBRJEThztsrELkAQ18lsxk4zo.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 2,
+      "criticalScore": 59,
+      "plexFit": "A compact romance option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iKbrV9tTi5w",
+      "synopsisPreview": "The bonds between Naomi and Ely are tested when they fall for the same guy."
     },
     {
       "id": "new-year-s-eve-2011",
@@ -493735,6 +496585,50 @@
       "synopsisPreview": "Roberto Benigni adapts the classic children's tale by Carlo Collodi for the big-budget family-oriented comedy Pinocchio."
     },
     {
+      "id": "pixie-2020",
+      "tmdbId": 651610,
+      "imdbId": "tt10831086",
+      "title": "Pixie",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-10-16",
+      "runtimeMinutes": 93,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "tags": [
+        "gangster",
+        "ex-boyfriend",
+        "family secrets",
+        "heist",
+        "drugs",
+        "death of mother",
+        "road movie",
+        "escape plan"
+      ],
+      "directors": [
+        "Barnaby Thompson"
+      ],
+      "cast": [
+        "Olivia Cooke",
+        "Ben Hardy",
+        "Daryl McCormack",
+        "Colm Meaney",
+        "Alec Baldwin",
+        "Rory Fleck-Byrne"
+      ],
+      "posterPath": "/zvQpvZneVLM3dssUyqYvnQsHovk.jpg",
+      "backdropPath": "/dSgQ7Er6VLYw8mZiha38Coa4iih.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 58,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/_Hyy1pszf0o",
+      "synopsisPreview": "To avenge her mother's death, Pixie masterminds a heist but must flee across Ireland from gangsters, take on the patriarchy, and choose her own destiny."
+    },
+    {
       "id": "pretty-persuasion-2005",
       "tmdbId": 14166,
       "imdbId": "tt0381505",
@@ -496408,6 +499302,48 @@
       "synopsisPreview": "After policeman Frank Dooley is framed for theft and loses his job on the force, he joins a security guard agency and teams up with inept former defense lawyer Norman Kane. When the two botch a job guarding a local wareh..."
     },
     {
+      "id": "backtrack-2015",
+      "tmdbId": 332704,
+      "imdbId": "tt2784936",
+      "title": "Backtrack",
+      "originalLanguage": "en",
+      "year": 2015,
+      "releaseDate": "2015-07-25",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Mystery",
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [
+        "grave",
+        "train crash",
+        "dead daughter",
+        "ghosts of the past",
+        "psychotherapist",
+        "return to hometown"
+      ],
+      "directors": [
+        "Michael Petroni"
+      ],
+      "cast": [
+        "Adrien Brody",
+        "Sam Neill",
+        "Malcolm Kennard",
+        "Chloe Bayliss",
+        "Bruce Spence",
+        "Robin McLeavy"
+      ],
+      "posterPath": "/8L4jifugHPASkrssmOUVdQxn3WN.jpg",
+      "backdropPath": "/yr9UxlMes1AzYUxscoPo7dSmiTv.jpg",
+      "posterTone": "from-violet-300 via-indigo-700 to-slate-950",
+      "popularity": 2,
+      "criticalScore": 57,
+      "plexFit": "A compact mystery option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dRuQys74HNQ",
+      "synopsisPreview": "Troubled psychotherapist Peter Bowers is suffering from nightmares and eerie visions. When he uncovers a horrifying secret that all of his patients share, he is put on a course that takes him back to the small hometown h..."
+    },
+    {
       "id": "bait-2012",
       "tmdbId": 118957,
       "imdbId": "tt1438173",
@@ -496730,6 +499666,49 @@
       "plexFit": "A useful drama title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/P208BnSSoys",
       "synopsisPreview": "A group of wealthy boys in Los Angeles during the early 1980s establishes a get rich quick scam that turns deadly."
+    },
+    {
+      "id": "braddock-missing-in-action-iii-1988",
+      "tmdbId": 27352,
+      "imdbId": "tt0094792",
+      "title": "Braddock: Missing in Action III",
+      "originalLanguage": "en",
+      "year": 1988,
+      "releaseDate": "1988-01-22",
+      "runtimeMinutes": 102,
+      "genres": [
+        "Action",
+        "War",
+        "Adventure"
+      ],
+      "tags": [
+        "vietnam war",
+        "vietnam veteran",
+        "martial arts",
+        "orphanage",
+        "patriotism",
+        "rescue mission",
+        "abandoned building"
+      ],
+      "directors": [
+        "Aaron Norris"
+      ],
+      "cast": [
+        "Chuck Norris",
+        "Aki Aleong",
+        "Yehuda Efroni",
+        "Floyd Levine",
+        "Jack Rader",
+        "Keith David"
+      ],
+      "posterPath": "/y8Gp0TAQr8Z2Cy4ROSYzvOiMEMf.jpg",
+      "backdropPath": "/deWrpB0Wv3oz6Wa7KsbqyC50BmM.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 57,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/BzxjMRdxAqM",
+      "synopsisPreview": "When Colonel James Braddock is told that his Asian wife and 12-year-old son are still alive in Communist Vietnam, he mounts a one-man assault to free them. Armed with the latest high-tech firepower, Braddock fights his w..."
     },
     {
       "id": "bratz-2007",
@@ -504506,6 +507485,44 @@
       "synopsisPreview": "Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that serves as a prison for vicious death row criminals."
     },
     {
+      "id": "river-of-fear-2022",
+      "tmdbId": 888001,
+      "imdbId": "tt16106000",
+      "title": "River of Fear",
+      "originalTitle": "Upurga",
+      "originalLanguage": "lv",
+      "year": 2022,
+      "releaseDate": "2022-04-21",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Horror"
+      ],
+      "tags": [
+        "mysterious"
+      ],
+      "directors": [
+        "Uģis Olte"
+      ],
+      "cast": [
+        "Igors Šelegovskis",
+        "Inga Tropa",
+        "Jēkabs Reinis",
+        "Rihards Sniegs",
+        "Reinis Boters",
+        "Elvita Ragovska"
+      ],
+      "posterPath": "/8Q0sJtvbhkPJ1jXzvYW7qzgcupk.jpg",
+      "backdropPath": "/mpxTLzAs7Os3SnjtnjqZ6PzOgae.jpg",
+      "posterTone": "from-amber-200 via-stone-700 to-black",
+      "popularity": 2,
+      "criticalScore": 56,
+      "plexFit": "A compact thriller option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/4Az4zpFx6xM",
+      "synopsisPreview": "A local guide is asked to lead a group of influencers along the river of a remote valley. As they get deeper into the wilderness, their venture takes a frightening turn."
+    },
+    {
       "id": "rogue-2020",
       "tmdbId": 718444,
       "imdbId": "tt11576124",
@@ -507987,8 +511004,8 @@
         "accused of murder"
       ],
       "directors": [
-        "Harry O. Hoyt",
-        "Albert H. Kelley"
+        "Albert H. Kelley",
+        "Harry O. Hoyt"
       ],
       "cast": [
         "Anita Page",
@@ -509421,6 +512438,49 @@
       "plexFit": "A useful action title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/45riYi75C8w",
       "synopsisPreview": "The Law Enforcement Technology Advancement Centre (LETAC) has developed SID version 6.7: a Sadistic, Intelligent, and Dangerous virtual reality entity which is synthesized from the personalities of more than 150 serial k..."
+    },
+    {
+      "id": "we-re-all-going-to-the-world-s-fair-2022",
+      "tmdbId": 776501,
+      "imdbId": "tt13648224",
+      "title": "We're All Going to the World's Fair",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-15",
+      "runtimeMinutes": 86,
+      "genres": [
+        "Horror",
+        "Drama"
+      ],
+      "tags": [
+        "isolation",
+        "winter",
+        "identity",
+        "bedroom",
+        "coming of age",
+        "loneliness",
+        "internet",
+        "role playing game (rpg)"
+      ],
+      "directors": [
+        "Jane Schoenbrun"
+      ],
+      "cast": [
+        "Anna Cobb",
+        "Michael J Rogers",
+        "May Leitz",
+        "Theo Anthony",
+        "Valeria Santiago",
+        "Turner Greaves"
+      ],
+      "posterPath": "/fXn4Nz1WCTEmzAFvwgEZoPHvptR.jpg",
+      "backdropPath": "/8ruxjzQ8Zl0QDbWXvSzViXTZIX.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 2,
+      "criticalScore": 55,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/y0AnGfzgh_w",
+      "synopsisPreview": "Reality and fantasy begin to blur when a teenager, alone in her attic bedroom, immerses herself in a role-playing horror game online."
     },
     {
       "id": "wine-country-2019",
@@ -525900,7 +528960,7 @@
       "posterPath": "/dXLsSAN6L6LjFyhPSB80axTDQoH.jpg",
       "backdropPath": "/tyCAC89QbDqTPAGrmcpLhYql0Zf.jpg",
       "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
+      "popularity": 2,
       "criticalScore": 80,
       "plexFit": "A useful animation title for broadening the local catalog.",
       "synopsisPreview": "No synopsis is available yet."
@@ -526189,7 +529249,7 @@
       "posterPath": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
       "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
       "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
+      "popularity": 2,
       "criticalScore": 80,
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "synopsisPreview": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition."
@@ -526766,6 +529826,40 @@
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/EAwR54HrVW8",
       "synopsisPreview": "For more than thirty years, and through his television program, Fred Rogers (1928-2003), host, producer, writer and pianist, accompanied by his puppets and his many friends, spoke directly to young children about some of..."
+    },
+    {
+      "id": "5gang-a-different-kind-of-christmas-2019",
+      "tmdbId": 659153,
+      "imdbId": "tt11529348",
+      "title": "5Gang: A Different Kind of Christmas",
+      "originalTitle": "5Gang: Un Altfel de Crăciun",
+      "originalLanguage": "ro",
+      "year": 2019,
+      "releaseDate": "2019-12-27",
+      "runtimeMinutes": 96,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Matei Dima"
+      ],
+      "cast": [
+        "Dorian Popa",
+        "Andrei Șelaru",
+        "Julia Marcan",
+        "Ana Radu",
+        "Cosmin Nedelcu",
+        "Diana Condurache"
+      ],
+      "posterPath": "/dnbpootwUhvYzYwWGtuakzICtWE.jpg",
+      "backdropPath": "/o05JApHmBzkhuaUxxGu9c7xsOOv.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 79,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "synopsisPreview": "To keep the band together, Selly tries to earn money by making an appearance at the birthday party of a mobster's daughter - until he gets kidnapped."
     },
     {
       "id": "all-your-faces-2023",
@@ -527447,6 +530541,41 @@
       "plexFit": "A compact documentary option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/BRItSHelLr4",
       "synopsisPreview": "Takes us to locations all around the US and shows us the heavy toll that modern technology is having on humans and the earth. The visual tone poem contains neither dialogue nor a vocalized narration: its tone is set by t..."
+    },
+    {
+      "id": "la-civil-2021",
+      "tmdbId": 833393,
+      "imdbId": "tt13827606",
+      "title": "La Civil",
+      "originalLanguage": "es",
+      "year": 2021,
+      "releaseDate": "2021-07-08",
+      "runtimeMinutes": 140,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Teodora Ana Mihai"
+      ],
+      "cast": [
+        "Arcelia Ramírez",
+        "Álvaro Guerrero",
+        "Jorge A. Jimenez",
+        "Eligio Meléndez",
+        "Juan Daniel Garcia Treviño",
+        "Ayelén Muzo"
+      ],
+      "posterPath": "/mP9EMrwJRxj7O4P4v2xsNyWWA1f.jpg",
+      "backdropPath": "/bq5U9148k5yZXmO0yfa5vfNJl2z.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 79,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/QMWv6Ve7McY",
+      "synopsisPreview": "Cielo is a mother whose teenage daughter is kidnapped in Northern Mexico. When the authorities offer no support in the search, Cielo takes matters into her own hands and transforms from housewife into a vengeful militant..."
     },
     {
       "id": "la-jetee-1962",
@@ -533519,8 +536648,8 @@
         "father daughter relationship"
       ],
       "directors": [
-        "Bobby Pontillas",
-        "Andrew Chesworth"
+        "Andrew Chesworth",
+        "Bobby Pontillas"
       ],
       "cast": [],
       "posterPath": "/4O13uunA2LmNvHpr7PjTCDUmSZ1.jpg",
@@ -551650,6 +554779,45 @@
       "synopsisPreview": "When nice-guy Jeremy Martin puts on mysterious virtual reality glasses at the mall, he suddenly loses his “inside voice” and starts spouting every thought he has out loud. Making matters worse, Jeremy is running for stud..."
     },
     {
+      "id": "born-for-you-2023",
+      "tmdbId": 1030531,
+      "imdbId": "tt23708786",
+      "title": "Born for You",
+      "originalTitle": "Nata per te",
+      "originalLanguage": "it",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 108,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [
+        "down syndrome",
+        "gay parent",
+        "lgbt",
+        "lgbt parenting",
+        "gay theme"
+      ],
+      "directors": [
+        "Fabio Mollo"
+      ],
+      "cast": [
+        "Pierluigi Gigante",
+        "Teresa Saponangelo",
+        "Barbora Bobuľová",
+        "Alessandro Piavani",
+        "Antonia Truppo",
+        "Iaia Forte"
+      ],
+      "posterPath": "/2Y5bNAxlOuWr3EfvJl8ris7VURN.jpg",
+      "backdropPath": "/rOLcRuUcVCjfoHu8Y8R75pwsMpC.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 71,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "Alba has Down's Syndrome and was left in the hospital when she was born. Thirty families rejected her before the court decided to entrust her to Luca: a Catholic — and gay — single man."
+    },
+    {
       "id": "breathe-2014",
       "tmdbId": 270400,
       "imdbId": "tt3365778",
@@ -566383,6 +569551,39 @@
       "synopsisPreview": "In preparation for a shotgun wedding before the birth of Baby Guster, Shawn and Gus go rogue in an attempt to track down Selene’s estranged husband, as Lassiter grapples with the future of his career."
     },
     {
+      "id": "race-to-the-summit-2023",
+      "tmdbId": 1174725,
+      "imdbId": "tt28995566",
+      "title": "Race to the Summit",
+      "originalTitle": "Duell am Abgrund",
+      "originalLanguage": "de",
+      "year": 2023,
+      "releaseDate": "2023-10-04",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Documentary",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [],
+      "directors": [
+        "Nicholas de Taranto",
+        "Götz Werner"
+      ],
+      "cast": [
+        "Ueli Steck",
+        "Dani Arnold"
+      ],
+      "posterPath": "/tI9ybrWLiVLljLsNoqEjQF36oG4.jpg",
+      "backdropPath": "/3H8u03qr9se2pCv3QTHR1gxSa9k.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 69,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/wEzoqk5jdMs",
+      "synopsisPreview": "Fearless alpine climbers Ueli Steck and Dani Arnold enter into a death-defying rivalry to set speed records on the Swiss Alps' great north faces."
+    },
+    {
       "id": "return-1975",
       "tmdbId": 357953,
       "imdbId": "tt10054450",
@@ -570799,6 +574000,40 @@
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/9yfTEjo5n90",
       "synopsisPreview": "In 1982, André Bamberski learns about the death of his 14 year-old daughter, Kalinka, while she was on vacation with her mother and stepfather in Germany. Convinced that Kalinka’s death was not an accident, Bamberski beg..."
+    },
+    {
+      "id": "in-the-forests-of-siberia-2016",
+      "tmdbId": 395452,
+      "imdbId": "tt4643432",
+      "title": "In the Forests of Siberia",
+      "originalTitle": "Dans les forêts de Sibérie",
+      "originalLanguage": "fr",
+      "year": 2016,
+      "releaseDate": "2016-06-15",
+      "runtimeMinutes": 105,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "tags": [
+        "nature",
+        "solitude"
+      ],
+      "directors": [
+        "Safy Nebbou"
+      ],
+      "cast": [
+        "Raphaël Personnaz",
+        "Evgeniy Sidikhin"
+      ],
+      "posterPath": "/gAZhLgt9HOdTWj3bFDNPAOzo40l.jpg",
+      "backdropPath": "/hYUNtgzEqaOnzfuUCsLD0b0yyTj.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 1,
+      "criticalScore": 68,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/yvMFofZlfzc",
+      "synopsisPreview": "Fed up with the hectic, senseless world he lives in, Teddy decides to settle down alone in Siberia, in the midst of winter, in a hut by the shore of Lake Baikal. After an initial period of elation in front of the splendo..."
     },
     {
       "id": "jaane-tu-ya-jaane-na-2008",
@@ -596215,6 +599450,47 @@
       "synopsisPreview": "On Kate's 21st birthday camping trip, her friends encounter Piglet, a monstrous human-pig hybrid who brutally murders one of them. They uncover Piglet's origins and Kate must confront her past to survive the relentless k..."
     },
     {
+      "id": "pirates-down-the-street-ii-the-ninjas-from-across-2022",
+      "tmdbId": 946310,
+      "imdbId": "tt18274606",
+      "title": "Pirates Down the Street II: The Ninjas from Across",
+      "originalTitle": "De Piraten van Hiernaast II: De Ninja's van de Overkant",
+      "originalLanguage": "nl",
+      "year": 2022,
+      "releaseDate": "2022-04-20",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Family",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "friendship",
+        "ninja",
+        "pirate",
+        "neighborhood watch"
+      ],
+      "directors": [
+        "Pim van Hoeve"
+      ],
+      "cast": [
+        "Tygo Gernandt",
+        "Egbert Jan Weeber",
+        "Samuel Reurekas",
+        "Sarah Janneh",
+        "Matti Stooker",
+        "Celeste Holsheimer"
+      ],
+      "posterPath": "/uDsvma9dAwnDPVuCFi99YpWvBk0.jpg",
+      "backdropPath": "/5zMfSDaRprrT6chygNHQeHKafxl.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 64,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/wgyWDK2Gycc",
+      "synopsisPreview": "The pirates feel right at home in Sandborough, but the atmosphere cools right down when the ninjas come to live in the street. After all, pirates and ninjas are sworn enemies!  While pirate captain Hector Blunderbuss str..."
+    },
+    {
       "id": "poinsettias-for-christmas-2018",
       "tmdbId": 542602,
       "imdbId": "tt8451018",
@@ -601118,6 +604394,42 @@
       "synopsisPreview": "To save his crumbling and rapidly-depopulating rural town, its mayor fakes a gruesome murder to attract media attention. His plan initially succeeds, but soon the situation will spiral out of control."
     },
     {
+      "id": "oracle-2023",
+      "tmdbId": 787761,
+      "imdbId": "tt13515258",
+      "title": "Oracle",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-10-01",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "childhood trauma",
+        "black woman"
+      ],
+      "directors": [
+        "Daniel di Grado"
+      ],
+      "cast": [
+        "Ryan Destiny",
+        "Heather Graham",
+        "Ariel Martin",
+        "Samuel Isaiah Hunter",
+        "Nicholas Crovetti",
+        "Cameron Crovetti"
+      ],
+      "posterPath": "/laOpPREcTlDukttovlUGJ3Wmtb6.jpg",
+      "backdropPath": "/bqBY8uFoRMNRPhE39KTPIK1Dhim.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 1,
+      "criticalScore": 63,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/HQcbTI8KRQ0",
+      "synopsisPreview": "A young woman accepts a job on a property with a traumatic history. Upon her arrival, she soon realizes that the nightmares of her childhood are connected to the evil in the house."
+    },
+    {
       "id": "our-ties-2022",
       "tmdbId": 971594,
       "imdbId": "tt21372086",
@@ -601837,6 +605149,45 @@
       "criticalScore": 63,
       "plexFit": "A useful comedy title for broadening the local catalog.",
       "synopsisPreview": "To fulfill his mother’s dying wish and avoid being removed from her will, an inflexible bachelor hires an actress to play his fiancée."
+    },
+    {
+      "id": "somersault-2004",
+      "tmdbId": 16605,
+      "imdbId": "tt0381429",
+      "title": "Somersault",
+      "originalLanguage": "en",
+      "year": 2004,
+      "releaseDate": "2004-06-19",
+      "runtimeMinutes": 105,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [
+        "woman director",
+        "runaway teen",
+        "canberra",
+        "jindabyne"
+      ],
+      "directors": [
+        "Cate Shortland"
+      ],
+      "cast": [
+        "Abbie Cornish",
+        "Sam Worthington",
+        "Lynette Curran",
+        "Erik Thomson",
+        "Nathaniel Dean",
+        "Diana Glenn"
+      ],
+      "posterPath": "/hN6GnyLhamDrz2xAOqVZ4Fv6Lyo.jpg",
+      "backdropPath": "/fDt3yKI0PdSAssMbgQePT4QTOJc.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 63,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0uHT1pm3acc",
+      "synopsisPreview": "Australian teenager Heidi is left with little choice but to leave home after she's caught red-handed with her mother's boyfriend. With few options, Heidi ends up in Jindabyne, a tourist community. Upon meeting Joe at a b..."
     },
     {
       "id": "stitches-2012",
@@ -604125,6 +607476,47 @@
       "synopsisPreview": "Ahmed, 18, is French of Algerian origin. He grew up in the Parisian suburbs. On the benches of the university, he meets Farah, a young Tunisian full of energy recently arrived from Tunis. While discovering a body of sens..."
     },
     {
+      "id": "accused-2023",
+      "tmdbId": 912974,
+      "imdbId": "tt12648266",
+      "title": "Accused",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-10-05",
+      "runtimeMinutes": 88,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [
+        "mistaken identity",
+        "revenge",
+        "false accusations",
+        "home invasion",
+        "doxxing",
+        "cancel culture"
+      ],
+      "directors": [
+        "Philip Barantini"
+      ],
+      "cast": [
+        "Chaneil Kular",
+        "Lauryn Ajufo",
+        "Frances Tomelty",
+        "Nitin Ganatra",
+        "Robbie O'Neill",
+        "Nila Aalia"
+      ],
+      "posterPath": "/jiXcYP1JwPj57JljO8mOIvFqPpx.jpg",
+      "backdropPath": "/bDd8wcvenWh8Gx84DnDKJgwXmNY.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/HvWCrdDz5pE",
+      "synopsisPreview": "After a revenge obsessed society incorrectly selects its next target, a young man must survive the night as the online witch-hunt arrives at his front door."
+    },
+    {
       "id": "ai-love-you-2022",
       "tmdbId": 928769,
       "imdbId": "tt11182810",
@@ -604763,6 +608155,43 @@
       "plexFit": "A compact crime option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/AKMpdq04Q84",
       "synopsisPreview": "Tormented by a past life, garbage man Clean attempts a life of quiet redemption. But when his good intentions mark him a target of a local crime boss, Clean is forced to reconcile with the violence of his past."
+    },
+    {
+      "id": "clockwise-1986",
+      "tmdbId": 11938,
+      "imdbId": "tt0090852",
+      "title": "Clockwise",
+      "originalLanguage": "en",
+      "year": 1986,
+      "releaseDate": "1986-03-01",
+      "runtimeMinutes": 96,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "england",
+        "chaos",
+        "principal",
+        "train"
+      ],
+      "directors": [
+        "Christopher Morahan"
+      ],
+      "cast": [
+        "John Cleese",
+        "Penelope Wilton",
+        "Alison Steadman",
+        "Stephen Moore",
+        "Joan Hickson",
+        "Benjamin Whitrow"
+      ],
+      "posterPath": "/uRetBG6n8ScyIdtkJNGngTqX75c.jpg",
+      "backdropPath": "/4oxpF2O8Hpnfc0xfc2aUNApcDDr.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "School headmaster Brian Stimpson is obsessed with timeliness, order, and discipline. Brian misses his train after meticulously preparing a speech for an education conference. With no one else to turn to, he asks young fo..."
     },
     {
       "id": "d2-the-mighty-ducks-1994",
@@ -607406,6 +610835,42 @@
       "plexFit": "A useful adventure title for broadening the local catalog.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/W-4BHdC6hTs",
       "synopsisPreview": "Returning to Saint Petersburg after a long exile, the dashing Yakovlev, a retired army officer, makes a comfortable living by winning other people's duels. An enigmatic, focused, and extremely skilled professional, he le..."
+    },
+    {
+      "id": "the-execution-2022",
+      "tmdbId": 650030,
+      "imdbId": "tt13074150",
+      "title": "The Execution",
+      "originalTitle": "Казнь",
+      "originalLanguage": "ru",
+      "year": 2022,
+      "releaseDate": "2022-04-21",
+      "runtimeMinutes": 130,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "tags": [],
+      "directors": [
+        "Lado Kvataniya"
+      ],
+      "cast": [
+        "Niko Tavadze",
+        "Daniil Spivakovskiy",
+        "Yuliya Snigir",
+        "Evgeniy Tkachuk",
+        "Aglaya Tarasova",
+        "Viktoriya Tolstoganova"
+      ],
+      "posterPath": "/3kNxylSXErpu5ovkl7RgYYQ3r2g.jpg",
+      "backdropPath": "/1kHz8BDGA9mznEDImGSwk8wOrps.jpg",
+      "posterTone": "from-amber-200 via-stone-700 to-black",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A useful thriller title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/LnQmTFURyyI",
+      "synopsisPreview": "When the police finally catch an elusive serial killer, no one can prove his guilt, resulting in the lead detective making it personal."
     },
     {
       "id": "the-eyes-of-my-mother-2016",
@@ -611947,6 +615412,35 @@
       "criticalScore": 61,
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "synopsisPreview": "A thief and a priest end up magically transported in the year 0's Palestine, where they'll have to make sure that the Nativity will follow its course."
+    },
+    {
+      "id": "orgasm-inc-the-story-of-onetaste-2022",
+      "tmdbId": 1040603,
+      "imdbId": "tt22900124",
+      "title": "Orgasm Inc: The Story of OneTaste",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-05",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "cult"
+      ],
+      "directors": [
+        "Sarah Gibson",
+        "Sloane Klevin"
+      ],
+      "cast": [],
+      "posterPath": "/yqI3XQ1nmvxFpBus1BescRrRBAj.jpg",
+      "backdropPath": "/hraytJBd1Ztcp7k9So4zLFcgsyh.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 61,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/11DiQzSLfmo",
+      "synopsisPreview": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations."
     },
     {
       "id": "our-idiot-brother-2011",
@@ -618409,6 +621903,45 @@
       "synopsisPreview": "After a talent scout spots her performing with her dog Boi at a charity gala, Sharpay Evans sets off for the bright lights of NYC, convinced instant fame and fortune are in the bag. But theatre's a dog-eat-dog world. For..."
     },
     {
+      "id": "slapface-2022",
+      "tmdbId": 812320,
+      "imdbId": "tt10601552",
+      "title": "Slapface",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-21",
+      "runtimeMinutes": 86,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [
+        "monster",
+        "grieving",
+        "brothers",
+        "horror"
+      ],
+      "directors": [
+        "Jeremiah Kipp"
+      ],
+      "cast": [
+        "August Maturo",
+        "Mike Manning",
+        "Libe Barer",
+        "Mirabelle Lee",
+        "Bianca D'Ambrosio",
+        "Chiara D'Ambrosio"
+      ],
+      "posterPath": "/xFR5TrTfhjaKN2z17rP09hoQXXs.jpg",
+      "backdropPath": "/hp34FQVZrOkEGSokJYerwfv9QDN.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 1,
+      "criticalScore": 60,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/PjX2jAQPYtg",
+      "synopsisPreview": "A boy deals with the loss of his mother by creating a relationship with a dangerous monster."
+    },
+    {
       "id": "smoking-causes-coughing-2022",
       "tmdbId": 872709,
       "imdbId": "tt15471560",
@@ -619913,6 +623446,43 @@
       "plexFit": "A compact comedy option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/LfFGwbr0AKI",
       "synopsisPreview": "An uptight documentary filmmaker and his wife find their lives loosened up a bit after befriending a free-spirited younger couple."
+    },
+    {
+      "id": "13-exorcisms-2022",
+      "tmdbId": 1026563,
+      "imdbId": "tt21199996",
+      "title": "13 Exorcisms",
+      "originalTitle": "13 exorcismos",
+      "originalLanguage": "es",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 104,
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "tags": [
+        "exorcism"
+      ],
+      "directors": [
+        "Jacobo Martínez"
+      ],
+      "cast": [
+        "María Romanillos",
+        "Ruth Díaz",
+        "Urko Olazábal",
+        "Pablo Revuelta",
+        "José Sacristán",
+        "Daniela Bini"
+      ],
+      "posterPath": "/kdaEAPrT3Dq7pPjdhfTgNyMeOnK.jpg",
+      "backdropPath": "/rvFeNpYimvtEEZgkhiBfXJA5oTf.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 59,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/ucudqYg5OdQ",
+      "synopsisPreview": "After participating in a séance, young Laura begins to behave strangely. Alarmed, her parents ask Father Olmedo, one of the few exorcists authorized by the Vatican to intervene in cases of demonic possession, for help."
     },
     {
       "id": "90-minutes-in-heaven-2015",
@@ -622311,6 +625881,42 @@
       "plexFit": "A compact drama option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/JfbypuuR-JA",
       "synopsisPreview": "Dwight and his sister Jessie reach a crossroads over what to do about their little brother Thomas, a sickly child with a mysterious affliction."
+    },
+    {
+      "id": "next-exit-2022",
+      "tmdbId": 964909,
+      "imdbId": "tt19595494",
+      "title": "Next Exit",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "runtimeMinutes": 106,
+      "genres": [
+        "Science Fiction",
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Mali Elfman"
+      ],
+      "cast": [
+        "Katie Parker",
+        "Rahul Kohli",
+        "Rose McIver",
+        "Karen Gillan",
+        "Tongayi Chirisa",
+        "Diva Zappa"
+      ],
+      "posterPath": "/n1x6VMvCwvs3dLH84N7cSrpT0yt.jpg",
+      "backdropPath": "/g98etC5MpwWi8bMqO26sKWxfyVr.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 1,
+      "criticalScore": 59,
+      "plexFit": "A useful science fiction title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/6AJ7t5g9yns",
+      "synopsisPreview": "A research scientist who makes national news proving she can track people into the afterlife - Rose sees a way out and Teddy sees his chance to finally make it. These two strangers, both harboring dark secrets, race to j..."
     },
     {
       "id": "nothing-in-common-1986",
@@ -632194,6 +635800,48 @@
       "synopsisPreview": "The crew of an atomic submarine battle to save the world from global destruction."
     },
     {
+      "id": "white-hot-the-rise-and-fall-of-abercrombie-and-fitch-2022",
+      "tmdbId": 953371,
+      "imdbId": "tt19034522",
+      "title": "White Hot: The Rise & Fall of Abercrombie & Fitch",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-19",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "pop culture",
+        "exclusion",
+        "racism",
+        "fashion",
+        "male model",
+        "clothing store",
+        "discrimination",
+        "woman director"
+      ],
+      "directors": [
+        "Alison Klayman"
+      ],
+      "cast": [
+        "Benjamin O'Keefe",
+        "Bobby Blanski",
+        "Ryan Daharsh",
+        "Jennifer Sheahan",
+        "Dr. Anthony Ocampo",
+        "Sapna Maheshwari"
+      ],
+      "posterPath": "/zbA8GgIBRsVoAO1uEvS6k2rqVAV.jpg",
+      "backdropPath": "/10r0a9tfKBnegvgVfbYBsJnfkNa.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 57,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/3yperp-SFYM",
+      "synopsisPreview": "All the cool kids were wearing it. This documentary explores A&F's pop culture reign in the late '90s and early 2000s and how it thrived on exclusion."
+    },
+    {
       "id": "win-a-date-with-tad-hamilton-2004",
       "tmdbId": 13476,
       "imdbId": "tt0335559",
@@ -635247,6 +638895,44 @@
       "criticalScore": 56,
       "plexFit": "A compact adventure option for easier weeknight discovery.",
       "synopsisPreview": "Imagine if all mythical artifacts, from Jason's Golden Fleece to Cinderella's glass slippers, were real. Well, they are -- and for centuries, a secret society called the Hunters has been sworn to protect them from an evi..."
+    },
+    {
+      "id": "the-kids-are-alright-destination-asturias-2021",
+      "tmdbId": 800823,
+      "imdbId": "tt13150080",
+      "title": "The Kids Are Alright: Destination Asturias",
+      "originalTitle": "A todo tren: destino Asturias",
+      "originalLanguage": "es",
+      "year": 2021,
+      "releaseDate": "2021-07-08",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "tags": [
+        "road trip",
+        "remake"
+      ],
+      "directors": [
+        "Santiago Segura"
+      ],
+      "cast": [
+        "Santiago Segura",
+        "Leo Harlem",
+        "El Cejas",
+        "David Guapo",
+        "Alan Miranda",
+        "Eneko Otero"
+      ],
+      "posterPath": "/xxK9GyYqEN8224PxSdkOKYbLPZX.jpg",
+      "backdropPath": "/mA9PrseviOSHkM2lZja9FAUoarN.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 56,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/BUKJTtOT2TI",
+      "synopsisPreview": "When Ricardo, a responsible father, decides to personally take his son to a camp in Asturias, other parents propose that he should also take care of their children. When the train is about to leave, Felipe, a flamboyant..."
     },
     {
       "id": "the-munsters-2022",
@@ -639256,6 +642942,44 @@
       "synopsisPreview": "A pair of comic book writers begin to notice scary similarities between the character they created and horrific real-life events."
     },
     {
+      "id": "room-203-2022",
+      "tmdbId": 885121,
+      "imdbId": "tt12283036",
+      "title": "Room 203",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-04-15",
+      "runtimeMinutes": 104,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "gothic horror",
+        "haunted apartment",
+        "ticking clock",
+        "sinister deity"
+      ],
+      "directors": [
+        "Ben Jagger"
+      ],
+      "cast": [
+        "Francesca Xuereb",
+        "Viktoria Vinyarska",
+        "Scott Gremillion",
+        "Rick LaCour",
+        "Quinn Nehr",
+        "Sam A Coleman"
+      ],
+      "posterPath": "/t4M0n5kfToiU9TIf22bccSbNugG.jpg",
+      "backdropPath": "/9HRuufyaDwTajlFpMKgki9cr2wQ.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 1,
+      "criticalScore": 54,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/1HZF7PEQQ3Q",
+      "synopsisPreview": "Two female roommates were tormented by the vengeful spirits dwelling in their gothic-style, rented apartment, which contains an ornate centerpiece."
+    },
+    {
       "id": "rumspringa-2022",
       "tmdbId": 956862,
       "imdbId": "tt19352286",
@@ -640933,6 +644657,39 @@
       "synopsisPreview": "Leslie Konda young talented French footballer spotted in his teens by Didier , a small-scale agent who was able to take under his wing , has signed its first contract striker in a large Spanish club . At the same time, h..."
     },
     {
+      "id": "les-segpa-2022",
+      "tmdbId": 922705,
+      "imdbId": "tt19733052",
+      "title": "Les SEGPA",
+      "originalLanguage": "fr",
+      "year": 2022,
+      "releaseDate": "2022-04-20",
+      "runtimeMinutes": 99,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Hakim Bougheraba",
+        "Ali Bougheraba"
+      ],
+      "cast": [
+        "Ichem Bougheraba",
+        "Walid Ben Amar",
+        "Arriles Amrani",
+        "Abd-el-Kader Biskri",
+        "Charles Nyobe",
+        "Lahcène Amari"
+      ],
+      "posterPath": "/60EgLsQZTxBdRVjIRSh6bJZrSyu.jpg",
+      "backdropPath": "/591TFio8Zr9Vg62PWZUxudqX8Ak.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 53,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "SEGPAs are fired from their establishment. To their surprise, they joined the prestigious Franklin D. Roosevelt. The Principal, reluctant to see his school's reputation deteriorate, imagines a ploy to fire SEGPA while re..."
+    },
+    {
       "id": "lion-london-zoological-gardens-1896",
       "tmdbId": 152458,
       "imdbId": "tt0256884",
@@ -640999,6 +644756,40 @@
       "plexFit": "A compact thriller option for easier weeknight discovery.",
       "trailerUrl": "https://www.youtube-nocookie.com/embed/ruaL2lpaTdw",
       "synopsisPreview": "Amber Vickers is ecstatic that she will finally be making the walk down the aisle with her prince charming Luke. After multiple failed relationships, she was beginning to think that something was wrong; but her soon-to-b..."
+    },
+    {
+      "id": "ogre-2022",
+      "tmdbId": 746339,
+      "imdbId": "tt13845758",
+      "title": "Ogre",
+      "originalLanguage": "fr",
+      "year": 2022,
+      "releaseDate": "2022-04-20",
+      "runtimeMinutes": 103,
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Drama"
+      ],
+      "tags": [],
+      "directors": [
+        "Arnaud Malherbe"
+      ],
+      "cast": [
+        "Ana Girardot",
+        "Samuel Jouy",
+        "Giovanni Pucci",
+        "Fabien Houssaye",
+        "Albertine Rivière",
+        "Félix Malherbe"
+      ],
+      "posterPath": "/3QxtIzY8vRI4FV2hHUNrN9JifYf.jpg",
+      "backdropPath": "/2fsFNfhso8G8dIgrCkS4wxlueGr.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 1,
+      "criticalScore": 53,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "synopsisPreview": "Six-year-old Jules and his mother Chloé land in deserted French countryside. To start a new life, far from a painful past, she has accepted to take over the village school. But the apparently quiet community is consumed..."
     },
     {
       "id": "oldies-but-goodies-2024",
@@ -641689,6 +645480,39 @@
       "criticalScore": 53,
       "plexFit": "A useful drama title for broadening the local catalog.",
       "synopsisPreview": "A group of friends gathers for a birthday by the sea, only to face the looming possibility of the world ending within hours, transforming one fleeting, endless night into a life-altering experience."
+    },
+    {
+      "id": "the-sex-of-angels-2022",
+      "tmdbId": 828586,
+      "imdbId": "tt10964096",
+      "title": "The Sex of Angels",
+      "originalTitle": "Il sesso degli angeli",
+      "originalLanguage": "it",
+      "year": 2022,
+      "releaseDate": "2022-04-21",
+      "runtimeMinutes": 91,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Leonardo Pieraccioni"
+      ],
+      "cast": [
+        "Leonardo Pieraccioni",
+        "Sabrina Ferilli",
+        "Marcello Fonte",
+        "Gabriela Giovanardi",
+        "Maitè Yanes",
+        "Eva Moore"
+      ],
+      "posterPath": "/cT8rkO8y9Jysbgl1hnuSs1BaAFk.jpg",
+      "backdropPath": "/duhgMg62Z7idr0Sqln1He2KcpPU.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 53,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "A street priest struggling to save his church learns his late uncle left him a small business that could turn his fortune around: he'll soon realize that said business is in fact... a brothel!"
     },
     {
       "id": "the-visitor-2022",
@@ -646222,6 +650046,39 @@
       "criticalScore": 49,
       "plexFit": "A useful crime title for broadening the local catalog.",
       "synopsisPreview": "October 2015. French customs seize seven tonnes of cannabis in the heart of the capital. The same day, Hubert Antoine, a former mole with a shady past, contacts Stéphane Vilner, a journalist at Libération. He claims to..."
+    },
+    {
+      "id": "wilderness-therapy-2022",
+      "tmdbId": 442617,
+      "imdbId": "tt14877816",
+      "title": "Wilderness Therapy",
+      "originalTitle": "Petaouchnok",
+      "originalLanguage": "fr",
+      "year": 2022,
+      "releaseDate": "2022-11-09",
+      "runtimeMinutes": 97,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Édouard Deluc"
+      ],
+      "cast": [
+        "Pio Marmaï",
+        "Philippe Rebbot",
+        "Camille Chamoux",
+        "Pablo Pauly",
+        "Olivia Côte",
+        "Moussa Mansaly"
+      ],
+      "posterPath": "/7YcjQ2YVyg9m5P9lYIPLXDVZ3FN.jpg",
+      "backdropPath": "/efekNjcxYvbA2gXTyQrbc4Q6mMM.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 49,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "Deep in the Pyrenees, two close friends at rock bottom have the idea of the century: to pull themselves of their misery, they will launch a horse trekking tour, a voyage through the mountains for tourists in search of na..."
     },
     {
       "id": "bagarre-2026",
