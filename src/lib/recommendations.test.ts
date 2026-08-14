@@ -2,6 +2,7 @@ import { describe, expect, test } from "vitest";
 import generatedMovies from "@/data/generated/movies.json";
 import { filterAdultMovies } from "@/lib/adultMovies";
 import { buildTasteProfile, getRecommendations } from "@/lib/recommendations";
+import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
 import type { Movie, MovieStateMap, Rating } from "@/types";
 
 const realCatalog: Movie[] = generatedMovies;
@@ -228,6 +229,23 @@ describe("movie recommendations", () => {
     expect(recommendations.findIndex((recommendation) => recommendation.movie.id === "thriller-candidate")).toBeLessThan(
       recommendations.findIndex((recommendation) => recommendation.movie.id === "kids-candidate"),
     );
+  });
+
+  test("blends MovieLens neighbors into otherwise equivalent recommendations", () => {
+    const catalog = [
+      createMovie({ id: "rated-source", genres: ["Drama"], tags: ["character study"] }),
+      createMovie({ id: "collaborative-pick", genres: ["Drama"], tags: ["character study"] }),
+      createMovie({ id: "content-only-pick", genres: ["Drama"], tags: ["character study"] }),
+    ];
+    const states = createStates([["rated-source", 5]]);
+    const collaborativeModel: CollaborativeModel = new Map([
+      ["rated-source", [{ movieId: "collaborative-pick", similarity: 0.8, support: 24 }]],
+    ]);
+
+    const recommendations = getRecommendations(catalog, states, {}, collaborativeModel);
+
+    expect(recommendations[0].movie.id).toBe("collaborative-pick");
+    expect(recommendations[0].reasons[0]).toContain("viewers who also liked rated-source");
   });
 
 });

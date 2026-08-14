@@ -1,5 +1,6 @@
 import type { Movie, MovieStateMap, Recommendation, TasteProfile } from "@/types";
 import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
+import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
 
 type WeightedMap = Map<string, WeightedSignal>;
 type WeightedSignal = {
@@ -24,6 +25,13 @@ type TasteModel = {
   castWeights: WeightedMap;
   likedMovies: Movie[];
   watchlistedMovieIds: Set<string>;
+  personalBaseline: number;
+  featureRarity: {
+    genres: Map<string, number>;
+    tags: Map<string, number>;
+    directors: Map<string, number>;
+    cast: Map<string, number>;
+  };
 };
 
 type RecommendationCandidate = Recommendation & {
@@ -52,9 +60,10 @@ export function buildTasteSnapshot(
   movies: Movie[],
   states: MovieStateMap,
   recommendationOptions: RecommendationOptions = {},
+  collaborativeModel?: CollaborativeModel,
 ): TasteSnapshot {
   const tasteModel = buildTasteModel(movies, states);
-  const selectRecommendations = createRecommendationSelectorForTasteModel(movies, states, tasteModel);
+  const selectRecommendations = createRecommendationSelectorForTasteModel(movies, states, tasteModel, collaborativeModel);
 
   return {
     profile: tasteModel.profile,
@@ -133,28 +142,45 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
     castWeights,
     likedMovies,
     watchlistedMovieIds,
+    personalBaseline,
+    featureRarity: {
+      genres: buildFeatureRarity(movies, (movie) => movie.genres),
+      tags: buildFeatureRarity(movies, (movie) => movie.tags),
+      directors: buildFeatureRarity(movies, (movie) => movie.directors),
+      cast: buildFeatureRarity(movies, (movie) => movie.cast),
+    },
   };
 }
 
-export function getRecommendations(movies: Movie[], states: MovieStateMap, options: RecommendationOptions = {}): Recommendation[] {
-  return createRecommendationSelector(movies, states)(options);
+export function getRecommendations(
+  movies: Movie[],
+  states: MovieStateMap,
+  options: RecommendationOptions = {},
+  collaborativeModel?: CollaborativeModel,
+): Recommendation[] {
+  return createRecommendationSelector(movies, states, collaborativeModel)(options);
 }
 
-export function createRecommendationSelector(movies: Movie[], states: MovieStateMap): RecommendationSelector {
+export function createRecommendationSelector(
+  movies: Movie[],
+  states: MovieStateMap,
+  collaborativeModel?: CollaborativeModel,
+): RecommendationSelector {
   const tasteModel = buildTasteModel(movies, states);
 
-  return createRecommendationSelectorForTasteModel(movies, states, tasteModel);
+  return createRecommendationSelectorForTasteModel(movies, states, tasteModel, collaborativeModel);
 }
 
 function createRecommendationSelectorForTasteModel(
   movies: Movie[],
   states: MovieStateMap,
   tasteModel: TasteModel,
+  collaborativeModel?: CollaborativeModel,
 ): RecommendationSelector {
   const candidateCache = new Map<string, RecommendationCandidate>();
 
   return (options: RecommendationOptions = {}) =>
-    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options);
+    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options, collaborativeModel);
 }
 
 function getRecommendationsForTasteModel(
@@ -163,6 +189,7 @@ function getRecommendationsForTasteModel(
   tasteModel: TasteModel,
   candidateCache: Map<string, RecommendationCandidate>,
   options: RecommendationOptions,
+  collaborativeModel?: CollaborativeModel,
 ) {
   const candidates = movies
     .flatMap((movie) => {
@@ -178,7 +205,7 @@ function getRecommendationsForTasteModel(
         return [];
       }
 
-      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, tasteModel);
+      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, states, tasteModel, collaborativeModel);
       candidateCache.set(movie.id, scored);
       return [scored];
     })
@@ -188,13 +215,18 @@ function getRecommendationsForTasteModel(
   return diversifyRecommendations(candidates, MAX_RECOMMENDATIONS).map(toRecommendation);
 }
 
-function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandidate {
+function scoreMovie(
+  movie: Movie,
+  states: MovieStateMap,
+  tasteModel: TasteModel,
+  collaborativeModel?: CollaborativeModel,
+): RecommendationCandidate {
   const { likedMovies, profile } = tasteModel;
   let score = getQualityScore(movie) * 0.2 + getPopularityScore(movie.popularity) * 0.07;
   const reasons: string[] = [];
   const penalties: string[] = [];
 
-  const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights);
+  const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights, tasteModel.featureRarity.genres);
   if (genreScore > 0) {
     score += genreScore * 18;
     reasons.push(`leans into your ${bestWeightedMatch(movie.genres, tasteModel.genreWeights)} streak`);
@@ -203,7 +235,7 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     penalties.push(bestWeightedMatch(movie.genres, tasteModel.genreWeights, "negative"));
   }
 
-  const tagScore = sumMapMatches(movie.tags, tasteModel.tagWeights);
+  const tagScore = sumMapMatches(movie.tags, tasteModel.tagWeights, tasteModel.featureRarity.tags);
   if (tagScore > 0) {
     score += tagScore * 13;
     const matchedTags = topMatchingValues(movie.tags, tasteModel.tagWeights, 2);
@@ -213,7 +245,9 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
     penalties.push(...topMatchingValues(movie.tags, tasteModel.tagWeights, 2, "negative"));
   }
 
-  const creatorScore = sumMapMatches(movie.directors, tasteModel.directorWeights) + sumMapMatches(movie.cast, tasteModel.castWeights);
+  const creatorScore =
+    sumMapMatches(movie.directors, tasteModel.directorWeights, tasteModel.featureRarity.directors) +
+    sumMapMatches(movie.cast, tasteModel.castWeights, tasteModel.featureRarity.cast);
   if (creatorScore > 0) {
     score += creatorScore * 9;
     const matchedCreators = [...topMatchingValues(movie.directors, tasteModel.directorWeights, 1), ...topMatchingValues(movie.cast, tasteModel.castWeights, 1)];
@@ -233,6 +267,14 @@ function scoreMovie(movie: Movie, tasteModel: TasteModel): RecommendationCandida
   if (relatedCreators.length > 0 && genreScore + tagScore > 0) {
     score += Math.min(18, relatedCreators.length * 6);
     reasons.push(`shares creative DNA with ${relatedCreators[0].title}`);
+  }
+
+  const collaborativeSignal = getCollaborativeSignal(movie.id, states, tasteModel, collaborativeModel);
+  if (collaborativeSignal.score !== 0) {
+    score += collaborativeSignal.score * 24;
+    if (collaborativeSignal.score > 0 && collaborativeSignal.sourceMovieTitle) {
+      reasons.unshift(`connects with viewers who also liked ${collaborativeSignal.sourceMovieTitle}`);
+    }
   }
 
   if (movie.runtimeMinutes <= 115) {
@@ -346,11 +388,11 @@ function topWeights(weights: WeightedMap, count: number) {
   return items.slice(0, count);
 }
 
-function sumMapMatches(values: string[], weights: WeightedMap) {
+function sumMapMatches(values: string[], weights: WeightedMap, rarity: Map<string, number>) {
   const strongest: number[] = [];
 
   for (const value of values) {
-    const weight = signalStrength(weights.get(value));
+    const weight = signalStrength(weights.get(value)) * (rarity.get(value) ?? 1);
     insertRanked(strongest, weight, MAX_FEATURE_MATCHES, (candidate, current) => Math.abs(candidate) > Math.abs(current));
   }
 
@@ -360,6 +402,70 @@ function sumMapMatches(values: string[], weights: WeightedMap) {
   }
 
   return total;
+}
+
+function buildFeatureRarity(movies: Movie[], selectValues: (movie: Movie) => string[]) {
+  const documentFrequency = new Map<string, number>();
+  for (const movie of movies) {
+    for (const value of new Set(selectValues(movie))) {
+      documentFrequency.set(value, (documentFrequency.get(value) ?? 0) + 1);
+    }
+  }
+
+  const normalizer = Math.log(movies.length + 1) || 1;
+  return new Map(
+    [...documentFrequency.entries()].map(([value, count]) => [
+      value,
+      1 + Math.log((movies.length + 1) / (count + 1)) / normalizer,
+    ]),
+  );
+}
+
+function getCollaborativeSignal(
+  candidateMovieId: string,
+  states: MovieStateMap,
+  tasteModel: TasteModel,
+  collaborativeModel?: CollaborativeModel,
+) {
+  if (!collaborativeModel) {
+    return { score: 0, sourceMovieTitle: undefined };
+  }
+
+  let numerator = 0;
+  let denominator = 0;
+  let strongestPositiveSignal = 0;
+  let sourceMovieTitle: string | undefined;
+  const likedMoviesById = new Map(tasteModel.likedMovies.map((movie) => [movie.id, movie.title]));
+
+  for (const [sourceMovieId, state] of Object.entries(states)) {
+    if (state.rating === null) {
+      continue;
+    }
+
+    const neighbor = collaborativeModel.get(sourceMovieId)?.find((item) => item.movieId === candidateMovieId);
+    if (!neighbor) {
+      continue;
+    }
+
+    const signal = neighbor.similarity * (state.rating - tasteModel.personalBaseline);
+    numerator += signal;
+    denominator += Math.abs(neighbor.similarity);
+
+    if (signal > strongestPositiveSignal) {
+      strongestPositiveSignal = signal;
+      sourceMovieTitle = likedMoviesById.get(sourceMovieId);
+    }
+  }
+
+  if (denominator === 0) {
+    return { score: 0, sourceMovieTitle: undefined };
+  }
+
+  const confidence = Math.min(1, denominator * 2.5);
+  return {
+    score: Math.max(-1, Math.min(1, numerator / denominator / 2)) * confidence,
+    sourceMovieTitle,
+  };
 }
 
 function topMatchingValues(values: string[], weights: WeightedMap, count: number, direction: "positive" | "negative" = "positive") {

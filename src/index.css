@@ -1718,6 +1718,14 @@ input:focus-visible {
   height: auto;
 }
 
+.settings-rail-card--source p a {
+  color: var(--brand-orange);
+  font-weight: 750;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
 .settings-rail-card--warning {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);

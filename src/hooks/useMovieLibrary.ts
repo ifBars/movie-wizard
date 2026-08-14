@@ -1,7 +1,12 @@
 import { useCallback, useMemo, useState } from "react";
-import { useMountEffect } from "@/hooks/useExternalSyncEffect";
+import { useExternalSyncEffect, useMountEffect } from "@/hooks/useExternalSyncEffect";
 import { filterCatalogMovies } from "@/lib/catalogFilters";
-import { getCatalogSummary, loadInitialMovieCatalog } from "@/lib/catalogRepository";
+import { getCatalogSummary, loadInitialMovieCatalog, loadMoviesByIds } from "@/lib/catalogRepository";
+import {
+  getCollaborativeMovieIds,
+  loadCollaborativeModel,
+} from "@/lib/collaborativeRecommendations";
+import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
 import { buildTasteSnapshot } from "@/lib/recommendations";
 import {
   exportMovieState,
@@ -45,6 +50,7 @@ export function useMovieLibrary(initialMovieId?: string) {
   const [catalogError, setCatalogError] = useState<string | null>(null);
   const [states, setStates] = useState<MovieStateMap>(() => loadMovieState());
   const [settings, setSettings] = useState<LibrarySettings>(() => loadLibrarySettings());
+  const [collaborativeModel, setCollaborativeModel] = useState<CollaborativeModel>();
 
   useMountEffect(() => {
     let isMounted = true;
@@ -64,10 +70,46 @@ export function useMovieLibrary(initialMovieId?: string) {
         }
       });
 
+    loadCollaborativeModel()
+      .then((model) => {
+        if (isMounted) {
+          setCollaborativeModel(model);
+        }
+      })
+      .catch(() => {
+        // The content-based model remains a complete offline fallback.
+      });
+
     return () => {
       isMounted = false;
     };
   });
+
+  useExternalSyncEffect(() => {
+    if (!collaborativeModel) {
+      return;
+    }
+
+    let isCurrent = true;
+    const neighborMovieIds = getCollaborativeMovieIds(collaborativeModel, states);
+    if (neighborMovieIds.length === 0) {
+      return;
+    }
+
+    loadMoviesByIds(neighborMovieIds)
+      .then((neighborMovies) => {
+        if (isCurrent) {
+          setMovies((currentMovies) => mergeNewMovies(currentMovies, neighborMovies));
+        }
+      })
+      .catch(() => {
+        // Recommendation neighbors are opportunistic; the bootstrap catalog remains usable.
+      });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, [collaborativeModel, states]);
 
   const visibleMovies = useMemo(() => filterCatalogMovies(movies, settings), [movies, settings]);
   const catalogSummary = useMemo(() => getCatalogSummary(settings), [settings]);
@@ -76,8 +118,8 @@ export function useMovieLibrary(initialMovieId?: string) {
     () =>
       buildTasteSnapshot(visibleMovies, states, {
         minimumMovieYear: settings.minimumRecommendationYear,
-      }),
-    [settings.minimumRecommendationYear, states, visibleMovies],
+      }, collaborativeModel),
+    [collaborativeModel, settings.minimumRecommendationYear, states, visibleMovies],
   );
   const { profile, recommendations, selectRecommendations } = tasteSnapshot;
 
@@ -294,3 +336,10 @@ export function useMovieLibrary(initialMovieId?: string) {
 }
 
 export type MovieLibrary = ReturnType<typeof useMovieLibrary>;
+
+function mergeNewMovies(currentMovies: Movie[], additionalMovies: Movie[]) {
+  const knownMovieIds = new Set(currentMovies.map((movie) => movie.id));
+  const newMovies = additionalMovies.filter((movie) => !knownMovieIds.has(movie.id));
+
+  return newMovies.length > 0 ? [...currentMovies, ...newMovies] : currentMovies;
+}

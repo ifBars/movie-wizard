@@ -9,6 +9,7 @@
     "data:enrich": "bun run scripts/movie-data/enrich-static-catalog.ts && bun run data:payloads",
     "data:languages": "bun run scripts/movie-data/backfill-catalog-languages.ts && bun run data:payloads",
     "data:metadata:local": "bun run scripts/movie-data/backfill-local-metadata.ts",
+    "data:movielens": "bun run scripts/movie-data/build-movielens-neighbors.ts",
     "data:payloads": "bun run scripts/movie-data/build-catalog-payloads.ts",
     "data:seed": "bun run scripts/movie-data/enrich-static-catalog.ts --seed-only && bun run data:payloads",
     "lint": "eslint .",

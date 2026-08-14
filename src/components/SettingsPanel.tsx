@@ -428,6 +428,13 @@ export function SettingsPanel({
               <img src={tmdbLogoUrl} alt="The Movie Database (TMDB)" />
             </a>
             <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+            <p>
+              Recommendation similarities use the non-commercial{" "}
+              <a href="https://grouplens.org/datasets/movielens/" target="_blank" rel="noreferrer">
+                MovieLens latest-small dataset
+              </a>
+              . Your ratings stay on this device.
+            </p>
           </motion.section>
 
           <motion.section className="settings-rail-card settings-rail-card--warning" layout {...fadeSlide(shouldReduceMotion, 20)}>

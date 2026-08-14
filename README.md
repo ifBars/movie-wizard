@@ -19,6 +19,8 @@ There is no account system, no backend, and no hosted database. Your ratings, wa
 
 Movie Wizard uses TMDB for public movie metadata, images, credits, trailers, and vote data. The generated catalog is bundled with the app at build time, so visitors do not need an API key.
 
+Recommendations also use a derived item-to-item similarity model built from the non-commercial [MovieLens latest-small dataset](https://grouplens.org/datasets/movielens/). The original MovieLens license and citation requirements are preserved beside the generated model in `src/data/generated/movielens-README.txt`. Ratings remain in the visitor's browser and are never added to the shared dataset.
+
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 IMDb IDs are used only for outbound IMDb links. Movie Wizard does not bundle OMDb data.
@@ -59,6 +61,12 @@ Build the static catalog payloads:
 
 ```bash
 bun run data:payloads
+```
+
+Rebuild the collaborative recommendation model from an extracted MovieLens latest-small download:
+
+```bash
+bun run data:movielens -- --dataset=path/to/ml-latest-small
 ```
 
 Refresh the catalog from TMDB with a local `.env.local` file:
