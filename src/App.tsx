@@ -18,20 +18,22 @@ function App() {
   const { activeView, isKnownRoute, locationKey, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
   const { themeMode, setThemeMode, toggleTheme } = useThemeMode();
-  const library = useMovieLibrary();
-  const selectedMovie = useMemo(
-    () => library.visibleMovies.find((movie) => movie.id === selectedMovieId),
-    [library.visibleMovies, selectedMovieId],
-  );
-
+  const library = useMovieLibrary(selectedMovieId ?? undefined);
+  const { includeMovie } = library;
   const catalogData = useCatalogViewData(library, deferredSearch);
+  const selectedMovie = useMemo(
+    () =>
+      library.visibleMovies.find((movie) => movie.id === selectedMovieId) ??
+      catalogData.filteredCatalog.find((movie) => movie.id === selectedMovieId),
+    [catalogData.filteredCatalog, library.visibleMovies, selectedMovieId],
+  );
 
   const handleSearchChange = useCallback(
     (nextSearch: string) => {
+      const normalizedSearch = nextSearch.trim();
       setSearchParams(
         (currentParams) => {
           const nextParams = new URLSearchParams(currentParams);
-          const normalizedSearch = nextSearch.trim();
 
           if (normalizedSearch) {
             nextParams.set("q", nextSearch);
@@ -48,10 +50,21 @@ function App() {
     [setSearchParams],
   );
 
+  const handleOpenMovie = useCallback(
+    (movieId: string) => {
+      const searchMovie = catalogData.filteredCatalog.find((movie) => movie.id === movieId);
+      if (searchMovie) {
+        includeMovie(searchMovie);
+      }
+      openMovie(movieId);
+    },
+    [catalogData.filteredCatalog, includeMovie, openMovie],
+  );
+
   const averageRatingLabel = library.profile.averageRating > 0 ? library.profile.averageRating.toFixed(1) : "0.0";
-  const isResolvingDetail = Boolean(selectedMovieId && library.isCatalogLoading);
+  const isResolvingDetail = Boolean(selectedMovieId && !selectedMovie && library.isCatalogLoading);
   const isDetailView = Boolean(selectedMovie) || isResolvingDetail;
-  const isInitialCatalogLoading = library.isCatalogLoading && activeView !== "settings" && !selectedMovie && !isResolvingDetail;
+  const isInitialCatalogLoading = library.visibleMovies.length === 0 && activeView !== "settings" && !selectedMovie && !isResolvingDetail;
 
   usePageScrollRestoration(locationKey);
   useRoutePreloading({
@@ -79,7 +92,7 @@ function App() {
         profile={library.profile}
         historyCount={library.historyMovies.length}
         watchlistCount={library.watchlistMovies.length}
-        catalogCount={library.visibleMovies.length}
+        catalogCount={library.catalogMovieCount}
         onSearchChange={handleSearchChange}
         onToggleTheme={toggleTheme}
       />
@@ -92,7 +105,7 @@ function App() {
         isResolvingDetail={isResolvingDetail}
         library={library}
         onCloseMovie={closeMovie}
-        onOpenMovie={openMovie}
+        onOpenMovie={handleOpenMovie}
         search={deferredSearch}
         selectedMovie={selectedMovie}
         themeMode={themeMode}

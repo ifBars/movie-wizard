@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import { preloadMovieDetails } from "@/lib/catalogRepository";
 
 export const LazyMovieDetailsPage = lazy(() =>
   import("@/pages/MovieDetailsPage").then((module) => ({
@@ -12,8 +13,11 @@ export const LazySettingsPanel = lazy(() =>
   })),
 );
 
-export function preloadMovieDetailsPage() {
+export function preloadMovieDetailsPage(movieId?: string) {
   void import("@/pages/MovieDetailsPage");
+  if (movieId) {
+    preloadMovieDetails(movieId);
+  }
 }
 
 export function preloadSettingsPanel() {

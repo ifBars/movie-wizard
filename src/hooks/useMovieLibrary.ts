@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from "react";
 import { useMountEffect } from "@/hooks/useExternalSyncEffect";
-import { filterCatalogMovies, getCatalogFilterCounts } from "@/lib/catalogFilters";
-import { loadMovieCatalog } from "@/lib/catalogRepository";
+import { filterCatalogMovies } from "@/lib/catalogFilters";
+import { getCatalogSummary, loadInitialMovieCatalog } from "@/lib/catalogRepository";
 import { buildTasteSnapshot } from "@/lib/recommendations";
 import {
   exportMovieState,
@@ -13,8 +13,6 @@ import {
 } from "@/lib/storage";
 import type { LibrarySettings } from "@/types";
 import type { Movie, MovieStateMap, Rating, UserMovieState } from "@/types";
-
-const moviesPromise = loadMovieCatalog();
 
 function createDefaultState(movieId: string): UserMovieState {
   return {
@@ -41,7 +39,7 @@ function updateMovieState(
   return next;
 }
 
-export function useMovieLibrary() {
+export function useMovieLibrary(initialMovieId?: string) {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [isCatalogLoading, setIsCatalogLoading] = useState(true);
   const [catalogError, setCatalogError] = useState<string | null>(null);
@@ -50,8 +48,9 @@ export function useMovieLibrary() {
 
   useMountEffect(() => {
     let isMounted = true;
+    const initialMovieIds = initialMovieId ? [...Object.keys(states), initialMovieId] : Object.keys(states);
 
-    moviesPromise
+    loadInitialMovieCatalog(initialMovieIds)
       .then((loadedMovies) => {
         if (isMounted) {
           setMovies(loadedMovies);
@@ -71,7 +70,7 @@ export function useMovieLibrary() {
   });
 
   const visibleMovies = useMemo(() => filterCatalogMovies(movies, settings), [movies, settings]);
-  const filterCounts = useMemo(() => getCatalogFilterCounts(movies, settings), [movies, settings]);
+  const catalogSummary = useMemo(() => getCatalogSummary(settings), [settings]);
 
   const tasteSnapshot = useMemo(
     () =>
@@ -80,7 +79,7 @@ export function useMovieLibrary() {
       }),
     [settings.minimumRecommendationYear, states, visibleMovies],
   );
-  const { profile, recommendations } = tasteSnapshot;
+  const { profile, recommendations, selectRecommendations } = tasteSnapshot;
 
   const ratedMovies = useMemo(
     () =>
@@ -211,6 +210,10 @@ export function useMovieLibrary() {
     [settings, updateSettings],
   );
 
+  const includeMovie = useCallback((movie: Movie) => {
+    setMovies((currentMovies) => (currentMovies.some((currentMovie) => currentMovie.id === movie.id) ? currentMovies : [...currentMovies, movie]));
+  }, []);
+
   const exportLibrary = useCallback(() => exportMovieState(states, settings), [settings, states]);
 
   const importLibrary = useCallback((rawJson: string) => {
@@ -236,10 +239,13 @@ export function useMovieLibrary() {
       catalogError,
       states,
       settings,
-      hiddenAdultMovieCount: filterCounts.hiddenAdultMovieCount,
-      hiddenLanguageMovieCount: filterCounts.hiddenLanguageMovieCount,
+      catalogMovieCount: catalogSummary.visibleMovieCount,
+      totalCatalogMovieCount: catalogSummary.totalMovieCount,
+      hiddenAdultMovieCount: catalogSummary.hiddenAdultMovieCount,
+      hiddenLanguageMovieCount: catalogSummary.hiddenLanguageMovieCount,
       profile,
       recommendations,
+      selectRecommendations,
       historyMovies,
       ratedMovies,
       watchlistMovies,
@@ -253,13 +259,17 @@ export function useMovieLibrary() {
       setShowAdultMovies,
       exportLibrary,
       importLibrary,
+      includeMovie,
     }),
     [
       catalogError,
       exportLibrary,
       importLibrary,
-      filterCounts.hiddenAdultMovieCount,
-      filterCounts.hiddenLanguageMovieCount,
+      includeMovie,
+      catalogSummary.hiddenAdultMovieCount,
+      catalogSummary.hiddenLanguageMovieCount,
+      catalogSummary.totalMovieCount,
+      catalogSummary.visibleMovieCount,
       isCatalogLoading,
       movies,
       profile,
@@ -267,6 +277,7 @@ export function useMovieLibrary() {
       rateMovie,
       ratedMovies,
       recommendations,
+      selectRecommendations,
       resetLibrary,
       setLanguageCodes,
       setMinimumRecommendationYear,

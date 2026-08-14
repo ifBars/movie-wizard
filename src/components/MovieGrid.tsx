@@ -15,7 +15,7 @@ type MovieGridProps = {
   animateCardsOnMount?: boolean;
   enableLayoutAnimation?: boolean;
   onOpenMovie: (movieId: string) => void;
-  onMovieIntent?: () => void;
+  onMovieIntent?: (movieId: string) => void;
   headerAction?: ReactNode;
 };
 

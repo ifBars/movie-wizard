@@ -19,9 +19,12 @@ type CatalogViewProps = {
   search: string;
   discoverSections: DiscoverSection[];
   filteredCatalog: Movie[];
+  isSearchLoading: boolean;
+  searchResultTotal: number;
   library: MovieLibrary;
+  onLoadMoreSearch: () => void;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
 };
 
 export function CatalogView({
@@ -29,7 +32,10 @@ export function CatalogView({
   search,
   discoverSections,
   filteredCatalog,
+  isSearchLoading,
+  searchResultTotal,
   library,
+  onLoadMoreSearch,
   onOpenMovie,
   onPreloadMovieDetails,
 }: CatalogViewProps) {
@@ -46,20 +52,26 @@ export function CatalogView({
               <SearchResults
                 key={trimmedSearch}
                 filteredCatalog={filteredCatalog}
+                isLoading={isSearchLoading}
                 layout={searchLayout}
                 library={library}
+                onLoadMore={onLoadMoreSearch}
                 onLayoutChange={setSearchLayout}
                 onOpenMovie={onOpenMovie}
                 onPreloadMovieDetails={onPreloadMovieDetails}
+                totalResults={searchResultTotal}
               />
             ) : activeView === "discover" ? (
               <DiscoverPage
                 search={trimmedSearch}
                 filteredCatalog={filteredCatalog}
                 discoverSections={discoverSections}
+                isSearchLoading={isSearchLoading}
                 library={library}
+                onLoadMoreSearch={onLoadMoreSearch}
                 onOpenMovie={onOpenMovie}
                 onPreloadMovieDetails={onPreloadMovieDetails}
+                searchResultTotal={searchResultTotal}
               />
             ) : activeView === "history" ? (
               <HistoryMovies
@@ -92,7 +104,7 @@ function WatchlistMovies({
   movies: Movie[];
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
 }) {
   const [layout, setLayout] = useState<CatalogLayout>("grid");
   const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="Watchlist layout" />;
@@ -122,7 +134,7 @@ function HistoryMovies({
   movies: Movie[];
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
 }) {
   const [layout, setLayout] = useState<CatalogLayout>("grid");
   const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="History layout" />;

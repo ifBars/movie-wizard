@@ -59,6 +59,21 @@ export type CatalogManifestPayload = {
   movieCount: number;
   indexFields: Array<keyof CatalogIndexMovie>;
   detailFields: Array<keyof MovieDetails>;
+  adultMovieCount: number;
+  languageCounts: Record<string, { total: number; adult: number }>;
+};
+
+export type CatalogSearchEntry = [
+  id: string,
+  searchableText: string,
+  originalLanguage: string,
+  isAdult: 0 | 1,
+];
+
+export type CatalogSearchPayload = {
+  version: 1;
+  generatedAt: string;
+  movies: CatalogSearchEntry[];
 };
 
 export type UserMovieState = {

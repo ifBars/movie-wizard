@@ -125,7 +125,7 @@ function getWeightedSearchFields(movie: Movie): WeightedText[] {
   ];
 }
 
-function getSearchableMovieText(movie: Movie): string {
+export function getSearchableMovieText(movie: Movie, includeSynopsis = true): string {
   return normalizeSearchText(
     [
       movie.title,
@@ -135,14 +135,14 @@ function getSearchableMovieText(movie: Movie): string {
       ...movie.tags,
       ...movie.directors,
       ...movie.cast,
-      movie.synopsis,
+      includeSynopsis ? movie.synopsis : undefined,
     ]
       .filter((value) => value)
       .join(" "),
   );
 }
 
-function normalizeSearchText(value: string): string {
+export function normalizeSearchText(value: string): string {
   return value
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")

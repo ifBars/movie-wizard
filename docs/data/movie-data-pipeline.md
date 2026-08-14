@@ -2,6 +2,19 @@
 
 Movie Wizard should stay browser-only. Movie metadata is generated ahead of time by local Bun scripts, then the app reads static JSON from `src/data/generated`.
 
+The runtime payloads are split by loading priority:
+
+- `catalog-bootstrap.json` contains a compact high-signal shelf for the first useful paint.
+- `catalog-index-shards/*.json` merges locally saved/rated movies into that first personalized catalog.
+- `catalog-search.json` is a compact lazy search corpus parsed and queried in a Web Worker.
+- `catalog-index.json` remains the complete validation/export index.
+- `movie-details-shards/*.json` keeps the first detail-page request limited to one deterministic shard.
+- `movie-details.json` remains the complete validation/export payload.
+
+Search returns movie IDs off the main thread, then loads only the small catalog-index shards needed to render the current result page.
+
+Catalog enrichment and seed commands rebuild these derived payloads automatically.
+
 ## API Keys
 
 Create `.env.local` from `.env.example`.
