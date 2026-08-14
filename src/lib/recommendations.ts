@@ -41,6 +41,7 @@ export type RecommendationSelector = (options?: RecommendationOptions) => Recomm
 export type TasteSnapshot = {
   profile: TasteProfile;
   recommendations: Recommendation[];
+  selectRecommendations: RecommendationSelector;
 };
 
 export function buildTasteProfile(movies: Movie[], states: MovieStateMap): TasteProfile {
@@ -53,10 +54,12 @@ export function buildTasteSnapshot(
   recommendationOptions: RecommendationOptions = {},
 ): TasteSnapshot {
   const tasteModel = buildTasteModel(movies, states);
+  const selectRecommendations = createRecommendationSelectorForTasteModel(movies, states, tasteModel);
 
   return {
     profile: tasteModel.profile,
-    recommendations: getRecommendationsForTasteModel(movies, states, tasteModel, recommendationOptions),
+    recommendations: selectRecommendations(recommendationOptions),
+    selectRecommendations,
   };
 }
 
@@ -140,13 +143,25 @@ export function getRecommendations(movies: Movie[], states: MovieStateMap, optio
 export function createRecommendationSelector(movies: Movie[], states: MovieStateMap): RecommendationSelector {
   const tasteModel = buildTasteModel(movies, states);
 
-  return (options: RecommendationOptions = {}) => getRecommendationsForTasteModel(movies, states, tasteModel, options);
+  return createRecommendationSelectorForTasteModel(movies, states, tasteModel);
+}
+
+function createRecommendationSelectorForTasteModel(
+  movies: Movie[],
+  states: MovieStateMap,
+  tasteModel: TasteModel,
+): RecommendationSelector {
+  const candidateCache = new Map<string, RecommendationCandidate>();
+
+  return (options: RecommendationOptions = {}) =>
+    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options);
 }
 
 function getRecommendationsForTasteModel(
   movies: Movie[],
   states: MovieStateMap,
   tasteModel: TasteModel,
+  candidateCache: Map<string, RecommendationCandidate>,
   options: RecommendationOptions,
 ) {
   const candidates = movies
@@ -163,7 +178,8 @@ function getRecommendationsForTasteModel(
         return [];
       }
 
-      const scored = scoreMovie(movie, tasteModel);
+      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, tasteModel);
+      candidateCache.set(movie.id, scored);
       return [scored];
     })
     .slice()
@@ -317,29 +333,71 @@ function clampScore(score: number) {
 }
 
 function topWeights(weights: WeightedMap, count: number) {
-  return Array.from(weights.entries())
-    .map(([name, signal]) => ({ name, weight: signalStrength(signal) }))
-    .filter((item) => item.weight > 0)
-    .slice()
-    .sort((a, b) => b.weight - a.weight)
-    .slice(0, count);
+  const items: Array<{ name: string; weight: number }> = [];
+
+  for (const [name, signal] of weights) {
+    const weight = signalStrength(signal);
+    if (weight > 0) {
+      items.push({ name, weight });
+    }
+  }
+
+  items.sort((a, b) => b.weight - a.weight);
+  return items.slice(0, count);
 }
 
 function sumMapMatches(values: string[], weights: WeightedMap) {
-  return values
-    .map((value) => signalStrength(weights.get(value)))
-    .sort((a, b) => Math.abs(b) - Math.abs(a))
-    .slice(0, MAX_FEATURE_MATCHES)
-    .reduce((total, value) => total + value, 0);
+  const strongest: number[] = [];
+
+  for (const value of values) {
+    const weight = signalStrength(weights.get(value));
+    insertRanked(strongest, weight, MAX_FEATURE_MATCHES, (candidate, current) => Math.abs(candidate) > Math.abs(current));
+  }
+
+  let total = 0;
+  for (const weight of strongest) {
+    total += weight;
+  }
+
+  return total;
 }
 
 function topMatchingValues(values: string[], weights: WeightedMap, count: number, direction: "positive" | "negative" = "positive") {
-  return values
-    .map((value) => ({ value, weight: signalStrength(weights.get(value)) }))
-    .filter((item) => (direction === "positive" ? item.weight > 0 : item.weight < 0))
-    .sort((a, b) => (direction === "positive" ? b.weight - a.weight : a.weight - b.weight))
-    .slice(0, count)
-    .map((item) => item.value);
+  const matches: Array<{ value: string; weight: number }> = [];
+
+  for (const value of values) {
+    const weight = signalStrength(weights.get(value));
+    if (direction === "positive" ? weight <= 0 : weight >= 0) {
+      continue;
+    }
+
+    const match = { value, weight };
+    insertRanked(matches, match, count, (candidate, current) =>
+      direction === "positive" ? candidate.weight > current.weight : candidate.weight < current.weight,
+    );
+  }
+
+  return matches.map((match) => match.value);
+}
+
+function insertRanked<T>(
+  items: T[],
+  candidate: T,
+  limit: number,
+  ranksBefore: (candidate: T, current: T) => boolean,
+) {
+  let insertAt = items.length;
+  for (let index = 0; index < items.length; index += 1) {
+    if (ranksBefore(candidate, items[index])) {
+      insertAt = index;
+      break;
+    }
+  }
+
+  items.splice(insertAt, 0, candidate);
+  if (items.length > limit) {
+    items.pop();
+  }
 }
 
 function bestWeightedMatch(values: string[], weights: WeightedMap, direction: "positive" | "negative" = "positive") {
@@ -380,12 +438,14 @@ function diversifyRecommendations(candidates: RecommendationCandidate[], count: 
     return selected;
   }
 
+  const selectedIds = new Set(selected.map((candidate) => candidate.movie.id));
   for (const candidate of candidates) {
-    if (selected.includes(candidate)) {
+    if (selectedIds.has(candidate.movie.id)) {
       continue;
     }
 
     selected.push(candidate);
+    selectedIds.add(candidate.movie.id);
     if (selected.length >= count) {
       break;
     }

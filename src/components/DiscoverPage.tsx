@@ -13,28 +13,33 @@ import { fadeSlide } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
-const initialSearchResultLimit = 48;
-const searchResultPageSize = 48;
 const initialCategoryResultLimit = 48;
 const categoryResultPageSize = 48;
+const searchResultPageSize = 24;
 const topPicksRowChunkSize = 14;
 
 type DiscoverPageProps = {
   search: string;
   filteredCatalog: Movie[];
   discoverSections: DiscoverSection[];
+  isSearchLoading: boolean;
   library: MovieLibrary;
+  onLoadMoreSearch: () => void;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
+  searchResultTotal: number;
 };
 
 export function DiscoverPage({
   search,
   filteredCatalog,
   discoverSections,
+  isSearchLoading,
   library,
+  onLoadMoreSearch,
   onOpenMovie,
   onPreloadMovieDetails,
+  searchResultTotal,
 }: DiscoverPageProps) {
   const [searchLayout, setSearchLayout] = useState<"grid" | "row">("grid");
   const [topPicksRowLimit, setTopPicksRowLimit] = useState(topPicksRowChunkSize);
@@ -54,11 +59,14 @@ export function DiscoverPage({
       <SearchResults
         key={search}
         filteredCatalog={filteredCatalog}
+        isLoading={isSearchLoading}
         layout={searchLayout}
         library={library}
+        onLoadMore={onLoadMoreSearch}
         onLayoutChange={setSearchLayout}
         onOpenMovie={onOpenMovie}
         onPreloadMovieDetails={onPreloadMovieDetails}
+        totalResults={searchResultTotal}
       />
     );
   }
@@ -118,7 +126,7 @@ function DiscoverCategoryGrid({
   library: MovieLibrary;
   onBack: () => void;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
 }) {
   const [resultLimit, setResultLimit] = useState(initialCategoryResultLimit);
   const shouldReduceMotion = useReducedMotion();
@@ -194,32 +202,38 @@ function BackToDiscoverButton({ onClick }: { onClick: () => void }) {
 
 export function SearchResults({
   filteredCatalog,
+  isLoading,
   layout,
   library,
+  onLoadMore,
   onLayoutChange,
   onOpenMovie,
   onPreloadMovieDetails,
+  totalResults,
 }: {
   filteredCatalog: Movie[];
+  isLoading: boolean;
   layout: "grid" | "row";
   library: MovieLibrary;
+  onLoadMore: () => void;
   onLayoutChange: (layout: "grid" | "row") => void;
   onOpenMovie: (movieId: string) => void;
-  onPreloadMovieDetails?: () => void;
+  onPreloadMovieDetails?: (movieId: string) => void;
+  totalResults: number;
 }) {
-  const [resultLimit, setResultLimit] = useState(initialSearchResultLimit);
   const shouldReduceMotion = useReducedMotion();
-  const visibleMovies = filteredCatalog.slice(0, resultLimit);
-  const hiddenCount = Math.max(0, filteredCatalog.length - visibleMovies.length);
+  const hiddenCount = Math.max(0, totalResults - filteredCatalog.length);
   const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
   const subtitle =
-    hiddenCount > 0
-      ? `Showing ${visibleMovies.length} of ${filteredCatalog.length} matches`
-      : `${filteredCatalog.length} matches in the local catalog`;
+    isLoading && filteredCatalog.length === 0
+      ? "Searching the local catalog…"
+      : hiddenCount > 0
+        ? `Showing ${filteredCatalog.length} of ${totalResults} matches`
+        : `${filteredCatalog.length} matches in the local catalog`;
   const sharedProps = {
     title: "search results",
     subtitle,
-    movies: visibleMovies,
+    movies: filteredCatalog,
     library,
     onOpenMovie,
     onMovieIntent: onPreloadMovieDetails,
@@ -237,10 +251,11 @@ export function SearchResults({
         <motion.button
           type="button"
           className="search-results-more"
-          onClick={() => setResultLimit((currentLimit) => currentLimit + searchResultPageSize)}
+          disabled={isLoading}
+          onClick={onLoadMore}
           whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
         >
-          Show {Math.min(searchResultPageSize, hiddenCount)} more
+          {isLoading ? "Loading…" : `Show ${Math.min(searchResultPageSize, hiddenCount)} more`}
         </motion.button>
       ) : null}
     </>

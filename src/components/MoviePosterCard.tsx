@@ -16,7 +16,7 @@ type MoviePosterCardProps = {
   animateOnMount?: boolean;
   enableLayoutAnimation?: boolean;
   onOpen?: (movieId: string) => void;
-  onPreviewIntent?: () => void;
+  onPreviewIntent?: (movieId: string) => void;
   onRate: (movieId: string, rating: Rating) => void;
   onToggleIgnored: (movieId: string) => void;
   onToggleWatched: (movieId: string) => void;
@@ -60,8 +60,8 @@ export const MoviePosterCard = memo(function MoviePosterCard({
       className={cn("movie-poster-card", onOpen && "movie-poster-card--clickable", state?.ignored && "is-ignored")}
       layout={enableLayoutAnimation}
       {...(animateOnMount ? fadeScale(shouldReduceMotion) : {})}
-      onMouseEnter={onPreviewIntent}
-      onFocusCapture={onPreviewIntent}
+      onMouseEnter={() => onPreviewIntent?.(movie.id)}
+      onFocusCapture={() => onPreviewIntent?.(movie.id)}
       whileHover={shouldReduceMotion ? undefined : { y: -4 }}
       transition={softSpring}
     >

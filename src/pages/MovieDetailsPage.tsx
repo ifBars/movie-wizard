@@ -17,11 +17,14 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useMemo, useState } from "react";
 import type { PointerEvent, ReactNode } from "react";
 import { MovieImagePoster } from "@/components/MovieImagePoster";
+import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
+import { applyMovieDetails } from "@/lib/catalogPayload";
+import { loadMovieDetails } from "@/lib/catalogRepository";
 import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import { fadeSlide, quickSpring, softSpring } from "@/lib/motion";
 import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
-import type { Movie, MovieStateMap, Rating, UserMovieState } from "@/types";
+import type { Movie, MovieDetails, MovieStateMap, Rating, UserMovieState } from "@/types";
 
 type MovieDetailsPageProps = {
   movie: Movie;
@@ -37,9 +40,43 @@ type MovieDetailsPageProps = {
 };
 
 const tmdbImageBaseUrl = "https://image.tmdb.org/t/p";
+const detailDateFormatter = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", year: "numeric" });
+const languageDisplayNames = createLanguageDisplayNames();
 type DetailTab = "overview" | "credits" | "parents-guide";
 
 export function MovieDetailsPage({
+  movie,
+  ...props
+}: MovieDetailsPageProps) {
+  const [loadedDetails, setLoadedDetails] = useState<{ movieId: string; details: MovieDetails }>();
+
+  useExternalSyncEffect(() => {
+    let isCurrent = true;
+
+    void loadMovieDetails(movie.id)
+      .then((details) => {
+        if (isCurrent && details) {
+          setLoadedDetails({ movieId: movie.id, details });
+        }
+      })
+      .catch(() => {
+        // Keep the compact catalog record visible when optional detail loading fails.
+      });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, [movie]);
+
+  const movieWithDetails = useMemo(
+    () => loadedDetails?.movieId === movie.id ? applyMovieDetails(movie, loadedDetails.details) : movie,
+    [loadedDetails, movie],
+  );
+
+  return <MovieDetailsContent movie={movieWithDetails} {...props} />;
+}
+
+function MovieDetailsContent({
   movie,
   movies,
   state,
@@ -583,14 +620,18 @@ function formatReleaseDate(value?: string) {
     return value;
   }
 
-  return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", year: "numeric" }).format(date);
+  return detailDateFormatter.format(date);
 }
 
 function formatLanguageName(value: string) {
+  return languageDisplayNames?.of(value) ?? value.toUpperCase();
+}
+
+function createLanguageDisplayNames() {
   try {
-    return new Intl.DisplayNames(undefined, { type: "language" }).of(value) ?? value.toUpperCase();
+    return new Intl.DisplayNames(undefined, { type: "language" });
   } catch {
-    return value.toUpperCase();
+    return undefined;
   }
 }
 

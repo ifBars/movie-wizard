@@ -1,13 +1,26 @@
-import { useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
+import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import { loadMoviesByIds } from "@/lib/catalogRepository";
+import { searchCatalog } from "@/lib/catalogSearchClient";
 import { buildDiscoverSections } from "@/lib/discoverSections";
-import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
-import { buildLinearMovieSearchCorpus, linearSearchMovieCorpus } from "@/lib/movieSearch";
+import type { Movie } from "@/types";
 
 export type CatalogViewData = ReturnType<typeof useCatalogViewData>;
 
+const searchPageSize = 24;
+
+type SearchResultState = {
+  query: string;
+  movies: Movie[];
+  total: number;
+  limit: number;
+};
+
 export function useCatalogViewData(library: MovieLibrary, search: string) {
-  const hasSearch = search.trim().length > 0;
+  const normalizedSearch = search.trim();
+  const [searchResults, setSearchResults] = useState<SearchResultState>({ query: "", movies: [], total: 0, limit: searchPageSize });
+  const requestedLimit = searchResults.query === normalizedSearch ? searchResults.limit : searchPageSize;
   const discoverSections = useMemo(
     () =>
       buildDiscoverSections({
@@ -15,25 +28,63 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
         states: library.states,
         recommendations: library.recommendations,
         minimumRecommendationYear: library.settings.minimumRecommendationYear,
+        selectRecommendations: library.selectRecommendations,
       }),
-    [library.recommendations, library.settings.minimumRecommendationYear, library.states, library.visibleMovies],
+    [library.recommendations, library.selectRecommendations, library.settings.minimumRecommendationYear, library.states, library.visibleMovies],
   );
 
-  const searchCorpus = useMemo(
-    () => (hasSearch ? buildLinearMovieSearchCorpus(library.visibleMovies) : undefined),
-    [hasSearch, library.visibleMovies],
-  );
-
-  const filteredCatalog = useMemo(() => {
-    if (!searchCorpus) {
-      return [];
+  useExternalSyncEffect(() => {
+    if (!normalizedSearch) {
+      return;
     }
 
-    return linearSearchMovieCorpus(searchCorpus, search).filter((movie) => isAvailableMovieCandidate(movie, library.states));
-  }, [library.states, search, searchCorpus]);
+    let isCurrent = true;
+    const excludedMovieIds: string[] = [];
+    for (const state of Object.values(library.states)) {
+      if (state.ignored || state.watched || state.watchlist || state.rating !== null) {
+        excludedMovieIds.push(state.movieId);
+      }
+    }
+
+    void searchCatalog({
+      query: normalizedSearch,
+      languageCodes: library.settings.languageCodes,
+      showAdultMovies: library.settings.showAdultMovies,
+      excludedMovieIds,
+      limit: requestedLimit,
+    })
+      .then(async (result) => ({ ...result, movies: await loadMoviesByIds(result.movieIds) }))
+      .then((result) => {
+        if (isCurrent) {
+          setSearchResults({ query: normalizedSearch, movies: result.movies, total: result.total, limit: requestedLimit });
+        }
+      })
+      .catch(() => {
+        if (isCurrent) {
+          setSearchResults({ query: normalizedSearch, movies: [], total: 0, limit: requestedLimit });
+        }
+      });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, [library.settings.languageCodes, library.settings.showAdultMovies, library.states, normalizedSearch, requestedLimit]);
+
+  const loadMoreSearchResults = useCallback(() => {
+    setSearchResults((current) => ({
+      ...current,
+      query: normalizedSearch,
+      limit: (current.query === normalizedSearch ? current.limit : searchPageSize) + searchPageSize,
+    }));
+  }, [normalizedSearch]);
+
+  const hasCurrentSearchResults = searchResults.query === normalizedSearch;
 
   return {
     discoverSections,
-    filteredCatalog,
+    filteredCatalog: hasCurrentSearchResults ? searchResults.movies : [],
+    isSearchLoading: normalizedSearch.length > 0 && !hasCurrentSearchResults,
+    searchResultTotal: hasCurrentSearchResults ? searchResults.total : 0,
+    loadMoreSearchResults,
   };
 }

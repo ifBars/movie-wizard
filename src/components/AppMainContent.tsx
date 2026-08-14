@@ -127,6 +127,14 @@ function AppPage({
     );
   }
 
+  if (search.trim() && catalogData.isSearchLoading && catalogData.filteredCatalog.length === 0) {
+    return (
+      <motion.div key="catalog-search-loading" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
+        <CatalogLoadingState title="Searching movies" subtitle="Checking the complete local catalog." />
+      </motion.div>
+    );
+  }
+
   if (search.trim()) {
     return (
       <motion.div key="catalog-search" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
@@ -135,7 +143,10 @@ function AppPage({
           search={search}
           discoverSections={catalogData.discoverSections}
           filteredCatalog={catalogData.filteredCatalog}
+          isSearchLoading={catalogData.isSearchLoading}
+          searchResultTotal={catalogData.searchResultTotal}
           library={library}
+          onLoadMoreSearch={catalogData.loadMoreSearchResults}
           onOpenMovie={onOpenMovie}
           onPreloadMovieDetails={preloadMovieDetailsPage}
         />
@@ -153,8 +164,8 @@ function AppPage({
             onReset={library.resetLibrary}
             ratedCount={library.ratedMovies.length}
             watchlistCount={library.watchlistMovies.length}
-            catalogCount={library.visibleMovies.length}
-            totalCatalogCount={library.movies.length}
+            catalogCount={library.catalogMovieCount}
+            totalCatalogCount={library.totalCatalogMovieCount}
             hiddenAdultMovieCount={library.hiddenAdultMovieCount}
             hiddenLanguageMovieCount={library.hiddenLanguageMovieCount}
             languageCodes={library.settings.languageCodes}
@@ -178,7 +189,10 @@ function AppPage({
         search={search}
         discoverSections={catalogData.discoverSections}
         filteredCatalog={catalogData.filteredCatalog}
+        isSearchLoading={catalogData.isSearchLoading}
+        searchResultTotal={catalogData.searchResultTotal}
         library={library}
+        onLoadMoreSearch={catalogData.loadMoreSearchResults}
         onOpenMovie={onOpenMovie}
         onPreloadMovieDetails={preloadMovieDetailsPage}
       />

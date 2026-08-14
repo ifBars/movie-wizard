@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T00:59:15.836Z",
+  "generatedAt": "2026-08-14T06:26:37.646Z",
   "movieCount": 16467,
   "indexFields": [
     "id",
@@ -30,5 +30,268 @@
     "crew",
     "source",
     "synopsis"
-  ]
+  ],
+  "adultMovieCount": 802,
+  "languageCounts": {
+    "en": {
+      "total": 11075,
+      "adult": 434
+    },
+    "th": {
+      "total": 40,
+      "adult": 2
+    },
+    "ja": {
+      "total": 751,
+      "adult": 51
+    },
+    "zh": {
+      "total": 282,
+      "adult": 8
+    },
+    "ta": {
+      "total": 49,
+      "adult": 0
+    },
+    "hi": {
+      "total": 249,
+      "adult": 5
+    },
+    "ko": {
+      "total": 352,
+      "adult": 69
+    },
+    "ru": {
+      "total": 147,
+      "adult": 3
+    },
+    "fr": {
+      "total": 1200,
+      "adult": 64
+    },
+    "es": {
+      "total": 500,
+      "adult": 35
+    },
+    "it": {
+      "total": 616,
+      "adult": 45
+    },
+    "tl": {
+      "total": 32,
+      "adult": 14
+    },
+    "nl": {
+      "total": 44,
+      "adult": 4
+    },
+    "no": {
+      "total": 52,
+      "adult": 2
+    },
+    "te": {
+      "total": 41,
+      "adult": 1
+    },
+    "de": {
+      "total": 230,
+      "adult": 16
+    },
+    "pl": {
+      "total": 50,
+      "adult": 4
+    },
+    "lv": {
+      "total": 6,
+      "adult": 0
+    },
+    "ml": {
+      "total": 31,
+      "adult": 0
+    },
+    "sv": {
+      "total": 58,
+      "adult": 7
+    },
+    "id": {
+      "total": 23,
+      "adult": 0
+    },
+    "fi": {
+      "total": 20,
+      "adult": 1
+    },
+    "kn": {
+      "total": 4,
+      "adult": 0
+    },
+    "da": {
+      "total": 53,
+      "adult": 2
+    },
+    "sr": {
+      "total": 6,
+      "adult": 1
+    },
+    "cn": {
+      "total": 230,
+      "adult": 19
+    },
+    "ar": {
+      "total": 20,
+      "adult": 0
+    },
+    "af": {
+      "total": 3,
+      "adult": 0
+    },
+    "pt": {
+      "total": 93,
+      "adult": 8
+    },
+    "tr": {
+      "total": 68,
+      "adult": 1
+    },
+    "mk": {
+      "total": 2,
+      "adult": 0
+    },
+    "mr": {
+      "total": 3,
+      "adult": 0
+    },
+    "bn": {
+      "total": 7,
+      "adult": 0
+    },
+    "ka": {
+      "total": 3,
+      "adult": 0
+    },
+    "hu": {
+      "total": 15,
+      "adult": 0
+    },
+    "uk": {
+      "total": 15,
+      "adult": 1
+    },
+    "sl": {
+      "total": 1,
+      "adult": 0
+    },
+    "el": {
+      "total": 7,
+      "adult": 0
+    },
+    "eu": {
+      "total": 4,
+      "adult": 0
+    },
+    "cs": {
+      "total": 12,
+      "adult": 3
+    },
+    "ky": {
+      "total": 1,
+      "adult": 0
+    },
+    "vi": {
+      "total": 4,
+      "adult": 0
+    },
+    "ca": {
+      "total": 7,
+      "adult": 0
+    },
+    "is": {
+      "total": 5,
+      "adult": 0
+    },
+    "az": {
+      "total": 1,
+      "adult": 0
+    },
+    "he": {
+      "total": 5,
+      "adult": 0
+    },
+    "xx": {
+      "total": 10,
+      "adult": 0
+    },
+    "sh": {
+      "total": 1,
+      "adult": 0
+    },
+    "fa": {
+      "total": 16,
+      "adult": 1
+    },
+    "bg": {
+      "total": 1,
+      "adult": 0
+    },
+    "ro": {
+      "total": 4,
+      "adult": 1
+    },
+    "lg": {
+      "total": 1,
+      "adult": 0
+    },
+    "pa": {
+      "total": 1,
+      "adult": 0
+    },
+    "bs": {
+      "total": 1,
+      "adult": 0
+    },
+    "ga": {
+      "total": 3,
+      "adult": 0
+    },
+    "hy": {
+      "total": 2,
+      "adult": 0
+    },
+    "tn": {
+      "total": 1,
+      "adult": 0
+    },
+    "si": {
+      "total": 1,
+      "adult": 0
+    },
+    "hr": {
+      "total": 2,
+      "adult": 0
+    },
+    "et": {
+      "total": 1,
+      "adult": 0
+    },
+    "dz": {
+      "total": 1,
+      "adult": 0
+    },
+    "la": {
+      "total": 1,
+      "adult": 0
+    },
+    "sq": {
+      "total": 1,
+      "adult": 0
+    },
+    "ps": {
+      "total": 1,
+      "adult": 0
+    },
+    "yo": {
+      "total": 1,
+      "adult": 0
+    }
+  }
 }

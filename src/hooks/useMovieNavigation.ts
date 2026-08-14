@@ -8,7 +8,7 @@ export function useMovieNavigation() {
 
   const openMovie = useCallback(
     (movieId: string) => {
-      preloadMovieDetailsPage();
+      preloadMovieDetailsPage(movieId);
       navigate(movieDetailPath(movieId));
     },
     [navigate],

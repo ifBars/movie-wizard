@@ -3,7 +3,7 @@ import catalogIndexJson from "@/data/generated/catalog-index.json";
 import catalogManifestJson from "@/data/generated/catalog-manifest.json";
 import movieDetailsJson from "@/data/generated/movie-details.json";
 import moviesJson from "@/data/generated/movies.json";
-import { hydrateCatalog, validateCatalogManifest } from "@/lib/catalogPayload";
+import { applyMovieDetails, createCatalogMovie, hydrateCatalog, validateCatalogManifest } from "@/lib/catalogPayload";
 import type { CatalogIndexPayload, CatalogManifestPayload, Movie, MovieDetailsPayload } from "@/types";
 
 const catalogIndex = parseCatalogIndexPayload(catalogIndexJson);
@@ -30,6 +30,15 @@ describe("catalog payload split", () => {
     expect("synopsis" in (monika ?? {})).toBe(false);
     expect(movieDetails.movies["monika-1974"]?.synopsis).toContain("Monika is young");
   });
+
+  test("creates browse-ready movies before loading detail data", () => {
+    const indexMovie = catalogIndex.movies[0];
+    const movie = createCatalogMovie(indexMovie);
+
+    expect(movie.synopsis).toBe(indexMovie.synopsisPreview);
+    expect(movie.source).toBeUndefined();
+    expect(applyMovieDetails(movie, movieDetails.movies[movie.id])).toEqual(fullCatalog[0]);
+  });
 });
 
 function parseCatalogIndexPayload(payload: Omit<CatalogIndexPayload, "version"> & { version: number }): CatalogIndexPayload {
@@ -49,6 +58,8 @@ function parseCatalogManifestPayload(payload: {
   movieCount: number;
   indexFields: string[];
   detailFields: string[];
+  adultMovieCount: number;
+  languageCounts: Record<string, { total: number; adult: number }>;
 }): CatalogManifestPayload {
   if (payload.version !== 1) {
     throw new Error(`Unsupported catalog manifest version ${payload.version}`);
@@ -60,6 +71,8 @@ function parseCatalogManifestPayload(payload: {
     movieCount: payload.movieCount,
     indexFields: payload.indexFields.filter(isCatalogIndexField),
     detailFields: payload.detailFields.filter(isMovieDetailsField),
+    adultMovieCount: payload.adultMovieCount,
+    languageCounts: payload.languageCounts,
   };
 }
 

@@ -15,7 +15,7 @@ type MovieRowProps = {
   movies: Movie[];
   library: MovieLibrary;
   onOpenMovie: (movieId: string) => void;
-  onMovieIntent?: () => void;
+  onMovieIntent?: (movieId: string) => void;
   onReachEnd?: () => void;
   headerAction?: ReactNode;
 };
