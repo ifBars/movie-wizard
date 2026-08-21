@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-08-20T09:53:47.649Z",
+  "generatedAt": "2026-08-21T09:55:08.404Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-08-20T09:53:46.949Z",
+      "lastFetchedAt": "2026-08-21T09:55:07.971Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78125,7 +78125,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-08-20T09:53:47.165Z",
+      "lastFetchedAt": "2026-08-21T09:55:08.059Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -95310,6 +95310,12 @@
     "1288341": {
       "recordId": "seven-snipers-2026",
       "lastFetchedAt": "2026-06-27T10:06:59.375Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1288445": {
+      "recordId": "mutiny-2026",
+      "lastFetchedAt": "2026-08-21T09:55:08.114Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
