@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-08-25T09:55:09.465Z",
+  "generatedAt": "2026-08-26T10:01:26.814Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-08-25T09:55:09.090Z",
+      "lastFetchedAt": "2026-08-26T10:01:26.127Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78125,7 +78125,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-08-25T09:55:09.133Z",
+      "lastFetchedAt": "2026-08-26T10:01:26.363Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -97446,6 +97446,12 @@
     "1432596": {
       "recordId": "palestine-36-2025",
       "lastFetchedAt": "2026-06-05T10:39:41.261Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1432706": {
+      "recordId": "bury-the-devil-2026",
+      "lastFetchedAt": "2026-08-26T10:01:26.457Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
