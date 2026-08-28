@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T19:44:06.767Z",
-  "movieCount": 16487,
+  "generatedAt": "2026-08-28T20:56:45.226Z",
+  "movieCount": 16488,
   "indexFields": [
     "id",
     "tmdbId",
@@ -69,6 +69,10 @@
       "total": 147,
       "adult": 3
     },
+    "kn": {
+      "total": 5,
+      "adult": 0
+    },
     "fr": {
       "total": 1200,
       "adult": 64
@@ -123,10 +127,6 @@
     },
     "lv": {
       "total": 6,
-      "adult": 0
-    },
-    "kn": {
-      "total": 4,
       "adult": 0
     },
     "da": {
