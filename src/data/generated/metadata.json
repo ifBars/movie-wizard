@@ -1,25 +1,20 @@
 {
-  "generatedAt": "2026-08-28T20:56:44.965Z",
-  "recordCount": 16488,
-  "addedRecordCount": 1,
-  "existingRecordCount": 16487,
+  "generatedAt": "2026-08-29T14:34:03.050Z",
+  "recordCount": 16490,
+  "addedRecordCount": 2,
+  "existingRecordCount": 16488,
   "refreshedRecordCount": 0,
-  "processedCandidateCount": 5,
-  "acceptedRecordCount": 1,
+  "processedCandidateCount": 6,
+  "acceptedRecordCount": 2,
   "rejectedRecordCount": 4,
-  "tmdbRequests": 16,
+  "tmdbRequests": 17,
   "tmdbCacheHits": 0,
-  "tmdbSkippedFresh": 153,
+  "tmdbSkippedFresh": 154,
   "tmdbSkippedRetryCooldown": 0,
   "tmdbFailures": 0,
   "sources": {
     "curatedSeeds": 34,
     "tmdb": true,
     "tmdbDailyExport": false
-  },
-  "backfillLastRun": "2026-08-29T13:27:18.727Z",
-  "backfillUpdated": 100,
-  "backfillFailures": 0,
-  "backfillSkipped": 0,
-  "backfillRemaining": 84
+  }
 }
