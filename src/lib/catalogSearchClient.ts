@@ -1,4 +1,6 @@
-type SearchCatalogOptions = {
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
+
+type SearchCatalogOptions = CatalogBrowseFilters & {
   query: string;
   languageCodes: string[];
   showAdultMovies: boolean;

@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, ListBullets, SquaresFour } from "@phosphor-icons/react";
+import { ArrowLeft, ArrowRight, ArrowsClockwise, Info, ListBullets, SquaresFour } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { useCallback, useState } from "react";
 import type { PointerEvent } from "react";
@@ -7,6 +7,8 @@ import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import { describeCatalogBrowseFilters } from "@/lib/catalogBrowse";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { findDiscoverSection } from "@/lib/discoverSections";
 import type { DiscoverSection } from "@/lib/discoverSections";
 import { fadeSlide } from "@/lib/motion";
@@ -19,32 +21,24 @@ const searchResultPageSize = 24;
 const topPicksRowChunkSize = 14;
 
 type DiscoverPageProps = {
-  search: string;
-  filteredCatalog: Movie[];
   discoverSections: DiscoverSection[];
-  isSearchLoading: boolean;
   library: MovieLibrary;
-  onLoadMoreSearch: () => void;
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: (movieId: string) => void;
-  searchResultTotal: number;
 };
 
 export function DiscoverPage({
-  search,
-  filteredCatalog,
   discoverSections,
-  isSearchLoading,
   library,
-  onLoadMoreSearch,
   onOpenMovie,
   onPreloadMovieDetails,
-  searchResultTotal,
 }: DiscoverPageProps) {
-  const [searchLayout, setSearchLayout] = useState<"grid" | "row">("grid");
   const [topPicksRowLimit, setTopPicksRowLimit] = useState(topPicksRowChunkSize);
+  const [featuredPickIndex, setFeaturedPickIndex] = useState(0);
   const [searchParams, setSearchParams] = useSearchParams();
   const selectedSection = findDiscoverSection(discoverSections, searchParams.get("category"));
+  const featuredMovies = discoverSections.find((section) => section.key === "top-picks")?.movies.filter((movie) => movie.backdropPath).slice(0, 8) ?? [];
+  const featuredMovie = featuredMovies[featuredPickIndex % Math.max(featuredMovies.length, 1)];
 
   function openSection(section: DiscoverSection) {
     setSearchParams({ category: section.key });
@@ -52,23 +46,6 @@ export function DiscoverPage({
 
   function closeSection() {
     setSearchParams({});
-  }
-
-  if (search) {
-    return (
-      <SearchResults
-        key={search}
-        filteredCatalog={filteredCatalog}
-        isLoading={isSearchLoading}
-        layout={searchLayout}
-        library={library}
-        onLoadMore={onLoadMoreSearch}
-        onLayoutChange={setSearchLayout}
-        onOpenMovie={onOpenMovie}
-        onPreloadMovieDetails={onPreloadMovieDetails}
-        totalResults={searchResultTotal}
-      />
-    );
   }
 
   if (selectedSection) {
@@ -86,6 +63,13 @@ export function DiscoverPage({
 
   return (
     <>
+      {featuredMovie ? (
+        <FeaturedPick
+          movie={featuredMovie}
+          onNext={() => setFeaturedPickIndex((currentIndex) => (currentIndex + 1) % featuredMovies.length)}
+          onOpenMovie={onOpenMovie}
+        />
+      ) : null}
       {discoverSections.map((section) => {
         const isTopPicks = section.key === "top-picks";
         const rowLimit = isTopPicks ? topPicksRowLimit : section.rowLimit;
@@ -112,6 +96,36 @@ export function DiscoverPage({
       })}
       <PrivacyNote />
     </>
+  );
+}
+
+function FeaturedPick({ movie, onNext, onOpenMovie }: { movie: Movie; onNext: () => void; onOpenMovie: (movieId: string) => void }) {
+  const shouldReduceMotion = useReducedMotion();
+  const backdropUrl = `https://image.tmdb.org/t/p/w1280${movie.backdropPath}`;
+
+  return (
+    <motion.section className="featured-pick" aria-label="Featured recommendation" {...fadeSlide(shouldReduceMotion, 10)}>
+      <img src={backdropUrl} alt="" className="featured-pick__backdrop" />
+      <div className="featured-pick__shade" />
+      <div className="featured-pick__content">
+        <span className="featured-pick__eyebrow">Featured for you</span>
+        <h1>{movie.title}</h1>
+        <p className="featured-pick__meta">
+          {movie.year} <span aria-hidden="true">·</span> {movie.runtimeMinutes} min <span aria-hidden="true">·</span> {movie.genres.slice(0, 2).join(", ")}
+        </p>
+        <p className="featured-pick__synopsis">{movie.synopsis}</p>
+        <div className="featured-pick__actions">
+          <motion.button type="button" className="featured-pick__primary" onClick={() => onOpenMovie(movie.id)} whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}>
+            <Info weight="fill" />
+            <span>See details</span>
+          </motion.button>
+          <motion.button type="button" className="featured-pick__secondary" onClick={onNext} whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}>
+            <ArrowsClockwise weight="bold" />
+            <span>Another pick</span>
+          </motion.button>
+        </div>
+      </div>
+    </motion.section>
   );
 }
 
@@ -201,6 +215,7 @@ function BackToDiscoverButton({ onClick }: { onClick: () => void }) {
 }
 
 export function SearchResults({
+  browseFilters,
   filteredCatalog,
   isLoading,
   layout,
@@ -209,8 +224,10 @@ export function SearchResults({
   onLayoutChange,
   onOpenMovie,
   onPreloadMovieDetails,
+  search,
   totalResults,
 }: {
+  browseFilters: CatalogBrowseFilters;
   filteredCatalog: Movie[];
   isLoading: boolean;
   layout: "grid" | "row";
@@ -219,19 +236,22 @@ export function SearchResults({
   onLayoutChange: (layout: "grid" | "row") => void;
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: (movieId: string) => void;
+  search: string;
   totalResults: number;
 }) {
   const shouldReduceMotion = useReducedMotion();
   const hiddenCount = Math.max(0, totalResults - filteredCatalog.length);
   const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
+  const filterDescription = describeCatalogBrowseFilters(browseFilters);
+  const scopeDescription = [search ? `“${search}”` : "All movies", filterDescription].filter(Boolean).join(" · ");
   const subtitle =
     isLoading && filteredCatalog.length === 0
       ? "Searching the local catalog…"
       : hiddenCount > 0
-        ? `Showing ${filteredCatalog.length} of ${totalResults} matches`
-        : `${filteredCatalog.length} matches in the local catalog`;
+        ? `${scopeDescription} · Showing ${filteredCatalog.length} of ${totalResults}`
+        : `${scopeDescription} · ${filteredCatalog.length} matches`;
   const sharedProps = {
-    title: "search results",
+    title: search ? "search results" : "browse movies",
     subtitle,
     movies: filteredCatalog,
     library,

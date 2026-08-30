@@ -9,18 +9,21 @@ import { useMovieLibrary } from "@/hooks/useMovieLibrary";
 import { usePageScrollRestoration } from "@/hooks/usePageScrollRestoration";
 import { useRoutePreloading } from "@/hooks/useRoutePreloading";
 import { useThemeMode } from "@/hooks/useThemeMode";
+import { readCatalogBrowseFilters, writeCatalogBrowseFilters } from "@/lib/catalogBrowse";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { viewPath } from "@/lib/navigation";
 
 function App() {
   const [searchParams, setSearchParams] = useSearchParams();
   const search = searchParams.get("q") ?? "";
+  const browseFilters = useMemo(() => readCatalogBrowseFilters(searchParams), [searchParams]);
   const deferredSearch = useDeferredValue(search);
   const { activeView, isKnownRoute, locationKey, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
   const { themeMode, setThemeMode, toggleTheme } = useThemeMode();
   const library = useMovieLibrary(selectedMovieId ?? undefined);
   const { includeMovie } = library;
-  const catalogData = useCatalogViewData(library, deferredSearch);
+  const catalogData = useCatalogViewData(library, deferredSearch, browseFilters);
   const selectedMovie = useMemo(
     () =>
       library.visibleMovies.find((movie) => movie.id === selectedMovieId) ??
@@ -61,6 +64,21 @@ function App() {
     [catalogData.filteredCatalog, includeMovie, openMovie],
   );
 
+  const handleBrowseFiltersChange = useCallback(
+    (nextFilters: CatalogBrowseFilters) => {
+      setSearchParams(
+        (currentParams) => {
+          const nextParams = new URLSearchParams(currentParams);
+          writeCatalogBrowseFilters(nextParams, nextFilters);
+          nextParams.delete("category");
+          return nextParams;
+        },
+        { replace: true },
+      );
+    },
+    [setSearchParams],
+  );
+
   const averageRatingLabel = library.profile.averageRating > 0 ? library.profile.averageRating.toFixed(1) : "0.0";
   const isResolvingDetail = Boolean(selectedMovieId && !selectedMovie && library.isCatalogLoading);
   const isDetailView = Boolean(selectedMovie) || isResolvingDetail;
@@ -93,6 +111,8 @@ function App() {
         historyCount={library.historyMovies.length}
         watchlistCount={library.watchlistMovies.length}
         catalogCount={library.catalogMovieCount}
+        browseFilters={browseFilters}
+        onBrowseFiltersChange={handleBrowseFiltersChange}
         onSearchChange={handleSearchChange}
         onToggleTheme={toggleTheme}
       />
@@ -107,6 +127,7 @@ function App() {
         onCloseMovie={closeMovie}
         onOpenMovie={handleOpenMovie}
         search={deferredSearch}
+        browseFilters={browseFilters}
         selectedMovie={selectedMovie}
         themeMode={themeMode}
         onThemeModeChange={setThemeMode}

@@ -213,6 +213,11 @@ input:focus-visible {
   content: "";
 }
 
+.search-area {
+  position: relative;
+  min-width: 0;
+}
+
 .search-box {
   display: flex;
   align-items: center;
@@ -243,6 +248,120 @@ input:focus-visible {
   color: white;
   font-size: 1rem;
   outline: none;
+}
+
+.search-filter-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.38rem;
+  min-height: 1.85rem;
+  border: 0;
+  border-left: 1px solid rgb(255 255 255 / 0.15);
+  background: transparent;
+  color: rgb(255 255 255 / 0.72);
+  padding: 0 0.2rem 0 0.72rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.search-filter-toggle:hover,
+.search-filter-toggle.is-active {
+  color: var(--brand-orange);
+}
+
+.search-filter-toggle svg {
+  width: 1rem;
+  height: 1rem;
+  color: currentColor;
+}
+
+.search-browse-menu {
+  position: absolute;
+  top: calc(100% + 0.65rem);
+  right: 0;
+  left: 0;
+  z-index: 40;
+  min-width: 32rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 0.24);
+  color: var(--text-strong);
+  padding: 1rem;
+}
+
+.search-browse-menu__heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.85rem;
+}
+
+.search-browse-menu__heading div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.search-browse-menu__heading strong {
+  font-size: 1rem;
+}
+
+.search-browse-menu__heading span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.search-browse-menu__heading button,
+.search-browse-menu__clear {
+  border: 0;
+  background: transparent;
+  color: var(--brand-orange-2);
+  font-size: 0.8rem;
+  font-weight: 850;
+}
+
+.search-browse-menu__fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  padding: 1rem 0 0.85rem;
+}
+
+.search-browse-menu__fields label {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.search-browse-menu__fields label > span {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.search-browse-menu select {
+  width: 100%;
+  height: 2.55rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface-muted);
+  color: var(--text-strong);
+  padding: 0 0.65rem;
+  font: inherit;
+  font-size: 0.87rem;
+}
+
+.search-browse-menu__clear {
+  padding: 0;
+}
+
+.search-browse-menu__clear:disabled {
+  color: var(--text-muted);
+  cursor: default;
 }
 
 .search-box input::placeholder {
@@ -404,6 +523,137 @@ input:focus-visible {
 .catalog-view-panel {
   width: 100%;
   min-width: 0;
+}
+
+.featured-pick {
+  position: relative;
+  min-height: clamp(18rem, 32vw, 27rem);
+  overflow: hidden;
+  margin: 0 0 2rem;
+  border-radius: 9px;
+  background: #171918;
+  box-shadow: 0 16px 40px var(--shadow-hover);
+  color: #fff;
+  isolation: isolate;
+}
+
+.featured-pick__backdrop,
+.featured-pick__shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-pick__backdrop {
+  z-index: -2;
+  object-fit: cover;
+  object-position: center 32%;
+}
+
+.featured-pick__shade {
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgb(10 12 11 / 0.95) 0%, rgb(10 12 11 / 0.75) 34%, rgb(10 12 11 / 0.12) 72%),
+    linear-gradient(0deg, rgb(10 12 11 / 0.58) 0%, transparent 46%);
+}
+
+.featured-pick__content {
+  display: flex;
+  min-height: inherit;
+  max-width: 38rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: clamp(1.5rem, 4vw, 3.25rem);
+}
+
+.featured-pick__eyebrow {
+  margin-bottom: 0.55rem;
+  color: var(--brand-orange);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.featured-pick h1 {
+  max-width: 13ch;
+  margin: 0;
+  font-size: clamp(2.25rem, 5vw, 4.9rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 0.94;
+}
+
+.featured-pick__meta {
+  margin: 0.85rem 0 0;
+  color: rgb(255 255 255 / 0.78);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.featured-pick__meta span {
+  padding: 0 0.3rem;
+  color: var(--brand-orange);
+}
+
+.featured-pick__synopsis {
+  display: -webkit-box;
+  max-width: 34rem;
+  margin: 0.75rem 0 0;
+  overflow: hidden;
+  color: rgb(255 255 255 / 0.82);
+  font-size: 0.94rem;
+  line-height: 1.48;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.featured-pick__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.15rem;
+}
+
+.featured-pick__actions button {
+  display: inline-flex;
+  min-height: 2.65rem;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0 1rem;
+  font-size: 0.84rem;
+  font-weight: 900;
+}
+
+.featured-pick__actions svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+.featured-pick__primary {
+  background: #fffaf2;
+  color: #252321;
+}
+
+.featured-pick__primary:hover {
+  background: var(--brand-orange);
+  color: white;
+}
+
+.featured-pick__secondary {
+  border-color: rgb(255 255 255 / 0.28) !important;
+  background: rgb(20 21 20 / 0.58);
+  color: white;
+  backdrop-filter: blur(8px);
+}
+
+.featured-pick__secondary:hover {
+  border-color: rgb(255 255 255 / 0.52) !important;
+  background: rgb(20 21 20 / 0.76);
 }
 
 .movie-section {
@@ -2967,6 +3217,24 @@ input:focus-visible {
     justify-content: start;
   }
 
+  .search-filter-toggle span {
+    display: none;
+  }
+
+  .search-filter-toggle {
+    padding-left: 0.6rem;
+  }
+
+  .search-browse-menu {
+    right: 0;
+    left: 0;
+    min-width: 0;
+  }
+
+  .search-browse-menu__fields {
+    grid-template-columns: 1fr;
+  }
+
   .rating-menu {
     position: static;
   }
@@ -2979,6 +3247,34 @@ input:focus-visible {
 
   .page-grid {
     padding: 1.1rem 1rem 2rem;
+  }
+
+  .featured-pick {
+    min-height: 29rem;
+    margin-bottom: 1.45rem;
+  }
+
+  .featured-pick__backdrop {
+    object-position: 62% center;
+  }
+
+  .featured-pick__shade {
+    background:
+      linear-gradient(0deg, rgb(9 11 10 / 0.96) 0%, rgb(9 11 10 / 0.74) 48%, rgb(9 11 10 / 0.12) 86%),
+      linear-gradient(90deg, rgb(9 11 10 / 0.34), transparent);
+  }
+
+  .featured-pick__content {
+    justify-content: flex-end;
+    padding: 1.25rem;
+  }
+
+  .featured-pick h1 {
+    font-size: clamp(2rem, 11vw, 3.25rem);
+  }
+
+  .featured-pick__synopsis {
+    -webkit-line-clamp: 3;
   }
 
   .movie-row {

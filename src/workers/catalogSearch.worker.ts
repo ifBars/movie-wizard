@@ -1,8 +1,9 @@
 import catalogSearchUrl from "@/data/generated/catalog-search.json?url";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { searchCatalogEntries } from "@/lib/catalogSearch";
 import type { CatalogSearchPayload } from "@/types";
 
-type SearchRequest = {
+type SearchRequest = CatalogBrowseFilters & {
   requestId: number;
   query: string;
   languageCodes: string[];

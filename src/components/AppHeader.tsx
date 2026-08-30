@@ -5,6 +5,7 @@ import {
   GearSix,
   MagnifyingGlass,
   Moon,
+  SlidersHorizontal,
   Star,
   Sun,
   UserCircle,
@@ -16,6 +17,13 @@ import { BrandLogo } from "@/components/BrandLogo";
 import { ProfileSummary } from "@/components/ProfileSummary";
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import { views, type ViewId, viewPath } from "@/lib/navigation";
+import {
+  catalogGenres,
+  defaultCatalogBrowseFilters,
+  hasActiveCatalogBrowseFilters,
+  updateCatalogBrowseFilter,
+} from "@/lib/catalogBrowse";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { fadeScale, quickSpring, smoothEase } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { TasteProfile } from "@/types";
@@ -30,12 +38,15 @@ type AppHeaderProps = {
   historyCount: number;
   watchlistCount: number;
   catalogCount: number;
+  browseFilters: CatalogBrowseFilters;
+  onBrowseFiltersChange: (filters: CatalogBrowseFilters) => void;
   onSearchChange: (value: string) => void;
   onToggleTheme: () => void;
 };
 
 export function AppHeader({
   activeView,
+  browseFilters,
   isDetailView,
   search,
   ratingLabel,
@@ -44,11 +55,13 @@ export function AppHeader({
   historyCount,
   watchlistCount,
   catalogCount,
+  onBrowseFiltersChange,
   onSearchChange,
   onToggleTheme,
 }: AppHeaderProps) {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const [isTasteProfileOpen, setIsTasteProfileOpen] = useState(false);
+  const [isSearchFiltersOpen, setIsSearchFiltersOpen] = useState(false);
   const [isHiddenOnScroll, setIsHiddenOnScroll] = useState(false);
   const shouldReduceMotion = useReducedMotion();
   const topbarY = isHiddenOnScroll ? "-101%" : "0%";
@@ -58,7 +71,7 @@ export function AppHeader({
     let lastScrollY = window.scrollY;
 
     function updateHeaderVisibility() {
-      if (!compactHeaderQuery.matches || isUserMenuOpen || isTasteProfileOpen) {
+      if (!compactHeaderQuery.matches || isUserMenuOpen || isTasteProfileOpen || isSearchFiltersOpen) {
         setIsHiddenOnScroll(false);
         lastScrollY = window.scrollY;
         return;
@@ -91,11 +104,12 @@ export function AppHeader({
       window.removeEventListener("scroll", updateHeaderVisibility);
       compactHeaderQuery.removeEventListener("change", handleViewportChange);
     };
-  }, [isTasteProfileOpen, isUserMenuOpen]);
+  }, [isSearchFiltersOpen, isTasteProfileOpen, isUserMenuOpen]);
 
   function closeMenusAfterNavigation() {
     setIsUserMenuOpen(false);
     setIsTasteProfileOpen(false);
+    setIsSearchFiltersOpen(false);
   }
 
   return (
@@ -125,14 +139,43 @@ export function AppHeader({
         ))}
       </nav>
 
-      <label className="search-box">
-        <MagnifyingGlass />
-        <input
-          value={search}
-          onChange={(event) => onSearchChange(event.target.value)}
-          placeholder="Search movies, actors, directors..."
-        />
-      </label>
+      <div className="search-area">
+        <div className="search-box">
+          <MagnifyingGlass />
+          <input
+            value={search}
+            aria-label="Search movies"
+            onChange={(event) => onSearchChange(event.target.value)}
+            placeholder="Search movies, actors, directors..."
+          />
+          <motion.button
+            type="button"
+            className={cn("search-filter-toggle", (isSearchFiltersOpen || hasActiveCatalogBrowseFilters(browseFilters)) && "is-active")}
+            aria-label="Browse and filter movies"
+            aria-expanded={isSearchFiltersOpen}
+            aria-haspopup="dialog"
+            onClick={() => {
+              setIsSearchFiltersOpen((isOpen) => !isOpen);
+              setIsUserMenuOpen(false);
+              setIsTasteProfileOpen(false);
+            }}
+            whileTap={shouldReduceMotion ? undefined : { scale: 0.94 }}
+          >
+            <SlidersHorizontal weight="bold" />
+            <span>Browse</span>
+          </motion.button>
+        </div>
+        <AnimatePresence>
+          {isSearchFiltersOpen ? (
+            <SearchBrowseMenu
+              filters={browseFilters}
+              onChange={onBrowseFiltersChange}
+              onClose={() => setIsSearchFiltersOpen(false)}
+              shouldReduceMotion={shouldReduceMotion}
+            />
+          ) : null}
+        </AnimatePresence>
+      </div>
 
       <div className="topbar-actions">
         <motion.button
@@ -167,6 +210,7 @@ export function AppHeader({
             onClick={() => {
               setIsTasteProfileOpen((isOpen) => !isOpen);
               setIsUserMenuOpen(false);
+              setIsSearchFiltersOpen(false);
             }}
             whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
             transition={quickSpring}
@@ -210,6 +254,7 @@ export function AppHeader({
             onClick={() => {
               setIsUserMenuOpen((isOpen) => !isOpen);
               setIsTasteProfileOpen(false);
+              setIsSearchFiltersOpen(false);
             }}
             whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
             transition={quickSpring}
@@ -252,5 +297,77 @@ export function AppHeader({
         </div>
       </div>
     </motion.header>
+  );
+}
+
+function SearchBrowseMenu({
+  filters,
+  onChange,
+  onClose,
+  shouldReduceMotion,
+}: {
+  filters: CatalogBrowseFilters;
+  onChange: (filters: CatalogBrowseFilters) => void;
+  onClose: () => void;
+  shouldReduceMotion?: boolean | null;
+}) {
+  function updateFilter(key: keyof CatalogBrowseFilters, value: string) {
+    onChange(updateCatalogBrowseFilter(filters, key, value));
+  }
+
+  return (
+    <motion.div className="search-browse-menu" role="dialog" aria-label="Browse and filter movies" {...fadeScale(shouldReduceMotion)}>
+      <div className="search-browse-menu__heading">
+        <div>
+          <strong>Browse the catalog</strong>
+          <span>Combine filters or use them without a search.</span>
+        </div>
+        <button type="button" onClick={onClose}>Done</button>
+      </div>
+      <div className="search-browse-menu__fields">
+        <label>
+          <span>Genre</span>
+          <select value={filters.genre} onChange={(event) => updateFilter("genre", event.target.value)}>
+            {catalogGenres.map((genre) => <option key={genre || "all"} value={genre}>{genre || "All genres"}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>Release era</span>
+          <select value={filters.era} onChange={(event) => updateFilter("era", event.target.value)}>
+            <option value="">Any time</option>
+            <option value="2020s">2020s</option>
+            <option value="2010s">2010s</option>
+            <option value="2000s">2000s</option>
+            <option value="classics">Before 2000</option>
+          </select>
+        </label>
+        <label>
+          <span>Runtime</span>
+          <select value={filters.runtime} onChange={(event) => updateFilter("runtime", event.target.value)}>
+            <option value="">Any length</option>
+            <option value="short">Under 90 min</option>
+            <option value="standard">90–120 min</option>
+            <option value="long">Over 120 min</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort by</span>
+          <select value={filters.sort} onChange={(event) => updateFilter("sort", event.target.value)}>
+            <option value="relevance">Best match</option>
+            <option value="newest">Newest</option>
+            <option value="top-rated">Top rated</option>
+            <option value="shortest">Shortest</option>
+          </select>
+        </label>
+      </div>
+      <button
+        type="button"
+        className="search-browse-menu__clear"
+        disabled={!hasActiveCatalogBrowseFilters(filters)}
+        onClick={() => onChange(defaultCatalogBrowseFilters)}
+      >
+        Clear filters
+      </button>
+    </motion.div>
   );
 }

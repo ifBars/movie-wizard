@@ -68,6 +68,11 @@ export type CatalogSearchEntry = [
   searchableText: string,
   originalLanguage: string,
   isAdult: 0 | 1,
+  year: number,
+  runtimeMinutes: number,
+  normalizedGenres: string,
+  criticalScore: number,
+  popularity: number,
 ];
 
 export type CatalogSearchPayload = {

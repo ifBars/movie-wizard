@@ -1,6 +1,8 @@
 import { useCallback, useMemo, useState } from "react";
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import { hasActiveCatalogBrowseFilters } from "@/lib/catalogBrowse";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { loadMoviesByIds } from "@/lib/catalogRepository";
 import { searchCatalog } from "@/lib/catalogSearchClient";
 import { buildDiscoverSections } from "@/lib/discoverSections";
@@ -11,16 +13,17 @@ export type CatalogViewData = ReturnType<typeof useCatalogViewData>;
 const searchPageSize = 24;
 
 type SearchResultState = {
-  query: string;
+  requestKey: string;
   movies: Movie[];
   total: number;
   limit: number;
 };
 
-export function useCatalogViewData(library: MovieLibrary, search: string) {
+export function useCatalogViewData(library: MovieLibrary, search: string, browseFilters: CatalogBrowseFilters) {
   const normalizedSearch = search.trim();
-  const [searchResults, setSearchResults] = useState<SearchResultState>({ query: "", movies: [], total: 0, limit: searchPageSize });
-  const requestedLimit = searchResults.query === normalizedSearch ? searchResults.limit : searchPageSize;
+  const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}`;
+  const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize });
+  const requestedLimit = searchResults.requestKey === requestKey ? searchResults.limit : searchPageSize;
   const discoverSections = useMemo(
     () =>
       buildDiscoverSections({
@@ -34,7 +37,7 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
   );
 
   useExternalSyncEffect(() => {
-    if (!normalizedSearch) {
+    if (!normalizedSearch && !hasActiveCatalogBrowseFilters(browseFilters)) {
       return;
     }
 
@@ -48,6 +51,7 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
 
     void searchCatalog({
       query: normalizedSearch,
+      ...browseFilters,
       languageCodes: library.settings.languageCodes,
       showAdultMovies: library.settings.showAdultMovies,
       excludedMovieIds,
@@ -56,34 +60,36 @@ export function useCatalogViewData(library: MovieLibrary, search: string) {
       .then(async (result) => ({ ...result, movies: await loadMoviesByIds(result.movieIds) }))
       .then((result) => {
         if (isCurrent) {
-          setSearchResults({ query: normalizedSearch, movies: result.movies, total: result.total, limit: requestedLimit });
+          setSearchResults({ requestKey, movies: result.movies, total: result.total, limit: requestedLimit });
         }
       })
       .catch(() => {
         if (isCurrent) {
-          setSearchResults({ query: normalizedSearch, movies: [], total: 0, limit: requestedLimit });
+          setSearchResults({ requestKey, movies: [], total: 0, limit: requestedLimit });
         }
       });
 
     return () => {
       isCurrent = false;
     };
-  }, [library.settings.languageCodes, library.settings.showAdultMovies, library.states, normalizedSearch, requestedLimit]);
+  }, [browseFilters, library.settings.languageCodes, library.settings.showAdultMovies, library.states, normalizedSearch, requestKey, requestedLimit]);
 
   const loadMoreSearchResults = useCallback(() => {
     setSearchResults((current) => ({
       ...current,
-      query: normalizedSearch,
-      limit: (current.query === normalizedSearch ? current.limit : searchPageSize) + searchPageSize,
+      requestKey,
+      limit: (current.requestKey === requestKey ? current.limit : searchPageSize) + searchPageSize,
     }));
-  }, [normalizedSearch]);
+  }, [requestKey]);
 
-  const hasCurrentSearchResults = searchResults.query === normalizedSearch;
+  const hasCurrentSearchResults = searchResults.requestKey === requestKey;
+  const isCatalogBrowseMode = normalizedSearch.length > 0 || hasActiveCatalogBrowseFilters(browseFilters);
 
   return {
     discoverSections,
     filteredCatalog: hasCurrentSearchResults ? searchResults.movies : [],
-    isSearchLoading: normalizedSearch.length > 0 && !hasCurrentSearchResults,
+    isCatalogBrowseMode,
+    isSearchLoading: isCatalogBrowseMode && !hasCurrentSearchResults,
     searchResultTotal: hasCurrentSearchResults ? searchResults.total : 0,
     loadMoreSearchResults,
   };

@@ -5,6 +5,7 @@ import { CatalogView } from "@/components/CatalogView";
 import type { CatalogViewData } from "@/hooks/useCatalogViewData";
 import type { ThemeMode } from "@/hooks/useThemeMode";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { ViewId } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -21,6 +22,7 @@ type AppMainContentProps = {
   onCloseMovie: () => void;
   onOpenMovie: (movieId: string) => void;
   search: string;
+  browseFilters: CatalogBrowseFilters;
   selectedMovie?: Movie;
   themeMode: ThemeMode;
   onThemeModeChange: (themeMode: ThemeMode) => void;
@@ -36,12 +38,13 @@ export function AppMainContent({
   onCloseMovie,
   onOpenMovie,
   onThemeModeChange,
+  browseFilters,
   search,
   selectedMovie,
   themeMode,
 }: AppMainContentProps) {
   const shouldReduceMotion = useReducedMotion();
-  const isSearchMode = search.trim().length > 0;
+  const isSearchMode = catalogData.isCatalogBrowseMode;
 
   return (
     <main
@@ -57,6 +60,7 @@ export function AppMainContent({
           <AppPage
             activeView={activeView}
             catalogData={catalogData}
+            browseFilters={browseFilters}
             isResolvingDetail={isResolvingDetail}
             library={library}
             onCloseMovie={onCloseMovie}
@@ -79,6 +83,7 @@ type AppPageProps = Omit<AppMainContentProps, "isDetailView" | "isInitialCatalog
 
 function AppPage({
   activeView,
+  browseFilters,
   catalogData,
   isResolvingDetail,
   library,
@@ -127,7 +132,7 @@ function AppPage({
     );
   }
 
-  if (search.trim() && catalogData.isSearchLoading && catalogData.filteredCatalog.length === 0) {
+  if (catalogData.isCatalogBrowseMode && catalogData.isSearchLoading && catalogData.filteredCatalog.length === 0) {
     return (
       <motion.div key="catalog-search-loading" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
         <CatalogLoadingState title="Searching movies" subtitle="Checking the complete local catalog." />
@@ -135,12 +140,13 @@ function AppPage({
     );
   }
 
-  if (search.trim()) {
+  if (catalogData.isCatalogBrowseMode) {
     return (
       <motion.div key="catalog-search" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
         <CatalogView
           activeView={activeView}
           search={search}
+          browseFilters={browseFilters}
           discoverSections={catalogData.discoverSections}
           filteredCatalog={catalogData.filteredCatalog}
           isSearchLoading={catalogData.isSearchLoading}
@@ -187,6 +193,7 @@ function AppPage({
       <CatalogView
         activeView={activeView}
         search={search}
+        browseFilters={browseFilters}
         discoverSections={catalogData.discoverSections}
         filteredCatalog={catalogData.filteredCatalog}
         isSearchLoading={catalogData.isSearchLoading}

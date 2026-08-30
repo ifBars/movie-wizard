@@ -37,6 +37,11 @@ async function main() {
   const movies: Movie[] = JSON.parse(await readFile(sourcePath, "utf8"));
   const generatedAt = new Date().toISOString();
 
+  if (process.argv.includes("--search-only")) {
+    await writeCompactJson(searchPath, buildSearchPayload(movies, generatedAt));
+    return;
+  }
+
   const indexPayload: CatalogIndexPayload = {
     version: 1,
     generatedAt,
@@ -55,16 +60,7 @@ async function main() {
     movies: Object.fromEntries(movies.map((movie) => [movie.id, toMovieDetails(movie)])),
   };
 
-  const searchPayload: CatalogSearchPayload = {
-    version: 1,
-    generatedAt,
-    movies: movies.map((movie) => [
-      movie.id,
-      getSearchableMovieText(movie, false),
-      movie.originalLanguage,
-      isAdultMovie(movie) ? 1 : 0,
-    ]),
-  };
+  const searchPayload = buildSearchPayload(movies, generatedAt);
 
   const manifestPayload: CatalogManifestPayload = {
     version: 1,
@@ -108,6 +104,24 @@ async function main() {
   await writeJson(detailsPath, detailsPayload);
   await writeMovieDetailShards(movies, generatedAt);
   await writeJson(manifestPath, manifestPayload);
+}
+
+function buildSearchPayload(movies: Movie[], generatedAt: string): CatalogSearchPayload {
+  return {
+    version: 1,
+    generatedAt,
+    movies: movies.map((movie) => [
+      movie.id,
+      getSearchableMovieText(movie, false),
+      movie.originalLanguage,
+      isAdultMovie(movie) ? 1 : 0,
+      movie.year,
+      movie.runtimeMinutes,
+      movie.genres.map((genre) => genre.toLowerCase()).join("|"),
+      movie.criticalScore,
+      movie.popularity,
+    ]),
+  };
 }
 
 function buildLanguageCounts(movies: Movie[]) {

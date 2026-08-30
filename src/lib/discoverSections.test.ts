@@ -18,8 +18,12 @@ describe("discover sections", () => {
     expect(sections.map((section) => section.key)).toContain("top-picks");
     expect(sections.map((section) => section.key)).toContain("recent-releases");
     expect(sections.map((section) => section.key)).toContain("comedy");
+    expect(sections.map((section) => section.key)).toContain("sad-movies");
+    expect(sections.map((section) => section.key)).toContain("action");
+    expect(sections.map((section) => section.key)).toContain("science-fiction");
+    expect(sections.map((section) => section.key)).toContain("thrillers");
     expect(sections.map((section) => section.key)).toContain("nostalgic");
-    expect(sections.length).toBeGreaterThan(4);
+    expect(sections.length).toBeGreaterThan(9);
   });
 
   test("keeps category sections specific and discoverable by key", () => {
@@ -29,10 +33,13 @@ describe("discover sections", () => {
       recommendations: getRecommendations(realCatalog, emptyStates),
     });
     const comedy = findDiscoverSection(sections, "comedy");
+    const sadMovies = findDiscoverSection(sections, "sad-movies");
     const nostalgic = findDiscoverSection(sections, "nostalgic");
 
     expect(comedy?.movies.length).toBeGreaterThan(10);
     expect(comedy?.movies.every((movie) => movie.genres.includes("Comedy"))).toBe(true);
+    expect(sadMovies?.movies.length).toBeGreaterThan(10);
+    expect(sadMovies?.movies.some((movie) => movie.tags.includes("grief"))).toBe(true);
     expect(nostalgic?.movies.some((movie) => movie.year <= 2005)).toBe(true);
   });
 

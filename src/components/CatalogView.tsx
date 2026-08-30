@@ -6,6 +6,7 @@ import { DiscoverPage, SearchResults } from "@/components/DiscoverPage";
 import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
+import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { DiscoverSection } from "@/lib/discoverSections";
 import type { ViewId } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
@@ -17,6 +18,7 @@ type CatalogLayout = "grid" | "row";
 type CatalogViewProps = {
   activeView: ViewId;
   search: string;
+  browseFilters: CatalogBrowseFilters;
   discoverSections: DiscoverSection[];
   filteredCatalog: Movie[];
   isSearchLoading: boolean;
@@ -29,6 +31,7 @@ type CatalogViewProps = {
 
 export function CatalogView({
   activeView,
+  browseFilters,
   search,
   discoverSections,
   filteredCatalog,
@@ -48,7 +51,7 @@ export function CatalogView({
       <section className="catalog-main">
         <AnimatePresence mode="popLayout" initial={false}>
           <motion.div key={`${activeView}-${trimmedSearch ? "search" : "default"}`} className="catalog-view-panel" {...pageFade(shouldReduceMotion)}>
-            {trimmedSearch ? (
+            {trimmedSearch || catalogDataIsFiltered(browseFilters) ? (
               <SearchResults
                 key={trimmedSearch}
                 filteredCatalog={filteredCatalog}
@@ -60,18 +63,15 @@ export function CatalogView({
                 onOpenMovie={onOpenMovie}
                 onPreloadMovieDetails={onPreloadMovieDetails}
                 totalResults={searchResultTotal}
+                browseFilters={browseFilters}
+                search={trimmedSearch}
               />
             ) : activeView === "discover" ? (
               <DiscoverPage
-                search={trimmedSearch}
-                filteredCatalog={filteredCatalog}
                 discoverSections={discoverSections}
-                isSearchLoading={isSearchLoading}
                 library={library}
-                onLoadMoreSearch={onLoadMoreSearch}
                 onOpenMovie={onOpenMovie}
                 onPreloadMovieDetails={onPreloadMovieDetails}
-                searchResultTotal={searchResultTotal}
               />
             ) : activeView === "history" ? (
               <HistoryMovies
@@ -93,6 +93,10 @@ export function CatalogView({
       </section>
     </div>
   );
+}
+
+function catalogDataIsFiltered(filters: CatalogBrowseFilters) {
+  return filters.genre !== "" || filters.era !== "" || filters.runtime !== "" || filters.sort !== "relevance";
 }
 
 function WatchlistMovies({
