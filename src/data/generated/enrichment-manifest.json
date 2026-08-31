@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-08-30T14:27:18.740Z",
+  "generatedAt": "2026-08-31T17:07:08.616Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-08-30T14:27:18.397Z",
+      "lastFetchedAt": "2026-08-31T17:07:08.229Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78125,7 +78125,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-08-30T14:27:18.440Z",
+      "lastFetchedAt": "2026-08-31T17:07:08.289Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -98520,6 +98520,12 @@
     "1599090": {
       "recordId": "skyscraper-live-2026",
       "lastFetchedAt": "2026-07-06T11:00:24.686Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1599993": {
+      "recordId": "animals-2026",
+      "lastFetchedAt": "2026-08-31T17:07:08.326Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
