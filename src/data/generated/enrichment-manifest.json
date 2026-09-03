@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-09-01T14:11:42.972Z",
+  "generatedAt": "2026-09-03T13:39:21.622Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-09-01T14:11:42.454Z",
+      "lastFetchedAt": "2026-09-03T13:39:21.269Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78125,7 +78125,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-09-01T14:11:42.577Z",
+      "lastFetchedAt": "2026-09-03T13:39:21.315Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -96912,6 +96912,12 @@
     "1384216": {
       "recordId": "the-dog-stars-2026",
       "lastFetchedAt": "2026-08-27T19:53:09.637Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1386315": {
+      "recordId": "the-runner-2026",
+      "lastFetchedAt": "2026-09-03T13:39:21.339Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T12:19:31.743Z",
+  "generatedAt": "2026-09-03T13:39:21.887Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -2342,6 +2342,41 @@
       },
       "synopsis": "Two teenage boys must escape a violent entity that takes the form of the person they desire most — each other."
     },
+    "the-runner-2026": {
+      "id": "the-runner-2026",
+      "crew": [
+        {
+          "name": "Kevin Macdonald",
+          "job": "Director"
+        },
+        {
+          "name": "Mark Gibson",
+          "job": "Writer"
+        },
+        {
+          "name": "David Kosse",
+          "job": "Producer"
+        },
+        {
+          "name": "Tom Hodge",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Anthony Dod Mantle",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Sam Rice-Edwards",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T13:39:21.339Z",
+        "tmdbVoteAverage": 6.054,
+        "tmdbVoteCount": 46
+      },
+      "synopsis": "Maia Marten, a brilliant London lawyer, has her life shattered by a single call on her morning run: her son has been taken. To get him back, she must keep running, obey every ruthless command, and trust no one-each second a test of how far a mother will go to save her child."
+    },
     "the-whisper-man-2026": {
       "id": "the-whisper-man-2026",
       "crew": [
@@ -3765,25 +3800,6 @@
       },
       "synopsis": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings."
     },
-    "animals-2026": {
-      "id": "animals-2026",
-      "crew": [
-        {
-          "name": "José Ramón Alama",
-          "job": "Director"
-        },
-        {
-          "name": "José Ramón Alama",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:24.411Z",
-        "tmdbVoteAverage": 6.294,
-        "tmdbVoteCount": 34
-      },
-      "synopsis": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships."
-    },
     "rita-2024": {
       "id": "rita-2024",
       "crew": [
@@ -3848,6 +3864,25 @@
         "tmdbVoteCount": 18
       },
       "synopsis": "Adult content creator Bonnie Blue announced that she’d slept with 1057 men in 12 hours. Exploring the polarising debate around Bonnie and the pornification of our society, the film follows her over the most eye-opening six months of her life."
+    },
+    "animals-2026": {
+      "id": "animals-2026",
+      "crew": [
+        {
+          "name": "José Ramón Alama",
+          "job": "Director"
+        },
+        {
+          "name": "José Ramón Alama",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:24.411Z",
+        "tmdbVoteAverage": 6.294,
+        "tmdbVoteCount": 34
+      },
+      "synopsis": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships."
     },
     "nymphomaniac-vol-ii-2013": {
       "id": "nymphomaniac-vol-ii-2013",
@@ -6753,29 +6788,6 @@
       },
       "synopsis": "With a loved one's life at stake, a celebrated lawyer must defend a man he suspects is guilty — battling his conscience every step of the way."
     },
-    "all-that-we-never-were-2026": {
-      "id": "all-that-we-never-were-2026",
-      "crew": [
-        {
-          "name": "Jorge Alonso",
-          "job": "Director"
-        },
-        {
-          "name": "Sara Belloso",
-          "job": "Writer"
-        },
-        {
-          "name": "Sergio de la Puente",
-          "job": "Original Music Composer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:24.469Z",
-        "tmdbVoteAverage": 8.1,
-        "tmdbVoteCount": 92
-      },
-      "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self."
-    },
     "crime-101-2026": {
       "id": "crime-101-2026",
       "crew": [
@@ -8375,6 +8387,29 @@
         "tmdbVoteCount": 19907
       },
       "synopsis": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life."
+    },
+    "all-that-we-never-were-2026": {
+      "id": "all-that-we-never-were-2026",
+      "crew": [
+        {
+          "name": "Jorge Alonso",
+          "job": "Director"
+        },
+        {
+          "name": "Sara Belloso",
+          "job": "Writer"
+        },
+        {
+          "name": "Sergio de la Puente",
+          "job": "Original Music Composer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:24.469Z",
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 92
+      },
+      "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self."
     },
     "heartstopper-forever-2026": {
       "id": "heartstopper-forever-2026",
@@ -46457,29 +46492,6 @@
       },
       "synopsis": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas."
     },
-    "summer-house-2026": {
-      "id": "summer-house-2026",
-      "crew": [
-        {
-          "name": "Erdem Tepegöz",
-          "job": "Director"
-        },
-        {
-          "name": "Aylin Alıveren",
-          "job": "Writer"
-        },
-        {
-          "name": "Aslı Ilgın Kopuz",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:24.618Z",
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 22
-      },
-      "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life."
-    },
     "the-mask-1994": {
       "id": "the-mask-1994",
       "crew": [
@@ -55184,6 +55196,29 @@
         "tmdbVoteCount": 10202
       },
       "synopsis": "A boy is given the ability to become an adult superhero in times of need with a single magic word."
+    },
+    "summer-house-2026": {
+      "id": "summer-house-2026",
+      "crew": [
+        {
+          "name": "Erdem Tepegöz",
+          "job": "Director"
+        },
+        {
+          "name": "Aylin Alıveren",
+          "job": "Writer"
+        },
+        {
+          "name": "Aslı Ilgın Kopuz",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:24.618Z",
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 22
+      },
+      "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life."
     },
     "the-lover-1992": {
       "id": "the-lover-1992",
@@ -85806,21 +85841,6 @@
       },
       "synopsis": "Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever."
     },
-    "new-golden-lotus-i-1996": {
-      "id": "new-golden-lotus-i-1996",
-      "crew": [
-        {
-          "name": "Tam Yui-Ming",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:24.729Z",
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "ramaiya-vastavaiya-2013": {
       "id": "ramaiya-vastavaiya-2013",
       "crew": [
@@ -93532,29 +93552,6 @@
         "tmdbVoteCount": 2793
       },
       "synopsis": "Paddington, now happily settled with the Browns, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy, but it is stolen."
-    },
-    "paw-patrol-mighty-pups-2018": {
-      "id": "paw-patrol-mighty-pups-2018",
-      "crew": [
-        {
-          "name": "Jonah Stroh",
-          "job": "Producer"
-        },
-        {
-          "name": "Jason McKenzie",
-          "job": "Producer"
-        },
-        {
-          "name": "Christina Sang St. Catherine",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:24.808Z",
-        "tmdbVoteAverage": 7.53,
-        "tmdbVoteCount": 591
-      },
-      "synopsis": "When their latest scheme goes awry, Mayor Humdinger and his nephew Harold accidentally divert a meteor towards Adventure Bay. The meteor's golden energy grants the PAW Patrol superpowers. The heroic Mighty Pups are on a roll to super-save the day."
     },
     "spartacus-1960": {
       "id": "spartacus-1960",
@@ -109265,6 +109262,21 @@
       },
       "synopsis": "Anthology movie, three stories about marriages in crisis."
     },
+    "new-golden-lotus-i-1996": {
+      "id": "new-golden-lotus-i-1996",
+      "crew": [
+        {
+          "name": "Tam Yui-Ming",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:24.729Z",
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "No synopsis is available yet."
+    },
     "open-season-2006": {
       "id": "open-season-2006",
       "crew": [
@@ -121081,6 +121093,44 @@
       },
       "synopsis": "Members of the Granite Mountain Hotshots battle deadly wildfires to save an Arizona town."
     },
+    "paw-patrol-mighty-pups-2018": {
+      "id": "paw-patrol-mighty-pups-2018",
+      "crew": [
+        {
+          "name": "Jonah Stroh",
+          "job": "Producer"
+        },
+        {
+          "name": "Jason McKenzie",
+          "job": "Producer"
+        },
+        {
+          "name": "Christina Sang St. Catherine",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:24.808Z",
+        "tmdbVoteAverage": 7.53,
+        "tmdbVoteCount": 591
+      },
+      "synopsis": "When their latest scheme goes awry, Mayor Humdinger and his nephew Harold accidentally divert a meteor towards Adventure Bay. The meteor's golden energy grants the PAW Patrol superpowers. The heroic Mighty Pups are on a roll to super-save the day."
+    },
+    "picardia-mexicana-1978": {
+      "id": "picardia-mexicana-1978",
+      "crew": [
+        {
+          "name": "Abel Salazar",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:25.405Z",
+        "tmdbVoteAverage": 7.506,
+        "tmdbVoteCount": 79
+      },
+      "synopsis": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language."
+    },
     "rurouni-kenshin-part-i-origins-2012": {
       "id": "rurouni-kenshin-part-i-origins-2012",
       "crew": [
@@ -127246,49 +127296,6 @@
         "tmdbVoteCount": 3356
       },
       "synopsis": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation."
-    },
-    "maternal-instinct-2026": {
-      "id": "maternal-instinct-2026",
-      "crew": [
-        {
-          "name": "Jessica Dimmock",
-          "job": "Director"
-        },
-        {
-          "name": "Jon Bardin",
-          "job": "Producer"
-        },
-        {
-          "name": "Samantha DeMaria",
-          "job": "Producer"
-        },
-        {
-          "name": "Joshua Levine",
-          "job": "Producer"
-        },
-        {
-          "name": "Jimmy Stofer",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Jarred Alterman",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Jeff Hutchens",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Carter Gunn",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:25.003Z",
-        "tmdbVoteAverage": 7.115,
-        "tmdbVoteCount": 126
-      },
-      "synopsis": "Police pull over a woman who claims she just gave birth. But the baby — and the blood — aren't hers. Twisted lies unravel in this true-crime documentary."
     },
     "midway-2019": {
       "id": "midway-2019",
@@ -167271,21 +167278,6 @@
       },
       "synopsis": "A chance encounter with a stranger changes the life of a college gymnast."
     },
-    "picardia-mexicana-1978": {
-      "id": "picardia-mexicana-1978",
-      "crew": [
-        {
-          "name": "Abel Salazar",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:25.405Z",
-        "tmdbVoteAverage": 7.506,
-        "tmdbVoteCount": 79
-      },
-      "synopsis": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language."
-    },
     "prison-break-the-final-break-2009": {
       "id": "prison-break-the-final-break-2009",
       "crew": [
@@ -177164,6 +177156,49 @@
         "tmdbVoteCount": 3570
       },
       "synopsis": "Five years after meeting her three fathers, Sophie Sheridan prepares to open her mother’s hotel. In 1979, young Donna Sheridan meets the men who each could be Sophie’s biological father."
+    },
+    "maternal-instinct-2026": {
+      "id": "maternal-instinct-2026",
+      "crew": [
+        {
+          "name": "Jessica Dimmock",
+          "job": "Director"
+        },
+        {
+          "name": "Jon Bardin",
+          "job": "Producer"
+        },
+        {
+          "name": "Samantha DeMaria",
+          "job": "Producer"
+        },
+        {
+          "name": "Joshua Levine",
+          "job": "Producer"
+        },
+        {
+          "name": "Jimmy Stofer",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Jarred Alterman",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Jeff Hutchens",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Carter Gunn",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:25.003Z",
+        "tmdbVoteAverage": 7.115,
+        "tmdbVoteCount": 126
+      },
+      "synopsis": "Police pull over a woman who claims she just gave birth. But the baby — and the blood — aren't hers. Twisted lies unravel in this true-crime documentary."
     },
     "mononoke-the-movie-the-phantom-in-the-rain-2024": {
       "id": "mononoke-the-movie-the-phantom-in-the-rain-2024",
@@ -192187,33 +192222,6 @@
       },
       "synopsis": "In the year 1971, former Korean Air Force fighter pilot Tae-In (Ha Jung-Woo) works as a pilot for a commercial airline. He faces a crisis inside a hijacked flight with the passengers, including Yong-Dae (Yeo Jin-Goo), and his crew members, including Captain Kyu-Sik (Sung Dong-Il) and Flight Attendant Ok-Soon (Chae Soo-Bin)."
     },
-    "hors-limites-2024": {
-      "id": "hors-limites-2024",
-      "crew": [
-        {
-          "name": "Eric Valette",
-          "job": "Director"
-        },
-        {
-          "name": "Philippe Bernard",
-          "job": "Screenplay"
-        },
-        {
-          "name": "David Neiss",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Elizabeth Arnac",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:26.271Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "hunting-grounds-2025": {
       "id": "hunting-grounds-2025",
       "crew": [
@@ -202935,33 +202943,6 @@
         "tmdbVoteCount": 1784
       },
       "synopsis": "A high school slacker who's rejected by every school he applies to opts to create his own institution of higher learning, the South Harmon Institute of Technology, on a rundown piece of property near his hometown."
-    },
-    "alien-from-the-darkness-1997": {
-      "id": "alien-from-the-darkness-1997",
-      "crew": [
-        {
-          "name": "Norio Takanami",
-          "job": "Director"
-        },
-        {
-          "name": "Shino Taira",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Saburo Omiya",
-          "job": "Producer"
-        },
-        {
-          "name": "Yosuke Moriguchi",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:25.313Z",
-        "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 15
-      },
-      "synopsis": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a young woman named Flair, and detonate the ghost ship. However, the danger is just beginning. With Flair on the Muse, the romances between the women begin to take a new turn. One by one, the crewmembers are attacked by a mysterious alien presence, desperate to find a way to reproduce with human women!"
     },
     "along-came-a-spider-2001": {
       "id": "along-came-a-spider-2001",
@@ -234026,57 +234007,6 @@
       },
       "synopsis": "Mixed-up model and bar hostess Kotoko sleeps with her coworker Genki, but can't seem to let herself sleep with the guy she really likes."
     },
-    "in-security-2014": {
-      "id": "in-security-2014",
-      "crew": [
-        {
-          "name": "Evan Beamer",
-          "job": "Director"
-        },
-        {
-          "name": "Evan Beamer",
-          "job": "Writer"
-        },
-        {
-          "name": "Adam Beamer",
-          "job": "Director"
-        },
-        {
-          "name": "Adam Beamer",
-          "job": "Writer"
-        },
-        {
-          "name": "Craig Hildebrand",
-          "job": "Writer"
-        },
-        {
-          "name": "Heath Cullens",
-          "job": "Producer"
-        },
-        {
-          "name": "Tiago Mesquita",
-          "job": "Producer"
-        },
-        {
-          "name": "Ross Otterman",
-          "job": "Producer"
-        },
-        {
-          "name": "Ben Zarai",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Akis Konstantakopoulos",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:26.317Z",
-        "tmdbVoteAverage": 5,
-        "tmdbVoteCount": 18
-      },
-      "synopsis": "The owners of a failing security company start robbing houses to boost business."
-    },
     "the-dentist-2-1998": {
       "id": "the-dentist-2-1998",
       "crew": [
@@ -238399,41 +238329,6 @@
         "tmdbVoteCount": 40
       },
       "synopsis": "Soo Yeon decides to commit suicide to end the bullying she goes through at school, when a savior appears. A woman punishes the bullies on behalf of Soo Yeon and saves her from the reality of hell."
-    },
-    "far-from-the-tree-2021": {
-      "id": "far-from-the-tree-2021",
-      "crew": [
-        {
-          "name": "Natalie Nourigat",
-          "job": "Director"
-        },
-        {
-          "name": "Natalie Nourigat",
-          "job": "Writer"
-        },
-        {
-          "name": "Ruth Strother",
-          "job": "Producer"
-        },
-        {
-          "name": "Nami Melumad",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Jeff Draheim",
-          "job": "Editor"
-        },
-        {
-          "name": "Fabienne Rawley",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:27.322Z",
-        "tmdbVoteAverage": 8.071,
-        "tmdbVoteCount": 393
-      },
-      "synopsis": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe."
     },
     "love-hurts-2002": {
       "id": "love-hurts-2002",
@@ -244934,45 +244829,6 @@
       },
       "synopsis": "With the help of the \"Dragon Sin of Wrath\" Meliodas and the worst rebels in history, the Seven Deadly Sins, the \"Holy War\", in which four races, including Humans, Goddesses, Fairies and Giants fought against the Demons, is finally over. At the cost of the \"Lion Sin of Pride\" Escanor's life, the Demon King was defeated and the world regained peace. After that, each of the Sins take their own path."
     },
-    "the-storyteller-2024": {
-      "id": "the-storyteller-2024",
-      "crew": [
-        {
-          "name": "Philippe Lefebvre",
-          "job": "Director"
-        },
-        {
-          "name": "François-Henri Désérable",
-          "job": "Writer"
-        },
-        {
-          "name": "Maria Pourchet",
-          "job": "Writer"
-        },
-        {
-          "name": "Médéric Albouy",
-          "job": "Producer"
-        },
-        {
-          "name": "Xavier Rigault",
-          "job": "Producer"
-        },
-        {
-          "name": "Marc-Antoine Robert",
-          "job": "Producer"
-        },
-        {
-          "name": "Aurélien Dubois",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:27.359Z",
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "the-trial-of-the-chicago-7-2020": {
       "id": "the-trial-of-the-chicago-7-2020",
       "crew": [
@@ -246288,33 +246144,6 @@
         "tmdbVoteCount": 78
       },
       "synopsis": "A cash-strapped bank cashier embarks on a risky investment scheme and soon gets drawn into the murky world of money laundering."
-    },
-    "mad-e-in-bangladesh-2006": {
-      "id": "mad-e-in-bangladesh-2006",
-      "crew": [
-        {
-          "name": "Mostofa Sarwar Farooki",
-          "job": "Director"
-        },
-        {
-          "name": "Mostofa Sarwar Farooki",
-          "job": "Writer"
-        },
-        {
-          "name": "Anisul Hoque",
-          "job": "Writer"
-        },
-        {
-          "name": "Saiful Islam Badal",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:27.400Z",
-        "tmdbVoteAverage": 7.615,
-        "tmdbVoteCount": 13
-      },
-      "synopsis": "An apparently passive young man comes to Dhaka from a rural area looking for a job and a better life."
     },
     "maurice-1987": {
       "id": "maurice-1987",
@@ -261352,37 +261181,6 @@
       },
       "synopsis": "29 years since the Black Flame Candle was last lit, the 17th-century Sanderson sisters are resurrected, and they are looking for revenge. Now it's up to three high school students to stop the ravenous witches from wreaking a new kind of havoc on Salem before dawn on All Hallow's Eve."
     },
-    "inception-the-cobol-job-2010": {
-      "id": "inception-the-cobol-job-2010",
-      "crew": [
-        {
-          "name": "Ian Kirby",
-          "job": "Producer"
-        },
-        {
-          "name": "Ian Kirby",
-          "job": "Director"
-        },
-        {
-          "name": "Jordan Goldberg",
-          "job": "Writer"
-        },
-        {
-          "name": "Caleb Bouchard",
-          "job": "Producer"
-        },
-        {
-          "name": "Daniel Sioui",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:26.653Z",
-        "tmdbVoteAverage": 7.248,
-        "tmdbVoteCount": 317
-      },
-      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
-    },
     "inside-llewyn-davis-2013": {
       "id": "inside-llewyn-davis-2013",
       "crew": [
@@ -273129,6 +272927,37 @@
         "tmdbVoteCount": 109
       },
       "synopsis": "Ho Kam-An is a lovestruck dim sum delivery boy who falls for a beautiful judo student. After being humiliated by her boyfriend, Ho Kam-An seeks the services of an aging master who teaches him a half-assed style of kung fu, \"Karate Kid\"-style."
+    },
+    "luxo-jr-1986": {
+      "id": "luxo-jr-1986",
+      "crew": [
+        {
+          "name": "John Lasseter",
+          "job": "Producer"
+        },
+        {
+          "name": "John Lasseter",
+          "job": "Director"
+        },
+        {
+          "name": "William Reeves",
+          "job": "Producer"
+        },
+        {
+          "name": "Don Conway",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Craig Good",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:27.237Z",
+        "tmdbVoteAverage": 7.048,
+        "tmdbVoteCount": 682
+      },
+      "synopsis": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger."
     },
     "maggie-simpson-in-the-longest-daycare-2012": {
       "id": "maggie-simpson-in-the-longest-daycare-2012",
@@ -290607,6 +290436,33 @@
       },
       "synopsis": "An urgent phone call pulls a Yale Law student back to his Ohio hometown, where he reflects on three generations of family history and his own future."
     },
+    "hors-limites-2024": {
+      "id": "hors-limites-2024",
+      "crew": [
+        {
+          "name": "Eric Valette",
+          "job": "Director"
+        },
+        {
+          "name": "Philippe Bernard",
+          "job": "Screenplay"
+        },
+        {
+          "name": "David Neiss",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Elizabeth Arnac",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:26.271Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "No synopsis is available yet."
+    },
     "idli-kadai-2025": {
       "id": "idli-kadai-2025",
       "crew": [
@@ -294253,53 +294109,6 @@
         "tmdbVoteCount": 322
       },
       "synopsis": "Dawn thinks she's joining a dating show in Paris, France, only to land in Paris, Texas. She has an exit plan — until sparks fly with the cowboy bachelor."
-    },
-    "tiger-wolf-rabbit-2024": {
-      "id": "tiger-wolf-rabbit-2024",
-      "crew": [
-        {
-          "name": "Guo Shubo",
-          "job": "Director"
-        },
-        {
-          "name": "Shang Ke",
-          "job": "Writer"
-        },
-        {
-          "name": "Fu Ruoqing",
-          "job": "Producer"
-        },
-        {
-          "name": "Zhang Dayong",
-          "job": "Producer"
-        },
-        {
-          "name": "Zhang Huixia",
-          "job": "Producer"
-        },
-        {
-          "name": "Hu Xiao'ou",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Du Jie",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Cheung Ka-Fai",
-          "job": "Editor"
-        },
-        {
-          "name": "Guangwei Du",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:27.448Z",
-        "tmdbVoteAverage": 6.722,
-        "tmdbVoteCount": 18
-      },
-      "synopsis": "Three parents who have lost their children are involved with each other because of a deal; they have no soul in their eyes and hatred in their hearts, and each of them, with their own purposes, set out on the road of seeking revenge for their children, and staged a bizarre and dangerous killing in the barren land."
     },
     "tristan-and-isolde-2006": {
       "id": "tristan-and-isolde-2006",
@@ -309397,6 +309206,33 @@
         "tmdbVoteCount": 193
       },
       "synopsis": "After an unexpected break up, a travel executive accepts an assignment to go undercover and learn about the tourist industry in Vietnam. Along the way, she finds adventure and romance with her Vietnamese expat tour guide and they decide to hijack the tour bus in order to explore life and love off the beaten path."
+    },
+    "alien-from-the-darkness-1997": {
+      "id": "alien-from-the-darkness-1997",
+      "crew": [
+        {
+          "name": "Norio Takanami",
+          "job": "Director"
+        },
+        {
+          "name": "Shino Taira",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Saburo Omiya",
+          "job": "Producer"
+        },
+        {
+          "name": "Yosuke Moriguchi",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:25.313Z",
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 15
+      },
+      "synopsis": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a young woman named Flair, and detonate the ghost ship. However, the danger is just beginning. With Flair on the Muse, the romances between the women begin to take a new turn. One by one, the crewmembers are attacked by a mysterious alien presence, desperate to find a way to reproduce with human women!"
     },
     "all-of-you-2025": {
       "id": "all-of-you-2025",
@@ -371553,6 +371389,57 @@
       },
       "synopsis": "During the Cold War, an organization called \"Patriot\" created a superhero squad, which includes members of multiple Soviet republics. For years, the heroes had to hide their identities, but, in hard times, they must show themselves again."
     },
+    "in-security-2014": {
+      "id": "in-security-2014",
+      "crew": [
+        {
+          "name": "Evan Beamer",
+          "job": "Director"
+        },
+        {
+          "name": "Evan Beamer",
+          "job": "Writer"
+        },
+        {
+          "name": "Adam Beamer",
+          "job": "Director"
+        },
+        {
+          "name": "Adam Beamer",
+          "job": "Writer"
+        },
+        {
+          "name": "Craig Hildebrand",
+          "job": "Writer"
+        },
+        {
+          "name": "Heath Cullens",
+          "job": "Producer"
+        },
+        {
+          "name": "Tiago Mesquita",
+          "job": "Producer"
+        },
+        {
+          "name": "Ross Otterman",
+          "job": "Producer"
+        },
+        {
+          "name": "Ben Zarai",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Akis Konstantakopoulos",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:26.317Z",
+        "tmdbVoteAverage": 5,
+        "tmdbVoteCount": 18
+      },
+      "synopsis": "The owners of a failing security company start robbing houses to boost business."
+    },
     "jonah-hex-2010": {
       "id": "jonah-hex-2010",
       "crew": [
@@ -377143,6 +377030,41 @@
         "tmdbVoteCount": 461
       },
       "synopsis": "In a chaotic 19th-century Paris teeming with aristocrats, thieves, psychics, and courtesans, theater mime Baptiste is in love with the mysterious actress Garance. But Garance, in turn, is loved by three other men: pretentious actor Frederick, conniving thief Lacenaire, and Count Edouard of Montray."
+    },
+    "far-from-the-tree-2021": {
+      "id": "far-from-the-tree-2021",
+      "crew": [
+        {
+          "name": "Natalie Nourigat",
+          "job": "Director"
+        },
+        {
+          "name": "Natalie Nourigat",
+          "job": "Writer"
+        },
+        {
+          "name": "Ruth Strother",
+          "job": "Producer"
+        },
+        {
+          "name": "Nami Melumad",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Jeff Draheim",
+          "job": "Editor"
+        },
+        {
+          "name": "Fabienne Rawley",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:27.322Z",
+        "tmdbVoteAverage": 8.071,
+        "tmdbVoteCount": 393
+      },
+      "synopsis": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe."
     },
     "my-friends-1975": {
       "id": "my-friends-1975",
@@ -385593,6 +385515,45 @@
       },
       "synopsis": "When his partner Sek dies, Thongkam loses his property to his late love's eager family and must fight to reclaim the home they built together."
     },
+    "the-storyteller-2024": {
+      "id": "the-storyteller-2024",
+      "crew": [
+        {
+          "name": "Philippe Lefebvre",
+          "job": "Director"
+        },
+        {
+          "name": "François-Henri Désérable",
+          "job": "Writer"
+        },
+        {
+          "name": "Maria Pourchet",
+          "job": "Writer"
+        },
+        {
+          "name": "Médéric Albouy",
+          "job": "Producer"
+        },
+        {
+          "name": "Xavier Rigault",
+          "job": "Producer"
+        },
+        {
+          "name": "Marc-Antoine Robert",
+          "job": "Producer"
+        },
+        {
+          "name": "Aurélien Dubois",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:27.359Z",
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
+      },
+      "synopsis": "No synopsis is available yet."
+    },
     "the-straight-story-1999": {
       "id": "the-straight-story-1999",
       "crew": [
@@ -387311,6 +387272,33 @@
         "tmdbVoteCount": 177
       },
       "synopsis": "A young woman leaves the city to return to her hometown in the countryside. Seeking to escape the hustle and bustle of the city, she becomes self-sufficient in a bid to reconnect with nature."
+    },
+    "mad-e-in-bangladesh-2006": {
+      "id": "mad-e-in-bangladesh-2006",
+      "crew": [
+        {
+          "name": "Mostofa Sarwar Farooki",
+          "job": "Director"
+        },
+        {
+          "name": "Mostofa Sarwar Farooki",
+          "job": "Writer"
+        },
+        {
+          "name": "Anisul Hoque",
+          "job": "Writer"
+        },
+        {
+          "name": "Saiful Islam Badal",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:27.400Z",
+        "tmdbVoteAverage": 7.615,
+        "tmdbVoteCount": 13
+      },
+      "synopsis": "An apparently passive young man comes to Dhaka from a rural area looking for a job and a better life."
     },
     "made-in-abyss-journey-s-dawn-2019": {
       "id": "made-in-abyss-journey-s-dawn-2019",
@@ -407960,6 +407948,37 @@
       },
       "synopsis": "A family of Irish immigrants adjusts to life on the mean streets of Hell's Kitchen while also grieving the death of a child."
     },
+    "inception-the-cobol-job-2010": {
+      "id": "inception-the-cobol-job-2010",
+      "crew": [
+        {
+          "name": "Ian Kirby",
+          "job": "Producer"
+        },
+        {
+          "name": "Ian Kirby",
+          "job": "Director"
+        },
+        {
+          "name": "Jordan Goldberg",
+          "job": "Writer"
+        },
+        {
+          "name": "Caleb Bouchard",
+          "job": "Producer"
+        },
+        {
+          "name": "Daniel Sioui",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:26.653Z",
+        "tmdbVoteAverage": 7.248,
+        "tmdbVoteCount": 317
+      },
+      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
+    },
     "intimate-strangers-2018": {
       "id": "intimate-strangers-2018",
       "crew": [
@@ -412274,33 +412293,6 @@
         "tmdbVoteCount": 949
       },
       "synopsis": "In 1944, a courageous group of Russian soldiers managed to escape from German captivity in a half-destroyed legendary T-34 tank. Those were the times of unforgettable bravery, fierce fighting, unbreakable love, and legendary miracles."
-    },
-    "12-days-2017": {
-      "id": "12-days-2017",
-      "crew": [
-        {
-          "name": "Raymond Depardon",
-          "job": "Director"
-        },
-        {
-          "name": "Claudine Nougaret",
-          "job": "Producer"
-        },
-        {
-          "name": "Alexandre Desplat",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Simon Jacquet",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:29.030Z",
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
-      },
-      "synopsis": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet."
     },
     "3-women-1977": {
       "id": "3-women-1977",
@@ -423607,37 +423599,6 @@
         "tmdbVoteCount": 33
       },
       "synopsis": "A woman diagnosed with leukemia meets a Chinese-Scottish sailor who she loses contact with. In order to find him she enlists Worm, a man who runs a “lost and found” business, and the two set out to find what she’s looking for."
-    },
-    "luxo-jr-1986": {
-      "id": "luxo-jr-1986",
-      "crew": [
-        {
-          "name": "John Lasseter",
-          "job": "Producer"
-        },
-        {
-          "name": "John Lasseter",
-          "job": "Director"
-        },
-        {
-          "name": "William Reeves",
-          "job": "Producer"
-        },
-        {
-          "name": "Don Conway",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Craig Good",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:27.237Z",
-        "tmdbVoteAverage": 7.048,
-        "tmdbVoteCount": 682
-      },
-      "synopsis": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger."
     },
     "mary-shelley-2017": {
       "id": "mary-shelley-2017",
@@ -451903,21 +451864,6 @@
       },
       "synopsis": "When a drug to replicate plant cells creates a sentient form of flower, the planet is over taken by flora and humankind is depleted. A Chinese task force, a widowed father and his young daughter fight to survive in a mission to inject an antidote to the core of the plants to reverse their growth."
     },
-    "return-2008": {
-      "id": "return-2008",
-      "crew": [
-        {
-          "name": "Anna Błaszczyk",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:29.614Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 582
-      },
-      "synopsis": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to Earth after many years away."
-    },
     "ride-or-die-2021": {
       "id": "ride-or-die-2021",
       "crew": [
@@ -454745,6 +454691,53 @@
         "tmdbVoteCount": 329
       },
       "synopsis": "On his first day after being released from jail for 14 armed bank robberies, Lucas finds himself caught up in someone else's robbery. Perry has decided to hold up the local bank to raise money so that he can keep his daughter, Meg, and get her the treatment she needs. Dugan, a detective, assumes Lucas helped plan the robbery, and hence Lucas, Perry and Meg become three fugitives."
+    },
+    "tiger-wolf-rabbit-2024": {
+      "id": "tiger-wolf-rabbit-2024",
+      "crew": [
+        {
+          "name": "Guo Shubo",
+          "job": "Director"
+        },
+        {
+          "name": "Shang Ke",
+          "job": "Writer"
+        },
+        {
+          "name": "Fu Ruoqing",
+          "job": "Producer"
+        },
+        {
+          "name": "Zhang Dayong",
+          "job": "Producer"
+        },
+        {
+          "name": "Zhang Huixia",
+          "job": "Producer"
+        },
+        {
+          "name": "Hu Xiao'ou",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Du Jie",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Cheung Ka-Fai",
+          "job": "Editor"
+        },
+        {
+          "name": "Guangwei Du",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:27.448Z",
+        "tmdbVoteAverage": 6.722,
+        "tmdbVoteCount": 18
+      },
+      "synopsis": "Three parents who have lost their children are involved with each other because of a deal; they have no soul in their eyes and hatred in their hearts, and each of them, with their own purposes, set out on the road of seeking revenge for their children, and staged a bizarre and dangerous killing in the barren land."
     },
     "time-2020": {
       "id": "time-2020",
@@ -508599,25 +508592,6 @@
         "tmdbVoteCount": 480
       },
       "synopsis": "A couple off for a romantic weekend in the mountains are accosted by a biker gang. Alone in the mountains, Brea and John must defend themselves against the gang, who will stop at nothing to protect their secrets."
-    },
-    "trainwreck-the-cult-of-american-apparel-2025": {
-      "id": "trainwreck-the-cult-of-american-apparel-2025",
-      "crew": [
-        {
-          "name": "Sally Rose Griffiths",
-          "job": "Director"
-        },
-        {
-          "name": "Ben Rumney",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-03T12:19:29.223Z",
-        "tmdbVoteAverage": 6.115,
-        "tmdbVoteCount": 39
-      },
-      "synopsis": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop."
     },
     "tremors-shrieker-island-2020": {
       "id": "tremors-shrieker-island-2020",
@@ -591549,6 +591523,33 @@
       },
       "synopsis": "After dedicating the season to a teammate’s ailing father, a group of underestimated Ft. Worth youth baseball players takes its Cinderella run all the way to the 2002 Little League World Series—culminating in a record-breaking showdown that became an instant ESPN classic."
     },
+    "12-days-2017": {
+      "id": "12-days-2017",
+      "crew": [
+        {
+          "name": "Raymond Depardon",
+          "job": "Director"
+        },
+        {
+          "name": "Claudine Nougaret",
+          "job": "Producer"
+        },
+        {
+          "name": "Alexandre Desplat",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Simon Jacquet",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:29.030Z",
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
+      },
+      "synopsis": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet."
+    },
     "20-000-species-of-bees-2023": {
       "id": "20-000-species-of-bees-2023",
       "crew": [
@@ -620669,6 +620670,21 @@
         "tmdbVoteCount": 460
       },
       "synopsis": "While Carlos, a banking executive, takes his two kids to school in his car, he gets a phone call telling him that there is a bomb under the seats and he must to gather a large amount of money; otherwise, his car will blow up."
+    },
+    "return-2008": {
+      "id": "return-2008",
+      "crew": [
+        {
+          "name": "Anna Błaszczyk",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:29.614Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 582
+      },
+      "synopsis": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to Earth after many years away."
     },
     "return-of-special-forces-5-2021": {
       "id": "return-of-special-forces-5-2021",
@@ -659953,6 +659969,25 @@
         "tmdbVoteCount": 59
       },
       "synopsis": "Fresh out of prison, a former debt collector working for a gangland boss is told he has a terminal brain tumour. In an attempt to atone for his past he rescues a young girl from trafficking, forcing him into a deadly game of cat-and-mouse with his boss."
+    },
+    "trainwreck-the-cult-of-american-apparel-2025": {
+      "id": "trainwreck-the-cult-of-american-apparel-2025",
+      "crew": [
+        {
+          "name": "Sally Rose Griffiths",
+          "job": "Director"
+        },
+        {
+          "name": "Ben Rumney",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-03T12:19:29.223Z",
+        "tmdbVoteAverage": 6.115,
+        "tmdbVoteCount": 39
+      },
+      "synopsis": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop."
     },
     "trophy-wife-2010": {
       "id": "trophy-wife-2010",
