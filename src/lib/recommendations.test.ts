@@ -1,7 +1,7 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test, vi } from "vitest";
 import generatedMovies from "@/data/generated/movies.json";
 import { filterAdultMovies } from "@/lib/adultMovies";
-import { buildTasteProfile, getRecommendations } from "@/lib/recommendations";
+import { buildTasteProfile, createRecommendationSelector, getRecommendations } from "@/lib/recommendations";
 import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
 import type { Movie, MovieStateMap, Rating } from "@/types";
 
@@ -246,6 +246,59 @@ describe("movie recommendations", () => {
 
     expect(recommendations[0].movie.id).toBe("collaborative-pick");
     expect(recommendations[0].reasons[0]).toContain("viewers who also liked rated-source");
+  });
+
+  test("reads collaborative neighbors once per rated source across candidates and filtered shelves", () => {
+    const sources = Array.from({ length: 20 }, (_, i) => createMovie({ id: `source-${i}`, genres: ["Drama"], tags: [] }));
+    const candidates = Array.from({ length: 80 }, (_, i) => createMovie({ id: `candidate-${i}`, genres: ["Drama"], tags: [] }));
+    const states = createStates(sources.map((movie) => [movie.id, 5]));
+    const model = new Map(sources.map((movie) => [movie.id, candidates.map((candidate) => ({ movieId: candidate.id, similarity: 0.1, support: 5 }))]));
+    const getNeighbors = vi.spyOn(model, "get");
+    const select = createRecommendationSelector([...sources, ...candidates], states, model);
+
+    expect(select()).toHaveLength(candidates.length);
+    expect(select({ candidateFilter: (movie) => movie.id.endsWith("0") })).toHaveLength(8);
+    expect(getNeighbors).toHaveBeenCalledTimes(sources.length);
+  });
+
+  test("indexes liked features instead of rereading every liked movie for every candidate", () => {
+    const source = createMovie({ id: "source", genres: ["Drama"], tags: [] });
+    const readDirectors = vi.fn(() => ["Director"]);
+    Object.defineProperty(source, "directors", { get: readDirectors });
+    const candidates = Array.from({ length: 1000 }, (_, i) => createMovie({ id: `candidate-${i}`, genres: ["Drama"], tags: [] }));
+    getRecommendations([source, ...candidates], createStates([[source.id, 5]]));
+    expect(readDirectors.mock.calls.length).toBeLessThanOrEqual(4);
+  });
+
+  test("keeps the first collaborative edge and first equally strong explanation source", () => {
+    const catalog = ["first", "second", "pick"].map((id) => createMovie({ id, genres: ["Drama"], tags: [] }));
+    const states = createStates([["first", 5], ["second", 5], ["outside-catalog", 1]]);
+    const model = new Map([
+      ["first", [{ movieId: "pick", similarity: 0.3, support: 4 }]],
+      ["second", [{ movieId: "pick", similarity: 0.3, support: 4 }]],
+      ["outside-catalog", [{ movieId: "pick", similarity: 0.1, support: 4 }]],
+    ]);
+    const expected = getRecommendations(catalog, states, {}, model);
+    model.get("first")?.push({ movieId: "pick", similarity: 0.9, support: 5 });
+
+    expect(getRecommendations(catalog, states, {}, model)).toEqual(expected);
+    expect(expected[0].reasons[0]).toContain("viewers who also liked first");
+  });
+
+  test("deduplicates related movies across features and preserves the earliest source", () => {
+    const catalog = [
+      createMovie({ id: "earliest", genres: ["Drama"], tags: ["hope"], directors: ["First"], cast: [] }),
+      ...Array.from({ length: 5 }, (_, i) => createMovie({ id: `later-${i}`, genres: ["Drama"], tags: ["hope"], directors: ["Later"], cast: [] })),
+      createMovie({ id: "pick", genres: ["Drama"], tags: [], directors: ["Later", "First"], cast: [] }),
+    ];
+    const states = createStates(catalog.slice(0, -1).map((movie) => [movie.id, 5]));
+    const [pick] = getRecommendations(catalog, states);
+
+    expect(pick.reasons).toContain("shares creative DNA with earliest");
+    // Repeating a matching feature must not add another related movie or bonus.
+    const duplicatedFeatures = catalog.map((movie) => ({ ...movie, directors: [...movie.directors, ...movie.directors] }));
+    const [duplicatePick] = getRecommendations(duplicatedFeatures, states);
+    expect(duplicatePick.reasons).toContain("shares creative DNA with earliest");
   });
 
 });

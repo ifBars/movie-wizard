@@ -1,0 +1,29 @@
+name: Performance regression checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  performance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Structural regression tests
+        run: bun run test -- src/lib/recommendations.test.ts src/lib/recommendationClient.test.ts src/lib/libraryCollections.test.ts src/components/MovieCollections.test.tsx
+      - name: Synthetic scaling budgets
+        run: bun run perf --check
+      - name: Save timing evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: performance-results
+          path: .artifacts/performance/synthetic-results.json

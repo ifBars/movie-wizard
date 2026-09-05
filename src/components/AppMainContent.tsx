@@ -188,6 +188,10 @@ function AppPage({
     );
   }
 
+  if (activeView === "discover" && library.isRecommendationsLoading) {
+    return <CatalogLoadingState title="Updating your picks" subtitle="Finding movies from your latest taste profile." />;
+  }
+
   return (
     <motion.div key="catalog" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
       <CatalogView

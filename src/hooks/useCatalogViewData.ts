@@ -1,11 +1,10 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { hasActiveCatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import { loadMoviesByIds } from "@/lib/catalogRepository";
 import { searchCatalog } from "@/lib/catalogSearchClient";
-import { buildDiscoverSections } from "@/lib/discoverSections";
 import type { Movie } from "@/types";
 
 export type CatalogViewData = ReturnType<typeof useCatalogViewData>;
@@ -24,17 +23,6 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
   const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}`;
   const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize });
   const requestedLimit = searchResults.requestKey === requestKey ? searchResults.limit : searchPageSize;
-  const discoverSections = useMemo(
-    () =>
-      buildDiscoverSections({
-        visibleMovies: library.visibleMovies,
-        states: library.states,
-        recommendations: library.recommendations,
-        minimumRecommendationYear: library.settings.minimumRecommendationYear,
-        selectRecommendations: library.selectRecommendations,
-      }),
-    [library.recommendations, library.selectRecommendations, library.settings.minimumRecommendationYear, library.states, library.visibleMovies],
-  );
 
   useExternalSyncEffect(() => {
     if (!normalizedSearch && !hasActiveCatalogBrowseFilters(browseFilters)) {
@@ -57,9 +45,9 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
       excludedMovieIds,
       limit: requestedLimit,
     })
-      .then(async (result) => ({ ...result, movies: await loadMoviesByIds(result.movieIds) }))
+      .then(async (result) => isCurrent ? { ...result, movies: await loadMoviesByIds(result.movieIds) } : undefined)
       .then((result) => {
-        if (isCurrent) {
+        if (isCurrent && result) {
           setSearchResults({ requestKey, movies: result.movies, total: result.total, limit: requestedLimit });
         }
       })
@@ -86,7 +74,7 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
   const isCatalogBrowseMode = normalizedSearch.length > 0 || hasActiveCatalogBrowseFilters(browseFilters);
 
   return {
-    discoverSections,
+    discoverSections: library.discoverSections,
     filteredCatalog: hasCurrentSearchResults ? searchResults.movies : [],
     isCatalogBrowseMode,
     isSearchLoading: isCatalogBrowseMode && !hasCurrentSearchResults,

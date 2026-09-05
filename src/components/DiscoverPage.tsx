@@ -1,11 +1,10 @@
 import { ArrowLeft, ArrowRight, ArrowsClockwise, Info, ListBullets, SquaresFour } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import type { PointerEvent } from "react";
 import { useSearchParams } from "react-router";
 import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
-import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { describeCatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
@@ -15,10 +14,7 @@ import { fadeSlide } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
-const initialCategoryResultLimit = 48;
-const categoryResultPageSize = 48;
 const searchResultPageSize = 24;
-const topPicksRowChunkSize = 14;
 
 type DiscoverPageProps = {
   discoverSections: DiscoverSection[];
@@ -33,7 +29,6 @@ export function DiscoverPage({
   onOpenMovie,
   onPreloadMovieDetails,
 }: DiscoverPageProps) {
-  const [topPicksRowLimit, setTopPicksRowLimit] = useState(topPicksRowChunkSize);
   const [featuredPickIndex, setFeaturedPickIndex] = useState(0);
   const [searchParams, setSearchParams] = useSearchParams();
   const selectedSection = findDiscoverSection(discoverSections, searchParams.get("category"));
@@ -71,10 +66,7 @@ export function DiscoverPage({
         />
       ) : null}
       {discoverSections.map((section) => {
-        const isTopPicks = section.key === "top-picks";
-        const rowLimit = isTopPicks ? topPicksRowLimit : section.rowLimit;
-        const visibleMovies = section.movies.slice(0, rowLimit);
-        const canLoadMore = isTopPicks && visibleMovies.length < section.movies.length;
+        const visibleMovies = section.movies.slice(0, section.rowLimit);
 
         return (
           <MovieRow
@@ -85,11 +77,6 @@ export function DiscoverPage({
             library={library}
             onOpenMovie={onOpenMovie}
             onMovieIntent={onPreloadMovieDetails}
-            onReachEnd={
-              canLoadMore
-                ? () => setTopPicksRowLimit((currentLimit) => Math.min(currentLimit + topPicksRowChunkSize, section.movies.length))
-                : undefined
-            }
             headerAction={<ViewAllButton section={section} onClick={openSection} />}
           />
         );
@@ -142,25 +129,14 @@ function DiscoverCategoryGrid({
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: (movieId: string) => void;
 }) {
-  const [resultLimit, setResultLimit] = useState(initialCategoryResultLimit);
-  const shouldReduceMotion = useReducedMotion();
-  const visibleMovies = section.movies.slice(0, resultLimit);
-  const hiddenCount = Math.max(0, section.movies.length - visibleMovies.length);
-  const autoLoadMore = section.key === "top-picks";
-  const loadMore = useCallback(() => {
-    setResultLimit((currentLimit) => Math.min(currentLimit + categoryResultPageSize, section.movies.length));
-  }, [section.movies.length]);
-  const subtitle =
-    hiddenCount > 0 ? `Showing ${visibleMovies.length} of ${section.movies.length} movies` : `${section.movies.length} movies in this shelf`;
-
-  useAutoLoadMoreOnPageEnd(autoLoadMore && hiddenCount > 0, loadMore);
+  const subtitle = `${section.movies.length} movies in this shelf`;
 
   return (
     <>
       <MovieGrid
         title={section.title}
         subtitle={subtitle}
-        movies={visibleMovies}
+        movies={section.movies}
         library={library}
         animateCardsOnMount={false}
         enableLayoutAnimation={false}
@@ -168,16 +144,6 @@ function DiscoverCategoryGrid({
         onMovieIntent={onPreloadMovieDetails}
         headerAction={<BackToDiscoverButton onClick={onBack} />}
       />
-      {hiddenCount > 0 && !autoLoadMore ? (
-        <motion.button
-          type="button"
-          className="search-results-more"
-          onClick={loadMore}
-          whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
-        >
-          Show {Math.min(categoryResultPageSize, hiddenCount)} more
-        </motion.button>
-      ) : null}
     </>
   );
 }
@@ -333,30 +299,4 @@ function PrivacyNote() {
       Your ratings stay private on this device. Movie data and images from TMDB. <button type="button">Learn more</button>
     </motion.p>
   );
-}
-
-function useAutoLoadMoreOnPageEnd(enabled: boolean, onLoadMore: () => void) {
-  useExternalSyncEffect(() => {
-    if (!enabled) {
-      return;
-    }
-
-    function handleScroll() {
-      const scrollBottom = window.innerHeight + window.scrollY;
-      const documentHeight = document.documentElement.scrollHeight;
-
-      if (scrollBottom >= documentHeight - 320) {
-        onLoadMore();
-      }
-    }
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    window.addEventListener("resize", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-    };
-  }, [enabled, onLoadMore]);
 }

@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "perf": "bun --tsconfig-override tsconfig.app.json scripts/performance/benchmark.ts",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "data:enrich": "bun run scripts/movie-data/enrich-static-catalog.ts && bun run data:payloads",

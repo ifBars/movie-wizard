@@ -19,6 +19,7 @@ const movieDetailShardUrls: Record<string, string> = import.meta.glob("/src/data
 
 const movieDetailShardPromises = new Map<string, Promise<MovieDetailsPayload>>();
 const movieCatalogShardPromises = new Map<string, Promise<Movie[]>>();
+const loadedMoviesById = new Map<string, Movie>();
 
 export function getCatalogSummary(settings: LibrarySettings) {
   const allowedLanguages = new Set(normalizeLanguageCodes(settings.languageCodes));
@@ -62,7 +63,11 @@ async function loadCatalogPayload(url: string) {
     throw new Error("Movie catalog index is invalid");
   }
 
-  return payload.movies.map(createCatalogMovie);
+  return payload.movies.map((entry) => {
+    const movie = createCatalogMovie(entry);
+    loadedMoviesById.set(movie.id, movie);
+    return movie;
+  });
 }
 
 export async function loadMovieDetails(movieId: string): Promise<MovieDetails | undefined> {
@@ -77,11 +82,10 @@ export function preloadMovieDetails(movieId: string) {
 }
 
 export async function loadMoviesByIds(movieIds: string[]) {
-  const shardMovies = await Promise.all(getUniqueCatalogShardFileNames(movieIds).map(loadMovieCatalogShard));
-  const moviesById = new Map(shardMovies.flat().map((movie) => [movie.id, movie]));
+  await Promise.all(getUniqueCatalogShardFileNames(movieIds).map(loadMovieCatalogShard));
 
   return movieIds.flatMap((movieId) => {
-    const movie = moviesById.get(movieId);
+    const movie = loadedMoviesById.get(movieId);
     return movie ? [movie] : [];
   });
 }

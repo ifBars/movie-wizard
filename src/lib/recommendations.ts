@@ -52,6 +52,13 @@ export type TasteSnapshot = {
   selectRecommendations: RecommendationSelector;
 };
 
+type CollaborativeSignal = { score: number; sourceMovieTitle: string | undefined };
+type RelatedMovieIndex = Record<"directors" | "cast" | "tags" | "genres", Map<string, number[]>>;
+type ScoringContext = {
+  collaborativeSignals: Map<string, CollaborativeSignal>;
+  relatedMovies: RelatedMovieIndex;
+};
+
 export function buildTasteProfile(movies: Movie[], states: MovieStateMap): TasteProfile {
   return buildTasteModel(movies, states).profile;
 }
@@ -178,9 +185,13 @@ function createRecommendationSelectorForTasteModel(
   collaborativeModel?: CollaborativeModel,
 ): RecommendationSelector {
   const candidateCache = new Map<string, RecommendationCandidate>();
+  const scoringContext: ScoringContext = {
+    collaborativeSignals: buildCollaborativeSignals(states, tasteModel, collaborativeModel),
+    relatedMovies: buildRelatedMovieIndex(tasteModel),
+  };
 
   return (options: RecommendationOptions = {}) =>
-    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options, collaborativeModel);
+    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options, scoringContext);
 }
 
 function getRecommendationsForTasteModel(
@@ -189,7 +200,7 @@ function getRecommendationsForTasteModel(
   tasteModel: TasteModel,
   candidateCache: Map<string, RecommendationCandidate>,
   options: RecommendationOptions,
-  collaborativeModel?: CollaborativeModel,
+  scoringContext: ScoringContext,
 ) {
   const candidates = movies
     .flatMap((movie) => {
@@ -205,7 +216,7 @@ function getRecommendationsForTasteModel(
         return [];
       }
 
-      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, states, tasteModel, collaborativeModel);
+      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, tasteModel, scoringContext);
       candidateCache.set(movie.id, scored);
       return [scored];
     })
@@ -217,9 +228,8 @@ function getRecommendationsForTasteModel(
 
 function scoreMovie(
   movie: Movie,
-  states: MovieStateMap,
   tasteModel: TasteModel,
-  collaborativeModel?: CollaborativeModel,
+  scoringContext: ScoringContext,
 ): RecommendationCandidate {
   const { likedMovies, profile } = tasteModel;
   let score = getQualityScore(movie) * 0.2 + getPopularityScore(movie.popularity) * 0.07;
@@ -256,21 +266,16 @@ function scoreMovie(
     score += creatorScore * 9;
   }
 
-  const relatedCreators = likedMovies.filter(
-    (liked) =>
-      intersects(liked.directors, movie.directors) ||
-      intersects(liked.cast, movie.cast) ||
-      hasPositiveSharedSignal(liked.tags, movie.tags, tasteModel.tagWeights) ||
-      hasPositiveSharedSignal(liked.genres, movie.genres, tasteModel.genreWeights),
-  );
-
-  if (relatedCreators.length > 0 && genreScore + tagScore > 0) {
-    score += Math.min(18, relatedCreators.length * 6);
-    reasons.push(`shares creative DNA with ${relatedCreators[0].title}`);
+  if (genreScore + tagScore > 0) {
+    const related = getRelatedMovies(movie, scoringContext.relatedMovies);
+    if (related.count > 0) {
+      score += Math.min(18, related.count * 6);
+      reasons.push(`shares creative DNA with ${likedMovies[related.firstIndex].title}`);
+    }
   }
 
-  const collaborativeSignal = getCollaborativeSignal(movie.id, states, tasteModel, collaborativeModel);
-  if (collaborativeSignal.score !== 0) {
+  const collaborativeSignal = scoringContext.collaborativeSignals.get(movie.id);
+  if (collaborativeSignal && collaborativeSignal.score !== 0) {
     score += collaborativeSignal.score * 24;
     if (collaborativeSignal.score > 0 && collaborativeSignal.sourceMovieTitle) {
       reasons.unshift(`connects with viewers who also liked ${collaborativeSignal.sourceMovieTitle}`);
@@ -421,20 +426,22 @@ function buildFeatureRarity(movies: Movie[], selectValues: (movie: Movie) => str
   );
 }
 
-function getCollaborativeSignal(
-  candidateMovieId: string,
+function buildCollaborativeSignals(
   states: MovieStateMap,
   tasteModel: TasteModel,
   collaborativeModel?: CollaborativeModel,
 ) {
+  const signals = new Map<string, CollaborativeSignal>();
   if (!collaborativeModel) {
-    return { score: 0, sourceMovieTitle: undefined };
+    return signals;
   }
 
-  let numerator = 0;
-  let denominator = 0;
-  let strongestPositiveSignal = 0;
-  let sourceMovieTitle: string | undefined;
+  const totals = new Map<string, {
+    numerator: number;
+    denominator: number;
+    strongestPositiveSignal: number;
+    sourceMovieTitle: string | undefined;
+  }>();
   const likedMoviesById = new Map(tasteModel.likedMovies.map((movie) => [movie.id, movie.title]));
 
   for (const [sourceMovieId, state] of Object.entries(states)) {
@@ -442,30 +449,34 @@ function getCollaborativeSignal(
       continue;
     }
 
-    const neighbor = collaborativeModel.get(sourceMovieId)?.find((item) => item.movieId === candidateMovieId);
-    if (!neighbor) {
-      continue;
-    }
-
-    const signal = neighbor.similarity * (state.rating - tasteModel.personalBaseline);
-    numerator += signal;
-    denominator += Math.abs(neighbor.similarity);
-
-    if (signal > strongestPositiveSignal) {
-      strongestPositiveSignal = signal;
-      sourceMovieTitle = likedMoviesById.get(sourceMovieId);
+    // Match the previous first-neighbor semantics even for duplicate model edges.
+    const seen = new Set<string>();
+    for (const neighbor of collaborativeModel.get(sourceMovieId) ?? []) {
+      if (seen.has(neighbor.movieId)) continue;
+      seen.add(neighbor.movieId);
+      const total = totals.get(neighbor.movieId) ?? {
+        numerator: 0, denominator: 0, strongestPositiveSignal: 0, sourceMovieTitle: undefined,
+      };
+      const signal = neighbor.similarity * (state.rating - tasteModel.personalBaseline);
+      total.numerator += signal;
+      total.denominator += Math.abs(neighbor.similarity);
+      if (signal > total.strongestPositiveSignal) {
+        total.strongestPositiveSignal = signal;
+        total.sourceMovieTitle = likedMoviesById.get(sourceMovieId);
+      }
+      totals.set(neighbor.movieId, total);
     }
   }
 
-  if (denominator === 0) {
-    return { score: 0, sourceMovieTitle: undefined };
+  for (const [movieId, total] of totals) {
+    if (total.denominator === 0) continue;
+    const confidence = Math.min(1, total.denominator * 2.5);
+    signals.set(movieId, {
+      score: Math.max(-1, Math.min(1, total.numerator / total.denominator / 2)) * confidence,
+      sourceMovieTitle: total.sourceMovieTitle,
+    });
   }
-
-  const confidence = Math.min(1, denominator * 2.5);
-  return {
-    score: Math.max(-1, Math.min(1, numerator / denominator / 2)) * confidence,
-    sourceMovieTitle,
-  };
+  return signals;
 }
 
 function topMatchingValues(values: string[], weights: WeightedMap, count: number, direction: "positive" | "negative" = "positive") {
@@ -569,14 +580,38 @@ function toRecommendation(candidate: RecommendationCandidate): Recommendation {
   };
 }
 
-function hasPositiveSharedSignal(a: string[], b: string[], weights: WeightedMap) {
-  const bSet = new Set(b);
-  return a.some((value) => bSet.has(value) && signalStrength(weights.get(value)) > MIN_RELATED_SIGNAL);
+function buildRelatedMovieIndex(tasteModel: TasteModel): RelatedMovieIndex {
+  const index: RelatedMovieIndex = { directors: new Map(), cast: new Map(), tags: new Map(), genres: new Map() };
+  const fields: Array<keyof RelatedMovieIndex> = ["directors", "cast", "tags", "genres"];
+  tasteModel.likedMovies.forEach((movie, movieIndex) => {
+    for (const field of fields) {
+      for (const value of new Set(movie[field])) {
+        const weights = field === "tags" ? tasteModel.tagWeights : field === "genres" ? tasteModel.genreWeights : undefined;
+        if (weights && signalStrength(weights.get(value)) <= MIN_RELATED_SIGNAL) continue;
+        const matches = index[field].get(value) ?? [];
+        // The bonus saturates at three matches. Keeping the first three per
+        // feature preserves both that cap and the earliest explanation source.
+        if (matches.length < 3) matches.push(movieIndex);
+        index[field].set(value, matches);
+      }
+    }
+  });
+  return index;
 }
 
-function intersects(a: string[], b: string[]) {
-  const bSet = new Set(b);
-  return a.some((value) => bSet.has(value));
+function getRelatedMovies(movie: Movie, index: RelatedMovieIndex) {
+  const matches = new Set<number>();
+  let firstIndex = Infinity;
+  const fields: Array<keyof RelatedMovieIndex> = ["directors", "cast", "tags", "genres"];
+  for (const field of fields) {
+    for (const value of movie[field]) {
+      for (const movieIndex of index[field].get(value) ?? []) {
+        matches.add(movieIndex);
+        firstIndex = Math.min(firstIndex, movieIndex);
+      }
+    }
+  }
+  return { count: matches.size, firstIndex };
 }
 
 function getLatestRatedAt(movies: Movie[], states: MovieStateMap) {

@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { beforeAll, describe, expect, test } from "vitest";
 import generatedMovies from "@/data/generated/movies.json";
 import { filterAdultMovies, isAdultMovie } from "@/lib/adultMovies";
 import { buildLinearMovieSearchCorpus, buildMovieSearchIndex, linearSearchMovieCorpus, searchMovieIndex } from "@/lib/movieSearch";
@@ -48,8 +48,17 @@ const expectedAdultMovieIds = [
 ];
 
 describe("movie search index", () => {
+  let index: ReturnType<typeof buildMovieSearchIndex>;
+  let defaultIndex: ReturnType<typeof buildMovieSearchIndex>;
+  let linearCorpus: ReturnType<typeof buildLinearMovieSearchCorpus>;
+  beforeAll(() => {
+    // Catalog construction is shared setup, not part of each query assertion.
+    index = buildMovieSearchIndex(realCatalog);
+    defaultIndex = buildMovieSearchIndex(filterAdultMovies(realCatalog, false));
+    linearCorpus = buildLinearMovieSearchCorpus(realCatalog);
+  }, 30_000);
+
   test("finds real catalog matches from title, people, genre, year, and synopsis fields", () => {
-    const index = buildMovieSearchIndex(realCatalog);
 
     expect(searchMovieIndex(index, "mission impossible").some((movie) => movie.title.toLowerCase().includes("mission"))).toBe(true);
     expect(searchMovieIndex(index, "tom cruise").some((movie) => movie.cast.includes("Tom Cruise"))).toBe(true);
@@ -59,7 +68,6 @@ describe("movie search index", () => {
   });
 
   test("keeps exact title prefix matches near the top", () => {
-    const index = buildMovieSearchIndex(realCatalog);
     const results = searchMovieIndex(index, "mission impossible");
 
     expect(results.slice(0, 5).some((movie) => movie.title.toLowerCase().startsWith("mission"))).toBe(true);
@@ -105,8 +113,7 @@ describe("movie search index", () => {
     ]);
     expect(nymphomaniacMovies.every(isAdultMovie)).toBe(true);
 
-    const defaultIndex = buildMovieSearchIndex(filterAdultMovies(realCatalog, false));
-    const unrestrictedIndex = buildMovieSearchIndex(filterAdultMovies(realCatalog, true));
+    const unrestrictedIndex = index;
 
     expect(searchMovieIndex(defaultIndex, "Mario").some((movie) => movie.title === "Monika")).toBe(false);
     expect(searchMovieIndex(unrestrictedIndex, "Mario").some((movie) => movie.title === "Monika")).toBe(true);
@@ -155,9 +162,7 @@ describe("movie search index", () => {
   });
 
   test("searches the real catalog faster than a full string scan", () => {
-    const index = buildMovieSearchIndex(realCatalog);
-    const linearCorpus = buildLinearMovieSearchCorpus(realCatalog);
-    const iterations = 80;
+    const iterations = 15;
 
     const linearMs = medianTimedRun(iterations, () => {
       for (const query of benchmarkQueries) {

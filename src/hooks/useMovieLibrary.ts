@@ -1,13 +1,14 @@
 import { useCallback, useMemo, useState } from "react";
 import { useExternalSyncEffect, useMountEffect } from "@/hooks/useExternalSyncEffect";
+import { useRecommendations } from "@/hooks/useRecommendations";
 import { filterCatalogMovies } from "@/lib/catalogFilters";
+import { buildLibraryCollections } from "@/lib/libraryCollections";
 import { getCatalogSummary, loadInitialMovieCatalog, loadMoviesByIds } from "@/lib/catalogRepository";
 import {
   getCollaborativeMovieIds,
   loadCollaborativeModel,
 } from "@/lib/collaborativeRecommendations";
 import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
-import { buildTasteSnapshot } from "@/lib/recommendations";
 import {
   exportMovieState,
   importMovieState,
@@ -114,44 +115,14 @@ export function useMovieLibrary(initialMovieId?: string) {
   const visibleMovies = useMemo(() => filterCatalogMovies(movies, settings), [movies, settings]);
   const catalogSummary = useMemo(() => getCatalogSummary(settings), [settings]);
 
-  const tasteSnapshot = useMemo(
-    () =>
-      buildTasteSnapshot(visibleMovies, states, {
-        minimumMovieYear: settings.minimumRecommendationYear,
-      }, collaborativeModel),
+  const recommendationJob = useMemo(
+    () => ({ movies: visibleMovies, states, minimumMovieYear: settings.minimumRecommendationYear, model: collaborativeModel }),
     [collaborativeModel, settings.minimumRecommendationYear, states, visibleMovies],
   );
-  const { profile, recommendations, selectRecommendations } = tasteSnapshot;
+  const { profile, recommendations, discoverSections, isRecommendationsLoading, recommendationError } = useRecommendations(recommendationJob);
 
-  const ratedMovies = useMemo(
-    () =>
-      visibleMovies
-        .filter((movie) => states[movie.id]?.rating)
-        .slice()
-        .sort((a, b) => (states[b.id]?.rating ?? 0) - (states[a.id]?.rating ?? 0)),
-    [states, visibleMovies],
-  );
-
-  const historyMovies = useMemo(
-    () =>
-      visibleMovies
-        .filter((movie) => {
-          const state = states[movie.id];
-
-          return Boolean(state?.watched || state?.rating);
-        })
-        .slice()
-        .sort((a, b) => {
-          const aUpdatedAt = Date.parse(states[a.id]?.updatedAt ?? "");
-          const bUpdatedAt = Date.parse(states[b.id]?.updatedAt ?? "");
-
-          return (Number.isNaN(bUpdatedAt) ? 0 : bUpdatedAt) - (Number.isNaN(aUpdatedAt) ? 0 : aUpdatedAt);
-        }),
-    [states, visibleMovies],
-  );
-
-  const watchlistMovies = useMemo(
-    () => visibleMovies.filter((movie) => states[movie.id]?.watchlist && !states[movie.id]?.watched),
+  const { ratedMovies, historyMovies, watchlistMovies } = useMemo(
+    () => buildLibraryCollections(visibleMovies, states),
     [states, visibleMovies],
   );
 
@@ -278,7 +249,7 @@ export function useMovieLibrary(initialMovieId?: string) {
       movies,
       visibleMovies,
       isCatalogLoading,
-      catalogError,
+      catalogError: catalogError ?? recommendationError,
       states,
       settings,
       catalogMovieCount: catalogSummary.visibleMovieCount,
@@ -287,7 +258,8 @@ export function useMovieLibrary(initialMovieId?: string) {
       hiddenLanguageMovieCount: catalogSummary.hiddenLanguageMovieCount,
       profile,
       recommendations,
-      selectRecommendations,
+      discoverSections,
+      isRecommendationsLoading,
       historyMovies,
       ratedMovies,
       watchlistMovies,
@@ -319,7 +291,9 @@ export function useMovieLibrary(initialMovieId?: string) {
       rateMovie,
       ratedMovies,
       recommendations,
-      selectRecommendations,
+      discoverSections,
+      isRecommendationsLoading,
+      recommendationError,
       resetLibrary,
       setLanguageCodes,
       setMinimumRecommendationYear,

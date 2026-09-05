@@ -773,6 +773,29 @@ input:focus-visible {
   min-width: 0;
 }
 
+.movie-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.movie-pagination button {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  background: var(--surface);
+  color: var(--text-strong);
+  cursor: pointer;
+}
+
+.movie-pagination button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
 .search-results-more {
   display: inline-flex;
   min-height: 2.55rem;

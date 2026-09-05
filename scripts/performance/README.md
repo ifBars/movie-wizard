@@ -1,0 +1,9 @@
+# Performance regression checks
+
+Run `bun run perf --check` without concurrent builds or other benchmarks. It generates deterministic catalogs of 10,000, 50,000, and 100,000 movies with up to 50,000 profile entries and 16 collaborative neighbors per source. It measures full recommendation jobs (including all discovery shelves), broad sorted search, and library collection building, verifies output bounds, and writes `.artifacts/performance/synthetic-results.json`.
+
+The timing ceilings (8 seconds per full recommendation job, 1 second per search or library collection build) are coarse regression alarms, not interaction latency promises. Compare repeated results on the same machine. The recommendation calculation runs in a worker; initial catalog/model transfer, localStorage persistence, library collections, and rendering still happen on the main thread. Subsequent worker updates send changed and removed profile entries rather than copying the entire profile.
+
+With `bun run dev` running, open `/scripts/performance/index.html?movies=100000` for the browser lab. It uses the real worker hook, grid, row, rating controls, and pagination with synthetic data. It never reads or writes the user's library. Use the input while changing ratings to probe responsiveness, switch layouts, and navigate pages. React render durations appear as `movie-wizard:render:*` performance measures. The initial fixture generation is test setup and should be excluded from interaction timing.
+
+`bun run test` includes deterministic guards for bounded mounted cards, latest-only worker queuing, avoiding repeated catalog transfers, and collaborative lookup counts. These guard against growth regressions without relying only on noisy wall-clock assertions. Synthetic data cannot guarantee performance at every catalog size or on every device.

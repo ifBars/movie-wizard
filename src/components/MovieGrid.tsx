@@ -1,6 +1,8 @@
 import { BookmarkSimple } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { MoviePosterCard } from "@/components/MoviePosterCard";
+import { MoviePagination } from "@/components/MoviePagination";
+import { useMoviePage } from "@/hooks/useMoviePage";
 import { SectionHeader } from "@/components/SectionHeader";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { fadeScale, fadeSlide, softSpring } from "@/lib/motion";
@@ -11,7 +13,7 @@ type MovieGridProps = {
   title: string;
   subtitle: string;
   movies: Movie[];
-  library: MovieLibrary;
+  library: Pick<MovieLibrary, "states" | "rateMovie" | "toggleIgnored" | "toggleWatched" | "toggleWatchlist">;
   animateCardsOnMount?: boolean;
   enableLayoutAnimation?: boolean;
   onOpenMovie: (movieId: string) => void;
@@ -31,6 +33,7 @@ export function MovieGrid({
   headerAction,
 }: MovieGridProps) {
   const shouldReduceMotion = useReducedMotion();
+  const { page, pageCount, setPage, visibleMovies } = useMoviePage(movies);
 
   if (movies.length === 0) {
     return (
@@ -48,8 +51,9 @@ export function MovieGrid({
   return (
     <motion.section className="movie-section" layout={enableLayoutAnimation} {...fadeSlide(shouldReduceMotion, 10)}>
       <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
+      <MoviePagination title={title} page={page} pageCount={pageCount} onPageChange={setPage} />
       <motion.div className="movie-grid" layout={enableLayoutAnimation} transition={softSpring}>
-        {movies.map((movie) => (
+        {visibleMovies.map((movie) => (
           <MoviePosterCard
             key={movie.id}
             animateOnMount={animateCardsOnMount}
