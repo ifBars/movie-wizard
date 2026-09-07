@@ -17,7 +17,7 @@ import {
   saveLibrarySettings,
   saveMovieState,
 } from "@/lib/storage";
-import type { LibrarySettings } from "@/types";
+import type { LibrarySettings, RecommendationFocus } from "@/types";
 import type { Movie, MovieStateMap, Rating, UserMovieState } from "@/types";
 
 function createDefaultState(movieId: string): UserMovieState {
@@ -116,8 +116,8 @@ export function useMovieLibrary(initialMovieId?: string) {
   const catalogSummary = useMemo(() => getCatalogSummary(settings), [settings]);
 
   const recommendationJob = useMemo(
-    () => ({ movies: visibleMovies, states, minimumMovieYear: settings.minimumRecommendationYear, model: collaborativeModel }),
-    [collaborativeModel, settings.minimumRecommendationYear, states, visibleMovies],
+    () => ({ movies: visibleMovies, states, minimumMovieYear: settings.minimumRecommendationYear, model: collaborativeModel, focus: settings.recommendationFocus }),
+    [collaborativeModel, settings.minimumRecommendationYear, settings.recommendationFocus, states, visibleMovies],
   );
   const { profile, recommendations, discoverSections, isRecommendationsLoading, recommendationError } = useRecommendations(recommendationJob);
 
@@ -223,6 +223,10 @@ export function useMovieLibrary(initialMovieId?: string) {
     [settings, updateSettings],
   );
 
+  const setRecommendationFocus = useCallback((recommendationFocus: RecommendationFocus) => {
+    updateSettings({ ...settings, recommendationFocus });
+  }, [settings, updateSettings]);
+
   const includeMovie = useCallback((movie: Movie) => {
     setMovies((currentMovies) => (currentMovies.some((currentMovie) => currentMovie.id === movie.id) ? currentMovies : [...currentMovies, movie]));
   }, []);
@@ -270,6 +274,7 @@ export function useMovieLibrary(initialMovieId?: string) {
       resetLibrary,
       setLanguageCodes,
       setMinimumRecommendationYear,
+      setRecommendationFocus,
       setShowAdultMovies,
       exportLibrary,
       importLibrary,
@@ -297,6 +302,7 @@ export function useMovieLibrary(initialMovieId?: string) {
       resetLibrary,
       setLanguageCodes,
       setMinimumRecommendationYear,
+      setRecommendationFocus,
       setShowAdultMovies,
       settings,
       states,

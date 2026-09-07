@@ -1,6 +1,7 @@
 import type { Movie, MovieStateMap, Recommendation, TasteProfile } from "@/types";
 import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
 import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
+import { getAudienceScore } from "@/lib/audienceRatings";
 
 type WeightedMap = Map<string, WeightedSignal>;
 type WeightedSignal = {
@@ -14,7 +15,6 @@ const MIN_POSITIVE_RATING = 4;
 const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
 const MAX_FEATURE_MATCHES = 3;
-const MAX_SOURCE_VOTE_COUNT = 10_000;
 const MIN_RELATED_SIGNAL = 0.08;
 
 type TasteModel = {
@@ -38,6 +38,9 @@ type RecommendationCandidate = Recommendation & {
   rawScore: number;
   diversityKeys: string[];
 };
+
+// Catalog arrays are immutable snapshots; weak keys release replaced catalogs.
+const rarityCache = new WeakMap<Movie[], TasteModel["featureRarity"]>();
 
 type RecommendationOptions = {
   minimumMovieYear?: number | null;
@@ -150,12 +153,7 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
     likedMovies,
     watchlistedMovieIds,
     personalBaseline,
-    featureRarity: {
-      genres: buildFeatureRarity(movies, (movie) => movie.genres),
-      tags: buildFeatureRarity(movies, (movie) => movie.tags),
-      directors: buildFeatureRarity(movies, (movie) => movie.directors),
-      cast: buildFeatureRarity(movies, (movie) => movie.cast),
-    },
+    featureRarity: getFeatureRarity(movies),
   };
 }
 
@@ -184,46 +182,23 @@ function createRecommendationSelectorForTasteModel(
   tasteModel: TasteModel,
   collaborativeModel?: CollaborativeModel,
 ): RecommendationSelector {
-  const candidateCache = new Map<string, RecommendationCandidate>();
+  let rankedCandidates: RecommendationCandidate[] | undefined;
   const scoringContext: ScoringContext = {
     collaborativeSignals: buildCollaborativeSignals(states, tasteModel, collaborativeModel),
     relatedMovies: buildRelatedMovieIndex(tasteModel),
   };
 
-  return (options: RecommendationOptions = {}) =>
-    getRecommendationsForTasteModel(movies, states, tasteModel, candidateCache, options, scoringContext);
-}
-
-function getRecommendationsForTasteModel(
-  movies: Movie[],
-  states: MovieStateMap,
-  tasteModel: TasteModel,
-  candidateCache: Map<string, RecommendationCandidate>,
-  options: RecommendationOptions,
-  scoringContext: ScoringContext,
-) {
-  const candidates = movies
-    .flatMap((movie) => {
-      if (options.minimumMovieYear !== null && options.minimumMovieYear !== undefined && movie.year < options.minimumMovieYear) {
-        return [];
+  return (options: RecommendationOptions = {}) => {
+    if (!rankedCandidates) {
+      rankedCandidates = [];
+      for (const movie of movies) {
+        if (isAvailableMovieCandidate(movie, states)) rankedCandidates.push(scoreMovie(movie, tasteModel, scoringContext));
       }
-
-      if (options.candidateFilter !== undefined && !options.candidateFilter(movie)) {
-        return [];
-      }
-
-      if (!isAvailableMovieCandidate(movie, states)) {
-        return [];
-      }
-
-      const scored = candidateCache.get(movie.id) ?? scoreMovie(movie, tasteModel, scoringContext);
-      candidateCache.set(movie.id, scored);
-      return [scored];
-    })
-    .slice()
-    .sort((a, b) => b.rawScore - a.rawScore);
-
-  return diversifyRecommendations(candidates, MAX_RECOMMENDATIONS).map(toRecommendation);
+      rankedCandidates.sort((a, b) => b.rawScore - a.rawScore || a.movie.id.localeCompare(b.movie.id));
+    }
+    // Filtering a sorted stream preserves ranking without sorting every shelf.
+    return diversifyRecommendations(rankedCandidates, MAX_RECOMMENDATIONS, options).map(toRecommendation);
+  };
 }
 
 function scoreMovie(
@@ -232,7 +207,8 @@ function scoreMovie(
   scoringContext: ScoringContext,
 ): RecommendationCandidate {
   const { likedMovies, profile } = tasteModel;
-  let score = getQualityScore(movie) * 0.2 + getPopularityScore(movie.popularity) * 0.07;
+  const qualityScore = getAudienceScore(movie);
+  let score = qualityScore * 0.2 + getPopularityScore(movie.popularity) * 0.07;
   const reasons: string[] = [];
   const penalties: string[] = [];
 
@@ -282,15 +258,15 @@ function scoreMovie(
     }
   }
 
-  if (movie.runtimeMinutes <= 115) {
+  if (movie.runtimeMinutes > 0 && movie.runtimeMinutes <= 115) {
     const runtimeBonus = profile.ratedCount >= 3 && genreScore + tagScore < 0 ? 2 : 5;
     score += runtimeBonus;
     reasons.push("easy runtime for a weeknight watch");
   }
 
-  if (movie.criticalScore >= 92 && movie.popularity < 80) {
+  if (qualityScore >= 82 && movie.popularity < 80) {
     score += 6;
-    reasons.push("high critical signal without being too obvious");
+    reasons.push("strong audience ratings without the biggest spotlight");
   }
 
   if (profile.ratedCount < 3) {
@@ -301,11 +277,12 @@ function scoreMovie(
     reasons.push(`keeps distance from lower-rated ${penalties[0]} picks`);
   }
 
-  const rawScore = Math.min(100, Math.max(1, score));
+  // Clamp only the display value: strong matches must retain their rank above 100.
+  const rawScore = score;
 
   return {
     movie,
-    score: Math.round(rawScore),
+    score: Math.round(Math.min(100, Math.max(1, rawScore))),
     rawScore,
     confidence: profile.ratedCount >= 8 ? "high" : profile.ratedCount >= 3 ? "medium" : "low",
     reasons: reasons.slice(0, 3),
@@ -328,39 +305,8 @@ function getPersonalBaseline(ratingTotal: number, ratedCount: number) {
     return POSITIVE_BASELINE;
   }
 
-  return (ratingTotal + POSITIVE_BASELINE * BASELINE_PRIOR_RATINGS) / (ratedCount + BASELINE_PRIOR_RATINGS);
-}
-
-function getQualityScore(movie: Movie) {
-  const source = movie.source;
-  const scores: Array<{ score: number; weight: number }> = [
-    { score: movie.criticalScore, weight: 1 },
-  ];
-
-  if (source?.tmdbVoteAverage !== undefined) {
-    scores.push({
-      score: source.tmdbVoteAverage * 10,
-      weight: 1.25 * getVoteConfidence(source.tmdbVoteCount),
-    });
-  }
-
-  const weightedScore = scores.reduce(
-    (total, item) => ({
-      score: total.score + clampScore(item.score) * item.weight,
-      weight: total.weight + item.weight,
-    }),
-    { score: 0, weight: 0 },
-  );
-
-  return weightedScore.weight > 0 ? weightedScore.score / weightedScore.weight : clampScore(movie.criticalScore);
-}
-
-function getVoteConfidence(voteCount?: number) {
-  if (voteCount === undefined || !Number.isFinite(voteCount) || voteCount <= 0) {
-    return 0.2;
-  }
-
-  return Math.max(0.2, Math.min(1, Math.log10(voteCount + 1) / Math.log10(MAX_SOURCE_VOTE_COUNT + 1)));
+  // A generous rater's four-star likes must never become negative evidence.
+  return Math.min(POSITIVE_BASELINE, (ratingTotal + POSITIVE_BASELINE * BASELINE_PRIOR_RATINGS) / (ratedCount + BASELINE_PRIOR_RATINGS));
 }
 
 function getPopularityScore(popularity: number) {
@@ -369,14 +315,6 @@ function getPopularityScore(popularity: number) {
   }
 
   return Math.min(100, Math.log1p(popularity) / Math.log1p(100) * 100);
-}
-
-function clampScore(score: number) {
-  if (!Number.isFinite(score)) {
-    return 0;
-  }
-
-  return Math.min(100, Math.max(0, score));
 }
 
 function topWeights(weights: WeightedMap, count: number) {
@@ -424,6 +362,19 @@ function buildFeatureRarity(movies: Movie[], selectValues: (movie: Movie) => str
       1 + Math.log((movies.length + 1) / (count + 1)) / normalizer,
     ]),
   );
+}
+
+function getFeatureRarity(movies: Movie[]) {
+  const cached = rarityCache.get(movies);
+  if (cached) return cached;
+  const rarity = {
+    genres: buildFeatureRarity(movies, (movie) => movie.genres),
+    tags: buildFeatureRarity(movies, (movie) => movie.tags),
+    directors: buildFeatureRarity(movies, (movie) => movie.directors),
+    cast: buildFeatureRarity(movies, (movie) => movie.cast),
+  };
+  rarityCache.set(movies, rarity);
+  return rarity;
 }
 
 function buildCollaborativeSignals(
@@ -531,17 +482,21 @@ function signalStrength(signal?: WeightedSignal) {
   return Math.tanh(average) * confidence;
 }
 
-function diversifyRecommendations(candidates: RecommendationCandidate[], count: number) {
+function diversifyRecommendations(candidates: RecommendationCandidate[], count: number, options: RecommendationOptions) {
   const selected: RecommendationCandidate[] = [];
+  const deferred: RecommendationCandidate[] = [];
   const keyUses = new Map<string, number>();
 
   for (const candidate of candidates) {
     if (selected.length >= count) {
       break;
     }
+    if (options.minimumMovieYear != null && candidate.movie.year < options.minimumMovieYear) continue;
+    if (options.candidateFilter && !options.candidateFilter(candidate.movie)) continue;
 
     const hasDominantDuplicate = candidate.diversityKeys.some((key) => (keyUses.get(key) ?? 0) >= 2);
     if (hasDominantDuplicate && selected.length < Math.min(count, 4)) {
+      deferred.push(candidate);
       continue;
     }
 
@@ -556,7 +511,7 @@ function diversifyRecommendations(candidates: RecommendationCandidate[], count: 
   }
 
   const selectedIds = new Set(selected.map((candidate) => candidate.movie.id));
-  for (const candidate of candidates) {
+  for (const candidate of deferred) {
     if (selectedIds.has(candidate.movie.id)) {
       continue;
     }

@@ -8,6 +8,57 @@ import type { Movie, MovieStateMap, Rating } from "@/types";
 const realCatalog: Movie[] = generatedMovies;
 
 describe("movie recommendations", () => {
+  test("keeps four-star likes positive for generous raters", () => {
+    const favorites = Array.from({ length: 30 }, (_, i) => createMovie({ id: `favorite-${i}`, genres: ["Action"], tags: ["adventure"] }));
+    const comedy = createMovie({ id: "liked-comedy", genres: ["Comedy"], tags: ["funny"] });
+    const states = createStates([...favorites.map((movie): [string, Rating] => [movie.id, 5]), [comedy.id, 4]]);
+    const profile = buildTasteProfile([...favorites, comedy], states);
+    expect(profile.topGenres.some((genre) => genre.name === "Comedy" && genre.weight > 0)).toBe(true);
+    expect(profile.topTags.some((tag) => tag.name === "funny" && tag.weight > 0)).toBe(true);
+  });
+  test("does not count a tiny TMDB sample twice as both critic and audience evidence", () => {
+    const catalog = [
+      createMovie({ id: "a-one-vote", genres: [], tags: [], criticalScore: 100, source: { tmdbVoteAverage: 10, tmdbVoteCount: 1 } }),
+      createMovie({ id: "b-consensus", genres: [], tags: [], criticalScore: 80, source: { tmdbVoteAverage: 8, tmdbVoteCount: 10_000 } }),
+    ];
+    expect(getRecommendations(catalog, {})[0].movie.id).toBe("b-consensus");
+  });
+
+  test("preserves stronger matches when display scores saturate", () => {
+    const liked = Array.from({ length: 12 }, (_, i) => createMovie({ id: `liked-${i}`, genres: ["Drama", "Mystery", "Thriller"], tags: ["hope", "detective", "tense"] }));
+    const disliked = Array.from({ length: 12 }, (_, i) => createMovie({ id: `disliked-${i}`, genres: ["Comedy"], tags: ["slapstick"], directors: ["Other"], cast: ["Other"] }));
+    const weak = { ...liked[0], id: "a-weaker", criticalScore: 20 };
+    const strong = { ...liked[0], id: "z-stronger", criticalScore: 80 };
+    const states = createStates([...liked.map((movie): [string, Rating] => [movie.id, 5]), ...disliked.map((movie): [string, Rating] => [movie.id, 1])]);
+    const result = getRecommendations([...liked, ...disliked, weak, strong], states);
+    expect(result.map((pick) => pick.score)).toEqual([100, 100]);
+    expect(result[0].movie.id).toBe(strong.id);
+  });
+
+  test("stops filtering a ranked shelf after enough diverse matches", () => {
+    const catalog = Array.from({ length: 2000 }, (_, i) => createMovie({ id: `movie-${i}`, genres: [`genre-${i}`], tags: [], directors: [`director-${i}`] }));
+    const select = createRecommendationSelector(catalog, {});
+    const all = select();
+    const filter = vi.fn(() => true);
+    expect(select({ candidateFilter: filter })).toEqual(all);
+    expect(filter).toHaveBeenCalledTimes(240);
+    const subset = select({ candidateFilter: (movie) => Number(movie.id.slice(6)) % 10 === 0 });
+    expect(subset).toHaveLength(200);
+    expect(subset.every((pick) => Number(pick.movie.id.slice(6)) % 10 === 0)).toBe(true);
+  });
+
+  test("reuses catalog feature statistics across profile edits and refreshes for new catalogs", () => {
+    const movie = createMovie({ id: "movie", genres: [], tags: [] });
+    const readGenres = vi.fn(() => ["Drama"]);
+    Object.defineProperty(movie, "genres", { get: readGenres });
+    const catalog = [movie];
+    buildTasteProfile(catalog, {});
+    buildTasteProfile(catalog, {});
+    expect(readGenres).toHaveBeenCalledTimes(1);
+    buildTasteProfile([...catalog], {});
+    expect(readGenres).toHaveBeenCalledTimes(2);
+  });
+
   test("builds a taste profile from explicit ratings", () => {
     const states = createStates([
       ["dune-part-two-2024", 5],

@@ -58,6 +58,28 @@ export function DiscoverPage({
 
   return (
     <>
+      <label className="recommendation-focus">
+        <span>Top picks for</span>
+        <select
+          aria-label="Top picks focus"
+          value={library.settings.recommendationFocus ?? "all"}
+          onChange={(event) => {
+            const focus = event.target.value;
+            if (focus === "all" || focus === "comedy" || focus === "emotional" || focus === "comedy-emotional") {
+              library.setRecommendationFocus(focus);
+              setFeaturedPickIndex(0);
+            }
+          }}
+        >
+          <option value="all">All my tastes</option>
+          <option value="comedy">Comedy</option>
+          <option value="emotional">Emotional stories</option>
+          <option value="comedy-emotional">Comedy &amp; emotional</option>
+        </select>
+      </label>
+      {!discoverSections.some((section) => section.key === "top-picks") ? (
+        <p>No unseen picks match this focus and your filters. Try another focus or browse the shelves below.</p>
+      ) : null}
       {featuredMovie ? (
         <FeaturedPick
           movie={featuredMovie}

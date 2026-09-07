@@ -1,6 +1,7 @@
-import type { Movie, MovieStateMap, Recommendation } from "@/types";
+import type { Movie, MovieStateMap, Recommendation, RecommendationFocus } from "@/types";
 import { createRecommendationSelector } from "@/lib/recommendations";
 import type { RecommendationSelector } from "@/lib/recommendations";
+import { getAudienceScore } from "@/lib/audienceRatings";
 
 export type DiscoverSectionKey =
   | "top-picks"
@@ -176,14 +177,14 @@ export function buildDiscoverSections({ visibleMovies, states, recommendations, 
       key: "hidden-gems",
       title: "hidden gems",
       subtitle: "Strong reviews without the biggest spotlight",
-      movies: recommendSectionMovies((movie) => movie.criticalScore >= 78 && movie.popularity <= 35),
+      movies: recommendSectionMovies((movie) => getAudienceScore(movie) >= 78 && movie.popularity <= 35),
       rowLimit,
     },
     {
       key: "highly-rated",
       title: "highly rated",
-      subtitle: "Critic-friendly movies with broad catalog appeal",
-      movies: recommendSectionMovies((movie) => movie.criticalScore >= 86),
+      subtitle: "Strong audience ratings with broad catalog appeal",
+      movies: recommendSectionMovies((movie) => getAudienceScore(movie) >= 86),
       rowLimit,
     },
     {
@@ -220,6 +221,15 @@ function isNostalgicMovie(movie: Movie) {
   }
 
   return movie.tags.some((tag) => nostalgicTags.has(tag.toLowerCase()));
+}
+
+export function matchesRecommendationFocus(movie: Movie, focus: RecommendationFocus = "all") {
+  switch (focus) {
+    case "all": return true;
+    case "comedy": return hasGenre(movie, "Comedy");
+    case "emotional": return isSadMovie(movie);
+    case "comedy-emotional": return hasGenre(movie, "Comedy") || isSadMovie(movie);
+  }
 }
 
 function isSadMovie(movie: Movie) {

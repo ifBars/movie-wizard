@@ -44,7 +44,9 @@ export function parseCollaborativeModel(payload: unknown): CollaborativeModel {
         !Array.isArray(rawNeighbor) ||
         typeof rawNeighbor[0] !== "string" ||
         typeof rawNeighbor[1] !== "number" ||
-        typeof rawNeighbor[2] !== "number"
+        typeof rawNeighbor[2] !== "number" ||
+        !Number.isFinite(rawNeighbor[1]) || Math.abs(rawNeighbor[1]) > 1 || rawNeighbor[1] === 0 ||
+        !Number.isSafeInteger(rawNeighbor[2]) || rawNeighbor[2] < 1
       ) {
         return [];
       }
@@ -72,17 +74,20 @@ export function getCollaborativeMovieIds(
       continue;
     }
 
-    const ratingStrength = Math.abs(state.rating - 3.5);
+    const ratingStrength = state.rating - 3.5;
+    const seen = new Set<string>();
     for (const neighbor of model.get(state.movieId) ?? []) {
+      if (seen.has(neighbor.movieId)) continue;
+      seen.add(neighbor.movieId);
+      const candidateState = states[neighbor.movieId];
+      if (candidateState && (candidateState.watched || candidateState.watchlist || candidateState.ignored || candidateState.rating !== null)) continue;
       const strength = neighbor.similarity * ratingStrength;
-      if (strength <= 0) {
-        continue;
-      }
-      candidateStrength.set(neighbor.movieId, Math.max(candidateStrength.get(neighbor.movieId) ?? 0, strength));
+      candidateStrength.set(neighbor.movieId, (candidateStrength.get(neighbor.movieId) ?? 0) + strength);
     }
   }
 
   return [...candidateStrength.entries()]
+    .filter(([, strength]) => strength > 0)
     .sort((left, right) => right[1] - left[1])
     .slice(0, limit)
     .map(([movieId]) => movieId);

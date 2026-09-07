@@ -37,6 +37,7 @@ export type Movie = {
 
 export type CatalogIndexMovie = Omit<Movie, "source" | "synopsis"> & {
   synopsisPreview: string;
+  source?: Pick<NonNullable<Movie["source"]>, "tmdbVoteAverage" | "tmdbVoteCount">;
 };
 
 export type MovieDetails = Pick<Movie, "id" | "crew" | "source" | "synopsis">;
@@ -92,10 +93,13 @@ export type UserMovieState = {
 
 export type MovieStateMap = Record<string, UserMovieState>;
 
+export type RecommendationFocus = "all" | "comedy" | "emotional" | "comedy-emotional";
+
 export type LibrarySettings = {
   languageCodes: string[];
   showAdultMovies: boolean;
   minimumRecommendationYear: number | null;
+  recommendationFocus?: RecommendationFocus;
 };
 
 export type TasteProfile = {

@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { isAdultMovie } from "../../src/lib/adultMovies";
+import { getAudienceScore } from "../../src/lib/audienceRatings";
 import {
   getMovieCatalogShard,
   getMovieDetailShard,
@@ -88,6 +89,7 @@ async function main() {
       "plexFit",
       "trailerUrl",
       "synopsisPreview",
+      "source",
     ],
     detailFields: ["id", "crew", "source", "synopsis"],
     adultMovieCount: movies.filter(isAdultMovie).length,
@@ -165,7 +167,7 @@ function selectBootstrapMovies(movies: Movie[]) {
 }
 
 function getBootstrapScore(movie: Movie) {
-  return movie.criticalScore * 0.72 + Math.log1p(Math.max(0, movie.popularity)) * 6;
+  return getAudienceScore(movie) * 0.72 + Math.log1p(Math.max(0, movie.popularity)) * 6;
 }
 
 async function writeMovieDetailShards(movies: Movie[], generatedAt: string) {
@@ -212,6 +214,10 @@ function toCatalogIndexMovie(movie: Movie): CatalogIndexMovie {
     plexFit: movie.plexFit,
     trailerUrl: movie.trailerUrl,
     synopsisPreview: createSynopsisPreview(movie.synopsis),
+    source: movie.source && {
+      tmdbVoteAverage: movie.source.tmdbVoteAverage,
+      tmdbVoteCount: movie.source.tmdbVoteCount,
+    },
   };
 }
 

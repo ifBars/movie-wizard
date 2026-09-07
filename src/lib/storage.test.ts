@@ -3,6 +3,11 @@ import { defaultLibrarySettings, exportMovieState, importMovieState } from "@/li
 import type { MovieStateMap } from "@/types";
 
 describe("importMovieState", () => {
+  test("round trips explicit recommendation focus and ignores unsupported values", () => {
+    const exported = exportMovieState({}, { ...defaultLibrarySettings, recommendationFocus: "comedy-emotional" });
+    expect(importMovieState(exported)?.settings.recommendationFocus).toBe("comedy-emotional");
+    expect(importMovieState(exported.replace("comedy-emotional", "unknown"))?.settings.recommendationFocus).toBeUndefined();
+  });
   test("imports exported Movie Wizard library data", () => {
     const movies: MovieStateMap = {
       "the-matrix-1999": {

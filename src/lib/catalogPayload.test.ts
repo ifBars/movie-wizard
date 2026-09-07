@@ -36,8 +36,19 @@ describe("catalog payload split", () => {
     const movie = createCatalogMovie(indexMovie);
 
     expect(movie.synopsis).toBe(indexMovie.synopsisPreview);
-    expect(movie.source).toBeUndefined();
+    expect(movie.source?.tmdbVoteAverage).toBe(fullCatalog[0].source?.tmdbVoteAverage);
+    expect(movie.source?.tmdbVoteCount).toBe(fullCatalog[0].source?.tmdbVoteCount);
+    expect(movie.source?.tmdbUpdatedAt).toBeUndefined();
     expect(applyMovieDetails(movie, movieDetails.movies[movie.id])).toEqual(fullCatalog[0]);
+  });
+
+  test("retains audience evidence for every browse candidate without fetching details", () => {
+    const fullById = new Map(fullCatalog.map((movie) => [movie.id, movie]));
+    for (const indexMovie of catalogIndex.movies) {
+      const source = fullById.get(indexMovie.id)?.source;
+      expect(indexMovie.source?.tmdbVoteAverage).toBe(source?.tmdbVoteAverage);
+      expect(indexMovie.source?.tmdbVoteCount).toBe(source?.tmdbVoteCount);
+    }
   });
 });
 
@@ -110,6 +121,7 @@ function isCatalogIndexField(field: string): field is CatalogManifestPayload["in
     case "plexFit":
     case "trailerUrl":
     case "synopsisPreview":
+    case "source":
       return true;
     default:
       return false;

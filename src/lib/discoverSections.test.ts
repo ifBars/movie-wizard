@@ -2,12 +2,30 @@ import { describe, expect, test } from "vitest";
 import generatedMovies from "@/data/generated/movies.json";
 import { buildDiscoverSections, findDiscoverSection } from "@/lib/discoverSections";
 import { getRecommendations } from "@/lib/recommendations";
+import { runRecommendationJob } from "@/lib/recommendationJob";
 import type { Movie, MovieStateMap } from "@/types";
 
 const realCatalog: Movie[] = generatedMovies;
 const emptyStates: MovieStateMap = {};
 
 describe("discover sections", () => {
+  test("applies explicit comedy and emotional focus to top picks without erasing other shelves", () => {
+    const movies = [
+      createMovie({ id: "action", genres: ["Action"], tags: [] }),
+      createMovie({ id: "funny", genres: ["Comedy"], tags: [] }),
+      createMovie({ id: "sad", genres: ["Drama"], tags: ["grief"] }),
+      createMovie({ id: "generic-drama", genres: ["Drama"], tags: [] }),
+    ];
+    const base = { movies, states: {}, minimumMovieYear: null };
+    const result = runRecommendationJob({ ...base, focus: "comedy-emotional" });
+    expect(result.recommendations.map((pick) => pick.movieId).sort()).toEqual(["funny", "sad"]);
+    expect(result.sections.find((section) => section.key === "top-picks")?.movieIds.sort()).toEqual(["funny", "sad"]);
+    expect(result.sections.find((section) => section.key === "action")?.movieIds).toEqual(["action"]);
+    expect(runRecommendationJob({ ...base, focus: "comedy" }).recommendations.map((pick) => pick.movieId)).toEqual(["funny"]);
+    expect(runRecommendationJob({ ...base, focus: "emotional" }).recommendations.map((pick) => pick.movieId)).toEqual(["sad"]);
+    expect(runRecommendationJob({ ...base, focus: "all" }).recommendations).toHaveLength(4);
+    expect(runRecommendationJob({ ...base, minimumMovieYear: 3000, focus: "emotional" }).recommendations).toHaveLength(0);
+  });
   test("builds expanded discover shelves from the visible catalog", () => {
     const sections = buildDiscoverSections({
       visibleMovies: realCatalog,

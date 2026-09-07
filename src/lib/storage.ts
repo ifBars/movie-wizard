@@ -88,6 +88,8 @@ function parseStoredSettings(value: unknown): LibrarySettings {
     showAdultMovies:
       typeof value.settings.showAdultMovies === "boolean" ? value.settings.showAdultMovies : defaultLibrarySettings.showAdultMovies,
     minimumRecommendationYear,
+    ...(value.settings.recommendationFocus === "all" || value.settings.recommendationFocus === "comedy" || value.settings.recommendationFocus === "emotional" || value.settings.recommendationFocus === "comedy-emotional"
+      ? { recommendationFocus: value.settings.recommendationFocus } : {}),
   };
 }
 
