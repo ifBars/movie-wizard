@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T12:21:29.518Z",
+  "generatedAt": "2026-09-08T13:42:13.596Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -3632,6 +3632,25 @@
       },
       "synopsis": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world."
     },
+    "animals-2026": {
+      "id": "animals-2026",
+      "crew": [
+        {
+          "name": "José Ramón Alama",
+          "job": "Director"
+        },
+        {
+          "name": "José Ramón Alama",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.336Z",
+        "tmdbVoteAverage": 6.211,
+        "tmdbVoteCount": 38
+      },
+      "synopsis": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships."
+    },
     "obex-2026": {
       "id": "obex-2026",
       "crew": [
@@ -3885,25 +3904,6 @@
         "tmdbVoteCount": 9201
       },
       "synopsis": "Charlie Kenton is a washed-up fighter who retired from the ring when robots took over the sport. After his robot is trashed, he reluctantly teams up with his estranged son to rebuild and train an unlikely contender."
-    },
-    "animals-2026": {
-      "id": "animals-2026",
-      "crew": [
-        {
-          "name": "José Ramón Alama",
-          "job": "Director"
-        },
-        {
-          "name": "José Ramón Alama",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.336Z",
-        "tmdbVoteAverage": 6.211,
-        "tmdbVoteCount": 38
-      },
-      "synopsis": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships."
     },
     "the-end-of-oak-street-2026": {
       "id": "the-end-of-oak-street-2026",
@@ -5454,6 +5454,21 @@
         "tmdbVoteCount": 336
       },
       "synopsis": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe."
+    },
+    "lego-star-wars-the-mandalorian-2026": {
+      "id": "lego-star-wars-the-mandalorian-2026",
+      "crew": [
+        {
+          "name": "Chris Buckley",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T13:42:13.047Z",
+        "tmdbVoteAverage": 7.024,
+        "tmdbVoteCount": 21
+      },
+      "synopsis": "The Mandalorian and Grogu join their misfit allies for an epic party, celebrating their heroism. As friends regale the crowd with tales of their adventures, a pirate threat looms."
     },
     "scream-7-2026": {
       "id": "scream-7-2026",
@@ -11297,29 +11312,6 @@
       },
       "synopsis": "After concluding the opening ceremony of the Demon Kingdom Federation Tempest, Rimuru and his companions are invited by the Celestial Emperor Hermesia of the great elven nation – the Magi Dynasty Salion – to visit her private resort island. As the group enjoys their brief vacation, a mysterious woman named Yura appears. A new incident unfolds against the backdrop of the boundless azure sea."
     },
-    "all-that-we-never-were-2026": {
-      "id": "all-that-we-never-were-2026",
-      "crew": [
-        {
-          "name": "Jorge Alonso",
-          "job": "Director"
-        },
-        {
-          "name": "Sara Belloso",
-          "job": "Writer"
-        },
-        {
-          "name": "Sergio de la Puente",
-          "job": "Original Music Composer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.380Z",
-        "tmdbVoteAverage": 8.122,
-        "tmdbVoteCount": 94
-      },
-      "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self."
-    },
     "oppenheimer-2023": {
       "id": "oppenheimer-2023",
       "crew": [
@@ -13817,57 +13809,6 @@
       },
       "synopsis": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity."
     },
-    "flow-2024": {
-      "id": "flow-2024",
-      "crew": [
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Producer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Editor"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ron Dyens",
-          "job": "Producer"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Producer"
-        },
-        {
-          "name": "Gregory Zalcman",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.439Z",
-        "tmdbVoteAverage": 8.064,
-        "tmdbVoteCount": 3034
-      },
-      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
-    },
     "hope-2026": {
       "id": "hope-2026",
       "crew": [
@@ -15234,6 +15175,29 @@
         "tmdbVoteCount": 4322
       },
       "synopsis": "1930s Korea, in the period of Japanese occupation, a new girl, Sook-hee, is hired as a handmaiden to a Japanese heiress, Hideko, who lives a secluded life on a large countryside estate with her domineering Uncle Kouzuki. But the maid has a secret. She is a pickpocket recruited by a swindler posing as a Japanese Count to help him seduce the Lady to steal her fortune."
+    },
+    "all-that-we-never-were-2026": {
+      "id": "all-that-we-never-were-2026",
+      "crew": [
+        {
+          "name": "Jorge Alonso",
+          "job": "Director"
+        },
+        {
+          "name": "Sara Belloso",
+          "job": "Writer"
+        },
+        {
+          "name": "Sergio de la Puente",
+          "job": "Original Music Composer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.380Z",
+        "tmdbVoteAverage": 8.122,
+        "tmdbVoteCount": 94
+      },
+      "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self."
     },
     "david-2025": {
       "id": "david-2025",
@@ -17730,6 +17694,57 @@
         "tmdbVoteCount": 17247
       },
       "synopsis": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home."
+    },
+    "flow-2024": {
+      "id": "flow-2024",
+      "crew": [
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Producer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Editor"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ron Dyens",
+          "job": "Producer"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Producer"
+        },
+        {
+          "name": "Gregory Zalcman",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.439Z",
+        "tmdbVoteAverage": 8.064,
+        "tmdbVoteCount": 3034
+      },
+      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
     },
     "young-washington-2026": {
       "id": "young-washington-2026",
@@ -29506,49 +29521,6 @@
       },
       "synopsis": "The king and the queen conceive Snow White during a sexual relationship in the snow."
     },
-    "no-thank-you-2014": {
-      "id": "no-thank-you-2014",
-      "crew": [
-        {
-          "name": "Samuli Valkama",
-          "job": "Director"
-        },
-        {
-          "name": "Samuli Valkama",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Heikki Paavilainen",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Risto Salomaa",
-          "job": "Producer"
-        },
-        {
-          "name": "Lasse Saarinen",
-          "job": "Producer"
-        },
-        {
-          "name": "Timo Lassy",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Anssi Leino",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Harri Ylönen",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.486Z",
-        "tmdbVoteAverage": 4.5,
-        "tmdbVoteCount": 15
-      },
-      "synopsis": "Heli Valkonen is desperately in love with her husband. But Matti is just not in the mood. He is only interested in playing computer games, dressed in worn out fleece pants. For him, a shoulder massage is the highest form of intimacy. When subtle hints, nice words and fetching clothes won't help, Heli resorts in direct, and increasingly direct action - in vain."
-    },
     "the-teacher-1974": {
       "id": "the-teacher-1974",
       "crew": [
@@ -37022,6 +36994,49 @@
         "tmdbVoteCount": 427
       },
       "synopsis": "In the not too distant future a secret government re-animation chemo-virus gets released into conservative Sartre, Nebraska and lands in an underground strip club. As the virus begins to spread, turning the strippers into \"Super Zombie Strippers\" the girls struggle with whether or not to conform to the new \"fad\" even if it means there's no turning back."
+    },
+    "no-thank-you-2014": {
+      "id": "no-thank-you-2014",
+      "crew": [
+        {
+          "name": "Samuli Valkama",
+          "job": "Director"
+        },
+        {
+          "name": "Samuli Valkama",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Heikki Paavilainen",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Risto Salomaa",
+          "job": "Producer"
+        },
+        {
+          "name": "Lasse Saarinen",
+          "job": "Producer"
+        },
+        {
+          "name": "Timo Lassy",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Anssi Leino",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Harri Ylönen",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.486Z",
+        "tmdbVoteAverage": 4.5,
+        "tmdbVoteCount": 15
+      },
+      "synopsis": "Heli Valkonen is desperately in love with her husband. But Matti is just not in the mood. He is only interested in playing computer games, dressed in worn out fleece pants. For him, a shoulder massage is the highest form of intimacy. When subtle hints, nice words and fetching clothes won't help, Heli resorts in direct, and increasingly direct action - in vain."
     },
     "my-first-40-years-1987": {
       "id": "my-first-40-years-1987",
@@ -55432,29 +55447,6 @@
       },
       "synopsis": "A boy is given the ability to become an adult superhero in times of need with a single magic word."
     },
-    "summer-house-2026": {
-      "id": "summer-house-2026",
-      "crew": [
-        {
-          "name": "Erdem Tepegöz",
-          "job": "Director"
-        },
-        {
-          "name": "Aylin Alıveren",
-          "job": "Writer"
-        },
-        {
-          "name": "Aslı Ilgın Kopuz",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.517Z",
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 22
-      },
-      "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life."
-    },
     "the-lover-1992": {
       "id": "the-lover-1992",
       "crew": [
@@ -65666,6 +65658,29 @@
       },
       "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
     },
+    "summer-house-2026": {
+      "id": "summer-house-2026",
+      "crew": [
+        {
+          "name": "Erdem Tepegöz",
+          "job": "Director"
+        },
+        {
+          "name": "Aylin Alıveren",
+          "job": "Writer"
+        },
+        {
+          "name": "Aslı Ilgın Kopuz",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.517Z",
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 22
+      },
+      "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life."
+    },
     "the-angry-birds-movie-2-2019": {
       "id": "the-angry-birds-movie-2-2019",
       "crew": [
@@ -72253,6 +72268,33 @@
         "tmdbVoteCount": 446
       },
       "synopsis": "The story of life on our planet by the man who has seen more of the natural world than any other. In more than 90 years, Attenborough has visited every continent on the globe, exploring the wild places of our planet and documenting the living world in all its variety and wonder. Addressing the biggest challenges facing life on our planet, the film offers a powerful message of hope for future generations."
+    },
+    "human-2015": {
+      "id": "human-2015",
+      "crew": [
+        {
+          "name": "Yann Arthus-Bertrand",
+          "job": "Director"
+        },
+        {
+          "name": "Daniel Meyer",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Anne-Marie Sangla",
+          "job": "Editor"
+        },
+        {
+          "name": "Françoise Bernard",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.629Z",
+        "tmdbVoteAverage": 8.432,
+        "tmdbVoteCount": 314
+      },
+      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
     },
     "the-yellow-tie-2025": {
       "id": "the-yellow-tie-2025",
@@ -86076,21 +86118,6 @@
       },
       "synopsis": "Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever."
     },
-    "new-golden-lotus-i-1996": {
-      "id": "new-golden-lotus-i-1996",
-      "crew": [
-        {
-          "name": "Tam Yui-Ming",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.572Z",
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "ramaiya-vastavaiya-2013": {
       "id": "ramaiya-vastavaiya-2013",
       "crew": [
@@ -90304,33 +90331,6 @@
       },
       "synopsis": "Pursued by a religious cult and other curse users, former friends Satoru Gojo and Suguru Geto are the only sorcerers capable of carrying the difficult task of protecting Riko Amanai, a student who has been designated to be sacrificed as the Star Plasma Vessel, until she can fulfill her duty."
     },
-    "human-2015": {
-      "id": "human-2015",
-      "crew": [
-        {
-          "name": "Yann Arthus-Bertrand",
-          "job": "Director"
-        },
-        {
-          "name": "Daniel Meyer",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Anne-Marie Sangla",
-          "job": "Editor"
-        },
-        {
-          "name": "Françoise Bernard",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.629Z",
-        "tmdbVoteAverage": 8.432,
-        "tmdbVoteCount": 314
-      },
-      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
-    },
     "the-thin-yellow-line-2015": {
       "id": "the-thin-yellow-line-2015",
       "crew": [
@@ -90729,6 +90729,37 @@
         "tmdbVoteCount": 4677
       },
       "synopsis": "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it."
+    },
+    "versa-2025": {
+      "id": "versa-2025",
+      "crew": [
+        {
+          "name": "Malcon Pierce",
+          "job": "Director"
+        },
+        {
+          "name": "Malcon Pierce",
+          "job": "Writer"
+        },
+        {
+          "name": "Bradford Simonsen",
+          "job": "Producer"
+        },
+        {
+          "name": "Haim Mazar",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Pace Paulsen",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.703Z",
+        "tmdbVoteAverage": 8.242,
+        "tmdbVoteCount": 62
+      },
+      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "better-days-2019": {
       "id": "better-days-2019",
@@ -109219,53 +109250,6 @@
       },
       "synopsis": "Death is just as omnipresent as ever, and is unleashed after one man’s premonition saves a group of coworkers from a terrifying suspension bridge collapse. But this group of unsuspecting souls was never supposed to survive, and, in a terrifying race against time, the ill-fated group frantically tries to discover a way to escape Death’s sinister agenda."
     },
-    "gatao-big-brothers-2025": {
-      "id": "gatao-big-brothers-2025",
-      "crew": [
-        {
-          "name": "Chiang Jui-chih",
-          "job": "Director"
-        },
-        {
-          "name": "Yao Hung-i",
-          "job": "Director"
-        },
-        {
-          "name": "Yao Hung-i",
-          "job": "Editor"
-        },
-        {
-          "name": "Yao Hung-i",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Red Chang",
-          "job": "Writer"
-        },
-        {
-          "name": "Joyce Liu",
-          "job": "Writer"
-        },
-        {
-          "name": "Chiang Hsi-wen",
-          "job": "Writer"
-        },
-        {
-          "name": "Shih Cheng-yu",
-          "job": "Writer"
-        },
-        {
-          "name": "Ho Jiun-huei",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.781Z",
-        "tmdbVoteAverage": 6.154,
-        "tmdbVoteCount": 13
-      },
-      "synopsis": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the latest installment in the Gatao franchise, following the narrative of a young successor trying to expand his power while navigating the volatile underworld."
-    },
     "gunslingers-2025": {
       "id": "gunslingers-2025",
       "crew": [
@@ -109550,6 +109534,21 @@
         "tmdbVoteCount": 33
       },
       "synopsis": "Anthology movie, three stories about marriages in crisis."
+    },
+    "new-golden-lotus-i-1996": {
+      "id": "new-golden-lotus-i-1996",
+      "crew": [
+        {
+          "name": "Tam Yui-Ming",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.572Z",
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "No synopsis is available yet."
     },
     "open-season-2006": {
       "id": "open-season-2006",
@@ -111100,6 +111099,29 @@
       },
       "synopsis": "Lee is an aunt whose life mission is to protect her orphaned nieces, Imogen and Maeve, from a self-destructing world, raising them in isolation until an outsider threatens their peaceful existence."
     },
+    "onesime-clockmaker-1912": {
+      "id": "onesime-clockmaker-1912",
+      "crew": [
+        {
+          "name": "Jean Durand",
+          "job": "Director"
+        },
+        {
+          "name": "Louis Feuillade",
+          "job": "Writer"
+        },
+        {
+          "name": "Romeo Bosetti",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.745Z",
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 12
+      },
+      "synopsis": "In an effort to secure a promised inheritance, Onésime invents a time machine that speeds up activity on earth, hyper-animates men and machines, and telescopes the human life-cycle."
+    },
     "porno-2019": {
       "id": "porno-2019",
       "crew": [
@@ -111948,6 +111970,41 @@
         "tmdbVoteCount": 991
       },
       "synopsis": "Andy and her team of immortal warriors fight with renewed purpose as they face a powerful new foe threatening their mission to protect humanity."
+    },
+    "mauvaise-pioche-2026": {
+      "id": "mauvaise-pioche-2026",
+      "crew": [
+        {
+          "name": "Gérard Jugnot",
+          "job": "Director"
+        },
+        {
+          "name": "Gérard Jugnot",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Serge Lamadie",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Frédéric Hazan",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Marc-Etienne Schwartz",
+          "job": "Producer"
+        },
+        {
+          "name": "Pierric Gantelmi d'Ille",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:24.598Z",
+        "tmdbVoteAverage": 5.943,
+        "tmdbVoteCount": 35
+      },
+      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
     },
     "friday-the-13th-2009": {
       "id": "friday-the-13th-2009",
@@ -112936,6 +112993,21 @@
         "tmdbVoteCount": 3566
       },
       "synopsis": "Orbiting above a planet on the brink of war, scientists test a device to solve an energy crisis and end up face-to-face with a dark alternate reality."
+    },
+    "west-sex-journey-2-1998": {
+      "id": "west-sex-journey-2-1998",
+      "crew": [
+        {
+          "name": "陸久浩長",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:24.629Z",
+        "tmdbVoteAverage": 5.6,
+        "tmdbVoteCount": 17
+      },
+      "synopsis": "The Tang monk said: It is difficult to be a monk, and it is difficult to be a monk with a face better than a talent; It is difficult to be a non-mainstream monk with good looks and talents. Sun Wukong said: Junior Brother Sha, that old guy is starting to lose his face again. ZBJ said: It's easy to be a pig, but it's not easy to be a pig that I do. The sand monk said: Don't look at my rough appearance, in fact, my inner thief is gentle and dripping. The little white dragon said: Don't talk to me, you've seen a few handsome guys who will open their mouths at will."
     },
     "10-000-bc-2008": {
       "id": "10-000-bc-2008",
@@ -116163,37 +116235,6 @@
         "tmdbVoteCount": 1218
       },
       "synopsis": "The elderly Shukishi and his wife, Tomi, take the long journey from their small seaside village to visit their adult children in Tokyo. Their elder son, Koichi, a doctor, and their daughter, Shige, a hairdresser, don't have much time to spend with their aged parents, and so it falls to Noriko, the widow of their younger son who was killed in the war, to keep her in-laws company."
-    },
-    "versa-2025": {
-      "id": "versa-2025",
-      "crew": [
-        {
-          "name": "Malcon Pierce",
-          "job": "Director"
-        },
-        {
-          "name": "Malcon Pierce",
-          "job": "Writer"
-        },
-        {
-          "name": "Bradford Simonsen",
-          "job": "Producer"
-        },
-        {
-          "name": "Haim Mazar",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Pace Paulsen",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.703Z",
-        "tmdbVoteAverage": 8.242,
-        "tmdbVoteCount": 62
-      },
-      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "elite-squad-2007": {
       "id": "elite-squad-2007",
@@ -124741,45 +124782,6 @@
         "tmdbVoteCount": 151
       },
       "synopsis": "During the Ming Dynasty, power-crazed eunuch Tso Siu Yan rules his desert region of China as if he were Emperor, ruthlessly thwarts plots against him and sets a trap for one of his enemies at the Dragon Gate Inn."
-    },
-    "one-man-band-2005": {
-      "id": "one-man-band-2005",
-      "crew": [
-        {
-          "name": "Mark Andrews",
-          "job": "Director"
-        },
-        {
-          "name": "Andrew Jimenez",
-          "job": "Writer"
-        },
-        {
-          "name": "Mark Andrews",
-          "job": "Writer"
-        },
-        {
-          "name": "Andrew Jimenez",
-          "job": "Director"
-        },
-        {
-          "name": "Osnat Shurer",
-          "job": "Producer"
-        },
-        {
-          "name": "Michael Giacchino",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Steve Bloom",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.935Z",
-        "tmdbVoteAverage": 7.256,
-        "tmdbVoteCount": 622
-      },
-      "synopsis": "With one coin to make a wish at the piazza fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the one-man-bands."
     },
     "paw-patrol-the-movie-2021": {
       "id": "paw-patrol-the-movie-2021",
@@ -141278,16 +141280,6 @@
       },
       "synopsis": "Fifteen years after vanishing from the CIA to start a family, elite spies Matt and Emily jump back into the world of espionage when their cover is blown."
     },
-    "blood-type-o-watermelon-chest-housekeeper-2021": {
-      "id": "blood-type-o-watermelon-chest-housekeeper-2021",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:24.703Z",
-        "tmdbVoteAverage": 6.412,
-        "tmdbVoteCount": 17
-      },
-      "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?"
-    },
     "charlie-s-angels-2019": {
       "id": "charlie-s-angels-2019",
       "crew": [
@@ -145650,6 +145642,53 @@
       },
       "synopsis": "A teenager suspects his new neighbour is a vampire. Unable to convince anyone, he tries to enlist the help of a self-proclaimed vampire hunter and magician."
     },
+    "gatao-big-brothers-2025": {
+      "id": "gatao-big-brothers-2025",
+      "crew": [
+        {
+          "name": "Chiang Jui-chih",
+          "job": "Director"
+        },
+        {
+          "name": "Yao Hung-i",
+          "job": "Director"
+        },
+        {
+          "name": "Yao Hung-i",
+          "job": "Editor"
+        },
+        {
+          "name": "Yao Hung-i",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Red Chang",
+          "job": "Writer"
+        },
+        {
+          "name": "Joyce Liu",
+          "job": "Writer"
+        },
+        {
+          "name": "Chiang Hsi-wen",
+          "job": "Writer"
+        },
+        {
+          "name": "Shih Cheng-yu",
+          "job": "Writer"
+        },
+        {
+          "name": "Ho Jiun-huei",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.781Z",
+        "tmdbVoteAverage": 6.154,
+        "tmdbVoteCount": 13
+      },
+      "synopsis": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the latest installment in the Gatao franchise, following the narrative of a young successor trying to expand his power while navigating the volatile underworld."
+    },
     "get-smart-2008": {
       "id": "get-smart-2008",
       "crew": [
@@ -149736,6 +149775,29 @@
       },
       "synopsis": "A young woman is trained by a professional assassin to become her partner in crime."
     },
+    "new-golden-lotus-iii-1996": {
+      "id": "new-golden-lotus-iii-1996",
+      "crew": [
+        {
+          "name": "Tam Yui-Ming",
+          "job": "Director"
+        },
+        {
+          "name": "Leung Lap-Yan",
+          "job": "Writer"
+        },
+        {
+          "name": "Lu Mu-Chuan",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:24.985Z",
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 14
+      },
+      "synopsis": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concubines, Simon has affairs with anything that movies, poisons Chinny's husband, and imprisons her brother-in-law. It soon becomes apparent that this is Simon's M.O. when he steals another man's wife and kills him as well"
+    },
     "one-to-another-2006": {
       "id": "one-to-another-2006",
       "crew": [
@@ -149805,29 +149867,6 @@
         "tmdbVoteCount": 124
       },
       "synopsis": "A high school student suffers from a strange amnesia, causing her memories to only last a week. After she befriends a new student, his kindness and persistence make her gradually open up."
-    },
-    "onesime-clockmaker-1912": {
-      "id": "onesime-clockmaker-1912",
-      "crew": [
-        {
-          "name": "Jean Durand",
-          "job": "Director"
-        },
-        {
-          "name": "Louis Feuillade",
-          "job": "Writer"
-        },
-        {
-          "name": "Romeo Bosetti",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:23.745Z",
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 12
-      },
-      "synopsis": "In an effort to secure a promised inheritance, Onésime invents a time machine that speeds up activity on earth, hyper-animates men and machines, and telescopes the human life-cycle."
     },
     "open-season-2023": {
       "id": "open-season-2023",
@@ -151903,41 +151942,6 @@
         "tmdbVoteCount": 110
       },
       "synopsis": "When the meanest, nastiest villains pull a trick to take over their town, two brave children team up with a family of magical animals to bring them down."
-    },
-    "mauvaise-pioche-2026": {
-      "id": "mauvaise-pioche-2026",
-      "crew": [
-        {
-          "name": "Gérard Jugnot",
-          "job": "Director"
-        },
-        {
-          "name": "Gérard Jugnot",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Serge Lamadie",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Frédéric Hazan",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Marc-Etienne Schwartz",
-          "job": "Producer"
-        },
-        {
-          "name": "Pierric Gantelmi d'Ille",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:24.598Z",
-        "tmdbVoteAverage": 5.943,
-        "tmdbVoteCount": 35
-      },
-      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
     },
     "underworld-blood-wars-2016": {
       "id": "underworld-blood-wars-2016",
@@ -154883,21 +154887,6 @@
         "tmdbVoteCount": 3136
       },
       "synopsis": "When beautiful Carla Purty joins the university faculty, genetic professor Dr. Sherman Klump grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up, plumped down Don Juan."
-    },
-    "west-sex-journey-2-1998": {
-      "id": "west-sex-journey-2-1998",
-      "crew": [
-        {
-          "name": "陸久浩長",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:24.629Z",
-        "tmdbVoteAverage": 5.6,
-        "tmdbVoteCount": 17
-      },
-      "synopsis": "The Tang monk said: It is difficult to be a monk, and it is difficult to be a monk with a face better than a talent; It is difficult to be a non-mainstream monk with good looks and talents. Sun Wukong said: Junior Brother Sha, that old guy is starting to lose his face again. ZBJ said: It's easy to be a pig, but it's not easy to be a pig that I do. The sand monk said: Don't look at my rough appearance, in fact, my inner thief is gentle and dripping. The little white dragon said: Don't talk to me, you've seen a few handsome guys who will open their mouths at will."
     },
     "angry-angel-2017": {
       "id": "angry-angel-2017",
@@ -160236,6 +160225,45 @@
       },
       "synopsis": "While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers to protect his loved ones."
     },
+    "piper-2016": {
+      "id": "piper-2016",
+      "crew": [
+        {
+          "name": "Alan Barillaro",
+          "job": "Director"
+        },
+        {
+          "name": "Alan Barillaro",
+          "job": "Writer"
+        },
+        {
+          "name": "Marc Sondheimer",
+          "job": "Producer"
+        },
+        {
+          "name": "Adrian Belew",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Derek Williams",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Erik Smitt",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Sarah K. Reimers",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:25.093Z",
+        "tmdbVoteAverage": 8.131,
+        "tmdbVoteCount": 1766
+      },
+      "synopsis": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive."
+    },
     "the-father-2020": {
       "id": "the-father-2020",
       "crew": [
@@ -164639,6 +164667,33 @@
       },
       "synopsis": "Two dancers, opposites in all but their art, agree to train together for a competition. At first, they clash, but soon become drawn to each other."
     },
+    "7-days-2005": {
+      "id": "7-days-2005",
+      "crew": [
+        {
+          "name": "Fernando Kalife",
+          "job": "Director"
+        },
+        {
+          "name": "Fernando Kalife",
+          "job": "Writer"
+        },
+        {
+          "name": "Jeff Cardoni",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gonzalo Amat",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:24.793Z",
+        "tmdbVoteAverage": 7.575,
+        "tmdbVoteCount": 53
+      },
+      "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico."
+    },
     "a-gorilla-story-told-by-david-attenborough-2026": {
       "id": "a-gorilla-story-told-by-david-attenborough-2026",
       "crew": [
@@ -166432,33 +166487,6 @@
         "tmdbVoteCount": 146
       },
       "synopsis": "After the assassination of President Park, martial law has been declared. A coup d'état bursts out by Defense Security Commander Chun Doo-gwang and a private band of officers following him. Capital Defense Commander Lee Tae-shin, an obstinate soldier who believes the military should not take political actions, fights against Chun Doo-gwang to stop him. The conflict between the two grows while military leaders are holding their decision and Defense Minister is gone. In the midst of chaos, the spring of Seoul that everyone longed for heads to unexpected direction."
-    },
-    "7-days-2005": {
-      "id": "7-days-2005",
-      "crew": [
-        {
-          "name": "Fernando Kalife",
-          "job": "Director"
-        },
-        {
-          "name": "Fernando Kalife",
-          "job": "Writer"
-        },
-        {
-          "name": "Jeff Cardoni",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Gonzalo Amat",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:24.793Z",
-        "tmdbVoteAverage": 7.575,
-        "tmdbVoteCount": 53
-      },
-      "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico."
     },
     "a-time-for-bravery-2025": {
       "id": "a-time-for-bravery-2025",
@@ -172297,6 +172325,45 @@
       },
       "synopsis": "An inside look at the years of effort and craft that went into the final installment of the Duffer Brothers' generation-defining series."
     },
+    "one-man-band-2005": {
+      "id": "one-man-band-2005",
+      "crew": [
+        {
+          "name": "Mark Andrews",
+          "job": "Director"
+        },
+        {
+          "name": "Andrew Jimenez",
+          "job": "Writer"
+        },
+        {
+          "name": "Mark Andrews",
+          "job": "Writer"
+        },
+        {
+          "name": "Andrew Jimenez",
+          "job": "Director"
+        },
+        {
+          "name": "Osnat Shurer",
+          "job": "Producer"
+        },
+        {
+          "name": "Michael Giacchino",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Steve Bloom",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:23.935Z",
+        "tmdbVoteAverage": 7.256,
+        "tmdbVoteCount": 622
+      },
+      "synopsis": "With one coin to make a wish at the piazza fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the one-man-bands."
+    },
     "ordinary-miracle-1978": {
       "id": "ordinary-miracle-1978",
       "crew": [
@@ -177138,57 +177205,6 @@
         "tmdbVoteCount": 12
       },
       "synopsis": "A road movie that follows a solitary man as he sets of on a journey to the south of Brazil. The strange characters and absurd situations he encounters along the way present an extraordinary portrait of human relations."
-    },
-    "idolos-2026": {
-      "id": "idolos-2026",
-      "crew": [
-        {
-          "name": "Mat Whitecross",
-          "job": "Director"
-        },
-        {
-          "name": "Jordi Gasull",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Inma Cánovas",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ricky Roxburgh",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Jordi Gasull",
-          "job": "Producer"
-        },
-        {
-          "name": "Marco Belardi",
-          "job": "Producer"
-        },
-        {
-          "name": "Ricardo Marco Budé",
-          "job": "Producer"
-        },
-        {
-          "name": "Toni Novella",
-          "job": "Producer"
-        },
-        {
-          "name": "Marc Sabé",
-          "job": "Producer"
-        },
-        {
-          "name": "Ignacio Salazar-Simpson",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:25.233Z",
-        "tmdbVoteAverage": 7.057,
-        "tmdbVoteCount": 53
-      },
-      "synopsis": "A fiery young motorcycle racer throws away his shot at the junior championship in a reckless crash, only to receive a surprise offer from a top Moto2 team that gives him a chance at redemption. But to claim it, he must train under his estranged father, a disgraced former world champion haunted by a tragic past. As the father and son battle personal demons, media scrutiny, and a ruthless racing circuit, their fractured bond is pushed to the limit by ambition, love, and the unforgiving speed of the sport. With a wildcard entry into MotoGP on the line, they must confront the wreckage of their relationship to seize a future—on and off the track."
     },
     "it-was-just-an-accident-2025": {
       "id": "it-was-just-an-accident-2025",
@@ -198759,6 +198775,49 @@
       },
       "synopsis": "When her son's alleged kidnapper is released for lack of solid evidence, a reputable and well-known attorney takes matters into her own hands with unintended and spectacularly disastrous consequences."
     },
+    "bread-and-roses-2024": {
+      "id": "bread-and-roses-2024",
+      "crew": [
+        {
+          "name": "Sahra Mani",
+          "job": "Director"
+        },
+        {
+          "name": "Sahra Mani",
+          "job": "Producer"
+        },
+        {
+          "name": "Justine Ciarrocchi",
+          "job": "Producer"
+        },
+        {
+          "name": "Jennifer Lawrence",
+          "job": "Producer"
+        },
+        {
+          "name": "Masoud Sekhavat Doust",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Abdul Sami Murtaza",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Hayedeh Safiyari",
+          "job": "Editor"
+        },
+        {
+          "name": "Maria Mavati",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:25.499Z",
+        "tmdbVoteAverage": 6.469,
+        "tmdbVoteCount": 16
+      },
+      "synopsis": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives."
+    },
     "caught-by-love-2026": {
       "id": "caught-by-love-2026",
       "crew": [
@@ -203430,6 +203489,16 @@
       },
       "synopsis": "An ex-con takes a job driving a truck cross country. What he doesn't know is that the truck is filled with illegal weapons and now he must fight to survive and save his family."
     },
+    "blood-type-o-watermelon-chest-housekeeper-2021": {
+      "id": "blood-type-o-watermelon-chest-housekeeper-2021",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:24.703Z",
+        "tmdbVoteAverage": 6.412,
+        "tmdbVoteCount": 17
+      },
+      "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?"
+    },
     "borat-subsequent-moviefilm-delivery-of-prodigious-bribe-to-american-regime-for-make-benefit-once-glorious-nation-of-kazakhstan-2020": {
       "id": "borat-subsequent-moviefilm-delivery-of-prodigious-bribe-to-american-regime-for-make-benefit-once-glorious-nation-of-kazakhstan-2020",
       "crew": [
@@ -204514,6 +204583,37 @@
         "tmdbVoteCount": 1362
       },
       "synopsis": "After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success. When the scheme explodes—literally—Kronk must rely on his many personalities to rediscover that true happiness comes from staying true to himself."
+    },
+    "la-chaleur-2026": {
+      "id": "la-chaleur-2026",
+      "crew": [
+        {
+          "name": "Stéphane Demoustier",
+          "job": "Director"
+        },
+        {
+          "name": "Stéphane Demoustier",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Jean des Forêts",
+          "job": "Producer"
+        },
+        {
+          "name": "David Chambille",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Damien Maestraggi",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:25.535Z",
+        "tmdbVoteAverage": 6.368,
+        "tmdbVoteCount": 19
+      },
+      "synopsis": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also wonders if he might be falling in love with the charming Giulia."
     },
     "lamb-2021": {
       "id": "lamb-2021",
@@ -218455,29 +218555,6 @@
         "tmdbVoteCount": 1952
       },
       "synopsis": "Van Wilder has been attending college for far too many years and is scared to graduate, but Van’s father eventually realizes what is going on. When he stops paying his son's tuition fees, Van must come up with the money if he wants to stay in college, so he and his friends come up with a great fund-raising idea – throwing parties. However, when the college magazine finds out and reporter Gwen is sent to do a story on Van Wilder, things get a little complicated."
-    },
-    "new-golden-lotus-iii-1996": {
-      "id": "new-golden-lotus-iii-1996",
-      "crew": [
-        {
-          "name": "Tam Yui-Ming",
-          "job": "Director"
-        },
-        {
-          "name": "Leung Lap-Yan",
-          "job": "Writer"
-        },
-        {
-          "name": "Lu Mu-Chuan",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:24.985Z",
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 14
-      },
-      "synopsis": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concubines, Simon has affairs with anything that movies, poisons Chinny's husband, and imprisons her brother-in-law. It soon becomes apparent that this is Simon's M.O. when he steals another man's wife and kills him as well"
     },
     "new-york-i-love-you-2008": {
       "id": "new-york-i-love-you-2008",
@@ -238799,45 +238876,6 @@
       },
       "synopsis": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer."
     },
-    "piper-2016": {
-      "id": "piper-2016",
-      "crew": [
-        {
-          "name": "Alan Barillaro",
-          "job": "Director"
-        },
-        {
-          "name": "Alan Barillaro",
-          "job": "Writer"
-        },
-        {
-          "name": "Marc Sondheimer",
-          "job": "Producer"
-        },
-        {
-          "name": "Adrian Belew",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Derek Williams",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Erik Smitt",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Sarah K. Reimers",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:25.093Z",
-        "tmdbVoteAverage": 8.131,
-        "tmdbVoteCount": 1766
-      },
-      "synopsis": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive."
-    },
     "samsara-2011": {
       "id": "samsara-2011",
       "crew": [
@@ -242068,37 +242106,6 @@
       },
       "synopsis": "Fleeing heartbreak in the big city, Ichiko returns to Komori, her rural hometown. She battles summer's rain and humidity, bakes her own bread, grows hothouse tomatoes and tills the fields. During autumn, the time for pickling and preserving fish and sweet potatoes, Ichiko begins reaping rice and recalls her departure five years before."
     },
-    "little-girl-2020": {
-      "id": "little-girl-2020",
-      "crew": [
-        {
-          "name": "Sébastien Lifshitz",
-          "job": "Director"
-        },
-        {
-          "name": "Sébastien Lifshitz",
-          "job": "Writer"
-        },
-        {
-          "name": "Muriel Meynard",
-          "job": "Producer"
-        },
-        {
-          "name": "Paul Guilhaume",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Pauline Gaillard",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:26.257Z",
-        "tmdbVoteAverage": 7.764,
-        "tmdbVoteCount": 121
-      },
-      "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France."
-    },
     "love-chunibyo-and-other-delusions-take-on-me-2018": {
       "id": "love-chunibyo-and-other-delusions-take-on-me-2018",
       "crew": [
@@ -243900,57 +243907,6 @@
         "tmdbVoteCount": 2833
       },
       "synopsis": "After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA."
-    },
-    "if-anything-happens-i-love-you-2020": {
-      "id": "if-anything-happens-i-love-you-2020",
-      "crew": [
-        {
-          "name": "Will McCormack",
-          "job": "Director"
-        },
-        {
-          "name": "Will McCormack",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Director"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Producer"
-        },
-        {
-          "name": "Gerald Chamales",
-          "job": "Producer"
-        },
-        {
-          "name": "Maryann Garger",
-          "job": "Producer"
-        },
-        {
-          "name": "Gary Gilbert",
-          "job": "Producer"
-        },
-        {
-          "name": "Lindsay Marcus",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Peter Ettinger",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:26.300Z",
-        "tmdbVoteAverage": 7.697,
-        "tmdbVoteCount": 1012
-      },
-      "synopsis": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting."
     },
     "kiss-the-ground-2020": {
       "id": "kiss-the-ground-2020",
@@ -249397,6 +249353,41 @@
         "tmdbVoteCount": 156
       },
       "synopsis": "In their last year of high school, two girls in the brass band club perform a song inspired by a fairy tale that parallels their friendship."
+    },
+    "lou-2017": {
+      "id": "lou-2017",
+      "crew": [
+        {
+          "name": "Dave Mullins",
+          "job": "Director"
+        },
+        {
+          "name": "Dave Mullins",
+          "job": "Writer"
+        },
+        {
+          "name": "Dana Murray",
+          "job": "Producer"
+        },
+        {
+          "name": "Christophe Beck",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Adam Habib",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Anthony J. Greenberg",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:26.706Z",
+        "tmdbVoteAverage": 7.546,
+        "tmdbVoteCount": 436
+      },
+      "synopsis": "A Pixar short about a lost-and-found box and the unseen monster within."
     },
     "mcfarland-usa-2015": {
       "id": "mcfarland-usa-2015",
@@ -267198,6 +267189,57 @@
         "tmdbVoteCount": 289
       },
       "synopsis": "Based on the journal entries of Rachel Joy Scott, the first student killed in the Columbine High School shooting in 1999."
+    },
+    "idolos-2026": {
+      "id": "idolos-2026",
+      "crew": [
+        {
+          "name": "Mat Whitecross",
+          "job": "Director"
+        },
+        {
+          "name": "Jordi Gasull",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Inma Cánovas",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ricky Roxburgh",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Jordi Gasull",
+          "job": "Producer"
+        },
+        {
+          "name": "Marco Belardi",
+          "job": "Producer"
+        },
+        {
+          "name": "Ricardo Marco Budé",
+          "job": "Producer"
+        },
+        {
+          "name": "Toni Novella",
+          "job": "Producer"
+        },
+        {
+          "name": "Marc Sabé",
+          "job": "Producer"
+        },
+        {
+          "name": "Ignacio Salazar-Simpson",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:25.233Z",
+        "tmdbVoteAverage": 7.057,
+        "tmdbVoteCount": 53
+      },
+      "synopsis": "A fiery young motorcycle racer throws away his shot at the junior championship in a reckless crash, only to receive a surprise offer from a top Moto2 team that gives him a chance at redemption. But to claim it, he must train under his estranged father, a disgraced former world champion haunted by a tragic past. As the father and son battle personal demons, media scrutiny, and a ruthless racing circuit, their fractured bond is pushed to the limit by ambition, love, and the unforgiving speed of the sport. With a wildcard entry into MotoGP on the line, they must confront the wreckage of their relationship to seize a future—on and off the track."
     },
     "in-the-heights-2021": {
       "id": "in-the-heights-2021",
@@ -300217,53 +300259,6 @@
       },
       "synopsis": "The story of Auschwitz's twelfth Sonderkommando — one of the thirteen consecutive \"Special Squads\" of Jewish prisoners placed by the Nazis in the excruciating moral dilemma of assisting in the extermination of fellow Jews in exchange for a few more months of life."
     },
-    "the-holy-grill-2026": {
-      "id": "the-holy-grill-2026",
-      "crew": [
-        {
-          "name": "Marcus H. Rosenmüller",
-          "job": "Director"
-        },
-        {
-          "name": "Dietmar Jacobs",
-          "job": "Writer"
-        },
-        {
-          "name": "Moritz Netenjakob",
-          "job": "Writer"
-        },
-        {
-          "name": "Sandrine Mattes",
-          "job": "Producer"
-        },
-        {
-          "name": "Robert Marciniak",
-          "job": "Producer"
-        },
-        {
-          "name": "Annalena Frieling",
-          "job": "Producer"
-        },
-        {
-          "name": "Gerd Baumann",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Daniel Gottschalk",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Andrea Mertens",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:26.401Z",
-        "tmdbVoteAverage": 6.606,
-        "tmdbVoteCount": 47
-      },
-      "synopsis": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion quickly turns into a debate about societal and personal conflicts, threatening to tear the club apart."
-    },
     "the-last-starfighter-1984": {
       "id": "the-last-starfighter-1984",
       "crew": [
@@ -303082,49 +303077,6 @@
         "tmdbVoteCount": 580
       },
       "synopsis": "High school student Ichigo Kurosaki lives an ordinary life, besides being able to see ghosts and the blurry memories of his mother's death under strange circumstances when he was a kid. His peaceful world suddenly breaks as he meets Rukia Kuchiki, a God of Death."
-    },
-    "bread-and-roses-2024": {
-      "id": "bread-and-roses-2024",
-      "crew": [
-        {
-          "name": "Sahra Mani",
-          "job": "Director"
-        },
-        {
-          "name": "Sahra Mani",
-          "job": "Producer"
-        },
-        {
-          "name": "Justine Ciarrocchi",
-          "job": "Producer"
-        },
-        {
-          "name": "Jennifer Lawrence",
-          "job": "Producer"
-        },
-        {
-          "name": "Masoud Sekhavat Doust",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Abdul Sami Murtaza",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Hayedeh Safiyari",
-          "job": "Editor"
-        },
-        {
-          "name": "Maria Mavati",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:25.499Z",
-        "tmdbVoteAverage": 6.469,
-        "tmdbVoteCount": 16
-      },
-      "synopsis": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives."
     },
     "breaking-2022": {
       "id": "breaking-2022",
@@ -312153,37 +312105,6 @@
         "tmdbVoteCount": 761
       },
       "synopsis": "A movie within a movie, created to spoof the martial arts genre. Writer/director Steve Oedekerk uses contemporary characters and splices them into a 1970s kung-fu film, weaving the new and old together.  As the main character, The Chosen One, Oedekerk sets off to avenge the deaths of his parents at the hands of kung-fu legend Master Pain. Along the way he encounters some strange characters."
-    },
-    "la-chaleur-2026": {
-      "id": "la-chaleur-2026",
-      "crew": [
-        {
-          "name": "Stéphane Demoustier",
-          "job": "Director"
-        },
-        {
-          "name": "Stéphane Demoustier",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Jean des Forêts",
-          "job": "Producer"
-        },
-        {
-          "name": "David Chambille",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Damien Maestraggi",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:25.535Z",
-        "tmdbVoteAverage": 6.368,
-        "tmdbVoteCount": 19
-      },
-      "synopsis": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also wonders if he might be falling in love with the charming Giulia."
     },
     "lamborghini-the-man-behind-the-legend-2022": {
       "id": "lamborghini-the-man-behind-the-legend-2022",
@@ -336958,6 +336879,45 @@
         "tmdbVoteCount": 191
       },
       "synopsis": "The story of Norwegian explorer Roald Amundsen, the leader of the first expedition to reach the South Pole in 1911, and the first person to reach both the North and South Poles in 1926. Follows his all-consuming drive as a polar explorer and the tragedy he brought on himself and others by sacrificing everything in the icy wastelands to achieve his dream."
+    },
+    "andalusia-express-1956": {
+      "id": "andalusia-express-1956",
+      "crew": [
+        {
+          "name": "Francisco Rovira Beleta",
+          "job": "Director"
+        },
+        {
+          "name": "Francisco Rovira Beleta",
+          "job": "Writer"
+        },
+        {
+          "name": "Vicente Coello",
+          "job": "Writer"
+        },
+        {
+          "name": "Giuseppe Mangione",
+          "job": "Writer"
+        },
+        {
+          "name": "Manuel Salo",
+          "job": "Writer"
+        },
+        {
+          "name": "Tino Santoni",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Antonio Gimeno",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:27.663Z",
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "Three men plan a jewelry heist abroad the Andalusia express train."
     },
     "around-the-world-in-80-days-2004": {
       "id": "around-the-world-in-80-days-2004",
@@ -365682,6 +365642,37 @@
       },
       "synopsis": "A haunting erotic fairytale about Lucy, a young University student drawn into a mysterious hidden world of beauty and desire."
     },
+    "sous-ecrous-2024": {
+      "id": "sous-ecrous-2024",
+      "crew": [
+        {
+          "name": "Hakim Bougheraba",
+          "job": "Director"
+        },
+        {
+          "name": "Hakim Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ali Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Redouane Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ichem Bougheraba",
+          "job": "Screenplay"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:27.712Z",
+        "tmdbVoteAverage": 5.352,
+        "tmdbVoteCount": 54
+      },
+      "synopsis": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's not long before the masks fall off"
+    },
     "success-1984": {
       "id": "success-1984",
       "crew": [
@@ -381659,6 +381650,37 @@
       },
       "synopsis": "In the days following the surrender of Germany in May 1945, a group of young German prisoners of war is handed over to the Danish authorities and subsequently sent to the West Coast, where they are ordered to remove the more than two million mines that the Germans had placed in the sand along the coast. With their bare hands, crawling around in the sand, the boys are forced to perform the dangerous work under the leadership of a Danish sergeant."
     },
+    "little-girl-2020": {
+      "id": "little-girl-2020",
+      "crew": [
+        {
+          "name": "Sébastien Lifshitz",
+          "job": "Director"
+        },
+        {
+          "name": "Sébastien Lifshitz",
+          "job": "Writer"
+        },
+        {
+          "name": "Muriel Meynard",
+          "job": "Producer"
+        },
+        {
+          "name": "Paul Guilhaume",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Pauline Gaillard",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:26.257Z",
+        "tmdbVoteAverage": 7.764,
+        "tmdbVoteCount": 121
+      },
+      "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France."
+    },
     "love-in-the-big-city-2024": {
       "id": "love-in-the-big-city-2024",
       "crew": [
@@ -384094,6 +384116,57 @@
         "tmdbVoteCount": 1536
       },
       "synopsis": "A middle aged carpenter, who requires state welfare after injuring himself, is joined by a single mother in a similar scenario."
+    },
+    "if-anything-happens-i-love-you-2020": {
+      "id": "if-anything-happens-i-love-you-2020",
+      "crew": [
+        {
+          "name": "Will McCormack",
+          "job": "Director"
+        },
+        {
+          "name": "Will McCormack",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Director"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Producer"
+        },
+        {
+          "name": "Gerald Chamales",
+          "job": "Producer"
+        },
+        {
+          "name": "Maryann Garger",
+          "job": "Producer"
+        },
+        {
+          "name": "Gary Gilbert",
+          "job": "Producer"
+        },
+        {
+          "name": "Lindsay Marcus",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Peter Ettinger",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:26.300Z",
+        "tmdbVoteAverage": 7.697,
+        "tmdbVoteCount": 1012
+      },
+      "synopsis": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting."
     },
     "in-the-heat-of-the-night-1967": {
       "id": "in-the-heat-of-the-night-1967",
@@ -390836,41 +390909,6 @@
         "tmdbVoteCount": 3265
       },
       "synopsis": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl."
-    },
-    "lou-2017": {
-      "id": "lou-2017",
-      "crew": [
-        {
-          "name": "Dave Mullins",
-          "job": "Director"
-        },
-        {
-          "name": "Dave Mullins",
-          "job": "Writer"
-        },
-        {
-          "name": "Dana Murray",
-          "job": "Producer"
-        },
-        {
-          "name": "Christophe Beck",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Adam Habib",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Anthony J. Greenberg",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:26.706Z",
-        "tmdbVoteAverage": 7.546,
-        "tmdbVoteCount": 436
-      },
-      "synopsis": "A Pixar short about a lost-and-found box and the unseen monster within."
     },
     "maggie-2019": {
       "id": "maggie-2019",
@@ -407020,6 +407058,16 @@
         "tmdbVoteCount": 1213
       },
       "synopsis": "This is a story of a man in free fall. On the road to redemption, darkness lights his way. Connected with the afterlife, Uxbal is a tragic hero and father of two who's sensing the danger of death. He struggles with a tainted reality and a fate that works against him in order to forgive, for love, and forever."
+    },
+    "black-adam-saviour-or-destroyer-2022": {
+      "id": "black-adam-saviour-or-destroyer-2022",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:28.298Z",
+        "tmdbVoteAverage": 7.176,
+        "tmdbVoteCount": 454
+      },
+      "synopsis": "Ahead of the release of upcoming fantasy film ‘Black Adam’, sit down with Dwayne Johnson as he discusses his starring role as the eponymous superhero."
     },
     "black-dog-2024": {
       "id": "black-dog-2024",
@@ -462711,6 +462759,53 @@
       },
       "synopsis": "The story of an unruly class of bright, funny history students at a Yorkshire grammar school in pursuit of an undergraduate place at Oxford or Cambridge. Bounced between their maverick English master, a young and shrewd teacher hired to up their test scores, a grossly out-numbered history teacher, and a headmaster obsessed with results, the boys attempt to pass."
     },
+    "the-holy-grill-2026": {
+      "id": "the-holy-grill-2026",
+      "crew": [
+        {
+          "name": "Marcus H. Rosenmüller",
+          "job": "Director"
+        },
+        {
+          "name": "Dietmar Jacobs",
+          "job": "Writer"
+        },
+        {
+          "name": "Moritz Netenjakob",
+          "job": "Writer"
+        },
+        {
+          "name": "Sandrine Mattes",
+          "job": "Producer"
+        },
+        {
+          "name": "Robert Marciniak",
+          "job": "Producer"
+        },
+        {
+          "name": "Annalena Frieling",
+          "job": "Producer"
+        },
+        {
+          "name": "Gerd Baumann",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Daniel Gottschalk",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Andrea Mertens",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:26.401Z",
+        "tmdbVoteAverage": 6.606,
+        "tmdbVoteCount": 47
+      },
+      "synopsis": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion quickly turns into a debate about societal and personal conflicts, threatening to tear the club apart."
+    },
     "the-howling-1981": {
       "id": "the-howling-1981",
       "crew": [
@@ -510735,45 +510830,6 @@
       },
       "synopsis": "Nobody likes self-centered realtor Oren Little, and he prefers it that way. He's deliberately mean to anyone who crosses his path and wants nothing more than to sell one final house and retire. His life turns upside-down when his estranged son drops off a granddaughter he never knew existed. Suddenly left in charge of her and with no idea how to take care of a child, he pawns the girl off on his neighbor, Leah -- but he eventually learns how to open his heart."
     },
-    "andalusia-express-1956": {
-      "id": "andalusia-express-1956",
-      "crew": [
-        {
-          "name": "Francisco Rovira Beleta",
-          "job": "Director"
-        },
-        {
-          "name": "Francisco Rovira Beleta",
-          "job": "Writer"
-        },
-        {
-          "name": "Vicente Coello",
-          "job": "Writer"
-        },
-        {
-          "name": "Giuseppe Mangione",
-          "job": "Writer"
-        },
-        {
-          "name": "Manuel Salo",
-          "job": "Writer"
-        },
-        {
-          "name": "Tino Santoni",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Antonio Gimeno",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:27.663Z",
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "Three men plan a jewelry heist abroad the Andalusia express train."
-    },
     "angels-in-the-outfield-1994": {
       "id": "angels-in-the-outfield-1994",
       "crew": [
@@ -550259,37 +550315,6 @@
       },
       "synopsis": "A documentary filmmaker's research on a town's mysterious benefactor unearths an unexplained evil while staying at a local resort."
     },
-    "sous-ecrous-2024": {
-      "id": "sous-ecrous-2024",
-      "crew": [
-        {
-          "name": "Hakim Bougheraba",
-          "job": "Director"
-        },
-        {
-          "name": "Hakim Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ali Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Redouane Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ichem Bougheraba",
-          "job": "Screenplay"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:27.712Z",
-        "tmdbVoteAverage": 5.352,
-        "tmdbVoteCount": 54
-      },
-      "synopsis": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's not long before the masks fall off"
-    },
     "spy-hard-1996": {
       "id": "spy-hard-1996",
       "crew": [
@@ -586963,16 +586988,6 @@
         "tmdbVoteCount": 231
       },
       "synopsis": "12-year-old Bailey lives with her single dad Bug and brother Hunter in a squat in North Kent. Bug doesn’t have much time for his kids, and Bailey, who is approaching puberty, seeks attention and adventure elsewhere."
-    },
-    "black-adam-saviour-or-destroyer-2022": {
-      "id": "black-adam-saviour-or-destroyer-2022",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:28.298Z",
-        "tmdbVoteAverage": 7.176,
-        "tmdbVoteCount": 454
-      },
-      "synopsis": "Ahead of the release of upcoming fantasy film ‘Black Adam’, sit down with Dwayne Johnson as he discusses his starring role as the eponymous superhero."
     },
     "black-sabbath-1963": {
       "id": "black-sabbath-1963",
@@ -633667,25 +633682,6 @@
       },
       "synopsis": "A rogue scientist near a small desert town arouses the suspicion of the town's doctor when his lab assistant is found dead from a case of acromegaly, which took only four days to develop.  As the doctor investigates, aided by the scientist's new female assistant, they discover that something is devouring local cattle and humans in increasingly large quantities."
     },
-    "the-motorist-1906": {
-      "id": "the-motorist-1906",
-      "crew": [
-        {
-          "name": "Walter R. Booth",
-          "job": "Director"
-        },
-        {
-          "name": "Robert W. Paul",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-09-08T12:21:29.048Z",
-        "tmdbVoteAverage": 6.445,
-        "tmdbVoteCount": 64
-      },
-      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
-    },
     "the-assassination-of-richard-nixon-2004": {
       "id": "the-assassination-of-richard-nixon-2004",
       "crew": [
@@ -640366,6 +640362,25 @@
         "tmdbVoteCount": 646
       },
       "synopsis": "Tamara, 15, complexed with her curves, decided its entry into second to get rid of the label of \"big\". To shut up the gossip, she made a bet with her best friend to go out with the first boy who pass the classroom door. No luck, the boy turns out to be Diego, the most handsome guy of high school. The bet is complicated for Tamara .... Between the dirty tricks of the mean girls of high school, a mother hen, boards \"drag\" his little sister, Tamara is a memorable year!"
+    },
+    "the-motorist-1906": {
+      "id": "the-motorist-1906",
+      "crew": [
+        {
+          "name": "Walter R. Booth",
+          "job": "Director"
+        },
+        {
+          "name": "Robert W. Paul",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-09-08T12:21:29.048Z",
+        "tmdbVoteAverage": 6.445,
+        "tmdbVoteCount": 64
+      },
+      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
     },
     "the-9th-life-of-louis-drax-2016": {
       "id": "the-9th-life-of-louis-drax-2016",
