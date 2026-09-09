@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-09-08T13:42:13.366Z",
+  "generatedAt": "2026-09-09T13:46:55.374Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-09-08T13:42:12.901Z",
+      "lastFetchedAt": "2026-09-09T13:46:54.893Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78125,7 +78125,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-09-08T13:42:13.004Z",
+      "lastFetchedAt": "2026-09-09T13:46:55.034Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -97518,6 +97518,12 @@
     "1433339": {
       "recordId": "three-goodbyes-2025",
       "lastFetchedAt": "2026-06-14T10:31:11.627Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1433367": {
+      "recordId": "one-night-only-2026",
+      "lastFetchedAt": "2026-09-09T13:46:55.126Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
