@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T12:26:51.850Z",
-  "movieCount": 16502,
+  "generatedAt": "2026-09-10T13:40:51.275Z",
+  "movieCount": 16505,
   "indexFields": [
     "id",
     "tmdbId",
@@ -32,14 +32,14 @@
     "source",
     "synopsis"
   ],
-  "adultMovieCount": 804,
+  "adultMovieCount": 805,
   "languageCounts": {
     "en": {
       "total": 11103,
       "adult": 436
     },
     "es": {
-      "total": 503,
+      "total": 505,
       "adult": 35
     },
     "th": {
@@ -75,8 +75,8 @@
       "adult": 0
     },
     "fr": {
-      "total": 1200,
-      "adult": 64
+      "total": 1201,
+      "adult": 65
     },
     "it": {
       "total": 616,
@@ -126,13 +126,13 @@
       "total": 23,
       "adult": 0
     },
-    "lv": {
-      "total": 6,
-      "adult": 0
-    },
     "fi": {
       "total": 20,
       "adult": 1
+    },
+    "lv": {
+      "total": 6,
+      "adult": 0
     },
     "sr": {
       "total": 6,
@@ -230,6 +230,10 @@
       "total": 16,
       "adult": 1
     },
+    "bg": {
+      "total": 1,
+      "adult": 0
+    },
     "ro": {
       "total": 4,
       "adult": 1
@@ -255,10 +259,6 @@
       "adult": 0
     },
     "tn": {
-      "total": 1,
-      "adult": 0
-    },
-    "bg": {
       "total": 1,
       "adult": 0
     },
