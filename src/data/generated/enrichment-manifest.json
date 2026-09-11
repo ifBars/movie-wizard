@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-09-10T13:40:51.084Z",
+  "generatedAt": "2026-09-11T13:39:12.479Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-09-10T13:40:50.234Z",
+      "lastFetchedAt": "2026-09-11T13:39:12.062Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78131,7 +78131,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-09-10T13:40:50.507Z",
+      "lastFetchedAt": "2026-09-11T13:39:12.156Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -95694,6 +95694,12 @@
     "1302848": {
       "recordId": "class-reunion-2025",
       "lastFetchedAt": "2026-07-05T10:07:41.587Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1302904": {
+      "recordId": "practical-magic-2-2026",
+      "lastFetchedAt": "2026-09-11T13:39:12.186Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
