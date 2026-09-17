@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-09-16T14:14:44.463Z",
+  "generatedAt": "2026-09-17T14:20:24.308Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-09-16T14:14:44.044Z",
+      "lastFetchedAt": "2026-09-17T14:20:23.824Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78137,7 +78137,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-09-16T14:14:44.137Z",
+      "lastFetchedAt": "2026-09-17T14:20:23.970Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -97392,6 +97392,12 @@
     "1422562": {
       "recordId": "the-moment-2026",
       "lastFetchedAt": "2026-06-09T10:36:30.807Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1423191": {
+      "recordId": "resident-evil-2026",
+      "lastFetchedAt": "2026-09-17T14:20:24.021Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
