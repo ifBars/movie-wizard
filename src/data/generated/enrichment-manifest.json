@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-09-27T14:44:55.293Z",
+  "generatedAt": "2026-09-28T17:43:23.609Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-09-27T14:44:54.626Z",
+      "lastFetchedAt": "2026-09-28T17:43:23.172Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78143,7 +78143,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-09-27T14:44:54.819Z",
+      "lastFetchedAt": "2026-09-28T17:43:23.238Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -93207,6 +93207,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1193824": {
+      "recordId": "rabbit-trap-2025",
+      "lastFetchedAt": "2026-09-28T17:43:23.334Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1194963": {
       "recordId": "noise-2025",
       "lastFetchedAt": "2026-06-09T00:24:11.127Z",
@@ -96909,6 +96915,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1377237": {
+      "recordId": "runner-2026",
+      "lastFetchedAt": "2026-09-28T17:43:23.313Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1379266": {
       "recordId": "kokuho-2025",
       "lastFetchedAt": "2026-06-04T10:38:07.683Z",
@@ -99162,6 +99174,12 @@
     "1731694": {
       "recordId": "lego-star-wars-the-mandalorian-2026",
       "lastFetchedAt": "2026-09-08T13:42:13.047Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1751701": {
+      "recordId": "after-impact-2026",
+      "lastFetchedAt": "2026-09-28T17:43:23.280Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     }
