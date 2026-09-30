@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T02:49:05.006Z",
+  "generatedAt": "2026-09-30T14:23:01.758Z",
   "movieCount": 16530,
   "indexFields": [
     "id",
@@ -35,7 +35,7 @@
   "adultMovieCount": 807,
   "languageCounts": {
     "en": {
-      "total": 11125,
+      "total": 11124,
       "adult": 438
     },
     "es": {
@@ -219,7 +219,7 @@
       "adult": 0
     },
     "xx": {
-      "total": 10,
+      "total": 11,
       "adult": 0
     },
     "sh": {
