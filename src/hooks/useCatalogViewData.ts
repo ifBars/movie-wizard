@@ -23,6 +23,12 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
   const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}`;
   const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize });
   const requestedLimit = searchResults.requestKey === requestKey ? searchResults.limit : searchPageSize;
+  // Snapshot exclusions per query so rating a result updates it in place instead of re-running the search and removing it.
+  const [exclusions, setExclusions] = useState(() => ({ requestKey, movieIds: getExcludedMovieIds(library.states) }));
+  if (exclusions.requestKey !== requestKey) {
+    setExclusions({ requestKey, movieIds: getExcludedMovieIds(library.states) });
+  }
+  const excludedMovieIds = exclusions.movieIds;
 
   useExternalSyncEffect(() => {
     if (!normalizedSearch && !hasActiveCatalogBrowseFilters(browseFilters)) {
@@ -30,12 +36,6 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
     }
 
     let isCurrent = true;
-    const excludedMovieIds: string[] = [];
-    for (const state of Object.values(library.states)) {
-      if (state.ignored || state.watched || state.watchlist || state.rating !== null) {
-        excludedMovieIds.push(state.movieId);
-      }
-    }
 
     void searchCatalog({
       query: normalizedSearch,
@@ -60,7 +60,7 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
     return () => {
       isCurrent = false;
     };
-  }, [browseFilters, library.settings.languageCodes, library.settings.showAdultMovies, library.states, normalizedSearch, requestKey, requestedLimit]);
+  }, [browseFilters, excludedMovieIds, library.settings.languageCodes, library.settings.showAdultMovies, normalizedSearch, requestKey, requestedLimit]);
 
   const loadMoreSearchResults = useCallback(() => {
     setSearchResults((current) => ({
@@ -81,4 +81,14 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
     searchResultTotal: hasCurrentSearchResults ? searchResults.total : 0,
     loadMoreSearchResults,
   };
+}
+
+function getExcludedMovieIds(states: MovieLibrary["states"]) {
+  const excludedMovieIds: string[] = [];
+  for (const state of Object.values(states)) {
+    if (state.ignored || state.watched || state.watchlist || state.rating !== null) {
+      excludedMovieIds.push(state.movieId);
+    }
+  }
+  return excludedMovieIds;
 }

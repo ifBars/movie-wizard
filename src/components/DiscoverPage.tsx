@@ -2,7 +2,7 @@ import { ArrowLeft, ArrowRight, ArrowsClockwise, Info, ListBullets, SquaresFour 
 import { motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import type { PointerEvent } from "react";
-import { useSearchParams } from "react-router";
+import { useLocation, useNavigate, useSearchParams } from "react-router";
 import { MovieGrid } from "@/components/MovieGrid";
 import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
@@ -31,15 +31,23 @@ export function DiscoverPage({
 }: DiscoverPageProps) {
   const [featuredPickIndex, setFeaturedPickIndex] = useState(0);
   const [searchParams, setSearchParams] = useSearchParams();
+  const location = useLocation();
+  const navigate = useNavigate();
   const selectedSection = findDiscoverSection(discoverSections, searchParams.get("category"));
   const featuredMovies = discoverSections.find((section) => section.key === "top-picks")?.movies.filter((movie) => movie.backdropPath).slice(0, 8) ?? [];
   const featuredMovie = featuredMovies[featuredPickIndex % Math.max(featuredMovies.length, 1)];
 
   function openSection(section: DiscoverSection) {
-    setSearchParams({ category: section.key });
+    setSearchParams({ category: section.key }, { state: { openedFromDiscover: true } });
   }
 
   function closeSection() {
+    // Step back to the Discover entry we came from so its scroll position is restored.
+    if (isOpenedFromDiscoverState(location.state)) {
+      void navigate(-1);
+      return;
+    }
+
     setSearchParams({});
   }
 
@@ -106,6 +114,10 @@ export function DiscoverPage({
       <PrivacyNote />
     </>
   );
+}
+
+function isOpenedFromDiscoverState(state: unknown) {
+  return typeof state === "object" && state !== null && "openedFromDiscover" in state && state.openedFromDiscover === true;
 }
 
 function FeaturedPick({ movie, onNext, onOpenMovie }: { movie: Movie; onNext: () => void; onOpenMovie: (movieId: string) => void }) {

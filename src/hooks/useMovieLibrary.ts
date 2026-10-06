@@ -119,7 +119,7 @@ export function useMovieLibrary(initialMovieId?: string) {
     () => ({ movies: visibleMovies, states, minimumMovieYear: settings.minimumRecommendationYear, model: collaborativeModel, focus: settings.recommendationFocus }),
     [collaborativeModel, settings.minimumRecommendationYear, settings.recommendationFocus, states, visibleMovies],
   );
-  const { profile, recommendations, discoverSections, isRecommendationsLoading, recommendationError } = useRecommendations(recommendationJob);
+  const { profile, recommendations, discoverSections, isRecommendationsLoading, isRecommendationsRefreshing, recommendationError } = useRecommendations(recommendationJob);
 
   const { ratedMovies, historyMovies, watchlistMovies } = useMemo(
     () => buildLibraryCollections(visibleMovies, states),
@@ -264,6 +264,7 @@ export function useMovieLibrary(initialMovieId?: string) {
       recommendations,
       discoverSections,
       isRecommendationsLoading,
+      isRecommendationsRefreshing,
       historyMovies,
       ratedMovies,
       watchlistMovies,
@@ -298,6 +299,7 @@ export function useMovieLibrary(initialMovieId?: string) {
       recommendations,
       discoverSections,
       isRecommendationsLoading,
+      isRecommendationsRefreshing,
       recommendationError,
       resetLibrary,
       setLanguageCodes,

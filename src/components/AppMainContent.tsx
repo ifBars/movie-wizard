@@ -49,6 +49,7 @@ export function AppMainContent({
   return (
     <main
       id="top"
+      aria-busy={library.isRecommendationsRefreshing || undefined}
       className={cn("page-grid", activeView === "settings" && !isSearchMode && "page-grid--settings", isDetailView && "page-grid--detail")}
     >
       {isInitialCatalogLoading ? (
