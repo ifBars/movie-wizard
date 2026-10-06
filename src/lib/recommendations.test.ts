@@ -336,6 +336,48 @@ describe("movie recommendations", () => {
     expect(expected[0].reasons[0]).toContain("viewers who also liked first");
   });
 
+  test("treats not-interested movies as a mild negative taste signal", () => {
+    const catalog = [
+      createMovie({ id: "skipped-horror", genres: ["Horror"], tags: ["slasher"] }),
+      createMovie({ id: "a-horror-candidate", genres: ["Horror"], tags: ["slasher"] }),
+      createMovie({ id: "z-neutral-candidate", genres: ["Western"], tags: ["frontier"] }),
+    ];
+    const states: MovieStateMap = { "skipped-horror": createMovieState("skipped-horror", { ignored: true }) };
+    const ids = getRecommendations(catalog, states).map((pick) => pick.movie.id);
+
+    expect(ids).not.toContain("skipped-horror");
+    expect(ids.indexOf("z-neutral-candidate")).toBeLessThan(ids.indexOf("a-horror-candidate"));
+  });
+
+  test("trusts well-supported MovieLens neighbors over thin co-rating evidence", () => {
+    const catalog = [
+      createMovie({ id: "rated-source", genres: ["Drama"], tags: [] }),
+      createMovie({ id: "a-thin-neighbor", genres: ["Drama"], tags: [] }),
+      createMovie({ id: "z-supported-neighbor", genres: ["Drama"], tags: [] }),
+    ];
+    const model: CollaborativeModel = new Map([
+      ["rated-source", [
+        { movieId: "a-thin-neighbor", similarity: 0.7, support: 3 },
+        { movieId: "z-supported-neighbor", similarity: 0.6, support: 120 },
+      ]],
+    ]);
+    const picks = getRecommendations(catalog, createStates([["rated-source", 5]]), {}, model);
+    const scoreOf = (id: string) => picks.find((pick) => pick.movie.id === id)?.score ?? 0;
+
+    expect(picks[0].movie.id).toBe("z-supported-neighbor");
+    expect(scoreOf("z-supported-neighbor") - scoreOf("a-thin-neighbor")).toBeGreaterThanOrEqual(5);
+  });
+
+  test("keeps strong picks deferred for diversity near the top of the shelf", () => {
+    const catalog = Array.from({ length: 40 }, (_, i) =>
+      createMovie({ id: `movie-${String(i).padStart(2, "0")}`, genres: [i < 6 ? "Drama" : `genre-${i}`], tags: [], directors: [`director-${i}`], criticalScore: 99 - i }),
+    );
+    const ids = getRecommendations(catalog, {}).map((pick) => pick.movie.id);
+
+    expect(ids.slice(0, 2)).toEqual(["movie-00", "movie-01"]);
+    expect(ids.indexOf("movie-02")).toBe(6);
+  });
+
   test("deduplicates related movies across features and preserves the earliest source", () => {
     const catalog = [
       createMovie({ id: "earliest", genres: ["Drama"], tags: ["hope"], directors: ["First"], cast: [] }),

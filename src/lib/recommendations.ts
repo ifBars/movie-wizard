@@ -1,5 +1,6 @@
 import type { Movie, MovieStateMap, Recommendation, TasteProfile } from "@/types";
 import { isAvailableMovieCandidate } from "@/lib/movieEligibility";
+import { getNeighborWeight } from "@/lib/collaborativeWeights";
 import type { CollaborativeModel } from "@/lib/collaborativeRecommendations";
 import { getAudienceScore } from "@/lib/audienceRatings";
 
@@ -16,6 +17,14 @@ const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
 const MAX_FEATURE_MATCHES = 3;
 const MIN_RELATED_SIGNAL = 0.08;
+// "Not interested" is weaker than a low rating: it can also mean "seen it" or "not tonight".
+const NOT_INTERESTED_WEIGHT = -0.3;
+// Reorder this many leading picks so one genre, director, or theme can't dominate the first rows.
+const DIVERSITY_WINDOW = 6;
+// Tags are specific (themes, settings, moods) while genres are broad, so tags carry more of the taste signal.
+// Tuned against a held-out library of liked movies: tag-heavy weighting surfaced noticeably more of them.
+const GENRE_WEIGHT = 8;
+const TAG_WEIGHT = 24;
 
 type TasteModel = {
   profile: TasteProfile;
@@ -56,7 +65,10 @@ export type TasteSnapshot = {
 };
 
 type CollaborativeSignal = { score: number; sourceMovieTitle: string | undefined };
-type RelatedMovieIndex = Record<"directors" | "cast" | "tags" | "genres", Map<string, number[]>>;
+// Genres are too broad to count as shared "creative DNA"; they already score through genre weights.
+type RelatedMovieField = "directors" | "cast" | "tags";
+type RelatedMovieIndex = Record<RelatedMovieField, Map<string, number[]>>;
+const relatedMovieFields: RelatedMovieField[] = ["directors", "cast", "tags"];
 type ScoringContext = {
   collaborativeSignals: Map<string, CollaborativeSignal>;
   relatedMovies: RelatedMovieIndex;
@@ -111,6 +123,11 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
       addWeights(tagWeights, movie.tags, WATCHLIST_INTENT_WEIGHT, 0.5);
       addWeights(directorWeights, movie.directors, WATCHLIST_INTENT_WEIGHT * 1.25, 0.5);
       addWeights(castWeights, movie.cast, WATCHLIST_INTENT_WEIGHT * 0.8, 0.5);
+    }
+
+    if (state.ignored && (state.rating === null || state.rating === undefined)) {
+      addWeights(genreWeights, movie.genres, NOT_INTERESTED_WEIGHT, 0.5);
+      addWeights(tagWeights, movie.tags, NOT_INTERESTED_WEIGHT, 0.5);
     }
 
     if (state.rating === null || state.rating === undefined) {
@@ -214,20 +231,20 @@ function scoreMovie(
 
   const genreScore = sumMapMatches(movie.genres, tasteModel.genreWeights, tasteModel.featureRarity.genres);
   if (genreScore > 0) {
-    score += genreScore * 18;
+    score += genreScore * GENRE_WEIGHT;
     reasons.push(`leans into your ${bestWeightedMatch(movie.genres, tasteModel.genreWeights)} streak`);
   } else if (genreScore < 0) {
-    score += genreScore * 18;
+    score += genreScore * GENRE_WEIGHT;
     penalties.push(bestWeightedMatch(movie.genres, tasteModel.genreWeights, "negative"));
   }
 
   const tagScore = sumMapMatches(movie.tags, tasteModel.tagWeights, tasteModel.featureRarity.tags);
   if (tagScore > 0) {
-    score += tagScore * 13;
+    score += tagScore * TAG_WEIGHT;
     const matchedTags = topMatchingValues(movie.tags, tasteModel.tagWeights, 2);
     reasons.push(`matches ${matchedTags.join(" and ")} taste signals`);
   } else if (tagScore < 0) {
-    score += tagScore * 14;
+    score += tagScore * TAG_WEIGHT;
     penalties.push(...topMatchingValues(movie.tags, tasteModel.tagWeights, 2, "negative"));
   }
 
@@ -258,15 +275,14 @@ function scoreMovie(
     }
   }
 
-  if (movie.runtimeMinutes > 0 && movie.runtimeMinutes <= 115) {
-    const runtimeBonus = profile.ratedCount >= 3 && genreScore + tagScore < 0 ? 2 : 5;
-    score += runtimeBonus;
-    reasons.push("easy runtime for a weeknight watch");
-  }
-
   if (qualityScore >= 82 && movie.popularity < 80) {
     score += 6;
     reasons.push("strong audience ratings without the biggest spotlight");
+  }
+
+  const hasEasyRuntime = movie.runtimeMinutes > 0 && movie.runtimeMinutes <= 115;
+  if (hasEasyRuntime) {
+    score += profile.ratedCount >= 3 && genreScore + tagScore < 0 ? 2 : 5;
   }
 
   if (profile.ratedCount < 3) {
@@ -275,6 +291,11 @@ function scoreMovie(
 
   if (penalties.length > 0 && reasons.length < 3) {
     reasons.push(`keeps distance from lower-rated ${penalties[0]} picks`);
+  }
+
+  // Runtime applies to most of the catalog, so it only explains a pick when nothing more specific does.
+  if (hasEasyRuntime && reasons.length < 2) {
+    reasons.push("easy runtime for a weeknight watch");
   }
 
   // Clamp only the display value: strong matches must retain their rank above 100.
@@ -408,9 +429,10 @@ function buildCollaborativeSignals(
       const total = totals.get(neighbor.movieId) ?? {
         numerator: 0, denominator: 0, strongestPositiveSignal: 0, sourceMovieTitle: undefined,
       };
-      const signal = neighbor.similarity * (state.rating - tasteModel.personalBaseline);
+      const neighborWeight = getNeighborWeight(neighbor);
+      const signal = neighborWeight * (state.rating - tasteModel.personalBaseline);
       total.numerator += signal;
-      total.denominator += Math.abs(neighbor.similarity);
+      total.denominator += Math.abs(neighborWeight);
       if (signal > total.strongestPositiveSignal) {
         total.strongestPositiveSignal = signal;
         total.sourceMovieTitle = likedMoviesById.get(sourceMovieId);
@@ -486,6 +508,7 @@ function diversifyRecommendations(candidates: RecommendationCandidate[], count: 
   const selected: RecommendationCandidate[] = [];
   const deferred: RecommendationCandidate[] = [];
   const keyUses = new Map<string, number>();
+  const diversityWindow = Math.min(count, DIVERSITY_WINDOW);
 
   for (const candidate of candidates) {
     if (selected.length >= count) {
@@ -495,7 +518,7 @@ function diversifyRecommendations(candidates: RecommendationCandidate[], count: 
     if (options.candidateFilter && !options.candidateFilter(candidate.movie)) continue;
 
     const hasDominantDuplicate = candidate.diversityKeys.some((key) => (keyUses.get(key) ?? 0) >= 2);
-    if (hasDominantDuplicate && selected.length < Math.min(count, 4)) {
+    if (hasDominantDuplicate && selected.length < diversityWindow) {
       deferred.push(candidate);
       continue;
     }
@@ -503,6 +526,11 @@ function diversifyRecommendations(candidates: RecommendationCandidate[], count: 
     selected.push(candidate);
     for (const key of candidate.diversityKeys) {
       keyUses.set(key, (keyUses.get(key) ?? 0) + 1);
+    }
+
+    // Deferred picks are still strong matches: slot them in right after the diverse lead instead of at the shelf's end.
+    if (selected.length === diversityWindow) {
+      selected.push(...deferred.splice(0, count - selected.length));
     }
   }
 
@@ -536,13 +564,11 @@ function toRecommendation(candidate: RecommendationCandidate): Recommendation {
 }
 
 function buildRelatedMovieIndex(tasteModel: TasteModel): RelatedMovieIndex {
-  const index: RelatedMovieIndex = { directors: new Map(), cast: new Map(), tags: new Map(), genres: new Map() };
-  const fields: Array<keyof RelatedMovieIndex> = ["directors", "cast", "tags", "genres"];
+  const index: RelatedMovieIndex = { directors: new Map(), cast: new Map(), tags: new Map() };
   tasteModel.likedMovies.forEach((movie, movieIndex) => {
-    for (const field of fields) {
+    for (const field of relatedMovieFields) {
       for (const value of new Set(movie[field])) {
-        const weights = field === "tags" ? tasteModel.tagWeights : field === "genres" ? tasteModel.genreWeights : undefined;
-        if (weights && signalStrength(weights.get(value)) <= MIN_RELATED_SIGNAL) continue;
+        if (field === "tags" && signalStrength(tasteModel.tagWeights.get(value)) <= MIN_RELATED_SIGNAL) continue;
         const matches = index[field].get(value) ?? [];
         // The bonus saturates at three matches. Keeping the first three per
         // feature preserves both that cap and the earliest explanation source.
@@ -557,8 +583,7 @@ function buildRelatedMovieIndex(tasteModel: TasteModel): RelatedMovieIndex {
 function getRelatedMovies(movie: Movie, index: RelatedMovieIndex) {
   const matches = new Set<number>();
   let firstIndex = Infinity;
-  const fields: Array<keyof RelatedMovieIndex> = ["directors", "cast", "tags", "genres"];
-  for (const field of fields) {
+  for (const field of relatedMovieFields) {
     for (const value of movie[field]) {
       for (const movieIndex of index[field].get(value) ?? []) {
         matches.add(movieIndex);

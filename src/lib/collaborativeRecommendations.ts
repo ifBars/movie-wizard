@@ -1,4 +1,5 @@
 import collaborativeModelUrl from "@/data/generated/movielens-neighbors.json?url";
+import { getNeighborWeight } from "@/lib/collaborativeWeights";
 import type { MovieStateMap } from "@/types";
 
 export type CollaborativeNeighbor = {
@@ -81,7 +82,7 @@ export function getCollaborativeMovieIds(
       seen.add(neighbor.movieId);
       const candidateState = states[neighbor.movieId];
       if (candidateState && (candidateState.watched || candidateState.watchlist || candidateState.ignored || candidateState.rating !== null)) continue;
-      const strength = neighbor.similarity * ratingStrength;
+      const strength = getNeighborWeight(neighbor) * ratingStrength;
       candidateStrength.set(neighbor.movieId, (candidateStrength.get(neighbor.movieId) ?? 0) + strength);
     }
   }
