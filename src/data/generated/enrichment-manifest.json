@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-06T16:02:07.289Z",
+  "generatedAt": "2026-10-07T16:39:42.293Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-10-06T16:02:06.904Z",
+      "lastFetchedAt": "2026-10-07T16:39:41.871Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78149,7 +78149,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-10-06T16:02:06.959Z",
+      "lastFetchedAt": "2026-10-07T16:39:41.997Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -95358,6 +95358,12 @@
     "1284041": {
       "recordId": "the-last-house-2026",
       "lastFetchedAt": "2026-08-13T10:32:04.116Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1284046": {
+      "recordId": "onslaught-2026",
+      "lastFetchedAt": "2026-10-07T16:39:42.044Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
