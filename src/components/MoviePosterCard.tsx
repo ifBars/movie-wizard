@@ -1,10 +1,10 @@
-import { BookmarkSimple, CheckCircle, Prohibit, Star } from "@phosphor-icons/react";
+import { BookmarkSimple, CheckCircle, Prohibit } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { memo, useState } from "react";
-import type { MouseEvent, PointerEvent } from "react";
+import type { MouseEvent } from "react";
+import { StarRatingInput } from "@/components/StarRatingInput";
 import { movieDetailPath } from "@/lib/navigation";
 import { fadeScale, quickSpring, softSpring } from "@/lib/motion";
-import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
 import type { Movie, Rating, UserMovieState } from "@/types";
 
@@ -37,9 +37,7 @@ export const MoviePosterCard = memo(function MoviePosterCard({
 }: MoviePosterCardProps) {
   const posterUrl = movie.posterPath ? `${tmdbPosterBaseUrl}${movie.posterPath}` : undefined;
   const shouldReduceMotion = useReducedMotion();
-  const [previewRating, setPreviewRating] = useState<Rating | null>(null);
-  const ratingValue = state?.rating ?? 0;
-  const displayedRating = previewRating ?? ratingValue;
+  const [isPreviewingRating, setIsPreviewingRating] = useState(false);
 
   function handleOpenClick(event: MouseEvent<HTMLAnchorElement>) {
     if (!onOpen || event.defaultPrevented || event.button !== 0 || event.metaKey || event.altKey || event.ctrlKey || event.shiftKey) {
@@ -48,11 +46,6 @@ export const MoviePosterCard = memo(function MoviePosterCard({
 
     event.preventDefault();
     onOpen(movie.id);
-  }
-
-  function previewRatingFromPointer(event: PointerEvent<HTMLDivElement>) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
   }
 
   return (
@@ -125,34 +118,14 @@ export const MoviePosterCard = memo(function MoviePosterCard({
         </div>
       </div>
 
-      <div
-        className={cn("rating-row", previewRating !== null && "is-previewing")}
-        aria-label={`Rate ${movie.title}`}
-        onPointerLeave={() => setPreviewRating(null)}
-      >
-        <div className="rating-stars" onPointerMove={previewRatingFromPointer}>
-          {starRatings.map((rating) => (
-            <motion.button
-              key={rating}
-              type="button"
-              onClick={() => onRate(movie.id, rating)}
-              onFocus={() => setPreviewRating(rating)}
-              onBlur={() => setPreviewRating(null)}
-              aria-label={`Rate ${rating} stars`}
-              className={cn(rating <= displayedRating && "is-filled", previewRating === rating && "is-preview-target")}
-              whileHover={shouldReduceMotion ? undefined : { y: -1, scale: 1.12 }}
-              whileTap={shouldReduceMotion ? undefined : { scale: 0.82 }}
-              animate={
-                displayedRating === rating && !shouldReduceMotion
-                  ? { scale: [1, 1.22, 1], rotate: previewRating ? 0 : [0, -8, 0] }
-                  : { scale: 1, rotate: 0 }
-              }
-              transition={{ duration: 0.18 }}
-            >
-              <Star weight={rating <= displayedRating ? "fill" : "regular"} />
-            </motion.button>
-          ))}
-        </div>
+      <div className={cn("rating-row", isPreviewingRating && "is-previewing")}>
+        <StarRatingInput
+          className="rating-stars"
+          movieTitle={movie.title}
+          value={state?.rating ?? null}
+          onRate={(rating) => onRate(movie.id, rating)}
+          onPreviewChange={(rating) => setIsPreviewingRating(rating !== null)}
+        />
         <motion.button
           type="button"
           className={cn("watched-toggle", state?.watched && "is-selected")}

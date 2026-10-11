@@ -11,7 +11,18 @@ class FakeWorker extends EventTarget {
   constructor() { super(); FakeWorker.instances.push(this); }
 }
 const result: RecommendationJobResult = {
-  profile: { ratedCount: 1, watchedCount: 1, averageRating: 5, topGenres: [], topTags: [] },
+  profile: {
+    ratedCount: 1,
+    watchedCount: 1,
+    averageRating: 5,
+    topGenres: [],
+    topTags: [],
+    topDirectors: [],
+    topCast: [],
+    avoidedGenres: [],
+    avoidedTags: [],
+    ratingCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+  },
   recommendations: [], sections: [],
 };
 afterEach(() => { vi.unstubAllGlobals(); FakeWorker.instances = []; });

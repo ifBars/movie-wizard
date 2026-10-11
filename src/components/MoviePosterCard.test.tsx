@@ -49,6 +49,30 @@ describe("MoviePosterCard", () => {
     expect(onRate).toHaveBeenCalledWith("test-movie", 3);
   });
 
+  test("rates in half-star steps from the left half of a star", () => {
+    const onRate = vi.fn();
+    render(<MoviePosterCard {...defaultProps} onRate={onRate} />);
+
+    fireEvent.click(screen.getByLabelText("Rate 3.5 stars"));
+    fireEvent.click(screen.getByLabelText("Rate 0.5 stars"));
+
+    expect(onRate).toHaveBeenNthCalledWith(1, "test-movie", 3.5);
+    expect(onRate).toHaveBeenNthCalledWith(2, "test-movie", 0.5);
+  });
+
+  test("keeps a single tab stop and moves between half stars with arrow keys", () => {
+    render(<MoviePosterCard {...defaultProps} />);
+
+    const firstHalf = screen.getByLabelText("Rate 0.5 stars");
+    expect(screen.getAllByLabelText(/^Rate \d(\.5)? stars?$/).filter((button) => button.tabIndex === 0)).toEqual([firstHalf]);
+
+    firstHalf.focus();
+    fireEvent.keyDown(firstHalf, { key: "ArrowRight" });
+    expect(screen.getByLabelText("Rate 1 star")).toHaveFocus();
+    fireEvent.keyDown(document.activeElement ?? firstHalf, { key: "End" });
+    expect(screen.getByLabelText("Rate 5 stars")).toHaveFocus();
+  });
+
   test("calls onToggleWatched when watched button is clicked", () => {
     const onToggleWatched = vi.fn();
     render(<MoviePosterCard {...defaultProps} onToggleWatched={onToggleWatched} />);

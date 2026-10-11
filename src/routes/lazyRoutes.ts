@@ -23,3 +23,13 @@ export function preloadMovieDetailsPage(movieId?: string) {
 export function preloadSettingsPanel() {
   void import("@/components/SettingsPanel");
 }
+
+export const LazyTasteProfilePage = lazy(() =>
+  import("@/pages/TasteProfilePage").then((module) => ({
+    default: module.TasteProfilePage,
+  })),
+);
+
+export function preloadTasteProfilePage() {
+  void import("@/pages/TasteProfilePage");
+}

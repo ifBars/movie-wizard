@@ -14,8 +14,6 @@ import { fadeSlide } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import type { Movie } from "@/types";
 
-const searchResultPageSize = 24;
-
 type DiscoverPageProps = {
   discoverSections: DiscoverSection[];
   library: MovieLibrary;
@@ -239,7 +237,6 @@ export function SearchResults({
   search: string;
   totalResults: number;
 }) {
-  const shouldReduceMotion = useReducedMotion();
   const hiddenCount = Math.max(0, totalResults - filteredCatalog.length);
   const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
   const filterDescription = describeCatalogBrowseFilters(browseFilters);
@@ -258,27 +255,18 @@ export function SearchResults({
     onOpenMovie,
     onMovieIntent: onPreloadMovieDetails,
     headerAction,
+    onReachEnd: hiddenCount > 0 && !isLoading ? onLoadMore : undefined,
   };
 
-  return (
-    <>
-      {layout === "row" ? (
-        <MovieRow {...sharedProps} />
-      ) : (
-        <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
-      )}
-      {hiddenCount > 0 ? (
-        <motion.button
-          type="button"
-          className="search-results-more"
-          disabled={isLoading}
-          onClick={onLoadMore}
-          whileTap={shouldReduceMotion ? undefined : { scale: 0.97 }}
-        >
-          {isLoading ? "Loading…" : `Show ${Math.min(searchResultPageSize, hiddenCount)} more`}
-        </motion.button>
-      ) : null}
-    </>
+  return layout === "row" ? (
+    <MovieRow {...sharedProps} />
+  ) : (
+    <MovieGrid
+      {...sharedProps}
+      animateCardsOnMount={false}
+      enableLayoutAnimation={false}
+      isLoadingMore={isLoading && filteredCatalog.length > 0}
+    />
   );
 }
 

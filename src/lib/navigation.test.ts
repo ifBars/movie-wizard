@@ -7,6 +7,7 @@ describe("viewPath", () => {
     expect(viewPath("watchlist")).toBe("/watchlist");
     expect(viewPath("history")).toBe("/history");
     expect(viewPath("settings")).toBe("/settings");
+    expect(viewPath("profile")).toBe("/profile");
   });
 
   test("defaults to root for unknown view IDs", () => {
@@ -20,6 +21,7 @@ describe("viewFromPath", () => {
     expect(viewFromPath("/watchlist")).toBe("watchlist");
     expect(viewFromPath("/history")).toBe("history");
     expect(viewFromPath("/settings")).toBe("settings");
+    expect(viewFromPath("/profile")).toBe("profile");
     expect(viewFromPath("/rated")).toBe("history");
   });
 

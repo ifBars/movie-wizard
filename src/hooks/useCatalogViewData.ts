@@ -16,12 +16,14 @@ type SearchResultState = {
   movies: Movie[];
   total: number;
   limit: number;
+  // The limit the current movies were fetched with; it trails `limit` while a "load more" request is in flight.
+  loadedLimit: number;
 };
 
 export function useCatalogViewData(library: MovieLibrary, search: string, browseFilters: CatalogBrowseFilters) {
   const normalizedSearch = search.trim();
   const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}`;
-  const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize });
+  const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize, loadedLimit: 0 });
   const requestedLimit = searchResults.requestKey === requestKey ? searchResults.limit : searchPageSize;
   // Snapshot exclusions per query so rating a result updates it in place instead of re-running the search and removing it.
   const [exclusions, setExclusions] = useState(() => ({ requestKey, movieIds: getExcludedMovieIds(library.states) }));
@@ -48,12 +50,12 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
       .then(async (result) => isCurrent ? { ...result, movies: await loadMoviesByIds(result.movieIds) } : undefined)
       .then((result) => {
         if (isCurrent && result) {
-          setSearchResults({ requestKey, movies: result.movies, total: result.total, limit: requestedLimit });
+          setSearchResults({ requestKey, movies: result.movies, total: result.total, limit: requestedLimit, loadedLimit: requestedLimit });
         }
       })
       .catch(() => {
         if (isCurrent) {
-          setSearchResults({ requestKey, movies: [], total: 0, limit: requestedLimit });
+          setSearchResults({ requestKey, movies: [], total: 0, limit: requestedLimit, loadedLimit: requestedLimit });
         }
       });
 
@@ -78,6 +80,7 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
     filteredCatalog: hasCurrentSearchResults ? searchResults.movies : [],
     isCatalogBrowseMode,
     isSearchLoading: isCatalogBrowseMode && !hasCurrentSearchResults,
+    isLoadingMoreSearch: hasCurrentSearchResults && searchResults.loadedLimit < searchResults.limit,
     searchResultTotal: hasCurrentSearchResults ? searchResults.total : 0,
     loadMoreSearchResults,
   };

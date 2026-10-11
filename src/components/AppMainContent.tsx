@@ -9,7 +9,7 @@ import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { ViewId } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
-import { LazyMovieDetailsPage, LazySettingsPanel, preloadMovieDetailsPage } from "@/routes/lazyRoutes";
+import { LazyMovieDetailsPage, LazySettingsPanel, LazyTasteProfilePage, preloadMovieDetailsPage } from "@/routes/lazyRoutes";
 import type { Movie } from "@/types";
 
 type AppMainContentProps = {
@@ -50,7 +50,11 @@ export function AppMainContent({
     <main
       id="top"
       aria-busy={library.isRecommendationsRefreshing || undefined}
-      className={cn("page-grid", activeView === "settings" && !isSearchMode && "page-grid--settings", isDetailView && "page-grid--detail")}
+      className={cn(
+        "page-grid",
+        (activeView === "settings" || activeView === "profile") && !isSearchMode && "page-grid--settings",
+        isDetailView && "page-grid--detail",
+      )}
     >
       {isInitialCatalogLoading ? (
         <div className="page-motion-block">
@@ -150,7 +154,7 @@ function AppPage({
           browseFilters={browseFilters}
           discoverSections={catalogData.discoverSections}
           filteredCatalog={catalogData.filteredCatalog}
-          isSearchLoading={catalogData.isSearchLoading}
+          isSearchLoading={catalogData.isSearchLoading || catalogData.isLoadingMoreSearch}
           searchResultTotal={catalogData.searchResultTotal}
           library={library}
           onLoadMoreSearch={catalogData.loadMoreSearchResults}
@@ -189,6 +193,22 @@ function AppPage({
     );
   }
 
+  if (activeView === "profile") {
+    return (
+      <motion.div key="profile" className="page-motion-block" {...pageFade(shouldReduceMotion)}>
+        <Suspense fallback={<CatalogLoadingState title="Loading taste profile" subtitle="Reading your ratings." />}>
+          <LazyTasteProfilePage
+            profile={library.profile}
+            ratedMovies={library.ratedMovies}
+            states={library.states}
+            watchlistCount={library.watchlistMovies.length}
+            onOpenMovie={onOpenMovie}
+          />
+        </Suspense>
+      </motion.div>
+    );
+  }
+
   if (activeView === "discover" && library.isRecommendationsLoading) {
     return <CatalogLoadingState title="Updating your picks" subtitle="Finding movies from your latest taste profile." />;
   }
@@ -201,7 +221,7 @@ function AppPage({
         browseFilters={browseFilters}
         discoverSections={catalogData.discoverSections}
         filteredCatalog={catalogData.filteredCatalog}
-        isSearchLoading={catalogData.isSearchLoading}
+        isSearchLoading={catalogData.isSearchLoading || catalogData.isLoadingMoreSearch}
         searchResultTotal={catalogData.searchResultTotal}
         library={library}
         onLoadMoreSearch={catalogData.loadMoreSearchResults}

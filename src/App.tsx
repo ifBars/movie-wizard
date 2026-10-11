@@ -110,7 +110,6 @@ function App() {
         profile={library.profile}
         historyCount={library.historyMovies.length}
         watchlistCount={library.watchlistMovies.length}
-        catalogCount={library.catalogMovieCount}
         browseFilters={browseFilters}
         onBrowseFiltersChange={handleBrowseFiltersChange}
         onSearchChange={handleSearchChange}

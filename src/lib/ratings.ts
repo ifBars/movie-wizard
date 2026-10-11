@@ -2,23 +2,23 @@ import type { Rating } from "@/types";
 
 export const starRatings = [1, 2, 3, 4, 5] satisfies readonly Rating[];
 
+export const halfStarRatings = [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5] satisfies readonly Rating[];
+
 export function ratingFromPointerPosition(pointerX: number, width: number): Rating {
   const safeWidth = Math.max(width, 1);
   const boundedX = Math.min(Math.max(pointerX, 0), safeWidth);
-  const starValue = Math.min(5, Math.max(1, Math.ceil((boundedX / safeWidth) * 5)));
+  const halfStepIndex = Math.min(halfStarRatings.length, Math.max(1, Math.ceil((boundedX / safeWidth) * halfStarRatings.length)));
 
-  switch (starValue) {
-    case 1:
-      return 1;
-    case 2:
-      return 2;
-    case 3:
-      return 3;
-    case 4:
-      return 4;
-    default:
-      return 5;
-  }
+  return halfStarRatings[halfStepIndex - 1];
+}
+
+export function stepRating(rating: Rating, steps: number): Rating {
+  const index = halfStarRatings.indexOf(rating);
+  return halfStarRatings[Math.min(halfStarRatings.length - 1, Math.max(0, index + steps))];
+}
+
+export function formatRating(rating: number) {
+  return rating.toFixed(1);
 }
 
 export function isRating(value: unknown): value is Rating {

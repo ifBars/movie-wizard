@@ -102,12 +102,21 @@ export type LibrarySettings = {
   recommendationFocus?: RecommendationFocus;
 };
 
+export type TasteSignal = { name: string; weight: number };
+
 export type TasteProfile = {
   ratedCount: number;
   watchedCount: number;
   averageRating: number;
-  topGenres: Array<{ name: string; weight: number }>;
-  topTags: Array<{ name: string; weight: number }>;
+  topGenres: TasteSignal[];
+  topTags: TasteSignal[];
+  topDirectors: TasteSignal[];
+  topCast: TasteSignal[];
+  // Negative weights: what ratings and "not interested" marks steer recommendations away from.
+  avoidedGenres: TasteSignal[];
+  avoidedTags: TasteSignal[];
+  // Count of ratings at each half-star step, index 0 = 0.5 stars through index 9 = 5 stars.
+  ratingCounts: number[];
 };
 
 export type Recommendation = {

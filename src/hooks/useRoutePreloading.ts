@@ -1,6 +1,6 @@
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import type { ViewId } from "@/lib/navigation";
-import { preloadMovieDetailsPage, preloadSettingsPanel } from "@/routes/lazyRoutes";
+import { preloadMovieDetailsPage, preloadSettingsPanel, preloadTasteProfilePage } from "@/routes/lazyRoutes";
 
 type RoutePreloadingOptions = {
   activeView: ViewId;
@@ -12,6 +12,9 @@ export function useRoutePreloading({ activeView, catalogError, isCatalogLoading 
   useExternalSyncEffect(() => {
     if (activeView === "settings") {
       preloadSettingsPanel();
+    }
+    if (activeView === "profile") {
+      preloadTasteProfilePage();
     }
   }, [activeView]);
 

@@ -15,14 +15,14 @@ import {
 } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useMemo, useState } from "react";
-import type { PointerEvent, ReactNode } from "react";
+import type { ReactNode } from "react";
 import { MovieImagePoster } from "@/components/MovieImagePoster";
 import { useExternalSyncEffect } from "@/hooks/useExternalSyncEffect";
 import { applyMovieDetails } from "@/lib/catalogPayload";
 import { loadMovieDetails } from "@/lib/catalogRepository";
 import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import { fadeSlide, quickSpring, softSpring } from "@/lib/motion";
-import { ratingFromPointerPosition, starRatings } from "@/lib/ratings";
+import { StarRatingInput } from "@/components/StarRatingInput";
 import { cn } from "@/lib/utils";
 import type { Movie, MovieDetails, MovieStateMap, Rating, UserMovieState } from "@/types";
 
@@ -97,10 +97,7 @@ function MovieDetailsContent({
   const parentsGuideUrl = movie.imdbId ? `https://www.imdb.com/title/${movie.imdbId}/parentalguide/` : undefined;
   const crewCredits = getCrewCredits(movie);
   const sourceRatings = getSourceRatings(movie);
-  const ratingValue = state?.rating ?? 0;
-  const [previewRating, setPreviewRating] = useState<Rating | null>(null);
   const [activeTab, setActiveTab] = useState<DetailTab>("overview");
-  const displayedRating = previewRating ?? ratingValue;
   const {
     canScrollLeft,
     canScrollRight,
@@ -119,10 +116,6 @@ function MovieDetailsContent({
     shouldReduceMotion,
   });
 
-  function previewRatingFromPointer(event: PointerEvent<HTMLDivElement>) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
-  }
 
   return (
     <motion.section className="movie-detail-page">
@@ -252,15 +245,16 @@ function MovieDetailsContent({
                     <h2>Storyline</h2>
                     <p>{movie.synopsis}</p>
                   </div>
-                  <DetailRatingControl
-                    displayedRating={displayedRating}
-                    movie={movie}
-                    onPointerLeave={() => setPreviewRating(null)}
-                    onPreviewRating={previewRatingFromPointer}
-                    onRate={onRate}
-                    onSetPreviewRating={setPreviewRating}
-                    shouldReduceMotion={shouldReduceMotion}
-                  />
+                  <motion.div className="detail-rating-block" layout="position" transition={softSpring}>
+                    <span>Rate this movie</span>
+                    <StarRatingInput
+                      className="detail-rating-inline detail-rating-stars"
+                      movieTitle={movie.title}
+                      value={state?.rating ?? null}
+                      onRate={(rating) => onRate(movie.id, rating)}
+                      showValue
+                    />
+                  </motion.div>
                 </div>
 
                 {movie.trailerUrl ? (
@@ -413,55 +407,6 @@ function MovieDetailsContent({
         </AnimatePresence>
       </motion.section>
     </motion.section>
-  );
-}
-
-function DetailRatingControl({
-  displayedRating,
-  movie,
-  onPointerLeave,
-  onPreviewRating,
-  onRate,
-  onSetPreviewRating,
-  shouldReduceMotion,
-}: {
-  displayedRating: Rating | 0;
-  movie: Movie;
-  onPointerLeave: () => void;
-  onPreviewRating: (event: PointerEvent<HTMLDivElement>) => void;
-  onRate: (movieId: string, rating: Rating) => void;
-  onSetPreviewRating: (rating: Rating | null) => void;
-  shouldReduceMotion: boolean | null;
-}) {
-  return (
-    <motion.div className="detail-rating-block" layout="position" transition={softSpring}>
-      <span>Rate this movie</span>
-      <div className="detail-rating-inline" aria-label={`Rate ${movie.title}`} onPointerLeave={onPointerLeave}>
-        <div className="detail-rating-stars" onPointerMove={onPreviewRating}>
-          {starRatings.map((rating) => (
-            <motion.button
-              key={rating}
-              type="button"
-              onClick={() => onRate(movie.id, rating)}
-              onFocus={() => onSetPreviewRating(rating)}
-              onBlur={() => onSetPreviewRating(null)}
-              aria-label={`Rate ${rating} stars`}
-              className={cn(rating <= displayedRating && "is-filled", displayedRating === rating && "is-preview-target")}
-              whileHover={shouldReduceMotion ? undefined : { y: -1, scale: 1.12 }}
-              whileTap={shouldReduceMotion ? undefined : { scale: 0.82 }}
-              animate={
-                displayedRating === rating && !shouldReduceMotion
-                  ? { scale: [1, 1.2, 1], rotate: [0, -8, 0] }
-                  : { scale: 1, rotate: 0 }
-              }
-              transition={{ duration: 0.18 }}
-            >
-              <Star weight={rating <= displayedRating ? "fill" : "regular"} />
-            </motion.button>
-          ))}
-        </div>
-      </div>
-    </motion.div>
   );
 }
 

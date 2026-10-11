@@ -1,8 +1,8 @@
 import { BookmarkSimple } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { MoviePosterCard } from "@/components/MoviePosterCard";
-import { MoviePagination } from "@/components/MoviePagination";
-import { useMoviePage } from "@/hooks/useMoviePage";
+import { InfiniteScrollSentinel } from "@/components/InfiniteScrollSentinel";
+import { useIncrementalMovies } from "@/hooks/useIncrementalMovies";
 import { SectionHeader } from "@/components/SectionHeader";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import { fadeScale, fadeSlide, softSpring } from "@/lib/motion";
@@ -19,6 +19,9 @@ type MovieGridProps = {
   onOpenMovie: (movieId: string) => void;
   onMovieIntent?: (movieId: string) => void;
   headerAction?: ReactNode;
+  // Called once every loaded movie is on screen, so callers can fetch the next batch.
+  onReachEnd?: () => void;
+  isLoadingMore?: boolean;
 };
 
 export function MovieGrid({
@@ -31,9 +34,11 @@ export function MovieGrid({
   onOpenMovie,
   onMovieIntent,
   headerAction,
+  onReachEnd,
+  isLoadingMore = false,
 }: MovieGridProps) {
   const shouldReduceMotion = useReducedMotion();
-  const { page, pageCount, setPage, visibleMovies } = useMoviePage(movies);
+  const { hasMore, showMore, visibleMovies } = useIncrementalMovies(movies, title);
 
   if (movies.length === 0) {
     return (
@@ -51,7 +56,6 @@ export function MovieGrid({
   return (
     <motion.section className="movie-section" layout={enableLayoutAnimation} {...fadeSlide(shouldReduceMotion, 10)}>
       <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
-      <MoviePagination title={title} page={page} pageCount={pageCount} onPageChange={setPage} />
       <motion.div className="movie-grid" layout={enableLayoutAnimation} transition={softSpring}>
         {visibleMovies.map((movie) => (
           <MoviePosterCard
@@ -69,6 +73,11 @@ export function MovieGrid({
           />
         ))}
       </motion.div>
+      <InfiniteScrollSentinel
+        armKey={`${visibleMovies.length}:${movies.length}`}
+        isLoading={isLoadingMore}
+        onReach={hasMore ? showMore : onReachEnd}
+      />
     </motion.section>
   );
 }

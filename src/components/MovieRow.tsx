@@ -1,8 +1,7 @@
 import { BookmarkSimple, CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { MoviePosterCard } from "@/components/MoviePosterCard";
-import { MoviePagination } from "@/components/MoviePagination";
-import { useMoviePage } from "@/hooks/useMoviePage";
+import { useIncrementalMovies } from "@/hooks/useIncrementalMovies";
 import { SectionHeader } from "@/components/SectionHeader";
 import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
@@ -24,7 +23,7 @@ type MovieRowProps = {
 
 export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovieIntent, onReachEnd, headerAction }: MovieRowProps) {
   const shouldReduceMotion = useReducedMotion();
-  const { page, pageCount, setPage, visibleMovies } = useMoviePage(movies);
+  const { hasMore, showMore, visibleMovies } = useIncrementalMovies(movies, title);
   const {
     canScrollLeft,
     canScrollRight,
@@ -39,7 +38,7 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
     scrollByPage,
   } = useHorizontalScroll({
     itemCount: visibleMovies.length,
-    onReachEnd: page + 1 === pageCount ? onReachEnd : undefined,
+    onReachEnd: hasMore ? showMore : onReachEnd,
     shouldReduceMotion,
   });
 
@@ -59,10 +58,6 @@ export function MovieRow({ title, subtitle, movies, library, onOpenMovie, onMovi
   return (
     <motion.section className="movie-section" layout {...fadeSlide(shouldReduceMotion, 10)}>
       <SectionHeader title={title} subtitle={subtitle} action={headerAction} />
-      <MoviePagination title={title} page={page} pageCount={pageCount} onPageChange={(nextPage) => {
-        setPage(nextPage);
-        if (rowRef.current) rowRef.current.scrollLeft = 0;
-      }} />
       <div className="movie-row-frame">
         <AnimatePresence initial={false}>
           {canScrollLeft ? (

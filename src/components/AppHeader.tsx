@@ -6,6 +6,7 @@ import {
   MagnifyingGlass,
   Moon,
   SlidersHorizontal,
+  Sparkle,
   Star,
   Sun,
   UserCircle,
@@ -37,7 +38,6 @@ type AppHeaderProps = {
   profile: TasteProfile;
   historyCount: number;
   watchlistCount: number;
-  catalogCount: number;
   browseFilters: CatalogBrowseFilters;
   onBrowseFiltersChange: (filters: CatalogBrowseFilters) => void;
   onSearchChange: (value: string) => void;
@@ -54,7 +54,6 @@ export function AppHeader({
   profile,
   historyCount,
   watchlistCount,
-  catalogCount,
   onBrowseFiltersChange,
   onSearchChange,
   onToggleTheme,
@@ -237,8 +236,8 @@ export function AppHeader({
                 <ProfileSummary
                   profile={profile}
                   watchlistCount={watchlistCount}
-                  catalogCount={catalogCount}
                   className="taste-panel--dropdown"
+                  onNavigate={closeMenusAfterNavigation}
                 />
               </motion.div>
             ) : null}
@@ -286,6 +285,10 @@ export function AppHeader({
                   <ClockCounterClockwise />
                   <span>History</span>
                   <strong>{historyCount}</strong>
+                </Link>
+                <Link role="menuitem" to={viewPath("profile")} onClick={closeMenusAfterNavigation}>
+                  <Sparkle />
+                  <span>Taste profile</span>
                 </Link>
                 <Link role="menuitem" to={viewPath("settings")} onClick={closeMenusAfterNavigation}>
                   <GearSix />

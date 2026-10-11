@@ -5,7 +5,18 @@ import type { RecommendationJob, RecommendationJobResult } from "@/lib/recommend
 import type { DiscoverSection } from "@/lib/discoverSections";
 import type { Recommendation, TasteProfile } from "@/types";
 
-const emptyProfile: TasteProfile = { ratedCount: 0, watchedCount: 0, averageRating: 0, topGenres: [], topTags: [] };
+const emptyProfile: TasteProfile = {
+  ratedCount: 0,
+  watchedCount: 0,
+  averageRating: 0,
+  topGenres: [],
+  topTags: [],
+  topDirectors: [],
+  topCast: [],
+  avoidedGenres: [],
+  avoidedTags: [],
+  ratingCounts: new Array<number>(10).fill(0),
+};
 
 export function useRecommendations(job: RecommendationJob) {
   const client = useRef<RecommendationClient | null>(null);

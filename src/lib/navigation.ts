@@ -4,19 +4,25 @@ export const views = [
   { id: "history", label: "History", path: "/history" },
 ] as const;
 
-export type ViewId = (typeof views)[number]["id"] | "settings";
+export type ViewId = (typeof views)[number]["id"] | "settings" | "profile";
 
 export const settingsPath = "/settings";
+export const profilePath = "/profile";
 
 const viewByPath = new Map<string, ViewId>([
   ...views.map((view) => [view.path, view.id] as const),
   ["/rated", "history"],
   [settingsPath, "settings"],
+  [profilePath, "profile"],
 ]);
 
 export function viewPath(viewId: ViewId) {
   if (viewId === "settings") {
     return settingsPath;
+  }
+
+  if (viewId === "profile") {
+    return profilePath;
   }
 
   return views.find((view) => view.id === viewId)?.path ?? "/";

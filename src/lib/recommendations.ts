@@ -16,6 +16,7 @@ const MIN_POSITIVE_RATING = 4;
 const MAX_RECOMMENDATIONS = 240;
 const WATCHLIST_INTENT_WEIGHT = 0.35;
 const MAX_FEATURE_MATCHES = 3;
+const MIN_PERSON_EVIDENCE = 2;
 const MIN_RELATED_SIGNAL = 0.08;
 // "Not interested" is weaker than a low rating: it can also mean "seen it" or "not tonight".
 const NOT_INTERESTED_WEIGHT = -0.3;
@@ -105,6 +106,7 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
   let ratingTotal = 0;
   let ratedCount = 0;
   let watchedCount = 0;
+  const ratingCounts = new Array<number>(10).fill(0);
   const ratedMovies: Array<{ movie: Movie; rating: number; updatedAt: string }> = [];
 
   for (const movie of movies) {
@@ -136,6 +138,7 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
 
     ratedCount += 1;
     ratingTotal += state.rating;
+    ratingCounts[Math.round(state.rating * 2) - 1] += 1;
     ratedMovies.push({ movie, rating: state.rating, updatedAt: state.updatedAt });
   }
 
@@ -160,8 +163,14 @@ function buildTasteModel(movies: Movie[], states: MovieStateMap): TasteModel {
       ratedCount,
       watchedCount,
       averageRating,
-      topGenres: topWeights(genreWeights, 4),
-      topTags: topWeights(tagWeights, 6),
+      topGenres: topWeights(genreWeights, 8),
+      topTags: topWeights(tagWeights, 16),
+      // One movie gives its whole cast equal weight, so people need two rated movies before they count as favorites.
+      topDirectors: topWeights(directorWeights, 8, MIN_PERSON_EVIDENCE),
+      topCast: topWeights(castWeights, 8, MIN_PERSON_EVIDENCE),
+      avoidedGenres: topWeights(genreWeights, 5, 0, "negative"),
+      avoidedTags: topWeights(tagWeights, 8, 0, "negative"),
+      ratingCounts,
     },
     genreWeights,
     tagWeights,
@@ -338,17 +347,17 @@ function getPopularityScore(popularity: number) {
   return Math.min(100, Math.log1p(popularity) / Math.log1p(100) * 100);
 }
 
-function topWeights(weights: WeightedMap, count: number) {
+function topWeights(weights: WeightedMap, count: number, minimumEvidence = 0, direction: "positive" | "negative" = "positive") {
   const items: Array<{ name: string; weight: number }> = [];
 
   for (const [name, signal] of weights) {
     const weight = signalStrength(signal);
-    if (weight > 0) {
+    if (signal.evidence >= minimumEvidence && (direction === "positive" ? weight > 0 : weight < 0)) {
       items.push({ name, weight });
     }
   }
 
-  items.sort((a, b) => b.weight - a.weight);
+  items.sort((a, b) => (direction === "positive" ? b.weight - a.weight : a.weight - b.weight));
   return items.slice(0, count);
 }
 
