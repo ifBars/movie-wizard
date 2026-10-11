@@ -20,15 +20,15 @@ type SearchResultState = {
   loadedLimit: number;
 };
 
-export function useCatalogViewData(library: MovieLibrary, search: string, browseFilters: CatalogBrowseFilters) {
+export function useCatalogViewData(library: MovieLibrary, search: string, browseFilters: CatalogBrowseFilters, includeWatched = false) {
   const normalizedSearch = search.trim();
-  const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}`;
+  const requestKey = `${normalizedSearch}|${browseFilters.genre}|${browseFilters.era}|${browseFilters.runtime}|${browseFilters.sort}|${includeWatched ? "all" : "unseen"}`;
   const [searchResults, setSearchResults] = useState<SearchResultState>({ requestKey: "", movies: [], total: 0, limit: searchPageSize, loadedLimit: 0 });
   const requestedLimit = searchResults.requestKey === requestKey ? searchResults.limit : searchPageSize;
   // Snapshot exclusions per query so rating a result updates it in place instead of re-running the search and removing it.
-  const [exclusions, setExclusions] = useState(() => ({ requestKey, movieIds: getExcludedMovieIds(library.states) }));
+  const [exclusions, setExclusions] = useState(() => ({ requestKey, movieIds: getExcludedMovieIds(library.states, includeWatched) }));
   if (exclusions.requestKey !== requestKey) {
-    setExclusions({ requestKey, movieIds: getExcludedMovieIds(library.states) });
+    setExclusions({ requestKey, movieIds: getExcludedMovieIds(library.states, includeWatched) });
   }
   const excludedMovieIds = exclusions.movieIds;
 
@@ -82,14 +82,20 @@ export function useCatalogViewData(library: MovieLibrary, search: string, browse
     isSearchLoading: isCatalogBrowseMode && !hasCurrentSearchResults,
     isLoadingMoreSearch: hasCurrentSearchResults && searchResults.loadedLimit < searchResults.limit,
     searchResultTotal: hasCurrentSearchResults ? searchResults.total : 0,
+    includeWatched,
     loadMoreSearchResults,
   };
 }
 
-function getExcludedMovieIds(states: MovieLibrary["states"]) {
+// By default search surfaces only movies you haven't touched. Including watched movies brings back everything
+// except "Not interested" picks that were never rated or watched, so you can find a movie you've already seen.
+function getExcludedMovieIds(states: MovieLibrary["states"], includeWatched: boolean) {
   const excludedMovieIds: string[] = [];
   for (const state of Object.values(states)) {
-    if (state.ignored || state.watched || state.watchlist || state.rating !== null) {
+    const isExcluded = includeWatched
+      ? state.ignored && !state.watched && state.rating === null
+      : state.ignored || state.watched || state.watchlist || state.rating !== null;
+    if (isExcluded) {
       excludedMovieIds.push(state.movieId);
     }
   }

@@ -1,6 +1,6 @@
-import { ListBullets, SquaresFour } from "@phosphor-icons/react";
+import { ListBullets, SortAscending, SquaresFour } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { PointerEvent } from "react";
 import { DiscoverPage, SearchResults } from "@/components/DiscoverPage";
 import { MovieGrid } from "@/components/MovieGrid";
@@ -8,6 +8,8 @@ import { MovieRow } from "@/components/MovieRow";
 import type { MovieLibrary } from "@/hooks/useMovieLibrary";
 import type { CatalogBrowseFilters } from "@/lib/catalogBrowse";
 import type { DiscoverSection } from "@/lib/discoverSections";
+import { isLibrarySortOrder, librarySortOptions, sortLibraryMovies } from "@/lib/librarySort";
+import type { LibrarySortOrder } from "@/lib/librarySort";
 import type { ViewId } from "@/lib/navigation";
 import { pageFade } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -24,6 +26,8 @@ type CatalogViewProps = {
   isSearchLoading: boolean;
   searchResultTotal: number;
   library: MovieLibrary;
+  includeWatched: boolean;
+  onIncludeWatchedChange: (includeWatched: boolean) => void;
   onLoadMoreSearch: () => void;
   onOpenMovie: (movieId: string) => void;
   onPreloadMovieDetails?: (movieId: string) => void;
@@ -38,6 +42,8 @@ export function CatalogView({
   isSearchLoading,
   searchResultTotal,
   library,
+  includeWatched,
+  onIncludeWatchedChange,
   onLoadMoreSearch,
   onOpenMovie,
   onPreloadMovieDetails,
@@ -58,6 +64,8 @@ export function CatalogView({
                 isLoading={isSearchLoading}
                 layout={searchLayout}
                 library={library}
+                includeWatched={includeWatched}
+                onIncludeWatchedChange={onIncludeWatchedChange}
                 onLoadMore={onLoadMoreSearch}
                 onLayoutChange={setSearchLayout}
                 onOpenMovie={onOpenMovie}
@@ -111,11 +119,18 @@ function WatchlistMovies({
   onPreloadMovieDetails?: (movieId: string) => void;
 }) {
   const [layout, setLayout] = useState<CatalogLayout>("grid");
-  const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="Watchlist layout" />;
+  const [sortOrder, setSortOrder] = useLibrarySortOrder("watchlist");
+  const sortedMovies = useMemo(() => sortLibraryMovies(movies, library.states, sortOrder), [library.states, movies, sortOrder]);
+  const headerAction = (
+    <div className="library-view-controls">
+      <LibrarySortSelect value={sortOrder} onChange={setSortOrder} label="Sort watchlist" includeRatingOrders={false} />
+      <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="Watchlist layout" />
+    </div>
+  );
   const sharedProps = {
     title: "watchlist",
     subtitle: "Saved movies to consider next",
-    movies,
+    movies: sortedMovies,
     library,
     onOpenMovie,
     onMovieIntent: onPreloadMovieDetails,
@@ -141,13 +156,20 @@ function HistoryMovies({
   onPreloadMovieDetails?: (movieId: string) => void;
 }) {
   const [layout, setLayout] = useState<CatalogLayout>("grid");
-  const headerAction = <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="History layout" />;
+  const [sortOrder, setSortOrder] = useLibrarySortOrder("history");
+  const sortedMovies = useMemo(() => sortLibraryMovies(movies, library.states, sortOrder), [library.states, movies, sortOrder]);
+  const headerAction = (
+    <div className="library-view-controls">
+      <LibrarySortSelect value={sortOrder} onChange={setSortOrder} label="Sort history" includeRatingOrders />
+      <MovieLayoutToggle layout={layout} onLayoutChange={setLayout} label="History layout" />
+    </div>
+  );
   const subtitle =
     movies.length === 1 ? "1 watched or rated movie" : `${movies.length} watched or rated movies`;
   const sharedProps = {
     title: "history",
     subtitle,
-    movies,
+    movies: sortedMovies,
     library,
     onOpenMovie,
     onMovieIntent: onPreloadMovieDetails,
@@ -158,6 +180,65 @@ function HistoryMovies({
     <MovieRow {...sharedProps} />
   ) : (
     <MovieGrid {...sharedProps} animateCardsOnMount={false} enableLayoutAnimation={false} />
+  );
+}
+
+const sortStoragePrefix = "movie-wizard:library-sort:";
+
+function useLibrarySortOrder(view: "history" | "watchlist") {
+  const storageKey = `${sortStoragePrefix}${view}`;
+  const [sortOrder, setSortOrderState] = useState<LibrarySortOrder>(() => {
+    try {
+      const stored = localStorage.getItem(storageKey);
+      return isLibrarySortOrder(stored) ? stored : "recent";
+    } catch {
+      return "recent";
+    }
+  });
+
+  function setSortOrder(order: LibrarySortOrder) {
+    setSortOrderState(order);
+    try {
+      localStorage.setItem(storageKey, order);
+    } catch {
+      // The choice still applies for this visit when storage is unavailable.
+    }
+  }
+
+  return [sortOrder, setSortOrder] as const;
+}
+
+function LibrarySortSelect({
+  value,
+  label,
+  includeRatingOrders,
+  onChange,
+}: {
+  value: LibrarySortOrder;
+  label: string;
+  includeRatingOrders: boolean;
+  onChange: (order: LibrarySortOrder) => void;
+}) {
+  const options = librarySortOptions.filter((option) => includeRatingOrders || !option.needsRatings);
+
+  return (
+    <label className="library-sort">
+      <SortAscending weight="bold" aria-hidden="true" />
+      <select
+        aria-label={label}
+        value={options.some((option) => option.value === value) ? value : "recent"}
+        onChange={(event) => {
+          const order = event.target.value;
+          if (isLibrarySortOrder(order)) onChange(order);
+        }}
+      >
+        {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }
 

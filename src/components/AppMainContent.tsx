@@ -20,6 +20,7 @@ type AppMainContentProps = {
   isResolvingDetail: boolean;
   library: MovieLibrary;
   onCloseMovie: () => void;
+  onIncludeWatchedChange: (includeWatched: boolean) => void;
   onOpenMovie: (movieId: string) => void;
   search: string;
   browseFilters: CatalogBrowseFilters;
@@ -36,6 +37,7 @@ export function AppMainContent({
   isResolvingDetail,
   library,
   onCloseMovie,
+  onIncludeWatchedChange,
   onOpenMovie,
   onThemeModeChange,
   browseFilters,
@@ -69,6 +71,7 @@ export function AppMainContent({
             isResolvingDetail={isResolvingDetail}
             library={library}
             onCloseMovie={onCloseMovie}
+            onIncludeWatchedChange={onIncludeWatchedChange}
             onOpenMovie={onOpenMovie}
             onThemeModeChange={onThemeModeChange}
             search={search}
@@ -93,6 +96,7 @@ function AppPage({
   isResolvingDetail,
   library,
   onCloseMovie,
+  onIncludeWatchedChange,
   onOpenMovie,
   onThemeModeChange,
   search,
@@ -157,6 +161,8 @@ function AppPage({
           isSearchLoading={catalogData.isSearchLoading || catalogData.isLoadingMoreSearch}
           searchResultTotal={catalogData.searchResultTotal}
           library={library}
+          includeWatched={catalogData.includeWatched}
+          onIncludeWatchedChange={onIncludeWatchedChange}
           onLoadMoreSearch={catalogData.loadMoreSearchResults}
           onOpenMovie={onOpenMovie}
           onPreloadMovieDetails={preloadMovieDetailsPage}
@@ -224,6 +230,8 @@ function AppPage({
         isSearchLoading={catalogData.isSearchLoading || catalogData.isLoadingMoreSearch}
         searchResultTotal={catalogData.searchResultTotal}
         library={library}
+        includeWatched={catalogData.includeWatched}
+        onIncludeWatchedChange={onIncludeWatchedChange}
         onLoadMoreSearch={catalogData.loadMoreSearchResults}
         onOpenMovie={onOpenMovie}
         onPreloadMovieDetails={preloadMovieDetailsPage}

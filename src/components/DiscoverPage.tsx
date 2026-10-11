@@ -215,9 +215,11 @@ function BackToDiscoverButton({ onClick }: { onClick: () => void }) {
 export function SearchResults({
   browseFilters,
   filteredCatalog,
+  includeWatched,
   isLoading,
   layout,
   library,
+  onIncludeWatchedChange,
   onLoadMore,
   onLayoutChange,
   onOpenMovie,
@@ -227,9 +229,11 @@ export function SearchResults({
 }: {
   browseFilters: CatalogBrowseFilters;
   filteredCatalog: Movie[];
+  includeWatched: boolean;
   isLoading: boolean;
   layout: "grid" | "row";
   library: MovieLibrary;
+  onIncludeWatchedChange: (includeWatched: boolean) => void;
   onLoadMore: () => void;
   onLayoutChange: (layout: "grid" | "row") => void;
   onOpenMovie: (movieId: string) => void;
@@ -238,9 +242,28 @@ export function SearchResults({
   totalResults: number;
 }) {
   const hiddenCount = Math.max(0, totalResults - filteredCatalog.length);
-  const headerAction = <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />;
+  const headerAction = (
+    <div className="library-view-controls">
+      <button
+        type="button"
+        role="switch"
+        className={cn("include-watched-switch", includeWatched && "is-on")}
+        aria-checked={includeWatched}
+        title={includeWatched ? "Showing movies you've watched, rated, or saved" : "Also search movies you've watched, rated, or saved"}
+        onClick={() => onIncludeWatchedChange(!includeWatched)}
+      >
+        <span className="include-watched-switch__track" aria-hidden="true">
+          <span />
+        </span>
+        Include watched
+      </button>
+      <SearchResultsLayoutToggle layout={layout} onLayoutChange={onLayoutChange} />
+    </div>
+  );
   const filterDescription = describeCatalogBrowseFilters(browseFilters);
-  const scopeDescription = [search ? `“${search}”` : "All movies", filterDescription].filter(Boolean).join(" · ");
+  const scopeDescription = [search ? `“${search}”` : "All movies", filterDescription, includeWatched ? "Including watched" : ""]
+    .filter(Boolean)
+    .join(" · ");
   const subtitle =
     isLoading && filteredCatalog.length === 0
       ? "Searching the local catalog…"

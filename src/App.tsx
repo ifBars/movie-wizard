@@ -17,13 +17,14 @@ function App() {
   const [searchParams, setSearchParams] = useSearchParams();
   const search = searchParams.get("q") ?? "";
   const browseFilters = useMemo(() => readCatalogBrowseFilters(searchParams), [searchParams]);
+  const includeWatchedInSearch = searchParams.get("watched") === "1";
   const deferredSearch = useDeferredValue(search);
   const { activeView, isKnownRoute, locationKey, selectedMovieId } = useAppRouteState();
   const { closeMovie, openMovie } = useMovieNavigation();
   const { themeMode, setThemeMode, toggleTheme } = useThemeMode();
   const library = useMovieLibrary(selectedMovieId ?? undefined);
   const { includeMovie } = library;
-  const catalogData = useCatalogViewData(library, deferredSearch, browseFilters);
+  const catalogData = useCatalogViewData(library, deferredSearch, browseFilters, includeWatchedInSearch);
   const selectedMovie = useMemo(
     () =>
       library.visibleMovies.find((movie) => movie.id === selectedMovieId) ??
@@ -79,6 +80,24 @@ function App() {
     [setSearchParams],
   );
 
+  const handleIncludeWatchedChange = useCallback(
+    (includeWatched: boolean) => {
+      setSearchParams(
+        (currentParams) => {
+          const nextParams = new URLSearchParams(currentParams);
+          if (includeWatched) {
+            nextParams.set("watched", "1");
+          } else {
+            nextParams.delete("watched");
+          }
+          return nextParams;
+        },
+        { replace: true },
+      );
+    },
+    [setSearchParams],
+  );
+
   const averageRatingLabel = library.profile.averageRating > 0 ? library.profile.averageRating.toFixed(1) : "0.0";
   const isResolvingDetail = Boolean(selectedMovieId && !selectedMovie && library.isCatalogLoading);
   const isDetailView = Boolean(selectedMovie) || isResolvingDetail;
@@ -124,6 +143,7 @@ function App() {
         isResolvingDetail={isResolvingDetail}
         library={library}
         onCloseMovie={closeMovie}
+        onIncludeWatchedChange={handleIncludeWatchedChange}
         onOpenMovie={handleOpenMovie}
         search={deferredSearch}
         browseFilters={browseFilters}
