@@ -30,12 +30,14 @@ const searchPath = path.join(generatedDir, "catalog-search.json");
 const detailsPath = path.join(generatedDir, "movie-details.json");
 const detailsShardsDir = path.join(generatedDir, "movie-details-shards");
 const manifestPath = path.join(generatedDir, "catalog-manifest.json");
+const communityTagsPath = path.join(generatedDir, "movielens-tags.json");
 
 const synopsisPreviewLength = 220;
 const bootstrapMovieCount = 480;
 
 async function main() {
-  const movies: Movie[] = JSON.parse(await readFile(sourcePath, "utf8"));
+  const sourceMovies: Movie[] = JSON.parse(await readFile(sourcePath, "utf8"));
+  const movies = applyCommunityTags(sourceMovies, await readCommunityTags());
   const generatedAt = new Date().toISOString();
 
   if (process.argv.includes("--search-only")) {
@@ -106,6 +108,34 @@ async function main() {
   await writeJson(detailsPath, detailsPayload);
   await writeMovieDetailShards(movies, generatedAt);
   await writeJson(manifestPath, manifestPayload);
+}
+
+async function readCommunityTags(): Promise<Record<string, string[]>> {
+  try {
+    const payload: { tags?: Record<string, string[]> } = JSON.parse(await readFile(communityTagsPath, "utf8"));
+    return payload.tags ?? {};
+  } catch {
+    return {};
+  }
+}
+
+// TMDB production notes that say nothing about what a movie is like to watch.
+const excludedTmdbKeywords = new Set(["duringcreditsstinger", "aftercreditsstinger", "woman director"]);
+// Spell TMDB keywords like the matching community tags so one idea doesn't split into two weaker signals.
+const tmdbKeywordAliases = new Map([
+  ["based on true story", "based on a true story"],
+  ["based on comic", "based on a comic"],
+]);
+
+// MovieLens community tags describe mood and style ("atmospheric", "quirky") where TMDB keywords mostly name plot
+// elements, so they lead the tag list that drives taste matching and search.
+function applyCommunityTags(movies: Movie[], communityTags: Record<string, string[]>) {
+  return movies.map((movie) => {
+    const keywords = movie.tags
+      .filter((tag) => !excludedTmdbKeywords.has(tag))
+      .map((tag) => tmdbKeywordAliases.get(tag) ?? tag);
+    return { ...movie, tags: [...new Set([...(communityTags[movie.id] ?? []), ...keywords])] };
+  });
 }
 
 function buildSearchPayload(movies: Movie[], generatedAt: string): CatalogSearchPayload {

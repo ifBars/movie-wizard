@@ -2,210 +2,266 @@ import { copyFile, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import type { Movie } from "../../src/types";
+import { readCatalogIndexByMovieLensId, getDatasetDir } from "./movielens";
 
-type Rating = {
-  movieId: number;
-  rating: number;
-};
-
-type PairStats = {
-  count: number;
-  dotProduct: number;
-  leftSquares: number;
-  rightSquares: number;
-};
-
-type Neighbor = [movieId: string, similarity: number, support: number];
-
-const minimumSupport = 3;
-const neighborsPerMovie = 16;
-const minimumSimilarity = 0.08;
+const minimumSupport = 20;
+const neighborsPerMovie = 20;
+const minimumSimilarity = 0.06;
+// Shrink correlations measured on few co-raters toward zero so niche pairs can't outrank well-supported ones.
+const supportShrinkage = 100;
+// Pair work grows with the square of each user's rating count; a deterministic sample keeps power users from dominating.
+const maxRatingsPerUser = 320;
 
 const rootDir = process.cwd();
-const datasetDir = getDatasetDir();
+const datasetDir = getDatasetDir(rootDir);
 const catalogPath = path.join(rootDir, "src", "data", "generated", "movies.json");
 const outputPath = path.join(rootDir, "src", "data", "generated", "movielens-neighbors.json");
 const licensePath = path.join(rootDir, "src", "data", "generated", "movielens-README.txt");
 
+type UserRatings = {
+  offsets: Int32Array;
+  items: Int32Array;
+  values: Float32Array;
+  userCount: number;
+};
+
 async function main() {
+  const startedAt = performance.now();
   const movies: Movie[] = JSON.parse(await readFile(catalogPath, "utf8"));
-  const catalogIndexByMovieLensId = await buildCatalogIndexByMovieLensId(movies);
-  const users = await readRatings(catalogIndexByMovieLensId);
-  const pairStats = buildPairStats(users, movies.length);
-  const neighbors = buildNeighbors(pairStats, movies);
+  const catalogIndexByMovieLensId = await readCatalogIndexByMovieLensId(datasetDir, movies);
+  const users = await readCenteredRatings(catalogIndexByMovieLensId);
+  log(startedAt, `Loaded ${users.offsets[users.userCount]} centered ratings from ${users.userCount} users`);
+
+  const neighbors = buildNeighbors(users, movies.length, startedAt);
+  const participatingIndexes = [...new Set([...neighbors.keys(), ...[...neighbors.values()].flatMap((rows) => rows.map((row) => row[0]))])].sort(
+    (left, right) => left - right,
+  );
+  const positionByCatalogIndex = new Map(participatingIndexes.map((catalogIndex, position) => [catalogIndex, position]));
 
   const payload = {
-    version: 1,
-    source: "MovieLens latest-small",
+    version: 2,
+    source: "MovieLens 32M",
     generatedAt: new Date().toISOString(),
     minimumSupport,
     neighborsPerMovie,
     matchedMovieCount: new Set(catalogIndexByMovieLensId.values()).size,
-    neighbors,
+    movieIds: participatingIndexes.map((catalogIndex) => movies[catalogIndex].id),
+    // Flat [neighborPosition, similarity × 1000, support, ...] rows aligned with movieIds keep the payload compact.
+    neighbors: participatingIndexes.map((catalogIndex) =>
+      (neighbors.get(catalogIndex) ?? []).flatMap(([neighborIndex, similarity, support]) => [
+        positionByCatalogIndex.get(neighborIndex) ?? -1,
+        Math.round(similarity * 1000),
+        support,
+      ]),
+    ),
   };
 
   await writeFile(outputPath, JSON.stringify(payload));
   await copyFile(path.join(datasetDir, "README.txt"), licensePath);
 
-  const edgeCount = Object.values(neighbors).reduce((total, rows) => total + rows.length, 0);
-  console.log(`Matched ${payload.matchedMovieCount} catalog movies and wrote ${edgeCount} collaborative edges.`);
+  const edgeCount = payload.neighbors.reduce((total, row) => total + row.length / 3, 0);
+  log(startedAt, `Matched ${payload.matchedMovieCount} catalog movies; ${neighbors.size} have neighbors (${edgeCount} edges).`);
 }
 
-function getDatasetDir() {
-  const datasetArgument = process.argv.find((argument) => argument.startsWith("--dataset="));
-  if (!datasetArgument) {
-    throw new Error("Pass the extracted MovieLens latest-small directory with --dataset=<path>.");
-  }
+async function readCenteredRatings(catalogIndexByMovieLensId: Map<number, number>): Promise<UserRatings> {
+  const offsets: number[] = [0];
+  let items = new Int32Array(1 << 24);
+  let values = new Float32Array(1 << 24);
+  let length = 0;
 
-  const datasetPath = datasetArgument.slice("--dataset=".length);
-  return path.resolve(rootDir, datasetPath);
-}
+  const pendingItems: number[] = [];
+  const pendingRatings: number[] = [];
+  let currentUserId = -1;
 
-async function buildCatalogIndexByMovieLensId(movies: Movie[]) {
-  const catalogIndexByTmdbId = new Map<string, number>();
-  const catalogIndexByImdbId = new Map<string, number>();
+  const flushUser = () => {
+    if (pendingItems.length >= 2) {
+      const mean = pendingRatings.reduce((total, rating) => total + rating, 0) / pendingRatings.length;
+      const order = pendingItems.map((_, index) => index);
+      if (order.length > maxRatingsPerUser) {
+        order.sort((left, right) => sampleRank(currentUserId, pendingItems[left]) - sampleRank(currentUserId, pendingItems[right]));
+        order.length = maxRatingsPerUser;
+      }
 
-  movies.forEach((movie, index) => {
-    if (movie.tmdbId !== undefined) {
-      catalogIndexByTmdbId.set(String(movie.tmdbId), index);
+      const hasVariance = pendingRatings.some((rating) => rating !== mean);
+      if (hasVariance) {
+        if (length + order.length > items.length) {
+          items = grow(items, length + order.length, (size) => new Int32Array(size));
+          values = grow(values, length + order.length, (size) => new Float32Array(size));
+        }
+        for (const index of order) {
+          items[length] = pendingItems[index];
+          values[length] = pendingRatings[index] - mean;
+          length += 1;
+        }
+        offsets.push(length);
+      }
     }
-    if (movie.imdbId) {
-      catalogIndexByImdbId.set(movie.imdbId.replace(/^tt/, "").padStart(7, "0"), index);
+    pendingItems.length = 0;
+    pendingRatings.length = 0;
+  };
+
+  await forEachRatingRow(path.join(datasetDir, "ratings.csv"), (userId, movieLensId, rating) => {
+    if (userId !== currentUserId) {
+      if (userId < currentUserId) {
+        throw new Error("ratings.csv must be sorted by userId.");
+      }
+      flushUser();
+      currentUserId = userId;
+    }
+
+    const catalogIndex = catalogIndexByMovieLensId.get(movieLensId);
+    if (catalogIndex !== undefined) {
+      pendingItems.push(catalogIndex);
+      pendingRatings.push(rating);
     }
   });
+  flushUser();
 
-  const links = parseCsv(await readFile(path.join(datasetDir, "links.csv"), "utf8"));
-  const catalogIndexByMovieLensId = new Map<number, number>();
+  return {
+    offsets: Int32Array.from(offsets),
+    items: items.subarray(0, length),
+    values: values.subarray(0, length),
+    userCount: offsets.length - 1,
+  };
+}
 
-  for (const [movieId, imdbId, tmdbId] of links) {
-    const catalogIndex =
-      (tmdbId ? catalogIndexByTmdbId.get(tmdbId) : undefined) ??
-      (imdbId ? catalogIndexByImdbId.get(imdbId.padStart(7, "0")) : undefined);
+function buildNeighbors(users: UserRatings, catalogSize: number, startedAt: number) {
+  // Invert user → items into item → (user, value) so each movie's co-rating row is accumulated in one dense pass.
+  const raterOffsets = new Int32Array(catalogSize + 1);
+  for (const item of users.items) raterOffsets[item + 1] += 1;
+  for (let index = 0; index < catalogSize; index += 1) raterOffsets[index + 1] += raterOffsets[index];
 
-    if (catalogIndex !== undefined) {
-      catalogIndexByMovieLensId.set(Number(movieId), catalogIndex);
+  const raterUsers = new Int32Array(users.items.length);
+  const raterValues = new Float32Array(users.items.length);
+  const cursor = raterOffsets.slice(0, catalogSize);
+  for (let user = 0; user < users.userCount; user += 1) {
+    for (let position = users.offsets[user]; position < users.offsets[user + 1]; position += 1) {
+      const item = users.items[position];
+      raterUsers[cursor[item]] = user;
+      raterValues[cursor[item]] = users.values[position];
+      cursor[item] += 1;
     }
   }
 
-  return catalogIndexByMovieLensId;
-}
+  const counts = new Int32Array(catalogSize);
+  const dotProducts = new Float64Array(catalogSize);
+  const leftSquares = new Float64Array(catalogSize);
+  const rightSquares = new Float64Array(catalogSize);
+  const touched = new Int32Array(catalogSize);
+  const neighbors = new Map<number, Array<[neighborIndex: number, similarity: number, support: number]>>();
 
-async function readRatings(catalogIndexByMovieLensId: Map<number, number>) {
-  const rows = parseCsv(await readFile(path.join(datasetDir, "ratings.csv"), "utf8"));
-  const ratingsByUser = new Map<number, Rating[]>();
+  for (let item = 0; item < catalogSize; item += 1) {
+    if (item % 2000 === 0) log(startedAt, `Scoring movie ${item} of ${catalogSize}`);
+    if (raterOffsets[item + 1] - raterOffsets[item] < minimumSupport) continue;
 
-  for (const [userIdValue, movieIdValue, ratingValue] of rows) {
-    const catalogIndex = catalogIndexByMovieLensId.get(Number(movieIdValue));
-    if (catalogIndex === undefined) {
-      continue;
+    let touchedCount = 0;
+    for (let rater = raterOffsets[item]; rater < raterOffsets[item + 1]; rater += 1) {
+      const user = raterUsers[rater];
+      const left = raterValues[rater];
+      const leftSquare = left * left;
+      for (let position = users.offsets[user]; position < users.offsets[user + 1]; position += 1) {
+        const other = users.items[position];
+        if (other === item) continue;
+        const right = users.values[position];
+        if (counts[other] === 0) touched[touchedCount++] = other;
+        counts[other] += 1;
+        dotProducts[other] += left * right;
+        leftSquares[other] += leftSquare;
+        rightSquares[other] += right * right;
+      }
     }
 
-    const userId = Number(userIdValue);
-    const ratings = ratingsByUser.get(userId) ?? [];
-    ratings.push({ movieId: catalogIndex, rating: Number(ratingValue) });
-    ratingsByUser.set(userId, ratings);
+    const rows: Array<[number, number, number]> = [];
+    for (let index = 0; index < touchedCount; index += 1) {
+      const other = touched[index];
+      const support = counts[other];
+      const denominator = Math.sqrt(leftSquares[other] * rightSquares[other]);
+      if (support >= minimumSupport && denominator > 0) {
+        const similarity = (dotProducts[other] / denominator) * (support / (support + supportShrinkage));
+        if (similarity >= minimumSimilarity) rows.push([other, similarity, support]);
+      }
+      counts[other] = 0;
+      dotProducts[other] = 0;
+      leftSquares[other] = 0;
+      rightSquares[other] = 0;
+    }
+
+    if (rows.length > 0) {
+      rows.sort((left, right) => right[1] - left[1] || right[2] - left[2]);
+      neighbors.set(item, rows.slice(0, neighborsPerMovie));
+    }
   }
 
-  return ratingsByUser.values();
+  return neighbors;
 }
 
-function buildPairStats(users: Iterable<Rating[]>, catalogSize: number) {
-  const statsByPair = new Map<number, PairStats>();
+async function forEachRatingRow(filePath: string, onRow: (userId: number, movieId: number, rating: number) => void) {
+  const reader = Bun.file(filePath).stream().getReader();
+  // Parse bytes directly: the file is ~900 MB, too large to decode into one string.
+  let field = 0;
+  let userId = 0;
+  let movieId = 0;
+  let ratingWhole = 0;
+  let ratingFraction = 0;
+  let ratingScale = 0;
+  let isHeader = true;
 
-  for (const ratings of users) {
-    if (ratings.length < 2) {
-      continue;
-    }
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
 
-    const mean = ratings.reduce((total, rating) => total + rating.rating, 0) / ratings.length;
-    const centered = ratings.map((rating) => ({ ...rating, value: rating.rating - mean }));
-
-    for (let leftIndex = 0; leftIndex < centered.length - 1; leftIndex += 1) {
-      const left = centered[leftIndex];
-      for (let rightIndex = leftIndex + 1; rightIndex < centered.length; rightIndex += 1) {
-        const right = centered[rightIndex];
-        if (left.value === 0 && right.value === 0) {
-          continue;
+    for (let index = 0; index < value.length; index += 1) {
+      const byte = value[index];
+      if (byte === 10) {
+        if (!isHeader && field === 3) {
+          onRow(userId, movieId, ratingWhole + (ratingScale > 0 ? ratingFraction / ratingScale : 0));
         }
-
-        const first = left.movieId < right.movieId ? left : right;
-        const second = left.movieId < right.movieId ? right : left;
-        const pairKey = first.movieId * catalogSize + second.movieId;
-        const stats = statsByPair.get(pairKey) ?? {
-          count: 0,
-          dotProduct: 0,
-          leftSquares: 0,
-          rightSquares: 0,
-        };
-
-        stats.count += 1;
-        stats.dotProduct += first.value * second.value;
-        stats.leftSquares += first.value ** 2;
-        stats.rightSquares += second.value ** 2;
-        statsByPair.set(pairKey, stats);
+        isHeader = false;
+        field = 0;
+        userId = 0;
+        movieId = 0;
+        ratingWhole = 0;
+        ratingFraction = 0;
+        ratingScale = 0;
+      } else if (isHeader) {
+        continue;
+      } else if (byte === 44) {
+        field += 1;
+      } else if (byte >= 48 && byte <= 57) {
+        const digit = byte - 48;
+        if (field === 0) userId = userId * 10 + digit;
+        else if (field === 1) movieId = movieId * 10 + digit;
+        else if (field === 2) {
+          if (ratingScale > 0) {
+            ratingFraction = ratingFraction * 10 + digit;
+            ratingScale *= 10;
+          } else {
+            ratingWhole = ratingWhole * 10 + digit;
+          }
+        }
+      } else if (byte === 46 && field === 2) {
+        ratingScale = 1;
       }
     }
   }
-
-  return statsByPair;
 }
 
-function buildNeighbors(statsByPair: Map<number, PairStats>, movies: Movie[]) {
-  const neighborRows = new Map<number, Array<[catalogIndex: number, similarity: number, support: number]>>();
-
-  for (const [pairKey, stats] of statsByPair) {
-    if (stats.count < minimumSupport) {
-      continue;
-    }
-
-    const denominator = Math.sqrt(stats.leftSquares * stats.rightSquares);
-    if (denominator === 0) {
-      continue;
-    }
-
-    const correlation = stats.dotProduct / denominator;
-    const similarity = correlation * (stats.count / (stats.count + 8));
-    if (similarity < minimumSimilarity) {
-      continue;
-    }
-
-    const leftIndex = Math.floor(pairKey / movies.length);
-    const rightIndex = pairKey % movies.length;
-    addNeighbor(neighborRows, leftIndex, [rightIndex, similarity, stats.count]);
-    addNeighbor(neighborRows, rightIndex, [leftIndex, similarity, stats.count]);
-  }
-
-  return Object.fromEntries(
-    [...neighborRows.entries()].map(([catalogIndex, rows]) => [
-      movies[catalogIndex].id,
-      rows
-        .sort((left, right) => right[1] - left[1] || right[2] - left[2])
-        .slice(0, neighborsPerMovie)
-        .map<Neighbor>(([neighborIndex, similarity, support]) => [
-          movies[neighborIndex].id,
-          Math.round(similarity * 10_000) / 10_000,
-          support,
-        ]),
-    ]),
-  );
+function sampleRank(userId: number, item: number) {
+  // Deterministic hash so rebuilding the model from the same data yields the same sample.
+  let hash = Math.imul(userId ^ 0x9e3779b9, 0x85ebca6b) ^ Math.imul(item + 0x632be5ab, 0xc2b2ae35);
+  hash ^= hash >>> 15;
+  hash = Math.imul(hash, 0x2c1b3c6d);
+  return (hash ^ (hash >>> 12)) >>> 0;
 }
 
-function addNeighbor(
-  rowsByMovie: Map<number, Array<[catalogIndex: number, similarity: number, support: number]>>,
-  movieIndex: number,
-  neighbor: [catalogIndex: number, similarity: number, support: number],
-) {
-  const rows = rowsByMovie.get(movieIndex) ?? [];
-  rows.push(neighbor);
-  rowsByMovie.set(movieIndex, rows);
+function grow<T extends Int32Array | Float32Array>(array: T, minimumLength: number, allocate: (length: number) => T): T {
+  const next = allocate(Math.max(minimumLength, array.length * 2));
+  next.set(array);
+  return next;
 }
 
-function parseCsv(rawCsv: string) {
-  return rawCsv
-    .trim()
-    .split(/\r?\n/)
-    .slice(1)
-    .map((row) => row.split(","));
+function log(startedAt: number, message: string) {
+  console.log(`[${((performance.now() - startedAt) / 1000).toFixed(1)}s] ${message}`);
 }
 
 await main();

@@ -67,6 +67,21 @@ describe("collaborative recommendation artifacts", () => {
     expect(getCollaborativeMovieIds(model, states)).toEqual(["favorite-neighbor"]);
   });
 
+  test("parses compact version 2 rows indexed into movieIds", () => {
+    const model = parseCollaborativeModel({
+      version: 2,
+      movieIds: ["source", "strong-pick", "other"],
+      neighbors: [[1, 720, 18, 2, 400, 40, 9, 500, 10], [], [0, 400, 40]],
+    });
+
+    expect(model.get("source")).toEqual([
+      { movieId: "strong-pick", similarity: 0.72, support: 18 },
+      { movieId: "other", similarity: 0.4, support: 40 },
+    ]);
+    expect(model.has("strong-pick")).toBe(false);
+    expect(model.get("other")).toEqual([{ movieId: "source", similarity: 0.4, support: 40 }]);
+  });
+
   test("rejects payloads without a versioned neighbor map", () => {
     expect(() => parseCollaborativeModel({ version: 2, neighbors: {} })).toThrow(
       "Collaborative recommendation model is invalid",

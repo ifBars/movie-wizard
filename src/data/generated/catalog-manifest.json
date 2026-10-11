@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T02:41:38.236Z",
+  "generatedAt": "2026-10-11T04:31:27.005Z",
   "movieCount": 16543,
   "indexFields": [
     "id",
@@ -32,15 +32,15 @@
     "source",
     "synopsis"
   ],
-  "adultMovieCount": 808,
+  "adultMovieCount": 880,
   "languageCounts": {
     "en": {
       "total": 11131,
-      "adult": 438
+      "adult": 496
     },
     "es": {
       "total": 509,
-      "adult": 36
+      "adult": 39
     },
     "th": {
       "total": 40,
@@ -48,7 +48,7 @@
     },
     "ja": {
       "total": 752,
-      "adult": 51
+      "adult": 52
     },
     "zh": {
       "total": 284,
@@ -76,11 +76,11 @@
     },
     "fr": {
       "total": 1202,
-      "adult": 65
+      "adult": 69
     },
     "it": {
       "total": 616,
-      "adult": 45
+      "adult": 47
     },
     "tl": {
       "total": 33,
@@ -88,7 +88,7 @@
     },
     "da": {
       "total": 54,
-      "adult": 2
+      "adult": 4
     },
     "pt": {
       "total": 94,
@@ -124,7 +124,7 @@
     },
     "sv": {
       "total": 58,
-      "adult": 7
+      "adult": 9
     },
     "id": {
       "total": 23,

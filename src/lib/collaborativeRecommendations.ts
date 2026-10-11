@@ -30,12 +30,8 @@ export function loadCollaborativeModel() {
 }
 
 export function parseCollaborativeModel(payload: unknown): CollaborativeModel {
-  if (!isRecord(payload) || payload.version !== 1 || !isRecord(payload.neighbors)) {
-    throw new Error("Collaborative recommendation model is invalid");
-  }
-
   const model = new Map<string, CollaborativeNeighbor[]>();
-  for (const [movieId, rawNeighbors] of Object.entries(payload.neighbors)) {
+  for (const [movieId, rawNeighbors] of readNeighborRows(payload)) {
     if (!Array.isArray(rawNeighbors)) {
       continue;
     }
@@ -92,6 +88,40 @@ export function getCollaborativeMovieIds(
     .sort((left, right) => right[1] - left[1])
     .slice(0, limit)
     .map(([movieId]) => movieId);
+}
+
+function readNeighborRows(payload: unknown): Array<[movieId: string, rawNeighbors: unknown]> {
+  if (isRecord(payload) && payload.version === 1 && isRecord(payload.neighbors)) {
+    return Object.entries(payload.neighbors);
+  }
+
+  // Version 2 stores flat [neighborIndex, similarity × 1000, support] rows aligned with movieIds to stay compact.
+  if (
+    isRecord(payload) &&
+    payload.version === 2 &&
+    Array.isArray(payload.movieIds) &&
+    Array.isArray(payload.neighbors) &&
+    payload.movieIds.length === payload.neighbors.length
+  ) {
+    const movieIds = payload.movieIds;
+    return payload.neighbors.map((flatRow, index) => {
+      const rawNeighbors: unknown[] = [];
+      if (Array.isArray(flatRow)) {
+        for (let offset = 0; offset + 2 < flatRow.length; offset += 3) {
+          const neighborIndex = flatRow[offset];
+          const similarity = flatRow[offset + 1];
+          rawNeighbors.push([
+            typeof neighborIndex === "number" ? movieIds[neighborIndex] : undefined,
+            typeof similarity === "number" ? similarity / 1000 : similarity,
+            flatRow[offset + 2],
+          ]);
+        }
+      }
+      return [String(movieIds[index]), rawNeighbors];
+    });
+  }
+
+  throw new Error("Collaborative recommendation model is invalid");
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
