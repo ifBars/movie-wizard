@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-15T14:13:47.314Z",
+  "generatedAt": "2026-10-16T14:02:41.625Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-10-15T14:13:46.866Z",
+      "lastFetchedAt": "2026-10-16T14:02:41.019Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78149,7 +78149,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-10-15T14:13:46.974Z",
+      "lastFetchedAt": "2026-10-16T14:02:41.234Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -92472,6 +92472,12 @@
     "1153366": {
       "recordId": "head-to-head-2023",
       "lastFetchedAt": "2026-07-23T10:09:07.413Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1153576": {
+      "recordId": "street-fighter-2026",
+      "lastFetchedAt": "2026-10-16T14:02:41.315Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
