@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-20T14:22:28.992Z",
+  "generatedAt": "2026-10-21T14:32:29.405Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-10-20T14:22:28.167Z",
+      "lastFetchedAt": "2026-10-21T14:32:29.043Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78149,7 +78149,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-10-20T14:22:28.355Z",
+      "lastFetchedAt": "2026-10-21T14:32:29.085Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -93321,6 +93321,12 @@
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
+    "1198654": {
+      "recordId": "bad-apples-2026",
+      "lastFetchedAt": "2026-10-21T14:32:29.118Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
     "1198870": {
       "recordId": "return-1198870",
       "lastFetchedAt": "2026-07-24T10:08:18.784Z",
@@ -97836,6 +97842,12 @@
     "1439930": {
       "recordId": "the-punisher-one-last-kill-2026",
       "lastFetchedAt": "2026-06-11T00:32:15.456Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1440050": {
+      "recordId": "the-breadwinner-2026",
+      "lastFetchedAt": "2026-10-21T14:32:29.105Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
