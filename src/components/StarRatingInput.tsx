@@ -1,8 +1,8 @@
 import { Star } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { useRef, useState } from "react";
-import type { KeyboardEvent, PointerEvent } from "react";
-import { formatRating, halfStarRatings, ratingFromPointerPosition, starRatings, stepRating } from "@/lib/ratings";
+import type { KeyboardEvent } from "react";
+import { formatRating, halfStarRatings, starRatings, stepRating } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
 import type { Rating } from "@/types";
 
@@ -29,12 +29,6 @@ export function StarRatingInput({ movieTitle, value, onRate, className, showValu
     onPreviewChange?.(rating);
   }
 
-  function handlePointerMove(event: PointerEvent<HTMLDivElement>) {
-    if (event.pointerType === "touch") return;
-    const rect = event.currentTarget.getBoundingClientRect();
-    setPreviewRating(ratingFromPointerPosition(event.clientX - rect.left, rect.width));
-  }
-
   function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>, rating: Rating) {
     const nextRating =
       event.key === "ArrowRight" || event.key === "ArrowUp"
@@ -57,7 +51,6 @@ export function StarRatingInput({ movieTitle, value, onRate, className, showValu
       className={cn("star-rating", previewRating !== null && "is-previewing", className)}
       role="group"
       aria-label={`Rate ${movieTitle}`}
-      onPointerMove={handlePointerMove}
       onPointerLeave={() => setPreviewRating(null)}
     >
       <div className="star-rating__stars">
@@ -92,6 +85,9 @@ export function StarRatingInput({ movieTitle, value, onRate, className, showValu
                     tabIndex={rating === tabbableRating ? 0 : -1}
                     aria-label={`Rate ${rating} ${rating === 1 ? "star" : "stars"}`}
                     aria-pressed={value === rating}
+                    onPointerMove={(event) => {
+                      if (event.pointerType !== "touch") setPreviewRating(rating);
+                    }}
                     onClick={() => onRate(rating)}
                     onFocus={() => setPreviewRating(rating)}
                     onBlur={() => setPreviewRating(null)}
