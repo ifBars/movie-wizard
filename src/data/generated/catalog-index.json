@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T12:49:42.924Z",
+  "generatedAt": "2026-10-25T13:46:05.429Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -6255,6 +6255,53 @@
       }
     },
     {
+      "id": "klara-and-the-sun-2026",
+      "tmdbId": 858035,
+      "imdbId": "tt14371256",
+      "title": "Klara and the Sun",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-10-21",
+      "runtimeMinutes": 116,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "tags": [
+        "friendship",
+        "based on novel or book",
+        "dystopia",
+        "sun",
+        "family relationships",
+        "family",
+        "mother daughter relationship",
+        "emotional"
+      ],
+      "directors": [
+        "Taika Waititi"
+      ],
+      "cast": [
+        "Jenna Ortega",
+        "Mia Tharia",
+        "Amy Adams",
+        "Natasha Lyonne",
+        "Aran Murphy",
+        "Rachel House"
+      ],
+      "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+      "backdropPath": "/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 78,
+      "criticalScore": 54,
+      "plexFit": "A useful science fiction title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/wixzainceAE",
+      "synopsisPreview": "When Klara, an Artificial Friend who wants nothing more than to find the perfect home, meets Josie, each immediately senses a kindred spirit in the other. Josie has a fraught relationship with her mother and they've suff...",
+      "source": {
+        "tmdbVoteAverage": 5.423,
+        "tmdbVoteCount": 13
+      }
+    },
+    {
       "id": "the-dog-stars-2026",
       "tmdbId": 1384216,
       "imdbId": "tt21285562",
@@ -12362,44 +12409,6 @@
       }
     },
     {
-      "id": "the-treehouse-2025",
-      "tmdbId": 1450404,
-      "imdbId": "tt35108122",
-      "title": "The Treehouse",
-      "originalTitle": "La casa en el árbol",
-      "originalLanguage": "es",
-      "year": 2025,
-      "releaseDate": "2025-09-19",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Horror"
-      ],
-      "tags": [],
-      "directors": [
-        "Luis Calderón"
-      ],
-      "cast": [
-        "Sandra Escacena",
-        "Claudio Portalo",
-        "Kandido Uranga",
-        "Mala Rodríguez",
-        "Apolonia Lapiedra",
-        "Asier Hernández"
-      ],
-      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 31,
-      "criticalScore": 37,
-      "plexFit": "A useful horror title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-      "source": {
-        "tmdbVoteAverage": 3.718,
-        "tmdbVoteCount": 39
-      }
-    },
-    {
       "id": "the-shining-1980",
       "tmdbId": 694,
       "imdbId": "tt0081505",
@@ -13137,6 +13146,44 @@
       "source": {
         "tmdbVoteAverage": 5.911,
         "tmdbVoteCount": 28
+      }
+    },
+    {
+      "id": "the-treehouse-2025",
+      "tmdbId": 1450404,
+      "imdbId": "tt35108122",
+      "title": "The Treehouse",
+      "originalTitle": "La casa en el árbol",
+      "originalLanguage": "es",
+      "year": 2025,
+      "releaseDate": "2025-09-19",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Luis Calderón"
+      ],
+      "cast": [
+        "Sandra Escacena",
+        "Claudio Portalo",
+        "Kandido Uranga",
+        "Mala Rodríguez",
+        "Apolonia Lapiedra",
+        "Asier Hernández"
+      ],
+      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 31,
+      "criticalScore": 37,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+      "source": {
+        "tmdbVoteAverage": 3.718,
+        "tmdbVoteCount": 39
       }
     },
     {
@@ -40199,6 +40246,51 @@
       }
     },
     {
+      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
+      "tmdbId": 1599191,
+      "imdbId": "tt47867242",
+      "title": "Renegade Immortal: Battle of the Immortal Slayer",
+      "originalTitle": "仙逆剧场版：弑仙之战",
+      "originalLanguage": "zh",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "based on fairy tale",
+        "xianxia",
+        "based on tv series",
+        "oriental fantasy"
+      ],
+      "directors": [
+        "TouXiong Shi"
+      ],
+      "cast": [
+        "Shi Zekun",
+        "Li Jiaxiang",
+        "Liu Sicen",
+        "Shuai Guan",
+        "Si Xi",
+        "Yang Houyao"
+      ],
+      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 12,
+      "criticalScore": 76,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
+      "source": {
+        "tmdbVoteAverage": 7.6,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "the-hobbit-the-desolation-of-smaug-2013",
       "tmdbId": 57158,
       "imdbId": "tt1170358",
@@ -45614,51 +45706,6 @@
       "source": {
         "tmdbVoteAverage": 7.62,
         "tmdbVoteCount": 17821
-      }
-    },
-    {
-      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
-      "tmdbId": 1599191,
-      "imdbId": "tt47867242",
-      "title": "Renegade Immortal: Battle of the Immortal Slayer",
-      "originalTitle": "仙逆剧场版：弑仙之战",
-      "originalLanguage": "zh",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "tags": [
-        "based on fairy tale",
-        "xianxia",
-        "based on tv series",
-        "oriental fantasy"
-      ],
-      "directors": [
-        "TouXiong Shi"
-      ],
-      "cast": [
-        "Shi Zekun",
-        "Li Jiaxiang",
-        "Liu Sicen",
-        "Shuai Guan",
-        "Si Xi",
-        "Yang Houyao"
-      ],
-      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 12,
-      "criticalScore": 76,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
-      "source": {
-        "tmdbVoteAverage": 7.6,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -61440,6 +61487,43 @@
       }
     },
     {
+      "id": "7-days-2005",
+      "tmdbId": 34320,
+      "imdbId": "tt0414513",
+      "title": "7 Days",
+      "originalTitle": "7 días",
+      "originalLanguage": "es",
+      "year": 2005,
+      "releaseDate": "2005-09-30",
+      "runtimeMinutes": 95,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Fernando Kalife"
+      ],
+      "cast": [
+        "Jaime Camil",
+        "Martha Higareda",
+        "Eduardo Arroyuelo",
+        "Julio Bracho",
+        "Lumi Cavazos",
+        "José Sefami"
+      ],
+      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 9,
+      "criticalScore": 76,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
+      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
+      "source": {
+        "tmdbVoteAverage": 7.6,
+        "tmdbVoteCount": 53
+      }
+    },
+    {
       "id": "atonement-2007",
       "tmdbId": 4347,
       "imdbId": "tt0783233",
@@ -70627,6 +70711,43 @@
       }
     },
     {
+      "id": "squid-game-making-season-2-2025",
+      "tmdbId": 1412113,
+      "imdbId": "tt37546146",
+      "title": "Squid Game: Making Season 2",
+      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
+      "originalLanguage": "ko",
+      "year": 2025,
+      "releaseDate": "2025-01-02",
+      "runtimeMinutes": 28,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "making of"
+      ],
+      "directors": [],
+      "cast": [
+        "Hwang Dong-hyuk",
+        "Lee Jung-jae",
+        "Lee Byung-hun",
+        "Chae Kyoung-sun",
+        "Kim Ji-yong",
+        "Gong Yoo"
+      ],
+      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 8,
+      "criticalScore": 83,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
+      "source": {
+        "tmdbVoteAverage": 8.33,
+        "tmdbVoteCount": 462
+      }
+    },
+    {
       "id": "violet-evergarden-the-movie-2020",
       "tmdbId": 533514,
       "imdbId": "tt8652818",
@@ -73045,6 +73166,39 @@
       "source": {
         "tmdbVoteAverage": 7.512,
         "tmdbVoteCount": 2497
+      }
+    },
+    {
+      "id": "picardia-mexicana-1978",
+      "tmdbId": 372439,
+      "imdbId": "tt0229650",
+      "title": "Picardía mexicana",
+      "originalLanguage": "es",
+      "year": 1978,
+      "releaseDate": "1978-12-21",
+      "runtimeMinutes": 115,
+      "genres": [],
+      "tags": [],
+      "directors": [
+        "Abel Salazar"
+      ],
+      "cast": [
+        "Vicente Fernández",
+        "Héctor Suárez",
+        "Adalberto Martínez",
+        "Jacqueline Andere",
+        "Pedro Weber 'Chatanuga'",
+        "Luis de Alba"
+      ],
+      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 8,
+      "criticalScore": 75,
+      "plexFit": "A useful catalog title for broadening the local catalog.",
+      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
+      "source": {
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 80
       }
     },
     {
@@ -83570,43 +83724,6 @@
       "source": {
         "tmdbVoteAverage": 8.279,
         "tmdbVoteCount": 4086
-      }
-    },
-    {
-      "id": "squid-game-making-season-2-2025",
-      "tmdbId": 1412113,
-      "imdbId": "tt37546146",
-      "title": "Squid Game: Making Season 2",
-      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
-      "originalLanguage": "ko",
-      "year": 2025,
-      "releaseDate": "2025-01-02",
-      "runtimeMinutes": 28,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "making of"
-      ],
-      "directors": [],
-      "cast": [
-        "Hwang Dong-hyuk",
-        "Lee Jung-jae",
-        "Lee Byung-hun",
-        "Chae Kyoung-sun",
-        "Kim Ji-yong",
-        "Gong Yoo"
-      ],
-      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
-      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 8,
-      "criticalScore": 83,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
-      "source": {
-        "tmdbVoteAverage": 8.33,
-        "tmdbVoteCount": 462
       }
     },
     {
@@ -98734,43 +98851,6 @@
       }
     },
     {
-      "id": "new-golden-lotus-i-1996",
-      "tmdbId": 492101,
-      "imdbId": "tt3045918",
-      "title": "New Golden Lotus  I",
-      "originalTitle": "新金瓶梅 第一集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-08",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Choi Mei-yau",
-        "Eddie Koo Koon Chung",
-        "Tseng Ya-chun"
-      ],
-      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
-      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 62,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
-      }
-    },
-    {
       "id": "ramaiya-vastavaiya-2013",
       "tmdbId": 208036,
       "imdbId": "tt2357926",
@@ -106194,43 +106274,6 @@
       "source": {
         "tmdbVoteAverage": 7.692,
         "tmdbVoteCount": 13
-      }
-    },
-    {
-      "id": "7-days-2005",
-      "tmdbId": 34320,
-      "imdbId": "tt0414513",
-      "title": "7 Days",
-      "originalTitle": "7 días",
-      "originalLanguage": "es",
-      "year": 2005,
-      "releaseDate": "2005-09-30",
-      "runtimeMinutes": 95,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Fernando Kalife"
-      ],
-      "cast": [
-        "Jaime Camil",
-        "Martha Higareda",
-        "Eduardo Arroyuelo",
-        "Julio Bracho",
-        "Lumi Cavazos",
-        "José Sefami"
-      ],
-      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 9,
-      "criticalScore": 76,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
-      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
-      "source": {
-        "tmdbVoteAverage": 7.6,
-        "tmdbVoteCount": 53
       }
     },
     {
@@ -121134,36 +121177,6 @@
       }
     },
     {
-      "id": "bread-and-roses-2024",
-      "tmdbId": 1117465,
-      "imdbId": "tt27599265",
-      "title": "Bread & Roses",
-      "originalLanguage": "en",
-      "year": 2024,
-      "releaseDate": "2024-11-22",
-      "runtimeMinutes": 90,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Sahra Mani"
-      ],
-      "cast": [],
-      "posterPath": "/hd5avfP3vzlJy1cafFr4YP72IJ8.jpg",
-      "backdropPath": "/A9lOaeiuZDPtmgoOkFvUtcOOS2L.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 5,
-      "criticalScore": 64,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/qEiywFC3tqk",
-      "synopsisPreview": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives.",
-      "source": {
-        "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "cobweb-2023",
       "tmdbId": 709631,
       "imdbId": "tt9100018",
@@ -124927,6 +124940,43 @@
       "source": {
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 33
+      }
+    },
+    {
+      "id": "new-golden-lotus-i-1996",
+      "tmdbId": 492101,
+      "imdbId": "tt3045918",
+      "title": "New Golden Lotus  I",
+      "originalTitle": "新金瓶梅 第一集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-08",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Choi Mei-yau",
+        "Eddie Koo Koon Chung",
+        "Tseng Ya-chun"
+      ],
+      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
+      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 62,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
       }
     },
     {
@@ -130161,6 +130211,47 @@
       }
     },
     {
+      "id": "in-security-2014",
+      "tmdbId": 262866,
+      "imdbId": "tt2081274",
+      "title": "In Security",
+      "originalLanguage": "en",
+      "year": 2014,
+      "releaseDate": "2014-04-28",
+      "runtimeMinutes": 93,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "tags": [
+        "robbery",
+        "heist"
+      ],
+      "directors": [
+        "Adam Beamer",
+        "Evan Beamer"
+      ],
+      "cast": [
+        "Ethan Embry",
+        "Michael Gladis",
+        "Clea DuVall",
+        "Cary Elwes",
+        "Adam Arkin",
+        "Vinnie Jones"
+      ],
+      "posterPath": "/kn8xtTjqTR8CgvLjDAgp5z8Eifj.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 50,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/MwT5Nqca9Uw",
+      "synopsisPreview": "The owners of a failing security company start robbing houses to boost business.",
+      "source": {
+        "tmdbVoteAverage": 5,
+        "tmdbVoteCount": 18
+      }
+    },
+    {
       "id": "joe-rogan-burn-the-boats-2024",
       "tmdbId": 1315161,
       "imdbId": "tt32875161",
@@ -131529,41 +131620,6 @@
       }
     },
     {
-      "id": "human-2015",
-      "tmdbId": 359364,
-      "imdbId": "tt3327994",
-      "title": "Human",
-      "originalLanguage": "fr",
-      "year": 2015,
-      "releaseDate": "2015-09-12",
-      "runtimeMinutes": 191,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "thought-provoking",
-        "society",
-        "culture",
-        "humanity"
-      ],
-      "directors": [
-        "Yann Arthus-Bertrand"
-      ],
-      "cast": [],
-      "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
-      "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 84,
-      "plexFit": "A useful documentary title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
-      "synopsisPreview": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face t...",
-      "source": {
-        "tmdbVoteAverage": 8.432,
-        "tmdbVoteCount": 316
-      }
-    },
-    {
       "id": "impossible-things-2021",
       "tmdbId": 667257,
       "imdbId": "tt10032342",
@@ -132372,6 +132428,39 @@
       "source": {
         "tmdbVoteAverage": 8.061,
         "tmdbVoteCount": 2719
+      }
+    },
+    {
+      "id": "far-from-the-tree-2021",
+      "tmdbId": 831827,
+      "imdbId": "tt14927356",
+      "title": "Far from the Tree",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-11-24",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Natalie Nourigat"
+      ],
+      "cast": [],
+      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
+      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 5,
+      "criticalScore": 81,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
+      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
+      "source": {
+        "tmdbVoteAverage": 8.073,
+        "tmdbVoteCount": 395
       }
     },
     {
@@ -138290,39 +138379,6 @@
       "source": {
         "tmdbVoteAverage": 7.467,
         "tmdbVoteCount": 1874
-      }
-    },
-    {
-      "id": "picardia-mexicana-1978",
-      "tmdbId": 372439,
-      "imdbId": "tt0229650",
-      "title": "Picardía mexicana",
-      "originalLanguage": "es",
-      "year": 1978,
-      "releaseDate": "1978-12-21",
-      "runtimeMinutes": 115,
-      "genres": [],
-      "tags": [],
-      "directors": [
-        "Abel Salazar"
-      ],
-      "cast": [
-        "Vicente Fernández",
-        "Héctor Suárez",
-        "Adalberto Martínez",
-        "Jacqueline Andere",
-        "Pedro Weber 'Chatanuga'",
-        "Luis de Alba"
-      ],
-      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 8,
-      "criticalScore": 75,
-      "plexFit": "A useful catalog title for broadening the local catalog.",
-      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
-      "source": {
-        "tmdbVoteAverage": 7.5,
-        "tmdbVoteCount": 80
       }
     },
     {
@@ -159250,46 +159306,6 @@
       }
     },
     {
-      "id": "the-holy-grill-2026",
-      "tmdbId": 1427838,
-      "imdbId": "tt36586751",
-      "title": "The Holy Grill",
-      "originalTitle": "Extrawurst",
-      "originalLanguage": "de",
-      "year": 2026,
-      "releaseDate": "2026-01-15",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "based on play or musical"
-      ],
-      "directors": [
-        "Marcus H. Rosenmüller"
-      ],
-      "cast": [
-        "Hape Kerkeling",
-        "Christoph Maria Herbst",
-        "Fahri Yardım",
-        "Anja Knauer",
-        "Friedrich Mücke",
-        "Gaby Dohm"
-      ],
-      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
-      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 5,
-      "criticalScore": 64,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
-      "source": {
-        "tmdbVoteAverage": 6.433,
-        "tmdbVoteCount": 75
-      }
-    },
-    {
       "id": "the-lego-ninjago-movie-2017",
       "tmdbId": 274862,
       "imdbId": "tt3014284",
@@ -160125,6 +160141,36 @@
       "source": {
         "tmdbVoteAverage": 6.433,
         "tmdbVoteCount": 1506
+      }
+    },
+    {
+      "id": "bread-and-roses-2024",
+      "tmdbId": 1117465,
+      "imdbId": "tt27599265",
+      "title": "Bread & Roses",
+      "originalLanguage": "en",
+      "year": 2024,
+      "releaseDate": "2024-11-22",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Sahra Mani"
+      ],
+      "cast": [],
+      "posterPath": "/hd5avfP3vzlJy1cafFr4YP72IJ8.jpg",
+      "backdropPath": "/A9lOaeiuZDPtmgoOkFvUtcOOS2L.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 64,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/qEiywFC3tqk",
+      "synopsisPreview": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives.",
+      "source": {
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -161380,6 +161426,46 @@
       "source": {
         "tmdbVoteAverage": 6.44,
         "tmdbVoteCount": 6031
+      }
+    },
+    {
+      "id": "the-holy-grill-2026",
+      "tmdbId": 1427838,
+      "imdbId": "tt36586751",
+      "title": "The Holy Grill",
+      "originalTitle": "Extrawurst",
+      "originalLanguage": "de",
+      "year": 2026,
+      "releaseDate": "2026-01-15",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on play or musical"
+      ],
+      "directors": [
+        "Marcus H. Rosenmüller"
+      ],
+      "cast": [
+        "Hape Kerkeling",
+        "Christoph Maria Herbst",
+        "Fahri Yardım",
+        "Anja Knauer",
+        "Friedrich Mücke",
+        "Gaby Dohm"
+      ],
+      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
+      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 64,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
+      "source": {
+        "tmdbVoteAverage": 6.433,
+        "tmdbVoteCount": 75
       }
     },
     {
@@ -164823,46 +164909,6 @@
       "source": {
         "tmdbVoteAverage": 6.239,
         "tmdbVoteCount": 2119
-      }
-    },
-    {
-      "id": "gatao-big-brothers-2025",
-      "tmdbId": 1468057,
-      "imdbId": "tt37998920",
-      "title": "GATAO: Big Brothers",
-      "originalTitle": "角頭－鬥陣欸",
-      "originalLanguage": "zh",
-      "year": 2025,
-      "releaseDate": "2025-08-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Crime",
-        "Action"
-      ],
-      "tags": [],
-      "directors": [
-        "Chiang Jui-chih",
-        "Yao Hung-i"
-      ],
-      "cast": [
-        "Jack Kao",
-        "Tsai Chen-nan",
-        "Tai Bo",
-        "King Jieh-wen",
-        "Lung Tien-hsiang",
-        "Tsui Hao-jan"
-      ],
-      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
-      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
-      "posterTone": "from-cyan-300 via-blue-800 to-black",
-      "popularity": 4,
-      "criticalScore": 62,
-      "plexFit": "A useful crime title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
-      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 13
       }
     },
     {
@@ -177250,47 +177296,6 @@
       }
     },
     {
-      "id": "in-security-2014",
-      "tmdbId": 262866,
-      "imdbId": "tt2081274",
-      "title": "In Security",
-      "originalLanguage": "en",
-      "year": 2014,
-      "releaseDate": "2014-04-28",
-      "runtimeMinutes": 93,
-      "genres": [
-        "Comedy",
-        "Action"
-      ],
-      "tags": [
-        "robbery",
-        "heist"
-      ],
-      "directors": [
-        "Adam Beamer",
-        "Evan Beamer"
-      ],
-      "cast": [
-        "Ethan Embry",
-        "Michael Gladis",
-        "Clea DuVall",
-        "Cary Elwes",
-        "Adam Arkin",
-        "Vinnie Jones"
-      ],
-      "posterPath": "/kn8xtTjqTR8CgvLjDAgp5z8Eifj.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 50,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/MwT5Nqca9Uw",
-      "synopsisPreview": "The owners of a failing security company start robbing houses to boost business.",
-      "source": {
-        "tmdbVoteAverage": 5,
-        "tmdbVoteCount": 18
-      }
-    },
-    {
       "id": "marave-2026",
       "tmdbId": 1566481,
       "imdbId": "tt42483037",
@@ -179210,6 +179215,41 @@
       }
     },
     {
+      "id": "human-2015",
+      "tmdbId": 359364,
+      "imdbId": "tt3327994",
+      "title": "Human",
+      "originalLanguage": "fr",
+      "year": 2015,
+      "releaseDate": "2015-09-12",
+      "runtimeMinutes": 191,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "thought-provoking",
+        "society",
+        "culture",
+        "humanity"
+      ],
+      "directors": [
+        "Yann Arthus-Bertrand"
+      ],
+      "cast": [],
+      "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
+      "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 84,
+      "plexFit": "A useful documentary title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
+      "synopsisPreview": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face t...",
+      "source": {
+        "tmdbVoteAverage": 8.432,
+        "tmdbVoteCount": 316
+      }
+    },
+    {
       "id": "wild-london-2026",
       "tmdbId": 1604628,
       "imdbId": "tt39298503",
@@ -180171,39 +180211,6 @@
       "source": {
         "tmdbVoteAverage": 8.1,
         "tmdbVoteCount": 50
-      }
-    },
-    {
-      "id": "far-from-the-tree-2021",
-      "tmdbId": 831827,
-      "imdbId": "tt14927356",
-      "title": "Far from the Tree",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-11-24",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Natalie Nourigat"
-      ],
-      "cast": [],
-      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
-      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 5,
-      "criticalScore": 81,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
-      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
-      "source": {
-        "tmdbVoteAverage": 8.073,
-        "tmdbVoteCount": 395
       }
     },
     {
@@ -207420,6 +207427,42 @@
       }
     },
     {
+      "id": "canta-y-no-llores-2024",
+      "tmdbId": 1243895,
+      "imdbId": "tt27503161",
+      "title": "Canta y no llores",
+      "originalLanguage": "es",
+      "year": 2024,
+      "releaseDate": "2024-03-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Félix Sabroso"
+      ],
+      "cast": [
+        "Michelle Rodríguez",
+        "Consuelo Duval",
+        "Patricia Maqueo",
+        "Paco Rueda",
+        "Lumy Lizardo",
+        "Auro Sónico"
+      ],
+      "posterPath": "/8WambNXFVcMyTeCWajNEYfT80Xp.jpg",
+      "backdropPath": "/tDhIMMqkR1YTKE9bFlvOnAU5ZVd.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 69,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "A matriarchal family runs a taco food truck, navigating between artistic aspirations and daily frustrations while raising a member's daughter.",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 57
+      }
+    },
+    {
       "id": "career-opportunities-1991",
       "tmdbId": 16270,
       "imdbId": "tt0101545",
@@ -209830,6 +209873,41 @@
       "source": {
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 1086
+      }
+    },
+    {
+      "id": "reunion-goals-the-beginning-2017",
+      "tmdbId": 473924,
+      "title": "Reunion Goals: The Beginning",
+      "originalTitle": "동창회의 목적: 더 비기닝",
+      "originalLanguage": "ko",
+      "year": 2017,
+      "releaseDate": "2017-02-02",
+      "runtimeMinutes": 98,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "tags": [
+        "softcore"
+      ],
+      "directors": [],
+      "cast": [
+        "Yoo Ji-won",
+        "Han Yeong-hoon",
+        "Han Seol-hwa",
+        "Han Gyeol"
+      ],
+      "posterPath": "/pStoby0ssYiKRizkPJUaA8FGz3U.jpg",
+      "backdropPath": "/ji6mDx6xUAEsl65AZRrW6pWKxs4.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "synopsisPreview": "Are we dating? Even if I slept with her?  Is it alright for friends to sleep with each other?  Pretending not to know, pretending to know all the flirting going around.  The flirting goes on any time and at any place!  T...",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -238590,6 +238668,46 @@
       }
     },
     {
+      "id": "gatao-big-brothers-2025",
+      "tmdbId": 1468057,
+      "imdbId": "tt37998920",
+      "title": "GATAO: Big Brothers",
+      "originalTitle": "角頭－鬥陣欸",
+      "originalLanguage": "zh",
+      "year": 2025,
+      "releaseDate": "2025-08-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Crime",
+        "Action"
+      ],
+      "tags": [],
+      "directors": [
+        "Chiang Jui-chih",
+        "Yao Hung-i"
+      ],
+      "cast": [
+        "Jack Kao",
+        "Tsai Chen-nan",
+        "Tai Bo",
+        "King Jieh-wen",
+        "Lung Tien-hsiang",
+        "Tsui Hao-jan"
+      ],
+      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
+      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
+      "posterTone": "from-cyan-300 via-blue-800 to-black",
+      "popularity": 4,
+      "criticalScore": 62,
+      "plexFit": "A useful crime title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
+      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 13
+      }
+    },
+    {
       "id": "halloween-2007",
       "tmdbId": 2082,
       "imdbId": "tt0373883",
@@ -256122,6 +256240,40 @@
       "source": {
         "tmdbVoteAverage": 5.553,
         "tmdbVoteCount": 19
+      }
+    },
+    {
+      "id": "thoughts-and-prayers-2025",
+      "tmdbId": 1559760,
+      "imdbId": "tt38633124",
+      "title": "Thoughts & Prayers",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-11-12",
+      "runtimeMinutes": 88,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "school shooting",
+        "active shooter"
+      ],
+      "directors": [
+        "Zackary Canepari",
+        "Jessica Dimmock"
+      ],
+      "cast": [],
+      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
+      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 56,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
+      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
+      "source": {
+        "tmdbVoteAverage": 5.6,
+        "tmdbVoteCount": 14
       }
     },
     {
@@ -275103,6 +275255,44 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 513
+      }
+    },
+    {
+      "id": "the-storyteller-2024",
+      "tmdbId": 1108906,
+      "imdbId": "tt27304417",
+      "title": "The Storyteller",
+      "originalTitle": "L'enchanteur",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-02-12",
+      "runtimeMinutes": 92,
+      "genres": [
+        "Drama",
+        "TV Movie"
+      ],
+      "tags": [],
+      "directors": [
+        "Philippe Lefebvre"
+      ],
+      "cast": [
+        "Charles Berling",
+        "Miranda Raison",
+        "Claire de la Rüe du Can",
+        "Pierre Perrier",
+        "Anne Charrier",
+        "Gaspard Meier-Chaurand"
+      ],
+      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
+      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -311841,42 +312031,6 @@
       }
     },
     {
-      "id": "canta-y-no-llores-2024",
-      "tmdbId": 1243895,
-      "imdbId": "tt27503161",
-      "title": "Canta y no llores",
-      "originalLanguage": "es",
-      "year": 2024,
-      "releaseDate": "2024-03-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Félix Sabroso"
-      ],
-      "cast": [
-        "Michelle Rodríguez",
-        "Consuelo Duval",
-        "Patricia Maqueo",
-        "Paco Rueda",
-        "Lumy Lizardo",
-        "Auro Sónico"
-      ],
-      "posterPath": "/8WambNXFVcMyTeCWajNEYfT80Xp.jpg",
-      "backdropPath": "/tDhIMMqkR1YTKE9bFlvOnAU5ZVd.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 69,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "A matriarchal family runs a taco food truck, navigating between artistic aspirations and daily frustrations while raising a member's daughter.",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 57
-      }
-    },
-    {
       "id": "chor-nikal-ke-bhaga-2023",
       "tmdbId": 1018228,
       "imdbId": "tt22297828",
@@ -314862,41 +315016,6 @@
       "source": {
         "tmdbVoteAverage": 6.929,
         "tmdbVoteCount": 473
-      }
-    },
-    {
-      "id": "reunion-goals-the-beginning-2017",
-      "tmdbId": 473924,
-      "title": "Reunion Goals: The Beginning",
-      "originalTitle": "동창회의 목적: 더 비기닝",
-      "originalLanguage": "ko",
-      "year": 2017,
-      "releaseDate": "2017-02-02",
-      "runtimeMinutes": 98,
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "tags": [
-        "softcore"
-      ],
-      "directors": [],
-      "cast": [
-        "Yoo Ji-won",
-        "Han Yeong-hoon",
-        "Han Seol-hwa",
-        "Han Gyeol"
-      ],
-      "posterPath": "/pStoby0ssYiKRizkPJUaA8FGz3U.jpg",
-      "backdropPath": "/ji6mDx6xUAEsl65AZRrW6pWKxs4.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 69,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "synopsisPreview": "Are we dating? Even if I slept with her?  Is it alright for friends to sleep with each other?  Pretending not to know, pretending to know all the flirting going around.  The flirting goes on any time and at any place!  T...",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -402600,40 +402719,6 @@
       }
     },
     {
-      "id": "thoughts-and-prayers-2025",
-      "tmdbId": 1559760,
-      "imdbId": "tt38633124",
-      "title": "Thoughts & Prayers",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-11-12",
-      "runtimeMinutes": 88,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "school shooting",
-        "active shooter"
-      ],
-      "directors": [
-        "Zackary Canepari",
-        "Jessica Dimmock"
-      ],
-      "cast": [],
-      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
-      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 56,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
-      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
-      "source": {
-        "tmdbVoteAverage": 5.6,
-        "tmdbVoteCount": 14
-      }
-    },
-    {
       "id": "torrente-5-operation-eurovegas-2014",
       "tmdbId": 254869,
       "imdbId": "tt3321428",
@@ -420114,52 +420199,6 @@
       }
     },
     {
-      "id": "the-mystery-of-padre-pio-2018",
-      "tmdbId": 563857,
-      "imdbId": "tt10467354",
-      "title": "The Mystery of Padre Pio",
-      "originalTitle": "El Misterio del Padre Pío",
-      "originalLanguage": "es",
-      "year": 2018,
-      "releaseDate": "2018-11-23",
-      "runtimeMinutes": 80,
-      "genres": [
-        "Documentary",
-        "Thriller"
-      ],
-      "tags": [
-        "vatican (holy see)",
-        "biography",
-        "conspiracy",
-        "roman catholic church",
-        "stigmata",
-        "documentary",
-        "saint",
-        "life of saint",
-        "religious persecution",
-        "biographical documentary"
-      ],
-      "directors": [
-        "José María Zavala"
-      ],
-      "cast": [
-        "John XXIII.",
-        "Paul VI",
-        "Pope John Paul II",
-        "Pope Pius XII"
-      ],
-      "posterPath": "/aAKEA0StyfKVMB0eO35rW8SjvPA.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 82,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "The documentary offers testimonies and documents never disclosed about the plot against its protagonist, who had the stigmata of Jesus Christ in his hands, feet and side for 50 consecutive years.",
-      "source": {
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 54
-      }
-    },
-    {
       "id": "a-special-day-1977",
       "tmdbId": 42229,
       "imdbId": "tt0076085",
@@ -428124,6 +428163,36 @@
       }
     },
     {
+      "id": "in-broad-daylight-the-narvarte-case-2022",
+      "tmdbId": 1051399,
+      "imdbId": "tt23709118",
+      "title": "In Broad Daylight: The Narvarte Case",
+      "originalTitle": "A plena luz: El caso Narvarte",
+      "originalLanguage": "es",
+      "year": 2022,
+      "releaseDate": "2022-12-08",
+      "runtimeMinutes": 108,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Alberto Arnaut Estrada"
+      ],
+      "cast": [],
+      "posterPath": "/jv4X2rtIns8XNBynUUybA0UzdQp.jpg",
+      "backdropPath": "/nikR3JHl0Y2AAnejw24qFrWJTa9.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 77,
+      "plexFit": "A useful documentary title for broadening the local catalog.",
+      "synopsisPreview": "This documentary unveils evidence of corruption in the investigation into the murder of five people in the Narvarte neighborhood of Mexico City in 2015.",
+      "source": {
+        "tmdbVoteAverage": 7.708,
+        "tmdbVoteCount": 12
+      }
+    },
+    {
       "id": "in-the-heat-of-the-night-1967",
       "tmdbId": 10633,
       "imdbId": "tt0061811",
@@ -430040,44 +430109,6 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 29
-      }
-    },
-    {
-      "id": "the-storyteller-2024",
-      "tmdbId": 1108906,
-      "imdbId": "tt27304417",
-      "title": "The Storyteller",
-      "originalTitle": "L'enchanteur",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-02-12",
-      "runtimeMinutes": 92,
-      "genres": [
-        "Drama",
-        "TV Movie"
-      ],
-      "tags": [],
-      "directors": [
-        "Philippe Lefebvre"
-      ],
-      "cast": [
-        "Charles Berling",
-        "Miranda Raison",
-        "Claire de la Rüe du Can",
-        "Pierre Perrier",
-        "Anne Charrier",
-        "Gaspard Meier-Chaurand"
-      ],
-      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
-      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
       }
     },
     {
@@ -455490,6 +455521,41 @@
       }
     },
     {
+      "id": "end-game-2018",
+      "tmdbId": 510258,
+      "imdbId": "tt7879350",
+      "title": "End Game",
+      "originalLanguage": "en",
+      "year": 2018,
+      "releaseDate": "2018-01-21",
+      "runtimeMinutes": 40,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "intensive care",
+        "medicine",
+        "short film"
+      ],
+      "directors": [
+        "Jeffrey Friedman",
+        "Rob Epstein"
+      ],
+      "cast": [],
+      "posterPath": "/f6NoGTsmu0t7sTGqvfZ8oraRPwp.jpg",
+      "backdropPath": "/u9Jnb3mlUhodawpnFbr0Kr1G5xo.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 72,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/FgJD6ksdkWY",
+      "synopsisPreview": "Filmed and edited in intimate vérité style, this movie follows visionary medical practitioners who are working on the cutting edge of life and death and are dedicated to changing our thinking about both.",
+      "source": {
+        "tmdbVoteAverage": 7.2,
+        "tmdbVoteCount": 80
+      }
+    },
+    {
       "id": "everything-everything-2017",
       "tmdbId": 417678,
       "imdbId": "tt5001718",
@@ -460670,6 +460736,36 @@
       "source": {
         "tmdbVoteAverage": 7.197,
         "tmdbVoteCount": 949
+      }
+    },
+    {
+      "id": "12-days-2017",
+      "tmdbId": 452221,
+      "imdbId": "tt6777114",
+      "title": "12 Days",
+      "originalTitle": "12 jours",
+      "originalLanguage": "fr",
+      "year": 2017,
+      "releaseDate": "2017-11-29",
+      "runtimeMinutes": 87,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Raymond Depardon"
+      ],
+      "cast": [],
+      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
+      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 71,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
       }
     },
     {
@@ -468989,36 +469085,6 @@
       }
     },
     {
-      "id": "untold-the-rise-and-fall-of-and1-2022",
-      "tmdbId": 1002305,
-      "imdbId": "tt21388560",
-      "title": "Untold: The Rise and Fall of AND1",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-08-23",
-      "runtimeMinutes": 69,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Kevin Wilson, Jr."
-      ],
-      "cast": [],
-      "posterPath": "/o75Sxg2s9zM817Whjc9b3vpk5sW.jpg",
-      "backdropPath": "/xk3hEhpwFWr6UaxS0BORDGgyj3t.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 71,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/W3M2_pV-SGY",
-      "synopsisPreview": "Inspired by New York City streetball, influential brand AND1 turned local legends on the court into international icons. So why did it come to an end?",
-      "source": {
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 60
-      }
-    },
-    {
       "id": "waking-ned-1998",
       "tmdbId": 10162,
       "imdbId": "tt0166396",
@@ -474080,6 +474146,45 @@
       "source": {
         "tmdbVoteAverage": 6.968,
         "tmdbVoteCount": 457
+      }
+    },
+    {
+      "id": "my-worst-enemy-2026",
+      "tmdbId": 1611380,
+      "imdbId": "tt35495331",
+      "title": "My Worst Enemy",
+      "originalTitle": "Mi mejor enemiga",
+      "originalLanguage": "es",
+      "year": 2026,
+      "releaseDate": "2026-02-05",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "femininity"
+      ],
+      "directors": [
+        "Saskia Bernaola"
+      ],
+      "cast": [
+        "Nataniel Sánchez",
+        "Fiorella Luna",
+        "Mateo Garrido-Lecca",
+        "Omar García",
+        "Kukuli Morante",
+        "Carla Arriola"
+      ],
+      "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
+      "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situa...",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 23
       }
     },
     {
@@ -479714,34 +479819,6 @@
       }
     },
     {
-      "id": "bat-2018",
-      "tmdbId": 1137928,
-      "title": "Bat",
-      "originalLanguage": "en",
-      "year": 2018,
-      "releaseDate": "2018-04-24",
-      "runtimeMinutes": 4,
-      "genres": [
-        "Animation"
-      ],
-      "tags": [],
-      "directors": [
-        "Julia Ocker"
-      ],
-      "cast": [],
-      "posterPath": "/xKC5ZdG5HXdAAVaDTmW2XSeq2YX.jpg",
-      "backdropPath": "/kvOxP8CBxpBt3XUrM2y3L5A7qHm.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 69,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "Since some bird chicks hatched in the neighborhood, the bat hasn't got any sleep.",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 60
-      }
-    },
-    {
       "id": "batman-and-mr-freeze-subzero-1998",
       "tmdbId": 15805,
       "imdbId": "tt0143127",
@@ -482496,6 +482573,40 @@
       "source": {
         "tmdbVoteAverage": 6.947,
         "tmdbVoteCount": 2467
+      }
+    },
+    {
+      "id": "jack-whitehall-at-large-2017",
+      "tmdbId": 479269,
+      "imdbId": "tt7539884",
+      "title": "Jack Whitehall: At Large",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-10-24",
+      "runtimeMinutes": 67,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "tags": [
+        "stand-up comedy"
+      ],
+      "directors": [
+        "Brian Klein"
+      ],
+      "cast": [
+        "Jack Whitehall"
+      ],
+      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
+      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
+      "source": {
+        "tmdbVoteAverage": 6.87,
+        "tmdbVoteCount": 69
       }
     },
     {
@@ -532892,42 +533003,6 @@
       }
     },
     {
-      "id": "la-corneta-de-mi-general-1989",
-      "tmdbId": 628519,
-      "imdbId": "tt0257737",
-      "title": "La corneta de mi general",
-      "originalLanguage": "es",
-      "year": 1989,
-      "releaseDate": "1989-12-07",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "War"
-      ],
-      "tags": [],
-      "directors": [
-        "Víctor Manuel Castro"
-      ],
-      "cast": [
-        "Luis de Alba",
-        "Sasha Montenegro",
-        "Roberto 'El Flaco' Guzmán",
-        "Carmen Salinas",
-        "Manuel 'Flaco' Ibáñez",
-        "Alfredo Solares"
-      ],
-      "posterPath": "/zUe6z9h7x2aV6Q1tHnOJ4FwsBUA.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 64,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 20
-      }
-    },
-    {
       "id": "last-man-standing-1996",
       "tmdbId": 9333,
       "imdbId": "tt0116830",
@@ -546655,6 +546730,48 @@
       "source": {
         "tmdbVoteAverage": 6.253,
         "tmdbVoteCount": 233
+      }
+    },
+    {
+      "id": "the-documentary-2017",
+      "tmdbId": 472717,
+      "imdbId": "tt3766448",
+      "title": "The Documentary",
+      "originalTitle": "D.",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-08-22",
+      "runtimeMinutes": 82,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [
+        "stalker",
+        "found footage",
+        "documentary filmmaking",
+        "faux documentary",
+        "pseudo documentary",
+        "pseudo-documentary"
+      ],
+      "directors": [
+        "Walter Moise"
+      ],
+      "cast": [
+        "Aaron Bowden",
+        "Jake B. Miller",
+        "Tristin Rupp",
+        "Christine Nguyen"
+      ],
+      "posterPath": "/g56xy5bCuVwD5IRV2MGlQXBEoD2.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 2,
+      "criticalScore": 63,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "synopsisPreview": "D. stalks Sandra but she doesn't know it. She does think that D. is a documentary filmmaker having her be in film about conquering fear. Little does she know that D. is not who he claims to be, and far worse.",
+      "source": {
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 76
       }
     },
     {
@@ -625942,6 +626059,52 @@
       }
     },
     {
+      "id": "the-mystery-of-padre-pio-2018",
+      "tmdbId": 563857,
+      "imdbId": "tt10467354",
+      "title": "The Mystery of Padre Pio",
+      "originalTitle": "El Misterio del Padre Pío",
+      "originalLanguage": "es",
+      "year": 2018,
+      "releaseDate": "2018-11-23",
+      "runtimeMinutes": 80,
+      "genres": [
+        "Documentary",
+        "Thriller"
+      ],
+      "tags": [
+        "vatican (holy see)",
+        "biography",
+        "conspiracy",
+        "roman catholic church",
+        "stigmata",
+        "documentary",
+        "saint",
+        "life of saint",
+        "religious persecution",
+        "biographical documentary"
+      ],
+      "directors": [
+        "José María Zavala"
+      ],
+      "cast": [
+        "John XXIII.",
+        "Paul VI",
+        "Pope John Paul II",
+        "Pope Pius XII"
+      ],
+      "posterPath": "/aAKEA0StyfKVMB0eO35rW8SjvPA.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 82,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "The documentary offers testimonies and documents never disclosed about the plot against its protagonist, who had the stigmata of Jesus Christ in his hands, feet and side for 50 consecutive years.",
+      "source": {
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 54
+      }
+    },
+    {
       "id": "the-shorts-by-aldo-giovanni-and-giacomo-1996",
       "tmdbId": 38288,
       "imdbId": "tt3444066",
@@ -632299,36 +632462,6 @@
       "source": {
         "tmdbVoteAverage": 7.652,
         "tmdbVoteCount": 738
-      }
-    },
-    {
-      "id": "in-broad-daylight-the-narvarte-case-2022",
-      "tmdbId": 1051399,
-      "imdbId": "tt23709118",
-      "title": "In Broad Daylight: The Narvarte Case",
-      "originalTitle": "A plena luz: El caso Narvarte",
-      "originalLanguage": "es",
-      "year": 2022,
-      "releaseDate": "2022-12-08",
-      "runtimeMinutes": 108,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Alberto Arnaut Estrada"
-      ],
-      "cast": [],
-      "posterPath": "/jv4X2rtIns8XNBynUUybA0UzdQp.jpg",
-      "backdropPath": "/nikR3JHl0Y2AAnejw24qFrWJTa9.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 77,
-      "plexFit": "A useful documentary title for broadening the local catalog.",
-      "synopsisPreview": "This documentary unveils evidence of corruption in the investigation into the murder of five people in the Narvarte neighborhood of Mexico City in 2015.",
-      "source": {
-        "tmdbVoteAverage": 7.708,
-        "tmdbVoteCount": 12
       }
     },
     {
@@ -650627,41 +650760,6 @@
       }
     },
     {
-      "id": "end-game-2018",
-      "tmdbId": 510258,
-      "imdbId": "tt7879350",
-      "title": "End Game",
-      "originalLanguage": "en",
-      "year": 2018,
-      "releaseDate": "2018-01-21",
-      "runtimeMinutes": 40,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "intensive care",
-        "medicine",
-        "short film"
-      ],
-      "directors": [
-        "Jeffrey Friedman",
-        "Rob Epstein"
-      ],
-      "cast": [],
-      "posterPath": "/f6NoGTsmu0t7sTGqvfZ8oraRPwp.jpg",
-      "backdropPath": "/u9Jnb3mlUhodawpnFbr0Kr1G5xo.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 72,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/FgJD6ksdkWY",
-      "synopsisPreview": "Filmed and edited in intimate vérité style, this movie follows visionary medical practitioners who are working on the cutting edge of life and death and are dedicated to changing our thinking about both.",
-      "source": {
-        "tmdbVoteAverage": 7.2,
-        "tmdbVoteCount": 80
-      }
-    },
-    {
       "id": "fast-five-2011",
       "tmdbId": 51497,
       "imdbId": "tt1596343",
@@ -655121,36 +655219,6 @@
       "source": {
         "tmdbVoteAverage": 7.2,
         "tmdbVoteCount": 46
-      }
-    },
-    {
-      "id": "12-days-2017",
-      "tmdbId": 452221,
-      "imdbId": "tt6777114",
-      "title": "12 Days",
-      "originalTitle": "12 jours",
-      "originalLanguage": "fr",
-      "year": 2017,
-      "releaseDate": "2017-11-29",
-      "runtimeMinutes": 87,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Raymond Depardon"
-      ],
-      "cast": [],
-      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
-      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 71,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
-      "source": {
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
       }
     },
     {
@@ -660603,6 +660671,36 @@
       }
     },
     {
+      "id": "untold-the-rise-and-fall-of-and1-2022",
+      "tmdbId": 1002305,
+      "imdbId": "tt21388560",
+      "title": "Untold: The Rise and Fall of AND1",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-08-23",
+      "runtimeMinutes": 69,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Kevin Wilson, Jr."
+      ],
+      "cast": [],
+      "posterPath": "/o75Sxg2s9zM817Whjc9b3vpk5sW.jpg",
+      "backdropPath": "/xk3hEhpwFWr6UaxS0BORDGgyj3t.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 71,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/W3M2_pV-SGY",
+      "synopsisPreview": "Inspired by New York City streetball, influential brand AND1 turned local legends on the court into international icons. So why did it come to an end?",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 60
+      }
+    },
+    {
       "id": "vicky-and-her-mystery-2021",
       "tmdbId": 754067,
       "imdbId": "tt10945274",
@@ -664687,45 +664785,6 @@
       }
     },
     {
-      "id": "my-worst-enemy-2026",
-      "tmdbId": 1611380,
-      "imdbId": "tt35495331",
-      "title": "My Worst Enemy",
-      "originalTitle": "Mi mejor enemiga",
-      "originalLanguage": "es",
-      "year": 2026,
-      "releaseDate": "2026-02-05",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "femininity"
-      ],
-      "directors": [
-        "Saskia Bernaola"
-      ],
-      "cast": [
-        "Nataniel Sánchez",
-        "Fiorella Luna",
-        "Mateo Garrido-Lecca",
-        "Omar García",
-        "Kukuli Morante",
-        "Carla Arriola"
-      ],
-      "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
-      "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 70,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situa...",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 23
-      }
-    },
-    {
       "id": "next-avengers-heroes-of-tomorrow-2008",
       "tmdbId": 14613,
       "imdbId": "tt1259998",
@@ -668468,6 +668527,34 @@
       }
     },
     {
+      "id": "bat-2018",
+      "tmdbId": 1137928,
+      "title": "Bat",
+      "originalLanguage": "en",
+      "year": 2018,
+      "releaseDate": "2018-04-24",
+      "runtimeMinutes": 4,
+      "genres": [
+        "Animation"
+      ],
+      "tags": [],
+      "directors": [
+        "Julia Ocker"
+      ],
+      "cast": [],
+      "posterPath": "/xKC5ZdG5HXdAAVaDTmW2XSeq2YX.jpg",
+      "backdropPath": "/kvOxP8CBxpBt3XUrM2y3L5A7qHm.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 69,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "Since some bird chicks hatched in the neighborhood, the bat hasn't got any sleep.",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 60
+      }
+    },
+    {
       "id": "before-dawn-2024",
       "tmdbId": 981063,
       "imdbId": "tt10869956",
@@ -670896,40 +670983,6 @@
       "source": {
         "tmdbVoteAverage": 6.942,
         "tmdbVoteCount": 722
-      }
-    },
-    {
-      "id": "jack-whitehall-at-large-2017",
-      "tmdbId": 479269,
-      "imdbId": "tt7539884",
-      "title": "Jack Whitehall: At Large",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-10-24",
-      "runtimeMinutes": 67,
-      "genres": [
-        "Comedy",
-        "TV Movie"
-      ],
-      "tags": [
-        "stand-up comedy"
-      ],
-      "directors": [
-        "Brian Klein"
-      ],
-      "cast": [
-        "Jack Whitehall"
-      ],
-      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 69,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
-      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
-      "source": {
-        "tmdbVoteAverage": 6.87,
-        "tmdbVoteCount": 69
       }
     },
     {
@@ -705133,6 +705186,42 @@
       }
     },
     {
+      "id": "la-corneta-de-mi-general-1989",
+      "tmdbId": 628519,
+      "imdbId": "tt0257737",
+      "title": "La corneta de mi general",
+      "originalLanguage": "es",
+      "year": 1989,
+      "releaseDate": "1989-12-07",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "tags": [],
+      "directors": [
+        "Víctor Manuel Castro"
+      ],
+      "cast": [
+        "Luis de Alba",
+        "Sasha Montenegro",
+        "Roberto 'El Flaco' Guzmán",
+        "Carmen Salinas",
+        "Manuel 'Flaco' Ibáñez",
+        "Alfredo Solares"
+      ],
+      "posterPath": "/zUe6z9h7x2aV6Q1tHnOJ4FwsBUA.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 64,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 20
+      }
+    },
+    {
       "id": "la-llorona-2019",
       "tmdbId": 617708,
       "imdbId": "tt10767168",
@@ -713204,48 +713293,6 @@
       "source": {
         "tmdbVoteAverage": 6.257,
         "tmdbVoteCount": 70
-      }
-    },
-    {
-      "id": "the-documentary-2017",
-      "tmdbId": 472717,
-      "imdbId": "tt3766448",
-      "title": "The Documentary",
-      "originalTitle": "D.",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-08-22",
-      "runtimeMinutes": 82,
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "tags": [
-        "stalker",
-        "found footage",
-        "documentary filmmaking",
-        "faux documentary",
-        "pseudo documentary",
-        "pseudo-documentary"
-      ],
-      "directors": [
-        "Walter Moise"
-      ],
-      "cast": [
-        "Aaron Bowden",
-        "Jake B. Miller",
-        "Tristin Rupp",
-        "Christine Nguyen"
-      ],
-      "posterPath": "/g56xy5bCuVwD5IRV2MGlQXBEoD2.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 2,
-      "criticalScore": 63,
-      "plexFit": "A compact horror option for easier weeknight discovery.",
-      "synopsisPreview": "D. stalks Sandra but she doesn't know it. She does think that D. is a documentary filmmaker having her be in film about conquering fear. Little does she know that D. is not who he claims to be, and far worse.",
-      "source": {
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 76
       }
     },
     {
