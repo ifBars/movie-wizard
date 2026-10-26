@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-25T13:46:05.088Z",
+  "generatedAt": "2026-10-26T16:12:15.095Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-10-25T13:46:04.350Z",
+      "lastFetchedAt": "2026-10-26T16:12:14.323Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78149,7 +78149,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-10-25T13:46:04.609Z",
+      "lastFetchedAt": "2026-10-26T16:12:14.540Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -99432,6 +99432,12 @@
     "1765072": {
       "recordId": "you-can-see-everything-2026",
       "lastFetchedAt": "2026-10-18T13:22:20.496Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1780005": {
+      "recordId": "surviving-hurricane-otis-2026",
+      "lastFetchedAt": "2026-10-26T16:12:14.620Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     }
