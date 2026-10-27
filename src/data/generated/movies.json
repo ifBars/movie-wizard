@@ -8214,6 +8214,59 @@
     }
   },
   {
+    "id": "the-blue-room-2002",
+    "tmdbId": 154200,
+    "imdbId": "tt0299956",
+    "title": "The Blue Room",
+    "originalTitle": "La habitación azul",
+    "originalLanguage": "es",
+    "year": 2002,
+    "releaseDate": "2002-05-04",
+    "runtimeMinutes": 104,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tags": [],
+    "directors": [
+      "Walter Doehner"
+    ],
+    "cast": [
+      "Juan Manuel Bernal",
+      "Patricia Llaca",
+      "Elena Anaya",
+      "Mario Iván Martínez",
+      "Margarita Sanz",
+      "José María Yázpik"
+    ],
+    "crew": [
+      {
+        "name": "Walter Doehner",
+        "job": "Director"
+      },
+      {
+        "name": "Walter Doehner",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Vicente Leñero",
+        "job": "Screenplay"
+      }
+    ],
+    "synopsis": "A couple meet each other often in a motel room.",
+    "posterPath": "/hV9T358eS17C4m4ORPrl8VqyHwf.jpg",
+    "backdropPath": "/lYYwo8dDsHBnEvzStf3gcdWj2bJ.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 94,
+    "criticalScore": 66,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T15:26:07.752Z",
+      "tmdbVoteAverage": 6.6,
+      "tmdbVoteCount": 63
+    }
+  },
+  {
     "id": "the-devil-wears-prada-2006",
     "tmdbId": 350,
     "imdbId": "tt0458352",
@@ -22502,71 +22555,6 @@
     }
   },
   {
-    "id": "the-treehouse-2025",
-    "tmdbId": 1450404,
-    "imdbId": "tt35108122",
-    "title": "The Treehouse",
-    "originalTitle": "La casa en el árbol",
-    "originalLanguage": "es",
-    "year": 2025,
-    "releaseDate": "2025-09-19",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Horror"
-    ],
-    "tags": [],
-    "directors": [
-      "Luis Calderón"
-    ],
-    "cast": [
-      "Sandra Escacena",
-      "Claudio Portalo",
-      "Kandido Uranga",
-      "Mala Rodríguez",
-      "Apolonia Lapiedra",
-      "Asier Hernández"
-    ],
-    "crew": [
-      {
-        "name": "Luis Calderón",
-        "job": "Director"
-      },
-      {
-        "name": "Luis Calderón",
-        "job": "Writer"
-      },
-      {
-        "name": "José Luis Rancaño",
-        "job": "Producer"
-      },
-      {
-        "name": "Diego Urruchi",
-        "job": "Producer"
-      },
-      {
-        "name": "María Rivera",
-        "job": "Producer"
-      },
-      {
-        "name": "Ernesto Báez",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-    "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-    "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-    "posterTone": "from-red-300 via-stone-800 to-black",
-    "popularity": 27,
-    "criticalScore": 37,
-    "plexFit": "A useful horror title for broadening the local catalog.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.449Z",
-      "tmdbVoteAverage": 3.7,
-      "tmdbVoteCount": 39
-    }
-  },
-  {
     "id": "the-godfather-part-ii-1974",
     "tmdbId": 240,
     "imdbId": "tt0071562",
@@ -26495,6 +26483,71 @@
     }
   },
   {
+    "id": "the-treehouse-2025",
+    "tmdbId": 1450404,
+    "imdbId": "tt35108122",
+    "title": "The Treehouse",
+    "originalTitle": "La casa en el árbol",
+    "originalLanguage": "es",
+    "year": 2025,
+    "releaseDate": "2025-09-19",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Horror"
+    ],
+    "tags": [],
+    "directors": [
+      "Luis Calderón"
+    ],
+    "cast": [
+      "Sandra Escacena",
+      "Claudio Portalo",
+      "Kandido Uranga",
+      "Mala Rodríguez",
+      "Apolonia Lapiedra",
+      "Asier Hernández"
+    ],
+    "crew": [
+      {
+        "name": "Luis Calderón",
+        "job": "Director"
+      },
+      {
+        "name": "Luis Calderón",
+        "job": "Writer"
+      },
+      {
+        "name": "José Luis Rancaño",
+        "job": "Producer"
+      },
+      {
+        "name": "Diego Urruchi",
+        "job": "Producer"
+      },
+      {
+        "name": "María Rivera",
+        "job": "Producer"
+      },
+      {
+        "name": "Ernesto Báez",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+    "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+    "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+    "posterTone": "from-red-300 via-stone-800 to-black",
+    "popularity": 27,
+    "criticalScore": 37,
+    "plexFit": "A useful horror title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.449Z",
+      "tmdbVoteAverage": 3.7,
+      "tmdbVoteCount": 39
+    }
+  },
+  {
     "id": "la-familia-del-barrio-la-maldicion-del-quinto-partido-2026",
     "tmdbId": 1554631,
     "imdbId": "tt42027122",
@@ -27341,6 +27394,92 @@
       "tmdbUpdatedAt": "2026-07-27T10:37:36.293Z",
       "tmdbVoteAverage": 8.2,
       "tmdbVoteCount": 11
+    }
+  },
+  {
+    "id": "flow-2024",
+    "tmdbId": 823219,
+    "imdbId": "tt4772188",
+    "title": "Flow",
+    "originalTitle": "Straume",
+    "originalLanguage": "lv",
+    "year": 2024,
+    "releaseDate": "2024-08-29",
+    "runtimeMinutes": 85,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "tags": [
+      "ocean",
+      "cat",
+      "boat",
+      "dystopia",
+      "survival",
+      "dog",
+      "ruins",
+      "flood"
+    ],
+    "directors": [
+      "Gints Zilbalodis"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Director"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Producer"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Editor"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Matīss Kaža",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Ron Dyens",
+        "job": "Producer"
+      },
+      {
+        "name": "Matīss Kaža",
+        "job": "Producer"
+      },
+      {
+        "name": "Gregory Zalcman",
+        "job": "Producer"
+      }
+    ],
+    "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+    "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+    "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+    "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+    "popularity": 25,
+    "criticalScore": 81,
+    "plexFit": "A compact adventure option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.484Z",
+      "tmdbVoteAverage": 8.056,
+      "tmdbVoteCount": 3133
     }
   },
   {
@@ -31481,92 +31620,6 @@
       "tmdbUpdatedAt": "2026-06-04T09:15:56.953Z",
       "tmdbVoteAverage": 8.4,
       "tmdbVoteCount": 16635
-    }
-  },
-  {
-    "id": "flow-2024",
-    "tmdbId": 823219,
-    "imdbId": "tt4772188",
-    "title": "Flow",
-    "originalTitle": "Straume",
-    "originalLanguage": "lv",
-    "year": 2024,
-    "releaseDate": "2024-08-29",
-    "runtimeMinutes": 85,
-    "genres": [
-      "Adventure",
-      "Animation",
-      "Family",
-      "Fantasy"
-    ],
-    "tags": [
-      "ocean",
-      "cat",
-      "boat",
-      "dystopia",
-      "survival",
-      "dog",
-      "ruins",
-      "flood"
-    ],
-    "directors": [
-      "Gints Zilbalodis"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Director"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Producer"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Editor"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Matīss Kaža",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Ron Dyens",
-        "job": "Producer"
-      },
-      {
-        "name": "Matīss Kaža",
-        "job": "Producer"
-      },
-      {
-        "name": "Gregory Zalcman",
-        "job": "Producer"
-      }
-    ],
-    "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-    "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-    "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-    "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 25,
-    "criticalScore": 81,
-    "plexFit": "A compact adventure option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.484Z",
-      "tmdbVoteAverage": 8.056,
-      "tmdbVoteCount": 3133
     }
   },
   {
@@ -67388,66 +67441,6 @@
     }
   },
   {
-    "id": "all-that-we-never-were-2026",
-    "tmdbId": 1497463,
-    "imdbId": "tt37284855",
-    "title": "All That We Never Were",
-    "originalTitle": "Todo lo que nunca fuimos",
-    "originalLanguage": "es",
-    "year": 2026,
-    "releaseDate": "2026-06-04",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "tags": [
-      "based on novel or book",
-      "grief",
-      "romantic drama",
-      "detached",
-      "romantic"
-    ],
-    "directors": [
-      "Jorge Alonso"
-    ],
-    "cast": [
-      "Margarida Corceiro",
-      "Maxi Iglesias",
-      "Natalia Rodríguez",
-      "Sebastián Zurita",
-      "Adriana Hormigos",
-      "Javier Tolosa"
-    ],
-    "crew": [
-      {
-        "name": "Jorge Alonso",
-        "job": "Director"
-      },
-      {
-        "name": "Sara Belloso",
-        "job": "Writer"
-      },
-      {
-        "name": "Sergio de la Puente",
-        "job": "Original Music Composer"
-      }
-    ],
-    "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self.",
-    "posterPath": "/zqxIT48mWFsC4NSjGEHAcp1pjEo.jpg",
-    "backdropPath": "/liVDJBzSplrboMCykKydhaaR215.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 11,
-    "criticalScore": 82,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/bMM-vqUyO3w",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.525Z",
-      "tmdbVoteAverage": 8.2,
-      "tmdbVoteCount": 108
-    }
-  },
-  {
     "id": "the-prestige-2006",
     "tmdbId": 1124,
     "imdbId": "tt0482571",
@@ -68673,66 +68666,6 @@
       "tmdbUpdatedAt": "2026-07-09T10:31:07.021Z",
       "tmdbVoteAverage": 7.566,
       "tmdbVoteCount": 10257
-    }
-  },
-  {
-    "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
-    "tmdbId": 1599191,
-    "imdbId": "tt47867242",
-    "title": "Renegade Immortal: Battle of the Immortal Slayer",
-    "originalTitle": "仙逆剧场版：弑仙之战",
-    "originalLanguage": "zh",
-    "year": 2026,
-    "releaseDate": "2026-10-01",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Animation",
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "tags": [
-      "based on fairy tale",
-      "xianxia",
-      "based on tv series",
-      "oriental fantasy"
-    ],
-    "directors": [
-      "TouXiong Shi"
-    ],
-    "cast": [
-      "Shi Zekun",
-      "Li Jiaxiang",
-      "Liu Sicen",
-      "Shuai Guan",
-      "Si Xi",
-      "Yang Houyao"
-    ],
-    "crew": [
-      {
-        "name": "TouXiong Shi",
-        "job": "Director"
-      },
-      {
-        "name": "Ma Hua",
-        "job": "Writer"
-      },
-      {
-        "name": "Ziyue Wang",
-        "job": "Writer"
-      }
-    ],
-    "synopsis": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnificent feat: SLAYING A CELESTIAL.",
-    "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-    "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 10,
-    "criticalScore": 76,
-    "plexFit": "A useful animation title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.563Z",
-      "tmdbVoteAverage": 7.6,
-      "tmdbVoteCount": 15
     }
   },
   {
@@ -75701,6 +75634,66 @@
       "tmdbUpdatedAt": "2026-06-05T16:46:28.943Z",
       "tmdbVoteAverage": 8.303,
       "tmdbVoteCount": 3194
+    }
+  },
+  {
+    "id": "all-that-we-never-were-2026",
+    "tmdbId": 1497463,
+    "imdbId": "tt37284855",
+    "title": "All That We Never Were",
+    "originalTitle": "Todo lo que nunca fuimos",
+    "originalLanguage": "es",
+    "year": 2026,
+    "releaseDate": "2026-06-04",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tags": [
+      "based on novel or book",
+      "grief",
+      "romantic drama",
+      "detached",
+      "romantic"
+    ],
+    "directors": [
+      "Jorge Alonso"
+    ],
+    "cast": [
+      "Margarida Corceiro",
+      "Maxi Iglesias",
+      "Natalia Rodríguez",
+      "Sebastián Zurita",
+      "Adriana Hormigos",
+      "Javier Tolosa"
+    ],
+    "crew": [
+      {
+        "name": "Jorge Alonso",
+        "job": "Director"
+      },
+      {
+        "name": "Sara Belloso",
+        "job": "Writer"
+      },
+      {
+        "name": "Sergio de la Puente",
+        "job": "Original Music Composer"
+      }
+    ],
+    "synopsis": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self.",
+    "posterPath": "/zqxIT48mWFsC4NSjGEHAcp1pjEo.jpg",
+    "backdropPath": "/liVDJBzSplrboMCykKydhaaR215.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 11,
+    "criticalScore": 82,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/bMM-vqUyO3w",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.525Z",
+      "tmdbVoteAverage": 8.2,
+      "tmdbVoteCount": 108
     }
   },
   {
@@ -88637,6 +88630,66 @@
       "tmdbUpdatedAt": "2026-06-29T11:06:49.456Z",
       "tmdbVoteAverage": 7.632,
       "tmdbVoteCount": 8941
+    }
+  },
+  {
+    "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
+    "tmdbId": 1599191,
+    "imdbId": "tt47867242",
+    "title": "Renegade Immortal: Battle of the Immortal Slayer",
+    "originalTitle": "仙逆剧场版：弑仙之战",
+    "originalLanguage": "zh",
+    "year": 2026,
+    "releaseDate": "2026-10-01",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      "based on fairy tale",
+      "xianxia",
+      "based on tv series",
+      "oriental fantasy"
+    ],
+    "directors": [
+      "TouXiong Shi"
+    ],
+    "cast": [
+      "Shi Zekun",
+      "Li Jiaxiang",
+      "Liu Sicen",
+      "Shuai Guan",
+      "Si Xi",
+      "Yang Houyao"
+    ],
+    "crew": [
+      {
+        "name": "TouXiong Shi",
+        "job": "Director"
+      },
+      {
+        "name": "Ma Hua",
+        "job": "Writer"
+      },
+      {
+        "name": "Ziyue Wang",
+        "job": "Writer"
+      }
+    ],
+    "synopsis": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnificent feat: SLAYING A CELESTIAL.",
+    "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+    "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 10,
+    "criticalScore": 76,
+    "plexFit": "A useful animation title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.563Z",
+      "tmdbVoteAverage": 7.6,
+      "tmdbVoteCount": 15
     }
   },
   {
@@ -104360,62 +104413,6 @@
       "tmdbUpdatedAt": "2026-06-20T10:19:09.358Z",
       "tmdbVoteAverage": 7.684,
       "tmdbVoteCount": 19
-    }
-  },
-  {
-    "id": "7-days-2005",
-    "tmdbId": 34320,
-    "imdbId": "tt0414513",
-    "title": "7 Days",
-    "originalTitle": "7 días",
-    "originalLanguage": "es",
-    "year": 2005,
-    "releaseDate": "2005-09-30",
-    "runtimeMinutes": 95,
-    "genres": [
-      "Comedy"
-    ],
-    "tags": [],
-    "directors": [
-      "Fernando Kalife"
-    ],
-    "cast": [
-      "Jaime Camil",
-      "Martha Higareda",
-      "Eduardo Arroyuelo",
-      "Julio Bracho",
-      "Lumi Cavazos",
-      "José Sefami"
-    ],
-    "crew": [
-      {
-        "name": "Fernando Kalife",
-        "job": "Director"
-      },
-      {
-        "name": "Fernando Kalife",
-        "job": "Writer"
-      },
-      {
-        "name": "Jeff Cardoni",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Gonzalo Amat",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
-    "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 8,
-    "criticalScore": 76,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.621Z",
-      "tmdbVoteAverage": 7.6,
-      "tmdbVoteCount": 53
     }
   },
   {
@@ -122768,6 +122765,62 @@
       "tmdbUpdatedAt": "2026-06-07T00:27:23.580Z",
       "tmdbVoteAverage": 7.666,
       "tmdbVoteCount": 6849
+    }
+  },
+  {
+    "id": "7-days-2005",
+    "tmdbId": 34320,
+    "imdbId": "tt0414513",
+    "title": "7 Days",
+    "originalTitle": "7 días",
+    "originalLanguage": "es",
+    "year": 2005,
+    "releaseDate": "2005-09-30",
+    "runtimeMinutes": 95,
+    "genres": [
+      "Comedy"
+    ],
+    "tags": [],
+    "directors": [
+      "Fernando Kalife"
+    ],
+    "cast": [
+      "Jaime Camil",
+      "Martha Higareda",
+      "Eduardo Arroyuelo",
+      "Julio Bracho",
+      "Lumi Cavazos",
+      "José Sefami"
+    ],
+    "crew": [
+      {
+        "name": "Fernando Kalife",
+        "job": "Director"
+      },
+      {
+        "name": "Fernando Kalife",
+        "job": "Writer"
+      },
+      {
+        "name": "Jeff Cardoni",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Gonzalo Amat",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
+    "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 8,
+    "criticalScore": 76,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.621Z",
+      "tmdbVoteAverage": 7.6,
+      "tmdbVoteCount": 53
     }
   },
   {
@@ -211439,50 +211492,6 @@
     }
   },
   {
-    "id": "new-golden-lotus-i-1996",
-    "tmdbId": 492101,
-    "imdbId": "tt3045918",
-    "title": "New Golden Lotus  I",
-    "originalTitle": "新金瓶梅 第一集",
-    "originalLanguage": "cn",
-    "year": 1996,
-    "releaseDate": "1996-03-08",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "tags": [],
-    "directors": [
-      "Tam Yui-Ming"
-    ],
-    "cast": [
-      "Pal Sinn Lap-Man",
-      "Asami Kanno",
-      "Choi Mei-yau",
-      "Eddie Koo Koon Chung",
-      "Tseng Ya-chun"
-    ],
-    "crew": [
-      {
-        "name": "Tam Yui-Ming",
-        "job": "Director"
-      }
-    ],
-    "synopsis": "No synopsis is available yet.",
-    "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
-    "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 5,
-    "criticalScore": 62,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.783Z",
-      "tmdbVoteAverage": 6.2,
-      "tmdbVoteCount": 10
-    }
-  },
-  {
     "id": "open-season-2006",
     "tmdbId": 7484,
     "imdbId": "tt0400717",
@@ -220521,90 +220530,6 @@
     }
   },
   {
-    "id": "in-security-2014",
-    "tmdbId": 262866,
-    "imdbId": "tt2081274",
-    "title": "In Security",
-    "originalLanguage": "en",
-    "year": 2014,
-    "releaseDate": "2014-04-28",
-    "runtimeMinutes": 93,
-    "genres": [
-      "Comedy",
-      "Action"
-    ],
-    "tags": [
-      "robbery",
-      "heist"
-    ],
-    "directors": [
-      "Adam Beamer",
-      "Evan Beamer"
-    ],
-    "cast": [
-      "Ethan Embry",
-      "Michael Gladis",
-      "Clea DuVall",
-      "Cary Elwes",
-      "Adam Arkin",
-      "Vinnie Jones"
-    ],
-    "crew": [
-      {
-        "name": "Adam Beamer",
-        "job": "Director"
-      },
-      {
-        "name": "Evan Beamer",
-        "job": "Director"
-      },
-      {
-        "name": "Evan Beamer",
-        "job": "Writer"
-      },
-      {
-        "name": "Adam Beamer",
-        "job": "Writer"
-      },
-      {
-        "name": "Craig Hildebrand",
-        "job": "Writer"
-      },
-      {
-        "name": "Heath Cullens",
-        "job": "Producer"
-      },
-      {
-        "name": "Tiago Mesquita",
-        "job": "Producer"
-      },
-      {
-        "name": "Ross Otterman",
-        "job": "Producer"
-      },
-      {
-        "name": "Ben Zarai",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Akis Konstantakopoulos",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "The owners of a failing security company start robbing houses to boost business.",
-    "posterPath": "/kn8xtTjqTR8CgvLjDAgp5z8Eifj.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 5,
-    "criticalScore": 50,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/MwT5Nqca9Uw",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.821Z",
-      "tmdbVoteAverage": 5,
-      "tmdbVoteCount": 18
-    }
-  },
-  {
     "id": "joe-rogan-burn-the-boats-2024",
     "tmdbId": 1315161,
     "imdbId": "tt32875161",
@@ -222826,59 +222751,6 @@
     }
   },
   {
-    "id": "human-2015",
-    "tmdbId": 359364,
-    "imdbId": "tt3327994",
-    "title": "Human",
-    "originalLanguage": "fr",
-    "year": 2015,
-    "releaseDate": "2015-09-12",
-    "runtimeMinutes": 191,
-    "genres": [
-      "Documentary"
-    ],
-    "tags": [
-      "society",
-      "culture",
-      "humanity"
-    ],
-    "directors": [
-      "Yann Arthus-Bertrand"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Yann Arthus-Bertrand",
-        "job": "Director"
-      },
-      {
-        "name": "Daniel Meyer",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Anne-Marie Sangla",
-        "job": "Editor"
-      },
-      {
-        "name": "Françoise Bernard",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence.",
-    "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
-    "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 4,
-    "criticalScore": 84,
-    "plexFit": "A useful documentary title for broadening the local catalog.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.856Z",
-      "tmdbVoteAverage": 8.4,
-      "tmdbVoteCount": 316
-    }
-  },
-  {
     "id": "impossible-things-2021",
     "tmdbId": 667257,
     "imdbId": "tt10032342",
@@ -223462,70 +223334,6 @@
       "tmdbUpdatedAt": "2026-06-08T17:03:00.534Z",
       "tmdbVoteAverage": 8.346,
       "tmdbVoteCount": 18013
-    }
-  },
-  {
-    "id": "versa-2025",
-    "tmdbId": 1500099,
-    "imdbId": "tt37976405",
-    "title": "Versa",
-    "originalLanguage": "en",
-    "year": 2025,
-    "releaseDate": "2025-04-15",
-    "runtimeMinutes": 8,
-    "genres": [
-      "Animation",
-      "Family",
-      "Drama",
-      "Fantasy"
-    ],
-    "tags": [
-      "pregnancy",
-      "loss",
-      "grief",
-      "child loss",
-      "acceptance",
-      "loss of child",
-      "celestial",
-      "inspirational"
-    ],
-    "directors": [
-      "Malcon Pierce"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Malcon Pierce",
-        "job": "Director"
-      },
-      {
-        "name": "Malcon Pierce",
-        "job": "Writer"
-      },
-      {
-        "name": "Bradford Simonsen",
-        "job": "Producer"
-      },
-      {
-        "name": "Haim Mazar",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Pace Paulsen",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
-    "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-    "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 4,
-    "criticalScore": 83,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:10.887Z",
-      "tmdbVoteAverage": 8.3,
-      "tmdbVoteCount": 66
     }
   },
   {
@@ -280596,6 +280404,50 @@
     }
   },
   {
+    "id": "new-golden-lotus-i-1996",
+    "tmdbId": 492101,
+    "imdbId": "tt3045918",
+    "title": "New Golden Lotus  I",
+    "originalTitle": "新金瓶梅 第一集",
+    "originalLanguage": "cn",
+    "year": 1996,
+    "releaseDate": "1996-03-08",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tags": [],
+    "directors": [
+      "Tam Yui-Ming"
+    ],
+    "cast": [
+      "Pal Sinn Lap-Man",
+      "Asami Kanno",
+      "Choi Mei-yau",
+      "Eddie Koo Koon Chung",
+      "Tseng Ya-chun"
+    ],
+    "crew": [
+      {
+        "name": "Tam Yui-Ming",
+        "job": "Director"
+      }
+    ],
+    "synopsis": "No synopsis is available yet.",
+    "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
+    "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 62,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.783Z",
+      "tmdbVoteAverage": 6.2,
+      "tmdbVoteCount": 10
+    }
+  },
+  {
     "id": "night-at-the-museum-battle-of-the-smithsonian-2009",
     "tmdbId": 18360,
     "imdbId": "tt1078912",
@@ -301200,6 +301052,90 @@
     }
   },
   {
+    "id": "in-security-2014",
+    "tmdbId": 262866,
+    "imdbId": "tt2081274",
+    "title": "In Security",
+    "originalLanguage": "en",
+    "year": 2014,
+    "releaseDate": "2014-04-28",
+    "runtimeMinutes": 93,
+    "genres": [
+      "Comedy",
+      "Action"
+    ],
+    "tags": [
+      "robbery",
+      "heist"
+    ],
+    "directors": [
+      "Adam Beamer",
+      "Evan Beamer"
+    ],
+    "cast": [
+      "Ethan Embry",
+      "Michael Gladis",
+      "Clea DuVall",
+      "Cary Elwes",
+      "Adam Arkin",
+      "Vinnie Jones"
+    ],
+    "crew": [
+      {
+        "name": "Adam Beamer",
+        "job": "Director"
+      },
+      {
+        "name": "Evan Beamer",
+        "job": "Director"
+      },
+      {
+        "name": "Evan Beamer",
+        "job": "Writer"
+      },
+      {
+        "name": "Adam Beamer",
+        "job": "Writer"
+      },
+      {
+        "name": "Craig Hildebrand",
+        "job": "Writer"
+      },
+      {
+        "name": "Heath Cullens",
+        "job": "Producer"
+      },
+      {
+        "name": "Tiago Mesquita",
+        "job": "Producer"
+      },
+      {
+        "name": "Ross Otterman",
+        "job": "Producer"
+      },
+      {
+        "name": "Ben Zarai",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Akis Konstantakopoulos",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "The owners of a failing security company start robbing houses to boost business.",
+    "posterPath": "/kn8xtTjqTR8CgvLjDAgp5z8Eifj.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 50,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/MwT5Nqca9Uw",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.821Z",
+      "tmdbVoteAverage": 5,
+      "tmdbVoteCount": 18
+    }
+  },
+  {
     "id": "marave-2026",
     "tmdbId": 1566481,
     "imdbId": "tt42483037",
@@ -304390,6 +304326,59 @@
     }
   },
   {
+    "id": "human-2015",
+    "tmdbId": 359364,
+    "imdbId": "tt3327994",
+    "title": "Human",
+    "originalLanguage": "fr",
+    "year": 2015,
+    "releaseDate": "2015-09-12",
+    "runtimeMinutes": 191,
+    "genres": [
+      "Documentary"
+    ],
+    "tags": [
+      "society",
+      "culture",
+      "humanity"
+    ],
+    "directors": [
+      "Yann Arthus-Bertrand"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Yann Arthus-Bertrand",
+        "job": "Director"
+      },
+      {
+        "name": "Daniel Meyer",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Anne-Marie Sangla",
+        "job": "Editor"
+      },
+      {
+        "name": "Françoise Bernard",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence.",
+    "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
+    "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 4,
+    "criticalScore": 84,
+    "plexFit": "A useful documentary title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.856Z",
+      "tmdbVoteAverage": 8.4,
+      "tmdbVoteCount": 316
+    }
+  },
+  {
     "id": "wild-london-2026",
     "tmdbId": 1604628,
     "imdbId": "tt39298503",
@@ -304832,6 +304821,70 @@
       "tmdbUpdatedAt": "2026-06-09T09:03:14.381Z",
       "tmdbVoteAverage": 8.262,
       "tmdbVoteCount": 565
+    }
+  },
+  {
+    "id": "versa-2025",
+    "tmdbId": 1500099,
+    "imdbId": "tt37976405",
+    "title": "Versa",
+    "originalLanguage": "en",
+    "year": 2025,
+    "releaseDate": "2025-04-15",
+    "runtimeMinutes": 8,
+    "genres": [
+      "Animation",
+      "Family",
+      "Drama",
+      "Fantasy"
+    ],
+    "tags": [
+      "pregnancy",
+      "loss",
+      "grief",
+      "child loss",
+      "acceptance",
+      "loss of child",
+      "celestial",
+      "inspirational"
+    ],
+    "directors": [
+      "Malcon Pierce"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Malcon Pierce",
+        "job": "Director"
+      },
+      {
+        "name": "Malcon Pierce",
+        "job": "Writer"
+      },
+      {
+        "name": "Bradford Simonsen",
+        "job": "Producer"
+      },
+      {
+        "name": "Haim Mazar",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Pace Paulsen",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
+    "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+    "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 4,
+    "criticalScore": 83,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:10.887Z",
+      "tmdbVoteAverage": 8.3,
+      "tmdbVoteCount": 66
     }
   },
   {
@@ -306047,66 +306100,6 @@
     }
   },
   {
-    "id": "far-from-the-tree-2021",
-    "tmdbId": 831827,
-    "imdbId": "tt14927356",
-    "title": "Far from the Tree",
-    "originalLanguage": "en",
-    "year": 2021,
-    "releaseDate": "2021-11-24",
-    "runtimeMinutes": 7,
-    "genres": [
-      "Animation",
-      "Family"
-    ],
-    "tags": [
-      "short film"
-    ],
-    "directors": [
-      "Natalie Nourigat"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Natalie Nourigat",
-        "job": "Director"
-      },
-      {
-        "name": "Natalie Nourigat",
-        "job": "Writer"
-      },
-      {
-        "name": "Ruth Strother",
-        "job": "Producer"
-      },
-      {
-        "name": "Nami Melumad",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Jeff Draheim",
-        "job": "Editor"
-      },
-      {
-        "name": "Fabienne Rawley",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
-    "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
-    "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 3,
-    "criticalScore": 81,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.536Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 395
-    }
-  },
-  {
     "id": "green-snake-2021",
     "tmdbId": 795607,
     "imdbId": "tt15000314",
@@ -306716,77 +306709,6 @@
       "tmdbUpdatedAt": "2026-06-08T17:03:01.747Z",
       "tmdbVoteAverage": 8.063,
       "tmdbVoteCount": 512
-    }
-  },
-  {
-    "id": "piper-2016",
-    "tmdbId": 399106,
-    "imdbId": "tt5613056",
-    "title": "Piper",
-    "originalLanguage": "en",
-    "year": 2016,
-    "releaseDate": "2016-06-16",
-    "runtimeMinutes": 6,
-    "genres": [
-      "Family",
-      "Animation"
-    ],
-    "tags": [
-      "fear",
-      "anxious",
-      "playful",
-      "short film",
-      "assertive",
-      "shorebird",
-      "fledgling",
-      "3d animation"
-    ],
-    "directors": [
-      "Alan Barillaro"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Alan Barillaro",
-        "job": "Director"
-      },
-      {
-        "name": "Alan Barillaro",
-        "job": "Writer"
-      },
-      {
-        "name": "Marc Sondheimer",
-        "job": "Producer"
-      },
-      {
-        "name": "Adrian Belew",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Derek Williams",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Erik Smitt",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Sarah K. Reimers",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive.",
-    "posterPath": "/5fu2d809jepLwEpES7wggiECLoQ.jpg",
-    "backdropPath": "/4GWYk5VP9qu1rNSeNAwNaBy9mwS.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 3,
-    "criticalScore": 81,
-    "plexFit": "A compact family option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/DW8T9nvitLI",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.570Z",
-      "tmdbVoteAverage": 8.1,
-      "tmdbVoteCount": 1787
     }
   },
   {
@@ -311217,65 +311139,6 @@
     }
   },
   {
-    "id": "blush-2021",
-    "tmdbId": 818350,
-    "imdbId": "tt14460998",
-    "title": "Blush",
-    "originalLanguage": "en",
-    "year": 2021,
-    "releaseDate": "2021-06-13",
-    "runtimeMinutes": 11,
-    "genres": [
-      "Animation",
-      "Romance",
-      "Science Fiction",
-      "Family",
-      "Fantasy"
-    ],
-    "tags": [
-      "based on true story"
-    ],
-    "directors": [
-      "Joseph Mateo"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Joseph Mateo",
-        "job": "Director"
-      },
-      {
-        "name": "Joseph Mateo",
-        "job": "Writer"
-      },
-      {
-        "name": "Heather Feng",
-        "job": "Producer"
-      },
-      {
-        "name": "Joy Ngiaw",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Tim Mertens",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "When a horticulturalist-astronaut crashes onto a desolate planet, he encounters an ethereal visitor and discovers the joy of building a new life—realizing the universe has delivered something astonishing.",
-    "posterPath": "/vbQ5CVld2AjH8DEo0L8Wz8ag3Xy.jpg",
-    "backdropPath": "/8iGYeG3Co5LROEx0Uf8NhH1xCTg.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 3,
-    "criticalScore": 78,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/sTz__zyOhds",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.603Z",
-      "tmdbVoteAverage": 7.8,
-      "tmdbVoteCount": 188
-    }
-  },
-  {
     "id": "disclosure-2020",
     "tmdbId": 653610,
     "imdbId": "tt8637504",
@@ -312045,6 +311908,69 @@
       "tmdbUpdatedAt": "2026-06-09T16:51:34.899Z",
       "tmdbVoteAverage": 7.763,
       "tmdbVoteCount": 4921
+    }
+  },
+  {
+    "id": "little-girl-2020",
+    "tmdbId": 656274,
+    "imdbId": "tt11753696",
+    "title": "Little Girl",
+    "originalTitle": "Petite fille",
+    "originalLanguage": "fr",
+    "year": 2020,
+    "releaseDate": "2020-09-25",
+    "runtimeMinutes": 85,
+    "genres": [
+      "Documentary"
+    ],
+    "tags": [
+      "identity",
+      "family",
+      "gender",
+      "portrait",
+      "childhood",
+      "discrimination",
+      "gender transition",
+      "gender identification"
+    ],
+    "directors": [
+      "Sébastien Lifshitz"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Sébastien Lifshitz",
+        "job": "Director"
+      },
+      {
+        "name": "Sébastien Lifshitz",
+        "job": "Writer"
+      },
+      {
+        "name": "Muriel Meynard",
+        "job": "Producer"
+      },
+      {
+        "name": "Paul Guilhaume",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Pauline Gaillard",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France.",
+    "posterPath": "/kciAX2iBP09RfZ9d2ldLjgHiL2u.jpg",
+    "backdropPath": "/wurw1SCnmGdzMPF3gKNIG16jIQz.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 4,
+    "criticalScore": 78,
+    "plexFit": "A compact documentary option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/akSaVMmOZgc",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.859Z",
+      "tmdbVoteAverage": 7.8,
+      "tmdbVoteCount": 121
     }
   },
   {
@@ -362701,6 +362627,52 @@
       "tmdbUpdatedAt": "2026-07-19T10:00:21.583Z",
       "tmdbVoteAverage": 6.774,
       "tmdbVoteCount": 1780
+    }
+  },
+  {
+    "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+    "tmdbId": 961651,
+    "imdbId": "tt20425026",
+    "title": "Spider-Man: All Roads Lead to No Way Home",
+    "originalLanguage": "en",
+    "year": 2022,
+    "releaseDate": "2022-05-03",
+    "runtimeMinutes": 30,
+    "genres": [
+      "Documentary"
+    ],
+    "tags": [
+      "short film",
+      "superhero",
+      "film production"
+    ],
+    "directors": [],
+    "cast": [
+      "Tom Holland",
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Willem Dafoe",
+      "Alfred Molina",
+      "Jamie Foxx"
+    ],
+    "crew": [
+      {
+        "name": "Zack Stipe",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
+    "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+    "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 4,
+    "criticalScore": 68,
+    "plexFit": "A compact documentary option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.782Z",
+      "tmdbVoteAverage": 6.8,
+      "tmdbVoteCount": 100
     }
   },
   {
@@ -455053,6 +455025,66 @@
     }
   },
   {
+    "id": "far-from-the-tree-2021",
+    "tmdbId": 831827,
+    "imdbId": "tt14927356",
+    "title": "Far from the Tree",
+    "originalLanguage": "en",
+    "year": 2021,
+    "releaseDate": "2021-11-24",
+    "runtimeMinutes": 7,
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "tags": [
+      "short film"
+    ],
+    "directors": [
+      "Natalie Nourigat"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Natalie Nourigat",
+        "job": "Director"
+      },
+      {
+        "name": "Natalie Nourigat",
+        "job": "Writer"
+      },
+      {
+        "name": "Ruth Strother",
+        "job": "Producer"
+      },
+      {
+        "name": "Nami Melumad",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Jeff Draheim",
+        "job": "Editor"
+      },
+      {
+        "name": "Fabienne Rawley",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
+    "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
+    "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 3,
+    "criticalScore": 81,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.536Z",
+      "tmdbVoteAverage": 8.1,
+      "tmdbVoteCount": 395
+    }
+  },
+  {
     "id": "love-hurts-2002",
     "tmdbId": 51822,
     "imdbId": "tt0318292",
@@ -455339,6 +455371,77 @@
       "tmdbUpdatedAt": "2026-06-09T09:03:15.405Z",
       "tmdbVoteAverage": 8.1,
       "tmdbVoteCount": 2407
+    }
+  },
+  {
+    "id": "piper-2016",
+    "tmdbId": 399106,
+    "imdbId": "tt5613056",
+    "title": "Piper",
+    "originalLanguage": "en",
+    "year": 2016,
+    "releaseDate": "2016-06-16",
+    "runtimeMinutes": 6,
+    "genres": [
+      "Family",
+      "Animation"
+    ],
+    "tags": [
+      "fear",
+      "anxious",
+      "playful",
+      "short film",
+      "assertive",
+      "shorebird",
+      "fledgling",
+      "3d animation"
+    ],
+    "directors": [
+      "Alan Barillaro"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Alan Barillaro",
+        "job": "Director"
+      },
+      {
+        "name": "Alan Barillaro",
+        "job": "Writer"
+      },
+      {
+        "name": "Marc Sondheimer",
+        "job": "Producer"
+      },
+      {
+        "name": "Adrian Belew",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Derek Williams",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Erik Smitt",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Sarah K. Reimers",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive.",
+    "posterPath": "/5fu2d809jepLwEpES7wggiECLoQ.jpg",
+    "backdropPath": "/4GWYk5VP9qu1rNSeNAwNaBy9mwS.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 3,
+    "criticalScore": 81,
+    "plexFit": "A compact family option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/DW8T9nvitLI",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.570Z",
+      "tmdbVoteAverage": 8.1,
+      "tmdbVoteCount": 1787
     }
   },
   {
@@ -456373,6 +456476,45 @@
       "tmdbUpdatedAt": "2026-06-10T17:00:33.592Z",
       "tmdbVoteAverage": 8.021,
       "tmdbVoteCount": 478
+    }
+  },
+  {
+    "id": "making-squid-game-the-challenge-2023",
+    "tmdbId": 1214667,
+    "imdbId": "tt30327680",
+    "title": "Making Squid Game: The Challenge",
+    "originalLanguage": "en",
+    "year": 2023,
+    "releaseDate": "2023-12-06",
+    "runtimeMinutes": 30,
+    "genres": [
+      "Documentary"
+    ],
+    "tags": [
+      "behind the scenes",
+      "making of"
+    ],
+    "directors": [],
+    "cast": [
+      "Nicola Brown",
+      "Rikki Finlay",
+      "Tim Harcourt",
+      "Toni Ireland",
+      "Stephen Lambert",
+      "Rich Leist"
+    ],
+    "crew": [],
+    "synopsis": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition.",
+    "posterPath": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
+    "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 3,
+    "criticalScore": 80,
+    "plexFit": "A compact documentary option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.380Z",
+      "tmdbVoteAverage": 8,
+      "tmdbVoteCount": 239
     }
   },
   {
@@ -458403,71 +458545,6 @@
       "tmdbUpdatedAt": "2026-06-08T17:03:03.681Z",
       "tmdbVoteAverage": 7.854,
       "tmdbVoteCount": 2490
-    }
-  },
-  {
-    "id": "kitbull-2019",
-    "tmdbId": 574074,
-    "imdbId": "tt9536832",
-    "title": "Kitbull",
-    "originalLanguage": "en",
-    "year": 2019,
-    "releaseDate": "2019-01-18",
-    "runtimeMinutes": 9,
-    "genres": [
-      "Animation",
-      "Family",
-      "Drama"
-    ],
-    "tags": [
-      "friendship",
-      "cat",
-      "dog",
-      "animals",
-      "short film",
-      "buddy film"
-    ],
-    "directors": [
-      "Rosana Sullivan"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Rosana Sullivan",
-        "job": "Director"
-      },
-      {
-        "name": "Rosana Sullivan",
-        "job": "Writer"
-      },
-      {
-        "name": "Kathryn Hendrickson",
-        "job": "Producer"
-      },
-      {
-        "name": "Andrew Jimenez",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Arjun Rihan",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Katie Schaefer",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
-    "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
-    "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 2,
-    "criticalScore": 79,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.820Z",
-      "tmdbVoteAverage": 7.9,
-      "tmdbVoteCount": 424
     }
   },
   {
@@ -460628,6 +460705,65 @@
     }
   },
   {
+    "id": "blush-2021",
+    "tmdbId": 818350,
+    "imdbId": "tt14460998",
+    "title": "Blush",
+    "originalLanguage": "en",
+    "year": 2021,
+    "releaseDate": "2021-06-13",
+    "runtimeMinutes": 11,
+    "genres": [
+      "Animation",
+      "Romance",
+      "Science Fiction",
+      "Family",
+      "Fantasy"
+    ],
+    "tags": [
+      "based on true story"
+    ],
+    "directors": [
+      "Joseph Mateo"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Joseph Mateo",
+        "job": "Director"
+      },
+      {
+        "name": "Joseph Mateo",
+        "job": "Writer"
+      },
+      {
+        "name": "Heather Feng",
+        "job": "Producer"
+      },
+      {
+        "name": "Joy Ngiaw",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Tim Mertens",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "When a horticulturalist-astronaut crashes onto a desolate planet, he encounters an ethereal visitor and discovers the joy of building a new life—realizing the universe has delivered something astonishing.",
+    "posterPath": "/vbQ5CVld2AjH8DEo0L8Wz8ag3Xy.jpg",
+    "backdropPath": "/8iGYeG3Co5LROEx0Uf8NhH1xCTg.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 3,
+    "criticalScore": 78,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/sTz__zyOhds",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.603Z",
+      "tmdbVoteAverage": 7.8,
+      "tmdbVoteCount": 188
+    }
+  },
+  {
     "id": "charm-city-kings-2020",
     "tmdbId": 552532,
     "imdbId": "tt9048840",
@@ -461587,69 +461723,6 @@
       "tmdbUpdatedAt": "2026-06-23T10:36:49.339Z",
       "tmdbVoteAverage": 7.8,
       "tmdbVoteCount": 119
-    }
-  },
-  {
-    "id": "little-girl-2020",
-    "tmdbId": 656274,
-    "imdbId": "tt11753696",
-    "title": "Little Girl",
-    "originalTitle": "Petite fille",
-    "originalLanguage": "fr",
-    "year": 2020,
-    "releaseDate": "2020-09-25",
-    "runtimeMinutes": 85,
-    "genres": [
-      "Documentary"
-    ],
-    "tags": [
-      "identity",
-      "family",
-      "gender",
-      "portrait",
-      "childhood",
-      "discrimination",
-      "gender transition",
-      "gender identification"
-    ],
-    "directors": [
-      "Sébastien Lifshitz"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Sébastien Lifshitz",
-        "job": "Director"
-      },
-      {
-        "name": "Sébastien Lifshitz",
-        "job": "Writer"
-      },
-      {
-        "name": "Muriel Meynard",
-        "job": "Producer"
-      },
-      {
-        "name": "Paul Guilhaume",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Pauline Gaillard",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France.",
-    "posterPath": "/kciAX2iBP09RfZ9d2ldLjgHiL2u.jpg",
-    "backdropPath": "/wurw1SCnmGdzMPF3gKNIG16jIQz.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 4,
-    "criticalScore": 78,
-    "plexFit": "A compact documentary option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/akSaVMmOZgc",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.859Z",
-      "tmdbVoteAverage": 7.8,
-      "tmdbVoteCount": 121
     }
   },
   {
@@ -479728,62 +479801,6 @@
       "tmdbUpdatedAt": "2026-07-01T10:38:06.922Z",
       "tmdbVoteAverage": 7.428,
       "tmdbVoteCount": 800
-    }
-  },
-  {
-    "id": "burrow-2020",
-    "tmdbId": 747059,
-    "imdbId": "tt13167288",
-    "title": "Burrow",
-    "originalLanguage": "en",
-    "year": 2020,
-    "releaseDate": "2020-12-25",
-    "runtimeMinutes": 6,
-    "genres": [
-      "Animation",
-      "Family",
-      "Comedy"
-    ],
-    "tags": [
-      "pixar sparkshorts"
-    ],
-    "directors": [
-      "Madeline Sharafian"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Madeline Sharafian",
-        "job": "Director"
-      },
-      {
-        "name": "Madeline Sharafian",
-        "job": "Writer"
-      },
-      {
-        "name": "Mike Capbarat",
-        "job": "Producer"
-      },
-      {
-        "name": "Andrew Jimenez",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Anna Wolitzky",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help.",
-    "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
-    "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 2,
-    "criticalScore": 74,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.310Z",
-      "tmdbVoteAverage": 7.4,
-      "tmdbVoteCount": 325
     }
   },
   {
@@ -539248,6 +539265,96 @@
     }
   },
   {
+    "id": "alesha-popovich-and-tugarin-the-dragon-2004",
+    "tmdbId": 33065,
+    "imdbId": "tt0415481",
+    "title": "Alesha Popovich and Tugarin the Dragon",
+    "originalTitle": "Алёша Попович и Тугарин Змей",
+    "originalLanguage": "ru",
+    "year": 2004,
+    "releaseDate": "2004-12-23",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "tags": [
+      "legend",
+      "fairy tale",
+      "musical",
+      "quiz",
+      "sword fight",
+      "speaking horse"
+    ],
+    "directors": [
+      "Konstantin Bronzit"
+    ],
+    "cast": [
+      "Oleg Kulikovich",
+      "Liya Medvedeva",
+      "Anatoli Petrov",
+      "Dmitry Vysotsky",
+      "Ivan Krasko",
+      "Tatyana Ivanova"
+    ],
+    "crew": [
+      {
+        "name": "Konstantin Bronzit",
+        "job": "Director"
+      },
+      {
+        "name": "Konstantin Bronzit",
+        "job": "Editor"
+      },
+      {
+        "name": "Konstantin Bronzit",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Aleksandr Boyarsky",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Ilya Maksimov",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Maxim Sveshnikov",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Aleksandr Boyarsky",
+        "job": "Producer"
+      },
+      {
+        "name": "Sergei Selyanov",
+        "job": "Producer"
+      },
+      {
+        "name": "Valentin Vasenkov",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Sergey Glezin",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "Alesha Popovich has to catch Tugarin Zmey and bring back the stolen money with the help of a talking Horse (which talks all the time and has an opinion on everything), a wise granny, a donkey and a beauty Lyubava.",
+    "posterPath": "/6TbmALbiJNDsEGAmse0Yzp4PDjF.jpg",
+    "backdropPath": "/mJq1t1RlRse7r3JgQs5napkYOhQ.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 3,
+    "criticalScore": 68,
+    "plexFit": "A useful animation title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:13.032Z",
+      "tmdbVoteAverage": 6.8,
+      "tmdbVoteCount": 146
+    }
+  },
+  {
     "id": "ali-2001",
     "tmdbId": 8489,
     "imdbId": "tt0248667",
@@ -546941,52 +547048,6 @@
       "tmdbUpdatedAt": "2026-07-03T10:16:53.303Z",
       "tmdbVoteAverage": 6.781,
       "tmdbVoteCount": 226
-    }
-  },
-  {
-    "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-    "tmdbId": 961651,
-    "imdbId": "tt20425026",
-    "title": "Spider-Man: All Roads Lead to No Way Home",
-    "originalLanguage": "en",
-    "year": 2022,
-    "releaseDate": "2022-05-03",
-    "runtimeMinutes": 30,
-    "genres": [
-      "Documentary"
-    ],
-    "tags": [
-      "short film",
-      "superhero",
-      "film production"
-    ],
-    "directors": [],
-    "cast": [
-      "Tom Holland",
-      "Tobey Maguire",
-      "Andrew Garfield",
-      "Willem Dafoe",
-      "Alfred Molina",
-      "Jamie Foxx"
-    ],
-    "crew": [
-      {
-        "name": "Zack Stipe",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
-    "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
-    "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 4,
-    "criticalScore": 68,
-    "plexFit": "A compact documentary option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:11.782Z",
-      "tmdbVoteAverage": 6.8,
-      "tmdbVoteCount": 100
     }
   },
   {
@@ -590877,44 +590938,6 @@
       "tmdbUpdatedAt": "2026-06-29T11:06:36.074Z",
       "tmdbVoteAverage": 6.403,
       "tmdbVoteCount": 196
-    }
-  },
-  {
-    "id": "blood-type-o-watermelon-chest-housekeeper-2021",
-    "tmdbId": 854663,
-    "title": "Blood Type O, Watermelon Chest Housekeeper",
-    "originalTitle": "O형수박가슴가정부",
-    "originalLanguage": "ko",
-    "year": 2021,
-    "releaseDate": "2021-01-08",
-    "runtimeMinutes": 70,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "tags": [
-      "softcore",
-      "melodrama"
-    ],
-    "directors": [],
-    "cast": [
-      "Seung Ha",
-      "Chul Jin",
-      "Kang Min-woo",
-      "Han Yi-seul"
-    ],
-    "crew": [],
-    "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?",
-    "posterPath": "/1xdJWTn5Tuqy7yWTywC9WBPyicW.jpg",
-    "backdropPath": "/2hUbwcGfmGZ0zAnJ7ZeqvImDUPK.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 2,
-    "criticalScore": 64,
-    "plexFit": "A compact drama option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.133Z",
-      "tmdbVoteAverage": 6.4,
-      "tmdbVoteCount": 17
     }
   },
   {
@@ -710354,70 +710377,6 @@
     }
   },
   {
-    "id": "on-the-hunt-2026",
-    "tmdbId": 1428857,
-    "imdbId": "tt35663059",
-    "title": "On the Hunt",
-    "originalLanguage": "en",
-    "year": 2026,
-    "releaseDate": "2026-02-27",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "tags": [
-      "los angeles, california",
-      "criminal underworld",
-      "political corruption",
-      "missing daughter",
-      "ex special forces",
-      "race against time"
-    ],
-    "directors": [
-      "Jared Cohn"
-    ],
-    "cast": [
-      "Nicky Whelan",
-      "Cam Gigandet",
-      "Til Schweiger",
-      "Robert LaSardo",
-      "Chris Cleveland",
-      "Timothy V. Murphy"
-    ],
-    "crew": [
-      {
-        "name": "Jared Cohn",
-        "job": "Director"
-      },
-      {
-        "name": "Chad Law",
-        "job": "Writer"
-      },
-      {
-        "name": "Josh Ridgway",
-        "job": "Writer"
-      },
-      {
-        "name": "Vaagn Sarkissyan",
-        "job": "Producer"
-      }
-    ],
-    "synopsis": "A former military woman takes on a ruthless criminal underworld in a race against time to find her missing daughter.",
-    "posterPath": "/gkscqnZZrCT5lLsniw1KNL9iiJ0.jpg",
-    "backdropPath": "/9gBWv7nDp1oiB9GqNk14ajZ8IG7.jpg",
-    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-    "popularity": 2,
-    "criticalScore": 47,
-    "plexFit": "A useful action title for broadening the local catalog.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/5okGj0_X8NM",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.274Z",
-      "tmdbVoteAverage": 4.7,
-      "tmdbVoteCount": 17
-    }
-  },
-  {
     "id": "vicky-vidya-ka-woh-wala-video-2024",
     "tmdbId": 1213712,
     "imdbId": "tt29330913",
@@ -718209,45 +718168,6 @@
     }
   },
   {
-    "id": "making-squid-game-the-challenge-2023",
-    "tmdbId": 1214667,
-    "imdbId": "tt30327680",
-    "title": "Making Squid Game: The Challenge",
-    "originalLanguage": "en",
-    "year": 2023,
-    "releaseDate": "2023-12-06",
-    "runtimeMinutes": 30,
-    "genres": [
-      "Documentary"
-    ],
-    "tags": [
-      "behind the scenes",
-      "making of"
-    ],
-    "directors": [],
-    "cast": [
-      "Nicola Brown",
-      "Rikki Finlay",
-      "Tim Harcourt",
-      "Toni Ireland",
-      "Stephen Lambert",
-      "Rich Leist"
-    ],
-    "crew": [],
-    "synopsis": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition.",
-    "posterPath": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
-    "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 3,
-    "criticalScore": 80,
-    "plexFit": "A compact documentary option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.380Z",
-      "tmdbVoteAverage": 8,
-      "tmdbVoteCount": 239
-    }
-  },
-  {
     "id": "nights-of-cabiria-1957",
     "tmdbId": 19426,
     "imdbId": "tt0050783",
@@ -720953,6 +720873,71 @@
       "tmdbUpdatedAt": "2026-06-24T10:28:37.760Z",
       "tmdbVoteAverage": 7.923,
       "tmdbVoteCount": 111
+    }
+  },
+  {
+    "id": "kitbull-2019",
+    "tmdbId": 574074,
+    "imdbId": "tt9536832",
+    "title": "Kitbull",
+    "originalLanguage": "en",
+    "year": 2019,
+    "releaseDate": "2019-01-18",
+    "runtimeMinutes": 9,
+    "genres": [
+      "Animation",
+      "Family",
+      "Drama"
+    ],
+    "tags": [
+      "friendship",
+      "cat",
+      "dog",
+      "animals",
+      "short film",
+      "buddy film"
+    ],
+    "directors": [
+      "Rosana Sullivan"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Rosana Sullivan",
+        "job": "Director"
+      },
+      {
+        "name": "Rosana Sullivan",
+        "job": "Writer"
+      },
+      {
+        "name": "Kathryn Hendrickson",
+        "job": "Producer"
+      },
+      {
+        "name": "Andrew Jimenez",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Arjun Rihan",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Katie Schaefer",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
+    "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
+    "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 2,
+    "criticalScore": 79,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:11.820Z",
+      "tmdbVoteAverage": 7.9,
+      "tmdbVoteCount": 424
     }
   },
   {
@@ -724146,44 +724131,6 @@
       "tmdbUpdatedAt": "2026-07-28T10:14:29.416Z",
       "tmdbVoteAverage": 7.77,
       "tmdbVoteCount": 74
-    }
-  },
-  {
-    "id": "creating-the-queen-s-gambit-2021",
-    "tmdbId": 784047,
-    "imdbId": "tt13818410",
-    "title": "Creating The Queen's Gambit",
-    "originalLanguage": "en",
-    "year": 2021,
-    "releaseDate": "2021-01-10",
-    "runtimeMinutes": 14,
-    "genres": [
-      "Documentary"
-    ],
-    "tags": [
-      "chess"
-    ],
-    "directors": [],
-    "cast": [
-      "Anya Taylor-Joy",
-      "Scott Frank",
-      "Bruce Pandolfini",
-      "Allan Scott",
-      "Thomas Brodie-Sangster",
-      "Sabine Schaaf"
-    ],
-    "crew": [],
-    "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life.",
-    "posterPath": "/gKxPyeItCrOscP8On4y5sG3WY9A.jpg",
-    "backdropPath": "/4aTonMQCSEgu5PV3n3xRaNMZmG1.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 1,
-    "criticalScore": 78,
-    "plexFit": "A compact documentary option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.418Z",
-      "tmdbVoteAverage": 7.8,
-      "tmdbVoteCount": 141
     }
   },
   {
@@ -749853,6 +749800,62 @@
       "tmdbUpdatedAt": "2026-06-14T10:31:13.896Z",
       "tmdbVoteAverage": 7.415,
       "tmdbVoteCount": 1469
+    }
+  },
+  {
+    "id": "burrow-2020",
+    "tmdbId": 747059,
+    "imdbId": "tt13167288",
+    "title": "Burrow",
+    "originalLanguage": "en",
+    "year": 2020,
+    "releaseDate": "2020-12-25",
+    "runtimeMinutes": 6,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "tags": [
+      "pixar sparkshorts"
+    ],
+    "directors": [
+      "Madeline Sharafian"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Madeline Sharafian",
+        "job": "Director"
+      },
+      {
+        "name": "Madeline Sharafian",
+        "job": "Writer"
+      },
+      {
+        "name": "Mike Capbarat",
+        "job": "Producer"
+      },
+      {
+        "name": "Andrew Jimenez",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Anna Wolitzky",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help.",
+    "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
+    "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 2,
+    "criticalScore": 74,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.310Z",
+      "tmdbVoteAverage": 7.4,
+      "tmdbVoteCount": 325
     }
   },
   {
@@ -806860,6 +806863,64 @@
     }
   },
   {
+    "id": "my-worst-enemy-2026",
+    "tmdbId": 1611380,
+    "imdbId": "tt35495331",
+    "title": "My Worst Enemy",
+    "originalTitle": "Mi mejor enemiga",
+    "originalLanguage": "es",
+    "year": 2026,
+    "releaseDate": "2026-02-05",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Comedy"
+    ],
+    "tags": [
+      "femininity"
+    ],
+    "directors": [
+      "Saskia Bernaola"
+    ],
+    "cast": [
+      "Nataniel Sánchez",
+      "Fiorella Luna",
+      "Mateo Garrido-Lecca",
+      "Omar García",
+      "Kukuli Morante",
+      "Carla Arriola"
+    ],
+    "crew": [
+      {
+        "name": "Saskia Bernaola",
+        "job": "Director"
+      },
+      {
+        "name": "Rogger Vergara Adrianzén",
+        "job": "Writer"
+      },
+      {
+        "name": "Paco Bardales",
+        "job": "Writer"
+      },
+      {
+        "name": "Dorian Fernández-Moris",
+        "job": "Writer"
+      }
+    ],
+    "synopsis": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situations where they will discover the true value of friendship and the weight of the past on the present.",
+    "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
+    "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 2,
+    "criticalScore": 70,
+    "plexFit": "A useful comedy title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:13.586Z",
+      "tmdbVoteAverage": 7,
+      "tmdbVoteCount": 23
+    }
+  },
+  {
     "id": "naked-lunch-1991",
     "tmdbId": 2742,
     "imdbId": "tt0102511",
@@ -821255,55 +821316,6 @@
     }
   },
   {
-    "id": "jack-whitehall-at-large-2017",
-    "tmdbId": 479269,
-    "imdbId": "tt7539884",
-    "title": "Jack Whitehall: At Large",
-    "originalLanguage": "en",
-    "year": 2017,
-    "releaseDate": "2017-10-24",
-    "runtimeMinutes": 67,
-    "genres": [
-      "Comedy",
-      "TV Movie"
-    ],
-    "tags": [
-      "stand-up comedy"
-    ],
-    "directors": [
-      "Brian Klein"
-    ],
-    "cast": [
-      "Jack Whitehall"
-    ],
-    "crew": [
-      {
-        "name": "Brian Klein",
-        "job": "Director"
-      },
-      {
-        "name": "Jack Whitehall",
-        "job": "Writer"
-      },
-      {
-        "name": "Jack Whitehall",
-        "job": "Producer"
-      }
-    ],
-    "synopsis": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
-    "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 1,
-    "criticalScore": 69,
-    "plexFit": "A compact comedy option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:12.993Z",
-      "tmdbVoteAverage": 6.9,
-      "tmdbVoteCount": 69
-    }
-  },
-  {
     "id": "jane-eyre-1996",
     "tmdbId": 47333,
     "imdbId": "tt0116684",
@@ -831583,96 +831595,6 @@
       "tmdbUpdatedAt": "2026-07-23T10:09:05.959Z",
       "tmdbVoteAverage": 6.759,
       "tmdbVoteCount": 621
-    }
-  },
-  {
-    "id": "alesha-popovich-and-tugarin-the-dragon-2004",
-    "tmdbId": 33065,
-    "imdbId": "tt0415481",
-    "title": "Alesha Popovich and Tugarin the Dragon",
-    "originalTitle": "Алёша Попович и Тугарин Змей",
-    "originalLanguage": "ru",
-    "year": 2004,
-    "releaseDate": "2004-12-23",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Family",
-      "Fantasy"
-    ],
-    "tags": [
-      "legend",
-      "fairy tale",
-      "musical",
-      "quiz",
-      "sword fight",
-      "speaking horse"
-    ],
-    "directors": [
-      "Konstantin Bronzit"
-    ],
-    "cast": [
-      "Oleg Kulikovich",
-      "Liya Medvedeva",
-      "Anatoli Petrov",
-      "Dmitry Vysotsky",
-      "Ivan Krasko",
-      "Tatyana Ivanova"
-    ],
-    "crew": [
-      {
-        "name": "Konstantin Bronzit",
-        "job": "Director"
-      },
-      {
-        "name": "Konstantin Bronzit",
-        "job": "Editor"
-      },
-      {
-        "name": "Konstantin Bronzit",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Aleksandr Boyarsky",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Ilya Maksimov",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Maxim Sveshnikov",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Aleksandr Boyarsky",
-        "job": "Producer"
-      },
-      {
-        "name": "Sergei Selyanov",
-        "job": "Producer"
-      },
-      {
-        "name": "Valentin Vasenkov",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Sergey Glezin",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "Alesha Popovich has to catch Tugarin Zmey and bring back the stolen money with the help of a talking Horse (which talks all the time and has an opinion on everything), a wise granny, a donkey and a beauty Lyubava.",
-    "posterPath": "/6TbmALbiJNDsEGAmse0Yzp4PDjF.jpg",
-    "backdropPath": "/mJq1t1RlRse7r3JgQs5napkYOhQ.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 3,
-    "criticalScore": 68,
-    "plexFit": "A useful animation title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:13.032Z",
-      "tmdbVoteAverage": 6.8,
-      "tmdbVoteCount": 146
     }
   },
   {
@@ -860057,6 +859979,43 @@
     }
   },
   {
+    "id": "return-2008",
+    "tmdbId": 839321,
+    "title": "Return",
+    "originalTitle": "Powrót",
+    "originalLanguage": "pl",
+    "year": 2008,
+    "releaseDate": "2008-01-01",
+    "runtimeMinutes": 8,
+    "genres": [
+      "Animation",
+      "Science Fiction"
+    ],
+    "tags": [
+      "short film"
+    ],
+    "directors": [
+      "Anna Błaszczyk"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Anna Błaszczyk",
+        "job": "Director"
+      }
+    ],
+    "synopsis": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to Earth after many years away.",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 2,
+    "criticalScore": 67,
+    "plexFit": "A compact animation option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:14.925Z",
+      "tmdbVoteAverage": 6.7,
+      "tmdbVoteCount": 582
+    }
+  },
+  {
     "id": "ride-or-die-2021",
     "tmdbId": 796849,
     "imdbId": "tt14164234",
@@ -861780,6 +861739,58 @@
       "tmdbUpdatedAt": "2026-06-08T11:06:30.204Z",
       "tmdbVoteAverage": 6.685,
       "tmdbVoteCount": 1343
+    }
+  },
+  {
+    "id": "stolen-eyes-2005",
+    "tmdbId": 231377,
+    "imdbId": "tt0441025",
+    "title": "Stolen Eyes",
+    "originalTitle": "Откраднати очи",
+    "originalLanguage": "bg",
+    "year": 2005,
+    "releaseDate": "2005-11-04",
+    "runtimeMinutes": 110,
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "tags": [],
+    "directors": [
+      "Radoslav Spassov"
+    ],
+    "cast": [
+      "Vesela Kazakova",
+      "Valeri Yordanov",
+      "Nejat İşler",
+      "Ichak Finci",
+      "Stoyan Aleksiev",
+      "Djoko Rosic"
+    ],
+    "crew": [
+      {
+        "name": "Radoslav Spassov",
+        "job": "Director"
+      },
+      {
+        "name": "Radoslav Spassov",
+        "job": "Writer"
+      },
+      {
+        "name": "Neri Terzieva",
+        "job": "Writer"
+      }
+    ],
+    "synopsis": "This is a story of strange, impossible, inexplicable love between a Muslim Turk woman and a non-Muslim Bulgarian man. Ivan (the Bulgarian) is a pure and romantic young fellow, who gets caught up in the so-called \"regeneration process\" (when ethnic Turks' names were forcibly changed to Bulgarian ones). He is responsible for the official seals, which is required to issue the new identity documents after the forced name changes. The schoolteacher Ayten tries to steal the seals, thinking that this way she can slow down the ethnic genocide. Their unexpected and unusual meeting brings these two characters together and makes them fell close, forcing Ivan to take a fateful decision -he must either \"rename\" Ayten, or face the consequences if he does not.",
+    "posterPath": "/mkcmuzrbzGKehU3yY9IOpGGknkg.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 2,
+    "criticalScore": 67,
+    "plexFit": "A useful history title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:15.381Z",
+      "tmdbVoteAverage": 6.7,
+      "tmdbVoteCount": 10
     }
   },
   {
@@ -895565,6 +895576,51 @@
     }
   },
   {
+    "id": "the-motorist-1906",
+    "tmdbId": 132379,
+    "imdbId": "tt0000534",
+    "title": "The '?' Motorist",
+    "originalLanguage": "en",
+    "year": 1906,
+    "releaseDate": "1906-10-08",
+    "runtimeMinutes": 3,
+    "genres": [
+      "Science Fiction",
+      "Fantasy",
+      "Comedy"
+    ],
+    "tags": [
+      "silent film"
+    ],
+    "directors": [
+      "Walter R. Booth"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Walter R. Booth",
+        "job": "Director"
+      },
+      {
+        "name": "Robert W. Paul",
+        "job": "Producer"
+      }
+    ],
+    "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
+    "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
+    "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
+    "posterTone": "from-teal-300 via-slate-700 to-black",
+    "popularity": 2,
+    "criticalScore": 65,
+    "plexFit": "A compact science fiction option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:15.474Z",
+      "tmdbVoteAverage": 6.5,
+      "tmdbVoteCount": 64
+    }
+  },
+  {
     "id": "the-captive-2025",
     "tmdbId": 1238188,
     "imdbId": "tt31101921",
@@ -901987,6 +902043,44 @@
       "tmdbUpdatedAt": "2026-06-29T11:06:43.394Z",
       "tmdbVoteAverage": 6.422,
       "tmdbVoteCount": 596
+    }
+  },
+  {
+    "id": "blood-type-o-watermelon-chest-housekeeper-2021",
+    "tmdbId": 854663,
+    "title": "Blood Type O, Watermelon Chest Housekeeper",
+    "originalTitle": "O형수박가슴가정부",
+    "originalLanguage": "ko",
+    "year": 2021,
+    "releaseDate": "2021-01-08",
+    "runtimeMinutes": 70,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tags": [
+      "softcore",
+      "melodrama"
+    ],
+    "directors": [],
+    "cast": [
+      "Seung Ha",
+      "Chul Jin",
+      "Kang Min-woo",
+      "Han Yi-seul"
+    ],
+    "crew": [],
+    "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?",
+    "posterPath": "/1xdJWTn5Tuqy7yWTywC9WBPyicW.jpg",
+    "backdropPath": "/2hUbwcGfmGZ0zAnJ7ZeqvImDUPK.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 2,
+    "criticalScore": 64,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.133Z",
+      "tmdbVoteAverage": 6.4,
+      "tmdbVoteCount": 17
     }
   },
   {
@@ -909404,56 +909498,6 @@
       "tmdbUpdatedAt": "2026-07-06T11:00:30.935Z",
       "tmdbVoteAverage": 6.402,
       "tmdbVoteCount": 968
-    }
-  },
-  {
-    "id": "murder-by-the-coast-2021",
-    "tmdbId": 830645,
-    "imdbId": "tt13323092",
-    "title": "Murder by the Coast",
-    "originalTitle": "El caso Wanninkhof - Carabantes",
-    "originalLanguage": "es",
-    "year": 2021,
-    "releaseDate": "2021-06-23",
-    "runtimeMinutes": 88,
-    "genres": [
-      "Documentary",
-      "Crime",
-      "History",
-      "Mystery"
-    ],
-    "tags": [
-      "murder",
-      "serial killer",
-      "true crime",
-      "1990s",
-      "wrongly accused"
-    ],
-    "directors": [
-      "Tània Balló"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Tània Balló",
-        "job": "Director"
-      },
-      {
-        "name": "Tània Balló",
-        "job": "Writer"
-      }
-    ],
-    "synopsis": "In 1999, teen Rocío Wanninkhof is murdered. Her mother's ex-partner, Dolores Vázquez, is suspected. Did she do it? A second victim reveals the truth.",
-    "posterPath": "/5P9aiu9zOIC8YAx9Tj3YKZbwtmT.jpg",
-    "backdropPath": "/xVfNU7lGZQxZp8zRPNV5IY05klo.jpg",
-    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-    "popularity": 1,
-    "criticalScore": 64,
-    "plexFit": "A compact documentary option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:13.360Z",
-      "tmdbVoteAverage": 6.4,
-      "tmdbVoteCount": 57
     }
   },
   {
@@ -943456,6 +943500,57 @@
       "tmdbUpdatedAt": "2026-06-12T16:56:17.507Z",
       "tmdbVoteAverage": 6.169,
       "tmdbVoteCount": 1176
+    }
+  },
+  {
+    "id": "my-father-s-wings-2016",
+    "tmdbId": 412672,
+    "imdbId": "tt5830248",
+    "title": "My Father's Wings",
+    "originalTitle": "Babamın Kanatları",
+    "originalLanguage": "tr",
+    "year": 2016,
+    "releaseDate": "2016-07-06",
+    "runtimeMinutes": 101,
+    "genres": [
+      "Drama"
+    ],
+    "tags": [
+      "turkey",
+      "poverty",
+      "construction worker"
+    ],
+    "directors": [
+      "Kıvanç Sezer"
+    ],
+    "cast": [
+      "Menderes Samancılar",
+      "Musab Ekici",
+      "Kübra Kip",
+      "Tansel Öngel",
+      "Mustafa Kirantepe",
+      "Sarp Aydınoğlu"
+    ],
+    "crew": [
+      {
+        "name": "Kıvanç Sezer",
+        "job": "Director"
+      },
+      {
+        "name": "Jörg Gruber",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society.",
+    "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 2,
+    "criticalScore": 62,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:13.623Z",
+      "tmdbVoteAverage": 6.2,
+      "tmdbVoteCount": 11
     }
   },
   {
@@ -1063458,6 +1063553,70 @@
     }
   },
   {
+    "id": "on-the-hunt-2026",
+    "tmdbId": 1428857,
+    "imdbId": "tt35663059",
+    "title": "On the Hunt",
+    "originalLanguage": "en",
+    "year": 2026,
+    "releaseDate": "2026-02-27",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "tags": [
+      "los angeles, california",
+      "criminal underworld",
+      "political corruption",
+      "missing daughter",
+      "ex special forces",
+      "race against time"
+    ],
+    "directors": [
+      "Jared Cohn"
+    ],
+    "cast": [
+      "Nicky Whelan",
+      "Cam Gigandet",
+      "Til Schweiger",
+      "Robert LaSardo",
+      "Chris Cleveland",
+      "Timothy V. Murphy"
+    ],
+    "crew": [
+      {
+        "name": "Jared Cohn",
+        "job": "Director"
+      },
+      {
+        "name": "Chad Law",
+        "job": "Writer"
+      },
+      {
+        "name": "Josh Ridgway",
+        "job": "Writer"
+      },
+      {
+        "name": "Vaagn Sarkissyan",
+        "job": "Producer"
+      }
+    ],
+    "synopsis": "A former military woman takes on a ruthless criminal underworld in a race against time to find her missing daughter.",
+    "posterPath": "/gkscqnZZrCT5lLsniw1KNL9iiJ0.jpg",
+    "backdropPath": "/9gBWv7nDp1oiB9GqNk14ajZ8IG7.jpg",
+    "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+    "popularity": 2,
+    "criticalScore": 47,
+    "plexFit": "A useful action title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/5okGj0_X8NM",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.274Z",
+      "tmdbVoteAverage": 4.7,
+      "tmdbVoteCount": 17
+    }
+  },
+  {
     "id": "recep-ivedik-3-2010",
     "tmdbId": 32926,
     "imdbId": "tt1577061",
@@ -1077761,6 +1077920,44 @@
       "tmdbUpdatedAt": "2026-08-01T10:05:20.189Z",
       "tmdbVoteAverage": 7.8,
       "tmdbVoteCount": 90
+    }
+  },
+  {
+    "id": "creating-the-queen-s-gambit-2021",
+    "tmdbId": 784047,
+    "imdbId": "tt13818410",
+    "title": "Creating The Queen's Gambit",
+    "originalLanguage": "en",
+    "year": 2021,
+    "releaseDate": "2021-01-10",
+    "runtimeMinutes": 14,
+    "genres": [
+      "Documentary"
+    ],
+    "tags": [
+      "chess"
+    ],
+    "directors": [],
+    "cast": [
+      "Anya Taylor-Joy",
+      "Scott Frank",
+      "Bruce Pandolfini",
+      "Allan Scott",
+      "Thomas Brodie-Sangster",
+      "Sabine Schaaf"
+    ],
+    "crew": [],
+    "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life.",
+    "posterPath": "/gKxPyeItCrOscP8On4y5sG3WY9A.jpg",
+    "backdropPath": "/4aTonMQCSEgu5PV3n3xRaNMZmG1.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 1,
+    "criticalScore": 78,
+    "plexFit": "A compact documentary option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.418Z",
+      "tmdbVoteAverage": 7.8,
+      "tmdbVoteCount": 141
     }
   },
   {
@@ -1138168,64 +1138365,6 @@
     }
   },
   {
-    "id": "my-worst-enemy-2026",
-    "tmdbId": 1611380,
-    "imdbId": "tt35495331",
-    "title": "My Worst Enemy",
-    "originalTitle": "Mi mejor enemiga",
-    "originalLanguage": "es",
-    "year": 2026,
-    "releaseDate": "2026-02-05",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Comedy"
-    ],
-    "tags": [
-      "femininity"
-    ],
-    "directors": [
-      "Saskia Bernaola"
-    ],
-    "cast": [
-      "Nataniel Sánchez",
-      "Fiorella Luna",
-      "Mateo Garrido-Lecca",
-      "Omar García",
-      "Kukuli Morante",
-      "Carla Arriola"
-    ],
-    "crew": [
-      {
-        "name": "Saskia Bernaola",
-        "job": "Director"
-      },
-      {
-        "name": "Rogger Vergara Adrianzén",
-        "job": "Writer"
-      },
-      {
-        "name": "Paco Bardales",
-        "job": "Writer"
-      },
-      {
-        "name": "Dorian Fernández-Moris",
-        "job": "Writer"
-      }
-    ],
-    "synopsis": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situations where they will discover the true value of friendship and the weight of the past on the present.",
-    "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
-    "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
-    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-    "popularity": 2,
-    "criticalScore": 70,
-    "plexFit": "A useful comedy title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:13.586Z",
-      "tmdbVoteAverage": 7,
-      "tmdbVoteCount": 23
-    }
-  },
-  {
     "id": "next-avengers-heroes-of-tomorrow-2008",
     "tmdbId": 14613,
     "imdbId": "tt1259998",
@@ -1148859,6 +1148998,55 @@
       "tmdbUpdatedAt": "2026-06-19T10:58:35.804Z",
       "tmdbVoteAverage": 6.942,
       "tmdbVoteCount": 722
+    }
+  },
+  {
+    "id": "jack-whitehall-at-large-2017",
+    "tmdbId": 479269,
+    "imdbId": "tt7539884",
+    "title": "Jack Whitehall: At Large",
+    "originalLanguage": "en",
+    "year": 2017,
+    "releaseDate": "2017-10-24",
+    "runtimeMinutes": 67,
+    "genres": [
+      "Comedy",
+      "TV Movie"
+    ],
+    "tags": [
+      "stand-up comedy"
+    ],
+    "directors": [
+      "Brian Klein"
+    ],
+    "cast": [
+      "Jack Whitehall"
+    ],
+    "crew": [
+      {
+        "name": "Brian Klein",
+        "job": "Director"
+      },
+      {
+        "name": "Jack Whitehall",
+        "job": "Writer"
+      },
+      {
+        "name": "Jack Whitehall",
+        "job": "Producer"
+      }
+    ],
+    "synopsis": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
+    "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 1,
+    "criticalScore": 69,
+    "plexFit": "A compact comedy option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:12.993Z",
+      "tmdbVoteAverage": 6.9,
+      "tmdbVoteCount": 69
     }
   },
   {
@@ -1176042,43 +1176230,6 @@
     }
   },
   {
-    "id": "return-2008",
-    "tmdbId": 839321,
-    "title": "Return",
-    "originalTitle": "Powrót",
-    "originalLanguage": "pl",
-    "year": 2008,
-    "releaseDate": "2008-01-01",
-    "runtimeMinutes": 8,
-    "genres": [
-      "Animation",
-      "Science Fiction"
-    ],
-    "tags": [
-      "short film"
-    ],
-    "directors": [
-      "Anna Błaszczyk"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Anna Błaszczyk",
-        "job": "Director"
-      }
-    ],
-    "synopsis": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to Earth after many years away.",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 2,
-    "criticalScore": 67,
-    "plexFit": "A compact animation option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:14.925Z",
-      "tmdbVoteAverage": 6.7,
-      "tmdbVoteCount": 582
-    }
-  },
-  {
     "id": "return-of-special-forces-5-2021",
     "tmdbId": 865921,
     "imdbId": "tt16369220",
@@ -1177202,58 +1177353,6 @@
       "tmdbUpdatedAt": "2026-07-13T10:34:05.625Z",
       "tmdbVoteAverage": 6.71,
       "tmdbVoteCount": 365
-    }
-  },
-  {
-    "id": "stolen-eyes-2005",
-    "tmdbId": 231377,
-    "imdbId": "tt0441025",
-    "title": "Stolen Eyes",
-    "originalTitle": "Откраднати очи",
-    "originalLanguage": "bg",
-    "year": 2005,
-    "releaseDate": "2005-11-04",
-    "runtimeMinutes": 110,
-    "genres": [
-      "History",
-      "Drama"
-    ],
-    "tags": [],
-    "directors": [
-      "Radoslav Spassov"
-    ],
-    "cast": [
-      "Vesela Kazakova",
-      "Valeri Yordanov",
-      "Nejat İşler",
-      "Ichak Finci",
-      "Stoyan Aleksiev",
-      "Djoko Rosic"
-    ],
-    "crew": [
-      {
-        "name": "Radoslav Spassov",
-        "job": "Director"
-      },
-      {
-        "name": "Radoslav Spassov",
-        "job": "Writer"
-      },
-      {
-        "name": "Neri Terzieva",
-        "job": "Writer"
-      }
-    ],
-    "synopsis": "This is a story of strange, impossible, inexplicable love between a Muslim Turk woman and a non-Muslim Bulgarian man. Ivan (the Bulgarian) is a pure and romantic young fellow, who gets caught up in the so-called \"regeneration process\" (when ethnic Turks' names were forcibly changed to Bulgarian ones). He is responsible for the official seals, which is required to issue the new identity documents after the forced name changes. The schoolteacher Ayten tries to steal the seals, thinking that this way she can slow down the ethnic genocide. Their unexpected and unusual meeting brings these two characters together and makes them fell close, forcing Ivan to take a fateful decision -he must either \"rename\" Ayten, or face the consequences if he does not.",
-    "posterPath": "/mkcmuzrbzGKehU3yY9IOpGGknkg.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 2,
-    "criticalScore": 67,
-    "plexFit": "A useful history title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:15.381Z",
-      "tmdbVoteAverage": 6.7,
-      "tmdbVoteCount": 10
     }
   },
   {
@@ -1199978,51 +1200077,6 @@
     }
   },
   {
-    "id": "the-motorist-1906",
-    "tmdbId": 132379,
-    "imdbId": "tt0000534",
-    "title": "The '?' Motorist",
-    "originalLanguage": "en",
-    "year": 1906,
-    "releaseDate": "1906-10-08",
-    "runtimeMinutes": 3,
-    "genres": [
-      "Science Fiction",
-      "Fantasy",
-      "Comedy"
-    ],
-    "tags": [
-      "silent film"
-    ],
-    "directors": [
-      "Walter R. Booth"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Walter R. Booth",
-        "job": "Director"
-      },
-      {
-        "name": "Robert W. Paul",
-        "job": "Producer"
-      }
-    ],
-    "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
-    "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
-    "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
-    "posterTone": "from-teal-300 via-slate-700 to-black",
-    "popularity": 2,
-    "criticalScore": 65,
-    "plexFit": "A compact science fiction option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:15.474Z",
-      "tmdbVoteAverage": 6.5,
-      "tmdbVoteCount": 64
-    }
-  },
-  {
     "id": "the-assassination-of-richard-nixon-2004",
     "tmdbId": 842,
     "imdbId": "tt0364961",
@@ -1209953,6 +1210007,56 @@
       "tmdbUpdatedAt": "2026-06-14T00:28:48.781Z",
       "tmdbVoteAverage": 6.446,
       "tmdbVoteCount": 111
+    }
+  },
+  {
+    "id": "murder-by-the-coast-2021",
+    "tmdbId": 830645,
+    "imdbId": "tt13323092",
+    "title": "Murder by the Coast",
+    "originalTitle": "El caso Wanninkhof - Carabantes",
+    "originalLanguage": "es",
+    "year": 2021,
+    "releaseDate": "2021-06-23",
+    "runtimeMinutes": 88,
+    "genres": [
+      "Documentary",
+      "Crime",
+      "History",
+      "Mystery"
+    ],
+    "tags": [
+      "murder",
+      "serial killer",
+      "true crime",
+      "1990s",
+      "wrongly accused"
+    ],
+    "directors": [
+      "Tània Balló"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Tània Balló",
+        "job": "Director"
+      },
+      {
+        "name": "Tània Balló",
+        "job": "Writer"
+      }
+    ],
+    "synopsis": "In 1999, teen Rocío Wanninkhof is murdered. Her mother's ex-partner, Dolores Vázquez, is suspected. Did she do it? A second victim reveals the truth.",
+    "posterPath": "/5P9aiu9zOIC8YAx9Tj3YKZbwtmT.jpg",
+    "backdropPath": "/xVfNU7lGZQxZp8zRPNV5IY05klo.jpg",
+    "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+    "popularity": 1,
+    "criticalScore": 64,
+    "plexFit": "A compact documentary option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-10-27T13:43:13.360Z",
+      "tmdbVoteAverage": 6.4,
+      "tmdbVoteCount": 57
     }
   },
   {
@@ -1231319,57 +1231423,6 @@
       "tmdbUpdatedAt": "2026-06-14T00:28:50.057Z",
       "tmdbVoteAverage": 6.247,
       "tmdbVoteCount": 491
-    }
-  },
-  {
-    "id": "my-father-s-wings-2016",
-    "tmdbId": 412672,
-    "imdbId": "tt5830248",
-    "title": "My Father's Wings",
-    "originalTitle": "Babamın Kanatları",
-    "originalLanguage": "tr",
-    "year": 2016,
-    "releaseDate": "2016-07-06",
-    "runtimeMinutes": 101,
-    "genres": [
-      "Drama"
-    ],
-    "tags": [
-      "turkey",
-      "poverty",
-      "construction worker"
-    ],
-    "directors": [
-      "Kıvanç Sezer"
-    ],
-    "cast": [
-      "Menderes Samancılar",
-      "Musab Ekici",
-      "Kübra Kip",
-      "Tansel Öngel",
-      "Mustafa Kirantepe",
-      "Sarp Aydınoğlu"
-    ],
-    "crew": [
-      {
-        "name": "Kıvanç Sezer",
-        "job": "Director"
-      },
-      {
-        "name": "Jörg Gruber",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society.",
-    "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 2,
-    "criticalScore": 62,
-    "plexFit": "A compact drama option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-10-27T13:43:13.623Z",
-      "tmdbVoteAverage": 6.2,
-      "tmdbVoteCount": 11
     }
   },
   {
