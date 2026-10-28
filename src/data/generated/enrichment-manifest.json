@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-28T07:08:26.096Z",
+  "generatedAt": "2026-10-28T16:09:17.047Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-10-27T15:26:07.644Z",
+      "lastFetchedAt": "2026-10-28T16:09:16.377Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78155,7 +78155,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-10-27T15:26:07.723Z",
+      "lastFetchedAt": "2026-10-28T16:09:16.598Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -99276,6 +99276,12 @@
     "1656220": {
       "recordId": "23-000-lives-2026",
       "lastFetchedAt": "2026-07-30T00:19:57.656Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1657630": {
+      "recordId": "the-awakening-2026",
+      "lastFetchedAt": "2026-10-28T16:09:16.681Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },

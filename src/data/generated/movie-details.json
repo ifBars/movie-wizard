@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T14:39:23.955Z",
+  "generatedAt": "2026-10-28T16:09:17.380Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -1888,6 +1888,57 @@
         "tmdbVoteCount": 42
       },
       "synopsis": "A charming, witty, and deeply relatable story of love and sisterhood."
+    },
+    "the-awakening-2026": {
+      "id": "the-awakening-2026",
+      "crew": [
+        {
+          "name": "Jaime Osorio Márquez",
+          "job": "Director"
+        },
+        {
+          "name": "Jaime Osorio Márquez",
+          "job": "Writer"
+        },
+        {
+          "name": "Luis F Peraza",
+          "job": "Producer"
+        },
+        {
+          "name": "Gabriela Remirez",
+          "job": "Producer"
+        },
+        {
+          "name": "Paul Drago",
+          "job": "Producer"
+        },
+        {
+          "name": "Roberto Rios",
+          "job": "Producer"
+        },
+        {
+          "name": "Camilo Sanabria",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Matías Nicolás",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Santiago Sánchez",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Esteban Muñoz",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T16:09:16.681Z",
+        "tmdbVoteAverage": 7.3,
+        "tmdbVoteCount": 20
+      },
+      "synopsis": "An elite military unit on a mission in the South American jungle encounters a deadly supernatural force revealing an ancient presence that continues to claim anyone who dares enter its domain."
     },
     "vishwanath-and-sons-2026": {
       "id": "vishwanath-and-sons-2026",
@@ -14103,41 +14154,6 @@
       },
       "synopsis": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals."
     },
-    "the-treehouse-2025": {
-      "id": "the-treehouse-2025",
-      "crew": [
-        {
-          "name": "Luis Calderón",
-          "job": "Director"
-        },
-        {
-          "name": "Luis Calderón",
-          "job": "Writer"
-        },
-        {
-          "name": "José Luis Rancaño",
-          "job": "Producer"
-        },
-        {
-          "name": "Diego Urruchi",
-          "job": "Producer"
-        },
-        {
-          "name": "María Rivera",
-          "job": "Producer"
-        },
-        {
-          "name": "Ernesto Báez",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:13.489Z",
-        "tmdbVoteAverage": 3.7,
-        "tmdbVoteCount": 39
-      },
-      "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly."
-    },
     "la-familia-del-barrio-la-maldicion-del-quinto-partido-2026": {
       "id": "la-familia-del-barrio-la-maldicion-del-quinto-partido-2026",
       "crew": [
@@ -14570,57 +14586,6 @@
         "tmdbVoteCount": 11
       },
       "synopsis": "Eight grassroot mortals use their street smarts and hilarious schemes to defy powerful gods, earning their title as the \"Eight Immortals.\""
-    },
-    "flow-2024": {
-      "id": "flow-2024",
-      "crew": [
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Producer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Editor"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ron Dyens",
-          "job": "Producer"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Producer"
-        },
-        {
-          "name": "Gregory Zalcman",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:13.625Z",
-        "tmdbVoteAverage": 8.056,
-        "tmdbVoteCount": 3135
-      },
-      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
     },
     "la-la-land-2016": {
       "id": "la-la-land-2016",
@@ -15267,6 +15232,41 @@
         "tmdbVoteCount": 10
       },
       "synopsis": "Chechu is a 13 year old boy who lives surrounded by peculiar people: his grandfather, his uncle, and two maids. He falls in love with one of them."
+    },
+    "the-treehouse-2025": {
+      "id": "the-treehouse-2025",
+      "crew": [
+        {
+          "name": "Luis Calderón",
+          "job": "Director"
+        },
+        {
+          "name": "Luis Calderón",
+          "job": "Writer"
+        },
+        {
+          "name": "José Luis Rancaño",
+          "job": "Producer"
+        },
+        {
+          "name": "Diego Urruchi",
+          "job": "Producer"
+        },
+        {
+          "name": "María Rivera",
+          "job": "Producer"
+        },
+        {
+          "name": "Ernesto Báez",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:13.489Z",
+        "tmdbVoteAverage": 3.7,
+        "tmdbVoteCount": 39
+      },
+      "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly."
     },
     "12-angry-men-1957": {
       "id": "12-angry-men-1957",
@@ -16774,6 +16774,57 @@
         "tmdbVoteCount": 16635
       },
       "synopsis": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity."
+    },
+    "flow-2024": {
+      "id": "flow-2024",
+      "crew": [
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Producer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Editor"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ron Dyens",
+          "job": "Producer"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Producer"
+        },
+        {
+          "name": "Gregory Zalcman",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:13.625Z",
+        "tmdbVoteAverage": 8.056,
+        "tmdbVoteCount": 3135
+      },
+      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
     },
     "hope-2026": {
       "id": "hope-2026",
@@ -78415,21 +78466,6 @@
       },
       "synopsis": "Jaded ex-CIA operative John Creasy reluctantly accepts a job as the bodyguard for a 10-year-old girl in Mexico City. They clash at first, but eventually bond, and when she's kidnapped he's consumed by fury and will stop at nothing to save her life."
     },
-    "picardia-mexicana-1978": {
-      "id": "picardia-mexicana-1978",
-      "crew": [
-        {
-          "name": "Abel Salazar",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:14.096Z",
-        "tmdbVoteAverage": 7.5,
-        "tmdbVoteCount": 80
-      },
-      "synopsis": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language."
-    },
     "scott-pilgrim-vs-the-world-2010": {
       "id": "scott-pilgrim-vs-the-world-2010",
       "crew": [
@@ -90439,41 +90475,6 @@
       },
       "synopsis": "A grandmother has a passionate affair with a man half her age, who is also sleeping with her daughter."
     },
-    "mauvaise-pioche-2026": {
-      "id": "mauvaise-pioche-2026",
-      "crew": [
-        {
-          "name": "Gérard Jugnot",
-          "job": "Director"
-        },
-        {
-          "name": "Gérard Jugnot",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Serge Lamadie",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Frédéric Hazan",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Marc-Etienne Schwartz",
-          "job": "Producer"
-        },
-        {
-          "name": "Pierric Gantelmi d'Ille",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:14.347Z",
-        "tmdbVoteAverage": 5.978,
-        "tmdbVoteCount": 45
-      },
-      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
-    },
     "blade-trinity-2004": {
       "id": "blade-trinity-2004",
       "crew": [
@@ -96753,6 +96754,21 @@
         "tmdbVoteCount": 591
       },
       "synopsis": "When their latest scheme goes awry, Mayor Humdinger and his nephew Harold accidentally divert a meteor towards Adventure Bay. The meteor's golden energy grants the PAW Patrol superpowers. The heroic Mighty Pups are on a roll to super-save the day."
+    },
+    "picardia-mexicana-1978": {
+      "id": "picardia-mexicana-1978",
+      "crew": [
+        {
+          "name": "Abel Salazar",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:14.096Z",
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 80
+      },
+      "synopsis": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language."
     },
     "spartacus-1960": {
       "id": "spartacus-1960",
@@ -114297,6 +114313,41 @@
       },
       "synopsis": "Factory worker Doug Quaid takes a virtual mind-trip vacation with the Rekall company, opting for implanted memories of being a spy. When the procedure goes wrong, Quaid becomes a wanted man by the police and joins forces with a rebel fighter to stop the evil Chancellor Cohaagen."
     },
+    "mauvaise-pioche-2026": {
+      "id": "mauvaise-pioche-2026",
+      "crew": [
+        {
+          "name": "Gérard Jugnot",
+          "job": "Director"
+        },
+        {
+          "name": "Gérard Jugnot",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Serge Lamadie",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Frédéric Hazan",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Marc-Etienne Schwartz",
+          "job": "Producer"
+        },
+        {
+          "name": "Pierric Gantelmi d'Ille",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:14.347Z",
+        "tmdbVoteAverage": 5.978,
+        "tmdbVoteCount": 45
+      },
+      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
+    },
     "young-mother-3-2015": {
       "id": "young-mother-3-2015",
       "crew": [
@@ -118479,6 +118530,33 @@
       },
       "synopsis": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love."
     },
+    "human-2015": {
+      "id": "human-2015",
+      "crew": [
+        {
+          "name": "Yann Arthus-Bertrand",
+          "job": "Director"
+        },
+        {
+          "name": "Daniel Meyer",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Anne-Marie Sangla",
+          "job": "Editor"
+        },
+        {
+          "name": "Françoise Bernard",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:14.861Z",
+        "tmdbVoteAverage": 8.4,
+        "tmdbVoteCount": 316
+      },
+      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
+    },
     "impossible-things-2021": {
       "id": "impossible-things-2021",
       "crew": [
@@ -118811,6 +118889,37 @@
         "tmdbVoteCount": 18013
       },
       "synopsis": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out."
+    },
+    "versa-2025": {
+      "id": "versa-2025",
+      "crew": [
+        {
+          "name": "Malcon Pierce",
+          "job": "Director"
+        },
+        {
+          "name": "Malcon Pierce",
+          "job": "Writer"
+        },
+        {
+          "name": "Bradford Simonsen",
+          "job": "Producer"
+        },
+        {
+          "name": "Haim Mazar",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Pace Paulsen",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:14.955Z",
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 66
+      },
+      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "big-world-2024": {
       "id": "big-world-2024",
@@ -121796,6 +121905,45 @@
         "tmdbVoteCount": 3183
       },
       "synopsis": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty."
+    },
+    "the-storyteller-2024": {
+      "id": "the-storyteller-2024",
+      "crew": [
+        {
+          "name": "Philippe Lefebvre",
+          "job": "Director"
+        },
+        {
+          "name": "François-Henri Désérable",
+          "job": "Writer"
+        },
+        {
+          "name": "Maria Pourchet",
+          "job": "Writer"
+        },
+        {
+          "name": "Xavier Rigault",
+          "job": "Producer"
+        },
+        {
+          "name": "Marc-Antoine Robert",
+          "job": "Producer"
+        },
+        {
+          "name": "Médéric Albouy",
+          "job": "Producer"
+        },
+        {
+          "name": "Aurélien Dubois",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:16.353Z",
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
+      },
+      "synopsis": "No synopsis is available yet."
     },
     "the-tunnel-to-summer-the-exit-of-goodbyes-2022": {
       "id": "the-tunnel-to-summer-the-exit-of-goodbyes-2022",
@@ -161894,33 +162042,6 @@
       },
       "synopsis": "They're back! BTS gathers in LA to record their album \"Arirang\" in this documentary offering unprecedented access to the band as they enter a new era."
     },
-    "human-2015": {
-      "id": "human-2015",
-      "crew": [
-        {
-          "name": "Yann Arthus-Bertrand",
-          "job": "Director"
-        },
-        {
-          "name": "Daniel Meyer",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Anne-Marie Sangla",
-          "job": "Editor"
-        },
-        {
-          "name": "Françoise Bernard",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:14.861Z",
-        "tmdbVoteAverage": 8.4,
-        "tmdbVoteCount": 316
-      },
-      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
-    },
     "wild-london-2026": {
       "id": "wild-london-2026",
       "crew": [
@@ -162150,37 +162271,6 @@
         "tmdbVoteCount": 565
       },
       "synopsis": "Filmmaker Alain Resnais documents the atrocities behind the walls of Hitler's concentration camps."
-    },
-    "versa-2025": {
-      "id": "versa-2025",
-      "crew": [
-        {
-          "name": "Malcon Pierce",
-          "job": "Director"
-        },
-        {
-          "name": "Malcon Pierce",
-          "job": "Writer"
-        },
-        {
-          "name": "Bradford Simonsen",
-          "job": "Producer"
-        },
-        {
-          "name": "Haim Mazar",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Pace Paulsen",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:14.955Z",
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 66
-      },
-      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "we-all-loved-each-other-so-much-1974": {
       "id": "we-all-loved-each-other-so-much-1974",
@@ -170104,6 +170194,41 @@
         "tmdbVoteCount": 1949
       },
       "synopsis": "Released after being wrongfully convicted and imprisoned for 13 years, a woman begins executing her elaborate plan of retribution."
+    },
+    "lou-2017": {
+      "id": "lou-2017",
+      "crew": [
+        {
+          "name": "Dave Mullins",
+          "job": "Director"
+        },
+        {
+          "name": "Dave Mullins",
+          "job": "Writer"
+        },
+        {
+          "name": "Dana Murray",
+          "job": "Producer"
+        },
+        {
+          "name": "Christophe Beck",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Adam Habib",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Anthony J. Greenberg",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:16.536Z",
+        "tmdbVoteAverage": 7.537,
+        "tmdbVoteCount": 441
+      },
+      "synopsis": "A lost-and-found box holds a mysterious and unseen monster within."
     },
     "lucky-number-slevin-2006": {
       "id": "lucky-number-slevin-2006",
@@ -192467,21 +192592,6 @@
         "tmdbVoteCount": 1780
       },
       "synopsis": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success – which propels him into a macabre universe."
-    },
-    "spider-man-all-roads-lead-to-no-way-home-2022": {
-      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-      "crew": [
-        {
-          "name": "Zack Stipe",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:15.504Z",
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 100
-      },
-      "synopsis": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts."
     },
     "taps-1981": {
       "id": "taps-1981",
@@ -246830,57 +246940,6 @@
       },
       "synopsis": "After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA."
     },
-    "if-anything-happens-i-love-you-2020": {
-      "id": "if-anything-happens-i-love-you-2020",
-      "crew": [
-        {
-          "name": "Will McCormack",
-          "job": "Director"
-        },
-        {
-          "name": "Will McCormack",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Director"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Producer"
-        },
-        {
-          "name": "Gerald Chamales",
-          "job": "Producer"
-        },
-        {
-          "name": "Maryann Garger",
-          "job": "Producer"
-        },
-        {
-          "name": "Gary Gilbert",
-          "job": "Producer"
-        },
-        {
-          "name": "Lindsay Marcus",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Peter Ettinger",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:16.257Z",
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 1026
-      },
-      "synopsis": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting."
-    },
     "kiss-the-ground-2020": {
       "id": "kiss-the-ground-2020",
       "crew": [
@@ -248119,45 +248178,6 @@
         "tmdbVoteCount": 513
       },
       "synopsis": "With the help of the \"Dragon Sin of Wrath\" Meliodas and the worst rebels in history, the Seven Deadly Sins, the \"Holy War\", in which four races, including Humans, Goddesses, Fairies and Giants fought against the Demons, is finally over. At the cost of the \"Lion Sin of Pride\" Escanor's life, the Demon King was defeated and the world regained peace. After that, each of the Sins take their own path."
-    },
-    "the-storyteller-2024": {
-      "id": "the-storyteller-2024",
-      "crew": [
-        {
-          "name": "Philippe Lefebvre",
-          "job": "Director"
-        },
-        {
-          "name": "François-Henri Désérable",
-          "job": "Writer"
-        },
-        {
-          "name": "Maria Pourchet",
-          "job": "Writer"
-        },
-        {
-          "name": "Xavier Rigault",
-          "job": "Producer"
-        },
-        {
-          "name": "Marc-Antoine Robert",
-          "job": "Producer"
-        },
-        {
-          "name": "Médéric Albouy",
-          "job": "Producer"
-        },
-        {
-          "name": "Aurélien Dubois",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:16.353Z",
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
-      },
-      "synopsis": "No synopsis is available yet."
     },
     "the-trial-of-the-chicago-7-2020": {
       "id": "the-trial-of-the-chicago-7-2020",
@@ -252326,41 +252346,6 @@
         "tmdbVoteCount": 156
       },
       "synopsis": "In their last year of high school, two girls in the brass band club perform a song inspired by a fairy tale that parallels their friendship."
-    },
-    "lou-2017": {
-      "id": "lou-2017",
-      "crew": [
-        {
-          "name": "Dave Mullins",
-          "job": "Director"
-        },
-        {
-          "name": "Dave Mullins",
-          "job": "Writer"
-        },
-        {
-          "name": "Dana Murray",
-          "job": "Producer"
-        },
-        {
-          "name": "Christophe Beck",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Adam Habib",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Anthony J. Greenberg",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:16.536Z",
-        "tmdbVoteAverage": 7.537,
-        "tmdbVoteCount": 441
-      },
-      "synopsis": "A lost-and-found box holds a mysterious and unseen monster within."
     },
     "mcfarland-usa-2015": {
       "id": "mcfarland-usa-2015",
@@ -268108,6 +268093,33 @@
       },
       "synopsis": "An ethical Baltimore defense lawyer disgusted with rampant legal corruption is forced to defend a judge he despises in a rape trial under the threat of being disbarred."
     },
+    "12-days-2017": {
+      "id": "12-days-2017",
+      "crew": [
+        {
+          "name": "Raymond Depardon",
+          "job": "Director"
+        },
+        {
+          "name": "Claudine Nougaret",
+          "job": "Producer"
+        },
+        {
+          "name": "Alexandre Desplat",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Simon Jacquet",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:17.847Z",
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
+      },
+      "synopsis": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet."
+    },
     "20-000-leagues-under-the-sea-1954": {
       "id": "20-000-leagues-under-the-sea-1954",
       "crew": [
@@ -276194,57 +276206,6 @@
         "tmdbVoteCount": 109
       },
       "synopsis": "Ho Kam-An is a lovestruck dim sum delivery boy who falls for a beautiful judo student. After being humiliated by her boyfriend, Ho Kam-An seeks the services of an aging master who teaches him a half-assed style of kung fu, \"Karate Kid\"-style."
-    },
-    "maggie-simpson-in-the-longest-daycare-2012": {
-      "id": "maggie-simpson-in-the-longest-daycare-2012",
-      "crew": [
-        {
-          "name": "David Silverman",
-          "job": "Director"
-        },
-        {
-          "name": "James L. Brooks",
-          "job": "Writer"
-        },
-        {
-          "name": "Matt Groening",
-          "job": "Writer"
-        },
-        {
-          "name": "Al Jean",
-          "job": "Writer"
-        },
-        {
-          "name": "Joel H. Cohen",
-          "job": "Writer"
-        },
-        {
-          "name": "David Mirkin",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Price",
-          "job": "Writer"
-        },
-        {
-          "name": "Matt Groening",
-          "job": "Producer"
-        },
-        {
-          "name": "Richard Sakai",
-          "job": "Producer"
-        },
-        {
-          "name": "Richard Raynis",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:16.630Z",
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 395
-      },
-      "synopsis": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmates. But when a lonely caterpillar befriends her, she makes it her mission to save it from a ruthless butterfly smashing toddler."
     },
     "matchstick-men-2003": {
       "id": "matchstick-men-2003",
@@ -289566,6 +289527,21 @@
         "tmdbVoteCount": 226
       },
       "synopsis": "After a cavalry group is massacred by the Cheyenne, only two survivors remain: Honus, a naive private devoted to his duty, and Cresta, a young woman who had lived with the Cheyenne two years and whose sympathies lie more with them than with the US government. Together, they must try to reach the cavalry's main base camp. As they travel onward, Honus is torn between his growing affection for Cresta."
+    },
+    "spider-man-all-roads-lead-to-no-way-home-2022": {
+      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+      "crew": [
+        {
+          "name": "Zack Stipe",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:15.504Z",
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 100
+      },
+      "synopsis": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts."
     },
     "stage-fright-1950": {
       "id": "stage-fright-1950",
@@ -304304,6 +304280,21 @@
         "tmdbVoteCount": 455
       },
       "synopsis": "During the Blitz of World War II, a female screenwriter works on a film celebrating England's resilience as a way to buoy a weary populace's spirits. Her efforts to dramatise the true story of two sisters who undertook their own maritime mission to rescue wounded soldiers are met with mixed feelings by a dismissive all-male staff."
+    },
+    "tin-tan-y-las-modelos-1960": {
+      "id": "tin-tan-y-las-modelos-1960",
+      "crew": [
+        {
+          "name": "Benito Alazraki",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:18.799Z",
+        "tmdbVoteAverage": 6.6,
+        "tmdbVoteCount": 16
+      },
+      "synopsis": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success."
     },
     "titan-a-e-2000": {
       "id": "titan-a-e-2000",
@@ -326785,6 +326776,37 @@
         "tmdbVoteCount": 1425
       },
       "synopsis": "Alexander's day begins with gum stuck in his hair, followed by more calamities. Though he finds little sympathy from his family and begins to wonder if bad things only happen to him, his mom, dad, brother, and sister all find themselves living through their own terrible, horrible, no good, very bad day."
+    },
+    "alien-from-the-darkness-1997": {
+      "id": "alien-from-the-darkness-1997",
+      "crew": [
+        {
+          "name": "Norio Takanami",
+          "job": "Director"
+        },
+        {
+          "name": "Shino Taira",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Saburo Omiya",
+          "job": "Producer"
+        },
+        {
+          "name": "CUE",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Yosuke Moriguchi",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:19.601Z",
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 14
+      },
+      "synopsis": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a young woman named Flair, and detonate the ghost ship. However, the danger is just beginning. With Flair on the Muse, the romances between the women begin to take a new turn. One by one, the crewmembers are attacked by a mysterious alien presence, desperate to find a way to reproduce with human women!"
     },
     "always-1989": {
       "id": "always-1989",
@@ -368568,6 +368590,37 @@
       },
       "synopsis": "A haunting erotic fairytale about Lucy, a young University student drawn into a mysterious hidden world of beauty and desire."
     },
+    "sous-ecrous-2024": {
+      "id": "sous-ecrous-2024",
+      "crew": [
+        {
+          "name": "Hakim Bougheraba",
+          "job": "Director"
+        },
+        {
+          "name": "Hakim Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ali Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Redouane Bougheraba",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ichem Bougheraba",
+          "job": "Screenplay"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:19.701Z",
+        "tmdbVoteAverage": 5.4,
+        "tmdbVoteCount": 55
+      },
+      "synopsis": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's not long before the masks fall off"
+    },
     "success-1984": {
       "id": "success-1984",
       "crew": [
@@ -383930,6 +383983,16 @@
       },
       "synopsis": "Before he was Craig of the Creek, he was just Craig — a new kid in a new town. All Craig wants is to go back to his old friends at his old home. But when he learns that the nearby creek is hiding a lost treasure that could make his wish come true, Craig sets off on a journey to find it — navigating the perilous suburban wilderness, forging new friendships, all while being pursued by a fearsome band of pirates who are bent on destroying the Creek itself."
     },
+    "creating-the-queen-s-gambit-2021": {
+      "id": "creating-the-queen-s-gambit-2021",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:20.454Z",
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 141
+      },
+      "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
     "eureka-2001": {
       "id": "eureka-2001",
       "crew": [
@@ -385023,6 +385086,16 @@
         "tmdbVoteCount": 643
       },
       "synopsis": "Out of prison after a five-year stretch, jewel thief Tony turns down a quick job his friend Jo offers him, until he discovers that his old girlfriend Mado has become the lover of local gangster Pierre Grutter during Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel heist, Tony and his crew appear to get away clean, but their actions after the job is completed threaten the lives of everyone involved."
+    },
+    "santana-greatest-hits-live-at-montreux-2011-2011": {
+      "id": "santana-greatest-hits-live-at-montreux-2011-2011",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:20.546Z",
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 11
+      },
+      "synopsis": "Carlos and the band have been frequent visitors to Montreux over the years and in 2011 they presented a stunning concert of their greatest hits, classic album tracks and brilliant cover versions from their debut album right up to 2010's Guitar Heaven . This is the ultimate Santana live concert and absolutely not to be missed."
     },
     "shooting-stars-2023": {
       "id": "shooting-stars-2023",
@@ -386894,6 +386967,57 @@
         "tmdbVoteCount": 1536
       },
       "synopsis": "A middle aged carpenter, who requires state welfare after injuring himself, is joined by a single mother in a similar scenario."
+    },
+    "if-anything-happens-i-love-you-2020": {
+      "id": "if-anything-happens-i-love-you-2020",
+      "crew": [
+        {
+          "name": "Will McCormack",
+          "job": "Director"
+        },
+        {
+          "name": "Will McCormack",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Director"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Producer"
+        },
+        {
+          "name": "Gerald Chamales",
+          "job": "Producer"
+        },
+        {
+          "name": "Maryann Garger",
+          "job": "Producer"
+        },
+        {
+          "name": "Gary Gilbert",
+          "job": "Producer"
+        },
+        {
+          "name": "Lindsay Marcus",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Peter Ettinger",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:16.257Z",
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 1026
+      },
+      "synopsis": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting."
     },
     "in-the-heat-of-the-night-1967": {
       "id": "in-the-heat-of-the-night-1967",
@@ -415278,33 +415402,6 @@
       },
       "synopsis": "In 1944, a courageous group of Russian soldiers managed to escape from German captivity in a half-destroyed legendary T-34 tank. Those were the times of unforgettable bravery, fierce fighting, unbreakable love, and legendary miracles."
     },
-    "12-days-2017": {
-      "id": "12-days-2017",
-      "crew": [
-        {
-          "name": "Raymond Depardon",
-          "job": "Director"
-        },
-        {
-          "name": "Claudine Nougaret",
-          "job": "Producer"
-        },
-        {
-          "name": "Alexandre Desplat",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Simon Jacquet",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:17.847Z",
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
-      },
-      "synopsis": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet."
-    },
     "3-women-1977": {
       "id": "3-women-1977",
       "crew": [
@@ -426611,6 +426708,57 @@
       },
       "synopsis": "A woman diagnosed with leukemia meets a Chinese-Scottish sailor who she loses contact with. In order to find him she enlists Worm, a man who runs a “lost and found” business, and the two set out to find what she’s looking for."
     },
+    "maggie-simpson-in-the-longest-daycare-2012": {
+      "id": "maggie-simpson-in-the-longest-daycare-2012",
+      "crew": [
+        {
+          "name": "David Silverman",
+          "job": "Director"
+        },
+        {
+          "name": "James L. Brooks",
+          "job": "Writer"
+        },
+        {
+          "name": "Matt Groening",
+          "job": "Writer"
+        },
+        {
+          "name": "Al Jean",
+          "job": "Writer"
+        },
+        {
+          "name": "Joel H. Cohen",
+          "job": "Writer"
+        },
+        {
+          "name": "David Mirkin",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Price",
+          "job": "Writer"
+        },
+        {
+          "name": "Matt Groening",
+          "job": "Producer"
+        },
+        {
+          "name": "Richard Sakai",
+          "job": "Producer"
+        },
+        {
+          "name": "Richard Raynis",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:16.630Z",
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 395
+      },
+      "synopsis": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmates. But when a lonely caterpillar befriends her, she makes it her mission to save it from a ruthless butterfly smashing toddler."
+    },
     "mary-shelley-2017": {
       "id": "mary-shelley-2017",
       "crew": [
@@ -434652,6 +434800,29 @@
         "tmdbVoteCount": 2467
       },
       "synopsis": "A clinically depressed teenager gets a new start after he checks himself into an adult psychiatric ward."
+    },
+    "jack-whitehall-at-large-2017": {
+      "id": "jack-whitehall-at-large-2017",
+      "crew": [
+        {
+          "name": "Brian Klein",
+          "job": "Director"
+        },
+        {
+          "name": "Jack Whitehall",
+          "job": "Writer"
+        },
+        {
+          "name": "Jack Whitehall",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:22.029Z",
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 69
+      },
+      "synopsis": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson."
     },
     "jane-eyre-1996": {
       "id": "jane-eyre-1996",
@@ -466936,21 +467107,6 @@
       },
       "synopsis": "A recent widow invites her husband's troubled best friend to live with her and her two children. As he gradually turns his life around, he helps the family cope and confront their loss."
     },
-    "tin-tan-y-las-modelos-1960": {
-      "id": "tin-tan-y-las-modelos-1960",
-      "crew": [
-        {
-          "name": "Benito Alazraki",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:18.799Z",
-        "tmdbVoteAverage": 6.6,
-        "tmdbVoteCount": 16
-      },
-      "synopsis": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success."
-    },
     "torn-curtain-1966": {
       "id": "torn-curtain-1966",
       "crew": [
@@ -473829,25 +473985,6 @@
         "tmdbVoteCount": 1115
       },
       "synopsis": "College freshman Sydney White arrives at Southern Atlantic University, determined to pledge her late mother's sorority. Unfortunately, she finds that the sisterhood has changed since her parent's day. Banished to a condemned house, Sydney joins forces with seven outcasts to take over the student government and win equal rights for nerd and noted alike."
-    },
-    "the-motorist-1906": {
-      "id": "the-motorist-1906",
-      "crew": [
-        {
-          "name": "Walter R. Booth",
-          "job": "Director"
-        },
-        {
-          "name": "Robert W. Paul",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:18.891Z",
-        "tmdbVoteAverage": 6.485,
-        "tmdbVoteCount": 65
-      },
-      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
     },
     "the-captive-2025": {
       "id": "the-captive-2025",
@@ -496156,37 +496293,6 @@
         "tmdbVoteCount": 56
       },
       "synopsis": "As bombs fall on London, writer Agatha Christie decides it is time to kill off her most famous creation."
-    },
-    "alien-from-the-darkness-1997": {
-      "id": "alien-from-the-darkness-1997",
-      "crew": [
-        {
-          "name": "Norio Takanami",
-          "job": "Director"
-        },
-        {
-          "name": "Shino Taira",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Saburo Omiya",
-          "job": "Producer"
-        },
-        {
-          "name": "CUE",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Yosuke Moriguchi",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:19.601Z",
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 14
-      },
-      "synopsis": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a young woman named Flair, and detonate the ghost ship. However, the danger is just beginning. With Flair on the Muse, the romances between the women begin to take a new turn. One by one, the crewmembers are attacked by a mysterious alien presence, desperate to find a way to reproduce with human women!"
     },
     "angel-of-mine-2019": {
       "id": "angel-of-mine-2019",
@@ -553244,37 +553350,6 @@
       },
       "synopsis": "A documentary filmmaker's research on a town's mysterious benefactor unearths an unexplained evil while staying at a local resort."
     },
-    "sous-ecrous-2024": {
-      "id": "sous-ecrous-2024",
-      "crew": [
-        {
-          "name": "Hakim Bougheraba",
-          "job": "Director"
-        },
-        {
-          "name": "Hakim Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ali Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Redouane Bougheraba",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ichem Bougheraba",
-          "job": "Screenplay"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:19.701Z",
-        "tmdbVoteAverage": 5.4,
-        "tmdbVoteCount": 55
-      },
-      "synopsis": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's not long before the masks fall off"
-    },
     "spy-hard-1996": {
       "id": "spy-hard-1996",
       "crew": [
@@ -571713,16 +571788,6 @@
       },
       "synopsis": "The mid 90’s. Turkey’s political instability, inflation and hopelesness on people were increased. In those years when all hope was lost, people deeply bond with Bold Pilot and Halis Karataş who win every race coming from the last place. People see themselves at the point where this horse and jockey are: at the back. This duo make people to believe that everybody can win. The race ends at the finish line and the first to cross this line are Bold Pilot and Halis riding it."
     },
-    "creating-the-queen-s-gambit-2021": {
-      "id": "creating-the-queen-s-gambit-2021",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:20.454Z",
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 141
-      },
-      "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
-    },
     "day-for-night-1973": {
       "id": "day-for-night-1973",
       "crew": [
@@ -572756,16 +572821,6 @@
         "tmdbVoteCount": 1074
       },
       "synopsis": "Dignity. Poise. Mystery. We expect nothing less from the great turn-of-the-century magician, Presto. But when Presto neglects to feed his rabbit one too many times, the magician finds he isn't the only one with a few tricks up his sleeve!"
-    },
-    "santana-greatest-hits-live-at-montreux-2011-2011": {
-      "id": "santana-greatest-hits-live-at-montreux-2011-2011",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:20.546Z",
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 11
-      },
-      "synopsis": "Carlos and the band have been frequent visitors to Montreux over the years and in 2011 they presented a stunning concert of their greatest hits, classic album tracks and brilliant cover versions from their debut album right up to 2010's Guitar Heaven . This is the ultimate Santana live concert and absolutely not to be missed."
     },
     "see-you-up-there-2017": {
       "id": "see-you-up-there-2017",
@@ -609242,29 +609297,6 @@
       },
       "synopsis": "A stunning cancer diagnosis spurs Abbie to seek a future girlfriend for fiancé and childhood sweetheart Sam, who's clueless when it comes to dating."
     },
-    "jack-whitehall-at-large-2017": {
-      "id": "jack-whitehall-at-large-2017",
-      "crew": [
-        {
-          "name": "Brian Klein",
-          "job": "Director"
-        },
-        {
-          "name": "Jack Whitehall",
-          "job": "Writer"
-        },
-        {
-          "name": "Jack Whitehall",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-10-28T14:39:22.029Z",
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 69
-      },
-      "synopsis": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson."
-    },
     "jesus-christ-superstar-live-in-concert-2018": {
       "id": "jesus-christ-superstar-live-in-concert-2018",
       "crew": [
@@ -636640,6 +636672,25 @@
         "tmdbVoteCount": 309
       },
       "synopsis": "A rogue scientist near a small desert town arouses the suspicion of the town's doctor when his lab assistant is found dead from a case of acromegaly, which took only four days to develop.  As the doctor investigates, aided by the scientist's new female assistant, they discover that something is devouring local cattle and humans in increasingly large quantities."
+    },
+    "the-motorist-1906": {
+      "id": "the-motorist-1906",
+      "crew": [
+        {
+          "name": "Walter R. Booth",
+          "job": "Director"
+        },
+        {
+          "name": "Robert W. Paul",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-10-28T14:39:18.891Z",
+        "tmdbVoteAverage": 6.485,
+        "tmdbVoteCount": 65
+      },
+      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
     },
     "the-assassination-of-richard-nixon-2004": {
       "id": "the-assassination-of-richard-nixon-2004",

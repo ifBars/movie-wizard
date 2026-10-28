@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T14:39:23.955Z",
+  "generatedAt": "2026-10-28T16:09:17.380Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -1909,6 +1909,52 @@
       "source": {
         "tmdbVoteAverage": 7.3,
         "tmdbVoteCount": 42
+      }
+    },
+    {
+      "id": "the-awakening-2026",
+      "tmdbId": 1657630,
+      "imdbId": "tt39120306",
+      "title": "The Awakening",
+      "originalTitle": "El despertar",
+      "originalLanguage": "es",
+      "year": 2026,
+      "releaseDate": "2026-10-29",
+      "runtimeMinutes": 96,
+      "genres": [
+        "Horror",
+        "Action",
+        "War",
+        "Fantasy",
+        "Thriller"
+      ],
+      "tags": [
+        "jungle",
+        "military unit",
+        "presence"
+      ],
+      "directors": [
+        "Jaime Osorio Márquez"
+      ],
+      "cast": [
+        "Claudio Cataño",
+        "Alejandro Buitrago",
+        "Hector Sánchez",
+        "Andrea Olaya",
+        "Quique Sanmartin",
+        "Jaisson Jeack"
+      ],
+      "posterPath": "/vNvHT0v9xt7dDTqYue2fWXePKi7.jpg",
+      "backdropPath": "/4pYKqctQvvdyhuGjiK4szH9jEv9.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 100,
+      "criticalScore": 73,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/3mE11o3BkQo",
+      "synopsisPreview": "An elite military unit on a mission in the South American jungle encounters a deadly supernatural force revealing an ancient presence that continues to claim anyone who dares enter its domain.",
+      "source": {
+        "tmdbVoteAverage": 7.3,
+        "tmdbVoteCount": 20
       }
     },
     {
@@ -15254,44 +15300,6 @@
       }
     },
     {
-      "id": "the-treehouse-2025",
-      "tmdbId": 1450404,
-      "imdbId": "tt35108122",
-      "title": "The Treehouse",
-      "originalTitle": "La casa en el árbol",
-      "originalLanguage": "es",
-      "year": 2025,
-      "releaseDate": "2025-09-19",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Horror"
-      ],
-      "tags": [],
-      "directors": [
-        "Luis Calderón"
-      ],
-      "cast": [
-        "Sandra Escacena",
-        "Claudio Portalo",
-        "Kandido Uranga",
-        "Mala Rodríguez",
-        "Apolonia Lapiedra",
-        "Asier Hernández"
-      ],
-      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 25,
-      "criticalScore": 37,
-      "plexFit": "A useful horror title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-      "source": {
-        "tmdbVoteAverage": 3.7,
-        "tmdbVoteCount": 39
-      }
-    },
-    {
       "id": "la-familia-del-barrio-la-maldicion-del-quinto-partido-2026",
       "tmdbId": 1554631,
       "imdbId": "tt42027122",
@@ -15815,49 +15823,6 @@
       "source": {
         "tmdbVoteAverage": 8.2,
         "tmdbVoteCount": 11
-      }
-    },
-    {
-      "id": "flow-2024",
-      "tmdbId": 823219,
-      "imdbId": "tt4772188",
-      "title": "Flow",
-      "originalTitle": "Straume",
-      "originalLanguage": "lv",
-      "year": 2024,
-      "releaseDate": "2024-08-29",
-      "runtimeMinutes": 85,
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy"
-      ],
-      "tags": [
-        "ocean",
-        "cat",
-        "boat",
-        "dystopia",
-        "survival",
-        "dog",
-        "ruins",
-        "flood"
-      ],
-      "directors": [
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-      "popularity": 22,
-      "criticalScore": 81,
-      "plexFit": "A compact adventure option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-      "source": {
-        "tmdbVoteAverage": 8.056,
-        "tmdbVoteCount": 3135
       }
     },
     {
@@ -16535,6 +16500,44 @@
       "source": {
         "tmdbVoteAverage": 5.35,
         "tmdbVoteCount": 10
+      }
+    },
+    {
+      "id": "the-treehouse-2025",
+      "tmdbId": 1450404,
+      "imdbId": "tt35108122",
+      "title": "The Treehouse",
+      "originalTitle": "La casa en el árbol",
+      "originalLanguage": "es",
+      "year": 2025,
+      "releaseDate": "2025-09-19",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Luis Calderón"
+      ],
+      "cast": [
+        "Sandra Escacena",
+        "Claudio Portalo",
+        "Kandido Uranga",
+        "Mala Rodríguez",
+        "Apolonia Lapiedra",
+        "Asier Hernández"
+      ],
+      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 25,
+      "criticalScore": 37,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+      "source": {
+        "tmdbVoteAverage": 3.7,
+        "tmdbVoteCount": 39
       }
     },
     {
@@ -18363,6 +18366,49 @@
       "source": {
         "tmdbVoteAverage": 8.4,
         "tmdbVoteCount": 16635
+      }
+    },
+    {
+      "id": "flow-2024",
+      "tmdbId": 823219,
+      "imdbId": "tt4772188",
+      "title": "Flow",
+      "originalTitle": "Straume",
+      "originalLanguage": "lv",
+      "year": 2024,
+      "releaseDate": "2024-08-29",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "tags": [
+        "ocean",
+        "cat",
+        "boat",
+        "dystopia",
+        "survival",
+        "dog",
+        "ruins",
+        "flood"
+      ],
+      "directors": [
+        "Gints Zilbalodis"
+      ],
+      "cast": [],
+      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 22,
+      "criticalScore": 81,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "source": {
+        "tmdbVoteAverage": 8.056,
+        "tmdbVoteCount": 3135
       }
     },
     {
@@ -87196,39 +87242,6 @@
       }
     },
     {
-      "id": "picardia-mexicana-1978",
-      "tmdbId": 372439,
-      "imdbId": "tt0229650",
-      "title": "Picardía mexicana",
-      "originalLanguage": "es",
-      "year": 1978,
-      "releaseDate": "1978-12-21",
-      "runtimeMinutes": 115,
-      "genres": [],
-      "tags": [],
-      "directors": [
-        "Abel Salazar"
-      ],
-      "cast": [
-        "Vicente Fernández",
-        "Héctor Suárez",
-        "Adalberto Martínez",
-        "Jacqueline Andere",
-        "Pedro Weber 'Chatanuga'",
-        "Luis de Alba"
-      ],
-      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 75,
-      "plexFit": "A useful catalog title for broadening the local catalog.",
-      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
-      "source": {
-        "tmdbVoteAverage": 7.5,
-        "tmdbVoteCount": 80
-      }
-    },
-    {
       "id": "scott-pilgrim-vs-the-world-2010",
       "tmdbId": 22538,
       "imdbId": "tt0446029",
@@ -100444,45 +100457,6 @@
       }
     },
     {
-      "id": "mauvaise-pioche-2026",
-      "tmdbId": 1440304,
-      "imdbId": "tt39314864",
-      "title": "Tough Luck",
-      "originalTitle": "Mauvaise Pioche",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-04-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "lighthearted"
-      ],
-      "directors": [
-        "Gérard Jugnot"
-      ],
-      "cast": [
-        "Gérard Jugnot",
-        "Thierry Lhermitte",
-        "Philippe Lacheau",
-        "Zabou Breitman",
-        "Jean-Pierre Darroussin",
-        "Michèle Laroque"
-      ],
-      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
-      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 60,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
-      "source": {
-        "tmdbVoteAverage": 5.978,
-        "tmdbVoteCount": 45
-      }
-    },
-    {
       "id": "blade-trinity-2004",
       "tmdbId": 36648,
       "imdbId": "tt0359013",
@@ -107755,6 +107729,39 @@
       "source": {
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 591
+      }
+    },
+    {
+      "id": "picardia-mexicana-1978",
+      "tmdbId": 372439,
+      "imdbId": "tt0229650",
+      "title": "Picardía mexicana",
+      "originalLanguage": "es",
+      "year": 1978,
+      "releaseDate": "1978-12-21",
+      "runtimeMinutes": 115,
+      "genres": [],
+      "tags": [],
+      "directors": [
+        "Abel Salazar"
+      ],
+      "cast": [
+        "Vicente Fernández",
+        "Héctor Suárez",
+        "Adalberto Martínez",
+        "Jacqueline Andere",
+        "Pedro Weber 'Chatanuga'",
+        "Luis de Alba"
+      ],
+      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 75,
+      "plexFit": "A useful catalog title for broadening the local catalog.",
+      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
+      "source": {
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 80
       }
     },
     {
@@ -126996,6 +127003,45 @@
       }
     },
     {
+      "id": "mauvaise-pioche-2026",
+      "tmdbId": 1440304,
+      "imdbId": "tt39314864",
+      "title": "Tough Luck",
+      "originalTitle": "Mauvaise Pioche",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "lighthearted"
+      ],
+      "directors": [
+        "Gérard Jugnot"
+      ],
+      "cast": [
+        "Gérard Jugnot",
+        "Thierry Lhermitte",
+        "Philippe Lacheau",
+        "Zabou Breitman",
+        "Jean-Pierre Darroussin",
+        "Michèle Laroque"
+      ],
+      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
+      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 60,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
+      "source": {
+        "tmdbVoteAverage": 5.978,
+        "tmdbVoteCount": 45
+      }
+    },
+    {
       "id": "young-mother-3-2015",
       "tmdbId": 386716,
       "imdbId": "tt11941248",
@@ -131712,6 +131758,41 @@
       }
     },
     {
+      "id": "human-2015",
+      "tmdbId": 359364,
+      "imdbId": "tt3327994",
+      "title": "Human",
+      "originalLanguage": "fr",
+      "year": 2015,
+      "releaseDate": "2015-09-12",
+      "runtimeMinutes": 191,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "thought-provoking",
+        "society",
+        "culture",
+        "humanity"
+      ],
+      "directors": [
+        "Yann Arthus-Bertrand"
+      ],
+      "cast": [],
+      "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
+      "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 84,
+      "plexFit": "A useful documentary title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
+      "synopsisPreview": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face t...",
+      "source": {
+        "tmdbVoteAverage": 8.4,
+        "tmdbVoteCount": 316
+      }
+    },
+    {
       "id": "impossible-things-2021",
       "tmdbId": 667257,
       "imdbId": "tt10032342",
@@ -132031,6 +132112,47 @@
       "source": {
         "tmdbVoteAverage": 8.346,
         "tmdbVoteCount": 18013
+      }
+    },
+    {
+      "id": "versa-2025",
+      "tmdbId": 1500099,
+      "imdbId": "tt37976405",
+      "title": "Versa",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-04-15",
+      "runtimeMinutes": 8,
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama",
+        "Fantasy"
+      ],
+      "tags": [
+        "pregnancy",
+        "loss",
+        "grief",
+        "child loss",
+        "acceptance",
+        "loss of child",
+        "celestial",
+        "inspirational"
+      ],
+      "directors": [
+        "Malcon Pierce"
+      ],
+      "cast": [],
+      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 5,
+      "criticalScore": 83,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
+      "source": {
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 66
       }
     },
     {
@@ -135532,6 +135654,44 @@
       "source": {
         "tmdbVoteAverage": 7.671,
         "tmdbVoteCount": 3183
+      }
+    },
+    {
+      "id": "the-storyteller-2024",
+      "tmdbId": 1108906,
+      "imdbId": "tt27304417",
+      "title": "The Storyteller",
+      "originalTitle": "L'enchanteur",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-02-12",
+      "runtimeMinutes": 92,
+      "genres": [
+        "Drama",
+        "TV Movie"
+      ],
+      "tags": [],
+      "directors": [
+        "Philippe Lefebvre"
+      ],
+      "cast": [
+        "Charles Berling",
+        "Miranda Raison",
+        "Claire de la Rüe du Can",
+        "Pierre Perrier",
+        "Anne Charrier",
+        "Gaspard Meier-Chaurand"
+      ],
+      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
+      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -179244,41 +179404,6 @@
       }
     },
     {
-      "id": "human-2015",
-      "tmdbId": 359364,
-      "imdbId": "tt3327994",
-      "title": "Human",
-      "originalLanguage": "fr",
-      "year": 2015,
-      "releaseDate": "2015-09-12",
-      "runtimeMinutes": 191,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "thought-provoking",
-        "society",
-        "culture",
-        "humanity"
-      ],
-      "directors": [
-        "Yann Arthus-Bertrand"
-      ],
-      "cast": [],
-      "posterPath": "/l02W63OGQKYugJrs3Uw8nA9gii4.jpg",
-      "backdropPath": "/c0gtBfDyOrba9e5wnFjrxn8rxQr.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 5,
-      "criticalScore": 84,
-      "plexFit": "A useful documentary title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0-Retnj3TsA",
-      "synopsisPreview": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face t...",
-      "source": {
-        "tmdbVoteAverage": 8.4,
-        "tmdbVoteCount": 316
-      }
-    },
-    {
       "id": "wild-london-2026",
       "tmdbId": 1604628,
       "imdbId": "tt39298503",
@@ -179543,47 +179668,6 @@
       "source": {
         "tmdbVoteAverage": 8.262,
         "tmdbVoteCount": 565
-      }
-    },
-    {
-      "id": "versa-2025",
-      "tmdbId": 1500099,
-      "imdbId": "tt37976405",
-      "title": "Versa",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-04-15",
-      "runtimeMinutes": 8,
-      "genres": [
-        "Animation",
-        "Family",
-        "Drama",
-        "Fantasy"
-      ],
-      "tags": [
-        "pregnancy",
-        "loss",
-        "grief",
-        "child loss",
-        "acceptance",
-        "loss of child",
-        "celestial",
-        "inspirational"
-      ],
-      "directors": [
-        "Malcon Pierce"
-      ],
-      "cast": [],
-      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 5,
-      "criticalScore": 83,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
-      "source": {
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 66
       }
     },
     {
@@ -188814,6 +188898,42 @@
       "source": {
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 1949
+      }
+    },
+    {
+      "id": "lou-2017",
+      "tmdbId": 433471,
+      "imdbId": "tt6267732",
+      "title": "Lou",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-06-16",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "short film",
+        "3d animation"
+      ],
+      "directors": [
+        "Dave Mullins"
+      ],
+      "cast": [],
+      "posterPath": "/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg",
+      "backdropPath": "/f13RF99zjorGVJnSSsOqyj5dzYh.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 75,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0iYsBnj2BUk",
+      "synopsisPreview": "A lost-and-found box holds a mysterious and unseen monster within.",
+      "source": {
+        "tmdbVoteAverage": 7.537,
+        "tmdbVoteCount": 441
       }
     },
     {
@@ -214115,45 +214235,6 @@
       "source": {
         "tmdbVoteAverage": 6.774,
         "tmdbVoteCount": 1780
-      }
-    },
-    {
-      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-      "tmdbId": 961651,
-      "imdbId": "tt20425026",
-      "title": "Spider-Man: All Roads Lead to No Way Home",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-05-03",
-      "runtimeMinutes": 30,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "short film",
-        "superhero",
-        "film production"
-      ],
-      "directors": [],
-      "cast": [
-        "Tom Holland",
-        "Tobey Maguire",
-        "Andrew Garfield",
-        "Willem Dafoe",
-        "Alfred Molina",
-        "Jamie Foxx"
-      ],
-      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
-      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 68,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
-      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
-      "source": {
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 100
       }
     },
     {
@@ -273864,45 +273945,6 @@
       }
     },
     {
-      "id": "if-anything-happens-i-love-you-2020",
-      "tmdbId": 713776,
-      "imdbId": "tt11768948",
-      "title": "If Anything Happens I Love You",
-      "originalLanguage": "en",
-      "year": 2020,
-      "releaseDate": "2020-11-20",
-      "runtimeMinutes": 12,
-      "genres": [
-        "Drama",
-        "Animation"
-      ],
-      "tags": [
-        "tearjerker",
-        "social issues",
-        "grieving parents",
-        "loss of child",
-        "short film",
-        "sentimental"
-      ],
-      "directors": [
-        "Will McCormack",
-        "Michael Govier"
-      ],
-      "cast": [],
-      "posterPath": "/85tDhACvKDQxQoJhBYLvDU0ik1n.jpg",
-      "backdropPath": "/tfhKc6tMxBVZuiipbXWUYdXyMYj.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/n18AbC8qfiw",
-      "synopsisPreview": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting.",
-      "source": {
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 1026
-      }
-    },
-    {
       "id": "kiss-the-ground-2020",
       "tmdbId": 737157,
       "imdbId": "tt8618654",
@@ -275310,44 +275352,6 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 513
-      }
-    },
-    {
-      "id": "the-storyteller-2024",
-      "tmdbId": 1108906,
-      "imdbId": "tt27304417",
-      "title": "The Storyteller",
-      "originalTitle": "L'enchanteur",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-02-12",
-      "runtimeMinutes": 92,
-      "genres": [
-        "Drama",
-        "TV Movie"
-      ],
-      "tags": [],
-      "directors": [
-        "Philippe Lefebvre"
-      ],
-      "cast": [
-        "Charles Berling",
-        "Miranda Raison",
-        "Claire de la Rüe du Can",
-        "Pierre Perrier",
-        "Anne Charrier",
-        "Gaspard Meier-Chaurand"
-      ],
-      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
-      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 5,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
       }
     },
     {
@@ -280174,42 +280178,6 @@
       "source": {
         "tmdbVoteAverage": 7.538,
         "tmdbVoteCount": 156
-      }
-    },
-    {
-      "id": "lou-2017",
-      "tmdbId": 433471,
-      "imdbId": "tt6267732",
-      "title": "Lou",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-06-16",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Family",
-        "Fantasy",
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "short film",
-        "3d animation"
-      ],
-      "directors": [
-        "Dave Mullins"
-      ],
-      "cast": [],
-      "posterPath": "/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg",
-      "backdropPath": "/f13RF99zjorGVJnSSsOqyj5dzYh.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 4,
-      "criticalScore": 75,
-      "plexFit": "A compact family option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0iYsBnj2BUk",
-      "synopsisPreview": "A lost-and-found box holds a mysterious and unseen monster within.",
-      "source": {
-        "tmdbVoteAverage": 7.537,
-        "tmdbVoteCount": 441
       }
     },
     {
@@ -298370,6 +298338,36 @@
       }
     },
     {
+      "id": "12-days-2017",
+      "tmdbId": 452221,
+      "imdbId": "tt6777114",
+      "title": "12 Days",
+      "originalTitle": "12 jours",
+      "originalLanguage": "fr",
+      "year": 2017,
+      "releaseDate": "2017-11-29",
+      "runtimeMinutes": 87,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Raymond Depardon"
+      ],
+      "cast": [],
+      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
+      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 71,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
+      }
+    },
+    {
       "id": "20-000-leagues-under-the-sea-1954",
       "tmdbId": 173,
       "imdbId": "tt0046672",
@@ -307742,45 +307740,6 @@
       "source": {
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 109
-      }
-    },
-    {
-      "id": "maggie-simpson-in-the-longest-daycare-2012",
-      "tmdbId": 116440,
-      "imdbId": "tt2175842",
-      "title": "Maggie Simpson in \"The Longest Daycare\"",
-      "originalLanguage": "en",
-      "year": 2012,
-      "releaseDate": "2012-07-03",
-      "runtimeMinutes": 5,
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "tags": [
-        "blue",
-        "daycare",
-        "toddler",
-        "butterfly",
-        "cocoon",
-        "short film"
-      ],
-      "directors": [
-        "David Silverman"
-      ],
-      "cast": [],
-      "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
-      "backdropPath": "/cxJsU3BfJ7NkKae5gWqJkmu3aCO.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/gV-NRwLV2qU",
-      "synopsisPreview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmate...",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 395
       }
     },
     {
@@ -322712,6 +322671,45 @@
       "source": {
         "tmdbVoteAverage": 6.781,
         "tmdbVoteCount": 226
+      }
+    },
+    {
+      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+      "tmdbId": 961651,
+      "imdbId": "tt20425026",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-05-03",
+      "runtimeMinutes": 30,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "short film",
+        "superhero",
+        "film production"
+      ],
+      "directors": [],
+      "cast": [
+        "Tom Holland",
+        "Tobey Maguire",
+        "Andrew Garfield",
+        "Willem Dafoe",
+        "Alfred Molina",
+        "Jamie Foxx"
+      ],
+      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 68,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
+      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 100
       }
     },
     {
@@ -339107,6 +339105,39 @@
       "source": {
         "tmdbVoteAverage": 6.574,
         "tmdbVoteCount": 455
+      }
+    },
+    {
+      "id": "tin-tan-y-las-modelos-1960",
+      "tmdbId": 542392,
+      "imdbId": "tt0265877",
+      "title": "Tin Tan y las modelos",
+      "originalLanguage": "es",
+      "year": 1960,
+      "releaseDate": "1960-07-07",
+      "runtimeMinutes": 80,
+      "genres": [],
+      "tags": [],
+      "directors": [
+        "Benito Alazraki"
+      ],
+      "cast": [
+        "Germán Valdés",
+        "Lorena Velázquez",
+        "Pancho Córdova",
+        "Marquesita Radell",
+        "Martha Elena Cervantes",
+        "Marcela Daviland"
+      ],
+      "posterPath": "/cSzgPbfI69vFd5jAke9PdTd6wHx.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 66,
+      "plexFit": "A compact catalog option for easier weeknight discovery.",
+      "synopsisPreview": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success.",
+      "source": {
+        "tmdbVoteAverage": 6.6,
+        "tmdbVoteCount": 16
       }
     },
     {
@@ -363696,6 +363727,53 @@
       "source": {
         "tmdbVoteAverage": 6.213,
         "tmdbVoteCount": 1425
+      }
+    },
+    {
+      "id": "alien-from-the-darkness-1997",
+      "tmdbId": 272108,
+      "imdbId": "tt0421577",
+      "title": "Alien from the Darkness",
+      "originalTitle": "淫獣エイリアン",
+      "originalLanguage": "ja",
+      "year": 1997,
+      "releaseDate": "1997-01-24",
+      "runtimeMinutes": 50,
+      "genres": [
+        "Animation",
+        "Horror",
+        "Science Fiction"
+      ],
+      "tags": [
+        "spacecraft",
+        "amnesia",
+        "monster",
+        "rape",
+        "investigation",
+        "seduction",
+        "alien",
+        "space"
+      ],
+      "directors": [
+        "Norio Takanami"
+      ],
+      "cast": [
+        "Kumiko Nishihara",
+        "Yumi Takada",
+        "Yoko Soumi",
+        "Hiroko Konishi",
+        "Sumie Baba",
+        "Kamimura Hina"
+      ],
+      "posterPath": "/dbxpznxnTpR5MCl0bdDRor7j4qK.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 62,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a yo...",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 14
       }
     },
     {
@@ -407965,6 +408043,43 @@
       }
     },
     {
+      "id": "sous-ecrous-2024",
+      "tmdbId": 1279871,
+      "imdbId": "tt33396612",
+      "title": "Sous écrous",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-12-18",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Hakim Bougheraba"
+      ],
+      "cast": [
+        "Ichem Bougheraba",
+        "Arriles Amrani",
+        "Bernard Farcy",
+        "Redouane Bougheraba",
+        "Brahim Bouhlel",
+        "Moussa Maaskri"
+      ],
+      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
+      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 54,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
+      "source": {
+        "tmdbVoteAverage": 5.4,
+        "tmdbVoteCount": 55
+      }
+    },
+    {
       "id": "success-1984",
       "tmdbId": 83492,
       "imdbId": "tt0199120",
@@ -424768,6 +424883,42 @@
       }
     },
     {
+      "id": "creating-the-queen-s-gambit-2021",
+      "tmdbId": 784047,
+      "imdbId": "tt13818410",
+      "title": "Creating The Queen's Gambit",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-01-10",
+      "runtimeMinutes": 14,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "chess"
+      ],
+      "directors": [],
+      "cast": [
+        "Anya Taylor-Joy",
+        "Scott Frank",
+        "Bruce Pandolfini",
+        "Allan Scott",
+        "Thomas Brodie-Sangster",
+        "Sabine Schaaf"
+      ],
+      "posterPath": "/gKxPyeItCrOscP8On4y5sG3WY9A.jpg",
+      "backdropPath": "/4aTonMQCSEgu5PV3n3xRaNMZmG1.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 78,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life.",
+      "source": {
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 141
+      }
+    },
+    {
       "id": "eureka-2001",
       "tmdbId": 38047,
       "imdbId": "tt0243889",
@@ -425992,6 +426143,46 @@
       "source": {
         "tmdbVoteAverage": 7.772,
         "tmdbVoteCount": 643
+      }
+    },
+    {
+      "id": "santana-greatest-hits-live-at-montreux-2011-2011",
+      "tmdbId": 93522,
+      "imdbId": "",
+      "title": "Santana: Greatest Hits - Live at Montreux 2011",
+      "originalLanguage": "en",
+      "year": 2011,
+      "releaseDate": "2011-07-02",
+      "runtimeMinutes": 168,
+      "genres": [
+        "Music"
+      ],
+      "tags": [
+        "concert",
+        "live",
+        "live performance",
+        "montreux",
+        "rock"
+      ],
+      "directors": [],
+      "cast": [
+        "Carlos Santana",
+        "Benny Rietveld",
+        "Dennis Chambers",
+        "Tommy Anthony",
+        "David Kirk Mathews",
+        "Karl Perazzo"
+      ],
+      "posterPath": "/wa1KAkM9xKKaeq157tPbxg26kru.jpg",
+      "backdropPath": "/7DXval44UC2pqUv7PWZ3U9CkiZs.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 78,
+      "plexFit": "A useful music title for broadening the local catalog.",
+      "synopsisPreview": "Carlos and the band have been frequent visitors to Montreux over the years and in 2011 they presented a stunning concert of their greatest hits, classic album tracks and brilliant cover versions from their debut album ri...",
+      "source": {
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 11
       }
     },
     {
@@ -428140,6 +428331,45 @@
       "source": {
         "tmdbVoteAverage": 7.712,
         "tmdbVoteCount": 1536
+      }
+    },
+    {
+      "id": "if-anything-happens-i-love-you-2020",
+      "tmdbId": 713776,
+      "imdbId": "tt11768948",
+      "title": "If Anything Happens I Love You",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-11-20",
+      "runtimeMinutes": 12,
+      "genres": [
+        "Drama",
+        "Animation"
+      ],
+      "tags": [
+        "tearjerker",
+        "social issues",
+        "grieving parents",
+        "loss of child",
+        "short film",
+        "sentimental"
+      ],
+      "directors": [
+        "Will McCormack",
+        "Michael Govier"
+      ],
+      "cast": [],
+      "posterPath": "/85tDhACvKDQxQoJhBYLvDU0ik1n.jpg",
+      "backdropPath": "/tfhKc6tMxBVZuiipbXWUYdXyMYj.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/n18AbC8qfiw",
+      "synopsisPreview": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting.",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 1026
       }
     },
     {
@@ -460729,36 +460959,6 @@
       }
     },
     {
-      "id": "12-days-2017",
-      "tmdbId": 452221,
-      "imdbId": "tt6777114",
-      "title": "12 Days",
-      "originalTitle": "12 jours",
-      "originalLanguage": "fr",
-      "year": 2017,
-      "releaseDate": "2017-11-29",
-      "runtimeMinutes": 87,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Raymond Depardon"
-      ],
-      "cast": [],
-      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
-      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 71,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
-      "source": {
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
-      }
-    },
-    {
       "id": "3-women-1977",
       "tmdbId": 41662,
       "imdbId": "tt0075612",
@@ -473662,6 +473862,45 @@
       }
     },
     {
+      "id": "maggie-simpson-in-the-longest-daycare-2012",
+      "tmdbId": 116440,
+      "imdbId": "tt2175842",
+      "title": "Maggie Simpson in \"The Longest Daycare\"",
+      "originalLanguage": "en",
+      "year": 2012,
+      "releaseDate": "2012-07-03",
+      "runtimeMinutes": 5,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "blue",
+        "daycare",
+        "toddler",
+        "butterfly",
+        "cocoon",
+        "short film"
+      ],
+      "directors": [
+        "David Silverman"
+      ],
+      "cast": [],
+      "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
+      "backdropPath": "/cxJsU3BfJ7NkKae5gWqJkmu3aCO.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/gV-NRwLV2qU",
+      "synopsisPreview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmate...",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 395
+      }
+    },
+    {
       "id": "mary-shelley-2017",
       "tmdbId": 332283,
       "imdbId": "tt3906082",
@@ -482517,6 +482756,40 @@
       "source": {
         "tmdbVoteAverage": 6.947,
         "tmdbVoteCount": 2467
+      }
+    },
+    {
+      "id": "jack-whitehall-at-large-2017",
+      "tmdbId": 479269,
+      "imdbId": "tt7539884",
+      "title": "Jack Whitehall: At Large",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-10-24",
+      "runtimeMinutes": 67,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "tags": [
+        "stand-up comedy"
+      ],
+      "directors": [
+        "Brian Klein"
+      ],
+      "cast": [
+        "Jack Whitehall"
+      ],
+      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
+      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 69
       }
     },
     {
@@ -518465,39 +518738,6 @@
       }
     },
     {
-      "id": "tin-tan-y-las-modelos-1960",
-      "tmdbId": 542392,
-      "imdbId": "tt0265877",
-      "title": "Tin Tan y las modelos",
-      "originalLanguage": "es",
-      "year": 1960,
-      "releaseDate": "1960-07-07",
-      "runtimeMinutes": 80,
-      "genres": [],
-      "tags": [],
-      "directors": [
-        "Benito Alazraki"
-      ],
-      "cast": [
-        "Germán Valdés",
-        "Lorena Velázquez",
-        "Pancho Córdova",
-        "Marquesita Radell",
-        "Martha Elena Cervantes",
-        "Marcela Daviland"
-      ],
-      "posterPath": "/cSzgPbfI69vFd5jAke9PdTd6wHx.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 66,
-      "plexFit": "A compact catalog option for easier weeknight discovery.",
-      "synopsisPreview": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success.",
-      "source": {
-        "tmdbVoteAverage": 6.6,
-        "tmdbVoteCount": 16
-      }
-    },
-    {
       "id": "torn-curtain-1966",
       "tmdbId": 5780,
       "imdbId": "tt0061107",
@@ -525877,40 +526117,6 @@
       "source": {
         "tmdbVoteAverage": 6.461,
         "tmdbVoteCount": 1115
-      }
-    },
-    {
-      "id": "the-motorist-1906",
-      "tmdbId": 132379,
-      "imdbId": "tt0000534",
-      "title": "The '?' Motorist",
-      "originalLanguage": "en",
-      "year": 1906,
-      "releaseDate": "1906-10-08",
-      "runtimeMinutes": 3,
-      "genres": [
-        "Science Fiction",
-        "Fantasy",
-        "Comedy"
-      ],
-      "tags": [
-        "silent film"
-      ],
-      "directors": [
-        "Walter R. Booth"
-      ],
-      "cast": [],
-      "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
-      "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
-      "posterTone": "from-teal-300 via-slate-700 to-black",
-      "popularity": 1,
-      "criticalScore": 65,
-      "plexFit": "A compact science fiction option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
-      "synopsisPreview": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
-      "source": {
-        "tmdbVoteAverage": 6.485,
-        "tmdbVoteCount": 65
       }
     },
     {
@@ -549715,53 +549921,6 @@
       "source": {
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 56
-      }
-    },
-    {
-      "id": "alien-from-the-darkness-1997",
-      "tmdbId": 272108,
-      "imdbId": "tt0421577",
-      "title": "Alien from the Darkness",
-      "originalTitle": "淫獣エイリアン",
-      "originalLanguage": "ja",
-      "year": 1997,
-      "releaseDate": "1997-01-24",
-      "runtimeMinutes": 50,
-      "genres": [
-        "Animation",
-        "Horror",
-        "Science Fiction"
-      ],
-      "tags": [
-        "spacecraft",
-        "amnesia",
-        "monster",
-        "rape",
-        "investigation",
-        "seduction",
-        "alien",
-        "space"
-      ],
-      "directors": [
-        "Norio Takanami"
-      ],
-      "cast": [
-        "Kumiko Nishihara",
-        "Yumi Takada",
-        "Yoko Soumi",
-        "Hiroko Konishi",
-        "Sumie Baba",
-        "Kamimura Hina"
-      ],
-      "posterPath": "/dbxpznxnTpR5MCl0bdDRor7j4qK.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 62,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "The all female crew of the transport ship Muse is on a mission in deep space. They pick up an SOS signal and discover a derelict space cruiser where all the women have died mysteriously. They take the only survivor, a yo...",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 14
       }
     },
     {
@@ -609657,43 +609816,6 @@
       }
     },
     {
-      "id": "sous-ecrous-2024",
-      "tmdbId": 1279871,
-      "imdbId": "tt33396612",
-      "title": "Sous écrous",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-12-18",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Hakim Bougheraba"
-      ],
-      "cast": [
-        "Ichem Bougheraba",
-        "Arriles Amrani",
-        "Bernard Farcy",
-        "Redouane Bougheraba",
-        "Brahim Bouhlel",
-        "Moussa Maaskri"
-      ],
-      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
-      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
-      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 54,
-      "plexFit": "A useful action title for broadening the local catalog.",
-      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
-      "source": {
-        "tmdbVoteAverage": 5.4,
-        "tmdbVoteCount": 55
-      }
-    },
-    {
       "id": "spy-hard-1996",
       "tmdbId": 10535,
       "imdbId": "tt0117723",
@@ -629565,42 +629687,6 @@
       }
     },
     {
-      "id": "creating-the-queen-s-gambit-2021",
-      "tmdbId": 784047,
-      "imdbId": "tt13818410",
-      "title": "Creating The Queen's Gambit",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-01-10",
-      "runtimeMinutes": 14,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "chess"
-      ],
-      "directors": [],
-      "cast": [
-        "Anya Taylor-Joy",
-        "Scott Frank",
-        "Bruce Pandolfini",
-        "Allan Scott",
-        "Thomas Brodie-Sangster",
-        "Sabine Schaaf"
-      ],
-      "posterPath": "/gKxPyeItCrOscP8On4y5sG3WY9A.jpg",
-      "backdropPath": "/4aTonMQCSEgu5PV3n3xRaNMZmG1.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 78,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life.",
-      "source": {
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 141
-      }
-    },
-    {
       "id": "day-for-night-1973",
       "tmdbId": 1675,
       "imdbId": "tt0070460",
@@ -630775,46 +630861,6 @@
       "source": {
         "tmdbVoteAverage": 7.794,
         "tmdbVoteCount": 1074
-      }
-    },
-    {
-      "id": "santana-greatest-hits-live-at-montreux-2011-2011",
-      "tmdbId": 93522,
-      "imdbId": "",
-      "title": "Santana: Greatest Hits - Live at Montreux 2011",
-      "originalLanguage": "en",
-      "year": 2011,
-      "releaseDate": "2011-07-02",
-      "runtimeMinutes": 168,
-      "genres": [
-        "Music"
-      ],
-      "tags": [
-        "concert",
-        "live",
-        "live performance",
-        "montreux",
-        "rock"
-      ],
-      "directors": [],
-      "cast": [
-        "Carlos Santana",
-        "Benny Rietveld",
-        "Dennis Chambers",
-        "Tommy Anthony",
-        "David Kirk Mathews",
-        "Karl Perazzo"
-      ],
-      "posterPath": "/wa1KAkM9xKKaeq157tPbxg26kru.jpg",
-      "backdropPath": "/7DXval44UC2pqUv7PWZ3U9CkiZs.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 78,
-      "plexFit": "A useful music title for broadening the local catalog.",
-      "synopsisPreview": "Carlos and the band have been frequent visitors to Montreux over the years and in 2011 they presented a stunning concert of their greatest hits, classic album tracks and brilliant cover versions from their debut album ri...",
-      "source": {
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 11
       }
     },
     {
@@ -671148,40 +671194,6 @@
       }
     },
     {
-      "id": "jack-whitehall-at-large-2017",
-      "tmdbId": 479269,
-      "imdbId": "tt7539884",
-      "title": "Jack Whitehall: At Large",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-10-24",
-      "runtimeMinutes": 67,
-      "genres": [
-        "Comedy",
-        "TV Movie"
-      ],
-      "tags": [
-        "stand-up comedy"
-      ],
-      "directors": [
-        "Brian Klein"
-      ],
-      "cast": [
-        "Jack Whitehall"
-      ],
-      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 69,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
-      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 69
-      }
-    },
-    {
       "id": "jesus-christ-superstar-live-in-concert-2018",
       "tmdbId": 495029,
       "imdbId": "tt6874964",
@@ -700365,6 +700377,40 @@
       "source": {
         "tmdbVoteAverage": 6.487,
         "tmdbVoteCount": 309
+      }
+    },
+    {
+      "id": "the-motorist-1906",
+      "tmdbId": 132379,
+      "imdbId": "tt0000534",
+      "title": "The '?' Motorist",
+      "originalLanguage": "en",
+      "year": 1906,
+      "releaseDate": "1906-10-08",
+      "runtimeMinutes": 3,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Comedy"
+      ],
+      "tags": [
+        "silent film"
+      ],
+      "directors": [
+        "Walter R. Booth"
+      ],
+      "cast": [],
+      "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
+      "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 1,
+      "criticalScore": 65,
+      "plexFit": "A compact science fiction option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
+      "synopsisPreview": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
+      "source": {
+        "tmdbVoteAverage": 6.485,
+        "tmdbVoteCount": 65
       }
     },
     {
