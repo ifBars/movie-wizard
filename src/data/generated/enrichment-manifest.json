@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-10-21T14:32:29.405Z",
+  "generatedAt": "2026-10-28T07:05:35.349Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -95292,6 +95292,12 @@
     "1279871": {
       "recordId": "sous-ecrous-2024",
       "lastFetchedAt": "2026-10-22T02:17:16.581Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1280115": {
+      "recordId": "way-of-the-warrior-kid-2026",
+      "lastFetchedAt": "2026-10-28T07:05:34.655Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
