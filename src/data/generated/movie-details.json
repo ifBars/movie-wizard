@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T20:43:31.661Z",
+  "generatedAt": "2026-10-30T03:20:50.348Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -18230,7 +18230,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.083Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:40.772Z",
         "tmdbVoteAverage": 3.7,
         "tmdbVoteCount": 39
       },
@@ -18425,11 +18425,11 @@
       "crew": [
         {
           "name": "Gints Zilbalodis",
-          "job": "Director"
+          "job": "Original Music Composer"
         },
         {
           "name": "Gints Zilbalodis",
-          "job": "Original Music Composer"
+          "job": "Director"
         },
         {
           "name": "Gints Zilbalodis",
@@ -18452,11 +18452,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Matīss Kaža",
+          "name": "Ron Dyens",
           "job": "Producer"
         },
         {
-          "name": "Ron Dyens",
+          "name": "Matīss Kaža",
           "job": "Producer"
         },
         {
@@ -18465,9 +18465,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.177Z",
-        "tmdbVoteAverage": 8.055,
-        "tmdbVoteCount": 3139
+        "tmdbUpdatedAt": "2026-10-30T03:20:40.864Z",
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 3140
       },
       "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
     },
@@ -36146,7 +36146,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.271Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:40.892Z",
         "tmdbVoteAverage": 8.2,
         "tmdbVoteCount": 108
       },
@@ -56009,7 +56009,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.365Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:40.984Z",
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 15
       },
@@ -77895,7 +77895,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.432Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.076Z",
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 53
       },
@@ -84349,7 +84349,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.529Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.082Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 25
       },
@@ -90729,7 +90729,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.622Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.086Z",
         "tmdbVoteAverage": 5.957,
         "tmdbVoteCount": 46
       },
@@ -93707,7 +93707,7 @@
       "id": "squid-game-making-season-2-2025",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.715Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.153Z",
         "tmdbVoteAverage": 8.3,
         "tmdbVoteCount": 462
       },
@@ -112743,7 +112743,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.809Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.248Z",
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 10
       },
@@ -118771,7 +118771,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.902Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.337Z",
         "tmdbVoteAverage": 8.4,
         "tmdbVoteCount": 316
       },
@@ -119135,7 +119135,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:22.995Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.471Z",
         "tmdbVoteAverage": 8.3,
         "tmdbVoteCount": 66
       },
@@ -119740,7 +119740,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.086Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.612Z",
         "tmdbVoteAverage": 8,
         "tmdbVoteCount": 13
       },
@@ -121124,7 +121124,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.220Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.705Z",
         "tmdbVoteAverage": 7.8,
         "tmdbVoteCount": 121
       },
@@ -122173,10 +122173,6 @@
           "job": "Writer"
         },
         {
-          "name": "Médéric Albouy",
-          "job": "Producer"
-        },
-        {
           "name": "Xavier Rigault",
           "job": "Producer"
         },
@@ -122185,12 +122181,16 @@
           "job": "Producer"
         },
         {
+          "name": "Médéric Albouy",
+          "job": "Producer"
+        },
+        {
           "name": "Aurélien Dubois",
           "job": "Director of Photography"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.316Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.796Z",
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 13
       },
@@ -124759,7 +124759,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.406Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.888Z",
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 80
       },
@@ -143766,7 +143766,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.499Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:41.981Z",
         "tmdbVoteAverage": 6.457,
         "tmdbVoteCount": 82
       },
@@ -160674,7 +160674,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.595Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.116Z",
         "tmdbVoteAverage": 5,
         "tmdbVoteCount": 18
       },
@@ -170459,7 +170459,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.693Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.255Z",
         "tmdbVoteAverage": 7.537,
         "tmdbVoteCount": 441
       },
@@ -184235,7 +184235,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.786Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.347Z",
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 689
       },
@@ -189013,7 +189013,7 @@
       "id": "reunion-goals-the-beginning-2017",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.812Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.439Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 15
       },
@@ -206715,7 +206715,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:23.945Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.531Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 15
       },
@@ -215452,7 +215452,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.037Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.536Z",
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 13
       },
@@ -218827,7 +218827,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.126Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.630Z",
         "tmdbVoteAverage": 6.1,
         "tmdbVoteCount": 25
       },
@@ -231995,7 +231995,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.219Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.722Z",
         "tmdbVoteAverage": 5.6,
         "tmdbVoteCount": 14
       },
@@ -241974,16 +241974,16 @@
           "job": "Original Music Composer"
         },
         {
-          "name": "Jeff Draheim",
+          "name": "Fabienne Rawley",
           "job": "Editor"
         },
         {
-          "name": "Fabienne Rawley",
+          "name": "Jeff Draheim",
           "job": "Editor"
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.310Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.831Z",
         "tmdbVoteAverage": 8.1,
         "tmdbVoteCount": 395
       },
@@ -242170,7 +242170,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.455Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:42.972Z",
         "tmdbVoteAverage": 8.131,
         "tmdbVoteCount": 1788
       },
@@ -242711,7 +242711,7 @@
       "id": "making-squid-game-the-challenge-2023",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.548Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.065Z",
         "tmdbVoteAverage": 8,
         "tmdbVoteCount": 239
       },
@@ -244874,11 +244874,11 @@
       "crew": [
         {
           "name": "Joseph Mateo",
-          "job": "Writer"
+          "job": "Director"
         },
         {
           "name": "Joseph Mateo",
-          "job": "Director"
+          "job": "Writer"
         },
         {
           "name": "Heather Feng",
@@ -244894,7 +244894,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.642Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.158Z",
         "tmdbVoteAverage": 7.77,
         "tmdbVoteCount": 189
       },
@@ -268330,7 +268330,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.733Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.253Z",
         "tmdbVoteAverage": 7.1,
         "tmdbVoteCount": 55
       },
@@ -280239,7 +280239,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.824Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.349Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 57
       },
@@ -285703,11 +285703,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Sergei Selyanov",
+          "name": "Aleksandr Boyarsky",
           "job": "Producer"
         },
         {
-          "name": "Aleksandr Boyarsky",
+          "name": "Sergei Selyanov",
           "job": "Producer"
         },
         {
@@ -285720,11 +285720,11 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:24.920Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.441Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 146
       },
-      "synopsis": "Alesha Popovich has to catch Tugarin Zmey and bring back the stolen money with the help of a talking Horse (which talks all the time and has an opinion on everything), a wise granny, a donkey and a beauty Lyubava."
+      "synopsis": "When the fearsome Tugarin the Serpent steals the city's gold, the young hero Alyosha Popovich sets out on a daring quest to recover the treasure and bring the villain to justice. Along the way, he is joined by an unlikely group of companions: his loyal mentor Tikhon, a talking horse named Julius, the wise grandmother Babusya, a mischievous donkey, and the beautiful Lyubava. Together, they embark on an adventure filled with unexpected challenges, humor, and heroic deeds."
     },
     "ali-2001": {
       "id": "ali-2001",
@@ -289788,7 +289788,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.013Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.541Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 100
       },
@@ -293920,7 +293920,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.039Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.634Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 10
       },
@@ -304568,7 +304568,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.133Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.728Z",
         "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 16
       },
@@ -330441,7 +330441,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.225Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.733Z",
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 11
       },
@@ -343150,7 +343150,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.317Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.828Z",
         "tmdbVoteAverage": 6,
         "tmdbVoteCount": 14
       },
@@ -368784,7 +368784,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.412Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:43.926Z",
         "tmdbVoteAverage": 5.4,
         "tmdbVoteCount": 55
       },
@@ -380801,7 +380801,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.511Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.020Z",
         "tmdbVoteAverage": 8,
         "tmdbVoteCount": 15
       },
@@ -382458,11 +382458,11 @@
       "crew": [
         {
           "name": "Rosana Sullivan",
-          "job": "Writer"
+          "job": "Director"
         },
         {
           "name": "Rosana Sullivan",
-          "job": "Director"
+          "job": "Writer"
         },
         {
           "name": "Kathryn Hendrickson",
@@ -382482,7 +382482,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.608Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.156Z",
         "tmdbVoteAverage": 7.931,
         "tmdbVoteCount": 425
       },
@@ -385250,7 +385250,7 @@
       "id": "santana-greatest-hits-live-at-montreux-2011-2011",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.699Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.247Z",
         "tmdbVoteAverage": 7.8,
         "tmdbVoteCount": 11
       },
@@ -386000,9 +386000,9 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.796Z",
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 359
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.341Z",
+        "tmdbVoteAverage": 7.789,
+        "tmdbVoteCount": 360
       },
       "synopsis": "In a vibrant city pulsating with rhythm and movement, an elderly man and his young-at-heart wife rekindle their youthful passion for life and each other on one magical night."
     },
@@ -387163,15 +387163,11 @@
       "crew": [
         {
           "name": "Will McCormack",
-          "job": "Writer"
-        },
-        {
-          "name": "Michael Govier",
-          "job": "Writer"
+          "job": "Director"
         },
         {
           "name": "Will McCormack",
-          "job": "Director"
+          "job": "Writer"
         },
         {
           "name": "Michael Govier",
@@ -387179,6 +387175,14 @@
         },
         {
           "name": "Michael Govier",
+          "job": "Writer"
+        },
+        {
+          "name": "Michael Govier",
+          "job": "Producer"
+        },
+        {
+          "name": "Gerald Chamales",
           "job": "Producer"
         },
         {
@@ -387187,10 +387191,6 @@
         },
         {
           "name": "Gary Gilbert",
-          "job": "Producer"
-        },
-        {
-          "name": "Gerald Chamales",
           "job": "Producer"
         },
         {
@@ -387203,7 +387203,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.886Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.444Z",
         "tmdbVoteAverage": 7.707,
         "tmdbVoteCount": 1027
       },
@@ -390605,7 +390605,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:25.978Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.546Z",
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 15
       },
@@ -393976,7 +393976,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.072Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.640Z",
         "tmdbVoteAverage": 7.455,
         "tmdbVoteCount": 854
       },
@@ -397625,7 +397625,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.099Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.734Z",
         "tmdbVoteAverage": 7.428,
         "tmdbVoteCount": 326
       },
@@ -404546,7 +404546,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.125Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.827Z",
         "tmdbVoteAverage": 7.3,
         "tmdbVoteCount": 321
       },
@@ -405272,7 +405272,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.195Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:44.920Z",
         "tmdbVoteAverage": 7.3,
         "tmdbVoteCount": 193
       },
@@ -410166,7 +410166,7 @@
       "id": "black-adam-saviour-or-destroyer-2022",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.285Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.014Z",
         "tmdbVoteAverage": 7.2,
         "tmdbVoteCount": 459
       },
@@ -412231,15 +412231,15 @@
         },
         {
           "name": "Andrew Jimenez",
+          "job": "Director"
+        },
+        {
+          "name": "Andrew Jimenez",
           "job": "Writer"
         },
         {
           "name": "Mark Andrews",
           "job": "Writer"
-        },
-        {
-          "name": "Andrew Jimenez",
-          "job": "Director"
         },
         {
           "name": "Osnat Shurer",
@@ -412255,7 +412255,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.378Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.105Z",
         "tmdbVoteAverage": 7.239,
         "tmdbVoteCount": 630
       },
@@ -426692,7 +426692,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.470Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.202Z",
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 637
       },
@@ -427001,7 +427001,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.542Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.277Z",
         "tmdbVoteAverage": 6.956,
         "tmdbVoteCount": 396
       },
@@ -427431,7 +427431,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.639Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.370Z",
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 23
       },
@@ -434700,7 +434700,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.746Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.462Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 131
       },
@@ -455342,7 +455342,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.836Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.607Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 582
       },
@@ -456247,7 +456247,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.861Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.702Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 10
       },
@@ -458240,7 +458240,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:26.957Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.795Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 18
       },
@@ -463663,7 +463663,7 @@
       "id": "mutation-on-mars-2021",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.055Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.891Z",
         "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 66
       },
@@ -475551,7 +475551,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.188Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:45.982Z",
         "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 26
       },
@@ -476058,7 +476058,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.281Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.074Z",
         "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 59
       },
@@ -477528,7 +477528,7 @@
       "id": "blood-type-o-watermelon-chest-housekeeper-2021",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.375Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.182Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 17
       },
@@ -481705,7 +481705,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.466Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.277Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 12
       },
@@ -490569,11 +490569,11 @@
           "job": "Director"
         },
         {
-          "name": "Serin Marshall",
+          "name": "Bonni Cohen",
           "job": "Producer"
         },
         {
-          "name": "Bonni Cohen",
+          "name": "Serin Marshall",
           "job": "Producer"
         },
         {
@@ -490590,7 +490590,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.616Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.370Z",
         "tmdbVoteAverage": 6.3,
         "tmdbVoteCount": 137
       },
@@ -496463,7 +496463,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.749Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.464Z",
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 14
       },
@@ -564429,7 +564429,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.844Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.598Z",
         "tmdbVoteAverage": 4.7,
         "tmdbVoteCount": 17
       },
@@ -566041,7 +566041,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:27.950Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.691Z",
         "tmdbVoteAverage": 4.5,
         "tmdbVoteCount": 15
       },
@@ -568826,7 +568826,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.087Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.796Z",
         "tmdbVoteAverage": 8.4,
         "tmdbVoteCount": 128
       },
@@ -568849,7 +568849,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.156Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.892Z",
         "tmdbVoteAverage": 8.281,
         "tmdbVoteCount": 16
       },
@@ -569012,7 +569012,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.246Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:46.960Z",
         "tmdbVoteAverage": 8.2,
         "tmdbVoteCount": 54
       },
@@ -569679,7 +569679,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.279Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.054Z",
         "tmdbVoteAverage": 8,
         "tmdbVoteCount": 85
       },
@@ -571967,7 +571967,7 @@
       "id": "creating-the-queen-s-gambit-2021",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.374Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.153Z",
         "tmdbVoteAverage": 7.8,
         "tmdbVoteCount": 141
       },
@@ -574491,18 +574491,18 @@
       "crew": [
         {
           "name": "Alberto Arnaut Estrada",
-          "job": "Director"
+          "job": "Writer"
         },
         {
           "name": "Alberto Arnaut Estrada",
+          "job": "Director"
+        },
+        {
+          "name": "Pedro G. García",
           "job": "Writer"
         },
         {
           "name": "Salma Abo Harp",
-          "job": "Writer"
-        },
-        {
-          "name": "Pedro G. García",
           "job": "Writer"
         },
         {
@@ -574519,7 +574519,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.474Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.246Z",
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 12
       },
@@ -577180,7 +577180,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.572Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.344Z",
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 159
       },
@@ -578686,7 +578686,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.668Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.442Z",
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 62
       },
@@ -578912,7 +578912,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.764Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.533Z",
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 13
       },
@@ -581164,7 +581164,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.858Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.626Z",
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 19
       },
@@ -583353,7 +583353,7 @@
       "id": "naruto-to-boruto-the-live-2019-2019",
       "crew": [],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:28.990Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.718Z",
         "tmdbVoteAverage": 7.4,
         "tmdbVoteCount": 81
       },
@@ -583617,7 +583617,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.088Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.814Z",
         "tmdbVoteAverage": 7.4,
         "tmdbVoteCount": 55
       },
@@ -590801,7 +590801,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.181Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:47.907Z",
         "tmdbVoteAverage": 7.2,
         "tmdbVoteCount": 80
       },
@@ -596329,7 +596329,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.275Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.000Z",
         "tmdbVoteAverage": 7.1,
         "tmdbVoteCount": 12
       },
@@ -599977,7 +599977,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.367Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.093Z",
         "tmdbVoteAverage": 7.1,
         "tmdbVoteCount": 60
       },
@@ -602058,11 +602058,11 @@
           "job": "Screenplay"
         },
         {
-          "name": "Sergei Selyanov",
+          "name": "Aleksandr Boyarsky",
           "job": "Producer"
         },
         {
-          "name": "Aleksandr Boyarsky",
+          "name": "Sergei Selyanov",
           "job": "Producer"
         },
         {
@@ -602075,7 +602075,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.472Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.190Z",
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 111
       },
@@ -607178,7 +607178,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.565Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.283Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 60
       },
@@ -609472,7 +609472,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.593Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.373Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 69
       },
@@ -611076,7 +611076,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.623Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.468Z",
         "tmdbVoteAverage": 6.9,
         "tmdbVoteCount": 656
       },
@@ -616060,7 +616060,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.721Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.566Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 60
       },
@@ -619630,7 +619630,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.817Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.661Z",
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 14
       },
@@ -622244,7 +622244,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.909Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.813Z",
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 80
       },
@@ -626609,7 +626609,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:29.999Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:48.909Z",
         "tmdbVoteAverage": 6.6,
         "tmdbVoteCount": 57
       },
@@ -636898,7 +636898,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.095Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.005Z",
         "tmdbVoteAverage": 6.485,
         "tmdbVoteCount": 65
       },
@@ -638748,7 +638748,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.187Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.098Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 57
       },
@@ -641540,7 +641540,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.280Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.193Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 311
       },
@@ -641602,7 +641602,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.375Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.290Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 20
       },
@@ -642254,7 +642254,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.469Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.384Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 57
       },
@@ -642882,7 +642882,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.606Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.480Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 325
       },
@@ -642897,7 +642897,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.704Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.574Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 1346
       },
@@ -642920,7 +642920,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.836Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.666Z",
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 1006
       },
@@ -647012,7 +647012,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.930Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.672Z",
         "tmdbVoteAverage": 6.3,
         "tmdbVoteCount": 15
       },
@@ -648357,7 +648357,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:30.956Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.768Z",
         "tmdbVoteAverage": 6.3,
         "tmdbVoteCount": 563
       },
@@ -649330,7 +649330,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:31.065Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.774Z",
         "tmdbVoteAverage": 6.3,
         "tmdbVoteCount": 76
       },
@@ -651210,7 +651210,7 @@
         }
       ],
       "source": {
-        "tmdbUpdatedAt": "2026-10-29T20:43:31.157Z",
+        "tmdbUpdatedAt": "2026-10-30T03:20:49.868Z",
         "tmdbVoteAverage": 6.2,
         "tmdbVoteCount": 206
       },
