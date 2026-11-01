@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T14:35:48.439Z",
+  "generatedAt": "2026-11-01T16:07:54.812Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -1224,6 +1224,48 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 70
+      }
+    },
+    {
+      "id": "the-mongoose-2026",
+      "tmdbId": 1294189,
+      "imdbId": "tt13611778",
+      "title": "The Mongoose",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-10-29",
+      "runtimeMinutes": 99,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "tags": [
+        "fugitive",
+        "police pursuit",
+        "car chase"
+      ],
+      "directors": [
+        "Mark Vanselow"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Marisa Tomei",
+        "Ving Rhames",
+        "Marcus Thomas",
+        "Maurice Marvel Meredith",
+        "Michael Chiklis"
+      ],
+      "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "backdropPath": "/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 100,
+      "criticalScore": 77,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/aHrMFtt40_Q",
+      "synopsisPreview": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely monitored by a fascinated public rootin...",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 11
       }
     },
     {
@@ -2859,6 +2901,55 @@
       "source": {
         "tmdbVoteAverage": 6.8,
         "tmdbVoteCount": 17
+      }
+    },
+    {
+      "id": "collision-course-2026",
+      "tmdbId": 1571955,
+      "imdbId": "tt38793125",
+      "title": "Collision Course",
+      "originalTitle": "Colisión",
+      "originalLanguage": "es",
+      "year": 2026,
+      "releaseDate": "2026-10-30",
+      "runtimeMinutes": 122,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "tags": [
+        "robbery",
+        "madrid, spain",
+        "deception",
+        "heist",
+        "survival",
+        "gang",
+        "fear",
+        "bank robbery"
+      ],
+      "directors": [
+        "Daniel Sánchez Arévalo"
+      ],
+      "cast": [
+        "Laia Costa",
+        "Karra Elejalde",
+        "Luis Zahera",
+        "Tamar Novas",
+        "Álvaro Cervantes",
+        "Lluís Homar"
+      ],
+      "posterPath": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
+      "backdropPath": "/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 100,
+      "criticalScore": 68,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/8hVLhaK619k",
+      "synopsisPreview": "Spain, 2013. After robbing a bank, a getaway crash reveals the hidden side of each thief, exposing betrayals and lies that began long before the heist.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -21365,6 +21456,49 @@
       }
     },
     {
+      "id": "flow-2024",
+      "tmdbId": 823219,
+      "imdbId": "tt4772188",
+      "title": "Flow",
+      "originalTitle": "Straume",
+      "originalLanguage": "lv",
+      "year": 2024,
+      "releaseDate": "2024-08-29",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "tags": [
+        "ocean",
+        "cat",
+        "boat",
+        "dystopia",
+        "survival",
+        "dog",
+        "ruins",
+        "flood"
+      ],
+      "directors": [
+        "Gints Zilbalodis"
+      ],
+      "cast": [],
+      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 20,
+      "criticalScore": 81,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "source": {
+        "tmdbVoteAverage": 8.055,
+        "tmdbVoteCount": 3148
+      }
+    },
+    {
       "id": "harry-potter-and-the-deathly-hallows-part-2-2011",
       "tmdbId": 12445,
       "imdbId": "tt1201607",
@@ -22800,49 +22934,6 @@
       "source": {
         "tmdbVoteAverage": 8.226,
         "tmdbVoteCount": 17247
-      }
-    },
-    {
-      "id": "flow-2024",
-      "tmdbId": 823219,
-      "imdbId": "tt4772188",
-      "title": "Flow",
-      "originalTitle": "Straume",
-      "originalLanguage": "lv",
-      "year": 2024,
-      "releaseDate": "2024-08-29",
-      "runtimeMinutes": 85,
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy"
-      ],
-      "tags": [
-        "ocean",
-        "cat",
-        "boat",
-        "dystopia",
-        "survival",
-        "dog",
-        "ruins",
-        "flood"
-      ],
-      "directors": [
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-      "popularity": 20,
-      "criticalScore": 81,
-      "plexFit": "A compact adventure option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-      "source": {
-        "tmdbVoteAverage": 8.055,
-        "tmdbVoteCount": 3148
       }
     },
     {
@@ -84032,6 +84123,47 @@
       }
     },
     {
+      "id": "versa-2025",
+      "tmdbId": 1500099,
+      "imdbId": "tt37976405",
+      "title": "Versa",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-04-15",
+      "runtimeMinutes": 8,
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama",
+        "Fantasy"
+      ],
+      "tags": [
+        "pregnancy",
+        "loss",
+        "grief",
+        "child loss",
+        "acceptance",
+        "loss of child",
+        "celestial",
+        "inspirational"
+      ],
+      "directors": [
+        "Malcon Pierce"
+      ],
+      "cast": [],
+      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 7,
+      "criticalScore": 83,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
+      "source": {
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 66
+      }
+    },
+    {
       "id": "you-are-the-apple-of-my-eye-2025",
       "tmdbId": 1290182,
       "imdbId": "tt33381920",
@@ -86874,51 +87006,6 @@
       "source": {
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 960
-      }
-    },
-    {
-      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
-      "tmdbId": 1599191,
-      "imdbId": "tt47867242",
-      "title": "Renegade Immortal: Battle of the Immortal Slayer",
-      "originalTitle": "仙逆剧场版：弑仙之战",
-      "originalLanguage": "zh",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "tags": [
-        "based on fairy tale",
-        "xianxia",
-        "based on tv series",
-        "oriental fantasy"
-      ],
-      "directors": [
-        "TouXiong Shi"
-      ],
-      "cast": [
-        "Shi Zekun",
-        "Li Jiaxiang",
-        "Liu Sicen",
-        "Shuai Guan",
-        "Si Xi",
-        "Yang Houyao"
-      ],
-      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 6,
-      "criticalScore": 76,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
-      "source": {
-        "tmdbVoteAverage": 7.6,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -93889,48 +93976,6 @@
       "source": {
         "tmdbVoteAverage": 6.832,
         "tmdbVoteCount": 6401
-      }
-    },
-    {
-      "id": "summer-house-2026",
-      "tmdbId": 1556616,
-      "imdbId": "tt38897659",
-      "title": "Summer House",
-      "originalTitle": "Yaz Evi",
-      "originalLanguage": "tr",
-      "year": 2026,
-      "releaseDate": "2026-06-06",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Mystery"
-      ],
-      "tags": [
-        "coming of age",
-        "overprotective mother"
-      ],
-      "directors": [
-        "Erdem Tepegöz"
-      ],
-      "cast": [
-        "Mina Demirtaş",
-        "Derya Pınar Ak",
-        "Onur Seyit Yaran",
-        "Çağdaş Onur Öztürk",
-        "Kamil Güler",
-        "Selma Ergeç"
-      ],
-      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
-      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-      "popularity": 6,
-      "criticalScore": 68,
-      "plexFit": "A useful romance title for broadening the local catalog.",
-      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
-      "source": {
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 25
       }
     },
     {
@@ -104160,43 +104205,6 @@
       }
     },
     {
-      "id": "squid-game-making-season-2-2025",
-      "tmdbId": 1412113,
-      "imdbId": "tt37546146",
-      "title": "Squid Game: Making Season 2",
-      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
-      "originalLanguage": "ko",
-      "year": 2025,
-      "releaseDate": "2025-01-02",
-      "runtimeMinutes": 28,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "making of"
-      ],
-      "directors": [],
-      "cast": [
-        "Hwang Dong-hyuk",
-        "Lee Jung-jae",
-        "Lee Byung-hun",
-        "Chae Kyoung-sun",
-        "Kim Ji-yong",
-        "Gong Yoo"
-      ],
-      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
-      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 5,
-      "criticalScore": 83,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
-      "source": {
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 462
-      }
-    },
-    {
       "id": "stop-making-sense-1984",
       "tmdbId": 24128,
       "imdbId": "tt0088178",
@@ -106955,6 +106963,51 @@
       "source": {
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 54
+      }
+    },
+    {
+      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
+      "tmdbId": 1599191,
+      "imdbId": "tt47867242",
+      "title": "Renegade Immortal: Battle of the Immortal Slayer",
+      "originalTitle": "仙逆剧场版：弑仙之战",
+      "originalLanguage": "zh",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "based on fairy tale",
+        "xianxia",
+        "based on tv series",
+        "oriental fantasy"
+      ],
+      "directors": [
+        "TouXiong Shi"
+      ],
+      "cast": [
+        "Shi Zekun",
+        "Li Jiaxiang",
+        "Liu Sicen",
+        "Shuai Guan",
+        "Si Xi",
+        "Yang Houyao"
+      ],
+      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 6,
+      "criticalScore": 76,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
+      "source": {
+        "tmdbVoteAverage": 7.6,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -116972,6 +117025,48 @@
       }
     },
     {
+      "id": "summer-house-2026",
+      "tmdbId": 1556616,
+      "imdbId": "tt38897659",
+      "title": "Summer House",
+      "originalTitle": "Yaz Evi",
+      "originalLanguage": "tr",
+      "year": 2026,
+      "releaseDate": "2026-06-06",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Mystery"
+      ],
+      "tags": [
+        "coming of age",
+        "overprotective mother"
+      ],
+      "directors": [
+        "Erdem Tepegöz"
+      ],
+      "cast": [
+        "Mina Demirtaş",
+        "Derya Pınar Ak",
+        "Onur Seyit Yaran",
+        "Çağdaş Onur Öztürk",
+        "Kamil Güler",
+        "Selma Ergeç"
+      ],
+      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
+      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 6,
+      "criticalScore": 68,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 25
+      }
+    },
+    {
       "id": "superman-ii-1980",
       "tmdbId": 8536,
       "imdbId": "tt0081573",
@@ -121206,6 +121301,46 @@
       "source": {
         "tmdbVoteAverage": 6.5,
         "tmdbVoteCount": 1661
+      }
+    },
+    {
+      "id": "the-holy-grill-2026",
+      "tmdbId": 1427838,
+      "imdbId": "tt36586751",
+      "title": "The Holy Grill",
+      "originalTitle": "Extrawurst",
+      "originalLanguage": "de",
+      "year": 2026,
+      "releaseDate": "2026-01-15",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on play or musical"
+      ],
+      "directors": [
+        "Marcus H. Rosenmüller"
+      ],
+      "cast": [
+        "Hape Kerkeling",
+        "Christoph Maria Herbst",
+        "Fahri Yardım",
+        "Anja Knauer",
+        "Friedrich Mücke",
+        "Gaby Dohm"
+      ],
+      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
+      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 65,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
+      "source": {
+        "tmdbVoteAverage": 6.464,
+        "tmdbVoteCount": 83
       }
     },
     {
@@ -126113,6 +126248,44 @@
       }
     },
     {
+      "id": "la-chaleur-2026",
+      "tmdbId": 1492288,
+      "imdbId": "tt43136887",
+      "title": "La chaleur",
+      "originalTitle": "La Chaleur",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-07-08",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Stéphane Demoustier"
+      ],
+      "cast": [
+        "Hadrien Hussein",
+        "Tristan Richard",
+        "Martina La Manna",
+        "Noé Houssard",
+        "Zakariya Gouram",
+        "Cécile Ducrocq"
+      ],
+      "posterPath": "/42uouj30D7oPf8sPY6ids5QDf55.jpg",
+      "backdropPath": "/yJGT3NHe9kO9peU09iYYBvNZALE.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 61,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also w...",
+      "source": {
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 25
+      }
+    },
+    {
       "id": "mechanic-resurrection-2016",
       "tmdbId": 278924,
       "imdbId": "tt3522806",
@@ -127249,45 +127422,6 @@
       }
     },
     {
-      "id": "mauvaise-pioche-2026",
-      "tmdbId": 1440304,
-      "imdbId": "tt39314864",
-      "title": "Tough Luck",
-      "originalTitle": "Mauvaise Pioche",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-04-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "lighthearted"
-      ],
-      "directors": [
-        "Gérard Jugnot"
-      ],
-      "cast": [
-        "Gérard Jugnot",
-        "Thierry Lhermitte",
-        "Philippe Lacheau",
-        "Zabou Breitman",
-        "Jean-Pierre Darroussin",
-        "Michèle Laroque"
-      ],
-      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
-      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 59,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
-      "source": {
-        "tmdbVoteAverage": 5.918,
-        "tmdbVoteCount": 49
-      }
-    },
-    {
       "id": "young-mother-3-2015",
       "tmdbId": 386716,
       "imdbId": "tt11941248",
@@ -127902,6 +128036,45 @@
       "source": {
         "tmdbVoteAverage": 5.916,
         "tmdbVoteCount": 991
+      }
+    },
+    {
+      "id": "mauvaise-pioche-2026",
+      "tmdbId": 1440304,
+      "imdbId": "tt39314864",
+      "title": "Tough Luck",
+      "originalTitle": "Mauvaise Pioche",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "lighthearted"
+      ],
+      "directors": [
+        "Gérard Jugnot"
+      ],
+      "cast": [
+        "Gérard Jugnot",
+        "Thierry Lhermitte",
+        "Philippe Lacheau",
+        "Zabou Breitman",
+        "Jean-Pierre Darroussin",
+        "Michèle Laroque"
+      ],
+      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
+      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 6,
+      "criticalScore": 59,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
+      "source": {
+        "tmdbVoteAverage": 5.918,
+        "tmdbVoteCount": 49
       }
     },
     {
@@ -132308,6 +132481,43 @@
       }
     },
     {
+      "id": "squid-game-making-season-2-2025",
+      "tmdbId": 1412113,
+      "imdbId": "tt37546146",
+      "title": "Squid Game: Making Season 2",
+      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
+      "originalLanguage": "ko",
+      "year": 2025,
+      "releaseDate": "2025-01-02",
+      "runtimeMinutes": 28,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "making of"
+      ],
+      "directors": [],
+      "cast": [
+        "Hwang Dong-hyuk",
+        "Lee Jung-jae",
+        "Lee Byung-hun",
+        "Chae Kyoung-sun",
+        "Kim Ji-yong",
+        "Gong Yoo"
+      ],
+      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 5,
+      "criticalScore": 83,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
+      "source": {
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 462
+      }
+    },
+    {
       "id": "the-silence-of-the-lambs-1991",
       "tmdbId": 274,
       "imdbId": "tt0102926",
@@ -132358,47 +132568,6 @@
       "source": {
         "tmdbVoteAverage": 8.346,
         "tmdbVoteCount": 18013
-      }
-    },
-    {
-      "id": "versa-2025",
-      "tmdbId": 1500099,
-      "imdbId": "tt37976405",
-      "title": "Versa",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-04-15",
-      "runtimeMinutes": 8,
-      "genres": [
-        "Animation",
-        "Family",
-        "Drama",
-        "Fantasy"
-      ],
-      "tags": [
-        "pregnancy",
-        "loss",
-        "grief",
-        "child loss",
-        "acceptance",
-        "loss of child",
-        "celestial",
-        "inspirational"
-      ],
-      "directors": [
-        "Malcon Pierce"
-      ],
-      "cast": [],
-      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 7,
-      "criticalScore": 83,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
-      "source": {
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 66
       }
     },
     {
@@ -134668,46 +134837,6 @@
       }
     },
     {
-      "id": "little-girl-2020",
-      "tmdbId": 656274,
-      "imdbId": "tt11753696",
-      "title": "Little Girl",
-      "originalTitle": "Petite fille",
-      "originalLanguage": "fr",
-      "year": 2020,
-      "releaseDate": "2020-09-25",
-      "runtimeMinutes": 85,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "identity",
-        "family",
-        "gender",
-        "portrait",
-        "childhood",
-        "discrimination",
-        "gender transition",
-        "gender identification"
-      ],
-      "directors": [
-        "Sébastien Lifshitz"
-      ],
-      "cast": [],
-      "posterPath": "/kciAX2iBP09RfZ9d2ldLjgHiL2u.jpg",
-      "backdropPath": "/wurw1SCnmGdzMPF3gKNIG16jIQz.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 78,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/akSaVMmOZgc",
-      "synopsisPreview": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation...",
-      "source": {
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 121
-      }
-    },
-    {
       "id": "porco-rosso-1992",
       "tmdbId": 11621,
       "imdbId": "tt0104652",
@@ -136133,43 +136262,6 @@
       "source": {
         "tmdbVoteAverage": 7.663,
         "tmdbVoteCount": 4295
-      }
-    },
-    {
-      "id": "7-days-2005",
-      "tmdbId": 34320,
-      "imdbId": "tt0414513",
-      "title": "7 Days",
-      "originalTitle": "7 días",
-      "originalLanguage": "es",
-      "year": 2005,
-      "releaseDate": "2005-09-30",
-      "runtimeMinutes": 95,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Fernando Kalife"
-      ],
-      "cast": [
-        "Jaime Camil",
-        "Martha Higareda",
-        "Eduardo Arroyuelo",
-        "Julio Bracho",
-        "Lumi Cavazos",
-        "José Sefami"
-      ],
-      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 76,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
-      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
-      "source": {
-        "tmdbVoteAverage": 7.62,
-        "tmdbVoteCount": 54
       }
     },
     {
@@ -145131,36 +145223,6 @@
       "source": {
         "tmdbVoteAverage": 7.24,
         "tmdbVoteCount": 630
-      }
-    },
-    {
-      "id": "12-days-2017",
-      "tmdbId": 452221,
-      "imdbId": "tt6777114",
-      "title": "12 Days",
-      "originalTitle": "12 jours",
-      "originalLanguage": "fr",
-      "year": 2017,
-      "releaseDate": "2017-11-29",
-      "runtimeMinutes": 87,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Raymond Depardon"
-      ],
-      "cast": [],
-      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
-      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 71,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
-      "source": {
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
       }
     },
     {
@@ -159908,46 +159970,6 @@
       }
     },
     {
-      "id": "the-holy-grill-2026",
-      "tmdbId": 1427838,
-      "imdbId": "tt36586751",
-      "title": "The Holy Grill",
-      "originalTitle": "Extrawurst",
-      "originalLanguage": "de",
-      "year": 2026,
-      "releaseDate": "2026-01-15",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "based on play or musical"
-      ],
-      "directors": [
-        "Marcus H. Rosenmüller"
-      ],
-      "cast": [
-        "Hape Kerkeling",
-        "Christoph Maria Herbst",
-        "Fahri Yardım",
-        "Anja Knauer",
-        "Friedrich Mücke",
-        "Gaby Dohm"
-      ],
-      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
-      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 65,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
-      "source": {
-        "tmdbVoteAverage": 6.464,
-        "tmdbVoteCount": 83
-      }
-    },
-    {
       "id": "the-lego-ninjago-movie-2017",
       "tmdbId": 274862,
       "imdbId": "tt3014284",
@@ -168401,44 +168423,6 @@
       "source": {
         "tmdbVoteAverage": 6.127,
         "tmdbVoteCount": 3104
-      }
-    },
-    {
-      "id": "la-chaleur-2026",
-      "tmdbId": 1492288,
-      "imdbId": "tt43136887",
-      "title": "La chaleur",
-      "originalTitle": "La Chaleur",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-07-08",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "tags": [],
-      "directors": [
-        "Stéphane Demoustier"
-      ],
-      "cast": [
-        "Hadrien Hussein",
-        "Tristan Richard",
-        "Martina La Manna",
-        "Noé Houssard",
-        "Zakariya Gouram",
-        "Cécile Ducrocq"
-      ],
-      "posterPath": "/42uouj30D7oPf8sPY6ids5QDf55.jpg",
-      "backdropPath": "/yJGT3NHe9kO9peU09iYYBvNZALE.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 6,
-      "criticalScore": 61,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also w...",
-      "source": {
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 25
       }
     },
     {
@@ -184349,6 +184333,46 @@
       }
     },
     {
+      "id": "little-girl-2020",
+      "tmdbId": 656274,
+      "imdbId": "tt11753696",
+      "title": "Little Girl",
+      "originalTitle": "Petite fille",
+      "originalLanguage": "fr",
+      "year": 2020,
+      "releaseDate": "2020-09-25",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "identity",
+        "family",
+        "gender",
+        "portrait",
+        "childhood",
+        "discrimination",
+        "gender transition",
+        "gender identification"
+      ],
+      "directors": [
+        "Sébastien Lifshitz"
+      ],
+      "cast": [],
+      "posterPath": "/kciAX2iBP09RfZ9d2ldLjgHiL2u.jpg",
+      "backdropPath": "/wurw1SCnmGdzMPF3gKNIG16jIQz.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 78,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/akSaVMmOZgc",
+      "synopsisPreview": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation...",
+      "source": {
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 121
+      }
+    },
+    {
       "id": "made-in-abyss-dawn-of-the-deep-soul-2020",
       "tmdbId": 573730,
       "imdbId": "tt10068916",
@@ -186335,6 +186359,43 @@
       "source": {
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 108
+      }
+    },
+    {
+      "id": "7-days-2005",
+      "tmdbId": 34320,
+      "imdbId": "tt0414513",
+      "title": "7 Days",
+      "originalTitle": "7 días",
+      "originalLanguage": "es",
+      "year": 2005,
+      "releaseDate": "2005-09-30",
+      "runtimeMinutes": 95,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Fernando Kalife"
+      ],
+      "cast": [
+        "Jaime Camil",
+        "Martha Higareda",
+        "Eduardo Arroyuelo",
+        "Julio Bracho",
+        "Lumi Cavazos",
+        "José Sefami"
+      ],
+      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 76,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
+      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
+      "source": {
+        "tmdbVoteAverage": 7.62,
+        "tmdbVoteCount": 54
       }
     },
     {
@@ -199726,6 +199787,36 @@
       "source": {
         "tmdbVoteAverage": 7.201,
         "tmdbVoteCount": 334
+      }
+    },
+    {
+      "id": "12-days-2017",
+      "tmdbId": 452221,
+      "imdbId": "tt6777114",
+      "title": "12 Days",
+      "originalTitle": "12 jours",
+      "originalLanguage": "fr",
+      "year": 2017,
+      "releaseDate": "2017-11-29",
+      "runtimeMinutes": 87,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Raymond Depardon"
+      ],
+      "cast": [],
+      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
+      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 71,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
       }
     },
     {
@@ -218884,6 +218975,36 @@
       "source": {
         "tmdbVoteAverage": 6.692,
         "tmdbVoteCount": 2094
+      }
+    },
+    {
+      "id": "return-2008",
+      "tmdbId": 839321,
+      "title": "Return",
+      "originalTitle": "Powrót",
+      "originalLanguage": "pl",
+      "year": 2008,
+      "releaseDate": "2008-01-01",
+      "runtimeMinutes": 8,
+      "genres": [
+        "Animation",
+        "Science Fiction"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Anna Błaszczyk"
+      ],
+      "cast": [],
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 67,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to E...",
+      "source": {
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 582
       }
     },
     {
@@ -239164,6 +239285,46 @@
       "source": {
         "tmdbVoteAverage": 6.224,
         "tmdbVoteCount": 2669
+      }
+    },
+    {
+      "id": "gatao-big-brothers-2025",
+      "tmdbId": 1468057,
+      "imdbId": "tt37998920",
+      "title": "GATAO: Big Brothers",
+      "originalTitle": "角頭－鬥陣欸",
+      "originalLanguage": "zh",
+      "year": 2025,
+      "releaseDate": "2025-08-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Crime",
+        "Action"
+      ],
+      "tags": [],
+      "directors": [
+        "Chiang Jui-chih",
+        "Yao Hung-i"
+      ],
+      "cast": [
+        "Jack Kao",
+        "Tsai Chen-nan",
+        "Tai Bo",
+        "King Jieh-wen",
+        "Lung Tien-hsiang",
+        "Tsui Hao-jan"
+      ],
+      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
+      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
+      "posterTone": "from-cyan-300 via-blue-800 to-black",
+      "popularity": 4,
+      "criticalScore": 62,
+      "plexFit": "A useful crime title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
+      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -273245,47 +273406,6 @@
       }
     },
     {
-      "id": "us-again-2021",
-      "tmdbId": 779047,
-      "imdbId": "tt14062858",
-      "title": "Us Again",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-03-03",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Drama",
-        "Family",
-        "Romance"
-      ],
-      "tags": [
-        "new york city",
-        "dancing",
-        "rain",
-        "musical",
-        "lovers",
-        "elderly couple",
-        "short film"
-      ],
-      "directors": [
-        "Zach Parrish"
-      ],
-      "cast": [],
-      "posterPath": "/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg",
-      "backdropPath": "/9B4hHMsnjxo8NnTcKIfg3cjJzMi.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 78,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0ylr70WNAe8",
-      "synopsisPreview": "In a vibrant city pulsating with rhythm and movement, an elderly man and his young-at-heart wife rekindle their youthful passion for life and each other on one magical night.",
-      "source": {
-        "tmdbVoteAverage": 7.789,
-        "tmdbVoteCount": 360
-      }
-    },
-    {
       "id": "we-made-a-beautiful-bouquet-2021",
       "tmdbId": 695932,
       "imdbId": "tt11219254",
@@ -274345,45 +274465,6 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 2833
-      }
-    },
-    {
-      "id": "if-anything-happens-i-love-you-2020",
-      "tmdbId": 713776,
-      "imdbId": "tt11768948",
-      "title": "If Anything Happens I Love You",
-      "originalLanguage": "en",
-      "year": 2020,
-      "releaseDate": "2020-11-20",
-      "runtimeMinutes": 12,
-      "genres": [
-        "Drama",
-        "Animation"
-      ],
-      "tags": [
-        "tearjerker",
-        "social issues",
-        "grieving parents",
-        "loss of child",
-        "short film",
-        "sentimental"
-      ],
-      "directors": [
-        "Will McCormack",
-        "Michael Govier"
-      ],
-      "cast": [],
-      "posterPath": "/85tDhACvKDQxQoJhBYLvDU0ik1n.jpg",
-      "backdropPath": "/tfhKc6tMxBVZuiipbXWUYdXyMYj.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/n18AbC8qfiw",
-      "synopsisPreview": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting.",
-      "source": {
-        "tmdbVoteAverage": 7.708,
-        "tmdbVoteCount": 1028
       }
     },
     {
@@ -280535,45 +280616,6 @@
       }
     },
     {
-      "id": "lifted-2006",
-      "tmdbId": 13060,
-      "imdbId": "tt0945571",
-      "title": "Lifted",
-      "originalLanguage": "en",
-      "year": 2006,
-      "releaseDate": "2006-12-28",
-      "runtimeMinutes": 5,
-      "genres": [
-        "Family",
-        "Animation",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "tags": [
-        "alien",
-        "farmer",
-        "alien spaceship",
-        "short film",
-        "teenager",
-        "3d animation"
-      ],
-      "directors": [
-        "Gary Rydstrom"
-      ],
-      "cast": [],
-      "posterPath": "/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
-      "backdropPath": "/13CqQIOwZ0dkAxgzL7W4VcJLDAg.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 75,
-      "plexFit": "A compact family option for easier weeknight discovery.",
-      "synopsisPreview": "When an overconfident teen alien gets behind the controls of a spaceship, he must attempt to abduct a slumbering farmer under the watchful eye of a critical instructor. But abducting humans requires precision and a gentl...",
-      "source": {
-        "tmdbVoteAverage": 7.455,
-        "tmdbVoteCount": 854
-      }
-    },
-    {
       "id": "liz-and-the-blue-bird-2018",
       "tmdbId": 482150,
       "imdbId": "tt7089878",
@@ -281201,39 +281243,6 @@
       "source": {
         "tmdbVoteAverage": 7.476,
         "tmdbVoteCount": 749
-      }
-    },
-    {
-      "id": "picardia-mexicana-1978",
-      "tmdbId": 372439,
-      "imdbId": "tt0229650",
-      "title": "Picardía mexicana",
-      "originalLanguage": "es",
-      "year": 1978,
-      "releaseDate": "1978-12-21",
-      "runtimeMinutes": 115,
-      "genres": [],
-      "tags": [],
-      "directors": [
-        "Abel Salazar"
-      ],
-      "cast": [
-        "Vicente Fernández",
-        "Héctor Suárez",
-        "Adalberto Martínez",
-        "Jacqueline Andere",
-        "Pedro Weber 'Chatanuga'",
-        "Luis de Alba"
-      ],
-      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 75,
-      "plexFit": "A useful catalog title for broadening the local catalog.",
-      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
-      "source": {
-        "tmdbVoteAverage": 7.5,
-        "tmdbVoteCount": 80
       }
     },
     {
@@ -330106,36 +330115,6 @@
       }
     },
     {
-      "id": "return-2008",
-      "tmdbId": 839321,
-      "title": "Return",
-      "originalTitle": "Powrót",
-      "originalLanguage": "pl",
-      "year": 2008,
-      "releaseDate": "2008-01-01",
-      "runtimeMinutes": 8,
-      "genres": [
-        "Animation",
-        "Science Fiction"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Anna Błaszczyk"
-      ],
-      "cast": [],
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 4,
-      "criticalScore": 67,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to E...",
-      "source": {
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 582
-      }
-    },
-    {
       "id": "return-to-oz-1985",
       "tmdbId": 13155,
       "imdbId": "tt0089908",
@@ -339618,39 +339597,6 @@
       "source": {
         "tmdbVoteAverage": 6.574,
         "tmdbVoteCount": 455
-      }
-    },
-    {
-      "id": "tin-tan-y-las-modelos-1960",
-      "tmdbId": 542392,
-      "imdbId": "tt0265877",
-      "title": "Tin Tan y las modelos",
-      "originalLanguage": "es",
-      "year": 1960,
-      "releaseDate": "1960-07-07",
-      "runtimeMinutes": 80,
-      "genres": [],
-      "tags": [],
-      "directors": [
-        "Benito Alazraki"
-      ],
-      "cast": [
-        "Germán Valdés",
-        "Lorena Velázquez",
-        "Pancho Córdova",
-        "Marquesita Radell",
-        "Martha Elena Cervantes",
-        "Marcela Daviland"
-      ],
-      "posterPath": "/cSzgPbfI69vFd5jAke9PdTd6wHx.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 66,
-      "plexFit": "A compact catalog option for easier weeknight discovery.",
-      "synopsisPreview": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success.",
-      "source": {
-        "tmdbVoteAverage": 6.6,
-        "tmdbVoteCount": 16
       }
     },
     {
@@ -366597,46 +366543,6 @@
       }
     },
     {
-      "id": "gatao-big-brothers-2025",
-      "tmdbId": 1468057,
-      "imdbId": "tt37998920",
-      "title": "GATAO: Big Brothers",
-      "originalTitle": "角頭－鬥陣欸",
-      "originalLanguage": "zh",
-      "year": 2025,
-      "releaseDate": "2025-08-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Crime",
-        "Action"
-      ],
-      "tags": [],
-      "directors": [
-        "Chiang Jui-chih",
-        "Yao Hung-i"
-      ],
-      "cast": [
-        "Jack Kao",
-        "Tsai Chen-nan",
-        "Tai Bo",
-        "King Jieh-wen",
-        "Lung Tien-hsiang",
-        "Tsui Hao-jan"
-      ],
-      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
-      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
-      "posterTone": "from-cyan-300 via-blue-800 to-black",
-      "popularity": 4,
-      "criticalScore": 62,
-      "plexFit": "A useful crime title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
-      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 13
-      }
-    },
-    {
       "id": "gold-2022",
       "tmdbId": 760926,
       "imdbId": "tt6020800",
@@ -381374,42 +381280,6 @@
       "source": {
         "tmdbVoteAverage": 5.976,
         "tmdbVoteCount": 1063
-      }
-    },
-    {
-      "id": "new-golden-lotus-iii-1996",
-      "tmdbId": 492105,
-      "imdbId": "tt12952242",
-      "title": "New Golden Lotus III",
-      "originalTitle": "新金瓶梅 第三集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-22",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Cindy Yip Sin-Yi",
-        "Choi Mei-yau"
-      ],
-      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
-      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 60,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
-      "source": {
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 14
       }
     },
     {
@@ -427281,6 +427151,47 @@
       }
     },
     {
+      "id": "us-again-2021",
+      "tmdbId": 779047,
+      "imdbId": "tt14062858",
+      "title": "Us Again",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-03-03",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "tags": [
+        "new york city",
+        "dancing",
+        "rain",
+        "musical",
+        "lovers",
+        "elderly couple",
+        "short film"
+      ],
+      "directors": [
+        "Zach Parrish"
+      ],
+      "cast": [],
+      "posterPath": "/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg",
+      "backdropPath": "/9B4hHMsnjxo8NnTcKIfg3cjJzMi.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 78,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0ylr70WNAe8",
+      "synopsisPreview": "In a vibrant city pulsating with rhythm and movement, an elderly man and his young-at-heart wife rekindle their youthful passion for life and each other on one magical night.",
+      "source": {
+        "tmdbVoteAverage": 7.789,
+        "tmdbVoteCount": 360
+      }
+    },
+    {
       "id": "whiplash-2013",
       "tmdbId": 367412,
       "imdbId": "tt2654430",
@@ -428635,6 +428546,45 @@
       "source": {
         "tmdbVoteAverage": 7.712,
         "tmdbVoteCount": 1536
+      }
+    },
+    {
+      "id": "if-anything-happens-i-love-you-2020",
+      "tmdbId": 713776,
+      "imdbId": "tt11768948",
+      "title": "If Anything Happens I Love You",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-11-20",
+      "runtimeMinutes": 12,
+      "genres": [
+        "Drama",
+        "Animation"
+      ],
+      "tags": [
+        "tearjerker",
+        "social issues",
+        "grieving parents",
+        "loss of child",
+        "short film",
+        "sentimental"
+      ],
+      "directors": [
+        "Will McCormack",
+        "Michael Govier"
+      ],
+      "cast": [],
+      "posterPath": "/85tDhACvKDQxQoJhBYLvDU0ik1n.jpg",
+      "backdropPath": "/tfhKc6tMxBVZuiipbXWUYdXyMYj.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/n18AbC8qfiw",
+      "synopsisPreview": "Grieving parents journey through an emotional void as they mourn the loss of a child after a tragic school shooting.",
+      "source": {
+        "tmdbVoteAverage": 7.708,
+        "tmdbVoteCount": 1028
       }
     },
     {
@@ -436638,6 +436588,45 @@
       }
     },
     {
+      "id": "lifted-2006",
+      "tmdbId": 13060,
+      "imdbId": "tt0945571",
+      "title": "Lifted",
+      "originalLanguage": "en",
+      "year": 2006,
+      "releaseDate": "2006-12-28",
+      "runtimeMinutes": 5,
+      "genres": [
+        "Family",
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "alien",
+        "farmer",
+        "alien spaceship",
+        "short film",
+        "teenager",
+        "3d animation"
+      ],
+      "directors": [
+        "Gary Rydstrom"
+      ],
+      "cast": [],
+      "posterPath": "/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
+      "backdropPath": "/13CqQIOwZ0dkAxgzL7W4VcJLDAg.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 75,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "synopsisPreview": "When an overconfident teen alien gets behind the controls of a spaceship, he must attempt to abduct a slumbering farmer under the watchful eye of a critical instructor. But abducting humans requires precision and a gentl...",
+      "source": {
+        "tmdbVoteAverage": 7.455,
+        "tmdbVoteCount": 854
+      }
+    },
+    {
       "id": "maggie-2019",
       "tmdbId": 546768,
       "imdbId": "tt9000062",
@@ -437502,6 +437491,39 @@
       "source": {
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 483
+      }
+    },
+    {
+      "id": "picardia-mexicana-1978",
+      "tmdbId": 372439,
+      "imdbId": "tt0229650",
+      "title": "Picardía mexicana",
+      "originalLanguage": "es",
+      "year": 1978,
+      "releaseDate": "1978-12-21",
+      "runtimeMinutes": 115,
+      "genres": [],
+      "tags": [],
+      "directors": [
+        "Abel Salazar"
+      ],
+      "cast": [
+        "Vicente Fernández",
+        "Héctor Suárez",
+        "Adalberto Martínez",
+        "Jacqueline Andere",
+        "Pedro Weber 'Chatanuga'",
+        "Luis de Alba"
+      ],
+      "posterPath": "/fNguKu5kiqF41DVL5syOwJ0K6Tk.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 75,
+      "plexFit": "A useful catalog title for broadening the local catalog.",
+      "synopsisPreview": "An academic tags along among a crew of rowdy delivery-truck drivers, taking notes on their colorful and idiomatic use of language.",
+      "source": {
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 80
       }
     },
     {
@@ -480760,42 +480782,6 @@
       }
     },
     {
-      "id": "canta-y-no-llores-2024",
-      "tmdbId": 1243895,
-      "imdbId": "tt27503161",
-      "title": "Canta y no llores",
-      "originalLanguage": "es",
-      "year": 2024,
-      "releaseDate": "2024-03-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Félix Sabroso"
-      ],
-      "cast": [
-        "Michelle Rodríguez",
-        "Consuelo Duval",
-        "Patricia Maqueo",
-        "Paco Rueda",
-        "Lumy Lizardo",
-        "Auro Sónico"
-      ],
-      "posterPath": "/8WambNXFVcMyTeCWajNEYfT80Xp.jpg",
-      "backdropPath": "/tDhIMMqkR1YTKE9bFlvOnAU5ZVd.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 69,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "A matriarchal family runs a taco food truck, navigating between artistic aspirations and daily frustrations while raising a member's daughter.",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 57
-      }
-    },
-    {
       "id": "case-137-2025",
       "tmdbId": 1294698,
       "imdbId": "tt34794183",
@@ -483137,40 +483123,6 @@
       "source": {
         "tmdbVoteAverage": 6.947,
         "tmdbVoteCount": 2467
-      }
-    },
-    {
-      "id": "jack-whitehall-at-large-2017",
-      "tmdbId": 479269,
-      "imdbId": "tt7539884",
-      "title": "Jack Whitehall: At Large",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-10-24",
-      "runtimeMinutes": 67,
-      "genres": [
-        "Comedy",
-        "TV Movie"
-      ],
-      "tags": [
-        "stand-up comedy"
-      ],
-      "directors": [
-        "Brian Klein"
-      ],
-      "cast": [
-        "Jack Whitehall"
-      ],
-      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 69,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
-      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
-      "source": {
-        "tmdbVoteAverage": 6.9,
-        "tmdbVoteCount": 69
       }
     },
     {
@@ -518973,6 +518925,39 @@
       }
     },
     {
+      "id": "tin-tan-y-las-modelos-1960",
+      "tmdbId": 542392,
+      "imdbId": "tt0265877",
+      "title": "Tin Tan y las modelos",
+      "originalLanguage": "es",
+      "year": 1960,
+      "releaseDate": "1960-07-07",
+      "runtimeMinutes": 80,
+      "genres": [],
+      "tags": [],
+      "directors": [
+        "Benito Alazraki"
+      ],
+      "cast": [
+        "Germán Valdés",
+        "Lorena Velázquez",
+        "Pancho Córdova",
+        "Marquesita Radell",
+        "Martha Elena Cervantes",
+        "Marcela Daviland"
+      ],
+      "posterPath": "/cSzgPbfI69vFd5jAke9PdTd6wHx.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 66,
+      "plexFit": "A compact catalog option for easier weeknight discovery.",
+      "synopsisPreview": "Ambitious non-starter gets a job as a bill-collector at a beauty-products company and tries to bluff his way into a management position, then tries a couple of other business schemes with minimal success.",
+      "source": {
+        "tmdbVoteAverage": 6.6,
+        "tmdbVoteCount": 16
+      }
+    },
+    {
       "id": "torn-curtain-1966",
       "tmdbId": 5780,
       "imdbId": "tt0061107",
@@ -543935,47 +543920,6 @@
       }
     },
     {
-      "id": "lead-me-home-2021",
-      "tmdbId": 869602,
-      "imdbId": "tt15339848",
-      "title": "Lead Me Home",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-09-03",
-      "runtimeMinutes": 40,
-      "genres": [
-        "Documentary",
-        "Drama"
-      ],
-      "tags": [
-        "homeless person",
-        "homeless shelter",
-        "social documentary",
-        "homeless",
-        "social isolation",
-        "social scandal",
-        "social decay",
-        "social prejudice"
-      ],
-      "directors": [
-        "Jon Shenk",
-        "Pedro Kos"
-      ],
-      "cast": [],
-      "posterPath": "/rrsrOldUfXn5vd5HP3BAYxLTjpO.jpg",
-      "backdropPath": "/tJyvDf1lj4uKySKlyMjyoaoOwyB.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 63,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/moekzAxXe0o",
-      "synopsisPreview": "Poignant stories of homelessness on the West Coast of the US frame this cinematic portrait of a surging humanitarian crisis.",
-      "source": {
-        "tmdbVoteAverage": 6.33,
-        "tmdbVoteCount": 138
-      }
-    },
-    {
       "id": "legends-of-oz-dorothy-s-return-2014",
       "tmdbId": 59981,
       "imdbId": "tt0884726",
@@ -545654,6 +545598,41 @@
       "source": {
         "tmdbVoteAverage": 6.344,
         "tmdbVoteCount": 475
+      }
+    },
+    {
+      "id": "return-1972",
+      "tmdbId": 1086372,
+      "title": "Return",
+      "originalTitle": "Վերադարձ",
+      "originalLanguage": "hy",
+      "year": 1972,
+      "releaseDate": "1972-07-02",
+      "runtimeMinutes": 82,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [],
+      "directors": [
+        "Arman Manaryan",
+        "Roman Zhamgaryan"
+      ],
+      "cast": [
+        "Vladimir Mrsyan",
+        "Anait Topchyan",
+        "Karen Jangiryan",
+        "Hakob Azizyan",
+        "Yervand Manaryan",
+        "Efim Kopelyan"
+      ],
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 63,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there.",
+      "source": {
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 563
       }
     },
     {
@@ -549663,6 +549642,43 @@
       "source": {
         "tmdbVoteAverage": 6.192,
         "tmdbVoteCount": 198
+      }
+    },
+    {
+      "id": "a-2017",
+      "tmdbId": 461191,
+      "imdbId": "tt5797796",
+      "title": "A",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-09-13",
+      "runtimeMinutes": 83,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "tags": [],
+      "directors": [
+        "Mitchell Stafiej"
+      ],
+      "cast": [
+        "Alex Zhang Hungtai",
+        "Romy Lightman",
+        "Bernardino Femminielli",
+        "Maica Armata",
+        "Alexis O'Hara",
+        "Alexandra M. Johns"
+      ],
+      "posterPath": "/qxs8BLtVdQtwgIiVMDwZvretQN5.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 62,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/aFD8oBw0DoA",
+      "synopsisPreview": "A young alcoholic ambient musician locks himself in his apartment on a dangerous seven day bender as he attempts to finish his upcoming album.",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 206
       }
     },
     {
@@ -563395,6 +563411,39 @@
       }
     },
     {
+      "id": "orgasm-inc-the-story-of-onetaste-2022",
+      "tmdbId": 1040603,
+      "imdbId": "tt22900124",
+      "title": "Orgasm Inc: The Story of OneTaste",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-05",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "cult"
+      ],
+      "directors": [
+        "Sarah Gibson",
+        "Sloane Klevin"
+      ],
+      "cast": [],
+      "posterPath": "/yqI3XQ1nmvxFpBus1BescRrRBAj.jpg",
+      "backdropPath": "/hraytJBd1Ztcp7k9So4zLFcgsyh.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 61,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/11DiQzSLfmo",
+      "synopsisPreview": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations.",
+      "source": {
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 84
+      }
+    },
+    {
       "id": "otherhood-2019",
       "tmdbId": 531509,
       "imdbId": "tt4180560",
@@ -572820,6 +572869,42 @@
       "source": {
         "tmdbVoteAverage": 6,
         "tmdbVoteCount": 539
+      }
+    },
+    {
+      "id": "new-golden-lotus-iii-1996",
+      "tmdbId": 492105,
+      "imdbId": "tt12952242",
+      "title": "New Golden Lotus III",
+      "originalTitle": "新金瓶梅 第三集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-22",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Cindy Yip Sin-Yi",
+        "Choi Mei-yau"
+      ],
+      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
+      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 60,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
+      "source": {
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 14
       }
     },
     {
@@ -669431,6 +669516,42 @@
       }
     },
     {
+      "id": "canta-y-no-llores-2024",
+      "tmdbId": 1243895,
+      "imdbId": "tt27503161",
+      "title": "Canta y no llores",
+      "originalLanguage": "es",
+      "year": 2024,
+      "releaseDate": "2024-03-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Félix Sabroso"
+      ],
+      "cast": [
+        "Michelle Rodríguez",
+        "Consuelo Duval",
+        "Patricia Maqueo",
+        "Paco Rueda",
+        "Lumy Lizardo",
+        "Auro Sónico"
+      ],
+      "posterPath": "/8WambNXFVcMyTeCWajNEYfT80Xp.jpg",
+      "backdropPath": "/tDhIMMqkR1YTKE9bFlvOnAU5ZVd.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 69,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "A matriarchal family runs a taco food truck, navigating between artistic aspirations and daily frustrations while raising a member's daughter.",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 57
+      }
+    },
+    {
       "id": "carnival-of-souls-1962",
       "tmdbId": 16093,
       "imdbId": "tt0055830",
@@ -671392,6 +671513,40 @@
       "source": {
         "tmdbVoteAverage": 6.942,
         "tmdbVoteCount": 722
+      }
+    },
+    {
+      "id": "jack-whitehall-at-large-2017",
+      "tmdbId": 479269,
+      "imdbId": "tt7539884",
+      "title": "Jack Whitehall: At Large",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-10-24",
+      "runtimeMinutes": 67,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "tags": [
+        "stand-up comedy"
+      ],
+      "directors": [
+        "Brian Klein"
+      ],
+      "cast": [
+        "Jack Whitehall"
+      ],
+      "posterPath": "/AogLjcJoA8Jw11uLuQ62qyKkHZb.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 69,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/GgTSEE5PGBs",
+      "synopsisPreview": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson.",
+      "source": {
+        "tmdbVoteAverage": 6.9,
+        "tmdbVoteCount": 69
       }
     },
     {
@@ -711795,6 +711950,47 @@
       }
     },
     {
+      "id": "lead-me-home-2021",
+      "tmdbId": 869602,
+      "imdbId": "tt15339848",
+      "title": "Lead Me Home",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-09-03",
+      "runtimeMinutes": 40,
+      "genres": [
+        "Documentary",
+        "Drama"
+      ],
+      "tags": [
+        "homeless person",
+        "homeless shelter",
+        "social documentary",
+        "homeless",
+        "social isolation",
+        "social scandal",
+        "social decay",
+        "social prejudice"
+      ],
+      "directors": [
+        "Jon Shenk",
+        "Pedro Kos"
+      ],
+      "cast": [],
+      "posterPath": "/rrsrOldUfXn5vd5HP3BAYxLTjpO.jpg",
+      "backdropPath": "/tJyvDf1lj4uKySKlyMjyoaoOwyB.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 63,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/moekzAxXe0o",
+      "synopsisPreview": "Poignant stories of homelessness on the West Coast of the US frame this cinematic portrait of a surging humanitarian crisis.",
+      "source": {
+        "tmdbVoteAverage": 6.33,
+        "tmdbVoteCount": 138
+      }
+    },
+    {
       "id": "let-s-go-to-the-country-2014",
       "tmdbId": 301272,
       "imdbId": "tt4065308",
@@ -712831,41 +713027,6 @@
       "source": {
         "tmdbVoteAverage": 6.329,
         "tmdbVoteCount": 120
-      }
-    },
-    {
-      "id": "return-1972",
-      "tmdbId": 1086372,
-      "title": "Return",
-      "originalTitle": "Վերադարձ",
-      "originalLanguage": "hy",
-      "year": 1972,
-      "releaseDate": "1972-07-02",
-      "runtimeMinutes": 82,
-      "genres": [
-        "Drama"
-      ],
-      "tags": [],
-      "directors": [
-        "Arman Manaryan",
-        "Roman Zhamgaryan"
-      ],
-      "cast": [
-        "Vladimir Mrsyan",
-        "Anait Topchyan",
-        "Karen Jangiryan",
-        "Hakob Azizyan",
-        "Yervand Manaryan",
-        "Efim Kopelyan"
-      ],
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 63,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there.",
-      "source": {
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 563
       }
     },
     {
@@ -715808,43 +715969,6 @@
       "source": {
         "tmdbVoteAverage": 6.151,
         "tmdbVoteCount": 936
-      }
-    },
-    {
-      "id": "a-2017",
-      "tmdbId": 461191,
-      "imdbId": "tt5797796",
-      "title": "A",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-09-13",
-      "runtimeMinutes": 83,
-      "genres": [
-        "Drama",
-        "Music"
-      ],
-      "tags": [],
-      "directors": [
-        "Mitchell Stafiej"
-      ],
-      "cast": [
-        "Alex Zhang Hungtai",
-        "Romy Lightman",
-        "Bernardino Femminielli",
-        "Maica Armata",
-        "Alexis O'Hara",
-        "Alexandra M. Johns"
-      ],
-      "posterPath": "/qxs8BLtVdQtwgIiVMDwZvretQN5.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 62,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/aFD8oBw0DoA",
-      "synopsisPreview": "A young alcoholic ambient musician locks himself in his apartment on a dangerous seven day bender as he attempts to finish his upcoming album.",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 206
       }
     },
     {
@@ -725114,39 +725238,6 @@
       "source": {
         "tmdbVoteAverage": 6.105,
         "tmdbVoteCount": 517
-      }
-    },
-    {
-      "id": "orgasm-inc-the-story-of-onetaste-2022",
-      "tmdbId": 1040603,
-      "imdbId": "tt22900124",
-      "title": "Orgasm Inc: The Story of OneTaste",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-11-05",
-      "runtimeMinutes": 89,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "cult"
-      ],
-      "directors": [
-        "Sarah Gibson",
-        "Sloane Klevin"
-      ],
-      "cast": [],
-      "posterPath": "/yqI3XQ1nmvxFpBus1BescRrRBAj.jpg",
-      "backdropPath": "/hraytJBd1Ztcp7k9So4zLFcgsyh.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 61,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/11DiQzSLfmo",
-      "synopsisPreview": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations.",
-      "source": {
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 84
       }
     },
     {
