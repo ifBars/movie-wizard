@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T15:34:28.293Z",
+  "generatedAt": "2026-11-03T17:09:40.823Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -4764,6 +4764,41 @@
         "tmdbVoteCount": 51
       },
       "synopsis": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast."
+    },
+    "feed-2026": {
+      "id": "feed-2026",
+      "crew": [
+        {
+          "name": "Marco van Belle",
+          "job": "Director"
+        },
+        {
+          "name": "Marco van Belle",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Jacqueline Kerrin",
+          "job": "Producer"
+        },
+        {
+          "name": "Dominic Wright",
+          "job": "Producer"
+        },
+        {
+          "name": "Andrew MacRitchie",
+          "job": "Editor"
+        },
+        {
+          "name": "Karenjit Sahota",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T17:09:40.203Z",
+        "tmdbVoteAverage": 5.8,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire."
     },
     "the-cycle-2026": {
       "id": "the-cycle-2026",
@@ -19809,57 +19844,6 @@
       },
       "synopsis": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences."
     },
-    "flow-2024": {
-      "id": "flow-2024",
-      "crew": [
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Producer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Editor"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Gints Zilbalodis",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ron Dyens",
-          "job": "Producer"
-        },
-        {
-          "name": "Matīss Kaža",
-          "job": "Producer"
-        },
-        {
-          "name": "Gregory Zalcman",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:20.896Z",
-        "tmdbVoteAverage": 8.052,
-        "tmdbVoteCount": 3150
-      },
-      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
-    },
     "harry-potter-and-the-deathly-hallows-part-2-2011": {
       "id": "harry-potter-and-the-deathly-hallows-part-2-2011",
       "crew": [
@@ -21983,41 +21967,6 @@
       },
       "synopsis": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth."
     },
-    "the-treehouse-2025": {
-      "id": "the-treehouse-2025",
-      "crew": [
-        {
-          "name": "Luis Calderón",
-          "job": "Director"
-        },
-        {
-          "name": "Luis Calderón",
-          "job": "Writer"
-        },
-        {
-          "name": "José Luis Rancaño",
-          "job": "Producer"
-        },
-        {
-          "name": "Diego Urruchi",
-          "job": "Producer"
-        },
-        {
-          "name": "María Rivera",
-          "job": "Producer"
-        },
-        {
-          "name": "Ernesto Báez",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:20.961Z",
-        "tmdbVoteAverage": 4.302,
-        "tmdbVoteCount": 43
-      },
-      "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly."
-    },
     "dilwale-dulhania-le-jayenge-1995": {
       "id": "dilwale-dulhania-le-jayenge-1995",
       "crew": [
@@ -22220,6 +22169,57 @@
         "tmdbVoteCount": 20229
       },
       "synopsis": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show."
+    },
+    "flow-2024": {
+      "id": "flow-2024",
+      "crew": [
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Producer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Editor"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Gints Zilbalodis",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ron Dyens",
+          "job": "Producer"
+        },
+        {
+          "name": "Matīss Kaža",
+          "job": "Producer"
+        },
+        {
+          "name": "Gregory Zalcman",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:20.896Z",
+        "tmdbVoteAverage": 8.052,
+        "tmdbVoteCount": 3150
+      },
+      "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together."
     },
     "the-pursuit-of-happyness-2006": {
       "id": "the-pursuit-of-happyness-2006",
@@ -23680,6 +23680,41 @@
         "tmdbVoteCount": 109
       },
       "synopsis": "Riley is struggling to make friends after transferring to a new high school where her father, Chris, is an English teacher. When she meets Kyla, they quickly becomes close friends. However, the friendship takes a strange turn when Riley learns that Kyla is obsessed with her dad. Will Kyla successfully seduce Chris and start a twisted new life with him by removing everyone in her path, or will Riley be able to save her father from Kyla’s treacherous plot before it’s too late?"
+    },
+    "the-treehouse-2025": {
+      "id": "the-treehouse-2025",
+      "crew": [
+        {
+          "name": "Luis Calderón",
+          "job": "Director"
+        },
+        {
+          "name": "Luis Calderón",
+          "job": "Writer"
+        },
+        {
+          "name": "José Luis Rancaño",
+          "job": "Producer"
+        },
+        {
+          "name": "Diego Urruchi",
+          "job": "Producer"
+        },
+        {
+          "name": "María Rivera",
+          "job": "Producer"
+        },
+        {
+          "name": "Ernesto Báez",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:20.961Z",
+        "tmdbVoteAverage": 4.302,
+        "tmdbVoteCount": 43
+      },
+      "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly."
     },
     "dead-poets-society-1989": {
       "id": "dead-poets-society-1989",
@@ -93712,33 +93747,6 @@
       },
       "synopsis": "Pursued by a religious cult and other curse users, former friends Satoru Gojo and Suguru Geto are the only sorcerers capable of carrying the difficult task of protecting Riko Amanai, a student who has been designated to be sacrificed as the Star Plasma Vessel, until she can fulfill her duty."
     },
-    "human-2015": {
-      "id": "human-2015",
-      "crew": [
-        {
-          "name": "Yann Arthus-Bertrand",
-          "job": "Director"
-        },
-        {
-          "name": "Daniel Meyer",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Anne-Marie Sangla",
-          "job": "Editor"
-        },
-        {
-          "name": "Françoise Bernard",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.098Z",
-        "tmdbVoteAverage": 8.434,
-        "tmdbVoteCount": 317
-      },
-      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
-    },
     "the-thin-yellow-line-2015": {
       "id": "the-thin-yellow-line-2015",
       "crew": [
@@ -93895,6 +93903,16 @@
       },
       "synopsis": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916."
     },
+    "squid-game-making-season-2-2025": {
+      "id": "squid-game-making-season-2-2025",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.496Z",
+        "tmdbVoteAverage": 8.316,
+        "tmdbVoteCount": 463
+      },
+      "synopsis": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life."
+    },
     "stop-making-sense-1984": {
       "id": "stop-making-sense-1984",
       "crew": [
@@ -94039,37 +94057,6 @@
         "tmdbVoteCount": 442
       },
       "synopsis": "When five lovely young girls who hate studying hire part-time tutor Futaro, he guides not only their education but also their hearts. Time spent has brought them all closer, with feelings growing within the girls and Futaro. As they finish their third year of high school and their last school festival approaches, they set their sights on what’s next. Is there a future with one of them and Futaro?"
-    },
-    "versa-2025": {
-      "id": "versa-2025",
-      "crew": [
-        {
-          "name": "Malcon Pierce",
-          "job": "Director"
-        },
-        {
-          "name": "Malcon Pierce",
-          "job": "Writer"
-        },
-        {
-          "name": "Bradford Simonsen",
-          "job": "Producer"
-        },
-        {
-          "name": "Haim Mazar",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Pace Paulsen",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.162Z",
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 66
-      },
-      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "bound-by-honor-1993": {
       "id": "bound-by-honor-1993",
@@ -109202,53 +109189,6 @@
       },
       "synopsis": "An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick."
     },
-    "the-holy-grill-2026": {
-      "id": "the-holy-grill-2026",
-      "crew": [
-        {
-          "name": "Marcus H. Rosenmüller",
-          "job": "Director"
-        },
-        {
-          "name": "Dietmar Jacobs",
-          "job": "Writer"
-        },
-        {
-          "name": "Moritz Netenjakob",
-          "job": "Writer"
-        },
-        {
-          "name": "Sandrine Mattes",
-          "job": "Producer"
-        },
-        {
-          "name": "Robert Marciniak",
-          "job": "Producer"
-        },
-        {
-          "name": "Annalena Frieling",
-          "job": "Producer"
-        },
-        {
-          "name": "Gerd Baumann",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Daniel Gottschalk",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Andrea Mertens",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.229Z",
-        "tmdbVoteAverage": 6.459,
-        "tmdbVoteCount": 85
-      },
-      "synopsis": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion quickly turns into a debate about societal and personal conflicts, threatening to tear the club apart."
-    },
     "the-phoenician-scheme-2025": {
       "id": "the-phoenician-scheme-2025",
       "crew": [
@@ -113017,21 +112957,6 @@
       },
       "synopsis": "Anthology movie, three stories about marriages in crisis."
     },
-    "new-golden-lotus-i-1996": {
-      "id": "new-golden-lotus-i-1996",
-      "crew": [
-        {
-          "name": "Tam Yui-Ming",
-          "job": "Director"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.291Z",
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "open-season-2006": {
       "id": "open-season-2006",
       "crew": [
@@ -115430,41 +115355,6 @@
       },
       "synopsis": "Andy and her team of immortal warriors fight with renewed purpose as they face a powerful new foe threatening their mission to protect humanity."
     },
-    "mauvaise-pioche-2026": {
-      "id": "mauvaise-pioche-2026",
-      "crew": [
-        {
-          "name": "Gérard Jugnot",
-          "job": "Director"
-        },
-        {
-          "name": "Gérard Jugnot",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Serge Lamadie",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Frédéric Hazan",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Marc-Etienne Schwartz",
-          "job": "Producer"
-        },
-        {
-          "name": "Pierric Gantelmi d'Ille",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.357Z",
-        "tmdbVoteAverage": 5.918,
-        "tmdbVoteCount": 49
-      },
-      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
-    },
     "friday-the-13th-2009": {
       "id": "friday-the-13th-2009",
       "crew": [
@@ -116452,57 +116342,6 @@
         "tmdbVoteCount": 3566
       },
       "synopsis": "Orbiting above a planet on the brink of war, scientists test a device to solve an energy crisis and end up face-to-face with a dark alternate reality."
-    },
-    "thoughts-and-prayers-2025": {
-      "id": "thoughts-and-prayers-2025",
-      "crew": [
-        {
-          "name": "Zackary Canepari",
-          "job": "Director"
-        },
-        {
-          "name": "Jessica Dimmock",
-          "job": "Director"
-        },
-        {
-          "name": "Jessica Dimmock",
-          "job": "Producer"
-        },
-        {
-          "name": "Zackary Canepari",
-          "job": "Producer"
-        },
-        {
-          "name": "Claire Read",
-          "job": "Producer"
-        },
-        {
-          "name": "Gary Kout",
-          "job": "Producer"
-        },
-        {
-          "name": "Anna Klein",
-          "job": "Producer"
-        },
-        {
-          "name": "Matt Joynt",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Jarred Alterman",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Myles Kane",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.427Z",
-        "tmdbVoteAverage": 5.6,
-        "tmdbVoteCount": 14
-      },
-      "synopsis": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators, and entire communities."
     },
     "10-000-bc-2008": {
       "id": "10-000-bc-2008",
@@ -119119,6 +118958,33 @@
       },
       "synopsis": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love."
     },
+    "human-2015": {
+      "id": "human-2015",
+      "crew": [
+        {
+          "name": "Yann Arthus-Bertrand",
+          "job": "Director"
+        },
+        {
+          "name": "Daniel Meyer",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Anne-Marie Sangla",
+          "job": "Editor"
+        },
+        {
+          "name": "Françoise Bernard",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.098Z",
+        "tmdbVoteAverage": 8.434,
+        "tmdbVoteCount": 317
+      },
+      "synopsis": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it brings us face to face with the Other, making us reflect on our lives. From stories of everyday experiences to accounts of the most unbelievable lives, these poignant encounters share a rare sincerity and underline who we are – our darker side, but also what is most noble in us, and what is universal. Our Earth is shown at its most sublime through never-before-seen aerial images accompanied by soaring music, resulting in an ode to the beauty of the world, providing a moment to draw breath and for introspection. This film is a politically engaged work which allows us to embrace the human condition and to reflect on the meaning of our existence."
+    },
     "impossible-things-2021": {
       "id": "impossible-things-2021",
       "crew": [
@@ -119409,16 +119275,6 @@
       },
       "synopsis": "In a Mexican border town plagued by neglect, corruption, and violence, a frustrated teacher tries an unorthodox new method to break through his students’ apathy and unlock their curiosity, their potential... and perhaps even their genius."
     },
-    "squid-game-making-season-2-2025": {
-      "id": "squid-game-making-season-2-2025",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.496Z",
-        "tmdbVoteAverage": 8.316,
-        "tmdbVoteCount": 463
-      },
-      "synopsis": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life."
-    },
     "the-silence-of-the-lambs-1991": {
       "id": "the-silence-of-the-lambs-1991",
       "crew": [
@@ -119461,6 +119317,37 @@
         "tmdbVoteCount": 18013
       },
       "synopsis": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out."
+    },
+    "versa-2025": {
+      "id": "versa-2025",
+      "crew": [
+        {
+          "name": "Malcon Pierce",
+          "job": "Director"
+        },
+        {
+          "name": "Malcon Pierce",
+          "job": "Writer"
+        },
+        {
+          "name": "Bradford Simonsen",
+          "job": "Producer"
+        },
+        {
+          "name": "Haim Mazar",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Pace Paulsen",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.162Z",
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 66
+      },
+      "synopsis": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life."
     },
     "big-world-2024": {
       "id": "big-world-2024",
@@ -133241,37 +133128,6 @@
       },
       "synopsis": "An ex-cricketer struggling to make ends meet, wants to fulfill his child's wish of getting an Indian jersey but in the process comes face to face with his heroic past and is forced to decide if he will rise to the occasion and become a symbol of hope or continue to live a life as a loser?"
     },
-    "luxo-jr-1986": {
-      "id": "luxo-jr-1986",
-      "crew": [
-        {
-          "name": "John Lasseter",
-          "job": "Producer"
-        },
-        {
-          "name": "John Lasseter",
-          "job": "Director"
-        },
-        {
-          "name": "William Reeves",
-          "job": "Producer"
-        },
-        {
-          "name": "Don Conway",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Craig Good",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.701Z",
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 689
-      },
-      "synopsis": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger."
-    },
     "lyle-lyle-crocodile-2022": {
       "id": "lyle-lyle-crocodile-2022",
       "crew": [
@@ -144011,6 +143867,53 @@
       },
       "synopsis": "After her girlfriend is imprisoned on fraud charges, Chela is forced to face a new reality. Driving for the first time in years, she begins to provide a local taxi service to a group of elderly wealthy ladies. As Chela settles into her new life, she encounters the much younger Angy, forging a fresh and invigorating new connection."
     },
+    "the-holy-grill-2026": {
+      "id": "the-holy-grill-2026",
+      "crew": [
+        {
+          "name": "Marcus H. Rosenmüller",
+          "job": "Director"
+        },
+        {
+          "name": "Dietmar Jacobs",
+          "job": "Writer"
+        },
+        {
+          "name": "Moritz Netenjakob",
+          "job": "Writer"
+        },
+        {
+          "name": "Sandrine Mattes",
+          "job": "Producer"
+        },
+        {
+          "name": "Robert Marciniak",
+          "job": "Producer"
+        },
+        {
+          "name": "Annalena Frieling",
+          "job": "Producer"
+        },
+        {
+          "name": "Gerd Baumann",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Daniel Gottschalk",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Andrea Mertens",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.229Z",
+        "tmdbVoteAverage": 6.459,
+        "tmdbVoteCount": 85
+      },
+      "synopsis": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion quickly turns into a debate about societal and personal conflicts, threatening to tear the club apart."
+    },
     "the-lego-ninjago-movie-2017": {
       "id": "the-lego-ninjago-movie-2017",
       "crew": [
@@ -149795,6 +149698,21 @@
       },
       "synopsis": "A couple with a newborn baby face unexpected difficulties after they are forced to live next to a fraternity house."
     },
+    "new-golden-lotus-i-1996": {
+      "id": "new-golden-lotus-i-1996",
+      "crew": [
+        {
+          "name": "Tam Yui-Ming",
+          "job": "Director"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.291Z",
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "No synopsis is available yet."
+    },
     "night-at-the-museum-battle-of-the-smithsonian-2009": {
       "id": "night-at-the-museum-battle-of-the-smithsonian-2009",
       "crew": [
@@ -151994,37 +151912,6 @@
         "tmdbVoteCount": 3104
       },
       "synopsis": "Jack Ryan, as a young covert CIA analyst, uncovers a Russian plot to crash the U.S. economy with a terrorist attack."
-    },
-    "la-chaleur-2026": {
-      "id": "la-chaleur-2026",
-      "crew": [
-        {
-          "name": "Stéphane Demoustier",
-          "job": "Director"
-        },
-        {
-          "name": "Stéphane Demoustier",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Jean des Forêts",
-          "job": "Producer"
-        },
-        {
-          "name": "David Chambille",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Damien Maestraggi",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.780Z",
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 25
-      },
-      "synopsis": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also wonders if he might be falling in love with the charming Giulia."
     },
     "six-days-seven-nights-1998": {
       "id": "six-days-seven-nights-1998",
@@ -155459,6 +155346,41 @@
       },
       "synopsis": "When the meanest, nastiest villains pull a trick to take over their town, two brave children team up with a family of magical animals to bring them down."
     },
+    "mauvaise-pioche-2026": {
+      "id": "mauvaise-pioche-2026",
+      "crew": [
+        {
+          "name": "Gérard Jugnot",
+          "job": "Director"
+        },
+        {
+          "name": "Gérard Jugnot",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Serge Lamadie",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Frédéric Hazan",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Marc-Etienne Schwartz",
+          "job": "Producer"
+        },
+        {
+          "name": "Pierric Gantelmi d'Ille",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.357Z",
+        "tmdbVoteAverage": 5.918,
+        "tmdbVoteCount": 49
+      },
+      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
+    },
     "underworld-blood-wars-2016": {
       "id": "underworld-blood-wars-2016",
       "crew": [
@@ -158403,6 +158325,57 @@
         "tmdbVoteCount": 3136
       },
       "synopsis": "When beautiful Carla Purty joins the university faculty, genetic professor Dr. Sherman Klump grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up, plumped down Don Juan."
+    },
+    "thoughts-and-prayers-2025": {
+      "id": "thoughts-and-prayers-2025",
+      "crew": [
+        {
+          "name": "Zackary Canepari",
+          "job": "Director"
+        },
+        {
+          "name": "Jessica Dimmock",
+          "job": "Director"
+        },
+        {
+          "name": "Jessica Dimmock",
+          "job": "Producer"
+        },
+        {
+          "name": "Zackary Canepari",
+          "job": "Producer"
+        },
+        {
+          "name": "Claire Read",
+          "job": "Producer"
+        },
+        {
+          "name": "Gary Kout",
+          "job": "Producer"
+        },
+        {
+          "name": "Anna Klein",
+          "job": "Producer"
+        },
+        {
+          "name": "Matt Joynt",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Jarred Alterman",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Myles Kane",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.427Z",
+        "tmdbVoteAverage": 5.6,
+        "tmdbVoteCount": 14
+      },
+      "synopsis": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators, and entire communities."
     },
     "angry-angel-2017": {
       "id": "angry-angel-2017",
@@ -166452,37 +166425,6 @@
         "tmdbVoteCount": 4921
       },
       "synopsis": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs."
-    },
-    "little-girl-2020": {
-      "id": "little-girl-2020",
-      "crew": [
-        {
-          "name": "Sébastien Lifshitz",
-          "job": "Director"
-        },
-        {
-          "name": "Sébastien Lifshitz",
-          "job": "Writer"
-        },
-        {
-          "name": "Muriel Meynard",
-          "job": "Producer"
-        },
-        {
-          "name": "Paul Guilhaume",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Pauline Gaillard",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:21.916Z",
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 121
-      },
-      "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France."
     },
     "made-in-abyss-dawn-of-the-deep-soul-2020": {
       "id": "made-in-abyss-dawn-of-the-deep-soul-2020",
@@ -184502,6 +184444,37 @@
         "tmdbVoteCount": 123
       },
       "synopsis": "While attempting to win the affections of a beautiful rival, a master thief risks death to learn the secret intentions of a wealthy and seemingly immortal, but certainly ruthless, recluse."
+    },
+    "luxo-jr-1986": {
+      "id": "luxo-jr-1986",
+      "crew": [
+        {
+          "name": "John Lasseter",
+          "job": "Producer"
+        },
+        {
+          "name": "John Lasseter",
+          "job": "Director"
+        },
+        {
+          "name": "William Reeves",
+          "job": "Producer"
+        },
+        {
+          "name": "Don Conway",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Craig Good",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.701Z",
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 689
+      },
+      "synopsis": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger."
     },
     "m-a-s-h-1970": {
       "id": "m-a-s-h-1970",
@@ -219021,6 +218994,37 @@
       },
       "synopsis": "A prince and a fellowship of companions set out to rescue his bride from a fortress of alien invaders who have arrived on their home planet."
     },
+    "la-chaleur-2026": {
+      "id": "la-chaleur-2026",
+      "crew": [
+        {
+          "name": "Stéphane Demoustier",
+          "job": "Director"
+        },
+        {
+          "name": "Stéphane Demoustier",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Jean des Forêts",
+          "job": "Producer"
+        },
+        {
+          "name": "David Chambille",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Damien Maestraggi",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.780Z",
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 25
+      },
+      "synopsis": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also wonders if he might be falling in love with the charming Giulia."
+    },
     "men-2022": {
       "id": "men-2022",
       "crew": [
@@ -242629,37 +242633,6 @@
       },
       "synopsis": "A nameless ronin, or samurai with no master, enters a small village in feudal Japan where two rival businessmen are struggling for control of the local gambling trade. Taking the name Sanjuro Kuwabatake, the ronin convinces both silk merchant Tazaemon and sake merchant Tokuemon to hire him as a personal bodyguard, then artfully sets in motion a full-scale gang war between the two ambitious and unscrupulous men."
     },
-    "a-portrait-of-jianghu-the-legend-2023": {
-      "id": "a-portrait-of-jianghu-the-legend-2023",
-      "crew": [
-        {
-          "name": "Feilong Zhou",
-          "job": "Director"
-        },
-        {
-          "name": "Weijie Ren",
-          "job": "Director"
-        },
-        {
-          "name": "Weijie Ren",
-          "job": "Editor"
-        },
-        {
-          "name": "连洁",
-          "job": "Writer"
-        },
-        {
-          "name": "李皖青",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:22.997Z",
-        "tmdbVoteAverage": 8,
-        "tmdbVoteCount": 15
-      },
-      "synopsis": "No synopsis is available yet."
-    },
     "andrei-rublev-1966": {
       "id": "andrei-rublev-1966",
       "crew": [
@@ -242905,16 +242878,6 @@
         "tmdbVoteCount": 478
       },
       "synopsis": "Noriko is perfectly happy living at home with her widowed father, Shukichi, and has no plans to marry -- that is, until her aunt Masa convinces Shukichi that unless he marries off his 27-year-old daughter soon, she will likely remain alone for the rest of her life. When Noriko resists Masa's matchmaking, Shukichi is forced to deceive his daughter and sacrifice his own happiness to do what he believes is right."
-    },
-    "making-squid-game-the-challenge-2023": {
-      "id": "making-squid-game-the-challenge-2023",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:22.446Z",
-        "tmdbVoteAverage": 7.967,
-        "tmdbVoteCount": 241
-      },
-      "synopsis": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition."
     },
     "mobile-suit-gundam-gquuuuuux-beginning-2025": {
       "id": "mobile-suit-gundam-gquuuuuux-beginning-2025",
@@ -243962,41 +243925,6 @@
         "tmdbVoteCount": 2490
       },
       "synopsis": "The powerful true story of Harvard-educated lawyer Bryan Stevenson, who goes to Alabama to defend the disenfranchised and wrongly condemned — including Walter McMillian, a man sentenced to death despite evidence proving his innocence. Bryan fights tirelessly for Walter with the system stacked against them."
-    },
-    "kitbull-2019": {
-      "id": "kitbull-2019",
-      "crew": [
-        {
-          "name": "Rosana Sullivan",
-          "job": "Director"
-        },
-        {
-          "name": "Rosana Sullivan",
-          "job": "Writer"
-        },
-        {
-          "name": "Kathryn Hendrickson",
-          "job": "Producer"
-        },
-        {
-          "name": "Andrew Jimenez",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Arjun Rihan",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Katie Schaefer",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:23.063Z",
-        "tmdbVoteAverage": 7.931,
-        "tmdbVoteCount": 425
-      },
-      "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time."
     },
     "love-exposure-2008": {
       "id": "love-exposure-2008",
@@ -245649,6 +245577,37 @@
         "tmdbVoteCount": 119
       },
       "synopsis": "Fleeing heartbreak in the big city, Ichiko returns to Komori, her rural hometown. She battles summer's rain and humidity, bakes her own bread, grows hothouse tomatoes and tills the fields. During autumn, the time for pickling and preserving fish and sweet potatoes, Ichiko begins reaping rice and recalls her departure five years before."
+    },
+    "little-girl-2020": {
+      "id": "little-girl-2020",
+      "crew": [
+        {
+          "name": "Sébastien Lifshitz",
+          "job": "Director"
+        },
+        {
+          "name": "Sébastien Lifshitz",
+          "job": "Writer"
+        },
+        {
+          "name": "Muriel Meynard",
+          "job": "Producer"
+        },
+        {
+          "name": "Paul Guilhaume",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Pauline Gaillard",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:21.916Z",
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 121
+      },
+      "synopsis": "7-year-old Sasha has always known that she is a girl. Sasha’s family has recently accepted her gender identity, embracing their daughter for who she truly is while working to confront outdated norms and find affirmation in a small community of rural France."
     },
     "love-chunibyo-and-other-delusions-take-on-me-2018": {
       "id": "love-chunibyo-and-other-delusions-take-on-me-2018",
@@ -248995,33 +248954,6 @@
         "tmdbVoteCount": 63
       },
       "synopsis": "Having lost his job and the company he built, a 36-year-old man at rock bottom goes on a wistful solo trip to Japan in search of the love he left behind."
-    },
-    "7-days-2005": {
-      "id": "7-days-2005",
-      "crew": [
-        {
-          "name": "Fernando Kalife",
-          "job": "Director"
-        },
-        {
-          "name": "Fernando Kalife",
-          "job": "Writer"
-        },
-        {
-          "name": "Jeff Cardoni",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Gonzalo Amat",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:23.129Z",
-        "tmdbVoteAverage": 7.62,
-        "tmdbVoteCount": 54
-      },
-      "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico."
     },
     "a-little-princess-1995": {
       "id": "a-little-princess-1995",
@@ -313272,49 +313204,6 @@
       },
       "synopsis": "A successful gay male escort describes in a series of confessions his tangled romantic relationships with his two roommates and an older, enigmatic male client."
     },
-    "bread-and-roses-2024": {
-      "id": "bread-and-roses-2024",
-      "crew": [
-        {
-          "name": "Sahra Mani",
-          "job": "Director"
-        },
-        {
-          "name": "Sahra Mani",
-          "job": "Producer"
-        },
-        {
-          "name": "Justine Ciarrocchi",
-          "job": "Producer"
-        },
-        {
-          "name": "Jennifer Lawrence",
-          "job": "Producer"
-        },
-        {
-          "name": "Masoud Sekhavat Doust",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Abdul Sami Murtaza",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Hayedeh Safiyari",
-          "job": "Editor"
-        },
-        {
-          "name": "Maria Mavati",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:23.195Z",
-        "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 15
-      },
-      "synopsis": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives."
-    },
     "bridget-jones-mad-about-the-boy-2025": {
       "id": "bridget-jones-mad-about-the-boy-2025",
       "crew": [
@@ -330693,25 +330582,6 @@
       },
       "synopsis": "Six years ago NASA discovered the possibility of alien life within our solar system. A probe was launched to collect samples, but crashed upon re-entry over Central America. Soon after, new life forms began to appear and half of Mexico was quarantined as an infected zone. Today, the American and Mexican military still struggle to contain \"the creatures,\" while a journalist agrees to escort a shaken tourist through the infected zone in Mexico to the safety of the U.S. border."
     },
-    "my-father-s-wings-2016": {
-      "id": "my-father-s-wings-2016",
-      "crew": [
-        {
-          "name": "Kıvanç Sezer",
-          "job": "Director"
-        },
-        {
-          "name": "Jörg Gruber",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:22.856Z",
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 11
-      },
-      "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society."
-    },
     "never-been-kissed-1999": {
       "id": "never-been-kissed-1999",
       "crew": [
@@ -337180,57 +337050,6 @@
         "tmdbVoteCount": 508
       },
       "synopsis": "Tien is captured and almost beaten to death before he is saved and brought back to the Kana Khone villagers. There he is taught meditation and how to deal with his Karma, but very soon his arch rival returns challenging Tien for a final duel."
-    },
-    "orgasm-inc-the-story-of-onetaste-2022": {
-      "id": "orgasm-inc-the-story-of-onetaste-2022",
-      "crew": [
-        {
-          "name": "Sarah Gibson",
-          "job": "Director"
-        },
-        {
-          "name": "Sloane Klevin",
-          "job": "Director"
-        },
-        {
-          "name": "Sarah Gibson",
-          "job": "Producer"
-        },
-        {
-          "name": "Sloane Klevin",
-          "job": "Editor"
-        },
-        {
-          "name": "Marissa Díaz",
-          "job": "Writer"
-        },
-        {
-          "name": "Marissa Díaz",
-          "job": "Producer"
-        },
-        {
-          "name": "Jacob Yakob",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Joseph Yakob",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Megan Stacey",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Nick Bradford",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:23.287Z",
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 84
-      },
-      "synopsis": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations."
     },
     "orgazmo-1998": {
       "id": "orgazmo-1998",
@@ -381089,6 +380908,37 @@
       },
       "synopsis": "In 1987 Korea under an oppressive military regime, the unlawful interrogation and death of a college student ignite ordinary citizens to fight for the truth and bring about justice."
     },
+    "a-portrait-of-jianghu-the-legend-2023": {
+      "id": "a-portrait-of-jianghu-the-legend-2023",
+      "crew": [
+        {
+          "name": "Feilong Zhou",
+          "job": "Director"
+        },
+        {
+          "name": "Weijie Ren",
+          "job": "Director"
+        },
+        {
+          "name": "Weijie Ren",
+          "job": "Editor"
+        },
+        {
+          "name": "连洁",
+          "job": "Writer"
+        },
+        {
+          "name": "李皖青",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:22.997Z",
+        "tmdbVoteAverage": 8,
+        "tmdbVoteCount": 15
+      },
+      "synopsis": "No synopsis is available yet."
+    },
     "autumn-sonata-1978": {
       "id": "autumn-sonata-1978",
       "crew": [
@@ -381377,6 +381227,16 @@
         "tmdbVoteCount": 2606
       },
       "synopsis": "A young man arrives at the last hometown of painter Vincent van Gogh to deliver the troubled artist's final letter and ends up investigating his final days there."
+    },
+    "making-squid-game-the-challenge-2023": {
+      "id": "making-squid-game-the-challenge-2023",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:22.446Z",
+        "tmdbVoteAverage": 7.967,
+        "tmdbVoteCount": 241
+      },
+      "synopsis": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition."
     },
     "nights-of-cabiria-1957": {
       "id": "nights-of-cabiria-1957",
@@ -382734,6 +382594,41 @@
         "tmdbVoteCount": 111
       },
       "synopsis": "With graduation right around the corner, every member of the Light Music Club except for Azusa will be leaving for good. But the girls aren’t going to let something as silly as graduation tear them apart! For their final hurrah, the girls are going on the ultimate vacation tour— all the way to London! Their overseas journey will lead them on a trip of discovery and friendship as they take the stage one last time for their final encore together."
+    },
+    "kitbull-2019": {
+      "id": "kitbull-2019",
+      "crew": [
+        {
+          "name": "Rosana Sullivan",
+          "job": "Director"
+        },
+        {
+          "name": "Rosana Sullivan",
+          "job": "Writer"
+        },
+        {
+          "name": "Kathryn Hendrickson",
+          "job": "Producer"
+        },
+        {
+          "name": "Andrew Jimenez",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Arjun Rihan",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Katie Schaefer",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:23.063Z",
+        "tmdbVoteAverage": 7.931,
+        "tmdbVoteCount": 425
+      },
+      "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time."
     },
     "la-strada-1954": {
       "id": "la-strada-1954",
@@ -384398,16 +384293,6 @@
         "tmdbVoteCount": 74
       },
       "synopsis": "Before he was Craig of the Creek, he was just Craig — a new kid in a new town. All Craig wants is to go back to his old friends at his old home. But when he learns that the nearby creek is hiding a lost treasure that could make his wish come true, Craig sets off on a journey to find it — navigating the perilous suburban wilderness, forging new friendships, all while being pursued by a fearsome band of pirates who are bent on destroying the Creek itself."
-    },
-    "creating-the-queen-s-gambit-2021": {
-      "id": "creating-the-queen-s-gambit-2021",
-      "crew": [],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:23.358Z",
-        "tmdbVoteAverage": 7.8,
-        "tmdbVoteCount": 141
-      },
-      "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
     },
     "eureka-2001": {
       "id": "eureka-2001",
@@ -389465,6 +389350,33 @@
         "tmdbVoteCount": 915
       },
       "synopsis": "A history professor and his wife entertain a young couple who are new to the university's faculty. As the drinks flow, secrets come to light, and the middle-aged couple unload onto their guests the full force of the bitterness, dysfunction, and animosity that defines their marriage."
+    },
+    "7-days-2005": {
+      "id": "7-days-2005",
+      "crew": [
+        {
+          "name": "Fernando Kalife",
+          "job": "Director"
+        },
+        {
+          "name": "Fernando Kalife",
+          "job": "Writer"
+        },
+        {
+          "name": "Jeff Cardoni",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Gonzalo Amat",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:23.129Z",
+        "tmdbVoteAverage": 7.62,
+        "tmdbVoteCount": 54
+      },
+      "synopsis": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico."
     },
     "a-close-shave-1996": {
       "id": "a-close-shave-1996",
@@ -404777,37 +404689,6 @@
         "tmdbVoteCount": 29
       },
       "synopsis": "As Shinsei Inazuma Japan was about to have a match with Inazuma Legend Japan, a mysterious attack of a person and a swarm of robots interrupted, and another mysterious girl's power drove the world into another dimension. As the world of Inazuma Eleven Go and Danball Senki W met, the two teams must work together to find out what happened to their worlds."
-    },
-    "inception-the-cobol-job-2010": {
-      "id": "inception-the-cobol-job-2010",
-      "crew": [
-        {
-          "name": "Ian Kirby",
-          "job": "Producer"
-        },
-        {
-          "name": "Ian Kirby",
-          "job": "Director"
-        },
-        {
-          "name": "Jordan Goldberg",
-          "job": "Writer"
-        },
-        {
-          "name": "Caleb Bouchard",
-          "job": "Producer"
-        },
-        {
-          "name": "Daniel Sioui",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:25.198Z",
-        "tmdbVoteAverage": 7.3,
-        "tmdbVoteCount": 321
-      },
-      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
     },
     "injustice-2021": {
       "id": "injustice-2021",
@@ -456542,29 +456423,6 @@
       },
       "synopsis": "After being hypnotized by his sister-in-law, Tom Witzky begins seeing haunting visions of a girl's ghost and a mystery begins to unfold around her."
     },
-    "stolen-eyes-2005": {
-      "id": "stolen-eyes-2005",
-      "crew": [
-        {
-          "name": "Radoslav Spassov",
-          "job": "Director"
-        },
-        {
-          "name": "Radoslav Spassov",
-          "job": "Writer"
-        },
-        {
-          "name": "Neri Terzieva",
-          "job": "Writer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:24.447Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 10
-      },
-      "synopsis": "This is a story of strange, impossible, inexplicable love between a Muslim Turk woman and a non-Muslim Bulgarian man. Ivan (the Bulgarian) is a pure and romantic young fellow, who gets caught up in the so-called \"regeneration process\" (when ethnic Turks' names were forcibly changed to Bulgarian ones). He is responsible for the official seals, which is required to issue the new identity documents after the forced name changes. The schoolteacher Ayten tries to steal the seals, thinking that this way she can slow down the ethnic genocide. Their unexpected and unusual meeting brings these two characters together and makes them fell close, forcing Ivan to take a fateful decision -he must either \"rename\" Ayten, or face the consequences if he does not."
-    },
     "summertime-2015": {
       "id": "summertime-2015",
       "crew": [
@@ -458510,53 +458368,6 @@
         "tmdbVoteCount": 329
       },
       "synopsis": "On his first day after being released from jail for 14 armed bank robberies, Lucas finds himself caught up in someone else's robbery. Perry has decided to hold up the local bank to raise money so that he can keep his daughter, Meg, and get her the treatment she needs. Dugan, a detective, assumes Lucas helped plan the robbery, and hence Lucas, Perry and Meg become three fugitives."
-    },
-    "tiger-wolf-rabbit-2024": {
-      "id": "tiger-wolf-rabbit-2024",
-      "crew": [
-        {
-          "name": "Guo Shubo",
-          "job": "Director"
-        },
-        {
-          "name": "Shang Ke",
-          "job": "Writer"
-        },
-        {
-          "name": "Fu Ruoqing",
-          "job": "Producer"
-        },
-        {
-          "name": "Zhang Dayong",
-          "job": "Producer"
-        },
-        {
-          "name": "Zhang Huixia",
-          "job": "Producer"
-        },
-        {
-          "name": "Hu Xiao'ou",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Du Jie",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Cheung Ka-Fai",
-          "job": "Editor"
-        },
-        {
-          "name": "Guangwei Du",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:25.269Z",
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 18
-      },
-      "synopsis": "Three parents who have lost their children are involved with each other because of a deal; they have no soul in their eyes and hatred in their hearts, and each of them, with their own purposes, set out on the road of seeking revenge for their children, and staged a bizarre and dangerous killing in the barren land."
     },
     "time-2020": {
       "id": "time-2020",
@@ -474480,25 +474291,6 @@
       },
       "synopsis": "College freshman Sydney White arrives at Southern Atlantic University, determined to pledge her late mother's sorority. Unfortunately, she finds that the sisterhood has changed since her parent's day. Banished to a condemned house, Sydney joins forces with seven outcasts to take over the student government and win equal rights for nerd and noted alike."
     },
-    "the-motorist-1906": {
-      "id": "the-motorist-1906",
-      "crew": [
-        {
-          "name": "Walter R. Booth",
-          "job": "Director"
-        },
-        {
-          "name": "Robert W. Paul",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:24.666Z",
-        "tmdbVoteAverage": 6.485,
-        "tmdbVoteCount": 65
-      },
-      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
-    },
     "the-captive-2025": {
       "id": "the-captive-2025",
       "crew": [
@@ -477851,15 +477643,48 @@
       },
       "synopsis": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is."
     },
-    "blood-type-o-watermelon-chest-housekeeper-2021": {
-      "id": "blood-type-o-watermelon-chest-housekeeper-2021",
-      "crew": [],
+    "bread-and-roses-2024": {
+      "id": "bread-and-roses-2024",
+      "crew": [
+        {
+          "name": "Sahra Mani",
+          "job": "Director"
+        },
+        {
+          "name": "Sahra Mani",
+          "job": "Producer"
+        },
+        {
+          "name": "Justine Ciarrocchi",
+          "job": "Producer"
+        },
+        {
+          "name": "Jennifer Lawrence",
+          "job": "Producer"
+        },
+        {
+          "name": "Masoud Sekhavat Doust",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Abdul Sami Murtaza",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Hayedeh Safiyari",
+          "job": "Editor"
+        },
+        {
+          "name": "Maria Mavati",
+          "job": "Editor"
+        }
+      ],
       "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:24.860Z",
+        "tmdbUpdatedAt": "2026-11-03T15:34:23.195Z",
         "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 17
+        "tmdbVoteCount": 15
       },
-      "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?"
+      "synopsis": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives."
     },
     "brokedown-palace-1999": {
       "id": "brokedown-palace-1999",
@@ -490841,49 +490666,6 @@
       },
       "synopsis": "When a group of ruthless mercenaries kill a reclusive scientist, his creation, a new model of artificially intelligent supercar, escapes to find his daughter and recruit a ex-soldier to thwart them. Pilot for the reboot of the television series Knight Rider."
     },
-    "lead-me-home-2021": {
-      "id": "lead-me-home-2021",
-      "crew": [
-        {
-          "name": "Pedro Kos",
-          "job": "Editor"
-        },
-        {
-          "name": "Jon Shenk",
-          "job": "Director"
-        },
-        {
-          "name": "Pedro Kos",
-          "job": "Director"
-        },
-        {
-          "name": "Serin Marshall",
-          "job": "Producer"
-        },
-        {
-          "name": "Bonni Cohen",
-          "job": "Producer"
-        },
-        {
-          "name": "Richard Berge",
-          "job": "Producer"
-        },
-        {
-          "name": "Gil Talmi",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Don Bernier",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:25.339Z",
-        "tmdbVoteAverage": 6.33,
-        "tmdbVoteCount": 138
-      },
-      "synopsis": "Poignant stories of homelessness on the West Coast of the US frame this cinematic portrait of a surging humanitarian crisis."
-    },
     "legends-of-oz-dorothy-s-return-2014": {
       "id": "legends-of-oz-dorothy-s-return-2014",
       "crew": [
@@ -492482,37 +492264,6 @@
         "tmdbVoteCount": 475
       },
       "synopsis": "A man imprisons his estranged junkie friend in an isolated cabin in the boonies of San Diego to force him through a week of sobriety, but the events of that week are being mysteriously manipulated."
-    },
-    "return-1972": {
-      "id": "return-1972",
-      "crew": [
-        {
-          "name": "Arman Manaryan",
-          "job": "Director"
-        },
-        {
-          "name": "Roman Zhamgaryan",
-          "job": "Director"
-        },
-        {
-          "name": "Arnold Aghababov",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Tigran Mansuryan",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Levon Atoyants",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-03T15:34:25.410Z",
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 563
-      },
-      "synopsis": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there."
     },
     "return-of-the-hero-2018": {
       "id": "return-of-the-hero-2018",
@@ -500112,6 +499863,25 @@
         "tmdbVoteCount": 1176
       },
       "synopsis": "Tenacious homicide detective Cassie Mayweather and her still-green partner are working a murder case, attempting to profile two malevolently brilliant young men: cold, calculating killers whose dark secrets might explain their crimes."
+    },
+    "my-father-s-wings-2016": {
+      "id": "my-father-s-wings-2016",
+      "crew": [
+        {
+          "name": "Kıvanç Sezer",
+          "job": "Director"
+        },
+        {
+          "name": "Jörg Gruber",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:22.856Z",
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 11
+      },
+      "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society."
     },
     "my-old-lady-2014": {
       "id": "my-old-lady-2014",
@@ -509262,6 +509032,57 @@
         "tmdbVoteCount": 190
       },
       "synopsis": "Danny Muldoon, a Chicago policeman, still lives with his overbearing mother Rose. He meets and falls in love with Theresa Luna, whose father owns the local funeral parlour. Naturally, his mother objects to the relationship, and Danny and Theresa must either overcome her objections or give up the romance."
+    },
+    "orgasm-inc-the-story-of-onetaste-2022": {
+      "id": "orgasm-inc-the-story-of-onetaste-2022",
+      "crew": [
+        {
+          "name": "Sarah Gibson",
+          "job": "Director"
+        },
+        {
+          "name": "Sloane Klevin",
+          "job": "Director"
+        },
+        {
+          "name": "Sarah Gibson",
+          "job": "Producer"
+        },
+        {
+          "name": "Sloane Klevin",
+          "job": "Editor"
+        },
+        {
+          "name": "Marissa Díaz",
+          "job": "Writer"
+        },
+        {
+          "name": "Marissa Díaz",
+          "job": "Producer"
+        },
+        {
+          "name": "Jacob Yakob",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Joseph Yakob",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Megan Stacey",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Nick Bradford",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:23.287Z",
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 84
+      },
+      "synopsis": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations."
     },
     "otherhood-2019": {
       "id": "otherhood-2019",
@@ -572348,6 +572169,16 @@
       },
       "synopsis": "The mid 90’s. Turkey’s political instability, inflation and hopelesness on people were increased. In those years when all hope was lost, people deeply bond with Bold Pilot and Halis Karataş who win every race coming from the last place. People see themselves at the point where this horse and jockey are: at the back. This duo make people to believe that everybody can win. The race ends at the finish line and the first to cross this line are Bold Pilot and Halis riding it."
     },
+    "creating-the-queen-s-gambit-2021": {
+      "id": "creating-the-queen-s-gambit-2021",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:23.358Z",
+        "tmdbVoteAverage": 7.8,
+        "tmdbVoteCount": 141
+      },
+      "synopsis": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
     "day-for-night-1973": {
       "id": "day-for-night-1973",
       "crew": [
@@ -586870,6 +586701,37 @@
         "tmdbVoteCount": 992
       },
       "synopsis": "Has been an year since Pietro Zinni's gang got caught in the Sopox production laboratory and each of them locked up in different jails. From Regina Coeli jail, Pietro keep warning the authorities a fool syntetized nerve gas and he is ready to make a killing, but no one takes him seriously."
+    },
+    "inception-the-cobol-job-2010": {
+      "id": "inception-the-cobol-job-2010",
+      "crew": [
+        {
+          "name": "Ian Kirby",
+          "job": "Producer"
+        },
+        {
+          "name": "Ian Kirby",
+          "job": "Director"
+        },
+        {
+          "name": "Jordan Goldberg",
+          "job": "Writer"
+        },
+        {
+          "name": "Caleb Bouchard",
+          "job": "Producer"
+        },
+        {
+          "name": "Daniel Sioui",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:25.198Z",
+        "tmdbVoteAverage": 7.3,
+        "tmdbVoteCount": 321
+      },
+      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
     },
     "jab-we-met-2007": {
       "id": "jab-we-met-2007",
@@ -625093,6 +624955,29 @@
       },
       "synopsis": "Dante accidentally kisses Alice and they get engaged. After a surprise party for his 40th birthday, he wakes up a year later, not remembering what happened. Not only does he discover that Alice is pregnant... He feels time is passing too quickly and he starts forgetting some of the most important moments of his life."
     },
+    "stolen-eyes-2005": {
+      "id": "stolen-eyes-2005",
+      "crew": [
+        {
+          "name": "Radoslav Spassov",
+          "job": "Director"
+        },
+        {
+          "name": "Radoslav Spassov",
+          "job": "Writer"
+        },
+        {
+          "name": "Neri Terzieva",
+          "job": "Writer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:24.447Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 10
+      },
+      "synopsis": "This is a story of strange, impossible, inexplicable love between a Muslim Turk woman and a non-Muslim Bulgarian man. Ivan (the Bulgarian) is a pure and romantic young fellow, who gets caught up in the so-called \"regeneration process\" (when ethnic Turks' names were forcibly changed to Bulgarian ones). He is responsible for the official seals, which is required to issue the new identity documents after the forced name changes. The schoolteacher Ayten tries to steal the seals, thinking that this way she can slow down the ethnic genocide. Their unexpected and unusual meeting brings these two characters together and makes them fell close, forcing Ivan to take a fateful decision -he must either \"rename\" Ayten, or face the consequences if he does not."
+    },
     "ted-bundy-american-boogeyman-2021": {
       "id": "ted-bundy-american-boogeyman-2021",
       "crew": [
@@ -626610,6 +626495,53 @@
         "tmdbVoteCount": 115
       },
       "synopsis": "In the panicky, uncertain hours before his wedding, a groom with prenuptial jitters and his two best friends reminisce about growing up together in the middle-class African-American neighborhood of Inglewood, California. Flashing back to the twenty-something trio's childhood exploits, the memories capture the mood and nostalgia of the '80s era."
+    },
+    "tiger-wolf-rabbit-2024": {
+      "id": "tiger-wolf-rabbit-2024",
+      "crew": [
+        {
+          "name": "Guo Shubo",
+          "job": "Director"
+        },
+        {
+          "name": "Shang Ke",
+          "job": "Writer"
+        },
+        {
+          "name": "Fu Ruoqing",
+          "job": "Producer"
+        },
+        {
+          "name": "Zhang Dayong",
+          "job": "Producer"
+        },
+        {
+          "name": "Zhang Huixia",
+          "job": "Producer"
+        },
+        {
+          "name": "Hu Xiao'ou",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Du Jie",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Cheung Ka-Fai",
+          "job": "Editor"
+        },
+        {
+          "name": "Guangwei Du",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:25.269Z",
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 18
+      },
+      "synopsis": "Three parents who have lost their children are involved with each other because of a deal; they have no soul in their eyes and hatred in their hearts, and each of them, with their own purposes, set out on the road of seeking revenge for their children, and staged a bizarre and dangerous killing in the barren land."
     },
     "time-freak-2018": {
       "id": "time-freak-2018",
@@ -637286,6 +637218,25 @@
       },
       "synopsis": "A rogue scientist near a small desert town arouses the suspicion of the town's doctor when his lab assistant is found dead from a case of acromegaly, which took only four days to develop.  As the doctor investigates, aided by the scientist's new female assistant, they discover that something is devouring local cattle and humans in increasingly large quantities."
     },
+    "the-motorist-1906": {
+      "id": "the-motorist-1906",
+      "crew": [
+        {
+          "name": "Walter R. Booth",
+          "job": "Director"
+        },
+        {
+          "name": "Robert W. Paul",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:24.666Z",
+        "tmdbVoteAverage": 6.485,
+        "tmdbVoteCount": 65
+      },
+      "synopsis": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage."
+    },
     "the-assassination-of-richard-nixon-2004": {
       "id": "the-assassination-of-richard-nixon-2004",
       "crew": [
@@ -639830,6 +639781,16 @@
         "tmdbVoteCount": 572
       },
       "synopsis": "He invents puzzles. He’s committed body and soul to his work and needs silence to be able to concentrate. She is an accomplished pianist and can’t live without music. She must prepare for a competition that could change her life. They are going to be forced to coexist without seeing each other."
+    },
+    "blood-type-o-watermelon-chest-housekeeper-2021": {
+      "id": "blood-type-o-watermelon-chest-housekeeper-2021",
+      "crew": [],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:24.860Z",
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 17
+      },
+      "synopsis": "Friends Cheol Min and Jae Hyuk meet and talk to each other after a long time. Jae Hyuk said that the domestic helper who recently came to work at his house is strange. He said he was worried because she couldn't do the housework. When Jae Hyuk said she seemed to be trying to seduce him, Cheol Min tells the innocent Jae Hyuk how to get around her. Can Jae Hyuk succeed in having sex with a beautiful housekeeper?"
     },
     "bobby-2006": {
       "id": "bobby-2006",
@@ -647709,6 +647670,49 @@
       },
       "synopsis": "In London for his daughter's wedding, a struggling jingle-writer, Harvey Shine, misses his plane to New York, and thus loses his job. While drowning his sorrows in the airport pub, Harvey meets Kate, a British government worker stuck in an endless cycle of work, phone calls from her mother, and blind dates. A connection forms between the unhappy pair, who soon find themselves falling in love."
     },
+    "lead-me-home-2021": {
+      "id": "lead-me-home-2021",
+      "crew": [
+        {
+          "name": "Pedro Kos",
+          "job": "Editor"
+        },
+        {
+          "name": "Jon Shenk",
+          "job": "Director"
+        },
+        {
+          "name": "Pedro Kos",
+          "job": "Director"
+        },
+        {
+          "name": "Serin Marshall",
+          "job": "Producer"
+        },
+        {
+          "name": "Bonni Cohen",
+          "job": "Producer"
+        },
+        {
+          "name": "Richard Berge",
+          "job": "Producer"
+        },
+        {
+          "name": "Gil Talmi",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Don Bernier",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:25.339Z",
+        "tmdbVoteAverage": 6.33,
+        "tmdbVoteCount": 138
+      },
+      "synopsis": "Poignant stories of homelessness on the West Coast of the US frame this cinematic portrait of a surging humanitarian crisis."
+    },
     "let-s-go-to-the-country-2014": {
       "id": "let-s-go-to-the-country-2014",
       "crew": [
@@ -648748,6 +648752,37 @@
         "tmdbVoteCount": 120
       },
       "synopsis": "In a dystopian future, the Vatican knows how to resurrect people. A priest discovers a conspiracy behind the resurrections and their possible link to a series of murders."
+    },
+    "return-1972": {
+      "id": "return-1972",
+      "crew": [
+        {
+          "name": "Arman Manaryan",
+          "job": "Director"
+        },
+        {
+          "name": "Roman Zhamgaryan",
+          "job": "Director"
+        },
+        {
+          "name": "Arnold Aghababov",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Tigran Mansuryan",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Levon Atoyants",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-03T15:34:25.410Z",
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 563
+      },
+      "synopsis": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there."
     },
     "return-to-seoul-2022": {
       "id": "return-to-seoul-2022",
