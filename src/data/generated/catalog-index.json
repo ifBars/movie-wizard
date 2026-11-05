@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T15:53:31.962Z",
+  "generatedAt": "2026-11-05T17:28:43.523Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -9447,6 +9447,54 @@
       "source": {
         "tmdbVoteAverage": 5.518,
         "tmdbVoteCount": 336
+      }
+    },
+    {
+      "id": "your-mother-your-mother-your-mother-2026",
+      "tmdbId": 1437396,
+      "imdbId": "tt35856037",
+      "title": "Your Mother Your Mother Your Mother",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-09-25",
+      "runtimeMinutes": 112,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller",
+        "Action"
+      ],
+      "tags": [
+        "muslim",
+        "hitman",
+        "houston, texas",
+        "single father",
+        "contract killer",
+        "protective father",
+        "family and struggle"
+      ],
+      "directors": [
+        "Bassam Tariq"
+      ],
+      "cast": [
+        "Mahershala Ali",
+        "John Cho",
+        "Giancarlo Esposito",
+        "Abubakr Ali",
+        "Laith Nakli",
+        "Adia"
+      ],
+      "posterPath": "/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "backdropPath": "/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 58,
+      "criticalScore": 75,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/uEcoV-ngH38",
+      "synopsisPreview": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around...",
+      "source": {
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 20
       }
     },
     {
@@ -25991,49 +26039,6 @@
       }
     },
     {
-      "id": "flow-2024",
-      "tmdbId": 823219,
-      "imdbId": "tt4772188",
-      "title": "Flow",
-      "originalTitle": "Straume",
-      "originalLanguage": "lv",
-      "year": 2024,
-      "releaseDate": "2024-08-29",
-      "runtimeMinutes": 85,
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy"
-      ],
-      "tags": [
-        "ocean",
-        "cat",
-        "boat",
-        "dystopia",
-        "survival",
-        "dog",
-        "ruins",
-        "flood"
-      ],
-      "directors": [
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-      "popularity": 15,
-      "criticalScore": 81,
-      "plexFit": "A compact adventure option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-      "source": {
-        "tmdbVoteAverage": 8.05,
-        "tmdbVoteCount": 3154
-      }
-    },
-    {
       "id": "3-idiots-2009",
       "tmdbId": 20453,
       "imdbId": "tt1187043",
@@ -30119,6 +30124,49 @@
       }
     },
     {
+      "id": "flow-2024",
+      "tmdbId": 823219,
+      "imdbId": "tt4772188",
+      "title": "Flow",
+      "originalTitle": "Straume",
+      "originalLanguage": "lv",
+      "year": 2024,
+      "releaseDate": "2024-08-29",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "tags": [
+        "ocean",
+        "cat",
+        "boat",
+        "dystopia",
+        "survival",
+        "dog",
+        "ruins",
+        "flood"
+      ],
+      "directors": [
+        "Gints Zilbalodis"
+      ],
+      "cast": [],
+      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 15,
+      "criticalScore": 81,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "source": {
+        "tmdbVoteAverage": 8.05,
+        "tmdbVoteCount": 3154
+      }
+    },
+    {
       "id": "wonder-2017",
       "tmdbId": 406997,
       "imdbId": "tt2543472",
@@ -33019,44 +33067,6 @@
       "source": {
         "tmdbVoteAverage": 4.4,
         "tmdbVoteCount": 11
-      }
-    },
-    {
-      "id": "the-treehouse-2025",
-      "tmdbId": 1450404,
-      "imdbId": "tt35108122",
-      "title": "The Treehouse",
-      "originalTitle": "La casa en el árbol",
-      "originalLanguage": "es",
-      "year": 2025,
-      "releaseDate": "2025-09-19",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Horror"
-      ],
-      "tags": [],
-      "directors": [
-        "Luis Calderón"
-      ],
-      "cast": [
-        "Sandra Escacena",
-        "Claudio Portalo",
-        "Kandido Uranga",
-        "Mala Rodríguez",
-        "Apolonia Lapiedra",
-        "Asier Hernández"
-      ],
-      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 14,
-      "criticalScore": 43,
-      "plexFit": "A useful horror title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-      "source": {
-        "tmdbVoteAverage": 4.302,
-        "tmdbVoteCount": 43
       }
     },
     {
@@ -36473,6 +36483,44 @@
       "source": {
         "tmdbVoteAverage": 4.471,
         "tmdbVoteCount": 34
+      }
+    },
+    {
+      "id": "the-treehouse-2025",
+      "tmdbId": 1450404,
+      "imdbId": "tt35108122",
+      "title": "The Treehouse",
+      "originalTitle": "La casa en el árbol",
+      "originalLanguage": "es",
+      "year": 2025,
+      "releaseDate": "2025-09-19",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Luis Calderón"
+      ],
+      "cast": [
+        "Sandra Escacena",
+        "Claudio Portalo",
+        "Kandido Uranga",
+        "Mala Rodríguez",
+        "Apolonia Lapiedra",
+        "Asier Hernández"
+      ],
+      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 14,
+      "criticalScore": 43,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+      "source": {
+        "tmdbVoteAverage": 4.302,
+        "tmdbVoteCount": 43
       }
     },
     {
@@ -94155,6 +94203,48 @@
       }
     },
     {
+      "id": "summer-house-2026",
+      "tmdbId": 1556616,
+      "imdbId": "tt38897659",
+      "title": "Summer House",
+      "originalTitle": "Yaz Evi",
+      "originalLanguage": "tr",
+      "year": 2026,
+      "releaseDate": "2026-06-06",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Mystery"
+      ],
+      "tags": [
+        "coming of age",
+        "overprotective mother"
+      ],
+      "directors": [
+        "Erdem Tepegöz"
+      ],
+      "cast": [
+        "Mina Demirtaş",
+        "Derya Pınar Ak",
+        "Onur Seyit Yaran",
+        "Çağdaş Onur Öztürk",
+        "Kamil Güler",
+        "Selma Ergeç"
+      ],
+      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
+      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 7,
+      "criticalScore": 68,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 25
+      }
+    },
+    {
       "id": "the-autopsy-of-jane-doe-2016",
       "tmdbId": 397243,
       "imdbId": "tt3289956",
@@ -117188,48 +117278,6 @@
       "source": {
         "tmdbVoteAverage": 6.788,
         "tmdbVoteCount": 7106
-      }
-    },
-    {
-      "id": "summer-house-2026",
-      "tmdbId": 1556616,
-      "imdbId": "tt38897659",
-      "title": "Summer House",
-      "originalTitle": "Yaz Evi",
-      "originalLanguage": "tr",
-      "year": 2026,
-      "releaseDate": "2026-06-06",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Mystery"
-      ],
-      "tags": [
-        "coming of age",
-        "overprotective mother"
-      ],
-      "directors": [
-        "Erdem Tepegöz"
-      ],
-      "cast": [
-        "Mina Demirtaş",
-        "Derya Pınar Ak",
-        "Onur Seyit Yaran",
-        "Çağdaş Onur Öztürk",
-        "Kamil Güler",
-        "Selma Ergeç"
-      ],
-      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
-      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-      "popularity": 7,
-      "criticalScore": 68,
-      "plexFit": "A useful romance title for broadening the local catalog.",
-      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
-      "source": {
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 25
       }
     },
     {
@@ -186134,44 +186182,6 @@
       }
     },
     {
-      "id": "the-storyteller-2024",
-      "tmdbId": 1108906,
-      "imdbId": "tt27304417",
-      "title": "The Storyteller",
-      "originalTitle": "L'enchanteur",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-02-12",
-      "runtimeMinutes": 92,
-      "genres": [
-        "Drama",
-        "TV Movie"
-      ],
-      "tags": [],
-      "directors": [
-        "Philippe Lefebvre"
-      ],
-      "cast": [
-        "Charles Berling",
-        "Miranda Raison",
-        "Claire de la Rüe du Can",
-        "Pierre Perrier",
-        "Anne Charrier",
-        "Gaspard Meier-Chaurand"
-      ],
-      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
-      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
-      }
-    },
-    {
       "id": "the-world-of-love-2025",
       "tmdbId": 1317512,
       "imdbId": "tt37661885",
@@ -205154,41 +205164,6 @@
       "source": {
         "tmdbVoteAverage": 7.016,
         "tmdbVoteCount": 123
-      }
-    },
-    {
-      "id": "luxo-jr-1986",
-      "tmdbId": 13925,
-      "imdbId": "tt0091455",
-      "title": "Luxo Jr.",
-      "originalLanguage": "en",
-      "year": 1986,
-      "releaseDate": "1986-08-17",
-      "runtimeMinutes": 2,
-      "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "ball",
-        "father and child",
-        "short film"
-      ],
-      "directors": [
-        "John Lasseter"
-      ],
-      "cast": [],
-      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
-      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
-      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 689
       }
     },
     {
@@ -242845,44 +242820,6 @@
       }
     },
     {
-      "id": "la-chaleur-2026",
-      "tmdbId": 1492288,
-      "imdbId": "tt43136887",
-      "title": "La chaleur",
-      "originalTitle": "La Chaleur",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-07-08",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "tags": [],
-      "directors": [
-        "Stéphane Demoustier"
-      ],
-      "cast": [
-        "Hadrien Hussein",
-        "Tristan Richard",
-        "Martina La Manna",
-        "Noé Houssard",
-        "Zakariya Gouram",
-        "Cécile Ducrocq"
-      ],
-      "posterPath": "/42uouj30D7oPf8sPY6ids5QDf55.jpg",
-      "backdropPath": "/yJGT3NHe9kO9peU09iYYBvNZALE.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 61,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also w...",
-      "source": {
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 25
-      }
-    },
-    {
       "id": "men-2022",
       "tmdbId": 780609,
       "imdbId": "tt13841850",
@@ -250461,45 +250398,6 @@
       "source": {
         "tmdbVoteAverage": 5.893,
         "tmdbVoteCount": 1426
-      }
-    },
-    {
-      "id": "mauvaise-pioche-2026",
-      "tmdbId": 1440304,
-      "imdbId": "tt39314864",
-      "title": "Tough Luck",
-      "originalTitle": "Mauvaise Pioche",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-04-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "lighthearted"
-      ],
-      "directors": [
-        "Gérard Jugnot"
-      ],
-      "cast": [
-        "Gérard Jugnot",
-        "Thierry Lhermitte",
-        "Philippe Lacheau",
-        "Zabou Breitman",
-        "Jean-Pierre Darroussin",
-        "Michèle Laroque"
-      ],
-      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
-      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 59,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
-      "source": {
-        "tmdbVoteAverage": 5.918,
-        "tmdbVoteCount": 49
       }
     },
     {
@@ -268329,39 +268227,6 @@
       }
     },
     {
-      "id": "far-from-the-tree-2021",
-      "tmdbId": 831827,
-      "imdbId": "tt14927356",
-      "title": "Far from the Tree",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-11-24",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Natalie Nourigat"
-      ],
-      "cast": [],
-      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
-      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 81,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
-      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
-      "source": {
-        "tmdbVoteAverage": 8.1,
-        "tmdbVoteCount": 395
-      }
-    },
-    {
       "id": "love-hurts-2002",
       "tmdbId": 51822,
       "imdbId": "tt0318292",
@@ -270449,44 +270314,6 @@
       "source": {
         "tmdbVoteAverage": 7.854,
         "tmdbVoteCount": 2490
-      }
-    },
-    {
-      "id": "kitbull-2019",
-      "tmdbId": 574074,
-      "imdbId": "tt9536832",
-      "title": "Kitbull",
-      "originalLanguage": "en",
-      "year": 2019,
-      "releaseDate": "2019-01-18",
-      "runtimeMinutes": 9,
-      "genres": [
-        "Animation",
-        "Family",
-        "Drama"
-      ],
-      "tags": [
-        "friendship",
-        "cat",
-        "dog",
-        "animals",
-        "short film",
-        "buddy film"
-      ],
-      "directors": [
-        "Rosana Sullivan"
-      ],
-      "cast": [],
-      "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
-      "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 79,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
-      "source": {
-        "tmdbVoteAverage": 7.935,
-        "tmdbVoteCount": 426
       }
     },
     {
@@ -275763,6 +275590,44 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 513
+      }
+    },
+    {
+      "id": "the-storyteller-2024",
+      "tmdbId": 1108906,
+      "imdbId": "tt27304417",
+      "title": "The Storyteller",
+      "originalTitle": "L'enchanteur",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-02-12",
+      "runtimeMinutes": 92,
+      "genres": [
+        "Drama",
+        "TV Movie"
+      ],
+      "tags": [],
+      "directors": [
+        "Philippe Lefebvre"
+      ],
+      "cast": [
+        "Charles Berling",
+        "Miranda Raison",
+        "Claire de la Rüe du Can",
+        "Pierre Perrier",
+        "Anne Charrier",
+        "Gaspard Meier-Chaurand"
+      ],
+      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
+      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -308082,6 +307947,41 @@
       "source": {
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 109
+      }
+    },
+    {
+      "id": "luxo-jr-1986",
+      "tmdbId": 13925,
+      "imdbId": "tt0091455",
+      "title": "Luxo Jr.",
+      "originalLanguage": "en",
+      "year": 1986,
+      "releaseDate": "1986-08-17",
+      "runtimeMinutes": 2,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "ball",
+        "father and child",
+        "short film"
+      ],
+      "directors": [
+        "John Lasseter"
+      ],
+      "cast": [],
+      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
+      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
+      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 689
       }
     },
     {
@@ -373809,6 +373709,44 @@
       }
     },
     {
+      "id": "la-chaleur-2026",
+      "tmdbId": 1492288,
+      "imdbId": "tt43136887",
+      "title": "La chaleur",
+      "originalTitle": "La Chaleur",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-07-08",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "tags": [],
+      "directors": [
+        "Stéphane Demoustier"
+      ],
+      "cast": [
+        "Hadrien Hussein",
+        "Tristan Richard",
+        "Martina La Manna",
+        "Noé Houssard",
+        "Zakariya Gouram",
+        "Cécile Ducrocq"
+      ],
+      "posterPath": "/42uouj30D7oPf8sPY6ids5QDf55.jpg",
+      "backdropPath": "/yJGT3NHe9kO9peU09iYYBvNZALE.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 61,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "It’s unusually hot on the beaches of the Landes, and 17-year-old Marouane is spending his last day at the campground with a nagging fear: will the body he buried on the beach the day before be discovered? Marouane also w...",
+      "source": {
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 25
+      }
+    },
+    {
       "id": "landline-2017",
       "tmdbId": 419459,
       "imdbId": "tt5737862",
@@ -389985,6 +389923,45 @@
       "source": {
         "tmdbVoteAverage": 5.898,
         "tmdbVoteCount": 2354
+      }
+    },
+    {
+      "id": "mauvaise-pioche-2026",
+      "tmdbId": 1440304,
+      "imdbId": "tt39314864",
+      "title": "Tough Luck",
+      "originalTitle": "Mauvaise Pioche",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "lighthearted"
+      ],
+      "directors": [
+        "Gérard Jugnot"
+      ],
+      "cast": [
+        "Gérard Jugnot",
+        "Thierry Lhermitte",
+        "Philippe Lacheau",
+        "Zabou Breitman",
+        "Jean-Pierre Darroussin",
+        "Michèle Laroque"
+      ],
+      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
+      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 59,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
+      "source": {
+        "tmdbVoteAverage": 5.918,
+        "tmdbVoteCount": 49
       }
     },
     {
@@ -420586,6 +420563,39 @@
       }
     },
     {
+      "id": "far-from-the-tree-2021",
+      "tmdbId": 831827,
+      "imdbId": "tt14927356",
+      "title": "Far from the Tree",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-11-24",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Natalie Nourigat"
+      ],
+      "cast": [],
+      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
+      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 81,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
+      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
+      "source": {
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 395
+      }
+    },
+    {
       "id": "my-friends-1975",
       "tmdbId": 20914,
       "imdbId": "tt0072637",
@@ -423115,6 +423125,44 @@
       "source": {
         "tmdbVoteAverage": 7.923,
         "tmdbVoteCount": 111
+      }
+    },
+    {
+      "id": "kitbull-2019",
+      "tmdbId": 574074,
+      "imdbId": "tt9536832",
+      "title": "Kitbull",
+      "originalLanguage": "en",
+      "year": 2019,
+      "releaseDate": "2019-01-18",
+      "runtimeMinutes": 9,
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama"
+      ],
+      "tags": [
+        "friendship",
+        "cat",
+        "dog",
+        "animals",
+        "short film",
+        "buddy film"
+      ],
+      "directors": [
+        "Rosana Sullivan"
+      ],
+      "cast": [],
+      "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
+      "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 79,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
+      "source": {
+        "tmdbVoteAverage": 7.935,
+        "tmdbVoteCount": 426
       }
     },
     {
@@ -430903,43 +430951,6 @@
       "source": {
         "tmdbVoteAverage": 7.692,
         "tmdbVoteCount": 915
-      }
-    },
-    {
-      "id": "7-days-2005",
-      "tmdbId": 34320,
-      "imdbId": "tt0414513",
-      "title": "7 Days",
-      "originalTitle": "7 días",
-      "originalLanguage": "es",
-      "year": 2005,
-      "releaseDate": "2005-09-30",
-      "runtimeMinutes": 95,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Fernando Kalife"
-      ],
-      "cast": [
-        "Jaime Camil",
-        "Martha Higareda",
-        "Eduardo Arroyuelo",
-        "Julio Bracho",
-        "Lumi Cavazos",
-        "José Sefami"
-      ],
-      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 76,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
-      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
-      "source": {
-        "tmdbVoteAverage": 7.62,
-        "tmdbVoteCount": 54
       }
     },
     {
@@ -456466,6 +456477,40 @@
       }
     },
     {
+      "id": "inception-the-cobol-job-2010",
+      "tmdbId": 64956,
+      "imdbId": "tt1790736",
+      "title": "Inception: The Cobol Job",
+      "originalLanguage": "en",
+      "year": 2010,
+      "releaseDate": "2010-12-07",
+      "runtimeMinutes": 15,
+      "genres": [
+        "Animation",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "tags": [
+        "motion comic"
+      ],
+      "directors": [
+        "Ian Kirby"
+      ],
+      "cast": [],
+      "posterPath": "/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
+      "backdropPath": "/p8K8Z4yjaslJx5mTsIC5L6LJxQB.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 72,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "Cobb, Arthur and Nash are enlisted by Cobol Engineering.",
+      "source": {
+        "tmdbVoteAverage": 7.247,
+        "tmdbVoteCount": 322
+      }
+    },
+    {
       "id": "intimate-strangers-2018",
       "tmdbId": 548352,
       "imdbId": "tt8986842",
@@ -474671,6 +474716,45 @@
       "source": {
         "tmdbVoteAverage": 6.968,
         "tmdbVoteCount": 457
+      }
+    },
+    {
+      "id": "my-worst-enemy-2026",
+      "tmdbId": 1611380,
+      "imdbId": "tt35495331",
+      "title": "My Worst Enemy",
+      "originalTitle": "Mi mejor enemiga",
+      "originalLanguage": "es",
+      "year": 2026,
+      "releaseDate": "2026-02-05",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "femininity"
+      ],
+      "directors": [
+        "Saskia Bernaola"
+      ],
+      "cast": [
+        "Nataniel Sánchez",
+        "Fiorella Luna",
+        "Mateo Garrido-Lecca",
+        "Omar García",
+        "Kukuli Morante",
+        "Carla Arriola"
+      ],
+      "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
+      "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situa...",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 23
       }
     },
     {
@@ -514934,43 +515018,6 @@
       }
     },
     {
-      "id": "mutation-on-mars-2021",
-      "tmdbId": 866408,
-      "imdbId": "tt15360764",
-      "title": "Mutation on Mars",
-      "originalTitle": "火星异变",
-      "originalLanguage": "zh",
-      "year": 2021,
-      "releaseDate": "2021-08-27",
-      "runtimeMinutes": 75,
-      "genres": [
-        "Drama",
-        "Science Fiction"
-      ],
-      "tags": [],
-      "directors": [],
-      "cast": [
-        "Shi Liang",
-        "Ren Zhong",
-        "Suo Xiaokun",
-        "Liu Xinqi",
-        "Xin Zuoyu",
-        "Fan Ziqi"
-      ],
-      "posterPath": "/h4HcBZC8XMuSFBNxWu7qd34tFDI.jpg",
-      "backdropPath": "/xZiMSXA8w1T2nWlXPDjN0RAYOvQ.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 66,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/tissw-VBrMI",
-      "synopsisPreview": "In the near future, the Earth’s resources are gradually getting scarce. In order to continue the hope of survival for generations of children and grandchildren, top scientists from various countries have brought several...",
-      "source": {
-        "tmdbVoteAverage": 6.6,
-        "tmdbVoteCount": 66
-      }
-    },
-    {
       "id": "my-people-my-country-2019",
       "tmdbId": 612845,
       "imdbId": "tt10147382",
@@ -526307,6 +526354,40 @@
       }
     },
     {
+      "id": "the-motorist-1906",
+      "tmdbId": 132379,
+      "imdbId": "tt0000534",
+      "title": "The '?' Motorist",
+      "originalLanguage": "en",
+      "year": 1906,
+      "releaseDate": "1906-10-08",
+      "runtimeMinutes": 3,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Comedy"
+      ],
+      "tags": [
+        "silent film"
+      ],
+      "directors": [
+        "Walter R. Booth"
+      ],
+      "cast": [],
+      "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
+      "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
+      "posterTone": "from-teal-300 via-slate-700 to-black",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A compact science fiction option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
+      "synopsisPreview": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
+      "source": {
+        "tmdbVoteAverage": 6.485,
+        "tmdbVoteCount": 65
+      }
+    },
+    {
       "id": "the-captive-2025",
       "tmdbId": 1238188,
       "imdbId": "tt31101921",
@@ -530027,36 +530108,6 @@
       "source": {
         "tmdbVoteAverage": 6.422,
         "tmdbVoteCount": 596
-      }
-    },
-    {
-      "id": "bread-and-roses-2024",
-      "tmdbId": 1117465,
-      "imdbId": "tt27599265",
-      "title": "Bread & Roses",
-      "originalLanguage": "en",
-      "year": 2024,
-      "releaseDate": "2024-11-22",
-      "runtimeMinutes": 90,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Sahra Mani"
-      ],
-      "cast": [],
-      "posterPath": "/hd5avfP3vzlJy1cafFr4YP72IJ8.jpg",
-      "backdropPath": "/A9lOaeiuZDPtmgoOkFvUtcOOS2L.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 64,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/qEiywFC3tqk",
-      "synopsisPreview": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives.",
-      "source": {
-        "tmdbVoteAverage": 6.4,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -553650,46 +553701,6 @@
       "source": {
         "tmdbVoteAverage": 6.169,
         "tmdbVoteCount": 1176
-      }
-    },
-    {
-      "id": "my-father-s-wings-2016",
-      "tmdbId": 412672,
-      "imdbId": "tt5830248",
-      "title": "My Father's Wings",
-      "originalTitle": "Babamın Kanatları",
-      "originalLanguage": "tr",
-      "year": 2016,
-      "releaseDate": "2016-07-06",
-      "runtimeMinutes": 101,
-      "genres": [
-        "Drama"
-      ],
-      "tags": [
-        "turkey",
-        "poverty",
-        "construction worker"
-      ],
-      "directors": [
-        "Kıvanç Sezer"
-      ],
-      "cast": [
-        "Menderes Samancılar",
-        "Musab Ekici",
-        "Kübra Kip",
-        "Tansel Öngel",
-        "Mustafa Kirantepe",
-        "Sarp Aydınoğlu"
-      ],
-      "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 62,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has t...",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 11
       }
     },
     {
@@ -634452,6 +634463,43 @@
       }
     },
     {
+      "id": "7-days-2005",
+      "tmdbId": 34320,
+      "imdbId": "tt0414513",
+      "title": "7 Days",
+      "originalTitle": "7 días",
+      "originalLanguage": "es",
+      "year": 2005,
+      "releaseDate": "2005-09-30",
+      "runtimeMinutes": 95,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Fernando Kalife"
+      ],
+      "cast": [
+        "Jaime Camil",
+        "Martha Higareda",
+        "Eduardo Arroyuelo",
+        "Julio Bracho",
+        "Lumi Cavazos",
+        "José Sefami"
+      ],
+      "posterPath": "/s9lbmZOn3duALZJ3jpEhp0oppgA.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 76,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/l1NTzYQ2jrY",
+      "synopsisPreview": "Claudio Caballero decides to gamble $500,000 in a desperate attempt to raise the cash necessary to bring the world's biggest band (U2) to Mexico.",
+      "source": {
+        "tmdbVoteAverage": 7.62,
+        "tmdbVoteCount": 54
+      }
+    },
+    {
       "id": "a-patch-of-blue-1965",
       "tmdbId": 33364,
       "imdbId": "tt0059573",
@@ -651740,40 +651788,6 @@
       }
     },
     {
-      "id": "inception-the-cobol-job-2010",
-      "tmdbId": 64956,
-      "imdbId": "tt1790736",
-      "title": "Inception: The Cobol Job",
-      "originalLanguage": "en",
-      "year": 2010,
-      "releaseDate": "2010-12-07",
-      "runtimeMinutes": 15,
-      "genres": [
-        "Animation",
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "tags": [
-        "motion comic"
-      ],
-      "directors": [
-        "Ian Kirby"
-      ],
-      "cast": [],
-      "posterPath": "/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
-      "backdropPath": "/p8K8Z4yjaslJx5mTsIC5L6LJxQB.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 72,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "Cobb, Arthur and Nash are enlisted by Cobol Engineering.",
-      "source": {
-        "tmdbVoteAverage": 7.247,
-        "tmdbVoteCount": 322
-      }
-    },
-    {
       "id": "inside-the-mind-of-a-cat-2022",
       "tmdbId": 1003180,
       "imdbId": "tt21340412",
@@ -665340,45 +665354,6 @@
       "source": {
         "tmdbVoteAverage": 7.016,
         "tmdbVoteCount": 308
-      }
-    },
-    {
-      "id": "my-worst-enemy-2026",
-      "tmdbId": 1611380,
-      "imdbId": "tt35495331",
-      "title": "My Worst Enemy",
-      "originalTitle": "Mi mejor enemiga",
-      "originalLanguage": "es",
-      "year": 2026,
-      "releaseDate": "2026-02-05",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "femininity"
-      ],
-      "directors": [
-        "Saskia Bernaola"
-      ],
-      "cast": [
-        "Nataniel Sánchez",
-        "Fiorella Luna",
-        "Mateo Garrido-Lecca",
-        "Omar García",
-        "Kukuli Morante",
-        "Carla Arriola"
-      ],
-      "posterPath": "/tZ5I6cq7TpsY7nwpM4n47p7XcZK.jpg",
-      "backdropPath": "/mFNUFnQzvDJI9TLHa2YkofHf41W.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 70,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "Valeria and her former high school classmates reunite twenty-five years later at the place where they shared their last unforgettable summer. During the reunion, old rivalries resurface, leading them into hilarious situa...",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 23
       }
     },
     {
@@ -693111,6 +693086,43 @@
       }
     },
     {
+      "id": "mutation-on-mars-2021",
+      "tmdbId": 866408,
+      "imdbId": "tt15360764",
+      "title": "Mutation on Mars",
+      "originalTitle": "火星异变",
+      "originalLanguage": "zh",
+      "year": 2021,
+      "releaseDate": "2021-08-27",
+      "runtimeMinutes": 75,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "tags": [],
+      "directors": [],
+      "cast": [
+        "Shi Liang",
+        "Ren Zhong",
+        "Suo Xiaokun",
+        "Liu Xinqi",
+        "Xin Zuoyu",
+        "Fan Ziqi"
+      ],
+      "posterPath": "/h4HcBZC8XMuSFBNxWu7qd34tFDI.jpg",
+      "backdropPath": "/xZiMSXA8w1T2nWlXPDjN0RAYOvQ.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 66,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/tissw-VBrMI",
+      "synopsisPreview": "In the near future, the Earth’s resources are gradually getting scarce. In order to continue the hope of survival for generations of children and grandchildren, top scientists from various countries have brought several...",
+      "source": {
+        "tmdbVoteAverage": 6.6,
+        "tmdbVoteCount": 66
+      }
+    },
+    {
       "id": "my-first-time-2012",
       "tmdbId": 113160,
       "imdbId": "tt2152779",
@@ -700984,40 +700996,6 @@
       }
     },
     {
-      "id": "the-motorist-1906",
-      "tmdbId": 132379,
-      "imdbId": "tt0000534",
-      "title": "The '?' Motorist",
-      "originalLanguage": "en",
-      "year": 1906,
-      "releaseDate": "1906-10-08",
-      "runtimeMinutes": 3,
-      "genres": [
-        "Science Fiction",
-        "Fantasy",
-        "Comedy"
-      ],
-      "tags": [
-        "silent film"
-      ],
-      "directors": [
-        "Walter R. Booth"
-      ],
-      "cast": [],
-      "posterPath": "/c6wZfINe0TL7QNNUGYITb5Ku8SF.jpg",
-      "backdropPath": "/7FUp9kwqzv70FApxXORusIlow1s.jpg",
-      "posterTone": "from-teal-300 via-slate-700 to-black",
-      "popularity": 2,
-      "criticalScore": 65,
-      "plexFit": "A compact science fiction option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/xeAmBvQ6khM",
-      "synopsisPreview": "A magical glowing white motorcar ignores policemen, drives up buildings, flies through outer space, and can transform into a horse and carriage.",
-      "source": {
-        "tmdbVoteAverage": 6.485,
-        "tmdbVoteCount": 65
-      }
-    },
-    {
       "id": "the-assassination-of-richard-nixon-2004",
       "tmdbId": 842,
       "imdbId": "tt0364961",
@@ -703941,6 +703919,36 @@
       "source": {
         "tmdbVoteAverage": 6.4,
         "tmdbVoteCount": 105
+      }
+    },
+    {
+      "id": "bread-and-roses-2024",
+      "tmdbId": 1117465,
+      "imdbId": "tt27599265",
+      "title": "Bread & Roses",
+      "originalLanguage": "en",
+      "year": 2024,
+      "releaseDate": "2024-11-22",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Sahra Mani"
+      ],
+      "cast": [],
+      "posterPath": "/hd5avfP3vzlJy1cafFr4YP72IJ8.jpg",
+      "backdropPath": "/A9lOaeiuZDPtmgoOkFvUtcOOS2L.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 64,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/qEiywFC3tqk",
+      "synopsisPreview": "In the wake of the Taliban's return to power, a group of Kabul women lead a revolutionary fight for their rights—and their lives.",
+      "source": {
+        "tmdbVoteAverage": 6.4,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -718881,6 +718889,46 @@
       "source": {
         "tmdbVoteAverage": 6.247,
         "tmdbVoteCount": 491
+      }
+    },
+    {
+      "id": "my-father-s-wings-2016",
+      "tmdbId": 412672,
+      "imdbId": "tt5830248",
+      "title": "My Father's Wings",
+      "originalTitle": "Babamın Kanatları",
+      "originalLanguage": "tr",
+      "year": 2016,
+      "releaseDate": "2016-07-06",
+      "runtimeMinutes": 101,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [
+        "turkey",
+        "poverty",
+        "construction worker"
+      ],
+      "directors": [
+        "Kıvanç Sezer"
+      ],
+      "cast": [
+        "Menderes Samancılar",
+        "Musab Ekici",
+        "Kübra Kip",
+        "Tansel Öngel",
+        "Mustafa Kirantepe",
+        "Sarp Aydınoğlu"
+      ],
+      "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has t...",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 11
       }
     },
     {
