@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T15:27:20.046Z",
-  "movieCount": 16588,
+  "generatedAt": "2026-11-06T16:50:12.646Z",
+  "movieCount": 16590,
   "indexFields": [
     "id",
     "tmdbId",
@@ -32,11 +32,15 @@
     "source",
     "synopsis"
   ],
-  "adultMovieCount": 880,
+  "adultMovieCount": 881,
   "languageCounts": {
     "en": {
-      "total": 11163,
-      "adult": 496
+      "total": 11164,
+      "adult": 497
+    },
+    "ja": {
+      "total": 754,
+      "adult": 52
     },
     "ta": {
       "total": 51,
@@ -49,10 +53,6 @@
     "th": {
       "total": 40,
       "adult": 2
-    },
-    "ja": {
-      "total": 753,
-      "adult": 52
     },
     "zh": {
       "total": 284,
@@ -134,13 +134,13 @@
       "total": 6,
       "adult": 1
     },
-    "lv": {
-      "total": 6,
-      "adult": 0
-    },
     "cn": {
       "total": 230,
       "adult": 19
+    },
+    "lv": {
+      "total": 6,
+      "adult": 0
     },
     "ar": {
       "total": 20,
