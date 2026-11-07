@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T14:29:04.598Z",
+  "generatedAt": "2026-11-07T15:45:48.021Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -1456,6 +1456,52 @@
       "source": {
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 12
+      }
+    },
+    {
+      "id": "ramayana-rise-of-a-legend-2026",
+      "tmdbId": 656908,
+      "imdbId": "tt27988879",
+      "title": "Ramayana: Rise of a Legend",
+      "originalTitle": "रामायणम्",
+      "originalLanguage": "hi",
+      "year": 2026,
+      "releaseDate": "2026-11-05",
+      "runtimeMinutes": 208,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "ramayana",
+        "hindu mythology",
+        "high fantasy",
+        "epic fantasy",
+        "epic"
+      ],
+      "directors": [
+        "Nitesh Tiwari"
+      ],
+      "cast": [
+        "Ranbir Kapoor",
+        "Yash",
+        "Sai Pallavi",
+        "Ravi Dubey",
+        "Arun Govil",
+        "Lara Dutta"
+      ],
+      "posterPath": "/hz2Hv8tPToHvQ7HaxzqeLvahmcJ.jpg",
+      "backdropPath": "/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 100,
+      "criticalScore": 75,
+      "plexFit": "A useful fantasy title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/AYkPRN874m8",
+      "synopsisPreview": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+      "source": {
+        "tmdbVoteAverage": 7.5,
+        "tmdbVoteCount": 14
       }
     },
     {
@@ -4955,6 +5001,49 @@
       "source": {
         "tmdbVoteAverage": 4,
         "tmdbVoteCount": 14
+      }
+    },
+    {
+      "id": "a-dog-s-perfect-christmas-2026",
+      "tmdbId": 1570488,
+      "imdbId": "tt38515310",
+      "title": "A Dog's Perfect Christmas",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-11-04",
+      "runtimeMinutes": 102,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on novel or book",
+        "dog",
+        "family holiday",
+        "pov (point of view)"
+      ],
+      "directors": [
+        "Cathryn Michon"
+      ],
+      "cast": [
+        "Dennis Quaid",
+        "Milo Ventimiglia",
+        "Brooke Lena Johnson",
+        "Kathleen Rose Perkins",
+        "Jennifer Tilly",
+        "Thomas Haden Church"
+      ],
+      "posterPath": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
+      "backdropPath": "/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 97,
+      "criticalScore": 81,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/L18ih13Bf-U",
+      "synopsisPreview": "When a medical emergency pulls the Goss family apart, determined dog Winstead will do all he can to bring his humans back together before Christmas Eve.",
+      "source": {
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 18
       }
     },
     {
@@ -33801,49 +33890,6 @@
       }
     },
     {
-      "id": "flow-2024",
-      "tmdbId": 823219,
-      "imdbId": "tt4772188",
-      "title": "Flow",
-      "originalTitle": "Straume",
-      "originalLanguage": "lv",
-      "year": 2024,
-      "releaseDate": "2024-08-29",
-      "runtimeMinutes": 85,
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy"
-      ],
-      "tags": [
-        "ocean",
-        "cat",
-        "boat",
-        "dystopia",
-        "survival",
-        "dog",
-        "ruins",
-        "flood"
-      ],
-      "directors": [
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-      "popularity": 13,
-      "criticalScore": 81,
-      "plexFit": "A compact adventure option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-      "source": {
-        "tmdbVoteAverage": 8.05,
-        "tmdbVoteCount": 3157
-      }
-    },
-    {
       "id": "no-country-for-old-men-2007",
       "tmdbId": 6977,
       "imdbId": "tt0477348",
@@ -36765,6 +36811,49 @@
       "source": {
         "tmdbVoteAverage": 8.2,
         "tmdbVoteCount": 108
+      }
+    },
+    {
+      "id": "flow-2024",
+      "tmdbId": 823219,
+      "imdbId": "tt4772188",
+      "title": "Flow",
+      "originalTitle": "Straume",
+      "originalLanguage": "lv",
+      "year": 2024,
+      "releaseDate": "2024-08-29",
+      "runtimeMinutes": 85,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "tags": [
+        "ocean",
+        "cat",
+        "boat",
+        "dystopia",
+        "survival",
+        "dog",
+        "ruins",
+        "flood"
+      ],
+      "directors": [
+        "Gints Zilbalodis"
+      ],
+      "cast": [],
+      "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+      "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+      "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+      "popularity": 13,
+      "criticalScore": 81,
+      "plexFit": "A compact adventure option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+      "synopsisPreview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "source": {
+        "tmdbVoteAverage": 8.05,
+        "tmdbVoteCount": 3157
       }
     },
     {
@@ -40214,44 +40303,6 @@
       "source": {
         "tmdbVoteAverage": 4.317,
         "tmdbVoteCount": 1635
-      }
-    },
-    {
-      "id": "the-treehouse-2025",
-      "tmdbId": 1450404,
-      "imdbId": "tt35108122",
-      "title": "The Treehouse",
-      "originalTitle": "La casa en el árbol",
-      "originalLanguage": "es",
-      "year": 2025,
-      "releaseDate": "2025-09-19",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Horror"
-      ],
-      "tags": [],
-      "directors": [
-        "Luis Calderón"
-      ],
-      "cast": [
-        "Sandra Escacena",
-        "Claudio Portalo",
-        "Kandido Uranga",
-        "Mala Rodríguez",
-        "Apolonia Lapiedra",
-        "Asier Hernández"
-      ],
-      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 12,
-      "criticalScore": 43,
-      "plexFit": "A useful horror title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-      "source": {
-        "tmdbVoteAverage": 4.302,
-        "tmdbVoteCount": 43
       }
     },
     {
@@ -44967,6 +45018,44 @@
       "source": {
         "tmdbVoteAverage": 4.857,
         "tmdbVoteCount": 427
+      }
+    },
+    {
+      "id": "the-treehouse-2025",
+      "tmdbId": 1450404,
+      "imdbId": "tt35108122",
+      "title": "The Treehouse",
+      "originalTitle": "La casa en el árbol",
+      "originalLanguage": "es",
+      "year": 2025,
+      "releaseDate": "2025-09-19",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Luis Calderón"
+      ],
+      "cast": [
+        "Sandra Escacena",
+        "Claudio Portalo",
+        "Kandido Uranga",
+        "Mala Rodríguez",
+        "Apolonia Lapiedra",
+        "Asier Hernández"
+      ],
+      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 12,
+      "criticalScore": 43,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+      "source": {
+        "tmdbVoteAverage": 4.302,
+        "tmdbVoteCount": 43
       }
     },
     {
@@ -159931,46 +160020,6 @@
       }
     },
     {
-      "id": "the-holy-grill-2026",
-      "tmdbId": 1427838,
-      "imdbId": "tt36586751",
-      "title": "The Holy Grill",
-      "originalTitle": "Extrawurst",
-      "originalLanguage": "de",
-      "year": 2026,
-      "releaseDate": "2026-01-15",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "based on play or musical"
-      ],
-      "directors": [
-        "Marcus H. Rosenmüller"
-      ],
-      "cast": [
-        "Hape Kerkeling",
-        "Christoph Maria Herbst",
-        "Fahri Yardım",
-        "Anja Knauer",
-        "Friedrich Mücke",
-        "Gaby Dohm"
-      ],
-      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
-      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 65,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
-      "source": {
-        "tmdbVoteAverage": 6.459,
-        "tmdbVoteCount": 85
-      }
-    },
-    {
       "id": "the-lego-ninjago-movie-2017",
       "tmdbId": 274862,
       "imdbId": "tt3014284",
@@ -166137,43 +166186,6 @@
       "source": {
         "tmdbVoteAverage": 6.183,
         "tmdbVoteCount": 7299
-      }
-    },
-    {
-      "id": "new-golden-lotus-i-1996",
-      "tmdbId": 492101,
-      "imdbId": "tt3045918",
-      "title": "New Golden Lotus  I",
-      "originalTitle": "新金瓶梅 第一集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-08",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Choi Mei-yau",
-        "Eddie Koo Koon Chung",
-        "Tseng Ya-chun"
-      ],
-      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
-      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 62,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
       }
     },
     {
@@ -180272,54 +180284,6 @@
       }
     },
     {
-      "id": "evangelion-30th-anniversary-special-screening-2026",
-      "tmdbId": 1600672,
-      "imdbId": "tt39215384",
-      "title": "EVANGELION 30th Anniversary Special Screening",
-      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
-      "originalLanguage": "ja",
-      "year": 2026,
-      "releaseDate": "2026-02-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "tags": [
-        "reunion",
-        "mecha",
-        "anniversary",
-        "heart warming",
-        "anime",
-        "self parody",
-        "joyful",
-        "love letters"
-      ],
-      "directors": [
-        "Naoyuki Asano"
-      ],
-      "cast": [
-        "Yuko Miyamura",
-        "Megumi Ogata",
-        "Akira Ishida",
-        "Kotono Mitsuishi",
-        "Miki Nagasawa",
-        "Maria Kawamura"
-      ],
-      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
-      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 82,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
-      "source": {
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "life-in-a-year-2020",
       "tmdbId": 447362,
       "imdbId": "tt6598238",
@@ -187997,51 +187961,6 @@
       }
     },
     {
-      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
-      "tmdbId": 1599191,
-      "imdbId": "tt47867242",
-      "title": "Renegade Immortal: Battle of the Immortal Slayer",
-      "originalTitle": "仙逆剧场版：弑仙之战",
-      "originalLanguage": "zh",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "tags": [
-        "based on fairy tale",
-        "xianxia",
-        "based on tv series",
-        "oriental fantasy"
-      ],
-      "directors": [
-        "TouXiong Shi"
-      ],
-      "cast": [
-        "Shi Zekun",
-        "Li Jiaxiang",
-        "Liu Sicen",
-        "Shuai Guan",
-        "Si Xi",
-        "Yang Houyao"
-      ],
-      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 76,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
-      "source": {
-        "tmdbVoteAverage": 7.6,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "seven-pounds-2008",
       "tmdbId": 11321,
       "imdbId": "tt0814314",
@@ -189435,42 +189354,6 @@
       "source": {
         "tmdbVoteAverage": 7.5,
         "tmdbVoteCount": 1949
-      }
-    },
-    {
-      "id": "lou-2017",
-      "tmdbId": 433471,
-      "imdbId": "tt6267732",
-      "title": "Lou",
-      "originalLanguage": "en",
-      "year": 2017,
-      "releaseDate": "2017-06-16",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Family",
-        "Fantasy",
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "short film",
-        "3d animation"
-      ],
-      "directors": [
-        "Dave Mullins"
-      ],
-      "cast": [],
-      "posterPath": "/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg",
-      "backdropPath": "/f13RF99zjorGVJnSSsOqyj5dzYh.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 75,
-      "plexFit": "A compact family option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0iYsBnj2BUk",
-      "synopsisPreview": "A lost-and-found box holds a mysterious and unseen monster within.",
-      "source": {
-        "tmdbVoteAverage": 7.537,
-        "tmdbVoteCount": 441
       }
     },
     {
@@ -228337,6 +228220,46 @@
       }
     },
     {
+      "id": "the-holy-grill-2026",
+      "tmdbId": 1427838,
+      "imdbId": "tt36586751",
+      "title": "The Holy Grill",
+      "originalTitle": "Extrawurst",
+      "originalLanguage": "de",
+      "year": 2026,
+      "releaseDate": "2026-01-15",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on play or musical"
+      ],
+      "directors": [
+        "Marcus H. Rosenmüller"
+      ],
+      "cast": [
+        "Hape Kerkeling",
+        "Christoph Maria Herbst",
+        "Fahri Yardım",
+        "Anja Knauer",
+        "Friedrich Mücke",
+        "Gaby Dohm"
+      ],
+      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
+      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 65,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
+      "source": {
+        "tmdbVoteAverage": 6.459,
+        "tmdbVoteCount": 85
+      }
+    },
+    {
       "id": "the-informer-2019",
       "tmdbId": 466081,
       "imdbId": "tt1833116",
@@ -240341,6 +240264,43 @@
       "source": {
         "tmdbVoteAverage": 6.191,
         "tmdbVoteCount": 2227
+      }
+    },
+    {
+      "id": "new-golden-lotus-i-1996",
+      "tmdbId": 492101,
+      "imdbId": "tt3045918",
+      "title": "New Golden Lotus  I",
+      "originalTitle": "新金瓶梅 第一集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-08",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Choi Mei-yau",
+        "Eddie Koo Koon Chung",
+        "Tseng Ya-chun"
+      ],
+      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
+      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 62,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
       }
     },
     {
@@ -259228,43 +259188,6 @@
       }
     },
     {
-      "id": "sous-ecrous-2024",
-      "tmdbId": 1279871,
-      "imdbId": "tt33396612",
-      "title": "Sous écrous",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-12-18",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Hakim Bougheraba"
-      ],
-      "cast": [
-        "Ichem Bougheraba",
-        "Arriles Amrani",
-        "Bernard Farcy",
-        "Redouane Bougheraba",
-        "Brahim Bouhlel",
-        "Moussa Maaskri"
-      ],
-      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
-      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
-      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 54,
-      "plexFit": "A useful action title for broadening the local catalog.",
-      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
-      "source": {
-        "tmdbVoteAverage": 5.4,
-        "tmdbVoteCount": 55
-      }
-    },
-    {
       "id": "step-dogs-2013",
       "tmdbId": 187925,
       "imdbId": "tt2566580",
@@ -267684,6 +267607,54 @@
       "source": {
         "tmdbVoteAverage": 8.194,
         "tmdbVoteCount": 193
+      }
+    },
+    {
+      "id": "evangelion-30th-anniversary-special-screening-2026",
+      "tmdbId": 1600672,
+      "imdbId": "tt39215384",
+      "title": "EVANGELION 30th Anniversary Special Screening",
+      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
+      "originalLanguage": "ja",
+      "year": 2026,
+      "releaseDate": "2026-02-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "reunion",
+        "mecha",
+        "anniversary",
+        "heart warming",
+        "anime",
+        "self parody",
+        "joyful",
+        "love letters"
+      ],
+      "directors": [
+        "Naoyuki Asano"
+      ],
+      "cast": [
+        "Yuko Miyamura",
+        "Megumi Ogata",
+        "Akira Ishida",
+        "Kotono Mitsuishi",
+        "Miki Nagasawa",
+        "Maria Kawamura"
+      ],
+      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
+      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 82,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
+      "source": {
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -277641,6 +277612,51 @@
       }
     },
     {
+      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
+      "tmdbId": 1599191,
+      "imdbId": "tt47867242",
+      "title": "Renegade Immortal: Battle of the Immortal Slayer",
+      "originalTitle": "仙逆剧场版：弑仙之战",
+      "originalLanguage": "zh",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "based on fairy tale",
+        "xianxia",
+        "based on tv series",
+        "oriental fantasy"
+      ],
+      "directors": [
+        "TouXiong Shi"
+      ],
+      "cast": [
+        "Shi Zekun",
+        "Li Jiaxiang",
+        "Liu Sicen",
+        "Shuai Guan",
+        "Si Xi",
+        "Yang Houyao"
+      ],
+      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 76,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
+      "source": {
+        "tmdbVoteAverage": 7.6,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "rurouni-kenshin-part-ii-kyoto-inferno-2014",
       "tmdbId": 221731,
       "imdbId": "tt3029558",
@@ -280391,6 +280407,42 @@
       "source": {
         "tmdbVoteAverage": 7.538,
         "tmdbVoteCount": 156
+      }
+    },
+    {
+      "id": "lou-2017",
+      "tmdbId": 433471,
+      "imdbId": "tt6267732",
+      "title": "Lou",
+      "originalLanguage": "en",
+      "year": 2017,
+      "releaseDate": "2017-06-16",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "short film",
+        "3d animation"
+      ],
+      "directors": [
+        "Dave Mullins"
+      ],
+      "cast": [],
+      "posterPath": "/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg",
+      "backdropPath": "/f13RF99zjorGVJnSSsOqyj5dzYh.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 75,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0iYsBnj2BUk",
+      "synopsisPreview": "A lost-and-found box holds a mysterious and unseen monster within.",
+      "source": {
+        "tmdbVoteAverage": 7.537,
+        "tmdbVoteCount": 441
       }
     },
     {
@@ -322892,45 +322944,6 @@
       }
     },
     {
-      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-      "tmdbId": 961651,
-      "imdbId": "tt20425026",
-      "title": "Spider-Man: All Roads Lead to No Way Home",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-05-03",
-      "runtimeMinutes": 30,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "short film",
-        "superhero",
-        "film production"
-      ],
-      "directors": [],
-      "cast": [
-        "Tom Holland",
-        "Tobey Maguire",
-        "Andrew Garfield",
-        "Willem Dafoe",
-        "Alfred Molina",
-        "Jamie Foxx"
-      ],
-      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
-      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 68,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
-      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
-      "source": {
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 100
-      }
-    },
-    {
       "id": "stage-fright-1950",
       "tmdbId": 1978,
       "imdbId": "tt0042994",
@@ -358670,44 +358683,6 @@
       }
     },
     {
-      "id": "it-s-not-the-time-of-my-life-2016",
-      "tmdbId": 405671,
-      "imdbId": "tt5537614",
-      "title": "It's Not the Time of My Life",
-      "originalTitle": "Ernelláék Farkaséknál",
-      "originalLanguage": "hu",
-      "year": 2016,
-      "releaseDate": "2016-10-01",
-      "runtimeMinutes": 81,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "family relationships"
-      ],
-      "directors": [
-        "Szabolcs Hajdu"
-      ],
-      "cast": [
-        "Szabolcs Hajdu",
-        "Török-Illyés Orsolya",
-        "Erika Tankó",
-        "Domokos Szabó"
-      ],
-      "posterPath": "/qELIdC7zVxDw7DfPbsUev7qNCSd.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 63,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/91ctGn_GBeg",
-      "synopsisPreview": "Eszter, her husband Farkas, and their five-year-old son Bruno are paid an unexpected visit in the middle of the night. Eszter’s sister Ernella, her husband Albert and daughter Laura have returned from a year spent in Sco...",
-      "source": {
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "jackass-the-movie-2002",
       "tmdbId": 9012,
       "imdbId": "tt0322802",
@@ -384258,6 +384233,45 @@
       }
     },
     {
+      "id": "mauvaise-pioche-2026",
+      "tmdbId": 1440304,
+      "imdbId": "tt39314864",
+      "title": "Tough Luck",
+      "originalTitle": "Mauvaise Pioche",
+      "originalLanguage": "fr",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy"
+      ],
+      "tags": [
+        "lighthearted"
+      ],
+      "directors": [
+        "Gérard Jugnot"
+      ],
+      "cast": [
+        "Gérard Jugnot",
+        "Thierry Lhermitte",
+        "Philippe Lacheau",
+        "Zabou Breitman",
+        "Jean-Pierre Darroussin",
+        "Michèle Laroque"
+      ],
+      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
+      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 60,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
+      "source": {
+        "tmdbVoteAverage": 5.96,
+        "tmdbVoteCount": 50
+      }
+    },
+    {
       "id": "triple-9-2016",
       "tmdbId": 146198,
       "imdbId": "tt1712261",
@@ -389866,45 +389880,6 @@
       "source": {
         "tmdbVoteAverage": 5.898,
         "tmdbVoteCount": 2354
-      }
-    },
-    {
-      "id": "mauvaise-pioche-2026",
-      "tmdbId": 1440304,
-      "imdbId": "tt39314864",
-      "title": "Tough Luck",
-      "originalTitle": "Mauvaise Pioche",
-      "originalLanguage": "fr",
-      "year": 2026,
-      "releaseDate": "2026-04-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy"
-      ],
-      "tags": [
-        "lighthearted"
-      ],
-      "directors": [
-        "Gérard Jugnot"
-      ],
-      "cast": [
-        "Gérard Jugnot",
-        "Thierry Lhermitte",
-        "Philippe Lacheau",
-        "Zabou Breitman",
-        "Jean-Pierre Darroussin",
-        "Michèle Laroque"
-      ],
-      "posterPath": "/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
-      "backdropPath": "/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 60,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence...",
-      "source": {
-        "tmdbVoteAverage": 5.96,
-        "tmdbVoteCount": 50
       }
     },
     {
@@ -402876,40 +402851,6 @@
       }
     },
     {
-      "id": "thoughts-and-prayers-2025",
-      "tmdbId": 1559760,
-      "imdbId": "tt38633124",
-      "title": "Thoughts & Prayers",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-11-12",
-      "runtimeMinutes": 88,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "school shooting",
-        "active shooter"
-      ],
-      "directors": [
-        "Zackary Canepari",
-        "Jessica Dimmock"
-      ],
-      "cast": [],
-      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
-      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 56,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
-      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
-      "source": {
-        "tmdbVoteAverage": 5.6,
-        "tmdbVoteCount": 14
-      }
-    },
-    {
       "id": "torrente-5-operation-eurovegas-2014",
       "tmdbId": 254869,
       "imdbId": "tt3321428",
@@ -408175,6 +408116,43 @@
       "source": {
         "tmdbVoteAverage": 5.378,
         "tmdbVoteCount": 682
+      }
+    },
+    {
+      "id": "sous-ecrous-2024",
+      "tmdbId": 1279871,
+      "imdbId": "tt33396612",
+      "title": "Sous écrous",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-12-18",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Hakim Bougheraba"
+      ],
+      "cast": [
+        "Ichem Bougheraba",
+        "Arriles Amrani",
+        "Bernard Farcy",
+        "Redouane Bougheraba",
+        "Brahim Bouhlel",
+        "Moussa Maaskri"
+      ],
+      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
+      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 54,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
+      "source": {
+        "tmdbVoteAverage": 5.4,
+        "tmdbVoteCount": 55
       }
     },
     {
@@ -421425,43 +421403,6 @@
       }
     },
     {
-      "id": "making-squid-game-the-challenge-2023",
-      "tmdbId": 1214667,
-      "imdbId": "tt30327680",
-      "title": "Making Squid Game: The Challenge",
-      "originalLanguage": "en",
-      "year": 2023,
-      "releaseDate": "2023-12-06",
-      "runtimeMinutes": 30,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "behind the scenes",
-        "making of"
-      ],
-      "directors": [],
-      "cast": [
-        "Nicola Brown",
-        "Rikki Finlay",
-        "Tim Harcourt",
-        "Toni Ireland",
-        "Stephen Lambert",
-        "Rich Leist"
-      ],
-      "posterPath": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
-      "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 80,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition.",
-      "source": {
-        "tmdbVoteAverage": 7.967,
-        "tmdbVoteCount": 241
-      }
-    },
-    {
       "id": "nights-of-cabiria-1957",
       "tmdbId": 19426,
       "imdbId": "tt0050783",
@@ -427185,47 +427126,6 @@
       "source": {
         "tmdbVoteAverage": 7.76,
         "tmdbVoteCount": 323
-      }
-    },
-    {
-      "id": "us-again-2021",
-      "tmdbId": 779047,
-      "imdbId": "tt14062858",
-      "title": "Us Again",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-03-03",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Drama",
-        "Family",
-        "Romance"
-      ],
-      "tags": [
-        "new york city",
-        "dancing",
-        "rain",
-        "musical",
-        "lovers",
-        "elderly couple",
-        "short film"
-      ],
-      "directors": [
-        "Zach Parrish"
-      ],
-      "cast": [],
-      "posterPath": "/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg",
-      "backdropPath": "/9B4hHMsnjxo8NnTcKIfg3cjJzMi.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 78,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/0ylr70WNAe8",
-      "synopsisPreview": "In a vibrant city pulsating with rhythm and movement, an elderly man and his young-at-heart wife rekindle their youthful passion for life and each other on one magical night.",
-      "source": {
-        "tmdbVoteAverage": 7.789,
-        "tmdbVoteCount": 360
       }
     },
     {
@@ -440745,39 +440645,6 @@
       "source": {
         "tmdbVoteAverage": 7.415,
         "tmdbVoteCount": 1469
-      }
-    },
-    {
-      "id": "burrow-2020",
-      "tmdbId": 747059,
-      "imdbId": "tt13167288",
-      "title": "Burrow",
-      "originalLanguage": "en",
-      "year": 2020,
-      "releaseDate": "2020-12-25",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "tags": [
-        "pixar sparkshorts"
-      ],
-      "directors": [
-        "Madeline Sharafian"
-      ],
-      "cast": [],
-      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
-      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 74,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
-      "source": {
-        "tmdbVoteAverage": 7.4,
-        "tmdbVoteCount": 326
       }
     },
     {
@@ -461095,36 +460962,6 @@
       "source": {
         "tmdbVoteAverage": 7.197,
         "tmdbVoteCount": 949
-      }
-    },
-    {
-      "id": "12-days-2017",
-      "tmdbId": 452221,
-      "imdbId": "tt6777114",
-      "title": "12 Days",
-      "originalTitle": "12 jours",
-      "originalLanguage": "fr",
-      "year": 2017,
-      "releaseDate": "2017-11-29",
-      "runtimeMinutes": 87,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Raymond Depardon"
-      ],
-      "cast": [],
-      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
-      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 71,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
-      "source": {
-        "tmdbVoteAverage": 7.1,
-        "tmdbVoteCount": 55
       }
     },
     {
@@ -495369,6 +495206,45 @@
       }
     },
     {
+      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+      "tmdbId": 961651,
+      "imdbId": "tt20425026",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-05-03",
+      "runtimeMinutes": 30,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "short film",
+        "superhero",
+        "film production"
+      ],
+      "directors": [],
+      "cast": [
+        "Tom Holland",
+        "Tobey Maguire",
+        "Andrew Garfield",
+        "Willem Dafoe",
+        "Alfred Molina",
+        "Jamie Foxx"
+      ],
+      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 68,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
+      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 100
+      }
+    },
+    {
       "id": "spontaneous-2020",
       "tmdbId": 604578,
       "imdbId": "tt5774062",
@@ -505500,36 +505376,6 @@
       "source": {
         "tmdbVoteAverage": 6.7,
         "tmdbVoteCount": 147
-      }
-    },
-    {
-      "id": "return-2008",
-      "tmdbId": 839321,
-      "title": "Return",
-      "originalTitle": "Powrót",
-      "originalLanguage": "pl",
-      "year": 2008,
-      "releaseDate": "2008-01-01",
-      "runtimeMinutes": 8,
-      "genres": [
-        "Animation",
-        "Science Fiction"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Anna Błaszczyk"
-      ],
-      "cast": [],
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 67,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to E...",
-      "source": {
-        "tmdbVoteAverage": 6.7,
-        "tmdbVoteCount": 582
       }
     },
     {
@@ -543083,6 +542929,44 @@
       }
     },
     {
+      "id": "it-s-not-the-time-of-my-life-2016",
+      "tmdbId": 405671,
+      "imdbId": "tt5537614",
+      "title": "It's Not the Time of My Life",
+      "originalTitle": "Ernelláék Farkaséknál",
+      "originalLanguage": "hu",
+      "year": 2016,
+      "releaseDate": "2016-10-01",
+      "runtimeMinutes": 81,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "family relationships"
+      ],
+      "directors": [
+        "Szabolcs Hajdu"
+      ],
+      "cast": [
+        "Szabolcs Hajdu",
+        "Török-Illyés Orsolya",
+        "Erika Tankó",
+        "Domokos Szabó"
+      ],
+      "posterPath": "/qELIdC7zVxDw7DfPbsUev7qNCSd.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 63,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/91ctGn_GBeg",
+      "synopsisPreview": "Eszter, her husband Farkas, and their five-year-old son Bruno are paid an unexpected visit in the middle of the night. Eszter’s sister Ernella, her husband Albert and daughter Laura have returned from a year spent in Sco...",
+      "source": {
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "jack-1996",
       "tmdbId": 7095,
       "imdbId": "tt0116669",
@@ -545248,41 +545132,6 @@
       "source": {
         "tmdbVoteAverage": 6.344,
         "tmdbVoteCount": 475
-      }
-    },
-    {
-      "id": "return-1972",
-      "tmdbId": 1086372,
-      "title": "Return",
-      "originalTitle": "Վերադարձ",
-      "originalLanguage": "hy",
-      "year": 1972,
-      "releaseDate": "1972-07-02",
-      "runtimeMinutes": 82,
-      "genres": [
-        "Drama"
-      ],
-      "tags": [],
-      "directors": [
-        "Arman Manaryan",
-        "Roman Zhamgaryan"
-      ],
-      "cast": [
-        "Vladimir Mrsyan",
-        "Anait Topchyan",
-        "Karen Jangiryan",
-        "Hakob Azizyan",
-        "Yervand Manaryan",
-        "Efim Kopelyan"
-      ],
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 63,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there.",
-      "source": {
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 563
       }
     },
     {
@@ -603243,6 +603092,40 @@
       }
     },
     {
+      "id": "thoughts-and-prayers-2025",
+      "tmdbId": 1559760,
+      "imdbId": "tt38633124",
+      "title": "Thoughts & Prayers",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-11-12",
+      "runtimeMinutes": 88,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "school shooting",
+        "active shooter"
+      ],
+      "directors": [
+        "Zackary Canepari",
+        "Jessica Dimmock"
+      ],
+      "cast": [],
+      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
+      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 56,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
+      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
+      "source": {
+        "tmdbVoteAverage": 5.6,
+        "tmdbVoteCount": 14
+      }
+    },
+    {
       "id": "toxic-shark-2017",
       "tmdbId": 461108,
       "imdbId": "tt6973866",
@@ -627087,6 +626970,43 @@
       }
     },
     {
+      "id": "making-squid-game-the-challenge-2023",
+      "tmdbId": 1214667,
+      "imdbId": "tt30327680",
+      "title": "Making Squid Game: The Challenge",
+      "originalLanguage": "en",
+      "year": 2023,
+      "releaseDate": "2023-12-06",
+      "runtimeMinutes": 30,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "behind the scenes",
+        "making of"
+      ],
+      "directors": [],
+      "cast": [
+        "Nicola Brown",
+        "Rikki Finlay",
+        "Tim Harcourt",
+        "Toni Ireland",
+        "Stephen Lambert",
+        "Rich Leist"
+      ],
+      "posterPath": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
+      "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 80,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition.",
+      "source": {
+        "tmdbVoteAverage": 7.967,
+        "tmdbVoteCount": 241
+      }
+    },
+    {
       "id": "millonario-sin-amor-2021",
       "tmdbId": 901407,
       "imdbId": "tt14505782",
@@ -631771,6 +631691,47 @@
       "source": {
         "tmdbVoteAverage": 7.841,
         "tmdbVoteCount": 485
+      }
+    },
+    {
+      "id": "us-again-2021",
+      "tmdbId": 779047,
+      "imdbId": "tt14062858",
+      "title": "Us Again",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-03-03",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "tags": [
+        "new york city",
+        "dancing",
+        "rain",
+        "musical",
+        "lovers",
+        "elderly couple",
+        "short film"
+      ],
+      "directors": [
+        "Zach Parrish"
+      ],
+      "cast": [],
+      "posterPath": "/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg",
+      "backdropPath": "/9B4hHMsnjxo8NnTcKIfg3cjJzMi.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 78,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/0ylr70WNAe8",
+      "synopsisPreview": "In a vibrant city pulsating with rhythm and movement, an elderly man and his young-at-heart wife rekindle their youthful passion for life and each other on one magical night.",
+      "source": {
+        "tmdbVoteAverage": 7.789,
+        "tmdbVoteCount": 360
       }
     },
     {
@@ -641291,6 +641252,39 @@
       "source": {
         "tmdbVoteAverage": 7.389,
         "tmdbVoteCount": 594
+      }
+    },
+    {
+      "id": "burrow-2020",
+      "tmdbId": 747059,
+      "imdbId": "tt13167288",
+      "title": "Burrow",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-12-25",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "pixar sparkshorts"
+      ],
+      "directors": [
+        "Madeline Sharafian"
+      ],
+      "cast": [],
+      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
+      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 74,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
+      "source": {
+        "tmdbVoteAverage": 7.4,
+        "tmdbVoteCount": 326
       }
     },
     {
@@ -655697,6 +655691,36 @@
       "source": {
         "tmdbVoteAverage": 7.2,
         "tmdbVoteCount": 46
+      }
+    },
+    {
+      "id": "12-days-2017",
+      "tmdbId": 452221,
+      "imdbId": "tt6777114",
+      "title": "12 Days",
+      "originalTitle": "12 jours",
+      "originalLanguage": "fr",
+      "year": 2017,
+      "releaseDate": "2017-11-29",
+      "runtimeMinutes": 87,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Raymond Depardon"
+      ],
+      "cast": [],
+      "posterPath": "/sVVu9qO7uhLpsjNDser7AZXCEwA.jpg",
+      "backdropPath": "/r3CtKVXMbKAE5CMFGdjFkS5VC2Q.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 71,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "A new documentary by filmmaker-photographer Raymond Depardon – where justice and psychiatry meet.",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 55
       }
     },
     {
@@ -687209,6 +687233,36 @@
       }
     },
     {
+      "id": "return-2008",
+      "tmdbId": 839321,
+      "title": "Return",
+      "originalTitle": "Powrót",
+      "originalLanguage": "pl",
+      "year": 2008,
+      "releaseDate": "2008-01-01",
+      "runtimeMinutes": 8,
+      "genres": [
+        "Animation",
+        "Science Fiction"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Anna Błaszczyk"
+      ],
+      "cast": [],
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 67,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "Polish animator Anna Błaszczyk’s humorous short—a collage of drawing, cut-out, and computer animation—was inspired by Stanisław Lem’s 1961 novel Return from the Stars, a time-paradox tale of an astronaut who returns to E...",
+      "source": {
+        "tmdbVoteAverage": 6.7,
+        "tmdbVoteCount": 582
+      }
+    },
+    {
       "id": "return-of-special-forces-5-2021",
       "tmdbId": 865921,
       "imdbId": "tt16369220",
@@ -713308,6 +713362,41 @@
       "source": {
         "tmdbVoteAverage": 6.329,
         "tmdbVoteCount": 120
+      }
+    },
+    {
+      "id": "return-1972",
+      "tmdbId": 1086372,
+      "title": "Return",
+      "originalTitle": "Վերադարձ",
+      "originalLanguage": "hy",
+      "year": 1972,
+      "releaseDate": "1972-07-02",
+      "runtimeMinutes": 82,
+      "genres": [
+        "Drama"
+      ],
+      "tags": [],
+      "directors": [
+        "Arman Manaryan",
+        "Roman Zhamgaryan"
+      ],
+      "cast": [
+        "Vladimir Mrsyan",
+        "Anait Topchyan",
+        "Karen Jangiryan",
+        "Hakob Azizyan",
+        "Yervand Manaryan",
+        "Efim Kopelyan"
+      ],
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 63,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "The main character of the film is an outstanding physicist who was invited to Armenia from Russia to head a lab. He comes across many troubles in his homeland, but nevertheless finds his true love there.",
+      "source": {
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 563
       }
     },
     {
