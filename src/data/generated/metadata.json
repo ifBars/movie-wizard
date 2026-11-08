@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T15:45:47.714Z",
-  "recordCount": 16592,
+  "generatedAt": "2026-11-08T16:05:15.499Z",
+  "recordCount": 16594,
   "addedRecordCount": 2,
-  "existingRecordCount": 16590,
+  "existingRecordCount": 16592,
   "refreshedRecordCount": 0,
   "processedCandidateCount": 6,
   "acceptedRecordCount": 2,
@@ -16,10 +16,5 @@
     "curatedSeeds": 35,
     "tmdb": true,
     "tmdbDailyExport": false
-  },
-  "backfillLastRun": "2026-11-08T14:37:18.160Z",
-  "backfillUpdated": 100,
-  "backfillFailures": 0,
-  "backfillSkipped": 0,
-  "backfillRemaining": 72
+  }
 }
