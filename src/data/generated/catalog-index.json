@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T17:55:57.762Z",
+  "generatedAt": "2026-11-09T19:54:55.707Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -9001,6 +9001,57 @@
       "source": {
         "tmdbVoteAverage": 8.7,
         "tmdbVoteCount": 13
+      }
+    },
+    {
+      "id": "the-cat-in-the-hat-2026",
+      "tmdbId": 1117898,
+      "imdbId": "tt2321555",
+      "title": "The Cat in the Hat",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-10-31",
+      "runtimeMinutes": 108,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Adventure",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "sibling relationship",
+        "based on novel or book",
+        "hat",
+        "cat",
+        "based on children's book",
+        "goldfish",
+        "new town",
+        "talking cat"
+      ],
+      "directors": [
+        "Erica Rivinoja",
+        "Alessandro Carloni"
+      ],
+      "cast": [
+        "Bill Hader",
+        "Xochitl Gomez",
+        "Tiago Martinez",
+        "Matt Berry",
+        "Quinta Brunson",
+        "Bowen Yang"
+      ],
+      "posterPath": "/mWN6knIVJ2o7eGwSm7mOgSCwNUc.jpg",
+      "backdropPath": "/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 64,
+      "criticalScore": 71,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/tkZpcypT8Z4",
+      "synopsisPreview": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing his magical...",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 17
       }
     },
     {
@@ -117478,48 +117529,6 @@
       }
     },
     {
-      "id": "summer-house-2026",
-      "tmdbId": 1556616,
-      "imdbId": "tt38897659",
-      "title": "Summer House",
-      "originalTitle": "Yaz Evi",
-      "originalLanguage": "tr",
-      "year": 2026,
-      "releaseDate": "2026-06-06",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Mystery"
-      ],
-      "tags": [
-        "coming of age",
-        "overprotective mother"
-      ],
-      "directors": [
-        "Erdem Tepegöz"
-      ],
-      "cast": [
-        "Mina Demirtaş",
-        "Derya Pınar Ak",
-        "Onur Seyit Yaran",
-        "Çağdaş Onur Öztürk",
-        "Kamil Güler",
-        "Selma Ergeç"
-      ],
-      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
-      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-      "popularity": 6,
-      "criticalScore": 67,
-      "plexFit": "A useful romance title for broadening the local catalog.",
-      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
-      "source": {
-        "tmdbVoteAverage": 6.704,
-        "tmdbVoteCount": 27
-      }
-    },
-    {
       "id": "superman-ii-1980",
       "tmdbId": 8536,
       "imdbId": "tt0081573",
@@ -118590,6 +118599,48 @@
       "source": {
         "tmdbVoteAverage": 6.741,
         "tmdbVoteCount": 2602
+      }
+    },
+    {
+      "id": "summer-house-2026",
+      "tmdbId": 1556616,
+      "imdbId": "tt38897659",
+      "title": "Summer House",
+      "originalTitle": "Yaz Evi",
+      "originalLanguage": "tr",
+      "year": 2026,
+      "releaseDate": "2026-06-06",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Mystery"
+      ],
+      "tags": [
+        "coming of age",
+        "overprotective mother"
+      ],
+      "directors": [
+        "Erdem Tepegöz"
+      ],
+      "cast": [
+        "Mina Demirtaş",
+        "Derya Pınar Ak",
+        "Onur Seyit Yaran",
+        "Çağdaş Onur Öztürk",
+        "Kamil Güler",
+        "Selma Ergeç"
+      ],
+      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
+      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 6,
+      "criticalScore": 67,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
+      "source": {
+        "tmdbVoteAverage": 6.704,
+        "tmdbVoteCount": 27
       }
     },
     {
@@ -166246,43 +166297,6 @@
       }
     },
     {
-      "id": "new-golden-lotus-i-1996",
-      "tmdbId": 492101,
-      "imdbId": "tt3045918",
-      "title": "New Golden Lotus  I",
-      "originalTitle": "新金瓶梅 第一集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-08",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Choi Mei-yau",
-        "Eddie Koo Koon Chung",
-        "Tseng Ya-chun"
-      ],
-      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
-      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 62,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 10
-      }
-    },
-    {
       "id": "night-at-the-museum-battle-of-the-smithsonian-2009",
       "tmdbId": 18360,
       "imdbId": "tt1078912",
@@ -180369,6 +180383,54 @@
       "source": {
         "tmdbVoteAverage": 8.222,
         "tmdbVoteCount": 79
+      }
+    },
+    {
+      "id": "evangelion-30th-anniversary-special-screening-2026",
+      "tmdbId": 1600672,
+      "imdbId": "tt39215384",
+      "title": "EVANGELION 30th Anniversary Special Screening",
+      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
+      "originalLanguage": "ja",
+      "year": 2026,
+      "releaseDate": "2026-02-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "reunion",
+        "mecha",
+        "anniversary",
+        "heart warming",
+        "anime",
+        "self parody",
+        "joyful",
+        "love letters"
+      ],
+      "directors": [
+        "Naoyuki Asano"
+      ],
+      "cast": [
+        "Yuko Miyamura",
+        "Megumi Ogata",
+        "Akira Ishida",
+        "Kotono Mitsuishi",
+        "Miki Nagasawa",
+        "Maria Kawamura"
+      ],
+      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
+      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 82,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
+      "source": {
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -240315,6 +240377,43 @@
       }
     },
     {
+      "id": "new-golden-lotus-i-1996",
+      "tmdbId": 492101,
+      "imdbId": "tt3045918",
+      "title": "New Golden Lotus  I",
+      "originalTitle": "新金瓶梅 第一集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-08",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Choi Mei-yau",
+        "Eddie Koo Koon Chung",
+        "Tseng Ya-chun"
+      ],
+      "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
+      "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 62,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 10
+      }
+    },
+    {
       "id": "no-way-up-2024",
       "tmdbId": 1096197,
       "imdbId": "tt16253418",
@@ -267662,54 +267761,6 @@
       }
     },
     {
-      "id": "evangelion-30th-anniversary-special-screening-2026",
-      "tmdbId": 1600672,
-      "imdbId": "tt39215384",
-      "title": "EVANGELION 30th Anniversary Special Screening",
-      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
-      "originalLanguage": "ja",
-      "year": 2026,
-      "releaseDate": "2026-02-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "tags": [
-        "reunion",
-        "mecha",
-        "anniversary",
-        "heart warming",
-        "anime",
-        "self parody",
-        "joyful",
-        "love letters"
-      ],
-      "directors": [
-        "Naoyuki Asano"
-      ],
-      "cast": [
-        "Yuko Miyamura",
-        "Megumi Ogata",
-        "Akira Ishida",
-        "Kotono Mitsuishi",
-        "Miki Nagasawa",
-        "Maria Kawamura"
-      ],
-      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
-      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 4,
-      "criticalScore": 82,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
-      "source": {
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "given-2020",
       "tmdbId": 632632,
       "imdbId": "tt11802992",
@@ -282904,6 +282955,39 @@
       "source": {
         "tmdbVoteAverage": 7.428,
         "tmdbVoteCount": 800
+      }
+    },
+    {
+      "id": "burrow-2020",
+      "tmdbId": 747059,
+      "imdbId": "tt13167288",
+      "title": "Burrow",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-12-25",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "pixar sparkshorts"
+      ],
+      "directors": [
+        "Madeline Sharafian"
+      ],
+      "cast": [],
+      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
+      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 74,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
+      "source": {
+        "tmdbVoteAverage": 7.428,
+        "tmdbVoteCount": 326
       }
     },
     {
@@ -366235,46 +366319,6 @@
       }
     },
     {
-      "id": "gatao-big-brothers-2025",
-      "tmdbId": 1468057,
-      "imdbId": "tt37998920",
-      "title": "GATAO: Big Brothers",
-      "originalTitle": "角頭－鬥陣欸",
-      "originalLanguage": "zh",
-      "year": 2025,
-      "releaseDate": "2025-08-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Crime",
-        "Action"
-      ],
-      "tags": [],
-      "directors": [
-        "Chiang Jui-chih",
-        "Yao Hung-i"
-      ],
-      "cast": [
-        "Jack Kao",
-        "Tsai Chen-nan",
-        "Tai Bo",
-        "King Jieh-wen",
-        "Lung Tien-hsiang",
-        "Tsui Hao-jan"
-      ],
-      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
-      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
-      "posterTone": "from-cyan-300 via-blue-800 to-black",
-      "popularity": 2,
-      "criticalScore": 62,
-      "plexFit": "A useful crime title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
-      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
-      "source": {
-        "tmdbVoteAverage": 6.2,
-        "tmdbVoteCount": 13
-      }
-    },
-    {
       "id": "gold-2022",
       "tmdbId": 760926,
       "imdbId": "tt6020800",
@@ -380972,6 +381016,42 @@
       "source": {
         "tmdbVoteAverage": 5.976,
         "tmdbVoteCount": 1063
+      }
+    },
+    {
+      "id": "new-golden-lotus-iii-1996",
+      "tmdbId": 492105,
+      "imdbId": "tt12952242",
+      "title": "New Golden Lotus III",
+      "originalTitle": "新金瓶梅 第三集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-22",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Cindy Yip Sin-Yi",
+        "Choi Mei-yau"
+      ],
+      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
+      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 60,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
+      "source": {
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 14
       }
     },
     {
@@ -420425,39 +420505,6 @@
       }
     },
     {
-      "id": "far-from-the-tree-2021",
-      "tmdbId": 831827,
-      "imdbId": "tt14927356",
-      "title": "Far from the Tree",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-11-24",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Natalie Nourigat"
-      ],
-      "cast": [],
-      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
-      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 81,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
-      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
-      "source": {
-        "tmdbVoteAverage": 8.1,
-        "tmdbVoteCount": 395
-      }
-    },
-    {
       "id": "my-friends-1975",
       "tmdbId": 20914,
       "imdbId": "tt0072637",
@@ -430229,44 +430276,6 @@
       "source": {
         "tmdbVoteAverage": 7.7,
         "tmdbVoteCount": 29
-      }
-    },
-    {
-      "id": "the-storyteller-2024",
-      "tmdbId": 1108906,
-      "imdbId": "tt27304417",
-      "title": "The Storyteller",
-      "originalTitle": "L'enchanteur",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-02-12",
-      "runtimeMinutes": 92,
-      "genres": [
-        "Drama",
-        "TV Movie"
-      ],
-      "tags": [],
-      "directors": [
-        "Philippe Lefebvre"
-      ],
-      "cast": [
-        "Charles Berling",
-        "Miranda Raison",
-        "Claire de la Rüe du Can",
-        "Pierre Perrier",
-        "Anne Charrier",
-        "Gaspard Meier-Chaurand"
-      ],
-      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
-      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 77,
-      "plexFit": "A compact drama option for easier weeknight discovery.",
-      "synopsisPreview": "No synopsis is available yet.",
-      "source": {
-        "tmdbVoteAverage": 7.7,
-        "tmdbVoteCount": 13
       }
     },
     {
@@ -440473,39 +440482,6 @@
       "source": {
         "tmdbVoteAverage": 7.415,
         "tmdbVoteCount": 1469
-      }
-    },
-    {
-      "id": "burrow-2020",
-      "tmdbId": 747059,
-      "imdbId": "tt13167288",
-      "title": "Burrow",
-      "originalLanguage": "en",
-      "year": 2020,
-      "releaseDate": "2020-12-25",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "tags": [
-        "pixar sparkshorts"
-      ],
-      "directors": [
-        "Madeline Sharafian"
-      ],
-      "cast": [],
-      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
-      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 74,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
-      "source": {
-        "tmdbVoteAverage": 7.428,
-        "tmdbVoteCount": 326
       }
     },
     {
@@ -473733,41 +473709,6 @@
       "source": {
         "tmdbVoteAverage": 6.97,
         "tmdbVoteCount": 33
-      }
-    },
-    {
-      "id": "luxo-jr-1986",
-      "tmdbId": 13925,
-      "imdbId": "tt0091455",
-      "title": "Luxo Jr.",
-      "originalLanguage": "en",
-      "year": 1986,
-      "releaseDate": "1986-08-17",
-      "runtimeMinutes": 2,
-      "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "ball",
-        "father and child",
-        "short film"
-      ],
-      "directors": [
-        "John Lasseter"
-      ],
-      "cast": [],
-      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
-      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
-      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
-      "source": {
-        "tmdbVoteAverage": 7.035,
-        "tmdbVoteCount": 689
       }
     },
     {
@@ -542717,44 +542658,6 @@
       }
     },
     {
-      "id": "it-s-not-the-time-of-my-life-2016",
-      "tmdbId": 405671,
-      "imdbId": "tt5537614",
-      "title": "It's Not the Time of My Life",
-      "originalTitle": "Ernelláék Farkaséknál",
-      "originalLanguage": "hu",
-      "year": 2016,
-      "releaseDate": "2016-10-01",
-      "runtimeMinutes": 81,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "family relationships"
-      ],
-      "directors": [
-        "Szabolcs Hajdu"
-      ],
-      "cast": [
-        "Szabolcs Hajdu",
-        "Török-Illyés Orsolya",
-        "Erika Tankó",
-        "Domokos Szabó"
-      ],
-      "posterPath": "/qELIdC7zVxDw7DfPbsUev7qNCSd.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 63,
-      "plexFit": "A compact comedy option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/91ctGn_GBeg",
-      "synopsisPreview": "Eszter, her husband Farkas, and their five-year-old son Bruno are paid an unexpected visit in the middle of the night. Eszter’s sister Ernella, her husband Albert and daughter Laura have returned from a year spent in Sco...",
-      "source": {
-        "tmdbVoteAverage": 6.3,
-        "tmdbVoteCount": 15
-      }
-    },
-    {
       "id": "jack-1996",
       "tmdbId": 7095,
       "imdbId": "tt0116669",
@@ -551319,6 +551222,46 @@
       "source": {
         "tmdbVoteAverage": 6.183,
         "tmdbVoteCount": 300
+      }
+    },
+    {
+      "id": "gatao-big-brothers-2025",
+      "tmdbId": 1468057,
+      "imdbId": "tt37998920",
+      "title": "GATAO: Big Brothers",
+      "originalTitle": "角頭－鬥陣欸",
+      "originalLanguage": "zh",
+      "year": 2025,
+      "releaseDate": "2025-08-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Crime",
+        "Action"
+      ],
+      "tags": [],
+      "directors": [
+        "Chiang Jui-chih",
+        "Yao Hung-i"
+      ],
+      "cast": [
+        "Jack Kao",
+        "Tsai Chen-nan",
+        "Tai Bo",
+        "King Jieh-wen",
+        "Lung Tien-hsiang",
+        "Tsui Hao-jan"
+      ],
+      "posterPath": "/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
+      "backdropPath": "/rGRjRlgSv1v6lnuBGhPCB74TVZt.jpg",
+      "posterTone": "from-cyan-300 via-blue-800 to-black",
+      "popularity": 2,
+      "criticalScore": 62,
+      "plexFit": "A useful crime title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/jJEkjoF18xE",
+      "synopsisPreview": "Michael and his right-hand man Scorpion, who find themselves embroiled in their father Ko's turf war against rival gangs in Taipei, setting off a conflict between old and new generations of gangsters. The film is the lat...",
+      "source": {
+        "tmdbVoteAverage": 6.2,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -572119,42 +572062,6 @@
       "source": {
         "tmdbVoteAverage": 6,
         "tmdbVoteCount": 539
-      }
-    },
-    {
-      "id": "new-golden-lotus-iii-1996",
-      "tmdbId": 492105,
-      "imdbId": "tt12952242",
-      "title": "New Golden Lotus III",
-      "originalTitle": "新金瓶梅 第三集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-22",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Cindy Yip Sin-Yi",
-        "Choi Mei-yau"
-      ],
-      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
-      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 60,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
-      "source": {
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 14
       }
     },
     {
@@ -602844,40 +602751,6 @@
       }
     },
     {
-      "id": "thoughts-and-prayers-2025",
-      "tmdbId": 1559760,
-      "imdbId": "tt38633124",
-      "title": "Thoughts & Prayers",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-11-12",
-      "runtimeMinutes": 88,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "school shooting",
-        "active shooter"
-      ],
-      "directors": [
-        "Zackary Canepari",
-        "Jessica Dimmock"
-      ],
-      "cast": [],
-      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
-      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 56,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
-      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
-      "source": {
-        "tmdbVoteAverage": 5.6,
-        "tmdbVoteCount": 14
-      }
-    },
-    {
       "id": "toxic-shark-2017",
       "tmdbId": 461108,
       "imdbId": "tt6973866",
@@ -626058,6 +625931,39 @@
       }
     },
     {
+      "id": "far-from-the-tree-2021",
+      "tmdbId": 831827,
+      "imdbId": "tt14927356",
+      "title": "Far from the Tree",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-11-24",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Natalie Nourigat"
+      ],
+      "cast": [],
+      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
+      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 81,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
+      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
+      "source": {
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 395
+      }
+    },
+    {
       "id": "gabriel-s-rapture-part-ii-2022",
       "tmdbId": 953553,
       "imdbId": "tt19121744",
@@ -633935,6 +633841,44 @@
       "source": {
         "tmdbVoteAverage": 7.731,
         "tmdbVoteCount": 80
+      }
+    },
+    {
+      "id": "the-storyteller-2024",
+      "tmdbId": 1108906,
+      "imdbId": "tt27304417",
+      "title": "The Storyteller",
+      "originalTitle": "L'enchanteur",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-02-12",
+      "runtimeMinutes": 92,
+      "genres": [
+        "Drama",
+        "TV Movie"
+      ],
+      "tags": [],
+      "directors": [
+        "Philippe Lefebvre"
+      ],
+      "cast": [
+        "Charles Berling",
+        "Miranda Raison",
+        "Claire de la Rüe du Can",
+        "Pierre Perrier",
+        "Anne Charrier",
+        "Gaspard Meier-Chaurand"
+      ],
+      "posterPath": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
+      "backdropPath": "/ejJRQP4gJCAZnZQq4ytk9ZRPOrM.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 77,
+      "plexFit": "A compact drama option for easier weeknight discovery.",
+      "synopsisPreview": "No synopsis is available yet.",
+      "source": {
+        "tmdbVoteAverage": 7.7,
+        "tmdbVoteCount": 13
       }
     },
     {
@@ -664705,6 +664649,41 @@
       "source": {
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 336
+      }
+    },
+    {
+      "id": "luxo-jr-1986",
+      "tmdbId": 13925,
+      "imdbId": "tt0091455",
+      "title": "Luxo Jr.",
+      "originalLanguage": "en",
+      "year": 1986,
+      "releaseDate": "1986-08-17",
+      "runtimeMinutes": 2,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "ball",
+        "father and child",
+        "short film"
+      ],
+      "directors": [
+        "John Lasseter"
+      ],
+      "cast": [],
+      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
+      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
+      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
+      "source": {
+        "tmdbVoteAverage": 7.035,
+        "tmdbVoteCount": 689
       }
     },
     {
@@ -712033,6 +712012,44 @@
       }
     },
     {
+      "id": "it-s-not-the-time-of-my-life-2016",
+      "tmdbId": 405671,
+      "imdbId": "tt5537614",
+      "title": "It's Not the Time of My Life",
+      "originalTitle": "Ernelláék Farkaséknál",
+      "originalLanguage": "hu",
+      "year": 2016,
+      "releaseDate": "2016-10-01",
+      "runtimeMinutes": 81,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "family relationships"
+      ],
+      "directors": [
+        "Szabolcs Hajdu"
+      ],
+      "cast": [
+        "Szabolcs Hajdu",
+        "Török-Illyés Orsolya",
+        "Erika Tankó",
+        "Domokos Szabó"
+      ],
+      "posterPath": "/qELIdC7zVxDw7DfPbsUev7qNCSd.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 63,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/91ctGn_GBeg",
+      "synopsisPreview": "Eszter, her husband Farkas, and their five-year-old son Bruno are paid an unexpected visit in the middle of the night. Eszter’s sister Ernella, her husband Albert and daughter Laura have returned from a year spent in Sco...",
+      "source": {
+        "tmdbVoteAverage": 6.3,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "john-dies-at-the-end-2013",
       "tmdbId": 75761,
       "imdbId": "tt1783732",
@@ -753129,6 +753146,40 @@
       "source": {
         "tmdbVoteAverage": 5.57,
         "tmdbVoteCount": 402
+      }
+    },
+    {
+      "id": "thoughts-and-prayers-2025",
+      "tmdbId": 1559760,
+      "imdbId": "tt38633124",
+      "title": "Thoughts & Prayers",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-11-12",
+      "runtimeMinutes": 88,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "school shooting",
+        "active shooter"
+      ],
+      "directors": [
+        "Zackary Canepari",
+        "Jessica Dimmock"
+      ],
+      "cast": [],
+      "posterPath": "/y9GzO4jCjpurBWvgGp6clqdSK1G.jpg",
+      "backdropPath": "/sjw0g6dSpKSnLMeLe2VoKG8WLpC.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 56,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/aRv23_VWglQ",
+      "synopsisPreview": "In a dystopic America, children are taught how to prepare for school shootings through elaborate drills. Yet what are intended as self-defense mechanisms are themselves deeply traumatic for students, parents, educators,...",
+      "source": {
+        "tmdbVoteAverage": 5.6,
+        "tmdbVoteCount": 14
       }
     },
     {
