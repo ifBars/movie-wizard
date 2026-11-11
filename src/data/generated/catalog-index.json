@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T15:41:02.853Z",
+  "generatedAt": "2026-11-11T17:16:40.831Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -5986,6 +5986,47 @@
       }
     },
     {
+      "id": "the-anacondas-2025",
+      "tmdbId": 1595325,
+      "imdbId": "tt38043316",
+      "title": "The Anacondas",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-12-19",
+      "runtimeMinutes": 90,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "tags": [
+        "snake"
+      ],
+      "directors": [
+        "Marcel Walz"
+      ],
+      "cast": [
+        "Hannah Hueston",
+        "Jordan Iverach",
+        "Philipp Karner",
+        "Dominic Keating",
+        "Maureen Kedes",
+        "Bix Krieger"
+      ],
+      "posterPath": "/yphysF14qWFvrIbFVg3vEnbudwT.jpg",
+      "backdropPath": "/ryA5uYC7mVZv9dEnAGvL9Iv8kVZ.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 86,
+      "criticalScore": 36,
+      "plexFit": "A compact action option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/isictB6aypQ",
+      "synopsisPreview": "Explorers in Mexico uncover the ruins of an ancient snake-worshiping civilization. Celebration turns to horror when they awaken an ever-growing anaconda, starved of human sacrifices for centuries. Now, the team must band...",
+      "source": {
+        "tmdbVoteAverage": 3.6,
+        "tmdbVoteCount": 17
+      }
+    },
+    {
       "id": "a-place-called-silence-2024",
       "tmdbId": 1300945,
       "imdbId": "tt32553390",
@@ -7424,6 +7465,47 @@
       "source": {
         "tmdbVoteAverage": 7.299,
         "tmdbVoteCount": 82
+      }
+    },
+    {
+      "id": "evil-dress-2026",
+      "tmdbId": 1474226,
+      "imdbId": "tt36822366",
+      "title": "Evil Dress",
+      "originalTitle": "El vestido",
+      "originalLanguage": "es",
+      "year": 2026,
+      "releaseDate": "2026-02-13",
+      "runtimeMinutes": 75,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [
+        "haunted house",
+        "supernatural horror",
+        "psychological horror"
+      ],
+      "directors": [
+        "Jacob Santana"
+      ],
+      "cast": [
+        "Belén Rueda",
+        "Vera Centenera",
+        "Santiago Molero",
+        "Elena Irureta",
+        "Belén Écija"
+      ],
+      "posterPath": "/voXT2JWo6XTohm4rFLygJkik8Ja.jpg",
+      "backdropPath": "/hXRw0AVY8avc0koUXj2rMY6q2N8.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 75,
+      "criticalScore": 60,
+      "plexFit": "A compact horror option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dKEpui6pozs",
+      "synopsisPreview": "After a difficult divorce, Alicia moves into an old house with her daughter Carla, unaware that it hides a past of recurrent tragedy. As Carla senses perturbing presences, Alicia begins to doubt her own sanity. A blue dr...",
+      "source": {
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 11
       }
     },
     {
@@ -51634,44 +51716,6 @@
       }
     },
     {
-      "id": "the-treehouse-2025",
-      "tmdbId": 1450404,
-      "imdbId": "tt35108122",
-      "title": "The Treehouse",
-      "originalTitle": "La casa en el árbol",
-      "originalLanguage": "es",
-      "year": 2025,
-      "releaseDate": "2025-09-19",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Horror"
-      ],
-      "tags": [],
-      "directors": [
-        "Luis Calderón"
-      ],
-      "cast": [
-        "Sandra Escacena",
-        "Claudio Portalo",
-        "Kandido Uranga",
-        "Mala Rodríguez",
-        "Apolonia Lapiedra",
-        "Asier Hernández"
-      ],
-      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-      "posterTone": "from-red-300 via-stone-800 to-black",
-      "popularity": 9,
-      "criticalScore": 43,
-      "plexFit": "A useful horror title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-      "source": {
-        "tmdbVoteAverage": 4.302,
-        "tmdbVoteCount": 43
-      }
-    },
-    {
       "id": "like-a-brother-2005",
       "tmdbId": 39688,
       "imdbId": "tt0470715",
@@ -71516,6 +71560,44 @@
       "source": {
         "tmdbVoteAverage": 4.356,
         "tmdbVoteCount": 45
+      }
+    },
+    {
+      "id": "the-treehouse-2025",
+      "tmdbId": 1450404,
+      "imdbId": "tt35108122",
+      "title": "The Treehouse",
+      "originalTitle": "La casa en el árbol",
+      "originalLanguage": "es",
+      "year": 2025,
+      "releaseDate": "2025-09-19",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Horror"
+      ],
+      "tags": [],
+      "directors": [
+        "Luis Calderón"
+      ],
+      "cast": [
+        "Sandra Escacena",
+        "Claudio Portalo",
+        "Kandido Uranga",
+        "Mala Rodríguez",
+        "Apolonia Lapiedra",
+        "Asier Hernández"
+      ],
+      "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+      "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+      "posterTone": "from-red-300 via-stone-800 to-black",
+      "popularity": 9,
+      "criticalScore": 43,
+      "plexFit": "A useful horror title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+      "synopsisPreview": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+      "source": {
+        "tmdbVoteAverage": 4.302,
+        "tmdbVoteCount": 43
       }
     },
     {
@@ -132796,43 +132878,6 @@
       }
     },
     {
-      "id": "squid-game-making-season-2-2025",
-      "tmdbId": 1412113,
-      "imdbId": "tt37546146",
-      "title": "Squid Game: Making Season 2",
-      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
-      "originalLanguage": "ko",
-      "year": 2025,
-      "releaseDate": "2025-01-02",
-      "runtimeMinutes": 28,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "making of"
-      ],
-      "directors": [],
-      "cast": [
-        "Hwang Dong-hyuk",
-        "Lee Jung-jae",
-        "Lee Byung-hun",
-        "Chae Kyoung-sun",
-        "Kim Ji-yong",
-        "Gong Yoo"
-      ],
-      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
-      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 4,
-      "criticalScore": 83,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
-      "source": {
-        "tmdbVoteAverage": 8.332,
-        "tmdbVoteCount": 462
-      }
-    },
-    {
       "id": "the-silence-of-the-lambs-1991",
       "tmdbId": 274,
       "imdbId": "tt0102926",
@@ -180269,6 +180314,43 @@
       }
     },
     {
+      "id": "squid-game-making-season-2-2025",
+      "tmdbId": 1412113,
+      "imdbId": "tt37546146",
+      "title": "Squid Game: Making Season 2",
+      "originalTitle": "오징어 게임: 시즌2 제작 이야기",
+      "originalLanguage": "ko",
+      "year": 2025,
+      "releaseDate": "2025-01-02",
+      "runtimeMinutes": 28,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "making of"
+      ],
+      "directors": [],
+      "cast": [
+        "Hwang Dong-hyuk",
+        "Lee Jung-jae",
+        "Lee Byung-hun",
+        "Chae Kyoung-sun",
+        "Kim Ji-yong",
+        "Gong Yoo"
+      ],
+      "posterPath": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+      "backdropPath": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 4,
+      "criticalScore": 83,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "synopsisPreview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
+      "source": {
+        "tmdbVoteAverage": 8.332,
+        "tmdbVoteCount": 462
+      }
+    },
+    {
       "id": "we-all-loved-each-other-so-much-1974",
       "tmdbId": 42269,
       "imdbId": "tt0075793",
@@ -180383,54 +180465,6 @@
       "source": {
         "tmdbVoteAverage": 8.222,
         "tmdbVoteCount": 79
-      }
-    },
-    {
-      "id": "evangelion-30th-anniversary-special-screening-2026",
-      "tmdbId": 1600672,
-      "imdbId": "tt39215384",
-      "title": "EVANGELION 30th Anniversary Special Screening",
-      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
-      "originalLanguage": "ja",
-      "year": 2026,
-      "releaseDate": "2026-02-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "tags": [
-        "reunion",
-        "mecha",
-        "anniversary",
-        "heart warming",
-        "anime",
-        "self parody",
-        "joyful",
-        "love letters"
-      ],
-      "directors": [
-        "Naoyuki Asano"
-      ],
-      "cast": [
-        "Yuko Miyamura",
-        "Megumi Ogata",
-        "Akira Ishida",
-        "Kotono Mitsuishi",
-        "Miki Nagasawa",
-        "Maria Kawamura"
-      ],
-      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
-      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 82,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
-      "source": {
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -267761,6 +267795,54 @@
       }
     },
     {
+      "id": "evangelion-30th-anniversary-special-screening-2026",
+      "tmdbId": 1600672,
+      "imdbId": "tt39215384",
+      "title": "EVANGELION 30th Anniversary Special Screening",
+      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
+      "originalLanguage": "ja",
+      "year": 2026,
+      "releaseDate": "2026-02-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "reunion",
+        "mecha",
+        "anniversary",
+        "heart warming",
+        "anime",
+        "self parody",
+        "joyful",
+        "love letters"
+      ],
+      "directors": [
+        "Naoyuki Asano"
+      ],
+      "cast": [
+        "Yuko Miyamura",
+        "Megumi Ogata",
+        "Akira Ishida",
+        "Kotono Mitsuishi",
+        "Miki Nagasawa",
+        "Maria Kawamura"
+      ],
+      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
+      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 82,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
+      "source": {
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "given-2020",
       "tmdbId": 632632,
       "imdbId": "tt11802992",
@@ -282955,39 +283037,6 @@
       "source": {
         "tmdbVoteAverage": 7.428,
         "tmdbVoteCount": 800
-      }
-    },
-    {
-      "id": "burrow-2020",
-      "tmdbId": 747059,
-      "imdbId": "tt13167288",
-      "title": "Burrow",
-      "originalLanguage": "en",
-      "year": 2020,
-      "releaseDate": "2020-12-25",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "tags": [
-        "pixar sparkshorts"
-      ],
-      "directors": [
-        "Madeline Sharafian"
-      ],
-      "cast": [],
-      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
-      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 74,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
-      "source": {
-        "tmdbVoteAverage": 7.4,
-        "tmdbVoteCount": 327
       }
     },
     {
@@ -346127,46 +346176,6 @@
       }
     },
     {
-      "id": "the-holy-grill-2026",
-      "tmdbId": 1427838,
-      "imdbId": "tt36586751",
-      "title": "The Holy Grill",
-      "originalTitle": "Extrawurst",
-      "originalLanguage": "de",
-      "year": 2026,
-      "releaseDate": "2026-01-15",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "based on play or musical"
-      ],
-      "directors": [
-        "Marcus H. Rosenmüller"
-      ],
-      "cast": [
-        "Hape Kerkeling",
-        "Christoph Maria Herbst",
-        "Fahri Yardım",
-        "Anja Knauer",
-        "Friedrich Mücke",
-        "Gaby Dohm"
-      ],
-      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
-      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 65,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
-      "source": {
-        "tmdbVoteAverage": 6.459,
-        "tmdbVoteCount": 85
-      }
-    },
-    {
       "id": "the-homesman-2014",
       "tmdbId": 264656,
       "imdbId": "tt2398231",
@@ -381016,42 +381025,6 @@
       "source": {
         "tmdbVoteAverage": 5.976,
         "tmdbVoteCount": 1063
-      }
-    },
-    {
-      "id": "new-golden-lotus-iii-1996",
-      "tmdbId": 492105,
-      "imdbId": "tt12952242",
-      "title": "New Golden Lotus III",
-      "originalTitle": "新金瓶梅 第三集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-22",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Cindy Yip Sin-Yi",
-        "Choi Mei-yau"
-      ],
-      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
-      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 60,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
-      "source": {
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 14
       }
     },
     {
@@ -420505,6 +420478,39 @@
       }
     },
     {
+      "id": "far-from-the-tree-2021",
+      "tmdbId": 831827,
+      "imdbId": "tt14927356",
+      "title": "Far from the Tree",
+      "originalLanguage": "en",
+      "year": 2021,
+      "releaseDate": "2021-11-24",
+      "runtimeMinutes": 7,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "short film"
+      ],
+      "directors": [
+        "Natalie Nourigat"
+      ],
+      "cast": [],
+      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
+      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 81,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
+      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
+      "source": {
+        "tmdbVoteAverage": 8.1,
+        "tmdbVoteCount": 395
+      }
+    },
+    {
       "id": "my-friends-1975",
       "tmdbId": 20914,
       "imdbId": "tt0072637",
@@ -422997,44 +423003,6 @@
       "source": {
         "tmdbVoteAverage": 7.923,
         "tmdbVoteCount": 111
-      }
-    },
-    {
-      "id": "kitbull-2019",
-      "tmdbId": 574074,
-      "imdbId": "tt9536832",
-      "title": "Kitbull",
-      "originalLanguage": "en",
-      "year": 2019,
-      "releaseDate": "2019-01-18",
-      "runtimeMinutes": 9,
-      "genres": [
-        "Animation",
-        "Family",
-        "Drama"
-      ],
-      "tags": [
-        "friendship",
-        "cat",
-        "dog",
-        "animals",
-        "short film",
-        "buddy film"
-      ],
-      "directors": [
-        "Rosana Sullivan"
-      ],
-      "cast": [],
-      "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
-      "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 79,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
-      "source": {
-        "tmdbVoteAverage": 7.935,
-        "tmdbVoteCount": 426
       }
     },
     {
@@ -440482,6 +440450,39 @@
       "source": {
         "tmdbVoteAverage": 7.415,
         "tmdbVoteCount": 1469
+      }
+    },
+    {
+      "id": "burrow-2020",
+      "tmdbId": 747059,
+      "imdbId": "tt13167288",
+      "title": "Burrow",
+      "originalLanguage": "en",
+      "year": 2020,
+      "releaseDate": "2020-12-25",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "pixar sparkshorts"
+      ],
+      "directors": [
+        "Madeline Sharafian"
+      ],
+      "cast": [],
+      "posterPath": "/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
+      "backdropPath": "/tj58v7h4d9xDkFr3Hot0qhKdwRf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 74,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she's doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. Aft...",
+      "source": {
+        "tmdbVoteAverage": 7.4,
+        "tmdbVoteCount": 327
       }
     },
     {
@@ -473709,6 +473710,45 @@
       "source": {
         "tmdbVoteAverage": 6.97,
         "tmdbVoteCount": 33
+      }
+    },
+    {
+      "id": "maggie-simpson-in-the-longest-daycare-2012",
+      "tmdbId": 116440,
+      "imdbId": "tt2175842",
+      "title": "Maggie Simpson in \"The Longest Daycare\"",
+      "originalLanguage": "en",
+      "year": 2012,
+      "releaseDate": "2012-07-03",
+      "runtimeMinutes": 5,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "tags": [
+        "blue",
+        "daycare",
+        "toddler",
+        "butterfly",
+        "cocoon",
+        "short film"
+      ],
+      "directors": [
+        "David Silverman"
+      ],
+      "cast": [],
+      "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
+      "backdropPath": "/cxJsU3BfJ7NkKae5gWqJkmu3aCO.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/gV-NRwLV2qU",
+      "synopsisPreview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmate...",
+      "source": {
+        "tmdbVoteAverage": 6.956,
+        "tmdbVoteCount": 396
       }
     },
     {
@@ -526341,6 +526381,46 @@
       }
     },
     {
+      "id": "the-holy-grill-2026",
+      "tmdbId": 1427838,
+      "imdbId": "tt36586751",
+      "title": "The Holy Grill",
+      "originalTitle": "Extrawurst",
+      "originalLanguage": "de",
+      "year": 2026,
+      "releaseDate": "2026-01-15",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on play or musical"
+      ],
+      "directors": [
+        "Marcus H. Rosenmüller"
+      ],
+      "cast": [
+        "Hape Kerkeling",
+        "Christoph Maria Herbst",
+        "Fahri Yardım",
+        "Anja Knauer",
+        "Friedrich Mücke",
+        "Gaby Dohm"
+      ],
+      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
+      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 65,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
+      "source": {
+        "tmdbVoteAverage": 6.459,
+        "tmdbVoteCount": 85
+      }
+    },
+    {
       "id": "the-house-by-the-sea-2017",
       "tmdbId": 468207,
       "imdbId": "tt7219324",
@@ -572065,6 +572145,42 @@
       }
     },
     {
+      "id": "new-golden-lotus-iii-1996",
+      "tmdbId": 492105,
+      "imdbId": "tt12952242",
+      "title": "New Golden Lotus III",
+      "originalTitle": "新金瓶梅 第三集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-22",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Cindy Yip Sin-Yi",
+        "Choi Mei-yau"
+      ],
+      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
+      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 60,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
+      "source": {
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 14
+      }
+    },
+    {
       "id": "no-one-lives-2013",
       "tmdbId": 123109,
       "imdbId": "tt1763264",
@@ -609342,43 +609458,6 @@
       }
     },
     {
-      "id": "sous-ecrous-2024",
-      "tmdbId": 1279871,
-      "imdbId": "tt33396612",
-      "title": "Sous écrous",
-      "originalLanguage": "fr",
-      "year": 2024,
-      "releaseDate": "2024-12-18",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "tags": [],
-      "directors": [
-        "Hakim Bougheraba"
-      ],
-      "cast": [
-        "Ichem Bougheraba",
-        "Arriles Amrani",
-        "Bernard Farcy",
-        "Redouane Bougheraba",
-        "Brahim Bouhlel",
-        "Moussa Maaskri"
-      ],
-      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
-      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
-      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 54,
-      "plexFit": "A useful action title for broadening the local catalog.",
-      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
-      "source": {
-        "tmdbVoteAverage": 5.4,
-        "tmdbVoteCount": 55
-      }
-    },
-    {
       "id": "spy-hard-1996",
       "tmdbId": 10535,
       "imdbId": "tt0117723",
@@ -625931,39 +626010,6 @@
       }
     },
     {
-      "id": "far-from-the-tree-2021",
-      "tmdbId": 831827,
-      "imdbId": "tt14927356",
-      "title": "Far from the Tree",
-      "originalLanguage": "en",
-      "year": 2021,
-      "releaseDate": "2021-11-24",
-      "runtimeMinutes": 7,
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "tags": [
-        "short film"
-      ],
-      "directors": [
-        "Natalie Nourigat"
-      ],
-      "cast": [],
-      "posterPath": "/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg",
-      "backdropPath": "/d3dkL8C7gfd8cv5xJLBJ3IG37nY.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 81,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/dPKg1du3xmI",
-      "synopsisPreview": "On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.",
-      "source": {
-        "tmdbVoteAverage": 8.1,
-        "tmdbVoteCount": 395
-      }
-    },
-    {
       "id": "gabriel-s-rapture-part-ii-2022",
       "tmdbId": 953553,
       "imdbId": "tt19121744",
@@ -628106,6 +628152,44 @@
       "source": {
         "tmdbVoteAverage": 7.89,
         "tmdbVoteCount": 406
+      }
+    },
+    {
+      "id": "kitbull-2019",
+      "tmdbId": 574074,
+      "imdbId": "tt9536832",
+      "title": "Kitbull",
+      "originalLanguage": "en",
+      "year": 2019,
+      "releaseDate": "2019-01-18",
+      "runtimeMinutes": 9,
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama"
+      ],
+      "tags": [
+        "friendship",
+        "cat",
+        "dog",
+        "animals",
+        "short film",
+        "buddy film"
+      ],
+      "directors": [
+        "Rosana Sullivan"
+      ],
+      "cast": [],
+      "posterPath": "/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
+      "backdropPath": "/xtj3EhrFHMrZCLTWH6LarEXAG8r.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 79,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time.",
+      "source": {
+        "tmdbVoteAverage": 7.935,
+        "tmdbVoteCount": 426
       }
     },
     {
@@ -664684,45 +664768,6 @@
       "source": {
         "tmdbVoteAverage": 7.035,
         "tmdbVoteCount": 690
-      }
-    },
-    {
-      "id": "maggie-simpson-in-the-longest-daycare-2012",
-      "tmdbId": 116440,
-      "imdbId": "tt2175842",
-      "title": "Maggie Simpson in \"The Longest Daycare\"",
-      "originalLanguage": "en",
-      "year": 2012,
-      "releaseDate": "2012-07-03",
-      "runtimeMinutes": 5,
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "tags": [
-        "blue",
-        "daycare",
-        "toddler",
-        "butterfly",
-        "cocoon",
-        "short film"
-      ],
-      "directors": [
-        "David Silverman"
-      ],
-      "cast": [],
-      "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
-      "backdropPath": "/cxJsU3BfJ7NkKae5gWqJkmu3aCO.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/gV-NRwLV2qU",
-      "synopsisPreview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmate...",
-      "source": {
-        "tmdbVoteAverage": 6.956,
-        "tmdbVoteCount": 396
       }
     },
     {
@@ -721536,6 +721581,45 @@
       }
     },
     {
+      "id": "trainwreck-the-cult-of-american-apparel-2025",
+      "tmdbId": 1484262,
+      "imdbId": "tt36856482",
+      "title": "Trainwreck: The Cult of American Apparel",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-06-30",
+      "runtimeMinutes": 54,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "ceo",
+        "clothing store",
+        "clothing factory",
+        "fashion industry",
+        "2000s",
+        "clothing industry",
+        "retail",
+        "allegations"
+      ],
+      "directors": [
+        "Sally Rose Griffiths"
+      ],
+      "cast": [],
+      "posterPath": "/jqDRiwqDsopRZe7xZRYz7KiTkjc.jpg",
+      "backdropPath": "/2vvXkChwXyNyK3s8KRhMoensEwO.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/jrOY-uESKoo",
+      "synopsisPreview": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop.",
+      "source": {
+        "tmdbVoteAverage": 6.174,
+        "tmdbVoteCount": 43
+      }
+    },
+    {
       "id": "ufo-2022",
       "tmdbId": 933357,
       "imdbId": "tt14369286",
@@ -728876,45 +728960,6 @@
       "source": {
         "tmdbVoteAverage": 6.059,
         "tmdbVoteCount": 59
-      }
-    },
-    {
-      "id": "trainwreck-the-cult-of-american-apparel-2025",
-      "tmdbId": 1484262,
-      "imdbId": "tt36856482",
-      "title": "Trainwreck: The Cult of American Apparel",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-06-30",
-      "runtimeMinutes": 54,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "ceo",
-        "clothing store",
-        "clothing factory",
-        "fashion industry",
-        "2000s",
-        "clothing industry",
-        "retail",
-        "allegations"
-      ],
-      "directors": [
-        "Sally Rose Griffiths"
-      ],
-      "cast": [],
-      "posterPath": "/jqDRiwqDsopRZe7xZRYz7KiTkjc.jpg",
-      "backdropPath": "/2vvXkChwXyNyK3s8KRhMoensEwO.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 62,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/jrOY-uESKoo",
-      "synopsisPreview": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop.",
-      "source": {
-        "tmdbVoteAverage": 6.174,
-        "tmdbVoteCount": 43
       }
     },
     {
@@ -758137,6 +758182,43 @@
       "source": {
         "tmdbVoteAverage": 5.438,
         "tmdbVoteCount": 538
+      }
+    },
+    {
+      "id": "sous-ecrous-2024",
+      "tmdbId": 1279871,
+      "imdbId": "tt33396612",
+      "title": "Sous écrous",
+      "originalLanguage": "fr",
+      "year": 2024,
+      "releaseDate": "2024-12-18",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "tags": [],
+      "directors": [
+        "Hakim Bougheraba"
+      ],
+      "cast": [
+        "Ichem Bougheraba",
+        "Arriles Amrani",
+        "Bernard Farcy",
+        "Redouane Bougheraba",
+        "Brahim Bouhlel",
+        "Moussa Maaskri"
+      ],
+      "posterPath": "/7uuZUh6aEcDy1BaJn4IbTWGdNE0.jpg",
+      "backdropPath": "/qzvUFS4kZazah70YiVOQ5Q4usZ5.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 54,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "synopsisPreview": "The daily lives of Sami and Nada. While Nada is the self-proclaimed \"biggest hoodlum on the boardwalk\", Sami is discovering the prison world for the first time. But in prison, no one is who they say they are, and it's no...",
+      "source": {
+        "tmdbVoteAverage": 5.4,
+        "tmdbVoteCount": 55
       }
     },
     {
