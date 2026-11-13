@@ -10182,6 +10182,84 @@
     }
   },
   {
+    "id": "ebenezer-2026",
+    "tmdbId": 1567605,
+    "imdbId": "tt38773219",
+    "title": "Ebenezer",
+    "originalLanguage": "en",
+    "year": 2026,
+    "releaseDate": "2026-11-11",
+    "runtimeMinutes": 115,
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "tags": [
+      "london, england",
+      "based on novel or book",
+      "holiday",
+      "redemption",
+      "spirit",
+      "gothic",
+      "ghost",
+      "dark fantasy"
+    ],
+    "directors": [
+      "Ti West"
+    ],
+    "cast": [
+      "Johnny Depp",
+      "Rupert Grint",
+      "Daisy Ridley",
+      "Tramell Tillman",
+      "Ian McKellen",
+      "Andrea Riseborough"
+    ],
+    "crew": [
+      {
+        "name": "Ti West",
+        "job": "Director"
+      },
+      {
+        "name": "Ti West",
+        "job": "Editor"
+      },
+      {
+        "name": "Nathaniel Halpern",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Emma Watts",
+        "job": "Producer"
+      },
+      {
+        "name": "Tyler Bates",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Checco Varese",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "David Kashevaroff",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+    "posterPath": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+    "backdropPath": "/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+    "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+    "popularity": 88,
+    "criticalScore": 78,
+    "plexFit": "A useful fantasy title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/l_Ozo1xUgbU",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T17:16:22.547Z",
+      "tmdbVoteAverage": 7.844,
+      "tmdbVoteCount": 32
+    }
+  },
+  {
     "id": "seven-snipers-2026",
     "tmdbId": 1288341,
     "imdbId": "tt36926359",
@@ -69674,92 +69752,6 @@
     }
   },
   {
-    "id": "flow-2024",
-    "tmdbId": 823219,
-    "imdbId": "tt4772188",
-    "title": "Flow",
-    "originalTitle": "Straume",
-    "originalLanguage": "lv",
-    "year": 2024,
-    "releaseDate": "2024-08-29",
-    "runtimeMinutes": 85,
-    "genres": [
-      "Adventure",
-      "Animation",
-      "Family",
-      "Fantasy"
-    ],
-    "tags": [
-      "ocean",
-      "cat",
-      "boat",
-      "dystopia",
-      "survival",
-      "dog",
-      "ruins",
-      "flood"
-    ],
-    "directors": [
-      "Gints Zilbalodis"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Director"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Producer"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Editor"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Director of Photography"
-      },
-      {
-        "name": "Gints Zilbalodis",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Matīss Kaža",
-        "job": "Screenplay"
-      },
-      {
-        "name": "Matīss Kaža",
-        "job": "Producer"
-      },
-      {
-        "name": "Ron Dyens",
-        "job": "Producer"
-      },
-      {
-        "name": "Gregory Zalcman",
-        "job": "Producer"
-      }
-    ],
-    "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-    "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
-    "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-    "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
-    "popularity": 10,
-    "criticalScore": 80,
-    "plexFit": "A compact adventure option for easier weeknight discovery.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:31.635Z",
-      "tmdbVoteAverage": 8.045,
-      "tmdbVoteCount": 3164
-    }
-  },
-  {
     "id": "ford-v-ferrari-2019",
     "tmdbId": 359724,
     "imdbId": "tt1950186",
@@ -89034,6 +89026,92 @@
       "tmdbUpdatedAt": "2026-06-06T00:26:58.244Z",
       "tmdbVoteAverage": 8,
       "tmdbVoteCount": 13052
+    }
+  },
+  {
+    "id": "flow-2024",
+    "tmdbId": 823219,
+    "imdbId": "tt4772188",
+    "title": "Flow",
+    "originalTitle": "Straume",
+    "originalLanguage": "lv",
+    "year": 2024,
+    "releaseDate": "2024-08-29",
+    "runtimeMinutes": 85,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "tags": [
+      "ocean",
+      "cat",
+      "boat",
+      "dystopia",
+      "survival",
+      "dog",
+      "ruins",
+      "flood"
+    ],
+    "directors": [
+      "Gints Zilbalodis"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Director"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Producer"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Editor"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Director of Photography"
+      },
+      {
+        "name": "Gints Zilbalodis",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Matīss Kaža",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Matīss Kaža",
+        "job": "Producer"
+      },
+      {
+        "name": "Ron Dyens",
+        "job": "Producer"
+      },
+      {
+        "name": "Gregory Zalcman",
+        "job": "Producer"
+      }
+    ],
+    "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+    "posterPath": "/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
+    "backdropPath": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+    "posterTone": "from-yellow-200 via-sky-800 to-slate-950",
+    "popularity": 10,
+    "criticalScore": 80,
+    "plexFit": "A compact adventure option for easier weeknight discovery.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/shsVQvHUTxw",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:31.635Z",
+      "tmdbVoteAverage": 8.045,
+      "tmdbVoteCount": 3164
     }
   },
   {
@@ -121391,71 +121469,6 @@
     }
   },
   {
-    "id": "the-treehouse-2025",
-    "tmdbId": 1450404,
-    "imdbId": "tt35108122",
-    "title": "The Treehouse",
-    "originalTitle": "La casa en el árbol",
-    "originalLanguage": "es",
-    "year": 2025,
-    "releaseDate": "2025-09-19",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Horror"
-    ],
-    "tags": [],
-    "directors": [
-      "Luis Calderón"
-    ],
-    "cast": [
-      "Sandra Escacena",
-      "Claudio Portalo",
-      "Kandido Uranga",
-      "Mala Rodríguez",
-      "Apolonia Lapiedra",
-      "Asier Hernández"
-    ],
-    "crew": [
-      {
-        "name": "Luis Calderón",
-        "job": "Director"
-      },
-      {
-        "name": "Luis Calderón",
-        "job": "Writer"
-      },
-      {
-        "name": "José Luis Rancaño",
-        "job": "Producer"
-      },
-      {
-        "name": "Diego Urruchi",
-        "job": "Producer"
-      },
-      {
-        "name": "María Rivera",
-        "job": "Producer"
-      },
-      {
-        "name": "Ernesto Báez",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
-    "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
-    "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
-    "posterTone": "from-red-300 via-stone-800 to-black",
-    "popularity": 7,
-    "criticalScore": 43,
-    "plexFit": "A useful horror title for broadening the local catalog.",
-    "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:31.700Z",
-      "tmdbVoteAverage": 4.302,
-      "tmdbVoteCount": 43
-    }
-  },
-  {
     "id": "busboys-2026",
     "tmdbId": 1391074,
     "imdbId": "tt34705112",
@@ -134629,6 +134642,63 @@
       "tmdbUpdatedAt": "2026-06-03T11:07:03.241Z",
       "tmdbVoteAverage": 6.681,
       "tmdbVoteCount": 36
+    }
+  },
+  {
+    "id": "summer-house-2026",
+    "tmdbId": 1556616,
+    "imdbId": "tt38897659",
+    "title": "Summer House",
+    "originalTitle": "Yaz Evi",
+    "originalLanguage": "tr",
+    "year": 2026,
+    "releaseDate": "2026-06-06",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Mystery"
+    ],
+    "tags": [
+      "coming of age",
+      "overprotective mother"
+    ],
+    "directors": [
+      "Erdem Tepegöz"
+    ],
+    "cast": [
+      "Mina Demirtaş",
+      "Derya Pınar Ak",
+      "Onur Seyit Yaran",
+      "Çağdaş Onur Öztürk",
+      "Kamil Güler",
+      "Selma Ergeç"
+    ],
+    "crew": [
+      {
+        "name": "Erdem Tepegöz",
+        "job": "Director"
+      },
+      {
+        "name": "Aylin Alıveren",
+        "job": "Writer"
+      },
+      {
+        "name": "Aslı Ilgın Kopuz",
+        "job": "Writer"
+      }
+    ],
+    "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
+    "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
+    "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
+    "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+    "popularity": 8,
+    "criticalScore": 67,
+    "plexFit": "A useful romance title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:31.778Z",
+      "tmdbVoteAverage": 6.704,
+      "tmdbVoteCount": 27
     }
   },
   {
@@ -176896,6 +176966,71 @@
     }
   },
   {
+    "id": "the-treehouse-2025",
+    "tmdbId": 1450404,
+    "imdbId": "tt35108122",
+    "title": "The Treehouse",
+    "originalTitle": "La casa en el árbol",
+    "originalLanguage": "es",
+    "year": 2025,
+    "releaseDate": "2025-09-19",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Horror"
+    ],
+    "tags": [],
+    "directors": [
+      "Luis Calderón"
+    ],
+    "cast": [
+      "Sandra Escacena",
+      "Claudio Portalo",
+      "Kandido Uranga",
+      "Mala Rodríguez",
+      "Apolonia Lapiedra",
+      "Asier Hernández"
+    ],
+    "crew": [
+      {
+        "name": "Luis Calderón",
+        "job": "Director"
+      },
+      {
+        "name": "Luis Calderón",
+        "job": "Writer"
+      },
+      {
+        "name": "José Luis Rancaño",
+        "job": "Producer"
+      },
+      {
+        "name": "Diego Urruchi",
+        "job": "Producer"
+      },
+      {
+        "name": "María Rivera",
+        "job": "Producer"
+      },
+      {
+        "name": "Ernesto Báez",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "A couple enjoys a romantic weekend in a treehouse suspended more than 20 meters above the ground in a forest. At night, she wakes up with a start and sees her partner fall from the cabin, dying instantly.",
+    "posterPath": "/juGpvy1TxEN0qpo5smg7TjCZggH.jpg",
+    "backdropPath": "/3ORuox9SGz3MmxJ49drUQvE2EUv.jpg",
+    "posterTone": "from-red-300 via-stone-800 to-black",
+    "popularity": 7,
+    "criticalScore": 43,
+    "plexFit": "A useful horror title for broadening the local catalog.",
+    "trailerUrl": "https://www.youtube-nocookie.com/embed/iXRCbEVRf4w",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:31.700Z",
+      "tmdbVoteAverage": 4.302,
+      "tmdbVoteCount": 43
+    }
+  },
+  {
     "id": "firehouse-1987",
     "tmdbId": 131304,
     "imdbId": "tt0093028",
@@ -200664,63 +200799,6 @@
       "tmdbUpdatedAt": "2026-07-02T10:19:06.266Z",
       "tmdbVoteAverage": 6.741,
       "tmdbVoteCount": 2602
-    }
-  },
-  {
-    "id": "summer-house-2026",
-    "tmdbId": 1556616,
-    "imdbId": "tt38897659",
-    "title": "Summer House",
-    "originalTitle": "Yaz Evi",
-    "originalLanguage": "tr",
-    "year": 2026,
-    "releaseDate": "2026-06-06",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Romance",
-      "Drama",
-      "Mystery"
-    ],
-    "tags": [
-      "coming of age",
-      "overprotective mother"
-    ],
-    "directors": [
-      "Erdem Tepegöz"
-    ],
-    "cast": [
-      "Mina Demirtaş",
-      "Derya Pınar Ak",
-      "Onur Seyit Yaran",
-      "Çağdaş Onur Öztürk",
-      "Kamil Güler",
-      "Selma Ergeç"
-    ],
-    "crew": [
-      {
-        "name": "Erdem Tepegöz",
-        "job": "Director"
-      },
-      {
-        "name": "Aylin Alıveren",
-        "job": "Writer"
-      },
-      {
-        "name": "Aslı Ilgın Kopuz",
-        "job": "Writer"
-      }
-    ],
-    "synopsis": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
-    "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
-    "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-    "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-    "popularity": 8,
-    "criticalScore": 67,
-    "plexFit": "A useful romance title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:31.778Z",
-      "tmdbVoteAverage": 6.704,
-      "tmdbVoteCount": 27
     }
   },
   {
@@ -281997,6 +282075,50 @@
       "tmdbUpdatedAt": "2026-06-14T10:31:09.252Z",
       "tmdbVoteAverage": 6.183,
       "tmdbVoteCount": 7299
+    }
+  },
+  {
+    "id": "new-golden-lotus-i-1996",
+    "tmdbId": 492101,
+    "imdbId": "tt3045918",
+    "title": "New Golden Lotus  I",
+    "originalTitle": "新金瓶梅 第一集",
+    "originalLanguage": "cn",
+    "year": 1996,
+    "releaseDate": "1996-03-08",
+    "runtimeMinutes": 0,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tags": [],
+    "directors": [
+      "Tam Yui-Ming"
+    ],
+    "cast": [
+      "Pal Sinn Lap-Man",
+      "Asami Kanno",
+      "Choi Mei-yau",
+      "Eddie Koo Koon Chung",
+      "Tseng Ya-chun"
+    ],
+    "crew": [
+      {
+        "name": "Tam Yui-Ming",
+        "job": "Director"
+      }
+    ],
+    "synopsis": "No synopsis is available yet.",
+    "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
+    "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 5,
+    "criticalScore": 62,
+    "plexFit": "A useful drama title for broadening the local catalog.",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:31.849Z",
+      "tmdbVoteAverage": 6.2,
+      "tmdbVoteCount": 10
     }
   },
   {
@@ -408043,50 +408165,6 @@
       "tmdbUpdatedAt": "2026-06-20T10:19:11.360Z",
       "tmdbVoteAverage": 6.191,
       "tmdbVoteCount": 2227
-    }
-  },
-  {
-    "id": "new-golden-lotus-i-1996",
-    "tmdbId": 492101,
-    "imdbId": "tt3045918",
-    "title": "New Golden Lotus  I",
-    "originalTitle": "新金瓶梅 第一集",
-    "originalLanguage": "cn",
-    "year": 1996,
-    "releaseDate": "1996-03-08",
-    "runtimeMinutes": 0,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "tags": [],
-    "directors": [
-      "Tam Yui-Ming"
-    ],
-    "cast": [
-      "Pal Sinn Lap-Man",
-      "Asami Kanno",
-      "Choi Mei-yau",
-      "Eddie Koo Koon Chung",
-      "Tseng Ya-chun"
-    ],
-    "crew": [
-      {
-        "name": "Tam Yui-Ming",
-        "job": "Director"
-      }
-    ],
-    "synopsis": "No synopsis is available yet.",
-    "posterPath": "/54zOGJOTt0YMqp3cAqBnF6slN39.jpg",
-    "backdropPath": "/9R0D4i23Sr16d44D5hmwRGDW08W.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 5,
-    "criticalScore": 62,
-    "plexFit": "A useful drama title for broadening the local catalog.",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:31.849Z",
-      "tmdbVoteAverage": 6.2,
-      "tmdbVoteCount": 10
     }
   },
   {
@@ -1093448,68 +1093526,6 @@
     }
   },
   {
-    "id": "lifted-2006",
-    "tmdbId": 13060,
-    "imdbId": "tt0945571",
-    "title": "Lifted",
-    "originalLanguage": "en",
-    "year": 2006,
-    "releaseDate": "2006-12-28",
-    "runtimeMinutes": 5,
-    "genres": [
-      "Family",
-      "Animation",
-      "Science Fiction",
-      "Comedy"
-    ],
-    "tags": [
-      "alien",
-      "farmer",
-      "alien spaceship",
-      "short film",
-      "teenager",
-      "3d animation"
-    ],
-    "directors": [
-      "Gary Rydstrom"
-    ],
-    "cast": [],
-    "crew": [
-      {
-        "name": "Gary Rydstrom",
-        "job": "Director"
-      },
-      {
-        "name": "Gary Rydstrom",
-        "job": "Writer"
-      },
-      {
-        "name": "Katherine Sarafian",
-        "job": "Producer"
-      },
-      {
-        "name": "Michael Giacchino",
-        "job": "Original Music Composer"
-      },
-      {
-        "name": "Steve Bloom",
-        "job": "Editor"
-      }
-    ],
-    "synopsis": "When an overconfident teen alien gets behind the controls of a spaceship, he must attempt to abduct a slumbering farmer under the watchful eye of a critical instructor. But abducting humans requires precision and a gentle touch, and within a few missteps it's painfully clear why more humans don't go missing every year.",
-    "posterPath": "/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
-    "backdropPath": "/13CqQIOwZ0dkAxgzL7W4VcJLDAg.jpg",
-    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-    "popularity": 1,
-    "criticalScore": 74,
-    "plexFit": "A compact family option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:34.702Z",
-      "tmdbVoteAverage": 7.445,
-      "tmdbVoteCount": 855
-    }
-  },
-  {
     "id": "love-and-death-1975",
     "tmdbId": 11686,
     "imdbId": "tt0073312",
@@ -1099718,6 +1099734,68 @@
       "tmdbUpdatedAt": "2026-07-02T10:19:02.551Z",
       "tmdbVoteAverage": 7.4,
       "tmdbVoteCount": 481
+    }
+  },
+  {
+    "id": "lifted-2006",
+    "tmdbId": 13060,
+    "imdbId": "tt0945571",
+    "title": "Lifted",
+    "originalLanguage": "en",
+    "year": 2006,
+    "releaseDate": "2006-12-28",
+    "runtimeMinutes": 5,
+    "genres": [
+      "Family",
+      "Animation",
+      "Science Fiction",
+      "Comedy"
+    ],
+    "tags": [
+      "alien",
+      "farmer",
+      "alien spaceship",
+      "short film",
+      "teenager",
+      "3d animation"
+    ],
+    "directors": [
+      "Gary Rydstrom"
+    ],
+    "cast": [],
+    "crew": [
+      {
+        "name": "Gary Rydstrom",
+        "job": "Director"
+      },
+      {
+        "name": "Gary Rydstrom",
+        "job": "Writer"
+      },
+      {
+        "name": "Katherine Sarafian",
+        "job": "Producer"
+      },
+      {
+        "name": "Michael Giacchino",
+        "job": "Original Music Composer"
+      },
+      {
+        "name": "Steve Bloom",
+        "job": "Editor"
+      }
+    ],
+    "synopsis": "When an overconfident teen alien gets behind the controls of a spaceship, he must attempt to abduct a slumbering farmer under the watchful eye of a critical instructor. But abducting humans requires precision and a gentle touch, and within a few missteps it's painfully clear why more humans don't go missing every year.",
+    "posterPath": "/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
+    "backdropPath": "/13CqQIOwZ0dkAxgzL7W4VcJLDAg.jpg",
+    "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+    "popularity": 1,
+    "criticalScore": 74,
+    "plexFit": "A compact family option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:34.702Z",
+      "tmdbVoteAverage": 7.445,
+      "tmdbVoteCount": 855
     }
   },
   {
@@ -1222325,6 +1222403,57 @@
     }
   },
   {
+    "id": "my-father-s-wings-2016",
+    "tmdbId": 412672,
+    "imdbId": "tt5830248",
+    "title": "My Father's Wings",
+    "originalTitle": "Babamın Kanatları",
+    "originalLanguage": "tr",
+    "year": 2016,
+    "releaseDate": "2016-07-06",
+    "runtimeMinutes": 101,
+    "genres": [
+      "Drama"
+    ],
+    "tags": [
+      "turkey",
+      "poverty",
+      "construction worker"
+    ],
+    "directors": [
+      "Kıvanç Sezer"
+    ],
+    "cast": [
+      "Menderes Samancılar",
+      "Musab Ekici",
+      "Kübra Kip",
+      "Tansel Öngel",
+      "Mustafa Kirantepe",
+      "Sarp Aydınoğlu"
+    ],
+    "crew": [
+      {
+        "name": "Kıvanç Sezer",
+        "job": "Director"
+      },
+      {
+        "name": "Jörg Gruber",
+        "job": "Director of Photography"
+      }
+    ],
+    "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society.",
+    "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
+    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+    "popularity": 1,
+    "criticalScore": 63,
+    "plexFit": "A compact drama option for easier weeknight discovery.",
+    "source": {
+      "tmdbUpdatedAt": "2026-11-13T15:45:38.206Z",
+      "tmdbVoteAverage": 6.25,
+      "tmdbVoteCount": 12
+    }
+  },
+  {
     "id": "narcissus-and-goldmund-2020",
     "tmdbId": 644852,
     "imdbId": "tt9014656",
@@ -1233397,57 +1233526,6 @@
       "tmdbUpdatedAt": "2026-06-14T00:28:50.057Z",
       "tmdbVoteAverage": 6.247,
       "tmdbVoteCount": 491
-    }
-  },
-  {
-    "id": "my-father-s-wings-2016",
-    "tmdbId": 412672,
-    "imdbId": "tt5830248",
-    "title": "My Father's Wings",
-    "originalTitle": "Babamın Kanatları",
-    "originalLanguage": "tr",
-    "year": 2016,
-    "releaseDate": "2016-07-06",
-    "runtimeMinutes": 101,
-    "genres": [
-      "Drama"
-    ],
-    "tags": [
-      "turkey",
-      "poverty",
-      "construction worker"
-    ],
-    "directors": [
-      "Kıvanç Sezer"
-    ],
-    "cast": [
-      "Menderes Samancılar",
-      "Musab Ekici",
-      "Kübra Kip",
-      "Tansel Öngel",
-      "Mustafa Kirantepe",
-      "Sarp Aydınoğlu"
-    ],
-    "crew": [
-      {
-        "name": "Kıvanç Sezer",
-        "job": "Director"
-      },
-      {
-        "name": "Jörg Gruber",
-        "job": "Director of Photography"
-      }
-    ],
-    "synopsis": "Set against the backdrop of construction activity promising to fill in the empty spaces of the urban landscape with entirely new neighborhoods, a story unfolds of an aging construction worker who, unlike his peers, has to drop all plans for the future after being diagnosed with a malignant tumor. This self-assured debut contemplates the dignity of the individual within the context of modern Turkish society.",
-    "posterPath": "/4jam6ORO6UfADG0HtCGutgHJPTc.jpg",
-    "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-    "popularity": 1,
-    "criticalScore": 63,
-    "plexFit": "A compact drama option for easier weeknight discovery.",
-    "source": {
-      "tmdbUpdatedAt": "2026-11-13T15:45:38.206Z",
-      "tmdbVoteAverage": 6.25,
-      "tmdbVoteCount": 12
     }
   },
   {
