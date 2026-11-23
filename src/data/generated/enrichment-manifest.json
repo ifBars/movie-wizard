@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-11-22T17:14:13.120Z",
+  "generatedAt": "2026-11-23T21:32:47.070Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-11-22T17:14:12.159Z",
+      "lastFetchedAt": "2026-11-23T21:32:46.372Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78179,7 +78179,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-11-22T17:14:12.475Z",
+      "lastFetchedAt": "2026-11-23T21:32:46.645Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -98550,6 +98550,12 @@
     "1496491": {
       "recordId": "comedie-francaise-2026",
       "lastFetchedAt": "2026-07-26T10:05:28.427Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1496696": {
+      "recordId": "breeder-2026",
+      "lastFetchedAt": "2026-11-23T21:32:46.734Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
