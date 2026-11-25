@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T18:15:39.597Z",
+  "generatedAt": "2026-11-25T19:26:20.498Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -7791,6 +7791,49 @@
       "source": {
         "tmdbVoteAverage": 7.299,
         "tmdbVoteCount": 82
+      }
+    },
+    {
+      "id": "clashing-through-the-snow-2026",
+      "tmdbId": 1611767,
+      "imdbId": "tt39316936",
+      "title": "Clashing Through the Snow",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-11-23",
+      "runtimeMinutes": 110,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "tags": [
+        "co-workers relationship",
+        "christmas",
+        "enemies to lovers",
+        "holiday road trip"
+      ],
+      "directors": [
+        "Carlson Young"
+      ],
+      "cast": [
+        "Christopher Briney",
+        "Michelle Randolph",
+        "Lukas Gage",
+        "Julia Fox",
+        "Paris Hilton",
+        "Zarna Garg"
+      ],
+      "posterPath": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
+      "backdropPath": "/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 75,
+      "criticalScore": 68,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/nOyT9RkGRn4",
+      "synopsisPreview": "Rival publishing editors Ryan Mitchell and Hannah Hendricks are stranded by a holiday snowstorm and forced to share a rental car to New York, where a career-saving deal awaits them both. As roadside mishaps and small-tow...",
+      "source": {
+        "tmdbVoteAverage": 6.76,
+        "tmdbVoteCount": 50
       }
     },
     {
@@ -181388,47 +181431,6 @@
       }
     },
     {
-      "id": "versa-2025",
-      "tmdbId": 1500099,
-      "imdbId": "tt37976405",
-      "title": "Versa",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-04-15",
-      "runtimeMinutes": 8,
-      "genres": [
-        "Animation",
-        "Family",
-        "Drama",
-        "Fantasy"
-      ],
-      "tags": [
-        "pregnancy",
-        "loss",
-        "grief",
-        "child loss",
-        "acceptance",
-        "loss of child",
-        "celestial",
-        "inspirational"
-      ],
-      "directors": [
-        "Malcon Pierce"
-      ],
-      "cast": [],
-      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 83,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
-      "source": {
-        "tmdbVoteAverage": 8.3,
-        "tmdbVoteCount": 66
-      }
-    },
-    {
       "id": "we-all-loved-each-other-so-much-1974",
       "tmdbId": 42269,
       "imdbId": "tt0075793",
@@ -181543,6 +181545,54 @@
       "source": {
         "tmdbVoteAverage": 8.222,
         "tmdbVoteCount": 79
+      }
+    },
+    {
+      "id": "evangelion-30th-anniversary-special-screening-2026",
+      "tmdbId": 1600672,
+      "imdbId": "tt39215384",
+      "title": "EVANGELION 30th Anniversary Special Screening",
+      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
+      "originalLanguage": "ja",
+      "year": 2026,
+      "releaseDate": "2026-02-21",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "tags": [
+        "reunion",
+        "mecha",
+        "anniversary",
+        "heart warming",
+        "anime",
+        "self parody",
+        "joyful",
+        "love letters"
+      ],
+      "directors": [
+        "Naoyuki Asano"
+      ],
+      "cast": [
+        "Yuko Miyamura",
+        "Megumi Ogata",
+        "Akira Ishida",
+        "Kotono Mitsuishi",
+        "Miki Nagasawa",
+        "Maria Kawamura"
+      ],
+      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
+      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 4,
+      "criticalScore": 82,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
+      "source": {
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 15
       }
     },
     {
@@ -268613,6 +268663,47 @@
       }
     },
     {
+      "id": "versa-2025",
+      "tmdbId": 1500099,
+      "imdbId": "tt37976405",
+      "title": "Versa",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-04-15",
+      "runtimeMinutes": 8,
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama",
+        "Fantasy"
+      ],
+      "tags": [
+        "pregnancy",
+        "loss",
+        "grief",
+        "child loss",
+        "acceptance",
+        "loss of child",
+        "celestial",
+        "inspirational"
+      ],
+      "directors": [
+        "Malcon Pierce"
+      ],
+      "cast": [],
+      "posterPath": "/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+      "backdropPath": "/fyCKlwarO3Yd6Ikv3EJdvRdp43b.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 83,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "synopsisPreview": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
+      "source": {
+        "tmdbVoteAverage": 8.3,
+        "tmdbVoteCount": 66
+      }
+    },
+    {
       "id": "bicycle-thieves-1948",
       "tmdbId": 5156,
       "imdbId": "tt0040522",
@@ -268792,54 +268883,6 @@
       "source": {
         "tmdbVoteAverage": 8.194,
         "tmdbVoteCount": 193
-      }
-    },
-    {
-      "id": "evangelion-30th-anniversary-special-screening-2026",
-      "tmdbId": 1600672,
-      "imdbId": "tt39215384",
-      "title": "EVANGELION 30th Anniversary Special Screening",
-      "originalTitle": "エヴァンゲリオン放送30周年記念特別興行",
-      "originalLanguage": "ja",
-      "year": 2026,
-      "releaseDate": "2026-02-21",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "tags": [
-        "reunion",
-        "mecha",
-        "anniversary",
-        "heart warming",
-        "anime",
-        "self parody",
-        "joyful",
-        "love letters"
-      ],
-      "directors": [
-        "Naoyuki Asano"
-      ],
-      "cast": [
-        "Yuko Miyamura",
-        "Megumi Ogata",
-        "Akira Ishida",
-        "Kotono Mitsuishi",
-        "Miki Nagasawa",
-        "Maria Kawamura"
-      ],
-      "posterPath": "/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
-      "backdropPath": "/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 4,
-      "criticalScore": 82,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her orig...",
-      "source": {
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -269584,6 +269627,49 @@
       "source": {
         "tmdbVoteAverage": 8.1,
         "tmdbVoteCount": 2407
+      }
+    },
+    {
+      "id": "piper-2016",
+      "tmdbId": 399106,
+      "imdbId": "tt5613056",
+      "title": "Piper",
+      "originalLanguage": "en",
+      "year": 2016,
+      "releaseDate": "2016-06-16",
+      "runtimeMinutes": 6,
+      "genres": [
+        "Family",
+        "Animation"
+      ],
+      "tags": [
+        "cute",
+        "visually appealing",
+        "short",
+        "fear",
+        "anxious",
+        "playful",
+        "short film",
+        "assertive",
+        "shorebird",
+        "fledgling",
+        "3d animation"
+      ],
+      "directors": [
+        "Alan Barillaro"
+      ],
+      "cast": [],
+      "posterPath": "/5fu2d809jepLwEpES7wggiECLoQ.jpg",
+      "backdropPath": "/4GWYk5VP9qu1rNSeNAwNaBy9mwS.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 3,
+      "criticalScore": 81,
+      "plexFit": "A compact family option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/DW8T9nvitLI",
+      "synopsisPreview": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive.",
+      "source": {
+        "tmdbVoteAverage": 8.127,
+        "tmdbVoteCount": 1795
       }
     },
     {
@@ -324017,6 +324103,45 @@
       "source": {
         "tmdbVoteAverage": 6.781,
         "tmdbVoteCount": 226
+      }
+    },
+    {
+      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
+      "tmdbId": 961651,
+      "imdbId": "tt20425026",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-05-03",
+      "runtimeMinutes": 30,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "short film",
+        "superhero",
+        "film production"
+      ],
+      "directors": [],
+      "cast": [
+        "Tom Holland",
+        "Tobey Maguire",
+        "Andrew Garfield",
+        "Willem Dafoe",
+        "Alfred Molina",
+        "Jamie Foxx"
+      ],
+      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 68,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
+      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
+      "source": {
+        "tmdbVoteAverage": 6.8,
+        "tmdbVoteCount": 100
       }
     },
     {
@@ -382068,6 +382193,42 @@
       }
     },
     {
+      "id": "new-golden-lotus-iii-1996",
+      "tmdbId": 492105,
+      "imdbId": "tt12952242",
+      "title": "New Golden Lotus III",
+      "originalTitle": "新金瓶梅 第三集",
+      "originalLanguage": "cn",
+      "year": 1996,
+      "releaseDate": "1996-03-22",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "tags": [],
+      "directors": [
+        "Tam Yui-Ming"
+      ],
+      "cast": [
+        "Pal Sinn Lap-Man",
+        "Asami Kanno",
+        "Cindy Yip Sin-yi",
+        "Choi Mei-yau"
+      ],
+      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
+      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
+      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
+      "popularity": 3,
+      "criticalScore": 60,
+      "plexFit": "A useful drama title for broadening the local catalog.",
+      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
+      "source": {
+        "tmdbVoteAverage": 6,
+        "tmdbVoteCount": 14
+      }
+    },
+    {
       "id": "night-shift-1982",
       "tmdbId": 14742,
       "imdbId": "tt0084412",
@@ -421590,49 +421751,6 @@
       "source": {
         "tmdbVoteAverage": 8.114,
         "tmdbVoteCount": 747
-      }
-    },
-    {
-      "id": "piper-2016",
-      "tmdbId": 399106,
-      "imdbId": "tt5613056",
-      "title": "Piper",
-      "originalLanguage": "en",
-      "year": 2016,
-      "releaseDate": "2016-06-16",
-      "runtimeMinutes": 6,
-      "genres": [
-        "Family",
-        "Animation"
-      ],
-      "tags": [
-        "cute",
-        "visually appealing",
-        "short",
-        "fear",
-        "anxious",
-        "playful",
-        "short film",
-        "assertive",
-        "shorebird",
-        "fledgling",
-        "3d animation"
-      ],
-      "directors": [
-        "Alan Barillaro"
-      ],
-      "cast": [],
-      "posterPath": "/5fu2d809jepLwEpES7wggiECLoQ.jpg",
-      "backdropPath": "/4GWYk5VP9qu1rNSeNAwNaBy9mwS.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 3,
-      "criticalScore": 81,
-      "plexFit": "A compact family option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/DW8T9nvitLI",
-      "synopsisPreview": "A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive.",
-      "source": {
-        "tmdbVoteAverage": 8.127,
-        "tmdbVoteCount": 1795
       }
     },
     {
@@ -474911,6 +475029,41 @@
       }
     },
     {
+      "id": "luxo-jr-1986",
+      "tmdbId": 13925,
+      "imdbId": "tt0091455",
+      "title": "Luxo Jr.",
+      "originalLanguage": "en",
+      "year": 1986,
+      "releaseDate": "1986-08-17",
+      "runtimeMinutes": 2,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "ball",
+        "father and child",
+        "short film"
+      ],
+      "directors": [
+        "John Lasseter"
+      ],
+      "cast": [],
+      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
+      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
+      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 694
+      }
+    },
+    {
       "id": "mary-shelley-2017",
       "tmdbId": 332283,
       "imdbId": "tt3906082",
@@ -496168,45 +496321,6 @@
       "source": {
         "tmdbVoteAverage": 6.847,
         "tmdbVoteCount": 352
-      }
-    },
-    {
-      "id": "spider-man-all-roads-lead-to-no-way-home-2022",
-      "tmdbId": 961651,
-      "imdbId": "tt20425026",
-      "title": "Spider-Man: All Roads Lead to No Way Home",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-05-03",
-      "runtimeMinutes": 30,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "short film",
-        "superhero",
-        "film production"
-      ],
-      "directors": [],
-      "cast": [
-        "Tom Holland",
-        "Tobey Maguire",
-        "Andrew Garfield",
-        "Willem Dafoe",
-        "Alfred Molina",
-        "Jamie Foxx"
-      ],
-      "posterPath": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
-      "backdropPath": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 68,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/Sn68AF2MGo8",
-      "synopsisPreview": "JB Smoove and Martin Starr host a celebration of 20 years of \"Spider-Man\" movies, from the Sam Raimi trilogy to Marc Webb's movies and the trio from Jon Watts.",
-      "source": {
-        "tmdbVoteAverage": 6.8,
-        "tmdbVoteCount": 100
       }
     },
     {
@@ -563807,6 +563921,39 @@
       }
     },
     {
+      "id": "orgasm-inc-the-story-of-onetaste-2022",
+      "tmdbId": 1040603,
+      "imdbId": "tt22900124",
+      "title": "Orgasm Inc: The Story of OneTaste",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-11-05",
+      "runtimeMinutes": 89,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "cult"
+      ],
+      "directors": [
+        "Sarah Gibson",
+        "Sloane Klevin"
+      ],
+      "cast": [],
+      "posterPath": "/yqI3XQ1nmvxFpBus1BescRrRBAj.jpg",
+      "backdropPath": "/hraytJBd1Ztcp7k9So4zLFcgsyh.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 2,
+      "criticalScore": 61,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/11DiQzSLfmo",
+      "synopsisPreview": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations.",
+      "source": {
+        "tmdbVoteAverage": 6.1,
+        "tmdbVoteCount": 84
+      }
+    },
+    {
       "id": "otherhood-2019",
       "tmdbId": 531509,
       "imdbId": "tt4180560",
@@ -573232,42 +573379,6 @@
       "source": {
         "tmdbVoteAverage": 6,
         "tmdbVoteCount": 539
-      }
-    },
-    {
-      "id": "new-golden-lotus-iii-1996",
-      "tmdbId": 492105,
-      "imdbId": "tt12952242",
-      "title": "New Golden Lotus III",
-      "originalTitle": "新金瓶梅 第三集",
-      "originalLanguage": "cn",
-      "year": 1996,
-      "releaseDate": "1996-03-22",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "tags": [],
-      "directors": [
-        "Tam Yui-Ming"
-      ],
-      "cast": [
-        "Pal Sinn Lap-Man",
-        "Asami Kanno",
-        "Cindy Yip Sin-yi",
-        "Choi Mei-yau"
-      ],
-      "posterPath": "/lPgjena9aMaGtKzji4wkY0FDn2J.jpg",
-      "backdropPath": "/stJlG2HefS8XUXAVqVSB9X6K0W0.jpg",
-      "posterTone": "from-stone-100 via-slate-600 to-neutral-950",
-      "popularity": 3,
-      "criticalScore": 60,
-      "plexFit": "A useful drama title for broadening the local catalog.",
-      "synopsisPreview": "3rd episode of a serie of 5. Chinny is stuck in a marriage with a disgusting midget, but is seduced and tricked into becoming the fifth concubine of sexy official Simon Hsin. While Chinny is mistreated by the other concu...",
-      "source": {
-        "tmdbVoteAverage": 6,
-        "tmdbVoteCount": 14
       }
     },
     {
@@ -623492,51 +623603,6 @@
       }
     },
     {
-      "id": "on-the-hunt-2026",
-      "tmdbId": 1428857,
-      "imdbId": "tt35663059",
-      "title": "On the Hunt",
-      "originalLanguage": "en",
-      "year": 2026,
-      "releaseDate": "2026-02-27",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "tags": [
-        "los angeles, california",
-        "criminal underworld",
-        "political corruption",
-        "missing daughter",
-        "ex special forces",
-        "race against time"
-      ],
-      "directors": [
-        "Jared Cohn"
-      ],
-      "cast": [
-        "Nicky Whelan",
-        "Cam Gigandet",
-        "Til Schweiger",
-        "Robert LaSardo",
-        "Chris Cleveland",
-        "Timothy V. Murphy"
-      ],
-      "posterPath": "/gkscqnZZrCT5lLsniw1KNL9iiJ0.jpg",
-      "backdropPath": "/9gBWv7nDp1oiB9GqNk14ajZ8IG7.jpg",
-      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 45,
-      "plexFit": "A useful action title for broadening the local catalog.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/5okGj0_X8NM",
-      "synopsisPreview": "A former military woman takes on a ruthless criminal underworld in a race against time to find her missing daughter.",
-      "source": {
-        "tmdbVoteAverage": 4.5,
-        "tmdbVoteCount": 18
-      }
-    },
-    {
       "id": "sacrifice-2021",
       "tmdbId": 631583,
       "imdbId": "tt10004108",
@@ -665657,41 +665723,6 @@
       "source": {
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 336
-      }
-    },
-    {
-      "id": "luxo-jr-1986",
-      "tmdbId": 13925,
-      "imdbId": "tt0091455",
-      "title": "Luxo Jr.",
-      "originalLanguage": "en",
-      "year": 1986,
-      "releaseDate": "1986-08-17",
-      "runtimeMinutes": 2,
-      "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "ball",
-        "father and child",
-        "short film"
-      ],
-      "directors": [
-        "John Lasseter"
-      ],
-      "cast": [],
-      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
-      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
-      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 694
       }
     },
     {
@@ -726808,39 +726839,6 @@
       }
     },
     {
-      "id": "orgasm-inc-the-story-of-onetaste-2022",
-      "tmdbId": 1040603,
-      "imdbId": "tt22900124",
-      "title": "Orgasm Inc: The Story of OneTaste",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-11-05",
-      "runtimeMinutes": 89,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "cult"
-      ],
-      "directors": [
-        "Sarah Gibson",
-        "Sloane Klevin"
-      ],
-      "cast": [],
-      "posterPath": "/yqI3XQ1nmvxFpBus1BescRrRBAj.jpg",
-      "backdropPath": "/hraytJBd1Ztcp7k9So4zLFcgsyh.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 2,
-      "criticalScore": 61,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/11DiQzSLfmo",
-      "synopsisPreview": "A sexual wellness company gains fame and followers, then members come forward with shocking allegations.",
-      "source": {
-        "tmdbVoteAverage": 6.1,
-        "tmdbVoteCount": 84
-      }
-    },
-    {
       "id": "our-idiot-brother-2011",
       "tmdbId": 59968,
       "imdbId": "tt1637706",
@@ -769357,6 +769355,51 @@
       "source": {
         "tmdbVoteAverage": 4.5,
         "tmdbVoteCount": 15
+      }
+    },
+    {
+      "id": "on-the-hunt-2026",
+      "tmdbId": 1428857,
+      "imdbId": "tt35663059",
+      "title": "On the Hunt",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-02-27",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "tags": [
+        "los angeles, california",
+        "criminal underworld",
+        "political corruption",
+        "missing daughter",
+        "ex special forces",
+        "race against time"
+      ],
+      "directors": [
+        "Jared Cohn"
+      ],
+      "cast": [
+        "Nicky Whelan",
+        "Cam Gigandet",
+        "Til Schweiger",
+        "Robert LaSardo",
+        "Chris Cleveland",
+        "Timothy V. Murphy"
+      ],
+      "posterPath": "/gkscqnZZrCT5lLsniw1KNL9iiJ0.jpg",
+      "backdropPath": "/9gBWv7nDp1oiB9GqNk14ajZ8IG7.jpg",
+      "posterTone": "from-orange-300 via-red-700 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 45,
+      "plexFit": "A useful action title for broadening the local catalog.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/5okGj0_X8NM",
+      "synopsisPreview": "A former military woman takes on a ruthless criminal underworld in a race against time to find her missing daughter.",
+      "source": {
+        "tmdbVoteAverage": 4.5,
+        "tmdbVoteCount": 18
       }
     },
     {
