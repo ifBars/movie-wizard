@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T17:57:10.765Z",
+  "generatedAt": "2026-11-26T19:08:56.999Z",
   "movies": {
     "avatar-aang-the-last-airbender-2026": {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -8518,6 +8518,53 @@
       },
       "synopsis": "Over the course of one explosive night, a small-town diner becomes the epicenter of a deadly standoff involving rogue federal agents, a fast-talking con man with a dangerous past, and a waitress harboring secrets of her own."
     },
+    "hexed-2026": {
+      "id": "hexed-2026",
+      "crew": [
+        {
+          "name": "Jason Hand",
+          "job": "Director"
+        },
+        {
+          "name": "Fawn Veerasunthorn",
+          "job": "Director"
+        },
+        {
+          "name": "Jared Bush",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Dana Ledoux Miller",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Roy Conli",
+          "job": "Producer"
+        },
+        {
+          "name": "Yvett Merino",
+          "job": "Producer"
+        },
+        {
+          "name": "Kris Bowers",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Clare Knight",
+          "job": "Editor"
+        },
+        {
+          "name": "Jeremy Milton",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T19:08:56.551Z",
+        "tmdbVoteAverage": 5.711,
+        "tmdbVoteCount": 19
+      },
+      "synopsis": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever."
+    },
     "shelter-2026": {
       "id": "shelter-2026",
       "crew": [
@@ -9472,6 +9519,57 @@
         "tmdbVoteCount": 22
       },
       "synopsis": "When millions in cartel cocaine go missing off Florida's coast, the search turns savage as vicious sharks close in on anyone daring to claim the stash."
+    },
+    "the-mosquito-bowl-2026": {
+      "id": "the-mosquito-bowl-2026",
+      "crew": [
+        {
+          "name": "Peter Berg",
+          "job": "Director"
+        },
+        {
+          "name": "Peter Berg",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Peter Berg",
+          "job": "Producer"
+        },
+        {
+          "name": "Mark L. Smith",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Brian Grazer",
+          "job": "Producer"
+        },
+        {
+          "name": "Alexander H. Gayner",
+          "job": "Producer"
+        },
+        {
+          "name": "Munaf Rayani",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Chris Hrasky",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Mark Smith",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Michael James",
+          "job": "Original Music Composer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T19:08:56.570Z",
+        "tmdbVoteAverage": 7.2,
+        "tmdbVoteCount": 21
+      },
+      "synopsis": "In the aftermath of Pearl Harbor, four college football stars enlist in the US Marines, discovering the strength of brotherhood and the cost of war."
     },
     "perfect-liars-2026": {
       "id": "perfect-liars-2026",
@@ -164111,49 +164209,6 @@
       },
       "synopsis": "Shin-chan must rescue the adults of Kasukabe when they mysteriously abandon their responsibilities to relive their youth at the new 20th-century expo."
     },
-    "evangelion-30th-anniversary-special-screening-2026": {
-      "id": "evangelion-30th-anniversary-special-screening-2026",
-      "crew": [
-        {
-          "name": "Naoyuki Asano",
-          "job": "Director"
-        },
-        {
-          "name": "Naoyuki Asano",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Hideaki Anno",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Kazuya Tsurumaki",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Ikki Todoroki",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Shiro Sagisu",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Nanae Hirabayashi",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Emi Tsujita",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:05.936Z",
-        "tmdbVoteAverage": 8.2,
-        "tmdbVoteCount": 15
-      },
-      "synopsis": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her original counterpart make some wishes come true."
-    },
     "life-in-a-year-2020": {
       "id": "life-in-a-year-2020",
       "crew": [
@@ -242795,6 +242850,49 @@
         "tmdbVoteCount": 193
       },
       "synopsis": "During the Japanese occupation of China, two prisoners are dumped in a peasant's home in a small town. The owner is bullied into keeping the prisoners until the next New Year, at which time they will be collected. The village leaders convene to interrogate the prisoners. The townspeople then struggle to accommodate the prisoners. One is a bellicose Japanese nationalist, the other a nervous translator. Will the townspeople manage to keep the prisoners until the New Year?"
+    },
+    "evangelion-30th-anniversary-special-screening-2026": {
+      "id": "evangelion-30th-anniversary-special-screening-2026",
+      "crew": [
+        {
+          "name": "Naoyuki Asano",
+          "job": "Director"
+        },
+        {
+          "name": "Naoyuki Asano",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Hideaki Anno",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Kazuya Tsurumaki",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Ikki Todoroki",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Shiro Sagisu",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Nanae Hirabayashi",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Emi Tsujita",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:05.936Z",
+        "tmdbVoteAverage": 8.2,
+        "tmdbVoteCount": 15
+      },
+      "synopsis": "A short film celebrating the 30th anniversary of Neon Genesis Evangelion starring both the original and Rebuild iterations of Asuka. The short comedically explores alternate timelines, with Rebuild Asuka helping her original counterpart make some wishes come true."
     },
     "given-2020": {
       "id": "given-2020",
@@ -383587,6 +383685,41 @@
       },
       "synopsis": "With graduation right around the corner, every member of the Light Music Club except for Azusa will be leaving for good. But the girls aren’t going to let something as silly as graduation tear them apart! For their final hurrah, the girls are going on the ultimate vacation tour— all the way to London! Their overseas journey will lead them on a trip of discovery and friendship as they take the stage one last time for their final encore together."
     },
+    "kitbull-2019": {
+      "id": "kitbull-2019",
+      "crew": [
+        {
+          "name": "Rosana Sullivan",
+          "job": "Writer"
+        },
+        {
+          "name": "Rosana Sullivan",
+          "job": "Director"
+        },
+        {
+          "name": "Kathryn Hendrickson",
+          "job": "Producer"
+        },
+        {
+          "name": "Andrew Jimenez",
+          "job": "Original Music Composer"
+        },
+        {
+          "name": "Arjun Rihan",
+          "job": "Director of Photography"
+        },
+        {
+          "name": "Katie Schaefer",
+          "job": "Editor"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:06.344Z",
+        "tmdbVoteAverage": 7.907,
+        "tmdbVoteCount": 427
+      },
+      "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time."
+    },
     "la-strada-1954": {
       "id": "la-strada-1954",
       "crew": [
@@ -412301,6 +412434,37 @@
         "tmdbVoteCount": 392
       },
       "synopsis": "A family of Irish immigrants adjusts to life on the mean streets of Hell's Kitchen while also grieving the death of a child."
+    },
+    "inception-the-cobol-job-2010": {
+      "id": "inception-the-cobol-job-2010",
+      "crew": [
+        {
+          "name": "Ian Kirby",
+          "job": "Director"
+        },
+        {
+          "name": "Ian Kirby",
+          "job": "Producer"
+        },
+        {
+          "name": "Jordan Goldberg",
+          "job": "Writer"
+        },
+        {
+          "name": "Caleb Bouchard",
+          "job": "Producer"
+        },
+        {
+          "name": "Daniel Sioui",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:06.366Z",
+        "tmdbVoteAverage": 7.247,
+        "tmdbVoteCount": 322
+      },
+      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
     },
     "intimate-strangers-2018": {
       "id": "intimate-strangers-2018",
@@ -504171,6 +504335,25 @@
       },
       "synopsis": "Wes Block is a detective who's put on the case of a serial killer whose victims are young and pretty women. The murders are getting personal when the killer chooses victims who are acquaintances of Block. Even his daughters are threatened."
     },
+    "trainwreck-the-cult-of-american-apparel-2025": {
+      "id": "trainwreck-the-cult-of-american-apparel-2025",
+      "crew": [
+        {
+          "name": "Sally Rose Griffiths",
+          "job": "Director"
+        },
+        {
+          "name": "Ben Rumney",
+          "job": "Producer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:06.384Z",
+        "tmdbVoteAverage": 6.216,
+        "tmdbVoteCount": 44
+      },
+      "synopsis": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop."
+    },
     "transformers-dark-of-the-moon-2011": {
       "id": "transformers-dark-of-the-moon-2011",
       "crew": [
@@ -510211,6 +510394,33 @@
         "tmdbVoteCount": 21
       },
       "synopsis": "CIA agent turned sexual predator Daniel (Ben Ng) uses his wealth and collection of high-tech gadgets to prey on unsuspecting women. After arranging for the prison breakout of notorious rapists \"Rain Killer\" (Ankee Leung) and \"Tuen Mun Rapist\" (Chan Chi-Fai), Daniel invites the men to ravage the two women he has chained in the basement. He next sets his sights on Kwan Shi-han (Suki Kwan), the romance novelist next door; but first preys on her movie star friend, Icy (Yeung Fan). Desperate for a lead, the police consult a semi-reformed deviant known as \"The Human Milk Drinking Doctor\" (Anthony Wong), who used to prey on lactating women and now controls his sexual urges by working as a porno theatre projectionist."
+    },
+    "red-s-dream-1987": {
+      "id": "red-s-dream-1987",
+      "crew": [
+        {
+          "name": "John Lasseter",
+          "job": "Writer"
+        },
+        {
+          "name": "John Lasseter",
+          "job": "Director"
+        },
+        {
+          "name": "John Lasseter",
+          "job": "Producer"
+        },
+        {
+          "name": "David Slusser",
+          "job": "Original Music Composer"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:06.404Z",
+        "tmdbVoteAverage": 6.123,
+        "tmdbVoteCount": 378
+      },
+      "synopsis": "Life as the sole sale item in the clearance corner of Eben's Bikes can get lonely. So Red, a unicycle, dreams up a clown owner and his own juggling act that steals the show. But all too soon, the applause turns into the sound of rainfall, as reality rushes back. Red must resign himself to sitting in the corner and await his fate."
     },
     "restless-2022": {
       "id": "restless-2022",
@@ -529729,41 +529939,6 @@
         "tmdbVoteCount": 462
       },
       "synopsis": "After a traumatic miscarriage, Lola and her husband, Adolfo, adopt Tin and Tina, a lovely albino brother and sister with an ultra-Catholic education that makes them interpret the Holy Bible verbatim."
-    },
-    "mauvaise-pioche-2026": {
-      "id": "mauvaise-pioche-2026",
-      "crew": [
-        {
-          "name": "Gérard Jugnot",
-          "job": "Director"
-        },
-        {
-          "name": "Gérard Jugnot",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Serge Lamadie",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Frédéric Hazan",
-          "job": "Screenplay"
-        },
-        {
-          "name": "Marc-Etienne Schwartz",
-          "job": "Producer"
-        },
-        {
-          "name": "Pierric Gantelmi d'Ille",
-          "job": "Director of Photography"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:06.311Z",
-        "tmdbVoteAverage": 5.906,
-        "tmdbVoteCount": 53
-      },
-      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
     },
     "true-history-of-the-kelly-gang-2019": {
       "id": "true-history-of-the-kelly-gang-2019",
@@ -571851,41 +572026,6 @@
       },
       "synopsis": "A scientist builds a time machine and accidentally sends his apartment complex manager and a petty burglar to 16th century Moscow, while Tsar Ivan the Terrible travels to 1973."
     },
-    "kitbull-2019": {
-      "id": "kitbull-2019",
-      "crew": [
-        {
-          "name": "Rosana Sullivan",
-          "job": "Writer"
-        },
-        {
-          "name": "Rosana Sullivan",
-          "job": "Director"
-        },
-        {
-          "name": "Kathryn Hendrickson",
-          "job": "Producer"
-        },
-        {
-          "name": "Andrew Jimenez",
-          "job": "Original Music Composer"
-        },
-        {
-          "name": "Arjun Rihan",
-          "job": "Director of Photography"
-        },
-        {
-          "name": "Katie Schaefer",
-          "job": "Editor"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:06.344Z",
-        "tmdbVoteAverage": 7.907,
-        "tmdbVoteCount": 427
-      },
-      "synopsis": "An unlikely connection sparks between two creatures: a fiercely independent stray kitten and a pit bull. Together, they experience friendship for the first time."
-    },
     "koyaanisqatsi-1983": {
       "id": "koyaanisqatsi-1983",
       "crew": [
@@ -592422,37 +592562,6 @@
         "tmdbVoteCount": 321
       },
       "synopsis": "Pierre is 25 when he returns from Wyoming to his fiancée and take over the family farm. Twenty years later, the farm expanded and so did the family. It's the time of happy days, at least at the beginning. The debts accumulate and Pierre is exhausted at work. Despite the love of his wife and children, he is slowly falling..."
-    },
-    "inception-the-cobol-job-2010": {
-      "id": "inception-the-cobol-job-2010",
-      "crew": [
-        {
-          "name": "Ian Kirby",
-          "job": "Director"
-        },
-        {
-          "name": "Ian Kirby",
-          "job": "Producer"
-        },
-        {
-          "name": "Jordan Goldberg",
-          "job": "Writer"
-        },
-        {
-          "name": "Caleb Bouchard",
-          "job": "Producer"
-        },
-        {
-          "name": "Daniel Sioui",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:06.366Z",
-        "tmdbVoteAverage": 7.247,
-        "tmdbVoteCount": 322
-      },
-      "synopsis": "Cobb, Arthur and Nash are enlisted by Cobol Engineering."
     },
     "inside-the-mind-of-a-cat-2022": {
       "id": "inside-the-mind-of-a-cat-2022",
@@ -657820,25 +657929,6 @@
       },
       "synopsis": "What if it made perfect sense for ordinary people to kill each other for money? Better than slow grinding financial ruin and misery, and all done according to a strict code by consenting adults. This is Trading."
     },
-    "trainwreck-the-cult-of-american-apparel-2025": {
-      "id": "trainwreck-the-cult-of-american-apparel-2025",
-      "crew": [
-        {
-          "name": "Sally Rose Griffiths",
-          "job": "Director"
-        },
-        {
-          "name": "Ben Rumney",
-          "job": "Producer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:06.384Z",
-        "tmdbVoteAverage": 6.216,
-        "tmdbVoteCount": 44
-      },
-      "synopsis": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop."
-    },
     "ufo-2022": {
       "id": "ufo-2022",
       "crew": [
@@ -662385,33 +662475,6 @@
         "tmdbVoteCount": 342
       },
       "synopsis": "Sandra, a young woman forced to leave the south of France to flee a violent husband. Without attachment, she returned to Boulogne-sur-Mer, the city of her childhood which she left almost 15 years ago. She finds her mother there and a world she left behind. Without money, she is hired in a fish cannery where she befriends two workers. But one day, one of her colleagues tackles her insistently, she defends herself and kills him accidentally."
-    },
-    "red-s-dream-1987": {
-      "id": "red-s-dream-1987",
-      "crew": [
-        {
-          "name": "John Lasseter",
-          "job": "Writer"
-        },
-        {
-          "name": "John Lasseter",
-          "job": "Director"
-        },
-        {
-          "name": "John Lasseter",
-          "job": "Producer"
-        },
-        {
-          "name": "David Slusser",
-          "job": "Original Music Composer"
-        }
-      ],
-      "source": {
-        "tmdbUpdatedAt": "2026-11-26T17:57:06.404Z",
-        "tmdbVoteAverage": 6.123,
-        "tmdbVoteCount": 378
-      },
-      "synopsis": "Life as the sole sale item in the clearance corner of Eben's Bikes can get lonely. So Red, a unicycle, dreams up a clown owner and his own juggling act that steals the show. But all too soon, the applause turns into the sound of rainfall, as reality rushes back. Red must resign himself to sitting in the corner and await his fate."
     },
     "reincarnation-2005": {
       "id": "reincarnation-2005",
@@ -675714,6 +675777,41 @@
         "tmdbVoteCount": 284
       },
       "synopsis": "Three families go into crisis when their daughters get engaged because they are convinced that their young daughters have all chosen a wrong partner."
+    },
+    "mauvaise-pioche-2026": {
+      "id": "mauvaise-pioche-2026",
+      "crew": [
+        {
+          "name": "Gérard Jugnot",
+          "job": "Director"
+        },
+        {
+          "name": "Gérard Jugnot",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Serge Lamadie",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Frédéric Hazan",
+          "job": "Screenplay"
+        },
+        {
+          "name": "Marc-Etienne Schwartz",
+          "job": "Producer"
+        },
+        {
+          "name": "Pierric Gantelmi d'Ille",
+          "job": "Director of Photography"
+        }
+      ],
+      "source": {
+        "tmdbUpdatedAt": "2026-11-26T17:57:06.311Z",
+        "tmdbVoteAverage": 5.906,
+        "tmdbVoteCount": 53
+      },
+      "synopsis": "​Arrested by mistake and mistaken for France’s most wanted man, Serge Martin, a peaceful retiree, becomes the target of the media. Caught up in a never-ending whirlwind, he’ll do everything he can to prove his innocence and get his life back… if that’s even possible!"
     },
     "u-s-palmese-2025": {
       "id": "u-s-palmese-2025",
