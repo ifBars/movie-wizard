@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
-  "generatedAt": "2026-11-26T19:08:56.763Z",
+  "generatedAt": "2026-11-27T19:04:17.877Z",
   "tmdbIds": {
     "2": {
       "recordId": "ariel-1988",
@@ -11531,7 +11531,7 @@
     },
     "8619": {
       "recordId": "master-and-commander-the-far-side-of-the-world-2003",
-      "lastFetchedAt": "2026-11-26T19:08:56.491Z",
+      "lastFetchedAt": "2026-11-27T19:04:17.270Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -78179,7 +78179,7 @@
     },
     "661374": {
       "recordId": "glass-onion-a-knives-out-mystery-2022",
-      "lastFetchedAt": "2026-11-26T19:08:56.527Z",
+      "lastFetchedAt": "2026-11-27T19:04:17.524Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },
@@ -97476,6 +97476,12 @@
     "1400032": {
       "recordId": "10dance-2025",
       "lastFetchedAt": "2026-06-08T17:02:56.880Z",
+      "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
+      "status": "ok"
+    },
+    "1400336": {
+      "recordId": "focker-in-law-2026",
+      "lastFetchedAt": "2026-11-27T19:04:17.610Z",
       "sourceFingerprint": "tmdb-v3:movie-details:credits,crew,external_ids,keywords,videos",
       "status": "ok"
     },

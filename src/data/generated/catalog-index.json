@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T17:42:43.056Z",
+  "generatedAt": "2026-11-27T19:04:18.119Z",
   "movies": [
     {
       "id": "avatar-aang-the-last-airbender-2026",
@@ -10761,6 +10761,50 @@
       "source": {
         "tmdbVoteAverage": 5.518,
         "tmdbVoteCount": 336
+      }
+    },
+    {
+      "id": "focker-in-law-2026",
+      "tmdbId": 1400336,
+      "imdbId": "tt34966140",
+      "title": "Focker In-Law",
+      "originalLanguage": "en",
+      "year": 2026,
+      "releaseDate": "2026-11-21",
+      "runtimeMinutes": 105,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "tags": [
+        "marriage",
+        "romcom",
+        "family relationships",
+        "sequel",
+        "overbearing father"
+      ],
+      "directors": [
+        "John Hamburg"
+      ],
+      "cast": [
+        "Ben Stiller",
+        "Robert De Niro",
+        "Ariana Grande",
+        "Skyler Gisondo",
+        "Owen Wilson",
+        "Blythe Danner"
+      ],
+      "posterPath": "/iHJhSfqFpDMOyeMc6h6BOeHxse2.jpg",
+      "backdropPath": "/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 59,
+      "criticalScore": 71,
+      "plexFit": "A compact comedy option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/9CKu3WoMYCg",
+      "synopsisPreview": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, father-in-law Jack Byrnes takes a liking to Olivia, and her unp...",
+      "source": {
+        "tmdbVoteAverage": 7.1,
+        "tmdbVoteCount": 19
       }
     },
     {
@@ -158353,48 +158397,6 @@
       }
     },
     {
-      "id": "summer-house-2026",
-      "tmdbId": 1556616,
-      "imdbId": "tt38897659",
-      "title": "Summer House",
-      "originalTitle": "Yaz Evi",
-      "originalLanguage": "tr",
-      "year": 2026,
-      "releaseDate": "2026-06-06",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Mystery"
-      ],
-      "tags": [
-        "coming of age",
-        "overprotective mother"
-      ],
-      "directors": [
-        "Erdem Tepegöz"
-      ],
-      "cast": [
-        "Mina Demirtaş",
-        "Derya Pınar Ak",
-        "Onur Seyit Yaran",
-        "Çağdaş Onur Öztürk",
-        "Kamil Güler",
-        "Selma Ergeç"
-      ],
-      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
-      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
-      "popularity": 4,
-      "criticalScore": 66,
-      "plexFit": "A useful romance title for broadening the local catalog.",
-      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
-      "source": {
-        "tmdbVoteAverage": 6.607,
-        "tmdbVoteCount": 28
-      }
-    },
-    {
       "id": "the-addams-family-2019",
       "tmdbId": 481084,
       "imdbId": "tt1620981",
@@ -224220,6 +224222,48 @@
       }
     },
     {
+      "id": "summer-house-2026",
+      "tmdbId": 1556616,
+      "imdbId": "tt38897659",
+      "title": "Summer House",
+      "originalTitle": "Yaz Evi",
+      "originalLanguage": "tr",
+      "year": 2026,
+      "releaseDate": "2026-06-06",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Mystery"
+      ],
+      "tags": [
+        "coming of age",
+        "overprotective mother"
+      ],
+      "directors": [
+        "Erdem Tepegöz"
+      ],
+      "cast": [
+        "Mina Demirtaş",
+        "Derya Pınar Ak",
+        "Onur Seyit Yaran",
+        "Çağdaş Onur Öztürk",
+        "Kamil Güler",
+        "Selma Ergeç"
+      ],
+      "posterPath": "/81xUChgVphBFehihIgbXbyneZXP.jpg",
+      "backdropPath": "/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
+      "posterTone": "from-orange-300 via-rose-600 to-stone-950",
+      "popularity": 4,
+      "criticalScore": 66,
+      "plexFit": "A useful romance title for broadening the local catalog.",
+      "synopsisPreview": "Selin travels back in time at a summer house and finds herself in her mother's youth, changing her family's fate and rebuilding her own life.",
+      "source": {
+        "tmdbVoteAverage": 6.607,
+        "tmdbVoteCount": 28
+      }
+    },
+    {
       "id": "suspect-1987",
       "tmdbId": 12623,
       "imdbId": "tt0094082",
@@ -278939,51 +278983,6 @@
       "source": {
         "tmdbVoteAverage": 7.6,
         "tmdbVoteCount": 601
-      }
-    },
-    {
-      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
-      "tmdbId": 1599191,
-      "imdbId": "tt47867242",
-      "title": "Renegade Immortal: Battle of the Immortal Slayer",
-      "originalTitle": "仙逆剧场版：弑仙之战",
-      "originalLanguage": "zh",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "tags": [
-        "based on fairy tale",
-        "xianxia",
-        "based on tv series",
-        "oriental fantasy"
-      ],
-      "directors": [
-        "TouXiong Shi"
-      ],
-      "cast": [
-        "Shi Zekun",
-        "Li Jiaxiang",
-        "Liu Sicen",
-        "Shuai Guan",
-        "Si Xi",
-        "Yang Houyao"
-      ],
-      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
-      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 2,
-      "criticalScore": 76,
-      "plexFit": "A useful animation title for broadening the local catalog.",
-      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
-      "source": {
-        "tmdbVoteAverage": 7.6,
-        "tmdbVoteCount": 15
       }
     },
     {
@@ -433877,6 +433876,51 @@
       }
     },
     {
+      "id": "renegade-immortal-battle-of-the-immortal-slayer-2026",
+      "tmdbId": 1599191,
+      "imdbId": "tt47867242",
+      "title": "Renegade Immortal: Battle of the Immortal Slayer",
+      "originalTitle": "仙逆剧场版：弑仙之战",
+      "originalLanguage": "zh",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "tags": [
+        "based on fairy tale",
+        "xianxia",
+        "based on tv series",
+        "oriental fantasy"
+      ],
+      "directors": [
+        "TouXiong Shi"
+      ],
+      "cast": [
+        "Shi Zekun",
+        "Li Jiaxiang",
+        "Liu Sicen",
+        "Shuai Guan",
+        "Si Xi",
+        "Yang Houyao"
+      ],
+      "posterPath": "/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "backdropPath": "/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 2,
+      "criticalScore": 76,
+      "plexFit": "A useful animation title for broadening the local catalog.",
+      "synopsisPreview": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnific...",
+      "source": {
+        "tmdbVoteAverage": 7.6,
+        "tmdbVoteCount": 15
+      }
+    },
+    {
       "id": "ride-your-wave-2019",
       "tmdbId": 530079,
       "imdbId": "tt9193612",
@@ -475195,41 +475239,6 @@
       "source": {
         "tmdbVoteAverage": 6.97,
         "tmdbVoteCount": 33
-      }
-    },
-    {
-      "id": "luxo-jr-1986",
-      "tmdbId": 13925,
-      "imdbId": "tt0091455",
-      "title": "Luxo Jr.",
-      "originalLanguage": "en",
-      "year": 1986,
-      "releaseDate": "1986-08-17",
-      "runtimeMinutes": 2,
-      "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "tags": [
-        "ball",
-        "father and child",
-        "short film"
-      ],
-      "directors": [
-        "John Lasseter"
-      ],
-      "cast": [],
-      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
-      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 70,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
-      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
-      "source": {
-        "tmdbVoteAverage": 7,
-        "tmdbVoteCount": 694
       }
     },
     {
@@ -527827,46 +527836,6 @@
       }
     },
     {
-      "id": "the-holy-grill-2026",
-      "tmdbId": 1427838,
-      "imdbId": "tt36586751",
-      "title": "The Holy Grill",
-      "originalTitle": "Extrawurst",
-      "originalLanguage": "de",
-      "year": 2026,
-      "releaseDate": "2026-01-15",
-      "runtimeMinutes": 0,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "tags": [
-        "based on play or musical"
-      ],
-      "directors": [
-        "Marcus H. Rosenmüller"
-      ],
-      "cast": [
-        "Hape Kerkeling",
-        "Christoph Maria Herbst",
-        "Fahri Yardım",
-        "Anja Knauer",
-        "Friedrich Mücke",
-        "Gaby Dohm"
-      ],
-      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
-      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
-      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 65,
-      "plexFit": "A useful comedy title for broadening the local catalog.",
-      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
-      "source": {
-        "tmdbVoteAverage": 6.5,
-        "tmdbVoteCount": 90
-      }
-    },
-    {
       "id": "the-house-by-the-sea-2017",
       "tmdbId": 468207,
       "imdbId": "tt7219324",
@@ -558153,45 +558122,6 @@
       }
     },
     {
-      "id": "trainwreck-the-cult-of-american-apparel-2025",
-      "tmdbId": 1484262,
-      "imdbId": "tt36856482",
-      "title": "Trainwreck: The Cult of American Apparel",
-      "originalLanguage": "en",
-      "year": 2025,
-      "releaseDate": "2025-06-30",
-      "runtimeMinutes": 54,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [
-        "ceo",
-        "clothing store",
-        "clothing factory",
-        "fashion industry",
-        "2000s",
-        "clothing industry",
-        "retail",
-        "allegations"
-      ],
-      "directors": [
-        "Sally Rose Griffiths"
-      ],
-      "cast": [],
-      "posterPath": "/jqDRiwqDsopRZe7xZRYz7KiTkjc.jpg",
-      "backdropPath": "/2vvXkChwXyNyK3s8KRhMoensEwO.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 62,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/jrOY-uESKoo",
-      "synopsisPreview": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop.",
-      "source": {
-        "tmdbVoteAverage": 6.216,
-        "tmdbVoteCount": 44
-      }
-    },
-    {
       "id": "transformers-dark-of-the-moon-2011",
       "tmdbId": 38356,
       "imdbId": "tt1399103",
@@ -564553,43 +564483,6 @@
       "source": {
         "tmdbVoteAverage": 6.143,
         "tmdbVoteCount": 21
-      }
-    },
-    {
-      "id": "red-s-dream-1987",
-      "tmdbId": 13926,
-      "imdbId": "tt0093832",
-      "title": "Red's Dream",
-      "originalLanguage": "en",
-      "year": 1987,
-      "releaseDate": "1987-07-10",
-      "runtimeMinutes": 4,
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "tags": [
-        "circus",
-        "clown",
-        "unicycling",
-        "short film",
-        "unicycle"
-      ],
-      "directors": [
-        "John Lasseter"
-      ],
-      "cast": [],
-      "posterPath": "/ebPNnYqoEYntnrGdwtmppvBRHpu.jpg",
-      "backdropPath": "/dxNJOGKmFRkTw9PATxvKhjlIHuP.jpg",
-      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
-      "popularity": 1,
-      "criticalScore": 61,
-      "plexFit": "A compact animation option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/M80lX3Gl5Dw",
-      "synopsisPreview": "Life as the sole sale item in the clearance corner of Eben's Bikes can get lonely. So Red, a unicycle, dreams up a clown owner and his own juggling act that steals the show. But all too soon, the applause turns into the...",
-      "source": {
-        "tmdbVoteAverage": 6.123,
-        "tmdbVoteCount": 378
       }
     },
     {
@@ -656284,6 +656177,36 @@
       }
     },
     {
+      "id": "untold-the-rise-and-fall-of-and1-2022",
+      "tmdbId": 1002305,
+      "imdbId": "tt21388560",
+      "title": "Untold: The Rise and Fall of AND1",
+      "originalLanguage": "en",
+      "year": 2022,
+      "releaseDate": "2022-08-23",
+      "runtimeMinutes": 69,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [],
+      "directors": [
+        "Kevin Wilson, Jr."
+      ],
+      "cast": [],
+      "posterPath": "/o75Sxg2s9zM817Whjc9b3vpk5sW.jpg",
+      "backdropPath": "/xk3hEhpwFWr6UaxS0BORDGgyj3t.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 72,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/W3M2_pV-SGY",
+      "synopsisPreview": "Inspired by New York City streetball, influential brand AND1 turned local legends on the court into international icons. So why did it come to an end?",
+      "source": {
+        "tmdbVoteAverage": 7.189,
+        "tmdbVoteCount": 61
+      }
+    },
+    {
       "id": "ut-ya-july-22-2018",
       "tmdbId": 500006,
       "imdbId": "tt7959216",
@@ -662273,36 +662196,6 @@
       }
     },
     {
-      "id": "untold-the-rise-and-fall-of-and1-2022",
-      "tmdbId": 1002305,
-      "imdbId": "tt21388560",
-      "title": "Untold: The Rise and Fall of AND1",
-      "originalLanguage": "en",
-      "year": 2022,
-      "releaseDate": "2022-08-23",
-      "runtimeMinutes": 69,
-      "genres": [
-        "Documentary"
-      ],
-      "tags": [],
-      "directors": [
-        "Kevin Wilson, Jr."
-      ],
-      "cast": [],
-      "posterPath": "/o75Sxg2s9zM817Whjc9b3vpk5sW.jpg",
-      "backdropPath": "/xk3hEhpwFWr6UaxS0BORDGgyj3t.jpg",
-      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
-      "popularity": 1,
-      "criticalScore": 72,
-      "plexFit": "A compact documentary option for easier weeknight discovery.",
-      "trailerUrl": "https://www.youtube-nocookie.com/embed/W3M2_pV-SGY",
-      "synopsisPreview": "Inspired by New York City streetball, influential brand AND1 turned local legends on the court into international icons. So why did it come to an end?",
-      "source": {
-        "tmdbVoteAverage": 7.189,
-        "tmdbVoteCount": 61
-      }
-    },
-    {
       "id": "vicky-and-her-mystery-2021",
       "tmdbId": 754067,
       "imdbId": "tt10945274",
@@ -665857,6 +665750,41 @@
       "source": {
         "tmdbVoteAverage": 7,
         "tmdbVoteCount": 336
+      }
+    },
+    {
+      "id": "luxo-jr-1986",
+      "tmdbId": 13925,
+      "imdbId": "tt0091455",
+      "title": "Luxo Jr.",
+      "originalLanguage": "en",
+      "year": 1986,
+      "releaseDate": "1986-08-17",
+      "runtimeMinutes": 2,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "tags": [
+        "ball",
+        "father and child",
+        "short film"
+      ],
+      "directors": [
+        "John Lasseter"
+      ],
+      "cast": [],
+      "posterPath": "/as8xF0wOawngZ1G3qg5gs0VQea3.jpg",
+      "backdropPath": "/eIYhSbmr8MGpEzWRRKDqojOl7Ha.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 70,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/lkKf9DWmR04",
+      "synopsisPreview": "A baby lamp finds a ball to play with and it's all fun and games until the ball bursts. Just when the elder Luxo thinks his kid will settle down for a bit, Luxo Jr. finds a ball ten times bigger.",
+      "source": {
+        "tmdbVoteAverage": 7,
+        "tmdbVoteCount": 694
       }
     },
     {
@@ -702847,6 +702775,46 @@
       }
     },
     {
+      "id": "the-holy-grill-2026",
+      "tmdbId": 1427838,
+      "imdbId": "tt36586751",
+      "title": "The Holy Grill",
+      "originalTitle": "Extrawurst",
+      "originalLanguage": "de",
+      "year": 2026,
+      "releaseDate": "2026-01-15",
+      "runtimeMinutes": 0,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "tags": [
+        "based on play or musical"
+      ],
+      "directors": [
+        "Marcus H. Rosenmüller"
+      ],
+      "cast": [
+        "Hape Kerkeling",
+        "Christoph Maria Herbst",
+        "Fahri Yardım",
+        "Anja Knauer",
+        "Friedrich Mücke",
+        "Gaby Dohm"
+      ],
+      "posterPath": "/vZqnXMNzEsHi1YYbuM4QNtc1bEV.jpg",
+      "backdropPath": "/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
+      "posterTone": "from-amber-200 via-orange-600 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 65,
+      "plexFit": "A useful comedy title for broadening the local catalog.",
+      "synopsisPreview": "At a tennis club in rural Germany, preparations for the summer party are led by Heribert. When a separate grill is suggested for Erol, the club's only Muslim member, tensions flare. What begins as a simple discussion qui...",
+      "source": {
+        "tmdbVoteAverage": 6.5,
+        "tmdbVoteCount": 90
+      }
+    },
+    {
       "id": "the-immortal-wars-rebirth-2021",
       "tmdbId": 920258,
       "imdbId": "tt9896768",
@@ -722706,6 +722674,45 @@
       }
     },
     {
+      "id": "trainwreck-the-cult-of-american-apparel-2025",
+      "tmdbId": 1484262,
+      "imdbId": "tt36856482",
+      "title": "Trainwreck: The Cult of American Apparel",
+      "originalLanguage": "en",
+      "year": 2025,
+      "releaseDate": "2025-06-30",
+      "runtimeMinutes": 54,
+      "genres": [
+        "Documentary"
+      ],
+      "tags": [
+        "ceo",
+        "clothing store",
+        "clothing factory",
+        "fashion industry",
+        "2000s",
+        "clothing industry",
+        "retail",
+        "allegations"
+      ],
+      "directors": [
+        "Sally Rose Griffiths"
+      ],
+      "cast": [],
+      "posterPath": "/jqDRiwqDsopRZe7xZRYz7KiTkjc.jpg",
+      "backdropPath": "/2vvXkChwXyNyK3s8KRhMoensEwO.jpg",
+      "posterTone": "from-stone-100 via-stone-500 to-neutral-950",
+      "popularity": 1,
+      "criticalScore": 62,
+      "plexFit": "A compact documentary option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/jrOY-uESKoo",
+      "synopsisPreview": "Featuring tell-all interviews with insiders and former staff, this exposé traces American Apparel's journey from fashion phenomenon to financial flop.",
+      "source": {
+        "tmdbVoteAverage": 6.216,
+        "tmdbVoteCount": 44
+      }
+    },
+    {
       "id": "ufo-2022",
       "tmdbId": 933357,
       "imdbId": "tt14369286",
@@ -727320,6 +727327,43 @@
       "source": {
         "tmdbVoteAverage": 6.132,
         "tmdbVoteCount": 342
+      }
+    },
+    {
+      "id": "red-s-dream-1987",
+      "tmdbId": 13926,
+      "imdbId": "tt0093832",
+      "title": "Red's Dream",
+      "originalLanguage": "en",
+      "year": 1987,
+      "releaseDate": "1987-07-10",
+      "runtimeMinutes": 4,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "tags": [
+        "circus",
+        "clown",
+        "unicycling",
+        "short film",
+        "unicycle"
+      ],
+      "directors": [
+        "John Lasseter"
+      ],
+      "cast": [],
+      "posterPath": "/ebPNnYqoEYntnrGdwtmppvBRHpu.jpg",
+      "backdropPath": "/dxNJOGKmFRkTw9PATxvKhjlIHuP.jpg",
+      "posterTone": "from-sky-200 via-orange-400 to-stone-900",
+      "popularity": 1,
+      "criticalScore": 61,
+      "plexFit": "A compact animation option for easier weeknight discovery.",
+      "trailerUrl": "https://www.youtube-nocookie.com/embed/M80lX3Gl5Dw",
+      "synopsisPreview": "Life as the sole sale item in the clearance corner of Eben's Bikes can get lonely. So Red, a unicycle, dreams up a clown owner and his own juggling act that steals the show. But all too soon, the applause turns into the...",
+      "source": {
+        "tmdbVoteAverage": 6.123,
+        "tmdbVoteCount": 378
       }
     },
     {
